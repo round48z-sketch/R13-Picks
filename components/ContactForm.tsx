@@ -1,34 +1,80 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { siteConfig } from "@/content/site";
+
+type FormStatus = "idle" | "submitting" | "success" | "error";
 
 export function ContactForm() {
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState<FormStatus>("idle");
+  const [error, setError] = useState("");
+  const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
-    const name = String(data.get("name") ?? "");
-    const email = String(data.get("email") ?? "");
-    const message = String(data.get("message") ?? "");
-    const subject = encodeURIComponent(`R13 Picks お問い合わせ（${name}）`);
-    const body = encodeURIComponent(`お名前: ${name}\nメール: ${email}\n\n${message}`);
-    window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${body}`;
-    setSent(true);
+
+    if (String(data.get("company") ?? "")) {
+      setStatus("success");
+      return;
+    }
+
+    if (!accessKey) {
+      setStatus("error");
+      setError("送信の準備がまだ完了していません。しばらくしてからお試しください。");
+      return;
+    }
+
+    setStatus("submitting");
+    setError("");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: accessKey,
+          name: String(data.get("name") ?? "").trim(),
+          email: String(data.get("email") ?? "").trim(),
+          message: String(data.get("message") ?? "").trim(),
+          subject: `R13 Picks お問い合わせ（${String(data.get("name") ?? "").trim()}）`,
+          from_name: "R13 Picks",
+        }),
+      });
+
+      const result = (await response.json()) as { success?: boolean; message?: string };
+
+      if (!response.ok || !result.success) {
+        setStatus("error");
+        setError(result.message || "送信に失敗しました。時間をおいてもう一度お試しください。");
+        return;
+      }
+
+      form.reset();
+      setStatus("success");
+    } catch {
+      setStatus("error");
+      setError("送信に失敗しました。通信状況を確認してもう一度お試しください。");
+    }
   }
 
-  if (sent) {
+  if (status === "success") {
     return (
-      <p className="form-note">
-        メールアプリが開きます。開かない場合は {siteConfig.email} まで直接ご連絡ください。
+      <p className="form-note form-note--success" role="status">
+        お問い合わせを送信しました。
       </p>
     );
   }
 
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
+      <label className="honeypot" aria-hidden="true">
+        会社名
+        <input type="text" name="company" tabIndex={-1} autoComplete="off" />
+      </label>
       <label>
         お名前
         <input type="text" name="name" required autoComplete="name" />
@@ -41,8 +87,13 @@ export function ContactForm() {
         メッセージ
         <textarea name="message" rows={6} required />
       </label>
-      <button type="submit" className="cta-button">
-        送信する
+      {status === "error" ? (
+        <p className="form-error" role="alert">
+          {error}
+        </p>
+      ) : null}
+      <button type="submit" className="cta-button" disabled={status === "submitting"}>
+        {status === "submitting" ? "送信中…" : "送信する"}
       </button>
     </form>
   );

@@ -596,6 +596,43 @@ h3 {
   color: var(--muted);
 }
 
+.form-note--success {
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  padding: 20px 16px;
+  margin-top: 28px;
+}
+
+.form-error {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+  font-size: 13px;
+  color: #cfcfcf;
+}
+
+.form-error a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-form .cta-button:disabled {
+  opacity: 0.55;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  overflow: hidden;
+}
+
+.prose a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 @media (min-width: 980px) {
   .menu-button,
   .mobile-menu,

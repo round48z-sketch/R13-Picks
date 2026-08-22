@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Selected things for everyday life.",
   description:
     "R13 Picksは、暮らしに馴染むモノを紹介するメディアです。オーディオ、ガジェット、時計、ファッション、デスク、ライフスタイルから、毎日に取り入れたいものだけを選びます。",
-  email: "contact@r13picks.com",
+  email: "r13picks@gmail.com",
   locale: "ja_JP",
   defaultOgImage: "/images/articles/earbuds-matte.jpg",
 };

@@ -41,3 +41,18 @@ Node.js が入っていない場合は、先に Node 22 以上を入れてくだ
 3. 独自ドメインは Vercel の Domains から後で追加できます
 
 本番 URL を固定する場合は、環境変数 `NEXT_PUBLIC_SITE_URL`（例: `https://r13picks.vercel.app`）を設定してください。OGP と sitemap に使われます。
+
+## お問い合わせフォーム
+
+フォームからの送信は [Web3Forms](https://web3forms.com/) を使います。ターミナル操作は不要です。
+
+1. https://web3forms.com/ を開く
+2. Access Key の欄に `r13picks@gmail.com` を入力してキーを発行する
+3. Gmail に届いた Access Key をコピーする
+4. プロジェクト直下に `.env.local` というファイルを作り、次の1行を書く
+
+```
+NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=ここにコピーしたキー
+```
+
+Vercel に公開している場合は、Vercel の Project → Settings → Environment Variables に同じ名前で追加してください。
