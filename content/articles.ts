@@ -18,7 +18,9 @@ export type Article = {
   excerpt: string;
   intro: string;
   points: string[];
+  design?: string;
   recommendedFor: string[];
+  scenes?: string[];
   ctaLabel: string;
   featured?: boolean;
 };
@@ -34,6 +36,46 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "anker-soundcore-space-2",
+    title: "Anker Soundcore Space 2｜黒で整える、毎日使いやすいワイヤレスヘッドホン",
+    seoTitle: "Anker Soundcore Space 2｜毎日に馴染むワイヤレスヘッドホン | R13 Picks",
+    description:
+      "Anker Soundcore Space 2をR13 Picksの視点で紹介。黒を基調としたミニマルなデザインと、毎日のリスニングに取り入れやすいワイヤレスヘッドホンです。",
+    category: "audio",
+    productName: "Anker Soundcore Space 2",
+    productType: "ヘッドホン",
+    publishedAt: "2026-08-23",
+    image: {
+      src: "/images/articles/anker-space-2-pinterest.jpg",
+      alt: "黒背景に置かれたマットブラックのワイヤレスヘッドホン",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "黒を基調にした、毎日のリスニングに取り入れやすいワイヤレスヘッドホン。",
+    intro:
+      "Anker Soundcore Space 2は、黒を基調としたワイヤレスヘッドホンです。派手さより、机の上や移動のあいだに馴染みやすい形を意識しています。音を聴く時間を、静かに整えるための一本として紹介します。",
+    points: [
+      "マットな黒を基調にしており、周囲に馴染みやすい",
+      "耳を覆うオーバーイヤー型のワイヤレスヘッドホン",
+      "アクティブノイズキャンセリング（ANC）を搭載し、移動中や室内で気になる周囲の騒音を抑えやすい設計です。",
+      "デスクに置いても、主張しすぎないサイズ感",
+    ],
+    design:
+      "筐体は装飾を抑えた黒が中心です。光沢を前面に出すというより、マットで落ち着いた印象に寄っています。R13 Picksが扱う道具と同じく、色数を増やさず、黒とグレーの並びのなかに置きやすいデザインです。",
+    recommendedFor: [
+      "黒やグレーで身の回りをまとめたい人",
+      "イヤホンより、ヘッドホンで聴きたい人",
+      "通勤やデスクワークで、周囲の音を少し遠ざけたい人",
+    ],
+    scenes: [
+      "在宅での作業中、集中したい時間",
+      "通勤や移動のあいだ、自分の音に切り替えたいとき",
+      "夜、部屋で音楽やコンテンツを聴くとき",
+    ],
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
   {
     slug: "quiet-commute-wireless-earbuds",
     title: "通勤が静かに変わる。毎日使いたくなるワイヤレスイヤホン",
@@ -66,38 +108,6 @@ export const articles: Article[] = [
     ],
     ctaLabel: "商品を見る",
     featured: true,
-  },
-  {
-    slug: "focus-over-ear-headphones",
-    title: "集中するための、静かな時間。オーバーイヤーヘッドホン",
-    seoTitle: "集中するためのオーバーイヤーヘッドホン",
-    description:
-      "在宅作業や読書の時間に合わせたい、落ち着いたオーバーイヤーヘッドホン。装着感と遮音性のバランスを重視して選びました。",
-    category: "audio",
-    productName: "Over-ear Headphones",
-    productType: "ヘッドホン",
-    publishedAt: "2026-08-12",
-    image: {
-      src: "/images/articles/headphones-dark.jpg",
-      alt: "マットブラックのオーバーイヤーヘッドホン",
-      width: 1200,
-      height: 1500,
-    },
-    excerpt: "部屋に戻ったあと、世界を少しだけ小さくするためのヘッドホン。",
-    intro:
-      "家で仕事をする時間、本を読む時間、何もしない時間。ヘッドホンは、その境界をつくる道具でもあります。このオーバーイヤーは、耳を包み込むクッションと、低音を強調しすぎないバランスのよさが特徴。一日中つけていても疲れにくく、音楽を聴くためだけではなく、集中のための静かな箱として使えます。",
-    points: [
-      "耳まわりをやさしく覆い、長時間の作業でも疲れにくい",
-      "低音が主張しすぎず、声や楽器が聞き取りやすい",
-      "マットブラックで、デスクに置いても主張しすぎない",
-      "ケーブルでもワイヤレスでも使える柔軟さがある",
-    ],
-    recommendedFor: [
-      "在宅ワークや勉強の集中力を上げたい人",
-      "イヤホンより、頭全体で音を感じたい人",
-      "部屋に出しっぱなしにしても気にならないデザインを求める人",
-    ],
-    ctaLabel: "商品を見る",
   },
   {
     slug: "everyday-minimal-watch",

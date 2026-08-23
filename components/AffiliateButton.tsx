@@ -14,7 +14,7 @@ export function AffiliateButton({ slug, label, className }: AffiliateButtonProps
       href={href}
       className={`cta-button ${className ?? ""}`}
       target="_blank"
-      rel="sponsored nofollow noopener noreferrer"
+      rel="sponsored noopener noreferrer"
     >
       {label}
     </a>

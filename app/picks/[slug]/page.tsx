@@ -7,7 +7,6 @@ import { AffiliateButton } from "@/components/AffiliateButton";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { getSiteUrl, siteConfig } from "@/content/site";
 import {
-  formatDate,
   getAllArticles,
   getArticleBySlug,
   getArticleCategory,
@@ -29,7 +28,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!article) {
     return {};
   }
-  return buildMetadata({
+
+  const metadata = buildMetadata({
     title: article.seoTitle,
     description: article.description,
     path: `/picks/${article.slug}`,
@@ -37,6 +37,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     type: "article",
     publishedTime: article.publishedAt,
   });
+
+  return {
+    ...metadata,
+    title: article.seoTitle.includes(siteConfig.name)
+      ? { absolute: article.seoTitle }
+      : article.seoTitle,
+  };
 }
 
 export default async function ArticlePage({ params }: PageProps) {
@@ -85,26 +92,29 @@ export default async function ArticlePage({ params }: PageProps) {
       <div className="narrow article-head">
         <p className="eyebrow">
           {category ? <Link href={`/category/${category.slug}`}>{category.name}</Link> : null}
-          {" ／ "}
-          {formatDate(article.publishedAt)}
         </p>
-        <p className="product-name">{article.productName}</p>
         <h1>{article.title}</h1>
-        <p className="pr-note">PR｜本ページはアフィリエイト広告を利用しています</p>
+        <p className="pr-note">PR｜この記事にはアフィリエイト広告を含みます</p>
       </div>
 
       <div className="narrow article-body">
-        <h2>商品の特徴</h2>
-        <p>{article.intro}</p>
+        <p className="article-intro">{article.intro}</p>
 
         <AdSlot />
 
-        <h2>おすすめポイント</h2>
+        <h2>商品の特徴</h2>
         <ul>
           {article.points.map((point) => (
             <li key={point}>{point}</li>
           ))}
         </ul>
+
+        {article.design ? (
+          <>
+            <h2>デザインについて</h2>
+            <p>{article.design}</p>
+          </>
+        ) : null}
 
         <h2>こんな人におすすめ</h2>
         <ul>
@@ -112,6 +122,17 @@ export default async function ArticlePage({ params }: PageProps) {
             <li key={item}>{item}</li>
           ))}
         </ul>
+
+        {article.scenes ? (
+          <>
+            <h2>使用シーン</h2>
+            <ul>
+              {article.scenes.map((scene) => (
+                <li key={scene}>{scene}</li>
+              ))}
+            </ul>
+          </>
+        ) : null}
 
         <div className="cta-wrap">
           <AffiliateButton slug={article.slug} label={article.ctaLabel} />

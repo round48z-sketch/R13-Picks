@@ -486,6 +486,10 @@ h3 {
   color: #d2d2d2;
 }
 
+.article-intro {
+  margin: 0 0 8px;
+}
+
 .article-body ul {
   margin: 0;
   padding-left: 1.15em;
