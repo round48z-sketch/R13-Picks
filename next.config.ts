@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         destination: "/picks/anker-soundcore-space-2",
         permanent: true,
       },
+      {
+        source: "/picks/quiet-commute-wireless-earbuds",
+        destination: "/picks/denon-ah-c830ncw",
+        permanent: true,
+      },
     ];
   },
 };

@@ -37,6 +37,50 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "denon-ah-c830ncw",
+    title: "DENON AH-C830NCW｜黒でまとまる、毎日使いやすいワイヤレスイヤホン",
+    seoTitle: "DENON AH-C830NCW｜黒でまとまる、毎日使いやすいワイヤレスイヤホン | R13 Picks",
+    description:
+      "DENON AH-C830NCWを、黒でまとめやすい完全ワイヤレスイヤホンとして紹介。ハイブリッドANC、外音取り込み、IPX4など、日常使いしやすい機能を備えた一台です。",
+    category: "audio",
+    productName: "DENON AH-C830NCW",
+    productType: "完全ワイヤレスイヤホン",
+    publishedAt: "2026-08-23",
+    image: {
+      src: "/images/articles/denon-ah-c830ncw-pinterest.jpg",
+      alt: "黒いDENON AH-C830NCWの完全ワイヤレスイヤホンと充電ケース",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "黒でまとめやすい、日常使い向けの完全ワイヤレスイヤホン。",
+    intro:
+      "DENON AH-C830NCWは、黒を基調にした完全ワイヤレスイヤホンです。派手さより、毎日の移動や室内で使いやすいバランスを意識して紹介します。ハイブリッドANC、外音取り込み、IPX4など、日常で役立つ機能が揃った一台です。",
+    points: [
+      "ハイブリッドANC（アクティブノイズキャンセリング）を搭載し、移動中や室内で気になる周囲の音を抑えやすい",
+      "外音取り込み機能（Ambient Monitor）に対応し、必要なときは周囲の音も把握しやすい",
+      "Bluetooth 5.0に対応",
+      "AAC / SBCに対応",
+      "IPX4対応で、日常使いしやすい",
+      "連続再生時間は最大約6時間、ケース込み最大約24時間。ANCオン時は約4.8時間、ケース込み約19時間",
+    ],
+    design:
+      "ブラックとホワイトの展開があり、今回は黒を中心に紹介します。ケースと本体はコンパクトで、持ち歩きやすい印象です。装飾を抑えた見た目なので、黒系の道具と並べやすい一台です。",
+    recommendedFor: [
+      "黒系のガジェットで身の回りをまとめたい人",
+      "通勤・移動中に使いやすい完全ワイヤレスイヤホンを探している人",
+      "ANCや外音取り込みなど、日常向けの機能を重視したい人",
+      "持ち歩きしやすいイヤホンを選びたい人",
+    ],
+    scenes: [
+      "通勤や移動のあいだ",
+      "カフェや外出先で音楽を聴くとき",
+      "自宅で動画や音楽を楽しむとき",
+      "軽い運動や日常使い",
+    ],
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "anker-soundcore-space-2",
     title: "Anker Soundcore Space 2｜黒で整える、毎日使いやすいワイヤレスヘッドホン",
     seoTitle: "Anker Soundcore Space 2｜毎日に馴染むワイヤレスヘッドホン | R13 Picks",
@@ -72,39 +116,6 @@ export const articles: Article[] = [
       "在宅での作業中、集中したい時間",
       "通勤や移動のあいだ、自分の音に切り替えたいとき",
       "夜、部屋で音楽やコンテンツを聴くとき",
-    ],
-    ctaLabel: "商品を見る",
-    featured: true,
-  },
-  {
-    slug: "quiet-commute-wireless-earbuds",
-    title: "通勤が静かに変わる。毎日使いたくなるワイヤレスイヤホン",
-    seoTitle: "通勤が静かに変わるワイヤレスイヤホン",
-    description:
-      "ノイズキャンセリング性能と装着感のバランスがよい、日常使いのワイヤレスイヤホンを紹介。通勤・移動中に集中したい人向けの一択です。",
-    category: "audio",
-    productName: "Wireless Earbuds",
-    productType: "ワイヤレスイヤホン",
-    publishedAt: "2026-08-18",
-    image: {
-      src: "/images/articles/earbuds-matte.jpg",
-      alt: "マットブラックのワイヤレスイヤホンと充電ケース",
-      width: 1200,
-      height: 1500,
-    },
-    excerpt: "移動中の騒音をほどよく遠ざけて、自分の時間を取り戻すための一本。",
-    intro:
-      "満員電車でも、作業中の部屋でも、音だけは自分のペースでいたい。このワイヤレスイヤホンは、主張しすぎないマットな見た目と、長時間つけても気になりにくい装着感が魅力です。音質を盛りすぎず、声と楽器の輪郭が自然に残るタイプなので、毎日の通勤やデスク作業用として選びやすい一本です。",
-    points: [
-      "周囲の音をやわらかく遮り、移動中でも集中しやすい",
-      "マットな質感で、派手さのない見た目",
-      "操作がシンプルで、使い始めの設定に迷いにくい",
-      "充電ケース込みでもかさばらず、毎日持ち歩きやすい",
-    ],
-    recommendedFor: [
-      "通勤・通学の騒音を少し遠ざけたい人",
-      "大きなヘッドホンは外では使いにくい人",
-      "黒やグレーでまとめたい人",
     ],
     ctaLabel: "商品を見る",
     featured: true,
