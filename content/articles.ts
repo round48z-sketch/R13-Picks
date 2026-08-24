@@ -38,6 +38,56 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "final-ze3000-sv",
+    title: "final ZE3000 SV｜黒で整える、機能性も備えた完全ワイヤレスイヤホン",
+    seoTitle: "final ZE3000 SV｜黒で整える、機能性も備えた完全ワイヤレスイヤホン | R13 Picks",
+    description:
+      "final ZE3000 SVをR13 Picksの視点で紹介。Bluetooth 5.3、SBC / AAC / LDAC、コンフォートANC、最大2台のマルチポイント、IPX4など、日常使いに取り入れやすい完全ワイヤレスイヤホンです。",
+    category: "audio",
+    productName: "final ZE3000 SV",
+    productType: "完全ワイヤレスイヤホン",
+    publishedAt: "2026-08-24",
+    image: {
+      src: "/images/articles/final-ze3000-sv-pinterest.jpg",
+      alt: "黒いfinal ZE3000 SVの完全ワイヤレスイヤホンと充電ケース",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "黒を基調にした、機能性を備えた完全ワイヤレスイヤホン。",
+    intro:
+      "final ZE3000 SVは、黒を基調にした完全ワイヤレスイヤホンです。Bluetooth 5.3、SBC / AAC / LDAC、コンフォートANC、最大2台のマルチポイント、最大60msのゲーミングモード、IPX4など、日常で使いやすい機能を備えています。final CONNECTにも対応しています。価格や在庫は変わることがあるため、最新の価格・在庫状況は商品ページをご確認ください。",
+    points: [
+      "Bluetooth 5.3",
+      "SBC / AAC / LDACに対応",
+      "コンフォートANCを搭載",
+      "最大2台のマルチポイントに対応",
+      "最大60msのゲーミングモード",
+      "IPX4",
+      "ANC ON時、本体最大約7時間",
+      "ケース込み最大約28時間",
+      "10分充電で約1時間使用可能",
+      "final CONNECTに対応",
+    ],
+    design:
+      "ブラックの筐体が中心の、コンパクトな完全ワイヤレスイヤホンです。装飾を抑えた見た目なので、黒系の道具と並べやすい印象です。",
+    recommendedFor: [
+      "黒系ガジェットで身の回りをまとめたい人",
+      "機能を確認して完全ワイヤレスイヤホンを選びたい人",
+      "コンフォートANC搭載モデルを探している人",
+      "LDACやマルチポイント対応を重視する人",
+      "final CONNECT対応を選びたい人",
+    ],
+    scenes: [
+      "通勤や移動中",
+      "カフェや外出先",
+      "自宅で音楽や動画を楽しむとき",
+      "ゲームをプレイするとき",
+    ],
+    note: "最新の価格・在庫状況は商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "audio-technica-ath-sq1tw2nc",
     title: "audio-technica ATH-SQ1TW2NC｜コンパクトで映える、黒の完全ワイヤレスイヤホン",
     seoTitle: "audio-technica ATH-SQ1TW2NC｜コンパクトで映える黒イヤホン | R13 Picks",

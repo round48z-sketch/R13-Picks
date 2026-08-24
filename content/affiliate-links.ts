@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "final-ze3000-sv":
+    "https://www.e-earphone.jp/collections/wireless_earphone/products/526758?_pos=19&_fid=6e2867c79&_ss=c&filter.p.m.custom.is_on_sale=%E8%B2%A9%E5%A3%B2%E4%B8%AD&a8=niZoXihHJY_GcdAo7NuoHYzBK6f-yYgBeNaGhdBR7G.gajgJujbg0iITJT8RtL8g0EhYaG.gajgJXE6KrL6aJjbG.i65ri0EaeZ_b2Qqyduqu2ZTCiIHJdfEzEZaud8_4FPxxs00000024072001&utm_source=Pinterest&utm_medium=organic",
   "audio-technica-ath-sq1tw2nc":
     "https://www.e-earphone.jp/collections/wireless_earphone/products/697885?_pos=9&_fid=54d1ab55a&_ss=c&filter.p.m.custom.is_on_sale=%E8%B2%A9%E5%A3%B2%E4%B8%AD&a8=3k7Hqk8V-1u4POZHS5pHV1fanBcjA1_aD5z48OaTS46_zN_-pNC_okRQ-QyTLdy_ol81z46_zN_-qlBnidBz-NC46kBUikolzD7uCJ0mAOpVUJ0OgkRV-Oclfl7zpOyu.G9xxs00000024072001&utm_source=Pinterest&utm_medium=organic",
   "brillamico-lily-46mm-black-silver":
