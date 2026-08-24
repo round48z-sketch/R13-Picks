@@ -38,6 +38,56 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "sony-ult-wear",
+    title: "SONY ULT WEAR｜黒で魅せる、ノイズキャンセリング対応ワイヤレスヘッドホン",
+    seoTitle: "SONY ULT WEAR｜黒で魅せるワイヤレスヘッドホン | R13 Picks",
+    description:
+      "SONY ULT WEARをR13 Picksの視点で紹介。ノイズキャンセリング、LDAC、マルチポイント、最大約50時間再生など、日常から長時間の移動まで使いやすいワイヤレスヘッドホンです。",
+    category: "audio",
+    productName: "SONY ULT WEAR",
+    productType: "ワイヤレスノイズキャンセリングヘッドホン",
+    publishedAt: "2026-08-24",
+    image: {
+      src: "/images/articles/sony-ult-wear-pinterest.jpg",
+      alt: "黒いSONY ULT WEARのワイヤレスヘッドホン",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "黒を基調にした、ノイズキャンセリング対応のワイヤレスヘッドホン。",
+    intro:
+      "SONY ULT WEARは、黒を基調にしたワイヤレスノイズキャンセリングヘッドホンです。丸みのあるオーバーイヤー型で、黒系のガジェットとも合わせやすい見た目です。Bluetooth 5.2、SBC / AAC / LDAC、マルチポイントなど、日常から長時間の移動まで使いやすい機能を備えています。価格や在庫は変わることがあるため、最新の価格・在庫状況は商品ページをご確認ください。",
+    points: [
+      "ノイズキャンセリング対応",
+      "Bluetooth 5.2",
+      "SBC / AAC / LDACに対応",
+      "マルチポイント対応",
+      "ノイズキャンセリングON時、最大約30時間再生",
+      "ノイズキャンセリングOFF時、最大約50時間再生",
+      "本体重量 約255g",
+      "キャリングケース付属",
+      "ブラックを含むカラー展開",
+    ],
+    design:
+      "ブラックを中心にした、丸みのあるオーバーイヤー型のデザインです。装飾を抑えた見た目なので、黒系のガジェットと並べやすい印象です。カラーはブラックを含む展開があります。",
+    recommendedFor: [
+      "黒系ガジェットで身の回りをまとめたい人",
+      "ノイズキャンセリング対応ヘッドホンを探している人",
+      "LDAC対応を重視する人",
+      "マルチポイントを使いたい人",
+      "長時間再生できるワイヤレスヘッドホンを探している人",
+    ],
+    scenes: [
+      "通勤や移動中",
+      "カフェや外出先",
+      "自宅で音楽や動画を楽しむとき",
+      "PCやスマホを切り替えて使うとき",
+      "旅行や長時間の移動",
+    ],
+    note: "最新の価格・在庫状況は商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "final-ze3000-sv",
     title: "final ZE3000 SV｜黒で整える、機能性も備えた完全ワイヤレスイヤホン",
     seoTitle: "final ZE3000 SV｜黒で整える、機能性も備えた完全ワイヤレスイヤホン | R13 Picks",
