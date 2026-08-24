@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "audio-technica-ath-sq1tw2nc":
+    "https://www.e-earphone.jp/collections/wireless_earphone/products/697885?_pos=9&_fid=54d1ab55a&_ss=c&filter.p.m.custom.is_on_sale=%E8%B2%A9%E5%A3%B2%E4%B8%AD&a8=3k7Hqk8V-1u4POZHS5pHV1fanBcjA1_aD5z48OaTS46_zN_-pNC_okRQ-QyTLdy_ol81z46_zN_-qlBnidBz-NC46kBUikolzD7uCJ0mAOpVUJ0OgkRV-Oclfl7zpOyu.G9xxs00000024072001&utm_source=Pinterest&utm_medium=organic",
   "brillamico-lily-46mm-black-silver":
     "https://brillamico.jp/products/lily-46mm-black-x-silver-%E9%9D%A9%E3%83%99%E3%83%AB%E3%83%88?a8=lvjryv9iBgdKGi15efOi4j1EfLFa1g-rjf1K9TYXNK3L1zLBOzVLwvDqBq2XIR2Lwo9g1K3L1zLByoMESRM1BzVK3vMcSvwo1hjdV6mAJTW-46j-tvDiBTNoWoj1cT2dnp4xxs00000019504001&utm_source=Pinterest&utm_medium=organic",
   "denon-ah-c830ncw":

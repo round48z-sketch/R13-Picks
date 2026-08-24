@@ -38,6 +38,51 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "audio-technica-ath-sq1tw2nc",
+    title: "audio-technica ATH-SQ1TW2NC｜コンパクトで映える、黒の完全ワイヤレスイヤホン",
+    seoTitle: "audio-technica ATH-SQ1TW2NC｜コンパクトで映える黒イヤホン | R13 Picks",
+    description:
+      "audio-technica ATH-SQ1TW2NCをR13 Picksの視点で紹介。ANC、スクエア型デザイン、片耳約4.0g、ワイヤレス充電対応など、日常使いに取り入れやすい完全ワイヤレスイヤホンです。",
+    category: "audio",
+    productName: "audio-technica ATH-SQ1TW2NC",
+    productType: "完全ワイヤレスイヤホン",
+    publishedAt: "2026-08-24",
+    image: {
+      src: "/images/articles/audio-technica-ath-sq1tw2nc-pinterest.jpg",
+      alt: "黒いaudio-technica ATH-SQ1TW2NCの完全ワイヤレスイヤホンと充電ケース",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "スクエア型のコンパクトなデザインが特徴の、黒の完全ワイヤレスイヤホン。",
+    intro:
+      "audio-technica ATH-SQ1TW2NCは、スクエア型のコンパクトなデザインが特徴の完全ワイヤレスイヤホンです。ブラックは黒系のガジェットとも合わせやすく、アクティブノイズキャンセリング（ANC）やワイヤレス充電など、日常で使いやすい機能を備えています。価格や在庫は変わることがあるため、最新の価格・在庫状況は商品ページをご確認ください。",
+    points: [
+      "アクティブノイズキャンセリング（ANC）を搭載",
+      "スクエア型のコンパクトなデザイン",
+      "片耳約4.0g",
+      "ワイヤレス充電に対応",
+      "ブラックを含む複数カラー展開",
+    ],
+    design:
+      "ブラックのスクエア型デザインが中心の、コンパクトでガジェット感のある見た目です。丸みの強い形状より角が立ち、黒系の道具と並べやすい印象です。カラーはブラックを含む複数展開があります。",
+    recommendedFor: [
+      "黒系ガジェットで身の回りをまとめたい人",
+      "コンパクトな完全ワイヤレスイヤホンを探している人",
+      "ANC搭載モデルを選びたい人",
+      "スクエア型デザインが好きな人",
+      "ワイヤレス充電対応を重視する人",
+    ],
+    scenes: [
+      "通勤や移動中",
+      "カフェや外出先",
+      "自宅で音楽や動画を楽しむとき",
+      "日常の持ち歩き用",
+    ],
+    note: "最新の価格・在庫状況は商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "brillamico-lily-46mm-black-silver",
     title: "BRILLAMICO LILY 46MM｜黒×シルバーで映えるラグジュアリーウォッチ",
     seoTitle: "BRILLAMICO LILY 46MM｜黒×シルバーで映えるラグジュアリーウォッチ | R13 Picks",
