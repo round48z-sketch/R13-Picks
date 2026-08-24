@@ -134,6 +134,8 @@ export default async function ArticlePage({ params }: PageProps) {
           </>
         ) : null}
 
+        {article.note ? <p>{article.note}</p> : null}
+
         <div className="cta-wrap">
           <AffiliateButton slug={article.slug} label={article.ctaLabel} />
         </div>

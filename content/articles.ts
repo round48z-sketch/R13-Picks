@@ -21,6 +21,7 @@ export type Article = {
   design?: string;
   recommendedFor: string[];
   scenes?: string[];
+  note?: string;
   ctaLabel: string;
   featured?: boolean;
 };
@@ -36,6 +37,51 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "brillamico-lily-46mm-black-silver",
+    title: "BRILLAMICO LILY 46MM｜黒×シルバーで映えるラグジュアリーウォッチ",
+    seoTitle: "BRILLAMICO LILY 46MM｜黒×シルバーで映えるラグジュアリーウォッチ | R13 Picks",
+    description:
+      "BRILLAMICO LILY 46MM BLACK x SILVERをR13 Picksの視点で紹介。黒とシルバー、スワロフスキー、マザーオブパールを組み合わせた、存在感のある腕時計です。",
+    category: "watch",
+    productName: "BRILLAMICO LILY 46MM BLACK x SILVER ＜革ベルト＞",
+    productType: "腕時計",
+    publishedAt: "2026-08-24",
+    image: {
+      src: "/images/articles/brillamico-lily-black-silver-pinterest.jpg",
+      alt: "黒とシルバーのBRILLAMICO LILY 46MMと革ベルト",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "黒とシルバー、スワロフスキーを組み合わせた、存在感のある腕時計。",
+    intro:
+      "BRILLAMICO LILY 46MM BLACK x SILVER ＜革ベルト＞は、黒とシルバーを基調にした腕時計です。スワロフスキーとマザーオブパールを組み合わせた、装飾性の高い一本として紹介します。価格や在庫は変わることがあるため、最新の価格・在庫状況は商品ページをご確認ください。",
+    points: [
+      "ケース径は約46.5mm、厚さは約11mm、重量は約95g",
+      "ケース素材はSUS316Lステンレス",
+      "スワロフスキーを使用した、装飾性の高いデザイン",
+      "文字盤はマザーオブパール",
+      "ベルトは革ベルト",
+      "日本製クオーツを搭載",
+      "3気圧防水",
+      "カラーはBLACK x SILVER",
+    ],
+    design:
+      "黒とシルバーの対比が中心の、存在感のあるデザインです。マザーオブパールの文字盤とスワロフスキーの装飾が加わり、ラグジュアリーな印象に寄っています。ケース径は約46.5mmと大きめなので、腕元で存在感を出しやすい見た目です。",
+    recommendedFor: [
+      "黒とシルバーで身の回りをまとめたい人",
+      "装飾性の高い腕時計を探している人",
+      "存在感のあるデザインを選びたい人",
+    ],
+    scenes: [
+      "外出や改まった場で、装いを整えるとき",
+      "黒を基調にした服装に、シルバーのアクセントを足したいとき",
+      "日常のなかで、時計に存在感を持たせたいとき",
+    ],
+    note: "最新の価格・在庫状況は商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
   {
     slug: "denon-ah-c830ncw",
     title: "DENON AH-C830NCW｜黒でまとまる、毎日使いやすいワイヤレスイヤホン",
@@ -116,39 +162,6 @@ export const articles: Article[] = [
       "在宅での作業中、集中したい時間",
       "通勤や移動のあいだ、自分の音に切り替えたいとき",
       "夜、部屋で音楽やコンテンツを聴くとき",
-    ],
-    ctaLabel: "商品を見る",
-    featured: true,
-  },
-  {
-    slug: "everyday-minimal-watch",
-    title: "主張しすぎない、日常の腕時計",
-    seoTitle: "主張しすぎない日常の腕時計",
-    description:
-      "スーツにも私服にも合わせやすい、文字盤の静かな腕時計。毎日の身だしなみを整えるための一本として紹介しています。",
-    category: "watch",
-    productName: "Everyday Watch",
-    productType: "腕時計",
-    publishedAt: "2026-08-05",
-    image: {
-      src: "/images/articles/watch-dark.jpg",
-      alt: "暗い背景に置かれた腕時計",
-      width: 1200,
-      height: 1500,
-    },
-    excerpt: "時間を知るためだけに、腕に残しておく時計。",
-    intro:
-      "スマートフォンがあれば時刻はわかります。それでも腕時計を選ぶ理由は、時間を確認する動作そのものが、一日のリズムを整えてくれるからです。この一本は、太いインデックスも派手な色もありません。落ち着いた文字盤だけで、シャツの袖からも、ニットの袖口からも自然に顔を出します。",
-    points: [
-      "文字盤が静かで、服装を選ばず合わせやすい",
-      "ケースサイズが大きすぎず、日常使いにちょうどよい",
-      "ベルトの質感がよく、付け替えなくても長く使える",
-      "時計としての存在感はあるが、装飾が多すぎない",
-    ],
-    recommendedFor: [
-      "スマートウォッチではなく、針の時計を探している人",
-      "仕事にも休日にも使える一本がほしい人",
-      "アクセサリーを増やさず、身だしなみだけ整えたい人",
     ],
     ctaLabel: "商品を見る",
     featured: true,

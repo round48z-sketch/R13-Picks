@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
         destination: "/picks/denon-ah-c830ncw",
         permanent: true,
       },
+      {
+        source: "/picks/everyday-minimal-watch",
+        destination: "/picks/brillamico-lily-46mm-black-silver",
+        permanent: true,
+      },
     ];
   },
 };
