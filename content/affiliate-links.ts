@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "life-pocket-slim-wallet":
+    "https://store.life-pocket.jp/products/wl005?a8=adkgodm_Sc4JyBkGbD.K1nrE2B8vUlkJJDUJmn5EIJjGUeGS.eWGCdslSlwEpKwGCYmcUJjGUeGSoYNBLKNUSeWJjdNXLdCYUQk4W7bHWc.4-nbTFds_SnIYhYkUXnw4-2Axxs00000022041001&utm_source=Pinterest&utm_medium=organic",
   "sony-ult-wear":
     "https://www.e-earphone.jp/collections/4/products/448872?_pos=11&_fid=affa88a7e&_ss=c&filter.p.m.custom.is_on_sale=%E8%B2%A9%E5%A3%B2%E4%B8%AD&a8=T-.yc-WAKoiLgv4y6MkyAobERsCnGorEzMlLWvE56LOrl3rKk3mr8-NUKUF57SFr8XWolLOrl3rKcXsRJSslK3mLO-sYJ-8Xlz.imphPGvk4lvhUw-NAKvCXbX.lkvFidt_xxs00000024072001&utm_source=Pinterest&utm_medium=organic",
   "final-ze3000-sv":

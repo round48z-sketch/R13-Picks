@@ -38,6 +38,53 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "life-pocket-slim-wallet",
+    title: "LIFE POCKET Slim Wallet｜薄さ7mm、黒で整えるミニマルウォレット",
+    seoTitle: "LIFE POCKET Slim Wallet｜薄さ7mmのミニマルウォレット | R13 Picks",
+    description:
+      "LIFE POCKET Slim WalletをR13 Picksの視点で紹介。厚さ約7mm、約57g、サフィアーノレザーを採用した、黒でまとめやすい薄型ウォレットです。",
+    category: "fashion",
+    productName: "LIFE POCKET Slim Wallet",
+    productType: "財布",
+    publishedAt: "2026-08-27",
+    image: {
+      src: "/images/articles/life-pocket-slim-wallet-pinterest.jpg",
+      alt: "黒いLIFE POCKET Slim Walletの薄型ウォレット",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "厚さ約7mmの、黒でまとめやすい薄型ウォレット。",
+    intro:
+      "LIFE POCKET Slim Walletは、厚さ約7mmの薄型ウォレットです。サイズは約H9.3 × W10.8 × D0.7cm、重量は約57gで、黒系の小物と合わせやすい見た目です。素材はサフィアーノレザー（牛革）で、YKKファスナーとMAMORIO CARD対応を備えています。価格や在庫は変わることがあるため、最新の価格・在庫状況は商品ページをご確認ください。",
+    points: [
+      "厚さ約7mmの薄型設計",
+      "サイズは約H9.3 × W10.8 × D0.7cm",
+      "重量 約57g",
+      "素材はサフィアーノレザー（牛革）",
+      "YKKファスナーを採用",
+      "MAMORIO CARD対応",
+      "ブラック系カラーあり",
+    ],
+    design:
+      "ブラックの薄型ウォレットとして、余計な装飾を抑えたミニマルな見た目です。コンパクトなサイズなので、黒系の小物と並べやすい印象です。",
+    recommendedFor: [
+      "黒系の小物で統一したい人",
+      "厚みを抑えた財布を探している人",
+      "コンパクトな財布を持ち歩きたい人",
+      "レザー素材のミニマルな財布が好みの人",
+      "MAMORIO CARD対応の財布を探している人",
+    ],
+    scenes: [
+      "普段使い",
+      "小さめのバッグで出かけるとき",
+      "荷物をコンパクトにまとめたいとき",
+      "旅行や外出時のサブウォレット",
+    ],
+    note: "最新の価格・在庫状況は商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "sony-ult-wear",
     title: "SONY ULT WEAR｜黒で魅せる、ノイズキャンセリング対応ワイヤレスヘッドホン",
     seoTitle: "SONY ULT WEAR｜黒で魅せるワイヤレスヘッドホン | R13 Picks",
