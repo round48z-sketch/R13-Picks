@@ -38,6 +38,61 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "kinujo-silk-premium-dryer-pro",
+    title: "KINUJO Silk Premium Dryer PRO｜黒で整える、2.7㎥/分の大風量ドライヤー",
+    seoTitle: "KINUJO Silk Premium Dryer PRO｜黒で整える大風量ドライヤー | R13 Picks",
+    description:
+      "KINUJO Silk Premium Dryer PROをR13 Picksの視点で紹介。約2.7㎥/分の大風量、温度・風量3段階、180度回転ハンドル、専用スタンドなどを備えたブラックのサロン向けドライヤーです。",
+    category: "lifestyle",
+    productName: "KINUJO Silk Premium Dryer PRO",
+    productType: "ドライヤー",
+    publishedAt: "2026-08-27",
+    image: {
+      src: "/images/articles/kinujo-silk-premium-dryer-pro.jpg",
+      alt: "黒いKINUJO Silk Premium Dryer PROのドライヤー",
+      width: 2048,
+      height: 2048,
+    },
+    excerpt: "ブラックを基調にした、約2.7㎥/分の大風量ドライヤー。",
+    intro:
+      "KINUJO Silk Premium Dryer PRO（型番：KP601）は、ブラックを基調としたサロン専売のドライヤーです。風量は約2.7㎥/分（メーカー自社基準での測定値）で、温度と風量をそれぞれ3段階で調整できます。本体のみの質量は約392g、180度回転ハンドル、約3mのコード、専用スタンドと3種類のノズルが付属します。国内専用です。価格や在庫は変わることがあるため、最新の価格・在庫状況は商品ページをご確認ください。",
+    points: [
+      "風量は約2.7㎥/分（メーカー自社基準での測定値）",
+      "BLDCモーターを搭載",
+      "温度調節は3段階",
+      "風量調節は3段階",
+      "冷風モードを搭載",
+      "本体質量は約392g（本体のみ）",
+      "本体サイズは約197（W）×62（D）×175（H）mm（本体のみ）",
+      "180度回転ハンドル",
+      "コード長は約3m",
+      "吸込口を取り外して手入れ可能",
+      "温度に応じて4色表示する液晶ライティング",
+      "ブローノズル、エアリーノズル、ボリュームノズルの3種類が付属",
+      "専用スタンド付属",
+      "電源はAC100V 50/60Hz、消費電力1250W、国内専用",
+    ],
+    design:
+      "ブラックを基調とした本体で、横方向に伸びた特徴的なシルエットです。操作ボタンや吸込口を含む外観は装飾を抑えており、黒系の家電やインテリアに合わせやすい印象です。R13 Picksの黒を基調とした道具選びにも取り入れやすい見た目です。",
+    recommendedFor: [
+      "黒い美容家電を選びたい人",
+      "大風量のドライヤーを探している人",
+      "温度や風量を複数段階で調整したい人",
+      "サロン向け仕様のドライヤーが気になる人",
+      "専用スタンドや複数ノズル付きモデルを探している人",
+      "デザインも含めて日用品を選びたい人",
+    ],
+    scenes: [
+      "毎日のヘアドライ",
+      "自宅でのヘアセット",
+      "温度や風量を使い分けたいとき",
+      "ブラック系の洗面・美容家電をまとめたいとき",
+    ],
+    note: "最新の価格・在庫状況は商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "rorry-charmgo-t1",
     title: "RORRY CharmGo T1｜10000mAh・30W対応、持ち歩きやすい黒モバイルバッテリー",
     seoTitle: "RORRY CharmGo T1｜10000mAh・30W対応の黒モバイルバッテリー | R13 Picks",

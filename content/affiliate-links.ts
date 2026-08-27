@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "kinujo-silk-premium-dryer-pro":
+    "https://px.a8.net/svt/ejp?a8mat=4BA9HD+4XF7TM+5TJC+BW0YB&a8ejpredirect=https%3A%2F%2Fstore.album-hair.com%2Fproducts%2F4589946771176%3F_pos%3D4%26_fid%3D77a3fb838%26_ss%3Dc",
   "rorry-charmgo-t1":
     "https://px.a8.net/svt/ejp?a8mat=4BAFPE+61WOYI+5W80+BW0YB&a8ejpredirect=https%3A%2F%2Frorryjapan.com%2Fproducts%2Frorry-charmgo-t1-10000mah-30w-power-bank%3Fvariant%3D47185055842496",
   "life-pocket-slim-wallet":
