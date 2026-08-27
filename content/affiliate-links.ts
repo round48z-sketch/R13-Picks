@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "rorry-charmgo-t1":
+    "https://px.a8.net/svt/ejp?a8mat=4BAFPE+61WOYI+5W80+BW0YB&a8ejpredirect=https%3A%2F%2Frorryjapan.com%2Fproducts%2Frorry-charmgo-t1-10000mah-30w-power-bank%3Fvariant%3D47185055842496",
   "life-pocket-slim-wallet":
     "https://store.life-pocket.jp/products/wl005?a8=adkgodm_Sc4JyBkGbD.K1nrE2B8vUlkJJDUJmn5EIJjGUeGS.eWGCdslSlwEpKwGCYmcUJjGUeGSoYNBLKNUSeWJjdNXLdCYUQk4W7bHWc.4-nbTFds_SnIYhYkUXnw4-2Axxs00000022041001&utm_source=Pinterest&utm_medium=organic",
   "sony-ult-wear":
