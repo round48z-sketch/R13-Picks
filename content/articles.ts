@@ -18,7 +18,9 @@ export type Article = {
   excerpt: string;
   intro: string;
   points: string[];
+  pointsTitle?: string;
   design?: string;
+  pairing?: string;
   recommendedFor: string[];
   scenes?: string[];
   note?: string;
@@ -37,6 +39,50 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "gtplayer-ch488",
+    title: "GTPLAYER CH488｜黒メッシュで整えるデスクチェア",
+    seoTitle: "GTPLAYER CH488｜黒メッシュのデスクチェア | R13 Picks",
+    description:
+      "GTPLAYER 人間工学シリーズ CH488をR13 Picksの視点で紹介。ブラックのメッシュデザインやヘッドレスト、アームレストなど、確認できる特徴を中心にまとめます。",
+    category: "desk",
+    productName: "GTPLAYER 人間工学シリーズ CH488",
+    productType: "オフィスチェア",
+    publishedAt: "2026-08-28",
+    image: {
+      src: "/images/articles/gtplayer-ch488-office-chair.jpg",
+      alt: "黒いGTPLAYER CH488のオフィスチェア",
+      width: 3584,
+      height: 4800,
+    },
+    excerpt: "ブラックのメッシュでまとめた、デスク環境向けのオフィスチェア。",
+    intro:
+      "GTPLAYER 人間工学シリーズ CH488は、ブラックを基調としたメッシュタイプのオフィスチェアです。公式ではオフィスチェアとして紹介されており、ヘッドレスト、背もたれ、アームレスト、キャスター付きの構造が確認できます。メーカーでは人間工学シリーズとして案内されています。価格や在庫は変わることがあるため、最新の価格・在庫・キャンペーン情報は公式商品ページをご確認ください。",
+    pointsTitle: "CH488の特徴",
+    points: [
+      "ブラックカラー",
+      "メッシュタイプの背もたれ",
+      "ヘッドレスト付き",
+      "アームレスト付き",
+      "キャスター付き",
+      "公式ではオフィスチェアとして紹介",
+      "公式サイトでは1年保証を案内",
+    ],
+    design:
+      "ブラックを中心としたメッシュ素材の外観に、シルバー系パーツがアクセントになったデザインです。ゲーミングチェア特有の派手さを抑えた外観で、黒系のデスク環境に合わせやすく、PCやガジェットを黒で統一している空間にも取り入れやすい印象です。デスク周りを落ち着いたトーンでまとめたい場合の候補です。",
+    pairing:
+      "黒いデスクやモニター、キーボードなど、色数を抑えた作業スペースと並べやすいチェアです。主張の強いカラーリングではないので、仕事用・PC作業用のデスク環境にも馴染ませやすい見た目です。",
+    recommendedFor: [
+      "黒いデスクチェアを探している人",
+      "メッシュタイプの椅子を検討している人",
+      "ヘッドレスト付きモデルを探している人",
+      "PCデスクや在宅ワーク環境を黒でまとめたい人",
+      "派手すぎないオフィスチェアを選びたい人",
+    ],
+    note: "最新の価格・在庫・キャンペーン情報は公式商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
   {
     slug: "kinujo-silk-premium-dryer-pro",
     title: "KINUJO Silk Premium Dryer PRO｜黒で整える、2.7㎥/分の大風量ドライヤー",

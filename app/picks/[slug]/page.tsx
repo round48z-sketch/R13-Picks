@@ -102,7 +102,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
         <AdSlot />
 
-        <h2>商品の特徴</h2>
+        <h2>{article.pointsTitle ?? "商品の特徴"}</h2>
         <ul>
           {article.points.map((point) => (
             <li key={point}>{point}</li>
@@ -113,6 +113,13 @@ export default async function ArticlePage({ params }: PageProps) {
           <>
             <h2>デザインについて</h2>
             <p>{article.design}</p>
+          </>
+        ) : null}
+
+        {article.pairing ? (
+          <>
+            <h2>デスク環境との合わせ方</h2>
+            <p>{article.pairing}</p>
           </>
         ) : null}
 
