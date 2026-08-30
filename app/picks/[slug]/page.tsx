@@ -116,6 +116,13 @@ export default async function ArticlePage({ params }: PageProps) {
           </>
         ) : null}
 
+        {article.sections?.map((section) => (
+          <div key={section.title}>
+            <h2>{section.title}</h2>
+            <p>{section.body}</p>
+          </div>
+        ))}
+
         {article.pairing ? (
           <>
             <h2>デスク環境との合わせ方</h2>
@@ -123,7 +130,7 @@ export default async function ArticlePage({ params }: PageProps) {
           </>
         ) : null}
 
-        <h2>こんな人におすすめ</h2>
+        <h2>{article.recommendedTitle ?? "こんな人におすすめ"}</h2>
         <ul>
           {article.recommendedFor.map((item) => (
             <li key={item}>{item}</li>
@@ -138,6 +145,13 @@ export default async function ArticlePage({ params }: PageProps) {
                 <li key={scene}>{scene}</li>
               ))}
             </ul>
+          </>
+        ) : null}
+
+        {article.summary ? (
+          <>
+            <h2>まとめ</h2>
+            <p>{article.summary}</p>
           </>
         ) : null}
 

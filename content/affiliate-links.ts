@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "tamas-pr-apc265c":
+    "https://px.a8.net/svt/ejp?a8mat=4BAFPE+62I4KA+54VA+BW0YB&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Fpr-apc265c%2F",
   "gtplayer-ch488":
     "https://px.a8.net/svt/ejp?a8mat=4BA2HB+94NBH6+4U8S+BW0YB&a8ejpredirect=https%3A%2F%2Fjp.gtplayer.com%2Fcollections%2F%25E3%2582%25AA%25E3%2583%2595%25E3%2582%25A3%25E3%2582%25B9%25E3%2583%2581%25E3%2582%25A7%25E3%2582%25A2%2Fproducts%2Fch320-1",
   "kinujo-silk-premium-dryer-pro":

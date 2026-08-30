@@ -19,10 +19,13 @@ export type Article = {
   intro: string;
   points: string[];
   pointsTitle?: string;
+  sections?: { title: string; body: string }[];
   design?: string;
   pairing?: string;
+  recommendedTitle?: string;
   recommendedFor: string[];
   scenes?: string[];
+  summary?: string;
   note?: string;
   ctaLabel: string;
   featured?: boolean;
@@ -39,6 +42,67 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "tamas-pr-apc265c",
+    title: "ケーブル内蔵で持ち歩きやすい。tama's PR-APC265C 65W充電器",
+    seoTitle: "tama's PR-APC265C｜ケーブル内蔵の65W充電器 | R13 Picks",
+    description:
+      "多摩電子工業 tama's PR-APC265CをR13 Picksの視点で紹介。巻取り式USB-Cケーブル内蔵、USB Power Delivery最大65W、GaN採用の充電器です。",
+    category: "gadget",
+    productName: "tama's PR-APC265C",
+    productType: "コンセント充電器",
+    publishedAt: "2026-08-30",
+    image: {
+      src: "/images/articles/tamas-pr-apc265c-pinterest.jpg",
+      alt: "黒いtama's PR-APC265CのUSB充電器",
+      width: 1152,
+      height: 1728,
+    },
+    excerpt: "巻取り式USB-Cケーブルを内蔵した、黒の65W充電器。",
+    intro:
+      "多摩電子工業の tama's PR-APC265C は、巻取り式USB-Cケーブルを内蔵したUSB Power Delivery対応の充電器です。最大65W、GaN（窒化ガリウム）採用、USB-Cポート、90°回転式ACプラグを備えています。メーカーではノートPC、スマートフォン、タブレット、ゲーム機などの充電用途として案内しています。黒基調のシンプルな見た目で、充電器とUSB-Cケーブルを別々に持ち歩く構成を減らせる製品です。最新情報は販売ページで確認してください。",
+    pointsTitle: "PR-APC265Cの特徴",
+    points: [
+      "USB Power Delivery対応、最大65W",
+      "巻取り式USB-Cケーブル内蔵",
+      "GaN（窒化ガリウム）採用",
+      "USB-Cポート 1ポート搭載",
+      "ブラックカラーあり",
+      "過電流・過電圧保護機能",
+      "90°回転式ACプラグ",
+      "AC100V〜240V対応",
+    ],
+    sections: [
+      {
+        title: "巻取り式USB-Cケーブルについて",
+        body: "本体に巻取り式USB-Cケーブルが内蔵されています。充電器とUSB-Cケーブルを別々に持ち歩く構成を減らせる仕様です。加えてUSB-Cポートを1ポート搭載しています。",
+      },
+      {
+        title: "65W PD対応について",
+        body: "USB Power Deliveryに対応し、出力は最大65Wです。メーカーではノートPC、スマートフォン、タブレット、ゲーム機などの充電用途として案内しています。対応機器や充電の速さは、接続する機器側の仕様によって変わります。",
+      },
+      {
+        title: "GaN採用と本体設計",
+        body: "GaN（窒化ガリウム）を採用しています。カラーはブラックとホワイトがあり、今回取り上げるのは黒モデルです。装飾の少ないシンプルな見た目で、R13 Picksの黒を基調とした道具選びにも取り入れやすいデザインです。",
+      },
+      {
+        title: "90°回転式プラグと持ち運び",
+        body: "ACプラグは90°回転式です。電源はAC100V〜240Vに対応しています。海外で使う場合は、国や地域によって変換プラグが必要なことがあります。",
+      },
+    ],
+    recommendedTitle: "どんな人に向いているか",
+    recommendedFor: [
+      "充電器とUSB-Cケーブルを別々に持ち歩く構成を減らしたい人",
+      "最大65WのUSB Power Delivery対応充電器を探している人",
+      "黒くシンプルな充電器を選びたい人",
+      "メーカーが案内するノートPCやスマートフォンなどの充電に使いたい人",
+    ],
+    summary:
+      "tama's PR-APC265Cは、巻取り式USB-Cケーブル内蔵、USB Power Delivery最大65W、GaN採用、90°回転式ACプラグを備えた充電器です。黒基調のシンプルなデザインで、持ち歩き用の充電環境をまとめたい場合の候補です。",
+    note: "最新情報は販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
   {
     slug: "gtplayer-ch488",
     title: "GTPLAYER CH488｜黒メッシュで整えるデスクチェア",
