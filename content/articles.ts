@@ -43,6 +43,72 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "brillamico-lily-46mm-black-gold",
+    title: "黒×ゴールドで魅せる。BRILLAMICO LILY 46MM BLACK x GOLD",
+    seoTitle: "BRILLAMICO LILY 46MM BLACK x GOLD｜黒×ゴールドの腕時計 | R13 Picks",
+    description:
+      "BRILLAMICO LILY 46MM BLACK x GOLD ＜革ベルト＞をR13 Picksの視点で紹介。ブラック×ゴールド、革ベルト、文字盤が動くLILYシリーズの46MMモデルです。",
+    category: "watch",
+    productName: "BRILLAMICO LILY 46MM BLACK x GOLD ＜革ベルト＞",
+    productType: "腕時計",
+    publishedAt: "2026-09-01",
+    image: {
+      src: "/images/articles/brillamico-lily-46mm-black-gold-pinterest.jpg",
+      alt: "黒とゴールドのBRILLAMICO LILY 46MMと革ベルト",
+      width: 1008,
+      height: 1792,
+    },
+    excerpt: "ブラック×ゴールドと革ベルトの、存在感のあるLILY 46MM。",
+    intro:
+      "BRILLAMICO（ブリラミコ）の LILY 46MM BLACK x GOLD ＜革ベルト＞は、公式サイトで販売されているLILYシリーズの腕時計です。サイズ表記は46MM、カラーはBLACK x GOLD、ベルトは革ベルト仕様です。LILYシリーズは、公式で文字盤が動くことを特徴として案内されています。ブラックとゴールドを組み合わせた外観で、ファッションのアクセントとして検討しやすいデザインです。最新の価格・在庫は公式販売ページで確認してください。",
+    pointsTitle: "BRILLAMICO LILY 46MM BLACK x GOLDとは",
+    points: [
+      "ブランドはBRILLAMICO（ブリラミコ）",
+      "シリーズはLILY",
+      "商品名は LILY 46MM BLACK x GOLD ＜革ベルト＞",
+      "サイズ表記は46MM（本体サイズは直径46.5mm／厚さ11mm）",
+      "カラーはBLACK x GOLD",
+      "革ベルト仕様",
+      "LILYシリーズは文字盤が動くことを特徴としている",
+      "BRILLAMICO公式サイトで販売",
+    ],
+    sections: [
+      {
+        title: "ブラック×ゴールドの存在感あるデザイン",
+        body: "BLACK x GOLDのカラー構成で、ブラックとゴールドを組み合わせた外観です。本体素材はステンレス（SUS316L）とスワロフスキー、文字盤素材はマザーオブパール（MOP）です。公式では、スワロフスキーをあしらった直径46mmのフェイスとして案内されています。装飾性の高い見た目で、シンプルな時計とは異なる存在感のあるデザインです。",
+      },
+      {
+        title: "LILYシリーズならではの文字盤",
+        body: "公式のLILYシリーズ案内では、「文字盤がクルクルと動くのが特徴的」とされています。文字盤素材はマザーオブパール（MOP）で、スワロフスキーも使用されています。装飾性の高い文字盤であり、シンプルな時計とは見た目が異なります。見え方の詳細は、公式の商品ページで確認してください。",
+      },
+      {
+        title: "革ベルトとの組み合わせ",
+        body: "このモデルは革ベルト仕様です。公式の仕様では、ベルト素材は本皮（クロコ型押し）とスワロフスキーです。ラグ幅は20mm、腕周りは16.5〜21.5cm（ベルト着用時、穴に留めたサイズ）と案内されています。",
+      },
+      {
+        title: "ファッションに取り入れるなら",
+        body: "ブラックとゴールドを組み合わせた外観なので、黒を基調にした装いのアクセントとして検討しやすいデザインです。時間を知る実用品としてだけでなく、ファッションアイテムとして時計を選びたい場合の候補です。ケース径は直径46.5mmと案内されているため、大きさも含めて公式情報を確認するとよいでしょう。",
+      },
+      {
+        title: "どんな人に向いているか",
+        body: "ブラック×ゴールドの外観を、黒コーデや装いのアクセントにしたい人。シンプルな時計ではなく、文字盤が動くLILYシリーズの見た目を選びたい人。革ベルト仕様で、ファッションアイテムとして時計を検討したい人。",
+      },
+    ],
+    recommendedTitle: "購入前に確認しておきたいポイント",
+    recommendedFor: [
+      "本体サイズは直径46.5mm、厚さ11mm、重量は95g（公式仕様）",
+      "腕周りは16.5〜21.5cm（ベルト着用時、穴に留めたサイズ）",
+      "仕様は日本製クオーツ、3気圧防水（生活防水）",
+      "文字盤が動くLILYシリーズのため、シンプルな時計とは見た目が異なる",
+      "最新の価格・在庫は公式販売ページで確認してください",
+    ],
+    summary:
+      "LILY 46MM BLACK x GOLD ＜革ベルト＞は、ブラックとゴールドを組み合わせ、革ベルトを採用したBRILLAMICOのLILYシリーズです。公式では文字盤が動くことを特徴として案内されており、装飾性の高い文字盤と存在感のある外観が中心の一本です。ファッションのアクセントとして時計を選びたい場合の候補です。",
+    note: "最新の価格・在庫は公式販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "tamas-pr-apc265c",
     title: "ケーブル内蔵で持ち歩きやすい。tama's PR-APC265C 65W充電器",
     seoTitle: "tama's PR-APC265C｜ケーブル内蔵の65W充電器 | R13 Picks",
