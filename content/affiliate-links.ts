@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "brillamico-grace-double":
+    "https://px.a8.net/svt/ejp?a8mat=4BACLG+40ODJU+46HS+BW0YB&a8ejpredirect=https%3A%2F%2Fbrillamico.jp%2Fproducts%2Fgrace-grace-double",
   "brillamico-grace-mia-black":
     "https://px.a8.net/svt/ejp?a8mat=4BACLG+40ODJU+46HS+BW0YB&a8ejpredirect=https%3A%2F%2Fbrillamico.jp%2Fproducts%2Fgrace-mia-black",
   "brillamico-lily-46mm-black-gold":
