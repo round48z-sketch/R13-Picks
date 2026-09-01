@@ -43,6 +43,79 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "tamas-pr-ap160uc3",
+    title: "複数機器をまとめて充電しやすい。tama's PR-AP160UC3",
+    seoTitle: "tama's PR-AP160UC3｜PD100W対応の4ポート充電器 | R13 Picks",
+    description:
+      "多摩電子工業 tama's PR-AP160UC3をR13 Picksの視点で紹介。USB Power Delivery 100W、USB-C 3ポートとUSB-A 1ポート、GaN採用、折りたたみ式プラグの充電器です。",
+    category: "gadget",
+    productName: "tama's PR-AP160UC3",
+    productType: "コンセント充電器",
+    publishedAt: "2026-09-01",
+    image: {
+      src: "/images/articles/tamas-pr-ap160uc3-pinterest.jpg",
+      alt: "黒いtama's PR-AP160UC3のUSB充電器",
+      width: 1008,
+      height: 1792,
+    },
+    excerpt: "PD100W対応、USB-C 3ポートとUSB-A 1ポートのGaN充電器。",
+    intro:
+      "多摩電子工業の tama's PR-AP160UC3 は、USB Power Delivery 100W対応のACアダプタです。USB-C 3ポートとUSB-A 1ポート、PPS対応、GaN（窒化ガリウム）採用、折りたたみ式プラグを備えています。メーカーではノートPC、スマートフォン、タブレット、ゲーム機などの充電用途として案内しています。カラーはホワイトとブラックの2色です。充電用ケーブルは付属しません。最新情報は公式販売ページでご確認ください。",
+    pointsTitle: "PR-AP160UC3の特徴",
+    points: [
+      "USB Power Delivery対応、100W",
+      "USB-C 3ポート、USB-A 1ポート",
+      "PPS対応",
+      "GaN（窒化ガリウム）採用",
+      "折りたたみ式プラグ（公式では90°回転式ACプラグとしても案内）",
+      "過電流・過電圧保護機能",
+      "AC100V〜240V対応",
+      "ホワイト / ブラックの2色展開",
+      "充電用ケーブルは付属しない（公式案内）",
+    ],
+    sections: [
+      {
+        title: "100W PD対応について",
+        body: "USB Power Deliveryに対応し、出力は100Wです。メーカーではノートPC、スマートフォン、タブレット、ゲーム機などの充電用途として案内しています。対応機器や充電の速さは、接続する機器側の仕様によって変わります。",
+      },
+      {
+        title: "USB-C 3ポートとUSB-A 1ポート",
+        body: "USB-Cを3ポート、USB-Aを1ポート搭載しています。複数の機器をまとめて接続できる構成です。各ポートの同時利用時の出力配分は、公式の商品ページで確認してください。",
+      },
+      {
+        title: "GaN採用と本体設計",
+        body: "GaN（窒化ガリウム）を採用しています。カラーはホワイトとブラックがあり、黒系のガジェットやデスク周りに合わせやすいブラックも選べます。PPSにも対応しています。",
+      },
+      {
+        title: "折りたたみ式プラグと持ち運び",
+        body: "公式では折りたたみ式プラグ、および90°回転式ACプラグとして案内されています。電源はAC100V〜240Vに対応しています。海外で使う場合は、国や地域によって変換プラグが必要なことがあります。",
+      },
+      {
+        title: "充電ケーブルについて",
+        body: "公式では、本製品に充電用ケーブルは付属しないと案内されています。使う機器に合うケーブルを別途用意する必要があります。",
+      },
+    ],
+    recommendedTitle: "どんな人に向いているか",
+    recommendedFor: [
+      "USB-CとUSB-Aを含む複数ポートで充電環境をまとめたい人",
+      "100WのUSB Power Delivery対応充電器を探している人",
+      "折りたたみ式プラグの充電器を検討している人",
+      "黒系のデスク周りに合わせる充電器を選びたい人",
+      "メーカーが案内するノートPCやスマートフォンなどの充電に使いたい人",
+    ],
+    scenes: [
+      "自宅のデスク周り",
+      "仕事場",
+      "外出先",
+      "ノートPCやスマートフォンなどの充電が必要な場面",
+    ],
+    summary:
+      "tama's PR-AP160UC3は、USB Power Delivery 100W、USB-C 3ポートとUSB-A 1ポート、GaN採用、折りたたみ式プラグを備えた充電器です。黒モデルはデスク周りにも取り入れやすい見た目です。充電用ケーブルは付属しないため、用途に合うケーブルを合わせて選んでください。",
+    note: "最新情報は公式販売ページでご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "brillamico-grace-double",
     title: "ジュエリー感のあるスクエアウォッチ。BRILLAMICO GRACE DOUBLE",
     seoTitle: "BRILLAMICO GRACE DOUBLE｜ジュエリー感のあるスクエアウォッチ | R13 Picks",
