@@ -43,6 +43,72 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "life-pocket-digital-case",
+    title: "黒でまとめる仕事道具。LIFE POCKET Digital Case",
+    seoTitle: "LIFE POCKET Digital Case｜黒の13inchノートPCケース | R13 Picks",
+    description:
+      "LIFE POCKET Digital CaseをR13 Picksの視点で紹介。本革のノートPCケースで、13inchサイズ、3mmのEVAフォーム、MAMORIOセットの選択肢があります。",
+    category: "lifestyle",
+    productName: "LIFE POCKET Digital Case",
+    productType: "ノートPCケース",
+    publishedAt: "2026-09-02",
+    image: {
+      src: "/images/articles/life-pocket-digital-case-pinterest.jpg",
+      alt: "黒いLIFE POCKET Digital CaseのノートPCケース",
+      width: 1008,
+      height: 1792,
+    },
+    excerpt: "黒の本革ノートPCケース。13inchサイズとMAMORIOセットの選択肢あり。",
+    intro:
+      "LIFE POCKET Digital Caseは、公式ストアで販売されている本革のノートPCケースです。ノートPCなどのデジタル機器を収納する用途として案内されています。サイズは13inch、14inch、15.6inchがあり、セット内容は Digital Case 単体と Digital Case + MAMORIO から選べます。ブラック系のシンプルな見た目で、仕事道具をまとめて持ち歩く構成として検討しやすいケースです。最新の価格・在庫は公式販売ページで確認してください。",
+    pointsTitle: "LIFE POCKET Digital Caseとは",
+    points: [
+      "ブランドはLIFE POCKET",
+      "商品名は Digital Case",
+      "本革のノートPCケースとして販売",
+      "13inch、14inch、15.6inchのサイズ展開",
+      "素材はサフィアーノレザー（牛革）",
+      "内部に3mmの衝撃吸収材「EVAフォーム」を搭載（公式案内）",
+      "YKKファスナー（EVERBRIGHT / 日本製）",
+      "Digital Case 単体、または Digital Case + MAMORIO のセットを選択可能",
+    ],
+    sections: [
+      {
+        title: "黒基調のミニマルなデザイン",
+        body: "ブラック系のケースで、装飾を抑えたシンプルな見た目です。素材はサフィアーノレザー（牛革）です。公式では、型押し加工を施した牛革で、キズや汚れがつきにくいと案内されています。ファスナーはYKKのEVERBRIGHT（日本製）です。黒で仕事道具をまとめたい場合の候補です。",
+      },
+      {
+        title: "13inchケースとしての使い方",
+        body: "13inchサイズの選択肢があります。公式の13inch仕様は、外寸 H23.5cm × W33.5cm × D2.5cm、内寸 H22cm × W31cm × D2cm、重量 470g です。対応例として、MacBook Air 13.3インチ、MacBook Pro 13、Surface Laptop 13.5インチ、iPad Pro 12.9インチ、各社の13インチ薄型ノートパソコンなどが案内されています。対応可否は、手元の機器と内寸の確認が必要です。14inchと15.6inchもあります。",
+      },
+      {
+        title: "内部の保護素材について",
+        body: "公式では、3mmの衝撃吸収材「EVAフォーム」を搭載し、衝撃からデバイスを守ると案内されています。保護の程度は使用状況によって変わるため、耐衝撃性能の数値などは公式ページに記載がある範囲で確認してください。",
+      },
+      {
+        title: "MAMORIO Insideについて",
+        body: "公式ストアでは、Digital Case 単体のほか、Digital Case + MAMORIO のセットを選べます。セット購入時は、紛失防止タグの MAMORIO RE が同梱されます。公式案内では、MAMORIOアプリに対応し、Bluetooth 4.0（Bluetooth Low Energy）で通信、有効距離は約50m、地図上の位置表示や、離れた際のプッシュ通知が可能とされています。電池はCR2016で交換可能、電池寿命は約11カ月（利用状況による）です。タグの有無やアプリの動作条件は、選択するセットと公式案内で確認してください。紛失を完全に防ぐものではありません。",
+      },
+      {
+        title: "どんな人に向いているか",
+        body: "黒で仕事道具をまとめたい人。ノートPCをすっきり持ち運びたい人。本革ケースで、持ち運び時の保護も意識したい人。MAMORIO REとのセットを検討したい人。",
+      },
+    ],
+    recommendedTitle: "購入前に確認しておきたいポイント",
+    recommendedFor: [
+      "サイズは13inch、14inch、15.6inch。13inchの内寸は H22cm × W31cm × D2cm（公式仕様）",
+      "対応機種は公式の案内例と、手元のデバイス寸法を照合して確認する",
+      "セット内容は Digital Case 単体と Digital Case + MAMORIO。MAMORIO RE はセット購入時に同梱",
+      "素材はサフィアーノレザー（牛革）。内部は3mmのEVAフォーム（公式案内）",
+      "最新の価格・在庫は公式販売ページで確認してください",
+    ],
+    summary:
+      "LIFE POCKET Digital Caseは、黒基調の本革ノートPCケースです。13inchサイズを含む展開と、3mmのEVAフォーム、MAMORIOセットの選択肢があります。仕事道具をまとめて持ち運びたい場合の候補です。対応サイズやセット内容は、公式販売ページで確認してください。",
+    note: "最新の価格・在庫は公式販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "tamas-pr-wc64",
     title: "充電しながらスタンドにも。tama's PR-WC64 Qi2ワイヤレス充電器",
     seoTitle: "tama's PR-WC64｜Qi2対応マグネット式ワイヤレス充電器 | R13 Picks",

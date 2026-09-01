@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "life-pocket-digital-case":
+    "https://px.a8.net/svt/ejp?a8mat=4BAE5C+7H3YZE+4Q2I+BW0YB&a8ejpredirect=https%3A%2F%2Fstore.life-pocket.jp%2Fproducts%2Fdigital-case",
   "tamas-pr-wc64":
     "https://px.a8.net/svt/ejp?a8mat=4BAFPE+62I4KA+54VA+BW0YB&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Fpr-wc64%2F",
   "tamas-pr-ap160uc3":
