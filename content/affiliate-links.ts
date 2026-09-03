@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "kinujo-sapphire-straight-pro":
+    "https://px.a8.net/svt/ejp?a8mat=4BA9HD+4XF9D6+5TJC+BW0YB&a8ejpredirect=https%3A%2F%2Fstore.album-hair.com%2Fproducts%2F4589946771138",
   "life-pocket-digital-case":
     "https://px.a8.net/svt/ejp?a8mat=4BAE5C+7H3YZE+4Q2I+BW0YB&a8ejpredirect=https%3A%2F%2Fstore.life-pocket.jp%2Fproducts%2Fdigital-case",
   "tamas-pr-wc64":
