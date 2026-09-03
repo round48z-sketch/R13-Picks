@@ -43,6 +43,55 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "gluck-horseshoe-necklace",
+    title: "シンプルな馬蹄モチーフ。GLUCK Horseshoe Necklace",
+    seoTitle: "GLUCK Horseshoe Necklace｜馬蹄モチーフのネックレス | R13 Picks",
+    description:
+      "GLUCK Horseshoe NecklaceをR13 Picksの視点で紹介。一粒のジルコニアをあしらったホースシューモチーフのネックレスで、ゴールドとシルバーから選べます。",
+    category: "fashion",
+    productName: "GLUCK Horseshoe Necklace",
+    productType: "ネックレス",
+    publishedAt: "2026-09-04",
+    image: {
+      src: "/images/articles/gluck-horseshoe-necklace-pinterest.jpg",
+      alt: "GLUCK Horseshoe Necklaceの馬蹄モチーフネックレス",
+      width: 1008,
+      height: 1792,
+    },
+    excerpt: "一粒ジルコニアの馬蹄モチーフ。ゴールドとシルバーから選べるネックレス。",
+    intro:
+      "GLUCK（グルック）の Horseshoe Necklace は、公式通販サイトで販売されているホースシュー（馬蹄）モチーフのネックレスです。公式では、一粒のジルコニアを埋め込んだデザインとして紹介されています。カラーはゴールドとシルバー。ギフトラッピングの選択もあります。最新の価格・在庫状況は公式販売ページでご確認ください。",
+    points: [
+      "ブランドはGLUCK（グルック）",
+      "商品名は Horseshoe Necklace（ホースシューネックレス）",
+      "一粒のジルコニアを埋め込んだ馬蹄モチーフ（公式案内）",
+      "カラーはゴールド / シルバー",
+      "素材はサージカルステンレス、ジルコニア",
+      "チャームサイズは 1.2cm × 1.3cm",
+      "チェーンは 40cm＋5cm（アジャスター込み）。希望時は 50cm＋5cm も案内あり",
+      "ギフトラッピング選択あり",
+      "付属品はショップカード付（台紙）",
+    ],
+    design:
+      "装飾を抑えた馬蹄モチーフで、一粒のジルコニアがポイントになるシンプルな見た目です。公式では、様々なコーディネートを華やかで洗練された雰囲気に、と案内されています。ゴールドとシルバーの2色から選べるので、装いのトーンに合わせて検討しやすいデザインです。",
+    recommendedFor: [
+      "シンプルな馬蹄モチーフのネックレスを探している人",
+      "ゴールドとシルバーから色を選びたい人",
+      "大人っぽいコーデのアクセントに小さなチャームを取り入れたい人",
+      "サージカルステンレス素材のアクセサリーが気になる人",
+      "ギフトラッピング付きで贈りものを検討している人",
+    ],
+    scenes: [
+      "普段の装いのアクセント",
+      "大人っぽいコーデに合わせるとき",
+      "ゴールド系 / シルバー系で小物をまとめたいとき",
+      "ギフトとして選ぶとき",
+    ],
+    note: "最新の価格・在庫状況は公式販売ページでご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "self-reflection-moon-to-moon",
     title: "黒で選ぶフレグランス。SELF REFLECTION ムーントゥームーン 50ml",
     seoTitle: "SELF REFLECTION ムーントゥームーン｜黒の水性フレグランス 50ml | R13 Picks",
