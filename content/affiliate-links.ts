@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "life-pocket-sacoche-wallet":
+    "https://px.a8.net/svt/ejp?a8mat=4BAE5C+7H3YZE+4Q2I+BW0YB&a8ejpredirect=https%3A%2F%2Fstore.life-pocket.jp%2Fproducts%2Fbg001",
   "gluck-sonne-coin-necklace":
     "https://px.a8.net/svt/ejp?a8mat=4BC2EG+6NXQCA+56MC+BW0YB&a8ejpredirect=https%3A%2F%2Fgluck.style%2Fcollections%2Fall%2Fproducts%2Fsonne-coin-necklace",
   "gluck-twist-bangle":
