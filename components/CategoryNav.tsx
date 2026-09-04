@@ -12,7 +12,7 @@ export function CategoryNav() {
   const ui = getUi(locale);
 
   return (
-    <nav className="category-nav" aria-label={ui.categoryNavAria}>
+    <nav className="category-strip" aria-label={ui.categoryNavAria}>
       {categories.map((category) => (
         <Link key={category.slug} href={localizePath(`/category/${category.slug}`, locale)}>
           {category.name}
