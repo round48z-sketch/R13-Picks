@@ -1,24 +1,17 @@
 import type { Metadata } from "next";
-import { ContactForm } from "@/components/ContactForm";
+import { ContactView } from "@/components/views/StaticViews";
+import { contactPages } from "@/content/i18n/pages";
 import { buildMetadata } from "@/lib/metadata";
 
+const page = contactPages.ja;
+
 export const metadata: Metadata = buildMetadata({
-  title: "お問い合わせ",
-  description: "R13 Picksへのご意見、掲載に関するご相談はこちらからご連絡ください。",
+  title: page.title,
+  description: page.description,
   path: "/contact",
+  locale: "ja",
 });
 
 export default function ContactPage() {
-  return (
-    <div className="narrow prose">
-      <header className="page-head">
-        <p className="section-label">Contact</p>
-        <h1>お問い合わせ</h1>
-      </header>
-      <p>
-        サイトに関するご意見、記事内容についてのご質問、掲載に関するご相談は、下記フォームよりお問い合わせください。
-      </p>
-      <ContactForm />
-    </div>
-  );
+  return <ContactView locale="ja" />;
 }

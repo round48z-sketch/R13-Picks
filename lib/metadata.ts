@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { getSiteUrl, siteConfig } from "@/content/site";
+import { localeOgLocale, type Locale } from "@/content/i18n/config";
+import { getAlternateLanguagePaths, localizePath } from "@/lib/i18n/path";
+import { getSiteDescription } from "@/content/i18n/site";
 
 type BuildMetadataInput = {
   title: string;
@@ -8,6 +11,7 @@ type BuildMetadataInput = {
   image?: string;
   type?: "website" | "article";
   publishedTime?: string;
+  locale?: Locale;
 };
 
 export function buildMetadata({
@@ -17,21 +21,33 @@ export function buildMetadata({
   image = siteConfig.defaultOgImage,
   type = "website",
   publishedTime,
+  locale = "ja",
 }: BuildMetadataInput): Metadata {
   const siteUrl = getSiteUrl();
-  const url = `${siteUrl}${path}`;
+  const localizedPath = localizePath(path, locale);
+  const url = `${siteUrl}${localizedPath === "/" ? "/" : localizedPath}`;
   const imageUrl = image.startsWith("http") ? image : `${siteUrl}${image}`;
+  const languages = getAlternateLanguagePaths(path);
+  const absoluteLanguages = Object.fromEntries(
+    Object.entries(languages).map(([key, value]) => [
+      key,
+      `${siteUrl}${value === "/" ? "/" : value}`,
+    ]),
+  );
 
   return {
     title,
     description,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: absoluteLanguages,
+    },
     openGraph: {
       title,
       description,
       url,
       siteName: siteConfig.name,
-      locale: siteConfig.locale,
+      locale: localeOgLocale[locale],
       type,
       publishedTime,
       images: [
@@ -52,6 +68,22 @@ export function buildMetadata({
     other: {
       "pinterest:title": title,
       "pinterest:description": description,
+    },
+  };
+}
+
+export function buildHomeMetadata(locale: Locale): Metadata {
+  const description = getSiteDescription(locale);
+  const homeTitle = `${siteConfig.name}｜${siteConfig.tagline}`;
+  return {
+    ...buildMetadata({
+      title: homeTitle,
+      description,
+      path: "/",
+      locale,
+    }),
+    title: {
+      absolute: homeTitle,
     },
   };
 }

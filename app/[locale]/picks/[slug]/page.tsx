@@ -1,25 +1,33 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { ArticleView } from "@/components/views/ArticleView";
+import { isPrefixedLocale, prefixedLocales, type PrefixedLocale } from "@/content/i18n/config";
 import { siteConfig } from "@/content/site";
 import { getAllArticles, getArticleBySlug } from "@/lib/articles";
 import { localizeArticle } from "@/lib/i18n/articles";
 import { buildMetadata } from "@/lib/metadata";
 
 type PageProps = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 };
 
 export function generateStaticParams() {
-  return getAllArticles().map((article) => ({ slug: article.slug }));
+  const articles = getAllArticles();
+  return prefixedLocales.flatMap((locale) =>
+    articles.map((article) => ({ locale, slug: article.slug })),
+  );
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  if (!isPrefixedLocale(locale)) {
+    return {};
+  }
   const base = getArticleBySlug(slug);
   if (!base) {
     return {};
   }
-  const article = localizeArticle(base, "ja");
+  const article = localizeArticle(base, locale);
   const metadata = buildMetadata({
     title: article.seoTitle,
     description: article.description,
@@ -27,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     image: article.image.src,
     type: "article",
     publishedTime: article.publishedAt,
-    locale: "ja",
+    locale,
   });
 
   return {
@@ -38,7 +46,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function ArticlePage({ params }: PageProps) {
-  const { slug } = await params;
-  return <ArticleView slug={slug} locale="ja" />;
+export default async function LocaleArticlePage({ params }: PageProps) {
+  const { locale, slug } = await params;
+  if (!isPrefixedLocale(locale)) {
+    notFound();
+  }
+  return <ArticleView slug={slug} locale={locale as PrefixedLocale} />;
 }

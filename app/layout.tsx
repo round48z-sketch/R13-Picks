@@ -2,7 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Noto_Sans_JP } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { HtmlLang } from "@/components/HtmlLang";
 import { getSiteUrl, siteConfig } from "@/content/site";
+import { getSiteDescription } from "@/content/i18n/site";
 import "./globals.css";
 
 const sans = Noto_Sans_JP({
@@ -31,7 +33,7 @@ export const metadata: Metadata = {
     default: `${siteConfig.name}｜${siteConfig.tagline}`,
     template: `%s｜${siteConfig.name}`,
   },
-  description: siteConfig.description,
+  description: getSiteDescription("ja"),
   applicationName: siteConfig.name,
   openGraph: {
     siteName: siteConfig.name,
@@ -48,6 +50,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="ja" className={`${sans.variable} ${display.variable}`}>
       <body>
+        <HtmlLang />
         <div className="site-shell">
           <Header />
           <main className="site-main">{children}</main>

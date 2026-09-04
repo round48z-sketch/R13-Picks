@@ -110,6 +110,14 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
+}
+
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
 }
 
 .desktop-nav {
@@ -167,6 +175,70 @@ h3 {
 .menu-button.is-open span:last-child {
   top: 20px;
   transform: rotate(-45deg);
+}
+
+.language-switcher {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.language-switcher__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  font-family: var(--display);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.language-switcher__button:hover {
+  color: var(--ink);
+  border-color: rgba(245, 245, 245, 0.28);
+}
+
+.language-switcher__icon {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.language-switcher__code {
+  line-height: 1;
+}
+
+.language-switcher__menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 50;
+  min-width: 148px;
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+  background: #111;
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.language-switcher__menu a {
+  display: block;
+  padding: 10px 14px;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.language-switcher__menu a:hover,
+.language-switcher__menu a.is-active {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .mobile-menu {

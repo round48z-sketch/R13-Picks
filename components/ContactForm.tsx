@@ -1,10 +1,16 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { usePathname } from "next/navigation";
+import { getUi } from "@/content/i18n/ui";
+import { getLocaleFromPathname } from "@/lib/i18n/path";
 
 type FormStatus = "idle" | "submitting" | "success" | "error";
 
 export function ContactForm() {
+  const pathname = usePathname() || "/";
+  const locale = getLocaleFromPathname(pathname);
+  const ui = getUi(locale);
   const [status, setStatus] = useState<FormStatus>("idle");
   const [error, setError] = useState("");
   const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
@@ -21,7 +27,7 @@ export function ContactForm() {
 
     if (!accessKey) {
       setStatus("error");
-      setError("送信の準備がまだ完了していません。しばらくしてからお試しください。");
+      setError(ui.formErrorNotReady);
       return;
     }
 
@@ -40,7 +46,7 @@ export function ContactForm() {
           name: String(data.get("name") ?? "").trim(),
           email: String(data.get("email") ?? "").trim(),
           message: String(data.get("message") ?? "").trim(),
-          subject: `R13 Picks お問い合わせ（${String(data.get("name") ?? "").trim()}）`,
+          subject: `${ui.formSubject}（${String(data.get("name") ?? "").trim()}）`,
           from_name: "R13 Picks",
         }),
       });
@@ -49,7 +55,7 @@ export function ContactForm() {
 
       if (!response.ok || !result.success) {
         setStatus("error");
-        setError(result.message || "送信に失敗しました。時間をおいてもう一度お試しください。");
+        setError(result.message || ui.formErrorGeneric);
         return;
       }
 
@@ -57,14 +63,14 @@ export function ContactForm() {
       setStatus("success");
     } catch {
       setStatus("error");
-      setError("送信に失敗しました。通信状況を確認してもう一度お試しください。");
+      setError(ui.formErrorRetry);
     }
   }
 
   if (status === "success") {
     return (
       <p className="form-note form-note--success" role="status">
-        お問い合わせを送信しました。
+        {ui.formSuccess}
       </p>
     );
   }
@@ -72,19 +78,19 @@ export function ContactForm() {
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
       <label className="honeypot" aria-hidden="true">
-        会社名
+        {ui.formCompany}
         <input type="text" name="company" tabIndex={-1} autoComplete="off" />
       </label>
       <label>
-        お名前
+        {ui.formName}
         <input type="text" name="name" required autoComplete="name" />
       </label>
       <label>
-        メールアドレス
+        {ui.formEmail}
         <input type="email" name="email" required autoComplete="email" />
       </label>
       <label>
-        メッセージ
+        {ui.formMessage}
         <textarea name="message" rows={6} required />
       </label>
       {status === "error" ? (
@@ -93,7 +99,7 @@ export function ContactForm() {
         </p>
       ) : null}
       <button type="submit" className="cta-button" disabled={status === "submitting"}>
-        {status === "submitting" ? "送信中…" : "送信する"}
+        {status === "submitting" ? ui.formSubmitting : ui.formSubmit}
       </button>
     </form>
   );

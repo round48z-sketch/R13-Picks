@@ -30,9 +30,9 @@ export function getRelatedArticles(article: Article, limit = 2) {
     .slice(0, limit);
 }
 
-export function formatDate(isoDate: string) {
+export function formatDate(isoDate: string, locale: string = "ja-JP") {
   const date = new Date(`${isoDate}T00:00:00`);
-  return new Intl.DateTimeFormat("ja-JP", {
+  return new Intl.DateTimeFormat(locale, {
     year: "numeric",
     month: "long",
     day: "numeric",
