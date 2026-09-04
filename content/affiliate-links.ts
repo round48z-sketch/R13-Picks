@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "gluck-anchor-chain-bracelet":
+    "https://px.a8.net/svt/ejp?a8mat=4BC2EG+6NXQCA+56MC+BW0YB&a8ejpredirect=https%3A%2F%2Fgluck.style%2Fproducts%2Fanchor-chain-bracelet",
   "gluck-horseshoe-necklace":
     "https://px.a8.net/svt/ejp?a8mat=4BC2EG+6NXQCA+56MC+BW0YB&a8ejpredirect=https%3A%2F%2Fgluck.style%2Fproducts%2Fhorseshoe-necklace",
   "self-reflection-moon-to-moon":
