@@ -130,7 +130,7 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
 
         {article.note ? <p>{article.note}</p> : null}
 
-        <div className="cta-wrap">
+        <div className="article-cta">
           <AffiliateButton slug={article.slug} label={article.ctaLabel} />
         </div>
 
@@ -139,10 +139,6 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
 
       <div className="narrow">
         <RelatedArticles articles={related} locale={locale} />
-      </div>
-
-      <div className="sticky-cta">
-        <AffiliateButton slug={article.slug} label={article.ctaLabel} />
       </div>
     </article>
   );

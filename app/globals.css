@@ -572,9 +572,16 @@ h3 {
   margin-top: 8px;
 }
 
-.cta-wrap {
-  display: none;
-  margin: 40px 0 16px;
+.article-cta {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+  background: rgba(11, 11, 11, 0.92);
+  backdrop-filter: blur(18px);
+  border-top: 1px solid var(--line);
 }
 
 .cta-button {
@@ -597,18 +604,6 @@ h3 {
   background: #f3f3f3;
   color: #111;
   border-color: #f3f3f3;
-}
-
-.sticky-cta {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 30;
-  padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
-  background: rgba(11, 11, 11, 0.92);
-  backdrop-filter: blur(18px);
-  border-top: 1px solid var(--line);
 }
 
 .ad-slot.is-idle {
@@ -711,8 +706,7 @@ h3 {
 
 @media (min-width: 980px) {
   .menu-button,
-  .mobile-menu,
-  .sticky-cta {
+  .mobile-menu {
     display: none;
   }
 
@@ -773,7 +767,16 @@ h3 {
     min-width: 280px;
   }
 
-  .cta-wrap {
-    display: block;
+  .article-cta {
+    position: static;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    z-index: auto;
+    margin: 40px 0 16px;
+    padding: 0;
+    background: transparent;
+    backdrop-filter: none;
+    border-top: none;
   }
 }
