@@ -1,6 +1,51 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "cofo-chair-lite": {
+    title: "用黑色整理的性价比向工作椅。COFO Chair Lite",
+    seoTitle: "COFO Chair Lite｜黑色网布办公椅 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 COFO Chair Lite。以黑色基调的网布规格与附头枕结构等，整理其作为容易搭配桌面环境的办公椅的特征。",
+    productType: "办公椅",
+    excerpt: "以黑色基调的网布规格，容易搭配桌面空间的工作椅。",
+    intro:
+      "COFO Chair Lite 是 COFO 的办公椅。销售页面说明可选黑色机身与椅脚配色，靠背与座面为 ProMesh，并附头枕与可调扶手。本文将它作为容易放入黑色基调、极简工作空间，并在兼顾价格与功能时可作为候选的型号来介绍。由于价格与库存可能变动，最新的价格与库存请在销售页面确认。",
+    pointsTitle: "COFO Chair Lite 的特点",
+    points: [
+      "厂商为 COFO（コフォ）",
+      "系列为 COFO Chair",
+      "销售页面介绍为办公椅",
+      "机身颜色与椅脚颜色有黑色可选（销售页面说明）",
+      "靠背与座面材质为 ProMesh（销售页面说明）",
+      "附头枕、附可调扶手（销售页面说明）",
+      "附衣架（销售页面说明）",
+      "脚轮为 PU（聚氨酯）（销售页面说明）",
+      "重量为 20kg（销售页面说明）",
+    ],
+    sections: [
+      {
+        title: "融入黑色基调桌面空间的外观",
+        body: "销售页面说明可选黑色机身与椅脚配色。ProMesh 靠背在视觉上更显轻盈，与黑色桌子、显示器、数码产品并列时，不容易显得过于张扬。也适合极简的居家办公环境，或色彩数量较少的工作间。",
+      },
+      {
+        title: "作为作业用椅可确认的要点",
+        body: "销售页面说明附头枕与可调扶手，容易作为桌面作业向的办公椅来考虑。也可确认靠背与座面采用 ProMesh。尺寸说明包括宽 660mm、深 680mm、高 1150〜1260mm、座高 480〜560mm 等。详细规格请在销售页面确认。",
+      },
+    ],
+    recommendedTitle: "适合想引入的人",
+    recommendedFor: [
+      "想整理黑色基调桌面环境的人",
+      "正在考虑网布系办公椅的人",
+      "想把椅子搭配到居家办公或桌面环境打造中的人",
+      "想把附头枕机型列入候选的人",
+      "想兼顾价格与功能来挑选的人",
+    ],
+    summary:
+      "COFO Chair Lite 是一款可选黑色基调外观的网布系办公椅。具备头枕与可调扶手等较容易作为作业用椅确认的结构，也容易搭配以黑色整理的工作空间。最新的价格、库存与规格详情请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 COFO Chair Lite 办公椅",
+  },
   "okamura-sylphy-c685xr-fmp1": {
     title: "用黑色整理出的高机能工作椅。Okamura Sylphy C685XR-FMP1",
     seoTitle: "Okamura Sylphy C685XR-FMP1｜黑色网布工作椅 | R13 Picks",

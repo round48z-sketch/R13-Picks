@@ -1,6 +1,51 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "cofo-chair-lite": {
+    title: "A value-minded work chair finished in black. COFO Chair Lite",
+    seoTitle: "COFO Chair Lite｜Black mesh office chair | R13 Picks",
+    description:
+      "An R13 Picks look at the COFO Chair Lite. Focused on the black-based mesh build and headrest configuration that can fit a desk setup.",
+    productType: "Office chair",
+    excerpt: "A black-based mesh work chair that fits easily into a desk space.",
+    intro:
+      "The COFO Chair Lite is an office chair from COFO. The product page lists black body and leg color options, a promesh back and seat, a headrest, and adjustable arms. It is introduced here as a candidate when you want a chair that sits easily in a black, minimal workspace and when you want to balance price and features. Price and stock can change, so check the product page for the latest price and availability.",
+    pointsTitle: "COFO Chair Lite highlights",
+    points: [
+      "Manufacturer: COFO",
+      "Series: COFO Chair",
+      "Listed as an office chair on the product page",
+      "Black body and leg colors available (per product page)",
+      "Back and seat material: promesh (per product page)",
+      "Headrest included, adjustable arms included (per product page)",
+      "Hanger included (per product page)",
+      "Casters: PU (polyurethane) (per product page)",
+      "Weight: 20 kg (per product page)",
+    ],
+    sections: [
+      {
+        title: "A look that fits a black desk space",
+        body: "The product page lists black body and leg color options. A promesh back tends to look visually light, and it does not overassert itself when placed with a black desk, monitor, and gadgets. The look is easy to bring into a minimal work-from-home setup or a work room with restrained color.",
+      },
+      {
+        title: "Points you can confirm as a task chair",
+        body: "The product page lists a headrest and adjustable arms, making it easy to consider as a desk-oriented office chair. You can also confirm promesh on both the back and seat. Listed sizes include width 660 mm, depth 680 mm, height 1150–1260 mm, and seat height 480–560 mm. Check the product page for full specifications.",
+      },
+    ],
+    recommendedTitle: "Who may want to bring it in",
+    recommendedFor: [
+      "Anyone who wants to refine a black-based desk setup",
+      "Anyone considering a mesh-style office chair",
+      "Anyone who wants a chair that fits remote work or desk-environment building",
+      "Anyone who wants a headrest model as a candidate",
+      "Anyone who wants to balance price and features",
+    ],
+    summary:
+      "The COFO Chair Lite is a mesh-style office chair available in a black-based look. It has a configuration that is easy to check as a task chair, including a headrest and adjustable arms, and it pairs well with black-finished workspaces. Check the product page for the latest price, stock, and full specifications.",
+    note: "Check the product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black COFO Chair Lite office chair",
+  },
   "okamura-sylphy-c685xr-fmp1": {
     title: "A high-function work chair finished in black. Okamura Sylphy C685XR-FMP1",
     seoTitle: "Okamura Sylphy C685XR-FMP1｜Black mesh work chair | R13 Picks",

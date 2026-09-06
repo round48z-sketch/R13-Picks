@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "cofo-chair-lite":
+    "https://px.a8.net/svt/ejp?a8mat=4BC3YK+EPVTY2+486W+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.kagg.jp%2Foffice-chairs%2Fcofo%2F370000%2F1378398%2F",
   "okamura-sylphy-c685xr-fmp1":
     "https://px.a8.net/svt/ejp?a8mat=4BC3YK+EPVTY2+486W+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.kagg.jp%2Foffice-chairs%2Fokamura%2F11561%2F67473%2F",
   "life-pocket-sacoche-wallet":
