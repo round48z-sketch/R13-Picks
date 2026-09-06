@@ -1,6 +1,52 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "kokuyo-invent-tkg-d127e6am10n": {
+    title: "Work surface and storage in one. KOKUYO INVENT single-pedestal desk",
+    seoTitle: "KOKUYO INVENT TKG-D127E6AM10N｜Black-leg office desk | R13 Picks",
+    description:
+      "An R13 Picks look at the KOKUYO INVENT series TKG-D127E6AM10N. Presented as an office desk with black legs and single-pedestal storage that fits a calm desk setup.",
+    productType: "Office desk",
+    excerpt: "An office desk with black legs and single-pedestal storage that helps combine work space and storage.",
+    intro:
+      "The KOKUYO INVENT series TKG-D127E6AM10N is a single-pedestal office desk. The product page lists a black body color with a white natural top. The combination of the top and black legs fits black- or gray-based rooms easily, and it is introduced here as a candidate when you want a work surface and pedestal storage in one. Price and stock can change, so check the product page for the latest price and availability.",
+    pointsTitle: "TKG-D127E6AM10N highlights",
+    points: [
+      "Manufacturer: KOKUYO",
+      "Series: INVENT",
+      "Model: TKG-D127E6AM10N",
+      "Listed as an office desk / single-pedestal desk on the product page",
+      "Body color: black; top color: white natural (per product page)",
+      "Size: width 1200 mm, depth 700 mm, height 700 mm (per product page)",
+      "Legs: L-shaped; leg material: steel (per product page)",
+      "Top material: melamine decorative board (per product page)",
+      "Two cable holes, tray included, modesty panel included (per product page)",
+      "Pedestal uses a cylinder lock / all-lock mechanism (per product page)",
+    ],
+    sections: [
+      {
+        title: "A look that fits black- or gray-based spaces",
+        body: "The product page lists a black body color with a white natural top. The pairing of black legs and a lighter top is easy to bring into a desk setup finished in black or gray. The look also suits offices or work-from-home rooms where you want restrained decoration.",
+      },
+      {
+        title: "Combining work space and single-pedestal storage",
+        body: "As a single-pedestal desk, it makes it easier to combine a work surface and drawer storage in one unit. The product page also lists two cable holes, a center drawer, and a tray. It is a candidate when you want to keep desk tools organized while working calmly. Check the product page for drawer interior sizes and load ratings.",
+      },
+    ],
+    recommendedTitle: "Who may want to bring it in",
+    recommendedFor: [
+      "Anyone who wants to refine a black- or gray-based desk setup",
+      "Anyone who wants work space and storage in one desk",
+      "Anyone looking for a practical desk that fits both office and remote work",
+      "Anyone who wants a domestic-brand staple desk series as a candidate",
+      "Anyone who wants a calm tone for a work room",
+    ],
+    summary:
+      "The KOKUYO INVENT TKG-D127E6AM10N is an office desk with black legs and single-pedestal storage. It pairs easily with black- or gray-based spaces and is a candidate when you want a work surface and storage in one. Check the product page for the latest price, stock, and full specifications.",
+    note: "Check the product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "KOKUYO INVENT TKG-D127E6AM10N single-pedestal office desk",
+  },
   "cofo-chair-lite": {
     title: "A value-minded work chair finished in black. COFO Chair Lite",
     seoTitle: "COFO Chair Lite｜Black mesh office chair | R13 Picks",

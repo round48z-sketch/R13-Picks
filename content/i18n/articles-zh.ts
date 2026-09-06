@@ -1,6 +1,52 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "kokuyo-invent-tkg-d127e6am10n": {
+    title: "把作业与收纳合为一体。国誉 INVENT 单边柜书桌",
+    seoTitle: "国誉 INVENT TKG-D127E6AM10N｜黑脚办公桌 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍国誉 INVENT（Invent）系列 TKG-D127E6AM10N。以黑色椅脚与单边收纳，整理为容易搭配桌面环境的办公桌。",
+    productType: "办公桌",
+    excerpt: "以黑色椅脚与单边收纳，更容易把作业空间与收纳整理在一起的办公桌。",
+    intro:
+      "国誉的 INVENT（Invent）系列 TKG-D127E6AM10N 是一款单边柜型办公桌。销售页面说明其机身颜色为黑色、桌面颜色为白自然色。桌面与黑色椅脚的组合，也容易搭配黑色或灰色基调的空间，适合想把作业面与单边收纳合为一体时列入候选。由于价格与库存可能变动，最新的价格与库存请在销售页面确认。",
+    pointsTitle: "TKG-D127E6AM10N 的特点",
+    points: [
+      "厂商为国誉（KOKUYO）",
+      "系列为 INVENT（Invent）",
+      "型号为 TKG-D127E6AM10N",
+      "销售页面介绍为办公桌／单边柜桌",
+      "机身颜色为黑色，桌面颜色为白自然色（销售页面说明）",
+      "尺寸为宽 1200mm、深 700mm、高 700mm（销售页面说明）",
+      "椅脚为 L 形脚，椅脚材质为钢（销售页面说明）",
+      "桌面材质为三聚氰胺饰面板（销售页面说明）",
+      "穿线孔 2 处、附托盘、附挡板（销售页面说明）",
+      "柜体为圆柱锁／全锁机构（销售页面说明）",
+    ],
+    sections: [
+      {
+        title: "融入黑、灰基调空间的外观",
+        body: "销售页面说明机身颜色为黑色、桌面为白自然色。黑色椅脚与较亮桌面的组合，也容易放入以黑、灰整理的桌面环境。适合想减少花哨装饰的办公室，或居家办公用的工作间。",
+      },
+      {
+        title: "作业空间与单边收纳的兼顾",
+        body: "作为单边柜桌，更容易用一张桌子同时安排桌面作业区与抽屉收纳。销售页面也说明有 2 处穿线孔、中央抽屉与托盘等。适合想一边整理桌面周边物品、一边沉稳作业时列入候选。抽屉内部尺寸与承重详情请在销售页面确认。",
+      },
+    ],
+    recommendedTitle: "适合想引入的人",
+    recommendedFor: [
+      "想整理黑、灰基调桌面环境的人",
+      "想用一张桌子同时整理作业空间与收纳的人",
+      "正在寻找办公室与居家办公都好用的实用书桌的人",
+      "想把国内厂商的定番书桌系列列入候选的人",
+      "想用沉稳色调整理工作间的人",
+    ],
+    summary:
+      "国誉 INVENT TKG-D127E6AM10N 是一款具备黑色椅脚与单边收纳的办公桌。也容易搭配黑、灰基调的空间，适合想把作业面与收纳合为一体时列入候选。最新的价格、库存与规格详情请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "国誉 INVENT TKG-D127E6AM10N 单边柜办公桌",
+  },
   "cofo-chair-lite": {
     title: "用黑色整理的性价比向工作椅。COFO Chair Lite",
     seoTitle: "COFO Chair Lite｜黑色网布办公椅 | R13 Picks",
