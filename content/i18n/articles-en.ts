@@ -1,6 +1,51 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "okamura-sylphy-c685xr-fmp1": {
+    title: "A high-function work chair finished in black. Okamura Sylphy C685XR-FMP1",
+    seoTitle: "Okamura Sylphy C685XR-FMP1｜Black mesh work chair | R13 Picks",
+    description:
+      "An R13 Picks look at the Okamura Sylphy series C685XR-FMP1. Focused on the black-based mesh back and how the office chair fits a calm desk setup.",
+    productType: "Office chair",
+    excerpt: "A black-based mesh-back work chair that tightens up a desk space.",
+    intro:
+      "The Okamura Sylphy series C685XR-FMP1 is a black-based office chair. The product page lists a high-back, adjustable-arm configuration, with a mesh back and cushion seat. It is introduced here as a model that balances a calm look for black-coordinated workspaces with the practicality of a task chair. Price and stock can change, so check the product page for the latest price and availability.",
+    pointsTitle: "C685XR-FMP1 highlights",
+    points: [
+      "Manufacturer: Okamura",
+      "Series: Sylphy",
+      "Model: C685XR-FMP1",
+      "Listed as an office chair on the product page",
+      "High-back, adjustable-arm configuration",
+      "Back material: mesh; seat material: cushion (per product page)",
+      "Back and leg colors: black (per product page)",
+      "Five-star base with nylon dual-wheel casters (per product page)",
+      "The Sylphy series is described as having awards such as the Good Design Award",
+    ],
+    sections: [
+      {
+        title: "A design that fits a black-coordinated space",
+        body: "The product page lists a black back color and black leg color. A mesh back tends to look visually light, and it can help tighten the look of a room when placed with a black desk, monitor, and gadgets. The look is easy to bring into a work room or work-from-home setup that you want to keep restrained and black-focused.",
+      },
+      {
+        title: "Points to check as a task chair",
+        body: "With a high back and adjustable arms, it is easy to consider as a desk-oriented office chair. The product page lists a mesh back and cushion seat, making it a candidate when you are looking for a chair for longer work sessions. Listed sizes include width 700 mm, depth 700 mm, height 954–1054 mm, and seat height 420–520 mm. Check the product page for full specifications.",
+      },
+    ],
+    recommendedTitle: "Who may want to bring it in",
+    recommendedFor: [
+      "Anyone who wants to refine a black-coordinated desk setup",
+      "Anyone considering a mesh-back office chair",
+      "Anyone looking for a work chair for remote work or a work room",
+      "Anyone who wants a domestic-brand staple series as a candidate",
+      "Anyone who wants a calm tone for their desk space",
+    ],
+    summary:
+      "The Okamura Sylphy C685XR-FMP1 is an office chair with a black-based mesh back. It pairs easily with a black-finished workspace, and its task-chair configuration is easy to confirm. Check the product page for the latest price, stock, and full specifications.",
+    note: "Check the product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black Okamura Sylphy C685XR-FMP1 office chair",
+  },
   "life-pocket-sacoche-wallet": {
     title: "Carry your wallet light. LIFE POCKET Sacoche Wallet",
     seoTitle: "LIFE POCKET Sacoche Wallet｜Black sacoche-style wallet | R13 Picks",

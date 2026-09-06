@@ -1,6 +1,51 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "okamura-sylphy-c685xr-fmp1": {
+    title: "用黑色整理出的高机能工作椅。Okamura Sylphy C685XR-FMP1",
+    seoTitle: "Okamura Sylphy C685XR-FMP1｜黑色网布工作椅 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Okamura Sylphy（Sylphy）系列 C685XR-FMP1。以黑色基调的网布靠背，以及适合桌面空间的办公椅特征为核心整理。",
+    productType: "办公椅",
+    excerpt: "以黑色基调的网布靠背，收紧桌面空间的工作椅。",
+    intro:
+      "Okamura 的 Sylphy（Sylphy）系列 C685XR-FMP1 是一款以黑色为基调的办公椅。销售页面将其介绍为高背、可调扶手结构，靠背为网布、座面为坐垫。本文将它作为兼顾适合黑色统一工作空间的沉稳外观，与作业用椅功能性的型号来介绍。由于价格与库存可能变动，最新的价格与库存请在销售页面确认。",
+    pointsTitle: "C685XR-FMP1 的特点",
+    points: [
+      "厂商为 Okamura（オカムラ）",
+      "系列为 Sylphy（Sylphy）",
+      "型号为 C685XR-FMP1",
+      "销售页面介绍为办公椅",
+      "高背、可调扶手结构",
+      "靠背材质为网布，座面材质为坐垫（销售页面说明）",
+      "靠背颜色与椅脚颜色为黑色（销售页面说明）",
+      "五星脚、尼龙双轮脚轮（销售页面说明）",
+      "Sylphy 系列有良好设计奖等获奖说明",
+    ],
+    sections: [
+      {
+        title: "融入黑色统一空间的设计",
+        body: "销售页面说明其靠背颜色与椅脚颜色为黑色。网布靠背在视觉上更显轻盈，与黑色桌子、显示器、数码产品并列时，更容易让空间显得利落。也适合想减少花哨装饰、以黑色统一工作间或居家办公环境的人。",
+      },
+      {
+        title: "作为作业用椅可关注的要点",
+        body: "具备高背与可调扶手结构，容易作为桌面作业向的办公椅来考虑。销售页面说明靠背为网布、座面为坐垫，适合作为寻找长时间作业用椅时的候选。尺寸说明包括宽 700mm、深 700mm、高 954〜1054mm、座高 420〜520mm 等。详细规格请在销售页面确认。",
+      },
+    ],
+    recommendedTitle: "适合想引入的人",
+    recommendedFor: [
+      "想整理黑色统一桌面环境的人",
+      "正在考虑网布靠背办公椅的人",
+      "正在寻找居家办公或工作间用工作椅的人",
+      "想把国内厂商的定番系列列入候选的人",
+      "想把桌面空间整理成沉稳色调的人",
+    ],
+    summary:
+      "Okamura Sylphy C685XR-FMP1 是一款具备黑色基调网布靠背的办公椅。容易搭配以黑色整理的工作空间，作为作业用椅的结构也较容易确认。最新的价格、库存与规格详情请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 Okamura Sylphy C685XR-FMP1 办公椅",
+  },
   "life-pocket-sacoche-wallet": {
     title: "轻装出门带着钱包走。LIFE POCKET Sacoche Wallet",
     seoTitle: "LIFE POCKET Sacoche Wallet｜黑色单肩小包式钱包 | R13 Picks",
