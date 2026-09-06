@@ -1,6 +1,51 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "itoki-czr-147bac-1w9": {
+    title: "Storage and presence in one. ITOKI CZR-147BAC-1W9 office desk",
+    seoTitle: "ITOKI CZR-147BAC-1W9｜Double-pedestal office desk | R13 Picks",
+    description:
+      "An R13 Picks look at the ITOKI CZR series CZR-147BAC-1W9. Presented as a double-pedestal desk with a light top and black body, focused on storage and a calm look.",
+    productType: "Office desk",
+    excerpt: "A double-pedestal desk with a light top and black body. Easy to combine storage and a solid presence.",
+    intro:
+      "The ITOKI CZR series CZR-147BAC-1W9 is a double-pedestal office desk. The product page lists a White W top and Black T body. It is introduced here as a practical, steady standard desk for anyone who wants solid storage capacity. Price and stock can change, so check the product page for the latest price and availability.",
+    pointsTitle: "A double-pedestal desk with presence and storage",
+    points: [
+      "Manufacturer: ITOKI",
+      "Series: CZR",
+      "Model: CZR-147BAC-1W9",
+      "Listed as an office desk / double-pedestal desk on the product page",
+      "Top color: White W; body color: Black T (per product page)",
+      "Size: width 1400 mm, depth 700 mm (D700), height 720 mm (per product page)",
+      "Three drawer levels on both left and right, A4 standard (per product page)",
+      "Cylinder lock and shallow center drawer configuration can be confirmed (per product page)",
+      "Top: melamine decorative board; body: steel with painted finish (per product page)",
+      "Tray included, modesty panel included (per product page)",
+    ],
+    sections: [
+      {
+        title: "A composed design: light top × black body",
+        body: "The product page lists a White W top with a Black T body. The contrast of a light top and black body can tighten a room without feeling overly industrial. It pairs easily with black- or gray-based workspaces, and the look is calm enough for offices as well as work rooms and remote-work spaces.",
+      },
+      {
+        title: "Storage that helps organize a work setup",
+        body: "As a double-pedestal desk, it makes it easier to keep drawer storage on both sides. The product page also lists a cylinder lock, a shallow center drawer, and a 700 mm depth (D700). It is a candidate when you care more about storage, workability, and stability than flashy looks. Check the product page for full sizes and specifications.",
+      },
+    ],
+    recommendedTitle: "Who it may suit",
+    recommendedFor: [
+      "Anyone looking for a desk with strong storage capacity",
+      "Anyone who wants a black- or gray-based workspace",
+      "Anyone who wants a practical desk that fits both remote work and the office",
+      "Anyone who wants a calm domestic-brand desk without too much flash",
+    ],
+    summary:
+      "The ITOKI CZR-147BAC-1W9 is a double-pedestal office desk with a light top and black body. It makes it easier to balance storage and presence, and it pairs well with a calm desk setup. Check the product page for the latest price, stock, and full specifications.",
+    note: "Check the product page for the latest price, stock, and detailed specifications.",
+    ctaLabel: "View product",
+    imageAlt: "ITOKI CZR-147BAC-1W9 double-pedestal office desk",
+  },
   "kokuyo-invent-tkg-d127e6am10n": {
     title: "Work surface and storage in one. KOKUYO INVENT single-pedestal desk",
     seoTitle: "KOKUYO INVENT TKG-D127E6AM10N｜Black-leg office desk | R13 Picks",
