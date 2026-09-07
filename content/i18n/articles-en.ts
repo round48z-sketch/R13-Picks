@@ -1,6 +1,59 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "tamas-tbs86k": {
+    title: "Noise control and gaming in one set. tama's TBS86K",
+    seoTitle: "tama's TBS86K｜ANC true wireless earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the Tamadenshi tama's TBS86K. Focused on features listed on the product page, including Bluetooth 6.0, AAC, ANC, game mode, and fast charging.",
+    productType: "Bluetooth true wireless earbuds",
+    excerpt:
+      "Approachably priced true wireless earbuds with ANC and game mode that are easy to consider for everyday use.",
+    intro:
+      "The tama's TBS86K are Bluetooth true wireless earbuds from Tamadenshi. The product page lists a practical setup for commuting, everyday listening, videos, and gaming at an approachable price. With a simple black look as well, they are introduced here as an everyday listening candidate. Price and stock can change, so check the official online shop for the latest price and availability.",
+    pointsTitle: "What is the tama's TBS86K",
+    points: [
+      "Brand: Tamadenshi / tama's",
+      "Product name: TBS86K",
+      "Bluetooth® standard Ver. 6.0 (per product page)",
+      "AAC codec support (per product page)",
+      "Active noise canceling (per product page)",
+      "Game mode (per product page)",
+      "Large 9mm driver unit (per product page)",
+      "Microphone for hands-free calls (per product page)",
+      "Fast charging: about 1 hour of music from a 10-minute charge (per product page)",
+      "Up to 6.5 hours on the earbuds alone (per product page)",
+      "Up to 26 hours of music with the charging cradle (per product page)",
+      "Black-based look that fits everyday use",
+    ],
+    sections: [
+      {
+        title: "Easy to pick up and easy to use",
+        body: "The product page lists Bluetooth® standard Ver. 6.0 for connection stability and power efficiency. Battery-wise, it lists up to 6.5 hours on the earbuds alone and up to 26 hours of music with the charging cradle, plus fast charging that provides about 1 hour of music from a 10-minute charge. That setup is practical for commuting or topping up between outings. Playback time varies with use conditions.",
+      },
+      {
+        title: "Sound and features",
+        body: "The product page lists AAC codec support and a large 9mm driver unit. Active noise canceling and game mode are also listed, making them a candidate if you want one set for music, videos, and gaming. Sound preference and how much noise reduction you feel differ by person and environment, so check the official online shop for details.",
+      },
+      {
+        title: "Calls and everyday use",
+        body: "A microphone for hands-free calls makes them easier to use while out or on the move. The simple black look is low-key, so they fit well as a minimal black gadget for daily carry.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone looking for true wireless earbuds around the 5,000 yen range",
+      "Anyone who likes simple black earbuds",
+      "Anyone who wants one set for music, videos, and gaming",
+      "Anyone who wants a fast-charging model",
+      "Anyone considering an approachable ANC option",
+    ],
+    summary:
+      "The tama's TBS86K are true wireless earbuds with everyday features that are easy to check, including Bluetooth 6.0, fast charging, AAC, ANC, and game mode. With a simple black look as well, they are a candidate when you want to balance price and usability. Check the official online shop for the latest price and stock.",
+    note: "Check the official online shop for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black tama's TBS86K true wireless earbuds and charging case",
+  },
   "edifier-w280nb-pro": {
     title: "Quieter commutes with high-resolution sound. EDIFIER W280NB Pro",
     seoTitle: "EDIFIER W280NB Pro｜Hybrid ANC neckband earbuds | R13 Picks",

@@ -1,6 +1,58 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "tamas-tbs86k": {
+    title: "降噪与游戏，这一副就能兼顾。tama's TBS86K",
+    seoTitle: "tama's TBS86K｜支持 ANC 的真无线耳机 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍多摩电子工业 tama's TBS86K。以销售页面说明的 Bluetooth 6.0、AAC、ANC、游戏模式与快充等特征为核心整理。",
+    productType: "Bluetooth 真无线耳机",
+    excerpt: "具备 ANC 与游戏模式，在易入手价位上较适合日常使用的真无线耳机。",
+    intro:
+      "tama's TBS86K 是多摩电子工业的 Bluetooth 真无线耳机。销售页面说明其在易入手价位上，较适合通勤、日常聆听、看视频与游戏等场景。加上黑色系简洁外观，本文将其作为日常聆听候选来介绍。由于价格与库存可能变动，最新的价格与库存请在官方网店确认。",
+    pointsTitle: "tama's TBS86K 是什么",
+    points: [
+      "品牌为多摩电子工业 / tama's",
+      "商品名为 TBS86K",
+      "采用 Bluetooth® 标准规格 Ver.6.0（销售页面说明）",
+      "支持 AAC 高音质编解码（销售页面说明）",
+      "支持主动降噪（销售页面说明）",
+      "搭载游戏模式（销售页面说明）",
+      "搭载大口径 9mm 驱动单元（销售页面说明）",
+      "搭载支持免提通话的麦克风（销售页面说明）",
+      "支持快充：充电 10 分钟约可播放音乐 1 小时（销售页面说明）",
+      "仅耳机最长可播放 6.5 小时（销售页面说明）",
+      "搭配充电座最长可播放音乐 26 小时（销售页面说明）",
+      "黑色基调，外观适合日常使用",
+    ],
+    sections: [
+      {
+        title: "易入手与好用性",
+        body: "销售页面说明采用通信稳定性与省电性出色的 Bluetooth® 标准规格 Ver.6.0。续航方面，仅耳机最长可播放 6.5 小时，搭配充电座最长可播放音乐 26 小时，并支持充电 10 分钟约可播放音乐 1 小时的快充。适合通勤或外出间隙补电的日常使用结构。播放时间会因使用条件而变化。",
+      },
+      {
+        title: "音质与功能",
+        body: "销售页面说明支持 AAC 高音质编解码，并搭载大口径 9mm 驱动单元。同时列出主动降噪与游戏模式，适合想用一副耳机兼顾音乐、视频与游戏时确认。音质偏好与降噪感受因人与环境而异，详情请在官方网店确认。",
+      },
+      {
+        title: "通话与日常使用",
+        body: "搭载支持免提通话的麦克风，外出或移动中通话也较方便。黑色基调、风格不夸张的简洁外观，也较容易作为极简黑色数码单品融入日常。",
+      },
+    ],
+    recommendedTitle: "适合什么样的人",
+    recommendedFor: [
+      "正在以约 5,000 日元价位寻找真无线耳机的人",
+      "喜欢黑色系简洁耳机的人",
+      "不只听音乐，也想用于视频与游戏的人",
+      "想要支持快充机型的人",
+      "正在考虑易入手 ANC 机型的人",
+    ],
+    summary:
+      "tama's TBS86K 具备 Bluetooth 6.0、快充、AAC、ANC 与游戏模式等日常使用中较容易确认的功能。加上黑色基调的简洁外观，适合想兼顾价格与易用性时列入候选。最新的价格与库存请在官方网店确认。",
+    note: "最新的价格与库存请在官方网店确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 tama's TBS86K 真无线耳机与充电盒",
+  },
   "edifier-w280nb-pro": {
     title: "兼顾低噪通勤与高解析音质。EDIFIER W280NB Pro",
     seoTitle: "EDIFIER W280NB Pro｜支持混合 ANC 的颈挂式耳机 | R13 Picks",

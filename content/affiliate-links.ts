@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "tamas-tbs86k":
+    "https://px.a8.net/svt/ejp?a8mat=4BAFPE+62I4KA+54VA+BW0YB&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Ftbs86k%2F",
   "edifier-w280nb-pro":
     "https://px.a8.net/svt/ejp?a8mat=4BC6AV+2PN4RE+5BV8+HUD03&a8ejpredirect=https%3A%2F%2Fwww.edifier.jp%2Fproducts%2Fw280nb-pro",
   "edifier-comfo-q":
