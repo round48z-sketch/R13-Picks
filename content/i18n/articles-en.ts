@@ -1,6 +1,50 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "final-ze300": {
+    title: "Small, light, and easy to fit into every day. final ZE300",
+    seoTitle: "final ZE300｜Compact lightweight true wireless earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the final ZE300. Focused on everyday usability, including a compact design of about 4 g per earbud and noise canceling.",
+    productType: "True wireless earbuds",
+    excerpt:
+      "Compact true wireless earbuds of about 4 g per side with noise canceling, easy to consider for everyday use.",
+    intro:
+      "The final ZE300 are true wireless earbuds with a compact design of about 4 g per side for everyday use. Despite the small size, they include noise canceling and are presented as a balanced option for music, video, and calls. The case and earbuds have a calm, minimal look that fits easily in a bag or pocket, so portability is another practical point. The understated design makes them easy to carry for commuting, school, or daily use. Price and stock can change, so check the official store for the latest price and availability.",
+    pointsTitle: "Key points",
+    points: [
+      "Brand: final",
+      "Product name: ZE300",
+      "Lightweight compact design of about 4 g per side (per official materials)",
+      "Noise canceling (per official materials)",
+      "Practical for everyday music, video, and calls",
+      "Minimal case design that is easy to carry",
+      "Size that also suits sleep listening (per official materials)",
+    ],
+    sections: [
+      {
+        title: "A small, light size that fits everyday life",
+        body: "Official materials list an ultra-compact size of about 4 g per side. The case and earbuds have a calm, minimal look that fits easily in a bag or pocket, which is a useful everyday check point. The understated design also makes them easy to pair with black, minimal gadgets for commuting, school, or outings.",
+      },
+      {
+        title: "Noise canceling and flexible everyday use",
+        body: "Despite the small size, noise canceling is included, and they are presented as a balanced option for music, video, and calls. Official materials also mention use for sleep listening, making them a candidate if you want earbuds that feel less demanding to wear. How much noise reduction you feel depends on the environment, so check the official store for details.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone who wants small, light true wireless earbuds",
+      "Anyone looking for everyday earbuds with noise canceling",
+      "Anyone who wants an easy model for commuting, school, or outings",
+      "Anyone looking for earbuds that also work for video or sleep listening",
+      "Anyone who likes black, minimal gadgets",
+    ],
+    summary:
+      "The final ZE300 are true wireless earbuds that are easy to consider around lightness, handling, and everyday use. With a compact design of about 4 g per side, noise canceling, and a minimal look, they are a candidate that fits into daily life. Check the official store for the latest price and stock.",
+    note: "Check the official store for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black final ZE300 true wireless earbuds and charging case",
+  },
   "tamas-tbs86k": {
     title: "Noise control and gaming in one set. tama's TBS86K",
     seoTitle: "tama's TBS86K｜ANC true wireless earbuds | R13 Picks",
