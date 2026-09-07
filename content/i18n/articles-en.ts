@@ -1,6 +1,70 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "edifier-x5-pro-2025": {
+    title: "Hybrid ANC and long playback. EDIFIER X5 Pro Gen2",
+    seoTitle: "EDIFIER X5 Pro Gen2｜Hybrid ANC wireless earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the EDIFIER X5 Pro Gen2. Focused on officially listed features such as hybrid ANC, a 10mm driver, and up to 48 hours of playback with the case.",
+    productType: "True wireless earbuds",
+    excerpt: "True wireless earbuds with hybrid ANC and long playback that are easy to consider for everyday use.",
+    intro:
+      "The EDIFIER X5 Pro Gen2 are true wireless earbuds with hybrid active noise canceling. Official materials list noise reduction, long playback, and call-oriented features. With a simple black-focused look as well, they are introduced here as a candidate for commuting, study, or work listening. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "What is the EDIFIER X5 Pro Gen2",
+    points: [
+      "Brand: EDIFIER",
+      "Product name: X5 Pro Gen2",
+      "Hybrid active noise canceling (per official materials)",
+      "Noise reduction up to 48 dB (per official materials)",
+      "10mm dynamic driver (per official materials)",
+      "AI call noise canceling with a 3+3 microphone setup (per official materials)",
+      "Bluetooth 6.0 and multipoint support (per official materials)",
+      "Up to 16 hours on earbuds alone; up to 48 hours with the case (per official materials)",
+      "EDIFIER ConneX app support and EQ presets (per official materials)",
+      "IP55 dust and water resistance; antibacterial ear tips (per official materials)",
+      "Black color available",
+    ],
+    sections: [
+      {
+        title: "Hybrid ANC to reduce surrounding noise",
+        body: "Official materials list hybrid active noise canceling with noise reduction up to 48 dB. That makes them a candidate for trains, cafes, and similar situations where you want surrounding sound a little farther away for music or calls. How much reduction you feel depends on the environment, so check the official product page for details.",
+      },
+      {
+        title: "10mm driver and sound-related features",
+        body: "Official materials list a custom-tuned 10mm dynamic driver and describe clear, powerful sound. Sound preference differs by listener, so this section only summarizes what the brand lists.",
+      },
+      {
+        title: "AI call noise canceling",
+        body: "Official materials list AI call noise canceling with a 3+3 microphone setup. The design aims to help your voice come through more clearly even in noisier surroundings. Call quality also depends on the environment and the other party’s conditions.",
+      },
+      {
+        title: "Up to 48 hours of playback for everyday use",
+        body: "Official materials list up to 16 hours on the earbuds alone and up to 48 hours with the case. That makes them a candidate when battery life matters for longer travel or work sessions. Playback time varies with use conditions.",
+      },
+      {
+        title: "Bluetooth 6.0 / multipoint",
+        body: "Official materials list Bluetooth 6.0 and multipoint for connecting multiple devices at once. That is an easy point to check if you want to switch between a phone and a PC.",
+      },
+      {
+        title: "IP55 protection and everyday usability",
+        body: "Official materials list IP55 dust and water resistance and antibacterial ear tips, making them easier to consider for everyday outings. The EDIFIER ConneX app is also listed with a volume-guard feature and EQ presets such as Classic, Vocal, Treble Boost, and Bass Boost. A black color option is available for anyone who wants a simple look.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone looking for ANC wireless earbuds",
+      "Anyone who wants them for commuting, school, or work",
+      "Anyone who values long playback",
+      "Anyone curious about call performance",
+      "Anyone who likes black, minimal earbuds",
+      "Anyone who wants to balance price and features",
+    ],
+    summary:
+      "The EDIFIER X5 Pro Gen2 are true wireless earbuds with a practical everyday setup centered on hybrid ANC and long playback. With a simple black-focused look as well, they are a candidate when you want to balance price and features. Check the official product page for the latest price and stock.",
+    note: "Check the official product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black EDIFIER X5 Pro Gen2 true wireless earbuds and charging case",
+  },
   "edifier-x2-pro": {
     title: "Easy everyday listening. EDIFIER X2 Pro",
     seoTitle: "EDIFIER X2 Pro｜ANC true wireless earbuds | R13 Picks",
