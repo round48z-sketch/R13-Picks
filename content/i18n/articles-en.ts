@@ -1,6 +1,68 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "edifier-comfo-q": {
+    title: "Gentle on the ears, designed to limit sound leakage. EDIFIER Comfo Q",
+    seoTitle: "EDIFIER Comfo Q｜Open-ear earbuds with low sound leakage | R13 Picks",
+    description:
+      "An R13 Picks look at the EDIFIER Comfo Q. Focused on officially listed features such as a 12mm driver, a design that helps reduce sound leakage, and up to 32 hours of playback with the case.",
+    productType: "Open-ear true wireless earbuds",
+    excerpt:
+      "Open-ear earbuds built around ear comfort and reduced sound leakage, easy to consider for everyday use.",
+    intro:
+      "The EDIFIER Comfo Q are open-ear true wireless earbuds designed to balance a comfortable, non-occluding fit with sound quality. Official materials list a structure that helps reduce sound leakage, long playback, and AI noise-canceling calls. They are introduced here as an everyday listening candidate for commuting, background listening, light activity, and online calls. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "What is the EDIFIER Comfo Q",
+    points: [
+      "Brand: EDIFIER",
+      "Product name: Comfo Q",
+      "Open-ear true wireless earbuds (per official materials)",
+      "12mm dynamic driver with a titanium-coated composite diaphragm (per official materials)",
+      "Proprietary acoustic structure and directional audio tech to help reduce sound leakage (per official materials)",
+      "Up to about 8 hours on earbuds alone; up to about 32 hours with the case (per official materials)",
+      "About 2 hours of playback from a 15-minute fast charge (per official materials)",
+      "AI noise-canceling calls (per official materials)",
+      "IP56 dust and splash resistance (per official materials)",
+      "Bluetooth 5.4 and multipoint support (per official materials)",
+      "EQ customization via the Edifier ConneX app (per official materials)",
+      "Available in black and white",
+    ],
+    sections: [
+      {
+        title: "Sound-related features",
+        body: "Official materials list a 12mm dynamic driver with a titanium-coated composite diaphragm and describe powerful yet detailed sound. Sound preference differs by listener, so this section only summarizes what the brand lists. The Edifier ConneX app is also listed with EQ customization for anyone who wants to adjust the sound.",
+      },
+      {
+        title: "A structure designed to limit sound leakage",
+        body: "Official materials say a proprietary acoustic structure and directional audio technology help minimize sound leakage while maintaining sound quality. That makes them easier to consider in shared spaces such as trains. How much leakage you notice still depends on volume and surroundings.",
+      },
+      {
+        title: "Battery life and fast charging",
+        body: "Official materials list up to about 8 hours on the earbuds alone and up to about 32 hours with the case. A 15-minute fast charge for about 2 hours of use is also listed. That setup is practical for commuting or short top-ups between tasks. Playback time varies with use conditions.",
+      },
+      {
+        title: "Call performance",
+        body: "Official materials list clear hands-free calls using built-in microphones and AI noise-reduction technology. That is a useful point for online meetings or calls while moving. Call quality also depends on the environment and the other party’s conditions.",
+      },
+      {
+        title: "IP56 protection and everyday usability",
+        body: "Official materials list IP56 dust and splash resistance for sweat and rain in active daily use. Bluetooth 5.4 and multipoint support are also listed for switching between devices. Black and white color options are available.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone looking for easy earbuds for commuting or school",
+      "Anyone who wants earbuds that are less likely to leak sound",
+      "Anyone who values comfort for longer listening",
+      "Anyone who also wants them for calls or online meetings",
+      "Anyone looking for EDIFIER earbuds with a practical price-to-feature balance",
+      "Anyone considering an open-ear model for everyday use",
+    ],
+    summary:
+      "The EDIFIER Comfo Q are open-ear earbuds centered on ear comfort and reduced sound leakage, with an everyday setup that is easy to check. With a 12mm driver, long playback, and call-oriented features, they are a candidate when you want to balance price and features. Check the official product page for the latest price and stock.",
+    note: "Check the official product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black EDIFIER Comfo Q open-ear wireless earbuds and charging case",
+  },
   "edifier-x5-pro-2025": {
     title: "Hybrid ANC and long playback. EDIFIER X5 Pro Gen2",
     seoTitle: "EDIFIER X5 Pro Gen2｜Hybrid ANC wireless earbuds | R13 Picks",
