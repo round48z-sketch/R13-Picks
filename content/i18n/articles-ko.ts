@@ -1,6 +1,55 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "edifier-evobuds": {
+    title: "노이즈를 줄이고, 음악을 아름답게 재현하다. EDIFIER EvoBuds",
+    seoTitle: "EDIFIER EvoBuds｜ANC 대응 완전 무선 이어폰 | R13 Picks",
+    description:
+      "EDIFIER EvoBuds를 R13 Picks의 시선으로 소개합니다. 어댑티브 ANC, 13mm 드라이버, Hi-Res Audio Wireless／LDAC 대응 등 고요함과 고음질을 양립하기 쉬운 완전 무선 이어폰으로 정리합니다.",
+    productType: "완전 무선 이어폰",
+    excerpt: "어댑티브 ANC와 고해상도 재생에 대응하는, 일상용 완전 무선 이어폰.",
+    intro:
+      "EDIFIER EvoBuds는 노이즈를 줄이면서 음악을 아름답게 재현하는 데 초점을 둔 완전 무선 이어폰입니다. 액티브 노이즈 캔슬링(ANC)과 고해상도 재생 대응 등, 고요함과 음질의 균형을 원하는 일상 사용을 위해 소개합니다. 가격이나 재고는 변경될 수 있으므로, 최신 가격·재고는 공식 상품 페이지에서 확인해 주세요.",
+    pointsTitle: "EDIFIER EvoBuds의 특징",
+    points: [
+      "브랜드는 EDIFIER",
+      "상품명은 EvoBuds",
+      "액티브 노이즈 캔슬링(ANC) 탑재",
+      "어댑티브 ANC로 주변 잡음을 최대 약 38dB까지 저감(제조사 안내)",
+      "13mm 다이내믹 드라이버 탑재",
+      "Hi-Res Audio Wireless 인증, LDAC 대응",
+      "24bit / 96kHz 고해상도 음원 재생 대응(제조사 안내)",
+      "듀얼 마이크와 AI 통화 노이즈 리덕션 기술 대응(제조사 안내)",
+      "충전 케이스 포함 최대 35시간 재생(제조사 안내)",
+      "Bluetooth 대응 완전 무선 이어폰",
+    ],
+    sections: [
+      {
+        title: "노이즈를 줄여 집중하기 쉬운 점",
+        body: "액티브 노이즈 캔슬링(ANC)을 탑재하고, 환경에 따라 자동 조정되는 어댑티브 ANC로 주변 잡음을 최대 약 38dB까지 저감한다고 안내되어 있습니다. 출퇴근·통학이나 카페, 이동 중처럼 주변 소리를 조금 멀리하고 음악이나 콘텐츠에 집중하고 싶을 때 검토하기 쉬운 구성입니다. 저감 체감은 환경에 따라 달라지므로, 상세는 공식 상품 페이지에서 확인해 주세요.",
+      },
+      {
+        title: "음질 면의 매력",
+        body: "13mm 다이내믹 드라이버를 탑재하고, Hi-Res Audio Wireless 인증과 LDAC 대응이 안내되어 있습니다. 24bit / 96kHz 고해상도 음원 재생에도 대응한다고 하며, 임팩트와 균형 있는 사운드를 원할 때의 후보입니다. 대응 코덱과 재생 조건은 연결하는 기기 사양에도 좌우됩니다.",
+      },
+      {
+        title: "통화와 일상 사용",
+        body: "듀얼 마이크와 AI 통화 노이즈 리덕션 기술로 더 맑은 통화 품질을 지향한 설계라고 안내되어 있습니다. 충전 케이스 포함 최대 35시간 재생으로 안내되어, Bluetooth 대응의 쓰기 쉬운 완전 무선 이어폰으로서 평소 휴대에도 활용하기 쉬운 인상입니다. 재생 시간은 사용 조건에 따라 달라집니다.",
+      },
+    ],
+    recommendedTitle: "어떤 사람에게 맞는지",
+    recommendedFor: [
+      "노이즈를 줄여 음악을 즐기고 싶은 사람",
+      "출퇴근·통학용 완전 무선 이어폰을 찾고 있는 사람",
+      "고음질 코덱 대응 모델이 궁금한 사람",
+      "통화 품질도 중시하고 싶은 사람",
+    ],
+    summary:
+      "EDIFIER EvoBuds는 어댑티브 ANC와 고해상도 재생 대응을 축으로, 고요함과 음질의 균형을 잡기 쉬운 완전 무선 이어폰입니다. 외관·기능·사용성의 균형이 좋아 일상용으로도 후보가 됩니다. 자세한 내용은 공식 상품 페이지를 확인해 주세요.",
+    note: "자세한 내용은 공식 상품 페이지를 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "EDIFIER EvoBuds 완전 무선 이어폰과 충전 케이스",
+  },
   "itoki-czr-147bac-1w9": {
     title: "수납력과 중후함을 양립. ITOKI CZR-147BAC-1W9 오피스 데스크",
     seoTitle: "ITOKI CZR-147BAC-1W9｜양수 오피스 데스크 | R13 Picks",

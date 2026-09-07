@@ -1,6 +1,55 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "edifier-evobuds": {
+    title: "Reduce noise and recreate music with clarity. EDIFIER EvoBuds",
+    seoTitle: "EDIFIER EvoBuds｜ANC true wireless earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the EDIFIER EvoBuds. Presented as true wireless earbuds that balance quiet listening and higher-resolution sound, with adaptive ANC, a 13mm driver, and Hi-Res Audio Wireless / LDAC support.",
+    productType: "True wireless earbuds",
+    excerpt: "True wireless earbuds for everyday use, with adaptive ANC and high-resolution playback support.",
+    intro:
+      "The EDIFIER EvoBuds are true wireless earbuds designed to reduce noise while recreating music with clarity. With active noise canceling (ANC) and support for higher-resolution playback, they are introduced here for everyday listening where you want both quiet and sound quality. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "EDIFIER EvoBuds highlights",
+    points: [
+      "Brand: EDIFIER",
+      "Product name: EvoBuds",
+      "Active noise canceling (ANC)",
+      "Adaptive ANC that can reduce surrounding noise by up to about 38 dB (per manufacturer)",
+      "13mm dynamic driver",
+      "Hi-Res Audio Wireless certified, LDAC supported",
+      "Supports 24-bit / 96 kHz high-resolution playback (per manufacturer)",
+      "Dual microphones with AI call noise reduction (per manufacturer)",
+      "Up to 35 hours of playback with the charging case (per manufacturer)",
+      "Bluetooth true wireless earbuds",
+    ],
+    sections: [
+      {
+        title: "Easier focus by reducing noise",
+        body: "They include active noise canceling (ANC). Adaptive ANC is described as automatically adjusting to the environment and reducing surrounding noise by up to about 38 dB. That makes them a candidate for commuting, cafes, and travel when you want surrounding sound a little farther away. How much reduction you feel depends on the environment, so check the official product page for details.",
+      },
+      {
+        title: "Sound-quality appeal",
+        body: "They use a 13mm dynamic driver and are listed with Hi-Res Audio Wireless certification and LDAC support. They are also described as supporting 24-bit / 96 kHz high-resolution playback, making them a candidate when you want a fuller, balanced sound. Supported codecs and playback conditions also depend on the connected device.",
+      },
+      {
+        title: "Calls and everyday carry",
+        body: "Dual microphones and AI call noise reduction are described as aiming for clearer call quality. Playback is listed as up to 35 hours with the charging case, so as Bluetooth true wireless earbuds they feel easy to bring into everyday carry. Playback time varies with use conditions.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone who wants quieter listening for music",
+      "Anyone looking for true wireless earbuds for commuting",
+      "Anyone interested in higher-quality codec support",
+      "Anyone who also cares about call quality",
+    ],
+    summary:
+      "The EDIFIER EvoBuds are true wireless earbuds that balance quiet listening and sound quality around adaptive ANC and higher-resolution playback support. With a practical mix of look, features, and everyday usability, they are an easy everyday candidate. Please check the official product page for details.",
+    note: "Please check the official product page for details.",
+    ctaLabel: "View product",
+    imageAlt: "EDIFIER EvoBuds true wireless earbuds and charging case",
+  },
   "itoki-czr-147bac-1w9": {
     title: "Storage and presence in one. ITOKI CZR-147BAC-1W9 office desk",
     seoTitle: "ITOKI CZR-147BAC-1W9｜Double-pedestal office desk | R13 Picks",

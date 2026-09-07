@@ -1,6 +1,55 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "edifier-evobuds": {
+    title: "抑制噪音，优美再现音乐。EDIFIER EvoBuds",
+    seoTitle: "EDIFIER EvoBuds｜支持 ANC 的真无线耳机 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 EDIFIER EvoBuds。以自适应 ANC、13mm 驱动单元、Hi-Res Audio Wireless／LDAC 等，整理为较容易兼顾安静聆听与高音质的真无线耳机。",
+    productType: "真无线耳机",
+    excerpt: "支持自适应 ANC 与高解析播放的日常向真无线耳机。",
+    intro:
+      "EDIFIER EvoBuds 是一款在抑制噪音的同时，注重优美再现音乐的真无线耳机。具备主动降噪（ANC）与高解析播放支持等，适合想在日常使用中兼顾安静与音质的人。由于价格与库存可能变动，最新的价格与库存请在官方商品页面确认。",
+    pointsTitle: "EDIFIER EvoBuds 的特点",
+    points: [
+      "品牌为 EDIFIER",
+      "商品名为 EvoBuds",
+      "搭载主动降噪（ANC）",
+      "自适应 ANC 可将周围杂音降低最多约 38dB（厂商说明）",
+      "搭载 13mm 动圈驱动单元",
+      "通过 Hi-Res Audio Wireless 认证，支持 LDAC",
+      "支持 24bit / 96kHz 高解析音源播放（厂商说明）",
+      "支持双麦克风与 AI 通话降噪技术（厂商说明）",
+      "含充电盒最长可播放 35 小时（厂商说明）",
+      "支持 Bluetooth 的真无线耳机",
+    ],
+    sections: [
+      {
+        title: "抑制噪音、更容易专注",
+        body: "搭载主动降噪（ANC），并说明可通过随环境自动调节的自适应 ANC，将周围杂音降低最多约 38dB。适合通勤、通学、咖啡馆或移动途中，想把周围声音稍微推远、专注音乐或内容时列入候选。实际降低感受会因环境而异，详情请在官方商品页面确认。",
+      },
+      {
+        title: "音质方面的魅力",
+        body: "搭载 13mm 动圈驱动单元，并说明通过 Hi-Res Audio Wireless 认证、支持 LDAC。也说明支持 24bit / 96kHz 高解析音源播放，适合想要兼具力度与平衡的声音时列入候选。支持的编码与播放条件也会受连接设备规格影响。",
+      },
+      {
+        title: "通话与日常使用",
+        body: "说明采用双麦克风与 AI 通话降噪技术，以追求更清晰的通话品质。含充电盒最长可播放 35 小时，作为支持 Bluetooth、好用的真无线耳机，也容易带入日常随身。播放时间会因使用条件而变化。",
+      },
+    ],
+    recommendedTitle: "适合什么样的人",
+    recommendedFor: [
+      "想抑制噪音享受音乐的人",
+      "正在寻找通勤通学用真无线耳机的人",
+      "对支持高音质编码的机型感兴趣的人",
+      "也重视通话品质的人",
+    ],
+    summary:
+      "EDIFIER EvoBuds 以自适应 ANC 与高解析播放支持为核心，是较容易兼顾安静聆听与音质的真无线耳机。外观、功能与易用性的平衡较好，也适合作为日常使用的候选。详情请确认官方商品页面。",
+    note: "详情请确认官方商品页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "EDIFIER EvoBuds 真无线耳机与充电盒",
+  },
   "itoki-czr-147bac-1w9": {
     title: "兼顾收纳力与厚重感。ITOKI CZR-147BAC-1W9 办公桌",
     seoTitle: "ITOKI CZR-147BAC-1W9｜双边柜办公桌 | R13 Picks",

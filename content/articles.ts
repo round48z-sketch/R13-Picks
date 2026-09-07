@@ -43,6 +43,71 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "edifier-evobuds",
+    title: "ノイズを抑え、音楽を美しく再現。EDIFIER EvoBuds",
+    seoTitle: "EDIFIER EvoBuds｜ANC対応の完全ワイヤレスイヤホン | R13 Picks",
+    description:
+      "EDIFIER EvoBudsをR13 Picksの視点で紹介。アダプティブANC、13mmドライバー、Hi-Res Audio Wireless / LDAC対応など、静けさと高音質を両立しやすい完全ワイヤレスイヤホンです。",
+    category: "audio",
+    productName: "EDIFIER EvoBuds",
+    productType: "完全ワイヤレスイヤホン",
+    publishedAt: "2026-09-08",
+    image: {
+      src: "/images/articles/edifier-evobuds-pinterest.jpg",
+      alt: "EDIFIER EvoBudsの完全ワイヤレスイヤホンと充電ケース",
+      width: 1008,
+      height: 1792,
+    },
+    excerpt: "アダプティブANCと高音質コーデック対応で、日常のリスニングを整えやすい完全ワイヤレスイヤホン。",
+    intro:
+      "EDIFIER EvoBuds は、ノイズを抑えつつ音楽を美しく再現する完全ワイヤレスイヤホンです。アクティブノイズキャンセリング（ANC）や高解像度再生に対応した構成が案内されており、静けさと音質のバランスを見ながら選びたい場合の候補として紹介します。価格や在庫は変わることがあるため、最新の価格・在庫は公式商品ページで確認してください。",
+    pointsTitle: "EDIFIER EvoBudsの特徴",
+    points: [
+      "ブランドはEDIFIER",
+      "商品名は EvoBuds",
+      "アクティブノイズキャンセリング（ANC）を搭載",
+      "アダプティブANCにより、周囲の雑音を最大約38dBまで低減（メーカー案内）",
+      "13mmダイナミックドライバーを搭載",
+      "Hi-Res Audio Wireless認証、LDAC対応",
+      "24bit / 96kHzの高解像度音源再生に対応（メーカー案内）",
+      "デュアルマイクとAI通話ノイズリダクションに対応（メーカー案内）",
+      "充電ケース込みで最大35時間再生（メーカー案内）",
+      "Bluetooth対応の完全ワイヤレスイヤホン",
+    ],
+    sections: [
+      {
+        title: "ノイズを抑えて集中しやすい",
+        body: "EvoBudsはアクティブノイズキャンセリング（ANC）を搭載しています。環境に応じて自動調整するアダプティブANCにより、周囲の雑音を最大約38dBまで低減するとメーカーは案内しています。通勤・通学、カフェ、移動中など、周囲の音を少し遠ざけて音楽に集中したいときに検討しやすい構成です。",
+      },
+      {
+        title: "音質面で確認できるポイント",
+        body: "13mmダイナミックドライバーを搭載し、Hi-Res Audio Wireless認証とLDAC対応が案内されています。24bit / 96kHzの高解像度音源再生にも対応するとされ、迫力とバランスのあるサウンドを求める場合の候補になります。対応コーデックや再生条件の詳細は、公式商品ページで確認してください。",
+      },
+      {
+        title: "通話と日常使い",
+        body: "デュアルマイクとAI通話ノイズリダクション技術により、クリアな通話品質を目指した構成が案内されています。充電ケース込みで最大35時間再生できる点も、普段使いで確認しやすいポイントです。Bluetooth対応の完全ワイヤレスイヤホンとして、毎日の持ち歩きにも取り入れやすい一台です。",
+      },
+    ],
+    recommendedTitle: "どんな人に向いているか",
+    recommendedFor: [
+      "ノイズを抑えて音楽を楽しみたい人",
+      "通勤通学用の完全ワイヤレスイヤホンを探している人",
+      "高音質コーデック対応モデルが気になる人",
+      "通話品質も重視したい人",
+    ],
+    scenes: [
+      "通勤や通学",
+      "カフェや外出先",
+      "移動中のリスニング",
+      "通話を含む日常使い",
+    ],
+    summary:
+      "EDIFIER EvoBudsは、アダプティブANCと高音質コーデック対応を備えた完全ワイヤレスイヤホンです。見た目・機能・使いやすさのバランスを見ながら、日常使いしやすい一台として検討できます。詳しくは公式商品ページをご確認ください。",
+    note: "最新の価格・在庫と仕様の詳細は、公式商品ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "itoki-czr-147bac-1w9",
     title: "収納力と重厚感を両立。ITOKI CZR-147BAC-1W9 オフィスデスク",
     seoTitle: "ITOKI CZR-147BAC-1W9｜両袖オフィスデスク | R13 Picks",

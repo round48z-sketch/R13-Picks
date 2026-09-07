@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "edifier-evobuds":
+    "https://px.a8.net/svt/ejp?a8mat=4BC6AV+2PN4RE+5BV8+HUD03&a8ejpredirect=https%3A%2F%2Fwww.edifier.jp%2Fproducts%2Fevobuds",
   "itoki-czr-147bac-1w9":
     "https://px.a8.net/svt/ejp?a8mat=4BC3YK+EPVTY2+486W+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.kagg.jp%2Foffice-desks%2Fitoki%2F326211%2F1140588%2F",
   "kokuyo-invent-tkg-d127e6am10n":
