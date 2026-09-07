@@ -1,6 +1,64 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "final-ze500-for-asmr": {
+    title: "Made for hearing voices up close. final ZE500 for ASMR",
+    seoTitle: "final ZE500 for ASMR｜ASMR-focused wireless earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the final ZE500 for ASMR. Focused on officially listed features such as an ASMR-oriented sound design specialized for close-range voice, and an ultra-compact housing.",
+    productType: "Wireless earbuds",
+    excerpt:
+      "Compact wireless earbuds with an ASMR-oriented sound design specialized for close-range voice.",
+    intro:
+      "The final ZE500 for ASMR are wireless earbuds listed with an ASMR-oriented sound design specialized for close-range voice. Rather than presenting them as a general high-feature model, this article introduces them for people who want to listen to ASMR carefully, enjoy radio or audiobooks for longer sessions, or listen before sleep. With a calm DARK GRAY look as well, they are organized here as a quiet everyday candidate. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "What is the final ZE500 for ASMR",
+    points: [
+      "Brand: final",
+      "Product name: ZE500 for ASMR",
+      "ASMR-oriented sound design specialized for close-range voice (per official materials)",
+      "Ultra-compact housing (per official materials)",
+      "Integrated soft ear tips (per official materials)",
+      "Designed with listening before sleep in mind (per official materials)",
+      "Intended for longer listening such as ASMR, radio, and audiobooks (per official materials)",
+      "DARK GRAY color",
+    ],
+    sections: [
+      {
+        title: "Sound focused on voice for ASMR",
+        body: "Official materials list an ASMR-oriented sound design specialized for close-range voice. The positioning is less about an all-purpose music earbud and more about content where voice or whisper-like closeness matters. How sound feels differs by listener, so this section only summarizes the direction the brand lists.",
+      },
+      {
+        title: "Ultra-compact housing and integrated soft ear tips",
+        body: "Official materials list an ultra-compact housing and integrated soft ear tips for a comfortable fit. That is an easy point to check if you want compact earbuds or want to reduce strain on the ears. Fit preference is personal, so check the official product page for details.",
+      },
+      {
+        title: "Why they may suit pre-sleep and longer listening",
+        body: "Official materials list listening before sleep and longer listening as intended use cases. That points to people who often wear earbuds before bed or want to listen to the same content for longer. This is not a claim about improving sleep; it is only a summary of the intended uses listed.",
+      },
+      {
+        title: "Also suited to radio and audiobooks beyond ASMR",
+        body: "In addition to ASMR, official materials also list radio and audiobooks among longer listening uses. That makes the use cases easier to check for anyone who often listens to voice-centered content.",
+      },
+      {
+        title: "Points to check before buying",
+        body: "As listed officially, this model is centered on an ASMR-oriented sound design. The direction may differ from general-purpose music earbuds or models that emphasize broader high-feature sets such as noise canceling. For details such as Bluetooth specs or playback time, check the latest information on the official product page. Price and stock also change, so confirming there before purchase is the safest approach.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone who often listens to ASMR",
+      "Anyone who values a listening experience that feels closer to voice",
+      "Anyone who often uses earbuds before sleep",
+      "Anyone who listens to radio or audiobooks for long periods",
+      "Anyone looking for compact earbuds",
+      "Anyone curious about final earbuds",
+    ],
+    summary:
+      "The final ZE500 for ASMR are wireless earbuds centered on an ASMR-oriented sound design specialized for close-range voice, with official materials also listing pre-sleep listening and longer sessions such as radio or audiobooks. With an ultra-compact housing, integrated soft ear tips, and a calm DARK GRAY look, they are an easy candidate when the use case fits. Check the official product page for the latest price and stock.",
+    note: "Check the official product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "DARK GRAY final ZE500 for ASMR wireless earbuds and charging case",
+  },
   "final-ze300": {
     title: "Small, light, and easy to fit into every day. final ZE300",
     seoTitle: "final ZE300｜Compact lightweight true wireless earbuds | R13 Picks",

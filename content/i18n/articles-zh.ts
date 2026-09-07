@@ -1,6 +1,63 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "final-ze500-for-asmr": {
+    title: "为更近地感受「声音」而设计。final ZE500 for ASMR",
+    seoTitle: "final ZE500 for ASMR｜面向 ASMR 的无线耳机 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 final ZE500 for ASMR。以官方说明的面向近距离「声音」的 ASMR 音质设计、超极小腔体等特征为核心整理。",
+    productType: "无线耳机",
+    excerpt: "具备面向近距离「声音」的 ASMR 音质设计的紧凑无线耳机。",
+    intro:
+      "final ZE500 for ASMR 是一款官方说明具备面向近距离「声音」的 ASMR 音质设计的无线耳机。本文不把它当作一般高功能机型来介绍，而是面向想仔细听 ASMR、想长时间听广播或有声书、想在入睡前聆听的人来整理。加上接近黑色基调的 DARK GRAY 沉稳外观，本文将其作为带有静谧感的日常候选。由于价格与库存可能变动，最新的价格与库存请在官方商品页面确认。",
+    pointsTitle: "final ZE500 for ASMR 是什么",
+    points: [
+      "品牌为 final",
+      "商品名为 ZE500 for ASMR",
+      "面向近距离「声音」的 ASMR 音质设计（官方说明）",
+      "超极小腔体（官方说明）",
+      "一体式软耳塞（官方说明）",
+      "面向入睡时聆听（官方说明）",
+      "面向 ASMR、广播、有声书等长时间聆听（官方说明）",
+      "DARK GRAY 配色",
+    ],
+    sections: [
+      {
+        title: "聚焦「声音」的 ASMR 调音",
+        body: "官方说明具备面向近距离「声音」的 ASMR 音质设计。定位更接近关注声音或低语般近感的内容，而不是广泛听歌的全能机。听感因人而异，此处仅整理品牌列出的方向。",
+      },
+      {
+        title: "超极小腔体与一体式软耳塞",
+        body: "官方说明通过超极小腔体与一体式软耳塞带来舒适佩戴感。适合正在寻找紧凑耳机、或想减轻耳朵负担时确认。佩戴偏好因人而异，详情请在官方商品页面确认。",
+      },
+      {
+        title: "适合入睡前与长时间聆听的原因",
+        body: "官方说明面向入睡时聆听，以及长时间聆听。适合入睡前经常使用耳机、或想较长时间听同一内容的人。这不是宣称能改善睡眠，而只是对官方所列使用场景的整理。",
+      },
+      {
+        title: "除 ASMR 外，也适合广播与有声书",
+        body: "官方在 ASMR 之外，也将广播与有声书列为长时间聆听用途。对经常听以声音为主内容的人来说，更容易确认用途的延展。",
+      },
+      {
+        title: "购买前建议确认的要点",
+        body: "按官方说明，这款产品以 ASMR 音质设计为核心。可能与一般音乐向全能耳机，或更强调降噪等广泛高功能的用途方向不同。Bluetooth 规格或续航等详情，请在官方商品页面确认最新信息。价格与库存也会变动，购买前在官方商品页面确认更稳妥。",
+      },
+    ],
+    recommendedTitle: "适合什么样的人",
+    recommendedFor: [
+      "经常听 ASMR 的人",
+      "想重视更近地感受声音的聆听体验的人",
+      "入睡前经常使用耳机的人",
+      "长时间听广播或有声书的人",
+      "正在寻找紧凑耳机的人",
+      "对 final 耳机感兴趣的人",
+    ],
+    summary:
+      "final ZE500 for ASMR 以面向近距离「声音」的 ASMR 音质设计为核心，官方也说明面向入睡前以及广播、有声书等长时间聆听。加上超极小腔体、一体式软耳塞与 DARK GRAY 沉稳外观，适合用途匹配时列入候选。最新的价格与库存请在官方商品页面确认。",
+    note: "最新的价格与库存请在官方商品页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "DARK GRAY final ZE500 for ASMR 无线耳机与充电盒",
+  },
   "final-ze300": {
     title: "小而轻，轻松融入每天。final ZE300",
     seoTitle: "final ZE300｜轻量紧凑的真无线耳机 | R13 Picks",
