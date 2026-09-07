@@ -1,6 +1,65 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "edifier-w280nb-pro": {
+    title: "Quieter commutes with high-resolution sound. EDIFIER W280NB Pro",
+    seoTitle: "EDIFIER W280NB Pro｜Hybrid ANC neckband earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the EDIFIER W280NB Pro. Focused on officially listed features such as hybrid ANC, LDAC support, and up to 23 hours of continuous playback.",
+    productType: "Neckband wireless earbuds",
+    excerpt:
+      "Neckband earbuds with hybrid ANC and LDAC support that are easy to consider for commuting and outings.",
+    intro:
+      "The EDIFIER W280NB Pro are neckband wireless earbuds suited to commuting, the gym, and time outdoors. Official materials list hybrid ANC (up to -45 dB), Hi-Res sound with LDAC support, and up to 23 hours of continuous playback. With a calm black-focused look as well, they are introduced here as an everyday option for travel and work listening. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "What is the EDIFIER W280NB Pro",
+    points: [
+      "Brand: EDIFIER",
+      "Product name: W280NB Pro",
+      "Neckband wireless earbuds",
+      "Hybrid ANC (up to -45 dB; per official materials)",
+      "Up to 23 hours of continuous playback (per official materials)",
+      "About 5 hours of use from a 15-minute fast charge (per official materials)",
+      "Hi-Res sound / LDAC codec support (per official materials)",
+      "10mm dynamic driver with a titanium diaphragm (per official materials)",
+      "AI noise-canceling microphone (per official materials)",
+      "60 ms low-latency game mode (per official materials)",
+      "IP55 dust and splash resistance (per official materials)",
+      "Lightweight design, antibacterial ear tips, and magnetic storage (per official materials)",
+      "Dedicated app support (per official materials)",
+    ],
+    sections: [
+      {
+        title: "ANC that helps you focus on music",
+        body: "Official materials list hybrid ANC (up to -45 dB) for listening with less surrounding noise during commutes, gym sessions, or downtime. That makes them easier to consider on trains or busy streets. How much reduction you feel depends on the environment, so check the official product page for details.",
+      },
+      {
+        title: "High-resolution sound with LDAC",
+        body: "Official materials list a 10mm dynamic driver with a titanium diaphragm for faithful playback across a wide frequency range. Hi-Res sound and the LDAC codec (990 kbps) are also listed for clearer high-resolution audio. Sound preference differs by listener, so this section only summarizes what the brand lists.",
+      },
+      {
+        title: "Long battery life and practical fast charging",
+        body: "Official materials list up to 23 hours of continuous playback and about 5 hours of use from a 15-minute fast charge. That setup is practical for commuting or topping up between outings. Playback time varies with use conditions. IP55 dust and splash resistance is also listed for sweat and outdoor use.",
+      },
+      {
+        title: "Useful for calls and gaming too",
+        body: "Official materials list an AI noise-canceling microphone for clearer calls in noisier places. A 60 ms low-latency game mode is also listed for non-music use. With a lightweight design, antibacterial ear tips, magnetic storage, and a dedicated app, they are an everyday candidate if you like the stability of a neckband form.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone looking for wireless earbuds that are easy to use for commuting or school",
+      "Anyone who wants to prioritize noise canceling",
+      "Anyone who wants approachable pricing without ignoring sound quality",
+      "Anyone who wants a model that works for the gym or outings",
+      "Anyone who likes the stability of a neckband design",
+      "Anyone who wants to check LDAC high-resolution playback",
+    ],
+    summary:
+      "The EDIFIER W280NB Pro are neckband earbuds centered on hybrid ANC and LDAC high-resolution sound, with long playback, fast charging, and call/game-oriented features. With a calm black-focused look as well, they are a candidate when you want to balance price and features. Check the official product page for the latest price and stock.",
+    note: "Check the official product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black EDIFIER W280NB Pro neckband wireless earbuds",
+  },
   "edifier-comfo-q": {
     title: "Gentle on the ears, designed to limit sound leakage. EDIFIER Comfo Q",
     seoTitle: "EDIFIER Comfo Q｜Open-ear earbuds with low sound leakage | R13 Picks",
