@@ -1,6 +1,51 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "edifier-x2-pro": {
+    title: "Easy everyday listening. EDIFIER X2 Pro",
+    seoTitle: "EDIFIER X2 Pro｜ANC true wireless earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the EDIFIER X2 Pro. Presented as true wireless earbuds focused on everyday usability, with an 11mm composite driver, ANC, and up to 49 hours of playback with the case.",
+    productType: "True wireless earbuds",
+    excerpt: "Black, minimal true wireless earbuds for everyday use, with ANC and long battery life.",
+    intro:
+      "The EDIFIER X2 Pro are true wireless earbuds focused on usability at an approachable price. Features such as an 11mm composite driver, active noise canceling (ANC), and long playback with the charging case are listed for everyday listening. With a black, minimal look as well, they are introduced here as an everyday candidate. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "EDIFIER X2 Pro highlights",
+    points: [
+      "Brand: EDIFIER",
+      "Product name: X2 Pro",
+      "11mm composite driver (per manufacturer)",
+      "Active noise canceling (ANC)",
+      "AI dual-microphone beamforming (per manufacturer)",
+      "Up to 49 hours of music playback with the charging case (per manufacturer)",
+      "Ergonomic design intended for a natural fit (per manufacturer)",
+      "Minimal black look",
+      "Bluetooth true wireless earbuds",
+    ],
+    sections: [
+      {
+        title: "Balancing noise canceling and everyday use",
+        body: "They include active noise canceling (ANC), making them a candidate for commuting or going out when you want surrounding sound a little farther away. AI dual-microphone beamforming is also listed, so they may suit people who want balance for everyday use including calls. How much reduction you feel depends on the environment, so check the official product page for details.",
+      },
+      {
+        title: "Battery life and ease of use",
+        body: "Playback is listed as up to 49 hours with the charging case. The manufacturer also highlights fuller bass and dynamic sound from the 11mm composite driver. An ergonomic fit and a minimal black look make them feel easy to bring into everyday carry. Playback time varies with use conditions.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone looking for approachably priced true wireless earbuds",
+      "Anyone considering an ANC model that is easy for everyday use",
+      "Anyone who wants longer battery life",
+      "Anyone who prefers a black, minimal look",
+      "Anyone choosing sound with bass presence in mind",
+    ],
+    summary:
+      "The EDIFIER X2 Pro are true wireless earbuds that are easy to consider around usability, with ANC, long playback, and an 11mm composite driver. With a black, minimal look as well, they are a candidate for everyday listening. Please check the official product page for details.",
+    note: "Check the official product page for the latest price, stock, and specifications.",
+    ctaLabel: "View product",
+    imageAlt: "Black EDIFIER X2 Pro true wireless earbuds and charging case",
+  },
   "edifier-evobuds": {
     title: "Reduce noise and recreate music with clarity. EDIFIER EvoBuds",
     seoTitle: "EDIFIER EvoBuds｜ANC true wireless earbuds | R13 Picks",

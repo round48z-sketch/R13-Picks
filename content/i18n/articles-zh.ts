@@ -1,6 +1,51 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "edifier-x2-pro": {
+    title: "易于入手的日常使用。EDIFIER X2 Pro",
+    seoTitle: "EDIFIER X2 Pro｜支持 ANC 的真无线耳机 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 EDIFIER X2 Pro。以 11mm 复合驱动单元、ANC、含充电盒最长 49 小时播放等，整理为重视易用性的真无线耳机。",
+    productType: "真无线耳机",
+    excerpt: "黑色极简外观，并具备 ANC 与长续航的日常向真无线耳机。",
+    intro:
+      "EDIFIER X2 Pro 是一款在易于入手的价位上重视易用性的真无线耳机。厂商说明具备 11mm 复合驱动单元、主动降噪（ANC），以及搭配充电盒的长续航等，日常使用中较容易确认的结构。加上黑色基调的极简外观，本文将其作为日常聆听的候选来介绍。由于价格与库存可能变动，最新的价格与库存请在官方商品页面确认。",
+    pointsTitle: "EDIFIER X2 Pro 的特点",
+    points: [
+      "品牌为 EDIFIER",
+      "商品名为 X2 Pro",
+      "搭载 11mm 复合驱动单元（厂商说明）",
+      "搭载主动降噪（ANC）",
+      "支持 AI 双麦克风波束成形技术（厂商说明）",
+      "搭配充电盒最长可播放音乐 49 小时（厂商说明）",
+      "基于人体工学、注重贴合感的设计（厂商说明）",
+      "黑色的极简外观",
+      "支持 Bluetooth 的真无线耳机",
+    ],
+    sections: [
+      {
+        title: "降噪与日常使用的平衡",
+        body: "搭载主动降噪（ANC），也适合在通勤或外出时想把周围声音稍微推远的场合列入候选。也说明支持 AI 双麦克风波束成形技术，适合想兼顾含通话在内的日常使用平衡的人。实际降噪感受会因环境而异，详情请在官方商品页面确认。",
+      },
+      {
+        title: "续航与易用性",
+        body: "说明搭配充电盒最长可播放音乐 49 小时。厂商也提到 11mm 复合驱动单元带来的有力度低音与动态声音。说明基于人体工学、更自然贴合耳朵的设计，加上黑色极简外观，也容易带入每日随身。播放时间会因使用条件而变化。",
+      },
+    ],
+    recommendedTitle: "适合这些人",
+    recommendedFor: [
+      "正在寻找易于入手价位真无线耳机的人",
+      "正在考虑带 ANC、日常好用机型的人",
+      "想重视续航的人",
+      "想挑选黑色基调极简外观的人",
+      "想连同低音力度一起挑选声音的人",
+    ],
+    summary:
+      "EDIFIER X2 Pro 以 ANC、长续航与 11mm 复合驱动单元等易用性为核心，是较容易列入候选的真无线耳机。加上黑色极简外观，也适合日常使用。详情请确认官方商品页面。",
+    note: "最新的价格、库存与规格详情请在官方商品页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 EDIFIER X2 Pro 真无线耳机与充电盒",
+  },
   "edifier-evobuds": {
     title: "抑制噪音，优美再现音乐。EDIFIER EvoBuds",
     seoTitle: "EDIFIER EvoBuds｜支持 ANC 的真无线耳机 | R13 Picks",
