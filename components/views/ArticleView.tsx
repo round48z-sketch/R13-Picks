@@ -4,12 +4,14 @@ import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { RoundupArticleView } from "@/components/views/RoundupArticleView";
 import type { Locale } from "@/content/i18n/config";
 import { getSiteUrl, siteConfig } from "@/content/site";
 import { getUi } from "@/content/i18n/ui";
 import {
   getArticleBySlug,
   getArticleCategory,
+  getArticleHero,
   getRelatedArticles,
 } from "@/lib/articles";
 import { localizeArticle } from "@/lib/i18n/articles";
@@ -25,13 +27,26 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
   const ui = getUi(locale);
   const category = getArticleCategory(article);
   const related = getRelatedArticles(article).map((item) => localizeArticle(item, locale));
+  const hero = getArticleHero(article);
+
+  if (article.layout === "roundup") {
+    return (
+      <RoundupArticleView
+        article={article}
+        locale={locale}
+        category={category}
+        related={related}
+      />
+    );
+  }
+
   const url = `${getSiteUrl()}${localizePath(`/picks/${article.slug}`, locale)}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.description,
-    image: [`${getSiteUrl()}${article.image.src}`],
+    image: [`${getSiteUrl()}${hero.src}`],
     datePublished: article.publishedAt,
     mainEntityOfPage: url,
     inLanguage: locale === "zh" ? "zh-CN" : locale,
@@ -51,10 +66,10 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
 
       <div className="article-hero">
         <Image
-          src={article.image.src}
-          alt={article.image.alt}
-          width={article.image.width}
-          height={article.image.height}
+          src={hero.src}
+          alt={hero.alt}
+          width={hero.width}
+          height={hero.height}
           priority
           sizes="(max-width: 720px) 100vw, 680px"
         />
@@ -75,12 +90,16 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
 
         <AdSlot />
 
-        <h2>{article.pointsTitle ?? ui.featuresFallback}</h2>
-        <ul>
-          {article.points.map((point) => (
-            <li key={point}>{point}</li>
-          ))}
-        </ul>
+        {article.points.length > 0 ? (
+          <>
+            <h2>{article.pointsTitle ?? ui.featuresFallback}</h2>
+            <ul>
+              {article.points.map((point) => (
+                <li key={point}>{point}</li>
+              ))}
+            </ul>
+          </>
+        ) : null}
 
         {article.design ? (
           <>
@@ -103,12 +122,16 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
           </>
         ) : null}
 
-        <h2>{article.recommendedTitle ?? ui.recommendedFallback}</h2>
-        <ul>
-          {article.recommendedFor.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
+        {article.recommendedFor.length > 0 ? (
+          <>
+            <h2>{article.recommendedTitle ?? ui.recommendedFallback}</h2>
+            <ul>
+              {article.recommendedFor.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </>
+        ) : null}
 
         {article.scenes ? (
           <>
@@ -130,9 +153,11 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
 
         {article.note ? <p>{article.note}</p> : null}
 
-        <div className="article-cta">
-          <AffiliateButton slug={article.slug} label={article.ctaLabel} />
-        </div>
+        {!article.hideAffiliateCta ? (
+          <div className="article-cta">
+            <AffiliateButton slug={article.slug} label={article.ctaLabel} />
+          </div>
+        ) : null}
 
         <AdSlot size="rectangle" />
       </div>

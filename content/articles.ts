@@ -1,5 +1,40 @@
 import type { CategorySlug } from "./categories";
 
+export type ArticleImage = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+};
+
+export type ComparisonTable = {
+  title?: string;
+  headers: string[];
+  rows: string[][];
+};
+
+export type RoundupPick = {
+  slug: string;
+  name: string;
+  tagline: string;
+  /** Short label for overview cards (e.g. コスパ・ゲーム向け) */
+  shortLabel: string;
+  priceGuide: string;
+  tags: string[];
+  features: string[];
+  recommendedFor: string[];
+  linkLabel?: string;
+  image: ArticleImage;
+};
+
+export type UseCaseBlock = {
+  title: string;
+  /** Product display name for use-case mapping */
+  productName: string;
+  productSlug: string;
+  body?: string;
+};
+
 export type Article = {
   slug: string;
   title: string;
@@ -9,12 +44,12 @@ export type Article = {
   productName: string;
   productType: string;
   publishedAt: string;
-  image: {
-    src: string;
-    alt: string;
-    width: number;
-    height: number;
-  };
+  /** Default / backward-compatible image. Used when thumbnail/hero are omitted. */
+  image: ArticleImage;
+  /** Card / listing / OG thumbnail. Falls back to `image`. */
+  thumbnailImage?: ArticleImage;
+  /** Article detail page hero. Falls back to `image`. */
+  heroImage?: ArticleImage;
   excerpt: string;
   intro: string;
   points: string[];
@@ -29,6 +64,18 @@ export type Article = {
   note?: string;
   ctaLabel: string;
   featured?: boolean;
+  /** Roundup / comparison articles skip the sticky affiliate CTA and link to pick pages instead. */
+  hideAffiliateCta?: boolean;
+  /** When "roundup", render RoundupArticleView instead of the product ArticleView. */
+  layout?: "product" | "roundup";
+  overviewTitle?: string;
+  comparisonTable?: ComparisonTable;
+  picksTitle?: string;
+  picks?: RoundupPick[];
+  pickFeaturesLabel?: string;
+  pickRecommendedLabel?: string;
+  useCasesTitle?: string;
+  useCases?: UseCaseBlock[];
 };
 
 /**
@@ -42,6 +89,230 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "wireless-earbuds-under-10000",
+    title: "1万円以下で選ぶ完全ワイヤレスイヤホンおすすめ7選",
+    seoTitle: "1万円以下の完全ワイヤレスイヤホンおすすめ7選 | R13 Picks",
+    description:
+      "執筆時点で1万円以下の購入候補に入りやすい完全ワイヤレスイヤホンを7選。ANC・バッテリー・用途・デザインの違いを比較し、合う選び方を整理します。",
+    category: "audio",
+    productName: "1万円以下の完全ワイヤレスイヤホン",
+    productType: "比較・まとめ記事",
+    publishedAt: "2026-09-09",
+    image: {
+      src: "/images/articles/wireless-earbuds-under-10000-pinterest.jpg",
+      alt: "1万円以下の完全ワイヤレスイヤホン7選を並べた比較特集のビジュアル",
+      width: 1920,
+      height: 1080,
+    },
+    thumbnailImage: {
+      src: "/images/articles/wireless-earbuds-under-10000-pinterest.jpg",
+      alt: "1万円以下の完全ワイヤレスイヤホン7選を並べた比較特集のビジュアル",
+      width: 1920,
+      height: 1080,
+    },
+    excerpt: "ANC・長時間再生・ゲーム・ASMRなど、用途別に見比べやすい1万円以下の完全ワイヤレス7選。",
+    intro:
+      "1万円以下でも、ANC・長時間再生・ゲーム・ASMRなど特徴の異なる完全ワイヤレスが選べます。執筆時点で購入候補に入りやすい7モデルを用途別に整理します。",
+    pointsTitle: "選ぶときのポイント",
+    points: [
+      "ANCの有無（通勤・通学で周囲の音を抑えたいか）",
+      "バッテリー（ケース込みの総再生時間）",
+      "用途（音楽・動画・ゲーム・ASMR）",
+      "サイズ感・デザイン・価格帯",
+    ],
+    overviewTitle: "掲載モデル一覧",
+    comparisonTable: {
+      title: "比較表",
+      headers: ["商品名", "価格目安", "ANC", "再生時間", "向いている用途"],
+      rows: [
+        ["tama's TBS86K", "¥4,928", "あり", "最大6.5h / ケース込み最大26h", "コスパ・ゲーム"],
+        ["MOONDROP SPACE TRAVEL 2 Ultra", "¥5,600", "あり", "約7h（AAC・販売ページ）", "デザイン・普段使い"],
+        ["EDIFIER X2 Pro", "¥4,990", "あり", "ケース併用最大49h", "日常・長時間再生"],
+        ["EDIFIER X5 Pro Gen2", "¥5,980", "ハイブリッド（最大48dB）", "最大16h / ケース併用最大48h", "通勤・機能バランス"],
+        ["final ZE300", "¥6,980", "あり", "—", "普段使い・コンパクト"],
+        ["final ZE500 for ASMR", "¥9,980", "ASMR向け設計（公式）", "—", "ASMR・入眠前"],
+        ["EarFun Air Pro 4i", "¥7,990", "ハイブリッド（最大50dB案内）", "最大9.5h / ケース込み最大40h", "通勤・日常"],
+      ],
+    },
+    picksTitle: "おすすめ7選",
+    pickFeaturesLabel: "主な特徴",
+    pickRecommendedLabel: "こんな人におすすめ",
+    picks: [
+      {
+        slug: "tamas-tbs86k",
+        name: "tama's TBS86K",
+        tagline: "コスパを見ながら、ANCとゲームモードも確認したい一台。",
+        shortLabel: "コスパ・ゲーム向け",
+        priceGuide: "¥4,928",
+        tags: ["コスパ", "ANC", "ゲーム"],
+        features: [
+          "ANC対応（販売ページ案内）",
+          "ゲームモード搭載（販売ページ案内）",
+          "急速充電、最大6.5h / ケース込み最大26h（販売ページ案内）",
+        ],
+        recommendedFor: ["コスパよく探している人", "動画・ゲームにも使いたい人", "コスパ重視の人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/tbs86k-pinterest.jpg",
+          alt: "tama's TBS86K",
+          width: 1008,
+          height: 1792,
+        },
+      },
+      {
+        slug: "moondrop-space-travel-2-ultra",
+        name: "MOONDROP SPACE TRAVEL 2 Ultra",
+        tagline: "クリアケースの個性が映える、デザイン重視の選択肢。",
+        shortLabel: "デザイン重視",
+        priceGuide: "¥5,600",
+        tags: ["デザイン", "普段使い", "ゲーム"],
+        features: [
+          "クリアケースとブラック系の見た目",
+          "Music / Game デュアルモード（販売ページ案内）",
+          "マルチポイント接続対応（販売ページ案内）",
+        ],
+        recommendedFor: ["デザイン性を重視したい人", "黒・透明系ガジェットが好きな人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/moondrop-space-travel-2-ultra-pinterest.jpg",
+          alt: "MOONDROP SPACE TRAVEL 2 Ultra",
+          width: 1008,
+          height: 1792,
+        },
+      },
+      {
+        slug: "edifier-x2-pro",
+        name: "EDIFIER X2 Pro",
+        tagline: "ANCと長時間再生を軸に、日常使いで検討しやすいモデル。",
+        shortLabel: "長時間再生",
+        priceGuide: "¥4,990",
+        tags: ["ANC", "長時間再生", "普段使い"],
+        features: [
+          "ANC搭載",
+          "ケース併用で最大49時間再生（メーカー案内）",
+          "ブラックのミニマルな見た目",
+        ],
+        recommendedFor: ["バッテリー持ちを重視する人", "ANC付きの普段使いを探す人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/edifier-x2-pro-pinterest.jpg",
+          alt: "EDIFIER X2 Pro",
+          width: 1008,
+          height: 1792,
+        },
+      },
+      {
+        slug: "edifier-x5-pro-2025",
+        name: "EDIFIER X5 Pro Gen2",
+        tagline: "ハイブリッドANCと長時間再生で、機能バランスを見やすい一台。",
+        shortLabel: "ANC・機能バランス",
+        priceGuide: "¥5,980",
+        tags: ["ANC", "長時間再生", "マルチポイント"],
+        features: [
+          "ハイブリッドANC、最大48dB（公式案内）",
+          "最大16h / ケース併用最大48h（公式案内）",
+          "Bluetooth 6.0、マルチポイント（公式案内）",
+        ],
+        recommendedFor: ["通勤・作業用に使いたい人", "価格と機能のバランスを見たい人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/edifier-x5-pro-2025-pinterest.jpg",
+          alt: "EDIFIER X5 Pro Gen2",
+          width: 1008,
+          height: 1792,
+        },
+      },
+      {
+        slug: "final-ze300",
+        name: "final ZE300",
+        tagline: "小さく軽く、毎日に取り入れやすいコンパクトモデル。",
+        shortLabel: "コンパクト",
+        priceGuide: "¥6,980",
+        tags: ["コンパクト", "普段使い", "ANC"],
+        features: [
+          "片側約4gの軽量コンパクト設計（公式案内）",
+          "ノイズキャンセリング搭載（公式案内）",
+          "寝ホン候補としても案内されるサイズ感（公式案内）",
+        ],
+        recommendedFor: ["小さく軽い一台が欲しい人", "通勤・外出用に使いやすいモデルを探す人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/final-ze300-pinterest.jpg",
+          alt: "final ZE300",
+          width: 1008,
+          height: 1792,
+        },
+      },
+      {
+        slug: "final-ze500-for-asmr",
+        name: "final ZE500 for ASMR",
+        tagline: "声を近くに感じる用途に寄せた、ASMR向けの選択肢。",
+        shortLabel: "ASMR・入眠前",
+        priceGuide: "¥9,980",
+        tags: ["ASMR", "入眠前", "コンパクト"],
+        features: [
+          "声に特化したASMR向け設計（公式案内）",
+          "超極小筐体・一体型ソフトイヤーピース（公式案内）",
+          "入眠時・ラジオ・オーディオブック用途も案内",
+        ],
+        recommendedFor: ["ASMRをよく聴く人", "就寝前や声コンテンツ中心の人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/final-ze500-for-asmr-pinterest.jpg",
+          alt: "final ZE500 for ASMR",
+          width: 1008,
+          height: 1792,
+        },
+      },
+      {
+        slug: "earfun-air-pro-4i",
+        name: "EarFun Air Pro 4i",
+        tagline: "ノイズキャンセリング特化型として案内される、日常使い候補。",
+        shortLabel: "通勤・日常",
+        priceGuide: "¥7,990",
+        tags: ["ANC", "通勤", "普段使い"],
+        features: [
+          "ハイブリッドANC、最大50dB案内（販売ページ）",
+          "最大9.5h / ケース込み最大40h（販売ページ案内）",
+          "ブラック / ホワイト展開",
+        ],
+        recommendedFor: ["通勤・通学向けを探す人", "価格と機能のバランスを重視する人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/earfun-air-pro-4i-pinterest.jpg",
+          alt: "EarFun Air Pro 4i",
+          width: 1008,
+          height: 1792,
+        },
+      },
+    ],
+    useCasesTitle: "用途別で選ぶなら",
+    useCases: [
+      { title: "コスパ重視", productName: "tama's TBS86K", productSlug: "tamas-tbs86k" },
+      { title: "ANC・機能バランス重視", productName: "EDIFIER X5 Pro Gen2", productSlug: "edifier-x5-pro-2025" },
+      { title: "ASMR・入眠前", productName: "final ZE500 for ASMR", productSlug: "final-ze500-for-asmr" },
+      { title: "デザイン重視", productName: "MOONDROP SPACE TRAVEL 2 Ultra", productSlug: "moondrop-space-travel-2-ultra" },
+      { title: "普段使い", productName: "EarFun Air Pro 4i", productSlug: "earfun-air-pro-4i" },
+      { title: "長時間再生", productName: "EDIFIER X2 Pro", productSlug: "edifier-x2-pro" },
+      { title: "コンパクトさ", productName: "final ZE300", productSlug: "final-ze300" },
+    ],
+    recommendedTitle: "迷ったらどれを選ぶ？",
+    recommendedFor: [
+      "価格と基本機能なら → tama's TBS86K",
+      "通勤でANCを見るなら → EDIFIER X5 Pro Gen2 または EarFun Air Pro 4i",
+      "見た目の個性なら → MOONDROP SPACE TRAVEL 2 Ultra",
+      "小さく軽くなら → final ZE300",
+      "ASMR・声コンテンツなら → final ZE500 for ASMR",
+    ],
+    summary:
+      "1万円以下でも用途によって候補は分かれます。この記事は順位付けではなく比較の整理です。詳細と最新価格は各単品記事・販売ページで確認してください。",
+    note: "※価格は執筆時点の目安です。最新価格・在庫は各販売ページで確認してください。",
+    ctaLabel: "詳しく見る",
+    featured: true,
+    hideAffiliateCta: true,
+    layout: "roundup",
+  },
   {
     slug: "moondrop-space-travel-2-ultra",
     title: "透明感のあるデザインが映える。MOONDROP SPACE TRAVEL 2 Ultra",

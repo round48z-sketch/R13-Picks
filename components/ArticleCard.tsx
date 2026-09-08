@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Article } from "@/content/articles";
 import type { Locale } from "@/content/i18n/config";
 import { getUi } from "@/content/i18n/ui";
-import { getArticleCategory } from "@/lib/articles";
+import { getArticleCategory, getArticleThumbnail } from "@/lib/articles";
 import { localizePath } from "@/lib/i18n/path";
 
 type ArticleCardProps = {
@@ -14,6 +14,7 @@ type ArticleCardProps = {
 export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
   const category = getArticleCategory(article);
   const ui = getUi(locale);
+  const thumbnail = getArticleThumbnail(article);
 
   return (
     <article className="article-card">
@@ -23,11 +24,11 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
       >
         <div className="article-card__image">
           <Image
-            src={article.image.src}
-            alt={article.image.alt}
-            width={article.image.width}
-            height={article.image.height}
+            src={thumbnail.src}
+            alt={thumbnail.alt}
+            fill
             sizes="(max-width: 979px) 92vw, 420px"
+            style={{ objectFit: "cover", objectPosition: "center" }}
           />
         </div>
         <div className="article-card__body">
