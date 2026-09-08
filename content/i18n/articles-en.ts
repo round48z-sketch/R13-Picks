@@ -1,6 +1,59 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "earfun-air-pro-4i": {
+    title: "True wireless made for everyday use. EarFun Air Pro 4i",
+    seoTitle: "EarFun Air Pro 4i｜Everyday true wireless earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the EarFun Air Pro 4i. Focused on features listed as a noise-canceling-oriented model and points that make it easy to consider for everyday use.",
+    productType: "True wireless earbuds",
+    excerpt:
+      "True wireless earbuds listed as a noise-canceling-oriented model that are easy to consider for everyday use.",
+    intro:
+      "The EarFun Air Pro 4i are true wireless earbuds listed on the sales page as a noise-canceling-oriented model. They are introduced here around everyday use for commuting, school, or work. With a simple black-focused look as well, they are organized as a candidate for anyone who wants to balance price and features. Price and stock can change, so check the sales page for the latest price and availability.",
+    pointsTitle: "What is the EarFun Air Pro 4i",
+    points: [
+      "Brand: EarFun",
+      "Product name: Air Pro 4i",
+      "True wireless earbuds",
+      "Listed as a noise-canceling-oriented model (per sales page)",
+      "Hybrid ANC and proprietary QuietSmart 3.0 ANC technology (per sales page)",
+      "Noise reduction of up to 50 dB listed (per sales page)",
+      "Adaptive ANC support (per sales page)",
+      "Available in black and white (per sales page)",
+    ],
+    sections: [
+      {
+        title: "Design and everyday usability",
+        body: "Black and white options are available, making it easy to choose a simple black-focused look. The understated design fits urban, minimal gadgets for daily carry. Check the sales page for current color options and stock.",
+      },
+      {
+        title: "Useful points for music, video, and calls",
+        body: "The sales page lists hybrid ANC, QuietSmart 3.0, and adaptive ANC for easier listening with less surrounding noise. It also lists clear calls with six microphones and AI technology, so calls are another easy point to check alongside music and video. Sound preference and call quality differ by environment, so this section only summarizes the sales page listing.",
+      },
+      {
+        title: "Usability for commuting, school, and work",
+        body: "The sales page lists noise reduction of up to 50 dB and adaptive ANC, making the setup easier to consider on trains or during focused work. How much reduction you feel depends on the environment and fit, so check the sales page for details. As everyday true wireless earbuds, they are a candidate for commuting, school, or work.",
+      },
+      {
+        title: "Points to check before buying",
+        body: "This model is positioned on the sales page as a noise-canceling-oriented product. For details such as Bluetooth specs, playback time, or water resistance, check the latest sales page and manufacturer information. Price, stock, and campaigns also change, so confirming on the sales page before purchase is the safest approach.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone looking for everyday true wireless earbuds",
+      "Anyone who wants an easy model for commuting or school",
+      "Anyone who likes simple black earbuds",
+      "Anyone who wants to balance price and features",
+      "Anyone curious about EarFun earbuds",
+    ],
+    summary:
+      "The EarFun Air Pro 4i are true wireless earbuds listed as a noise-canceling-oriented model. With a simple black-focused look as well, they are an easy everyday candidate for commuting, school, or work. Check the sales page for the latest price and stock.",
+    note: "Check the sales page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black EarFun Air Pro 4i true wireless earbuds and charging case",
+  },
   "final-gear01-plus-gaming": {
     title: "Games, video, and music. final GEAR01+Gaming",
     seoTitle: "final GEAR01+Gaming｜Ultra-low-latency gaming mode earbuds | R13 Picks",

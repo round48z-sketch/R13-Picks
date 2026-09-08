@@ -1,6 +1,58 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "earfun-air-pro-4i": {
+    title: "适合每天使用的真无线。EarFun Air Pro 4i",
+    seoTitle: "EarFun Air Pro 4i｜日常向真无线耳机 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 EarFun Air Pro 4i。以销售页面说明的降噪特化定位，以及较适合日常使用的要点为核心整理。",
+    productType: "真无线耳机",
+    excerpt: "销售页面说明为降噪特化型，较容易作为日常使用候选的真无线耳机。",
+    intro:
+      "EarFun Air Pro 4i 是销售页面说明为降噪特化型的真无线耳机。本文以通勤通学或作业等日常使用较容易带入的印象为核心介绍。加上黑色系简洁外观，适合想兼顾价格与功能时列入候选。由于价格与库存可能变动，最新的价格与库存请在销售页面确认。",
+    pointsTitle: "EarFun Air Pro 4i 是什么",
+    points: [
+      "品牌为 EarFun",
+      "商品名为 Air Pro 4i",
+      "真无线耳机",
+      "销售页面说明为降噪特化型",
+      "搭载混合 ANC 与独有 ANC 技术 QuietSmart 3.0（销售页面说明）",
+      "说明最高可降低 50dB 噪音（销售页面）",
+      "支持自适应 ANC（销售页面说明）",
+      "提供黑色 / 白色（销售页面）",
+    ],
+    sections: [
+      {
+        title: "设计与日常易用性",
+        body: "提供黑色与白色，较容易选择黑色基调的简洁外观。风格不过分张扬，也较容易作为都市极简数码单品融入日常。具体颜色与库存请在销售页面确认。",
+      },
+      {
+        title: "音乐、视频与通话的易用要点",
+        body: "销售页面说明具备混合 ANC、QuietSmart 3.0 与自适应 ANC 等，便于在削弱周围声音的同时更轻松聆听。另列出 6 麦克风与 AI 技术带来的清晰通话，除音乐与视频外，通话用途也较容易确认。音质偏好与通话感受会因环境而异，此处仅整理销售页面说明。",
+      },
+      {
+        title: "通勤、通学与作业时的易用性",
+        body: "销售页面说明最高可降低 50dB 噪音，并具备自适应 ANC，适合在电车或作业时想把周围声音稍微推远列入候选。实际降低感受会因环境与佩戴状态而异，详情请在销售页面确认。作为日常真无线，也较容易用于通勤、通学或作业。",
+      },
+      {
+        title: "购买前建议确认的要点",
+        body: "销售页面将该机型定位为降噪特化型产品。Bluetooth 规格、续航、防水等详情，请确认销售页面与厂商信息的最新内容。价格、库存与活动也会变动，购买前在销售页面确认更稳妥。",
+      },
+    ],
+    recommendedTitle: "适合什么样的人",
+    recommendedFor: [
+      "正在寻找日常用真无线耳机的人",
+      "想要通勤通学好用机型的人",
+      "喜欢黑色系简洁耳机的人",
+      "想重视价格与功能平衡的人",
+      "对 EarFun 耳机感兴趣的人",
+    ],
+    summary:
+      "EarFun Air Pro 4i 是销售页面说明为降噪特化型的真无线耳机。加上黑色基调的简洁外观，适合通勤通学或作业等日常使用时列入候选。最新的价格与库存请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 EarFun Air Pro 4i 真无线耳机与充电盒",
+  },
   "final-gear01-plus-gaming": {
     title: "游戏、视频、音乐都能兼顾。final GEAR01+Gaming",
     seoTitle: "final GEAR01+Gaming｜支持超低延迟游戏模式的耳机 | R13 Picks",
