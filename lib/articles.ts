@@ -42,3 +42,13 @@ export function formatDate(isoDate: string, locale: string = "ja-JP") {
 export function getArticleCategory(article: Article) {
   return getCategory(article.category);
 }
+
+/** Listing / OG / card image. */
+export function getArticleThumbnail(article: Article) {
+  return article.thumbnailImage ?? article.image;
+}
+
+/** Article detail page hero image. */
+export function getArticleHero(article: Article) {
+  return article.heroImage ?? article.image;
+}

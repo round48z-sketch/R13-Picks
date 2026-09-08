@@ -1,6 +1,6 @@
-import type { Article } from "@/content/articles";
+import type { Article, RoundupPick } from "@/content/articles";
 import type { Locale } from "@/content/i18n/config";
-import type { ArticleTranslation } from "@/content/i18n/article-types";
+import type { ArticleTranslation, RoundupPickTranslation } from "@/content/i18n/article-types";
 import { articleTranslationsEn } from "@/content/i18n/articles-en";
 import { articleTranslationsKo } from "@/content/i18n/articles-ko";
 import { articleTranslationsZh } from "@/content/i18n/articles-zh";
@@ -10,6 +10,31 @@ const translationMaps: Record<Exclude<Locale, "ja">, Record<string, ArticleTrans
   ko: articleTranslationsKo,
   zh: articleTranslationsZh,
 };
+
+function mergeRoundupPicks(
+  basePicks: RoundupPick[] | undefined,
+  translated: RoundupPickTranslation[] | undefined,
+): RoundupPick[] | undefined {
+  if (!translated) {
+    return basePicks;
+  }
+  if (!basePicks) {
+    return undefined;
+  }
+
+  return translated.map((pick) => {
+    const basePick = basePicks.find((item) => item.slug === pick.slug);
+    return {
+      ...pick,
+      image: basePick?.image ?? {
+        src: "",
+        alt: pick.name,
+        width: 1008,
+        height: 1792,
+      },
+    };
+  });
+}
 
 export function localizeArticle(article: Article, locale: Locale): Article {
   if (locale === "ja") {
@@ -40,6 +65,14 @@ export function localizeArticle(article: Article, locale: Locale): Article {
     summary: translation.summary,
     note: translation.note,
     ctaLabel: translation.ctaLabel,
+    overviewTitle: translation.overviewTitle ?? article.overviewTitle,
+    comparisonTable: translation.comparisonTable ?? article.comparisonTable,
+    picksTitle: translation.picksTitle ?? article.picksTitle,
+    picks: mergeRoundupPicks(article.picks, translation.picks),
+    pickFeaturesLabel: translation.pickFeaturesLabel ?? article.pickFeaturesLabel,
+    pickRecommendedLabel: translation.pickRecommendedLabel ?? article.pickRecommendedLabel,
+    useCasesTitle: translation.useCasesTitle ?? article.useCasesTitle,
+    useCases: translation.useCases ?? article.useCases,
     image: {
       ...article.image,
       alt: translation.imageAlt,
