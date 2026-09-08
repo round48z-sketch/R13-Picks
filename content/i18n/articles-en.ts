@@ -1,6 +1,62 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "final-gear01-plus-gaming": {
+    title: "Games, video, and music. final GEAR01+Gaming",
+    seoTitle: "final GEAR01+Gaming｜Ultra-low-latency gaming mode earbuds | R13 Picks",
+    description:
+      "An R13 Picks look at the final GEAR01+Gaming. Focused on officially listed features such as ultra-low-latency gaming mode, hybrid ANC, and head-tracking mode.",
+    productType: "True wireless earbuds",
+    excerpt:
+      "True wireless earbuds with ultra-low-latency gaming mode and hybrid ANC that are easy to consider for games, video, and music.",
+    intro:
+      "The final GEAR01+Gaming are true wireless earbuds listed with an ultra-low-latency gaming mode. They also support hybrid ANC and head-tracking mode, and are introduced here for anyone who wants a set for games, video, and music. With a black, minimal look as well, they are organized as a tech-focused everyday candidate. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "What is the final GEAR01+Gaming",
+    points: [
+      "Product name: GEAR01+Gaming (sold on the final official store)",
+      "Ultra-low-latency gaming mode (per official materials)",
+      "Hybrid ANC support (per official materials)",
+      "Head-tracking mode support (per official materials)",
+      "True wireless earbuds for games, video, and music (per official materials)",
+      "Black-focused design",
+    ],
+    sections: [
+      {
+        title: "Ultra-low-latency gaming mode",
+        body: "Official materials list an ultra-low-latency gaming mode that can achieve low-latency connection of up to 35 ms when gaming mode is enabled during a standard Bluetooth® connection. That is an easy point to check when you want less video/audio lag. How it feels depends on the device and content, so this section only summarizes the listed specification.",
+      },
+      {
+        title: "Hybrid ANC and immersion",
+        body: "Official materials list hybrid noise canceling that can reduce noise such as trains, planes, cars, and everyday sounds so you can enjoy games or music more carefully. The setup is described as including a feed-forward microphone outside and a feedback microphone inside. How much reduction you feel depends on the environment, so check the official product page for details.",
+      },
+      {
+        title: "Head-tracking mode",
+        body: "Official materials list a head-tracking mode that naturally changes the direction of sound according to head movement. It is described as suitable when you want sound to feel more like speaker playback outside the head, or when watching content where sound direction changes interactively with movement.",
+      },
+      {
+        title: "Why they may suit games, video, and music",
+        body: "Official materials position them as versatile earbuds for immersing yourself in games, video, and music. Alongside low-latency gaming mode, hybrid ANC and head tracking make the feature set easy to check by use case. They are a candidate not only for everyday true-wireless use, but also when gaming and video matter.",
+      },
+      {
+        title: "Points to check before buying",
+        body: "As listed officially, this model includes use-focused features such as gaming mode and head tracking. For compatibility with devices or content, and for details such as Bluetooth specs or playback time, check the latest information on the official product page. Avoid assuming specific game-console support without confirmation, and refer to official materials when needed. Price and stock also change, so check the official product page before purchase.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone who wants earbuds for smartphone or handheld gaming",
+      "Anyone who wants to reduce video/audio lag",
+      "Anyone who also wants them for video and music beyond games",
+      "Anyone looking for ANC true wireless earbuds",
+      "Anyone who likes black, minimal gadgets",
+      "Anyone curious about final earbuds",
+    ],
+    summary:
+      "The final GEAR01+Gaming are true wireless earbuds centered on ultra-low-latency gaming mode, with hybrid ANC and head-tracking mode also listed. They are an easy candidate for anyone who wants games, video, and music in one set, or prefers a black, minimal look. Check the official product page for the latest price and stock.",
+    note: "Check the official product page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Black final GEAR01+Gaming true wireless earbuds and charging case",
+  },
   "final-ze500-for-asmr": {
     title: "Made for hearing voices up close. final ZE500 for ASMR",
     seoTitle: "final ZE500 for ASMR｜ASMR-focused wireless earbuds | R13 Picks",

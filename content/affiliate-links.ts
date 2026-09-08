@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "final-gear01-plus-gaming":
+    "https://px.a8.net/svt/ejp?a8mat=4BA2HB+9DKTJU+53XY+BW0YB&a8ejpredirect=https%3A%2F%2Ffinal-inc.com%2Fproducts%2Fgear01-gaming",
   "final-ze500-for-asmr":
     "https://px.a8.net/svt/ejp?a8mat=4BA2HB+9DKTJU+53XY+BW0YB&a8ejpredirect=https%3A%2F%2Ffinal-inc.com%2Fproducts%2Fze500-asmr-jp",
   "final-ze300":
