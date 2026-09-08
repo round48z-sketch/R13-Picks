@@ -1,6 +1,58 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "moondrop-space-travel-2-ultra": {
+    title: "透明感设计更出彩。MOONDROP SPACE TRAVEL 2 Ultra",
+    seoTitle: "MOONDROP SPACE TRAVEL 2 Ultra｜设计感真无线耳机 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍水月雨（MOONDROP）SPACE TRAVEL 2 Ultra。以通透感充电盒与黑色系外观，以及较适合日常使用的要点为核心整理。",
+    productType: "真无线耳机",
+    excerpt: "通透感充电盒与黑色系外观印象鲜明，较容易作为日常使用候选的真无线耳机。",
+    intro:
+      "水月雨（MOONDROP）SPACE TRAVEL 2 Ultra 是销售页面说明以对宇宙的向往为设计灵感的真无线耳机。通透感充电盒与黑色系极简外观更出彩，适合想兼顾设计感与日常使用的人。加上易入手价位也较容易选择，本文将其作为偏未来、都市感的数码候选整理。由于价格与库存可能变动，最新的价格与库存请在销售页面确认。",
+    pointsTitle: "MOONDROP SPACE TRAVEL 2 Ultra 是什么",
+    points: [
+      "品牌为水月雨（MOONDROP）",
+      "商品名为 SPACE TRAVEL 2 Ultra",
+      "真无线耳机",
+      "销售页面说明以宇宙为主题设计",
+      "通透感充电盒与黑色系外观印象鲜明",
+      "搭载 Music / Game 双模式（销售页面说明）",
+      "支持多点连接（销售页面说明）",
+      "采用较浅的佩戴设计（销售页面说明）",
+    ],
+    sections: [
+      {
+        title: "透明充电盒与黑色系设计",
+        body: "商品图片中可看到通透感充电盒与黑色系耳机的组合外观。销售页面将其介绍为把对宇宙的向往融入产品设计的机型，较容易兼顾黑色基调的极简感与偏未来的印象。适合正在寻找有设计感的真无线时确认。",
+      },
+      {
+        title: "作为日常真无线的吸引力",
+        body: "销售页面说明为减轻耳朵负担采用较浅的佩戴设计，目标是在较长时间使用时也更舒适。不只外观有个性，日常易用性也较容易确认。佩戴偏好因人而异，详情请在销售页面确认。",
+      },
+      {
+        title: "音乐、视频与移动时的易用要点",
+        body: "销售页面说明可在适合高比特率音乐播放的 Music 模式，与低延迟 Game 模式之间切换。另可通过应用开启多点连接，同时连接手机或平板等两台设备。适合想兼顾音乐、视频与移动中切换时确认。",
+      },
+      {
+        title: "购买前建议确认的要点",
+        body: "这款机型设计个性突出，同时 Bluetooth 规格、续航、防水等详情最好在销售页面与厂商信息中确认。价格、库存与活动也会变动，购买前请在销售页面确认最新信息。",
+      },
+    ],
+    recommendedTitle: "适合什么样的人",
+    recommendedFor: [
+      "正在寻找有设计感真无线耳机的人",
+      "喜欢黑色、透明系数码产品的人",
+      "正在以约 5,000 日元价位寻找易选耳机的人",
+      "想要日常好用真无线耳机的人",
+      "对 MOONDROP 产品感兴趣的人",
+    ],
+    summary:
+      "水月雨（MOONDROP）SPACE TRAVEL 2 Ultra 是通透感充电盒与黑色系外观更出彩的真无线耳机。适合想兼顾设计感与日常使用时列入候选。最新的价格与库存请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "通透充电盒与黑色 MOONDROP SPACE TRAVEL 2 Ultra 真无线耳机",
+  },
   "earfun-air-pro-4i": {
     title: "适合每天使用的真无线。EarFun Air Pro 4i",
     seoTitle: "EarFun Air Pro 4i｜日常向真无线耳机 | R13 Picks",

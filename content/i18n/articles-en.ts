@@ -1,6 +1,59 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "moondrop-space-travel-2-ultra": {
+    title: "A clear design that stands out. MOONDROP SPACE TRAVEL 2 Ultra",
+    seoTitle: "MOONDROP SPACE TRAVEL 2 Ultra｜Design-forward true wireless | R13 Picks",
+    description:
+      "An R13 Picks look at the MOONDROP SPACE TRAVEL 2 Ultra. Focused on the clear-case look with black earbuds and everyday points that are easy to consider.",
+    productType: "True wireless earbuds",
+    excerpt:
+      "True wireless earbuds with a clear-case look and black-focused design that are easy to consider for everyday use.",
+    intro:
+      "The MOONDROP SPACE TRAVEL 2 Ultra are true wireless earbuds listed on the sales page with a space-inspired design. The clear-case look and black, minimal earbuds stand out, and they are introduced here for anyone who wants to balance design and everyday use. With an approachable price range as well, they are organized as a futuristic, urban gadget candidate. Price and stock can change, so check the sales page for the latest price and availability.",
+    pointsTitle: "What is the MOONDROP SPACE TRAVEL 2 Ultra",
+    points: [
+      "Brand: MOONDROP",
+      "Product name: SPACE TRAVEL 2 Ultra",
+      "True wireless earbuds",
+      "Listed with a space-inspired design (per sales page)",
+      "Distinctive clear-case look with black-focused earbuds",
+      "Music / Game dual mode (per sales page)",
+      "Multipoint connection support (per sales page)",
+      "Shallower fit design (per sales page)",
+    ],
+    sections: [
+      {
+        title: "Clear case and black-focused design",
+        body: "Product images show a clear-case look paired with black-focused earbuds. The sales page presents them as a model that turns a longing for space into product design, making it easier to balance black minimalism with a futuristic impression. That is a useful check point if you want design-forward true wireless earbuds.",
+      },
+      {
+        title: "Everyday true wireless appeal",
+        body: "The sales page lists a shallower fit designed to reduce strain on the ears and aim for comfortable wear during longer use. Beyond the distinctive look, everyday usability is also easy to check. Fit preference is personal, so check the sales page for details.",
+      },
+      {
+        title: "Useful points for music, video, and on the go",
+        body: "The sales page lists a dual mode that can switch between Music mode for higher-bitrate music playback and a low-latency Game mode. It also lists multipoint connection via the app for connecting two devices such as a phone and a tablet at once. Those are easy points to check for music, video, and switching while moving.",
+      },
+      {
+        title: "Points to check before buying",
+        body: "This model stands out for its design, while details such as Bluetooth specs, playback time, and water resistance are best confirmed on the sales page and manufacturer materials. Price, stock, and campaigns also change, so check the latest information on the sales page before purchase.",
+      },
+    ],
+    recommendedTitle: "Who they may suit",
+    recommendedFor: [
+      "Anyone looking for design-forward true wireless earbuds",
+      "Anyone who likes black or clear gadgets",
+      "Anyone looking for approachable earbuds in the 5,000 yen range",
+      "Anyone who wants everyday-friendly true wireless earbuds",
+      "Anyone curious about MOONDROP products",
+    ],
+    summary:
+      "The MOONDROP SPACE TRAVEL 2 Ultra are true wireless earbuds with a clear-case look and black-focused design that stand out. They are a candidate when you want to balance design and everyday use. Check the sales page for the latest price and stock.",
+    note: "Check the sales page for the latest price and stock.",
+    ctaLabel: "View product",
+    imageAlt: "Clear case and black MOONDROP SPACE TRAVEL 2 Ultra true wireless earbuds",
+  },
   "earfun-air-pro-4i": {
     title: "True wireless made for everyday use. EarFun Air Pro 4i",
     seoTitle: "EarFun Air Pro 4i｜Everyday true wireless earbuds | R13 Picks",

@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "moondrop-space-travel-2-ultra":
+    "https://px.a8.net/svt/ejp?a8mat=4BA2HB+8P61QY+55QO+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.e-earphone.jp%2Fcollections%2Fwireless_earphone%2Fproducts%2F640999%3F_pos%3D23%26_fid%3D95576100c%26_ss%3Dc%26filter.p.m.custom.is_on_sale%3D%25E8%25B2%25A9%25E5%25A3%25B2%25E4%25B8%25AD",
   "earfun-air-pro-4i":
     "https://px.a8.net/svt/ejp?a8mat=4BA2HB+8P61QY+55QO+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.e-earphone.jp%2Fcollections%2Fwireless_earphone%2Fproducts%2F629497%3F_pos%3D7%26_fid%3D28f7c991a%26_ss%3Dc%26filter.p.m.custom.is_on_sale%3D%25E8%25B2%25A9%25E5%25A3%25B2%25E4%25B8%25AD",
   "final-gear01-plus-gaming":
