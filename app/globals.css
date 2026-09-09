@@ -527,6 +527,79 @@ h3 {
   height: auto;
 }
 
+/*
+ * A8 product image — quiet placement on the page field
+ * Outer layout only. Do not alter A8 markup / product image.
+ *
+ * Prefer “place softly” over “frame in a case”.
+ * Wider max sizes help landscape assets (e.g. MOONDROP) stay readable.
+ */
+.article-hero--a8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 28px;
+  padding: 28px 18px 32px;
+  /* Kill .article-hero { background:#111 } panel look */
+  background: var(--bg);
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.article-hero--a8 .a8-product-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 520px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.article-hero--a8 .a8-product-link .a8ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Larger than before; landscape images get horizontal room */
+.article-hero--a8 .a8-product-link a {
+  display: block;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 440px;
+  border-radius: 4px;
+  overflow: hidden;
+  outline: none;
+  /* Soft lift only — no frame / inset / heavy halo */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+/* Keep A8 1x1 tracking pixel from inheriting hero img rules */
+.article-hero--a8 .a8ad > img {
+  width: 1px !important;
+  height: 1px !important;
+  max-width: 1px !important;
+  display: block;
+}
+
+/* Product image: aspect preserved, no crop */
+.article-hero--a8 .a8-product-link a img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
 .article-head {
   padding: 8px 0 8px;
 }
@@ -1132,6 +1205,30 @@ h3 {
     margin: 28px auto 32px;
     border-radius: 4px;
     overflow: hidden;
+  }
+
+  .article-hero--a8 {
+    width: min(680px, calc(100% - 40px));
+    margin: 28px auto 32px;
+    padding: 36px 24px 40px;
+    border-radius: 0;
+    overflow: visible;
+    background: var(--bg);
+    border: none;
+    box-shadow: none;
+  }
+
+  .article-hero--a8 .a8-product-link {
+    max-width: 560px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .article-hero--a8 .a8-product-link a {
+    width: 82%;
+    max-width: 480px;
   }
 
   .article-head h1 {

@@ -154,10 +154,10 @@ export const articles: Article[] = [
         recommendedFor: ["コスパよく探している人", "動画・ゲームにも使いたい人", "コスパ重視の人"],
         linkLabel: "詳しく見る",
         image: {
-          src: "/images/articles/tbs86k-pinterest.jpg",
+          src: "/images/articles/tbs86k.jpg",
           alt: "tama's TBS86K",
-          width: 1008,
-          height: 1792,
+          width: 1000,
+          height: 1000,
         },
       },
       {
@@ -175,10 +175,10 @@ export const articles: Article[] = [
         recommendedFor: ["デザイン性を重視したい人", "黒・透明系ガジェットが好きな人"],
         linkLabel: "詳しく見る",
         image: {
-          src: "/images/articles/moondrop-space-travel-2-ultra-pinterest.jpg",
+          src: "/images/articles/moondrop-space-travel-2-ultra.jpg",
           alt: "MOONDROP SPACE TRAVEL 2 Ultra",
-          width: 1008,
-          height: 1792,
+          width: 600,
+          height: 600,
         },
       },
       {
@@ -324,10 +324,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/moondrop-space-travel-2-ultra-pinterest.jpg",
+      src: "/images/articles/moondrop-space-travel-2-ultra.jpg",
       alt: "クリアケースと黒いMOONDROP SPACE TRAVEL 2 Ultraの完全ワイヤレスイヤホン",
-      width: 1008,
-      height: 1792,
+      width: 600,
+      height: 600,
     },
     excerpt: "クリア感のあるケースとブラック系の見た目が印象的な、日常使いに検討しやすい完全ワイヤレスイヤホン。",
     intro:
@@ -633,10 +633,10 @@ export const articles: Article[] = [
     productType: "Bluetooth フルワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/tbs86k-pinterest.jpg",
+      src: "/images/articles/tbs86k.jpg",
       alt: "黒いtama's TBS86Kの完全ワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "ANCとゲームモードを備え、手に取りやすい価格帯で日常使いに検討しやすい完全ワイヤレスイヤホン。",
     intro:

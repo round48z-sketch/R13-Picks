@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { A8ProductLink } from "@/components/A8ProductLink";
 import { AdSlot } from "@/components/AdSlot";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { RoundupArticleView } from "@/components/views/RoundupArticleView";
+import { getA8ProductLinkHtml } from "@/content/a8-product-links";
 import type { Locale } from "@/content/i18n/config";
 import { getSiteUrl, siteConfig } from "@/content/site";
 import { getUi } from "@/content/i18n/ui";
@@ -28,6 +30,7 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
   const category = getArticleCategory(article);
   const related = getRelatedArticles(article).map((item) => localizeArticle(item, locale));
   const hero = getArticleHero(article);
+  const a8ProductLinkHtml = getA8ProductLinkHtml(article.slug);
 
   if (article.layout === "roundup") {
     return (
@@ -64,15 +67,19 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
     <article className="article-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <div className="article-hero">
-        <Image
-          src={hero.src}
-          alt={hero.alt}
-          width={hero.width}
-          height={hero.height}
-          priority
-          sizes="(max-width: 720px) 100vw, 680px"
-        />
+      <div className={`article-hero${a8ProductLinkHtml ? " article-hero--a8" : ""}`}>
+        {a8ProductLinkHtml ? (
+          <A8ProductLink html={a8ProductLinkHtml} />
+        ) : (
+          <Image
+            src={hero.src}
+            alt={hero.alt}
+            width={hero.width}
+            height={hero.height}
+            priority
+            sizes="(max-width: 720px) 100vw, 680px"
+          />
+        )}
       </div>
 
       <div className="narrow article-head">
