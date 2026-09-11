@@ -695,10 +695,10 @@ export const articles: Article[] = [
     productType: "ネックバンド型ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/edifier-w280nb-pro-pinterest.jpg",
+      src: "/images/articles/edifier-w280nb-pro.jpg",
       alt: "黒いEDIFIER W280NB Proのネックバンド型ワイヤレスイヤホン",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "ハイブリッドANCとLDAC対応を備え、通勤や外出に検討しやすいネックバンド型イヤホン。",
     intro:
@@ -963,10 +963,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/edifier-evobuds-pinterest.jpg",
+      src: "/images/articles/edifier-evobuds.png",
       alt: "EDIFIER EvoBudsの完全ワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "アダプティブANCと高音質コーデック対応で、日常のリスニングを整えやすい完全ワイヤレスイヤホン。",
     intro:
