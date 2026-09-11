@@ -532,14 +532,15 @@ h3 {
  * Outer layout only. Do not alter A8 markup / product image.
  *
  * Prefer “place softly” over “frame in a case”.
- * Wider max sizes help landscape assets (e.g. MOONDROP) stay readable.
+ * Constrained width keeps white/light product shots from dominating the dark page;
+ * landscape assets still get enough horizontal room via % + max-width.
  */
 .article-hero--a8 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 0 28px;
-  padding: 28px 18px 32px;
+  padding: 24px 16px 28px;
   /* Kill .article-hero { background:#111 } panel look */
   background: var(--bg);
   border: none;
@@ -553,7 +554,7 @@ h3 {
   align-items: center;
   box-sizing: border-box;
   width: 100%;
-  max-width: 520px;
+  max-width: 480px;
   padding: 0;
   background: transparent;
   border: none;
@@ -569,13 +570,13 @@ h3 {
   max-width: 100%;
 }
 
-/* Larger than before; landscape images get horizontal room */
+/* Centered, moderated size so white-bg product art sits quietly on black */
 .article-hero--a8 .a8-product-link a {
   display: block;
   flex: 0 0 auto;
   box-sizing: border-box;
-  width: 90%;
-  max-width: 440px;
+  width: 78%;
+  max-width: 380px;
   border-radius: 4px;
   overflow: hidden;
   outline: none;
@@ -1210,7 +1211,7 @@ h3 {
   .article-hero--a8 {
     width: min(680px, calc(100% - 40px));
     margin: 28px auto 32px;
-    padding: 36px 24px 40px;
+    padding: 28px 24px 32px;
     border-radius: 0;
     overflow: visible;
     background: var(--bg);
@@ -1219,7 +1220,7 @@ h3 {
   }
 
   .article-hero--a8 .a8-product-link {
-    max-width: 560px;
+    max-width: 480px;
     padding: 0;
     background: transparent;
     border: none;
@@ -1227,8 +1228,8 @@ h3 {
   }
 
   .article-hero--a8 .a8-product-link a {
-    width: 82%;
-    max-width: 480px;
+    width: 72%;
+    max-width: 400px;
   }
 
   .article-head h1 {

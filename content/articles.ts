@@ -196,10 +196,10 @@ export const articles: Article[] = [
         recommendedFor: ["バッテリー持ちを重視する人", "ANC付きの普段使いを探す人"],
         linkLabel: "詳しく見る",
         image: {
-          src: "/images/articles/edifier-x2-pro-pinterest.jpg",
+          src: "/images/articles/edifier-x2-pro.jpg",
           alt: "EDIFIER X2 Pro",
-          width: 1008,
-          height: 1792,
+          width: 1000,
+          height: 1000,
         },
       },
       {
@@ -217,10 +217,10 @@ export const articles: Article[] = [
         recommendedFor: ["通勤・作業用に使いたい人", "価格と機能のバランスを見たい人"],
         linkLabel: "詳しく見る",
         image: {
-          src: "/images/articles/edifier-x5-pro-2025-pinterest.jpg",
+          src: "/images/articles/edifier-x5-pro-2025.jpg",
           alt: "EDIFIER X5 Pro Gen2",
-          width: 1008,
-          height: 1792,
+          width: 1000,
+          height: 1000,
         },
       },
       {
@@ -238,10 +238,10 @@ export const articles: Article[] = [
         recommendedFor: ["小さく軽い一台が欲しい人", "通勤・外出用に使いやすいモデルを探す人"],
         linkLabel: "詳しく見る",
         image: {
-          src: "/images/articles/final-ze300-pinterest.jpg",
+          src: "/images/articles/final-ze300.png",
           alt: "final ZE300",
-          width: 1008,
-          height: 1792,
+          width: 1500,
+          height: 1500,
         },
       },
       {
@@ -259,10 +259,10 @@ export const articles: Article[] = [
         recommendedFor: ["ASMRをよく聴く人", "就寝前や声コンテンツ中心の人"],
         linkLabel: "詳しく見る",
         image: {
-          src: "/images/articles/final-ze500-for-asmr-pinterest.jpg",
+          src: "/images/articles/final-ze500-for-asmr.png",
           alt: "final ZE500 for ASMR",
-          width: 1008,
-          height: 1792,
+          width: 1500,
+          height: 1500,
         },
       },
       {
@@ -280,10 +280,10 @@ export const articles: Article[] = [
         recommendedFor: ["通勤・通学向けを探す人", "価格と機能のバランスを重視する人"],
         linkLabel: "詳しく見る",
         image: {
-          src: "/images/articles/earfun-air-pro-4i-pinterest.jpg",
+          src: "/images/articles/earfun-air-pro-4i.jpg",
           alt: "EarFun Air Pro 4i",
-          width: 1008,
-          height: 1792,
+          width: 600,
+          height: 600,
         },
       },
     ],
@@ -386,10 +386,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/earfun-air-pro-4i-pinterest.jpg",
+      src: "/images/articles/earfun-air-pro-4i.jpg",
       alt: "黒いEarFun Air Pro 4iの完全ワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 600,
+      height: 600,
     },
     excerpt: "ノイズキャンセリング特化型として案内され、普段使いに検討しやすい完全ワイヤレスイヤホン。",
     intro:
@@ -448,10 +448,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/final-gear01-plus-gaming-pinterest.jpg",
+      src: "/images/articles/final-gear01-plus-gaming.png",
       alt: "黒いfinal GEAR01+Gamingの完全ワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 1800,
+      height: 1800,
     },
     excerpt: "超低遅延ゲーミングモードとハイブリッドANCを備え、ゲーム・動画・音楽に検討しやすい完全ワイヤレスイヤホン。",
     intro:
@@ -513,10 +513,10 @@ export const articles: Article[] = [
     productType: "ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/final-ze500-for-asmr-pinterest.jpg",
+      src: "/images/articles/final-ze500-for-asmr.png",
       alt: "DARK GRAYのfinal ZE500 for ASMRワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 1500,
+      height: 1500,
     },
     excerpt: "近接的な「声」に特化したASMR向けの音質設計を備える、コンパクトなワイヤレスイヤホン。",
     intro:
@@ -580,10 +580,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/final-ze300-pinterest.jpg",
+      src: "/images/articles/final-ze300.png",
       alt: "黒いfinal ZE300の完全ワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 1500,
+      height: 1500,
     },
     excerpt: "片側約4gのコンパクト設計とノイズキャンセリングを備え、日常使いに検討しやすい完全ワイヤレスイヤホン。",
     intro:
@@ -834,10 +834,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/edifier-x5-pro-2025-pinterest.jpg",
+      src: "/images/articles/edifier-x5-pro-2025.jpg",
       alt: "黒いEDIFIER X5 Pro Gen2の完全ワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "ハイブリッドANCと長時間再生を備え、日常使いに検討しやすい完全ワイヤレスイヤホン。",
     intro:
@@ -908,10 +908,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-09-08",
     image: {
-      src: "/images/articles/edifier-x2-pro-pinterest.jpg",
+      src: "/images/articles/edifier-x2-pro.jpg",
       alt: "黒いEDIFIER X2 Proの完全ワイヤレスイヤホンと充電ケース",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "ブラックのミニマルな見た目と、ANC・長時間再生を備えた日常向けの完全ワイヤレスイヤホン。",
     intro:
