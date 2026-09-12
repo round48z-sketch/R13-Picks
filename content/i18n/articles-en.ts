@@ -164,7 +164,7 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
       "Even under about ¥10,000, candidates split by use case. This is a comparison guide—not a ranking. Check each product article and sales page for details and the latest price.",
     note: "※Prices are approximate as of writing. Please check each sales page for the latest price and stock.",
     ctaLabel: "Read more",
-    imageAlt: "Lineup of seven true wireless earbuds featured in the under-¥10,000 comparison guide",
+    imageAlt: "Theme visual for the under-¥10,000 true wireless earbuds guide",
   },
   "moondrop-space-travel-2-ultra": {
     title: "A clear design that stands out. MOONDROP SPACE TRAVEL 2 Ultra",

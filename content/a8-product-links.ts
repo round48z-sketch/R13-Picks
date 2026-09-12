@@ -25,6 +25,8 @@ export const a8ProductLinks: Record<string, string> = {
     '<span class="a8ad 4ANbyy0-g7-vuWnqEX"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BC6AV+2PN4RE+5BV8+HUSFL","alt":"商品リンク","id":"4ANbyy0-g7-vuWnqEX"},"goods": {"ejp":"h"+"ttps://www.edifier.jp/products/w280nb-pro","imu":"h"+"ttps://www.edifier.jp/cdn/shop/files/1_204e8f6e-b15c-49f9-bcb5-8afce97929d9.jpg?v=1744965881&width=1000"}});</script>',
   "edifier-evobuds":
     '<span class="a8ad 4ANbyy0-g7-vuWCJWA"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BC6AV+2PN4RE+5BV8+HUSFL","alt":"商品リンク","id":"4ANbyy0-g7-vuWCJWA"},"goods": {"ejp":"h"+"ttps://www.edifier.jp/products/evobuds","imu":"h"+"ttps://www.edifier.jp/cdn/shop/files/EvoBuds_2.png?v=1782288564&width=1000"}});</script>',
+  "edifier-comfo-q":
+    '<span class="a8ad 4ANbyy0-g7-vv0GKEJ"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BC6AV+2PN4RE+5BV8+HUSFL","alt":"商品リンク","id":"4ANbyy0-g7-vv0GKEJ"},"goods": {"ejp":"h"+"ttps://www.edifier.jp/products/comfo-q","imu":"h"+"ttps://www.edifier.jp/cdn/shop/files/fd1811e329d6252abce5b825429edd5c_60831767-271f-4a32-8001-ec66d76f5687.jpg?v=1749785825&width=1000"}});</script>',
 };
 
 export function getA8ProductLinkHtml(slug: string) {

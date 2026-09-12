@@ -163,7 +163,7 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
       "약 1만 엔 이하에서도 용도에 따라 후보가 갈립니다. 이 기사는 순위가 아니라 비교를 위한 정리입니다. 상세와 최신 가격은 각 단품 기사·판매 페이지에서 확인해 주세요.",
     note: "※가격은 작성 시점의 대략적인 기준입니다. 최신 가격·재고는 각 판매 페이지에서 확인해 주세요.",
     ctaLabel: "자세히 보기",
-    imageAlt: "1만 엔 이하 비교 특집에 수록된 완전 무선 이어폰 7대를 나란히 보여 주는 비주얼",
+    imageAlt: "1만 엔 이하 완전 무선 이어폰 가이드의 테마 비주얼",
   },
   "moondrop-space-travel-2-ultra": {
     title: "투명감 있는 디자인이 돋보인다. MOONDROP SPACE TRAVEL 2 Ultra",

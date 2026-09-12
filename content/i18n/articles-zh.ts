@@ -163,7 +163,7 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
       "即使在约1万日元以下，也会按用途分出不同候选。本文不是排名，而是对比整理。详情与最新价格请在各单品文章与销售页面确认。",
     note: "※价格为写作时点的大致参考。最新价格与库存请在各销售页面确认。",
     ctaLabel: "查看详情",
-    imageAlt: "1万日元以下对比特集中收录的7款真无线耳机并列展示图",
+    imageAlt: "1万日元以下真无线耳机精选指南的主题视觉",
   },
   "moondrop-space-travel-2-ultra": {
     title: "透明感设计更出彩。MOONDROP SPACE TRAVEL 2 Ultra",

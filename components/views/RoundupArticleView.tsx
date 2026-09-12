@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { A8ProductLink } from "@/components/A8ProductLink";
 import { AdSlot } from "@/components/AdSlot";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import type { Article } from "@/content/articles";
+import { getA8ProductLinkHtml } from "@/content/a8-product-links";
 import type { Locale } from "@/content/i18n/config";
 import { getUi } from "@/content/i18n/ui";
 import { getSiteUrl, siteConfig } from "@/content/site";
@@ -24,14 +26,9 @@ export function RoundupArticleView({
 }: RoundupArticleViewProps) {
   const ui = getUi(locale);
   const picks = article.picks ?? [];
-  const hero = article.heroImage;
-  const usePickCollage = !hero && picks.length > 0;
+  const hero = article.heroImage ?? article.image;
   const url = `${getSiteUrl()}${localizePath(`/picks/${article.slug}`, locale)}`;
-  const jsonLdImage = hero
-    ? `${getSiteUrl()}${hero.src}`
-    : picks[0]
-      ? `${getSiteUrl()}${picks[0].image.src}`
-      : `${getSiteUrl()}${article.image.src}`;
+  const jsonLdImage = `${getSiteUrl()}${hero.src}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -59,39 +56,38 @@ export function RoundupArticleView({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="roundup-hero">
-        {usePickCollage ? (
-          <div className="roundup-hero__collage" aria-hidden>
-            {picks.map((pick) => (
-              <div key={pick.slug} className="roundup-hero__cell">
-                <Image
-                  src={pick.image.src}
-                  alt=""
-                  fill
-                  priority
-                  sizes="(max-width: 720px) 33vw, 160px"
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-            ))}
+        {picks.length > 0 ? (
+          <div className="roundup-hero__strip-wrap" aria-label="掲載モデル比較ビジュアル">
+            <div className="roundup-hero__strip">
+              {picks.map((pick, index) => (
+                <Link
+                  key={pick.slug}
+                  href={localizePath(`/picks/${pick.slug}`, locale)}
+                  className="roundup-hero__strip-cell"
+                  title={pick.name}
+                >
+                  <div className="roundup-hero__strip-img-box">
+                    <Image
+                      src={pick.image.src}
+                      alt={pick.name}
+                      width={pick.image.width || 400}
+                      height={pick.image.height || 400}
+                      priority={index < 7}
+                      sizes="(max-width: 768px) 110px, 150px"
+                      className="roundup-hero__strip-img"
+                    />
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
-        ) : hero ? (
+        ) : (
           <div className="roundup-hero__banner">
             <Image
               src={hero.src}
               alt={hero.alt}
               width={hero.width}
               height={hero.height}
-              priority
-              sizes="100vw"
-            />
-          </div>
-        ) : (
-          <div className="roundup-hero__banner">
-            <Image
-              src={article.image.src}
-              alt={article.image.alt}
-              width={article.image.width}
-              height={article.image.height}
               priority
               sizes="100vw"
             />
@@ -207,53 +203,66 @@ export function RoundupArticleView({
         {picks.length > 0 ? (
           <section className="roundup-picks" aria-labelledby="roundup-picks-heading">
             <h2 id="roundup-picks-heading">{article.picksTitle ?? ui.readMore}</h2>
-            {picks.map((pick) => (
-              <article key={pick.slug} className="roundup-pick-card">
-                <div className="roundup-pick-card__media">
-                  <Image
-                    src={pick.image.src}
-                    alt={pick.image.alt}
-                    fill
-                    sizes="(max-width: 720px) 100vw, 280px"
-                    style={{ objectFit: "cover" }}
-                  />
-                </div>
-                <div className="roundup-pick-card__content">
-                  <h3>
-                    <Link href={localizePath(`/picks/${pick.slug}`, locale)}>{pick.name}</Link>
-                  </h3>
-                  <p className="roundup-pick-card__tagline">{pick.tagline}</p>
-                  <p className="roundup-pick-card__price">{pick.priceGuide}</p>
-                  {pick.tags.length > 0 ? (
-                    <ul className="roundup-tags">
-                      {pick.tags.map((tag) => (
-                        <li key={tag}>{tag}</li>
+            {picks.map((pick) => {
+              const a8Html = getA8ProductLinkHtml(pick.slug);
+              return (
+                <article key={pick.slug} className="roundup-pick-card">
+                  <div
+                    className={
+                      a8Html
+                        ? "roundup-pick-card__media roundup-pick-card__media--a8"
+                        : "roundup-pick-card__media"
+                    }
+                  >
+                    {a8Html ? (
+                      <A8ProductLink html={a8Html} />
+                    ) : (
+                      <Image
+                        src={pick.image.src}
+                        alt={pick.image.alt}
+                        fill
+                        sizes="(max-width: 720px) 100vw, 280px"
+                        style={{ objectFit: "cover" }}
+                      />
+                    )}
+                  </div>
+                  <div className="roundup-pick-card__content">
+                    <h3>
+                      <Link href={localizePath(`/picks/${pick.slug}`, locale)}>{pick.name}</Link>
+                    </h3>
+                    <p className="roundup-pick-card__tagline">{pick.tagline}</p>
+                    <p className="roundup-pick-card__price">{pick.priceGuide}</p>
+                    {pick.tags.length > 0 ? (
+                      <ul className="roundup-tags">
+                        {pick.tags.map((tag) => (
+                          <li key={tag}>{tag}</li>
+                        ))}
+                      </ul>
+                    ) : null}
+                    <p className="roundup-pick-card__label">{article.pickFeaturesLabel ?? "Features"}</p>
+                    <ul>
+                      {pick.features.map((feature) => (
+                        <li key={feature}>{feature}</li>
                       ))}
                     </ul>
-                  ) : null}
-                  <p className="roundup-pick-card__label">{article.pickFeaturesLabel ?? "Features"}</p>
-                  <ul>
-                    {pick.features.map((feature) => (
-                      <li key={feature}>{feature}</li>
-                    ))}
-                  </ul>
-                  <p className="roundup-pick-card__label">
-                    {article.pickRecommendedLabel ?? "Good for"}
-                  </p>
-                  <ul>
-                    {pick.recommendedFor.map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                  <Link
-                    href={localizePath(`/picks/${pick.slug}`, locale)}
-                    className="cta-button cta-button--inline"
-                  >
-                    {pick.linkLabel ?? ui.readMore}
-                  </Link>
-                </div>
-              </article>
-            ))}
+                    <p className="roundup-pick-card__label">
+                      {article.pickRecommendedLabel ?? "Good for"}
+                    </p>
+                    <ul>
+                      {pick.recommendedFor.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                    <Link
+                      href={localizePath(`/picks/${pick.slug}`, locale)}
+                      className="cta-button cta-button--inline"
+                    >
+                      {pick.linkLabel ?? ui.readMore}
+                    </Link>
+                  </div>
+                </article>
+              );
+            })}
           </section>
         ) : null}
 
