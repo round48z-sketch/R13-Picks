@@ -1777,10 +1777,10 @@ export const articles: Article[] = [
     productType: "ワイヤレス充電器",
     publishedAt: "2026-09-01",
     image: {
-      src: "/images/articles/tamas-pr-wc64-pinterest.jpg",
+      src: "/images/articles/tamas-pr-wc64.jpg",
       alt: "黒いtama's PR-WC64のQi2ワイヤレス充電器",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "Qi2対応のマグネット式。折りたたみスタンド付きのワイヤレス充電器。",
     intro:
@@ -1844,10 +1844,10 @@ export const articles: Article[] = [
     productType: "コンセント充電器",
     publishedAt: "2026-09-01",
     image: {
-      src: "/images/articles/tamas-pr-ap160uc3-pinterest.jpg",
+      src: "/images/articles/tamas-pr-ap160uc3.jpg",
       alt: "黒いtama's PR-AP160UC3のUSB充電器",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "PD100W対応、USB-C 3ポートとUSB-A 1ポートのGaN充電器。",
     intro:
@@ -2374,10 +2374,10 @@ export const articles: Article[] = [
     productType: "ワイヤレスノイズキャンセリングヘッドホン",
     publishedAt: "2026-08-24",
     image: {
-      src: "/images/articles/sony-ult-wear-pinterest.jpg",
+      src: "/images/articles/sony-ult-wear.jpg",
       alt: "黒いSONY ULT WEARのワイヤレスヘッドホン",
-      width: 1152,
-      height: 1728,
+      width: 600,
+      height: 600,
     },
     excerpt: "黒を基調にした、ノイズキャンセリング対応のワイヤレスヘッドホン。",
     intro:
@@ -2424,10 +2424,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-08-24",
     image: {
-      src: "/images/articles/final-ze3000-sv-pinterest.jpg",
+      src: "/images/articles/final-ze3000-sv.jpg",
       alt: "黒いfinal ZE3000 SVの完全ワイヤレスイヤホンと充電ケース",
-      width: 1152,
-      height: 1728,
+      width: 600,
+      height: 600,
     },
     excerpt: "黒を基調にした、機能性を備えた完全ワイヤレスイヤホン。",
     intro:
@@ -2474,10 +2474,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-08-24",
     image: {
-      src: "/images/articles/audio-technica-ath-sq1tw2nc-pinterest.jpg",
+      src: "/images/articles/audio-technica-ath-sq1tw2nc.jpg",
       alt: "黒いaudio-technica ATH-SQ1TW2NCの完全ワイヤレスイヤホンと充電ケース",
-      width: 1152,
-      height: 1728,
+      width: 600,
+      height: 600,
     },
     excerpt: "スクエア型のコンパクトなデザインが特徴の、黒の完全ワイヤレスイヤホン。",
     intro:
@@ -2564,10 +2564,10 @@ export const articles: Article[] = [
     productType: "完全ワイヤレスイヤホン",
     publishedAt: "2026-08-23",
     image: {
-      src: "/images/articles/denon-ah-c830ncw-pinterest.jpg",
+      src: "/images/articles/denon-ah-c830ncw.jpg",
       alt: "黒いDENON AH-C830NCWの完全ワイヤレスイヤホンと充電ケース",
-      width: 1152,
-      height: 1728,
+      width: 600,
+      height: 600,
     },
     excerpt: "黒でまとめやすい、日常使い向けの完全ワイヤレスイヤホン。",
     intro:
@@ -2608,10 +2608,10 @@ export const articles: Article[] = [
     productType: "ヘッドホン",
     publishedAt: "2026-08-23",
     image: {
-      src: "/images/articles/anker-space-2-pinterest.jpg",
+      src: "/images/articles/anker-soundcore-space-2.jpg",
       alt: "黒背景に置かれたマットブラックのワイヤレスヘッドホン",
-      width: 1152,
-      height: 1728,
+      width: 600,
+      height: 600,
     },
     excerpt: "黒を基調にした、毎日のリスニングに取り入れやすいワイヤレスヘッドホン。",
     intro:
