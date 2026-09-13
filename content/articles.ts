@@ -1917,10 +1917,10 @@ export const articles: Article[] = [
     productType: "腕時計",
     publishedAt: "2026-09-01",
     image: {
-      src: "/images/articles/brillamico-grace-double-pinterest.jpg",
+      src: "/images/articles/brillamico-grace-double.jpg",
       alt: "シルバー系スクエアフェイスのBRILLAMICO GRACE DOUBLE",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "スクエア型フェイスと、スワロフスキーをあしらったチェーンのGRACE DOUBLE。",
     intro:
@@ -1983,10 +1983,10 @@ export const articles: Article[] = [
     productType: "腕時計",
     publishedAt: "2026-09-01",
     image: {
-      src: "/images/articles/brillamico-grace-mia-black-pinterest.jpg",
+      src: "/images/articles/brillamico-grace-mia-black.jpg",
       alt: "黒いスクエアフェイスのBRILLAMICO GRACE MIA BLACK",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "ブラックのスクエアフェイスと、キュービックジルコニアの文字盤。",
     intro:
@@ -2049,10 +2049,10 @@ export const articles: Article[] = [
     productType: "腕時計",
     publishedAt: "2026-09-01",
     image: {
-      src: "/images/articles/brillamico-lily-46mm-black-gold-pinterest.jpg",
+      src: "/images/articles/brillamico-lily-46mm-black-gold.jpg",
       alt: "黒とゴールドのBRILLAMICO LILY 46MMと革ベルト",
-      width: 1008,
-      height: 1792,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "ブラック×ゴールドと革ベルトの、存在感のあるLILY 46MM。",
     intro:
@@ -2115,10 +2115,10 @@ export const articles: Article[] = [
     productType: "コンセント充電器",
     publishedAt: "2026-08-30",
     image: {
-      src: "/images/articles/tamas-pr-apc265c-pinterest.jpg",
+      src: "/images/articles/tamas-pr-apc265c.jpg",
       alt: "黒いtama's PR-APC265CのUSB充電器",
-      width: 1152,
-      height: 1728,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "巻取り式USB-Cケーブルを内蔵した、黒の65W充電器。",
     intro:
@@ -2275,10 +2275,10 @@ export const articles: Article[] = [
     productType: "モバイルバッテリー",
     publishedAt: "2026-08-27",
     image: {
-      src: "/images/articles/rorry-charmgo-t1-pinterest.jpg",
+      src: "/images/articles/rorry-charmgo-t1.jpg",
       alt: "黒いRORRY CharmGo T1のキーホルダー型モバイルバッテリー",
-      width: 1008,
-      height: 1792,
+      width: 1600,
+      height: 1600,
     },
     excerpt: "10000mAh・最大30W対応の、持ち歩きやすい黒のキーホルダー型モバイルバッテリー。",
     intro:
@@ -2519,10 +2519,10 @@ export const articles: Article[] = [
     productType: "腕時計",
     publishedAt: "2026-08-24",
     image: {
-      src: "/images/articles/brillamico-lily-black-silver-pinterest.jpg",
+      src: "/images/articles/brillamico-lily-46mm-black-silver.jpg",
       alt: "黒とシルバーのBRILLAMICO LILY 46MMと革ベルト",
-      width: 1152,
-      height: 1728,
+      width: 1000,
+      height: 1000,
     },
     excerpt: "黒とシルバー、スワロフスキーを組み合わせた、存在感のある腕時計。",
     intro:
