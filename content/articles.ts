@@ -1255,10 +1255,10 @@ export const articles: Article[] = [
     productType: "サコッシュウォレット",
     publishedAt: "2026-09-05",
     image: {
-      src: "/images/articles/life-pocket-sacoche-wallet-pinterest.jpg",
+      src: "/images/articles/life-pocket-sacoche-wallet.jpg",
       alt: "黒いLIFE POCKET Sacoche Walletのサコッシュ型ウォレット",
-      width: 1008,
-      height: 1792,
+      width: 1080,
+      height: 1296,
     },
     excerpt: "財布と小型バッグをひとつに。黒で持てるサコッシュ型ウォレット。",
     intro:
@@ -1326,10 +1326,10 @@ export const articles: Article[] = [
     productType: "ネックレス",
     publishedAt: "2026-09-05",
     image: {
-      src: "/images/articles/gluck-sonne-coin-necklace-pinterest.jpg",
+      src: "/images/articles/gluck-sonne-coin-necklace.jpg",
       alt: "GLUCK Sonne Coin necklaceのコインモチーフネックレス",
-      width: 1008,
-      height: 1792,
+      width: 1200,
+      height: 1500,
     },
     excerpt: "コインモチーフのネックレス。ゴールド・シルバー・ローズゴールド展開。",
     intro:
@@ -1392,10 +1392,10 @@ export const articles: Article[] = [
     productType: "バングル",
     publishedAt: "2026-09-05",
     image: {
-      src: "/images/articles/gluck-twist-bangle-pinterest.jpg",
+      src: "/images/articles/gluck-twist-bangle.jpg",
       alt: "GLUCK Twist bangleのツイストデザインバングル",
-      width: 1008,
-      height: 1792,
+      width: 1200,
+      height: 1500,
     },
     excerpt: "細身のツイストバングル。ゴールドとシルバーから選べる。",
     intro:
@@ -1462,10 +1462,10 @@ export const articles: Article[] = [
     productType: "ブレスレット",
     publishedAt: "2026-09-05",
     image: {
-      src: "/images/articles/gluck-anchor-chain-bracelet-pinterest.jpg",
+      src: "/images/articles/gluck-anchor-chain-bracelet.jpg",
       alt: "シルバーのGLUCK Anchor Chain Braceletのチェーンブレスレット",
-      width: 1008,
-      height: 1792,
+      width: 1200,
+      height: 1500,
     },
     excerpt: "シルバー系チェーンの存在感。サイズ選択できるブレスレット。",
     intro:
@@ -1530,10 +1530,10 @@ export const articles: Article[] = [
     productType: "ネックレス",
     publishedAt: "2026-09-04",
     image: {
-      src: "/images/articles/gluck-horseshoe-necklace-pinterest.jpg",
+      src: "/images/articles/gluck-horseshoe-necklace.jpg",
       alt: "GLUCK Horseshoe Necklaceの馬蹄モチーフネックレス",
-      width: 1008,
-      height: 1792,
+      width: 1200,
+      height: 1500,
     },
     excerpt: "一粒ジルコニアの馬蹄モチーフ。ゴールドとシルバーから選べるネックレス。",
     intro:
@@ -2327,10 +2327,10 @@ export const articles: Article[] = [
     productType: "財布",
     publishedAt: "2026-08-27",
     image: {
-      src: "/images/articles/life-pocket-slim-wallet-pinterest.jpg",
+      src: "/images/articles/life-pocket-slim-wallet.jpg",
       alt: "黒いLIFE POCKET Slim Walletの薄型ウォレット",
-      width: 1152,
-      height: 1728,
+      width: 900,
+      height: 1080,
     },
     excerpt: "厚さ約7mmの、黒でまとめやすい薄型ウォレット。",
     intro:
