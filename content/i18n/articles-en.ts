@@ -1329,4 +1329,57 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ctaLabel: "View product",
     imageAlt: "Matte black wireless headphones placed against a black background",
   },
+  "olivia-burton-classic-16mm-mini-grove-gold-black": {
+    title: "Compact in black × gold. OLIVIA BURTON Classic 16mm Mini Grove",
+    seoTitle: "OLIVIA BURTON Classic 16mm Mini Grove｜Gold & black | R13 Picks",
+    description:
+      "An R13 Picks look at the OLIVIA BURTON Classic 16mm Mini Grove Gold & Black Crocodile Leather. Focused on the compact square dial and the gold case with a black crocodile-look strap.",
+    productType: "Watch",
+    excerpt:
+      "Gold case and black crocodile-look leather. A Mini Grove with a compact square dial.",
+    intro:
+      "The OLIVIA BURTON Classic 16mm Mini Grove Gold & Black Crocodile Leather (model: OB24000284) is a watch sold on the official online store. Official product copy presents it as part of the Mini Grove collection, highlighting a compact dial and a faux crocodile strap. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Classic 16mm Mini Grove",
+    points: [
+      "Brand: OLIVIA BURTON",
+      "Product name: Classic 16mm Mini Grove Gold & Black Crocodile Leather",
+      "Model number: OB24000284",
+      "Sold on the OLIVIA BURTON Japan official online store",
+      "Product details list a square dial (24mm) and thickness of 7.1mm",
+      "Case: stainless steel (gold coating)",
+      "Strap: calf leather; product copy describes a faux crocodile strap",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+    ],
+    sections: [
+      {
+        title: "A compact square dial",
+        body: "Product details list a square dial (24mm) and thickness of 7.1mm. Compared with larger round watches, it’s an easy size to consider as a smaller square face. Official copy presents Mini Grove as a more compact dial take on the brand’s best-selling Grove. Check the official product page for size details.",
+      },
+      {
+        title: "Gold case with a black strap",
+        body: "The case is stainless steel with a gold coating, and the strap is calf leather. Official copy describes the lineup as using a classic black faux crocodile strap. The black × gold look is a candidate when you want an accessory-like accent at the wrist.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Official copy presents the collection as adding quiet elegance to everyday wear through refined texture and a well-judged size. The design is easy to consider as a small gold accent for simple or dressier outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People who want a black × gold accent on the wrist. People who prefer a compact square dial over a larger watch. People interested in a black crocodile-look leather strap. People considering a watch in a more accessory-like way.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Product details list a square dial (24mm) and thickness of 7.1mm",
+      "Case: stainless steel (gold coating); strap: calf leather",
+      "Official copy describes a faux crocodile strap",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Classic 16mm Mini Grove Gold & Black Crocodile Leather is an OLIVIA BURTON Mini Grove that pairs a gold-coated case with a black crocodile-look strap. Official materials present a compact dial, making it a candidate when you want to keep the wrist in black × gold. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "OLIVIA BURTON Classic 16mm Mini Grove with gold case and black strap",
+  },
 };

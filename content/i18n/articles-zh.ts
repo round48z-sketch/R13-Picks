@@ -2141,4 +2141,57 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ctaLabel: "查看商品",
     imageAlt: "放在黑色背景上的雾面黑无线耳机",
   },
+  "olivia-burton-classic-16mm-mini-grove-gold-black": {
+    title: "以黑×金收得更小巧。OLIVIA BURTON 经典 16mm Mini Grove",
+    seoTitle: "OLIVIA BURTON 经典 16mm Mini Grove｜金色＆黑色 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 OLIVIA BURTON 经典 16mm Mini Grove 金色＆黑色鳄鱼皮纹表带。围绕紧凑的方形表盘，以及金色表壳×黑色鳄鱼皮纹表带来整理。",
+    productType: "腕表",
+    excerpt:
+      "金色表壳与黑色鳄鱼皮纹皮革。紧凑方形表盘的 Mini Grove。",
+    intro:
+      "OLIVIA BURTON（奥利维亚·伯顿）的经典 16mm Mini Grove 金色＆黑色鳄鱼皮纹表带（型号：OB24000284）是在官方网店销售的腕表。商品说明将其作为 Mini Grove 系列介绍，并突出紧凑表盘与仿鳄鱼皮表带。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "经典 16mm Mini Grove 是什么",
+    points: [
+      "品牌为 OLIVIA BURTON（奥利维亚·伯顿）",
+      "商品名为经典 16mm Mini Grove 金色＆黑色鳄鱼皮纹表带",
+      "型号为 OB24000284",
+      "在 OLIVIA BURTON 日本官方网店销售",
+      "商品详情标注方形表盘（24mm）、厚度 7.1mm",
+      "表壳为不锈钢（金色镀层）",
+      "表带为小牛皮。商品说明标注为仿鳄鱼皮表带",
+      "日本产石英机芯，3ATM（日常生活防水）",
+    ],
+    sections: [
+      {
+        title: "紧凑的方形表盘",
+        body: "商品详情标注方形表盘（24mm）、厚度 7.1mm。与偏大的圆形腕表不同，作为更小的方形表盘，尺寸感较容易纳入考虑。商品说明将其介绍为：把品牌畅销款 Grove 的魅力以更紧凑的表盘展开的 Mini Grove。尺寸细节请在官方商品页面确认。",
+      },
+      {
+        title: "金色表壳与黑色表带的组合",
+        body: "表壳为不锈钢（金色镀层），表带为小牛皮。商品说明将该系列描述为采用经典黑色仿鳄鱼皮表带。黑×金统一的外观，适合想以外饰感为手腕增加一点点缀时的候选。",
+      },
+      {
+        title: "如果想用于穿搭",
+        body: "商品说明将该系列描述为：以精致质感与恰到好处的尺寸感，为日常增添不张扬的优雅。容易作为简洁或偏正式穿搭上的小金色点缀来考虑。是否合拍取决于整体着装。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "想用黑×金组合点缀手腕的人。比起更大的表，更想选紧凑方形表盘的人。对黑色鳄鱼皮纹皮革表带感兴趣的人。想以外饰感来考虑腕表的人。",
+      },
+    ],
+    recommendedTitle: "购买前建议确认的要点",
+    recommendedFor: [
+      "商品详情标注方形表盘（24mm）、厚度 7.1mm",
+      "表壳为不锈钢（金色镀层），表带为小牛皮",
+      "商品说明标注为仿鳄鱼皮表带",
+      "规格为日本产石英机芯，3ATM（日常生活防水）",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "经典 16mm Mini Grove 金色＆黑色鳄鱼皮纹表带，是 OLIVIA BURTON 将金色镀层表壳与黑色鳄鱼皮纹表带组合的 Mini Grove。官方以紧凑表盘来介绍，适合想用黑×金整理手腕时的候选。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "金色表壳与黑色表带的 OLIVIA BURTON 经典 16mm Mini Grove",
+  },
 };

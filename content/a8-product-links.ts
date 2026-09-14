@@ -83,6 +83,8 @@ export const a8ProductLinks: Record<string, string> = {
     '<span class="a8ad 4AHyHkw-g7-vvehKkp"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BAE5C+7H3YZE+4Q2I+BWGDT","alt":"商品リンク","id":"4AHyHkw-g7-vvehKkp"},"goods": {"ejp":"h"+"ttps://store.life-pocket.jp/products/digital-case","imu":"h"+"ttps://store.life-pocket.jp/cdn/shop/files/MAMORIO_5a6a3ff5-d8b9-4911-9faf-25ed1a613ad9_900x.jpg?v=1700846498"}});</script>',
   "self-reflection-moon-to-moon":
     '<span class="a8ad 4AH9kbM-g7-vvel2x4"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BA9HD+4XF9D6+5TJC+BWGDT","alt":"商品リンク","id":"4AH9kbM-g7-vvel2x4"},"goods": {"ejp":"h"+"ttps://store.album-hair.com/products/4570106739617","imu":"h"+"ttps://store.album-hair.com/cdn/shop/files/4570106739617.jpg?v=1773797789&width=1380"}});</script>',
+  "olivia-burton-classic-16mm-mini-grove-gold-black":
+    '<span class="a8ad 4AMQlC5-g7-vveKZfg"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BC2EG+97MHI2+2JXG+2BCGZ5","alt":"商品リンク","id":"4AMQlC5-g7-vveKZfg"},"goods": {"ejp":"h"+"ttps://www.oliviaburton.jp/c/watch/ob24000284","imu":"h"+"ttps://objapan.itembox.cloud/product/020/000000002065/000000002065-01.jpg?size=l&w=NjAw&t=20251007123122"}});</script>',
 };
 
 export function getA8ProductLinkHtml(slug: string) {
