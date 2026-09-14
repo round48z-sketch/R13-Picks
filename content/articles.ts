@@ -1034,10 +1034,10 @@ export const articles: Article[] = [
     productType: "オフィスデスク",
     publishedAt: "2026-09-06",
     image: {
-      src: "/images/articles/itoki-czr-147bac-1w9-pinterest.jpg",
+      src: "/images/articles/itoki-czr-147bac-1w9.jpg",
       alt: "ITOKI CZR-147BAC-1W9の両袖オフィスデスク",
-      width: 1008,
-      height: 1792,
+      width: 480,
+      height: 480,
     },
     excerpt: "白系天板とブラック系本体の両袖デスク。収納力と重厚感をまとめやすい一台。",
     intro:
@@ -1089,10 +1089,10 @@ export const articles: Article[] = [
     productType: "オフィスデスク",
     publishedAt: "2026-09-06",
     image: {
-      src: "/images/articles/kokuyo-invent-tkg-d127e6am10n-pinterest.jpg",
+      src: "/images/articles/kokuyo-invent-tkg-d127e6am10n.jpg",
       alt: "コクヨ INVENT TKG-D127E6AM10Nの片袖オフィスデスク",
-      width: 1008,
-      height: 1792,
+      width: 480,
+      height: 480,
     },
     excerpt: "ブラック脚部と片袖収納で、作業スペースと収納をまとめやすいオフィスデスク。",
     intro:
@@ -1145,10 +1145,10 @@ export const articles: Article[] = [
     productType: "オフィスチェア",
     publishedAt: "2026-09-06",
     image: {
-      src: "/images/articles/cofo-chair-lite-pinterest.jpg",
+      src: "/images/articles/cofo-chair-lite.jpg",
       alt: "黒いCOFO Chair Liteのオフィスチェア",
-      width: 1008,
-      height: 1792,
+      width: 480,
+      height: 480,
     },
     excerpt: "ブラック基調のメッシュ仕様で、デスク空間に合わせやすいワークチェア。",
     intro:
@@ -1200,10 +1200,10 @@ export const articles: Article[] = [
     productType: "オフィスチェア",
     publishedAt: "2026-09-06",
     image: {
-      src: "/images/articles/okamura-sylphy-c685xr-fmp1-pinterest.jpg",
+      src: "/images/articles/okamura-sylphy-c685xr-fmp1.jpg",
       alt: "黒いオカムラ Sylphy C685XR-FMP1のオフィスチェア",
-      width: 1264,
-      height: 1568,
+      width: 960,
+      height: 960,
     },
     excerpt: "ブラック基調のメッシュバックで、デスク空間を引き締めるワークチェア。",
     intro:
@@ -2176,10 +2176,10 @@ export const articles: Article[] = [
     productType: "オフィスチェア",
     publishedAt: "2026-08-28",
     image: {
-      src: "/images/articles/gtplayer-ch488-office-chair.jpg",
+      src: "/images/articles/gtplayer-ch488.png",
       alt: "黒いGTPLAYER CH488のオフィスチェア",
-      width: 3584,
-      height: 4800,
+      width: 1600,
+      height: 1600,
     },
     excerpt: "ブラックのメッシュでまとめた、デスク環境向けのオフィスチェア。",
     intro:
