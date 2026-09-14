@@ -1579,10 +1579,10 @@ export const articles: Article[] = [
     productType: "フレグランス",
     publishedAt: "2026-09-04",
     image: {
-      src: "/images/articles/self-reflection-moon-to-moon-pinterest.jpg",
+      src: "/images/articles/self-reflection-moon-to-moon.jpg",
       alt: "黒いSELF REFLECTION ザ フレグランス ムーントゥームーンのボトル",
-      width: 1008,
-      height: 1792,
+      width: 500,
+      height: 500,
     },
     excerpt: "黒のボトルで選ぶ、アルコールフリーの水性フレグランス。",
     intro:
@@ -1641,10 +1641,10 @@ export const articles: Article[] = [
     productType: "ストレートアイロン",
     publishedAt: "2026-09-04",
     image: {
-      src: "/images/articles/kinujo-sapphire-straight-pro-pinterest.jpg",
+      src: "/images/articles/kinujo-sapphire-straight-pro.jpg",
       alt: "黒いKINUJO Sapphire Straight Proのストレートアイロン",
-      width: 1008,
-      height: 1792,
+      width: 800,
+      height: 800,
     },
     excerpt: "縮毛矯正向けに開発された、黒のプロ仕様ストレートアイロン。",
     intro:
@@ -1711,10 +1711,10 @@ export const articles: Article[] = [
     productType: "ノートPCケース",
     publishedAt: "2026-09-02",
     image: {
-      src: "/images/articles/life-pocket-digital-case-pinterest.jpg",
+      src: "/images/articles/life-pocket-digital-case.jpg",
       alt: "黒いLIFE POCKET Digital CaseのノートPCケース",
-      width: 1008,
-      height: 1792,
+      width: 900,
+      height: 750,
     },
     excerpt: "黒の本革ノートPCケース。13inchサイズとMAMORIOセットの選択肢あり。",
     intro:
@@ -2222,8 +2222,8 @@ export const articles: Article[] = [
     image: {
       src: "/images/articles/kinujo-silk-premium-dryer-pro.jpg",
       alt: "黒いKINUJO Silk Premium Dryer PROのドライヤー",
-      width: 2048,
-      height: 2048,
+      width: 800,
+      height: 800,
     },
     excerpt: "ブラックを基調にした、約2.7㎥/分の大風量ドライヤー。",
     intro:
