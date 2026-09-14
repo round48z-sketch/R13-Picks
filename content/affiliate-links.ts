@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue":
+    "https://px.a8.net/svt/ejp?a8mat=4BC2EG+97MHI2+2JXG+2BCGZ5&a8ejpredirect=https%3A%2F%2Fwww.oliviaburton.jp%2Fc%2Fwatch%2Fob24000227",
   "olivia-burton-classic-16mm-mini-grove-gold-black":
     "https://px.a8.net/svt/ejp?a8mat=4BC2EG+97MHI2+2JXG+2BCGZ5&a8ejpredirect=https%3A%2F%2Fwww.oliviaburton.jp%2Fc%2Fwatch%2Fob24000284",
   "moondrop-space-travel-2-ultra":

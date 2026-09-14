@@ -1329,6 +1329,62 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ctaLabel: "View product",
     imageAlt: "Matte black wireless headphones placed against a black background",
   },
+  "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue": {
+    title:
+      "Rose gold × chalk blue. OLIVIA BURTON Signature 30mm Illustrated Floral",
+    seoTitle:
+      "OLIVIA BURTON Signature 30mm Illustrated Floral｜Rose gold & chalk blue | R13 Picks",
+    description:
+      "An R13 Picks look at the OLIVIA BURTON Signature 30mm Illustrated Floral Rose Gold & Chalk Blue Leather Strap Watch. Focused on the floral dial, rose-gold case, and chalk-blue leather strap.",
+    productType: "Watch",
+    excerpt:
+      "A floral dial with a rose-gold case and chalk-blue leather strap.",
+    intro:
+      "The OLIVIA BURTON Signature 30mm Illustrated Floral Rose Gold & Chalk Blue Leather Strap Watch (model: OB24000227) is a watch sold on the official online store. Official product copy highlights a classic floral design with a chalk-blue leather strap and rose-gold case. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Signature 30mm Illustrated Floral",
+    points: [
+      "Brand: OLIVIA BURTON",
+      "Product name: Signature 30mm Illustrated Floral Rose Gold & Chalk Blue Leather Strap Watch",
+      "Model number: OB24000227",
+      "Sold on the OLIVIA BURTON Japan official online store",
+      "Product details list a medium size (30mm) and thickness of 8.1mm",
+      "Case: stainless steel (rose-gold coating)",
+      "Strap: calfskin leather; the product name specifies a chalk-blue leather strap",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+    ],
+    sections: [
+      {
+        title: "A floral dial",
+        body: "Official copy presents this as a model whose appeal is a classic floral design reminiscent of the English countryside. It describes a dial with delicate peonies, so the floral face is the design focus. You can also check the look in the official product images.",
+      },
+      {
+        title: "Rose-gold case and chalk-blue strap",
+        body: "The case is stainless steel with a rose-gold coating, and the strap is calfskin leather. Official copy says the chalk-blue leather strap and rose-gold case work in harmony. The rose-gold and soft-blue look is a candidate when you want an accessory-like floral accent at the wrist.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Official copy presents it as a refined piece that adds a brighter mood simply by wearing it on the wrist. The design is easy to consider as a floral and rose-gold accent for dressier or more feminine outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People drawn to a floral dial. People considering a rose-gold case with a chalk-blue leather strap. People looking for a medium-size (30mm) watch. People considering a watch in a more accessory-like way.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Product details list a medium size (30mm) and thickness of 8.1mm",
+      "Case: stainless steel (rose-gold coating); strap: calfskin leather",
+      "Official copy presents a floral dial design",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Signature 30mm Illustrated Floral Rose Gold & Chalk Blue Leather Strap Watch is an OLIVIA BURTON watch that pairs a floral dial with a rose-gold case and chalk-blue leather. Official materials present a classic floral design, making it a candidate when you want a floral accent at the wrist. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt:
+      "OLIVIA BURTON Signature 30mm Illustrated Floral with rose-gold case and chalk-blue strap",
+  },
   "olivia-burton-classic-16mm-mini-grove-gold-black": {
     title: "Compact in black × gold. OLIVIA BURTON Classic 16mm Mini Grove",
     seoTitle: "OLIVIA BURTON Classic 16mm Mini Grove｜Gold & black | R13 Picks",
