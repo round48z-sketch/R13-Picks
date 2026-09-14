@@ -1329,6 +1329,62 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ctaLabel: "View product",
     imageAlt: "Matte black wireless headphones placed against a black background",
   },
+  "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose": {
+    title:
+      "Butterfly × mellow rose. OLIVIA BURTON Signature 28mm Ultra Slim",
+    seoTitle:
+      "OLIVIA BURTON Signature 28mm Butterfly Ultra Slim｜Rose gold & mellow rose | R13 Picks",
+    description:
+      "An R13 Picks look at the OLIVIA BURTON Signature 28mm Butterfly Ultra Slim Rose Gold & Mellow Rose Leather Strap Watch. Focused on the butterfly dial, rose-gold case, and mellow-rose leather strap.",
+    productType: "Watch",
+    excerpt:
+      "A butterfly-motif dial with a rose-gold case and mellow-rose leather strap.",
+    intro:
+      "The OLIVIA BURTON Signature 28mm Butterfly Ultra Slim Rose Gold & Mellow Rose Leather Strap Watch (model: OB24000126) is a watch sold on the official online store. Official product copy highlights a butterfly dial with an ultra-slim rose-gold case and a mellow-rose leather strap. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Signature 28mm Butterfly Ultra Slim",
+    points: [
+      "Brand: OLIVIA BURTON",
+      "Product name: Signature 28mm Butterfly Ultra Slim Rose Gold & Mellow Rose Leather Strap Watch",
+      "Model number: OB24000126",
+      "Sold on the OLIVIA BURTON Japan official online store",
+      "Product details list a medium dial (28mm) and thickness of 6.65mm",
+      "Case: stainless steel (rose-gold coating)",
+      "Strap: leather; the product name specifies a mellow-rose leather strap",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+    ],
+    sections: [
+      {
+        title: "A butterfly-motif dial",
+        body: "Official copy describes a butterfly with colorful vintage-print-inspired wings expressed on a 28mm brushed sunray dial. The butterfly motif is the design focus. You can also check the look in the official product images.",
+      },
+      {
+        title: "Rose-gold case and mellow-rose strap",
+        body: "The case is stainless steel with a rose-gold coating, and the strap is leather. Official copy says an ultra-slim rose-gold case and an elegant mellow-rose leather strap complete the watch. Together with the compact size, it’s a candidate when you want an accessory-like accent at the wrist.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Product details list a medium dial (28mm). The design is easy to consider as a butterfly and rose-gold accent for more feminine or dressier outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People drawn to a butterfly-motif dial. People considering a rose-gold case with a mellow-rose leather strap. People looking for a compact 28mm watch. People considering a watch in a more accessory-like way.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Product details list a medium dial (28mm) and thickness of 6.65mm",
+      "Case: stainless steel (rose-gold coating); strap: leather",
+      "Official copy presents a butterfly dial and an ultra-slim case",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Signature 28mm Butterfly Ultra Slim Rose Gold & Mellow Rose Leather Strap Watch is an OLIVIA BURTON watch that pairs a butterfly-motif dial with a rose-gold case and mellow-rose leather. Official materials present a 28mm dial and ultra-slim case, making it a candidate when you want a feminine accent at the wrist. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt:
+      "OLIVIA BURTON Signature 28mm Butterfly with rose-gold case and mellow-rose strap",
+  },
   "olivia-burton-signature-30mm-azure-blue-silver-mesh": {
     title:
       "Blue dial × silver mesh. OLIVIA BURTON Signature 30mm Azure",

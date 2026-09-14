@@ -2141,6 +2141,61 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ctaLabel: "查看商品",
     imageAlt: "放在黑色背景上的雾面黑无线耳机",
   },
+  "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose": {
+    title:
+      "蝴蝶×柔粉玫瑰。OLIVIA BURTON Signature 28mm Ultra Slim",
+    seoTitle:
+      "OLIVIA BURTON Signature 28mm Butterfly Ultra Slim｜玫瑰金＆柔粉玫瑰 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 OLIVIA BURTON Signature 28mm Butterfly Ultra Slim 玫瑰金＆柔粉玫瑰皮革表带腕表。围绕蝴蝶图案表盘、玫瑰金表壳与柔粉玫瑰皮革表带来整理。",
+    productType: "腕表",
+    excerpt: "蝴蝶图案表盘，搭配玫瑰金表壳与柔粉玫瑰皮革表带。",
+    intro:
+      "OLIVIA BURTON（奥利维亚·伯顿）的 Signature 28mm Butterfly Ultra Slim 玫瑰金＆柔粉玫瑰皮革表带腕表（型号：OB24000126）是在官方网店销售的腕表。商品说明介绍了蝴蝶表盘，以及玫瑰金超薄表壳与柔粉玫瑰皮革表带的组合。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "Signature 28mm Butterfly Ultra Slim 是什么",
+    points: [
+      "品牌为 OLIVIA BURTON（奥利维亚·伯顿）",
+      "商品名为 Signature 28mm Butterfly Ultra Slim 玫瑰金＆柔粉玫瑰皮革表带腕表",
+      "型号为 OB24000126",
+      "在 OLIVIA BURTON 日本官方网店销售",
+      "商品详情标注中号表盘（28mm）、厚度 6.65mm",
+      "表壳为不锈钢（玫瑰金镀层）",
+      "表带为皮革。商品名标注为柔粉玫瑰皮革表带",
+      "日本产石英机芯，3ATM（日常生活防水）",
+    ],
+    sections: [
+      {
+        title: "蝴蝶图案表盘",
+        body: "商品说明写到，带有复古印花感多彩纹样翅膀的蝴蝶，被表现在 28mm 拉丝太阳纹表盘上。蝴蝶图案是设计的核心。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "玫瑰金表壳与柔粉玫瑰表带",
+        body: "表壳为不锈钢（玫瑰金镀层），表带为皮革。商品说明称玫瑰金超薄表壳与优雅的柔粉玫瑰皮革表带完成了这款腕表。结合紧凑尺寸，适合想以配饰感为腕间增加点缀时参考。",
+      },
+      {
+        title: "搭配穿搭时",
+        body: "商品详情标注中号表盘（28mm）。在偏女性化或偏精致的穿搭中，较容易作为蝴蝶与玫瑰金的点缀来考虑。是否合适仍取决于整体造型。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "对蝴蝶图案表盘感兴趣的人。想考虑玫瑰金表壳与柔粉玫瑰皮革表带组合的人。想选择 28mm 紧凑腕表的人。想以配饰感挑选腕表的人。",
+      },
+    ],
+    recommendedTitle: "购买前想确认的要点",
+    recommendedFor: [
+      "商品详情标注中号表盘（28mm）、厚度 6.65mm",
+      "表壳为不锈钢（玫瑰金镀层），表带为皮革",
+      "商品说明标注为蝴蝶表盘、超薄表壳",
+      "规格为日本产石英机芯，3ATM（日常生活防水）",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "Signature 28mm Butterfly Ultra Slim 玫瑰金＆柔粉玫瑰皮革表带腕表，是搭配蝴蝶图案表盘、玫瑰金表壳与柔粉玫瑰皮革的 OLIVIA BURTON 腕表。官方标注 28mm 表盘与超薄表壳，适合想为腕间增加偏女性化点缀时参考。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt:
+      "玫瑰金表壳与柔粉玫瑰表带的 OLIVIA BURTON Signature 28mm Butterfly",
+  },
   "olivia-burton-signature-30mm-azure-blue-silver-mesh": {
     title: "蓝色表盘×银色网带。OLIVIA BURTON Signature 30mm Azure",
     seoTitle:
