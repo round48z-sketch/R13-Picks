@@ -2141,6 +2141,60 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ctaLabel: "查看商品",
     imageAlt: "放在黑色背景上的雾面黑无线耳机",
   },
+  "olivia-burton-signature-30mm-azure-blue-silver-mesh": {
+    title: "蓝色表盘×银色网带。OLIVIA BURTON Signature 30mm Azure",
+    seoTitle:
+      "OLIVIA BURTON Signature 30mm Azure 蓝色＆银色网带 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 OLIVIA BURTON Signature 30mm Azure 蓝色＆银色网带。围绕蓝色调表盘与不锈钢网状表链来整理。",
+    productType: "腕表",
+    excerpt: "蓝色调表盘，搭配银色网状表链。30mm Signature。",
+    intro:
+      "OLIVIA BURTON（奥利维亚·伯顿）的 Signature 30mm Azure 蓝色＆银色网带（型号：OB24000335）是在官方网店销售的腕表。商品说明将其作为 Azure Collection 介绍，并突出蓝色调表盘表现与网状表链的组合。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "Signature 30mm Azure 蓝色＆银色网带是什么",
+    points: [
+      "品牌为 OLIVIA BURTON（奥利维亚·伯顿）",
+      "商品名为 Signature 30mm Azure 蓝色＆银色网带",
+      "型号为 OB24000335",
+      "在 OLIVIA BURTON 日本官方网店销售",
+      "商品详情标注中号尺寸（30mm）、厚度 7.6mm",
+      "表壳为不锈钢",
+      "表链为不锈钢。商品名标注为银色网带",
+      "机芯为 MIYOTA 2035（石英），3ATM（日常生活防水）",
+    ],
+    sections: [
+      {
+        title: "蓝色调表盘",
+        body: "商品说明将 Azure Collection 介绍为采用令人联想到水面波纹的层次，以及如水彩般淡淡晕开的 ombré（渐变）表现的表盘。文案写有清爽的蓝色等自然色彩，蓝色调表盘是设计的核心。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "银色网状表链",
+        body: "表壳与表链均为不锈钢。商品名标注为银色网带，商品说明也写到将配有罗马数字的经典表盘与网状表链组合，呈现出轻盈而精致的印象。适合想在简洁穿搭中为腕间增加点缀时参考。",
+      },
+      {
+        title: "搭配穿搭时",
+        body: "商品说明写到表壳尺寸为 30mm，贴近日常的尺寸感，同时又能给腕间带来存在感。在偏精致或偏极简的穿搭中，较容易作为蓝色表盘与银色网带的点缀来考虑。是否合适仍取决于整体造型。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "对蓝色调表盘感兴趣的人。想考虑银色网状表链的人。想选择中号（30mm）腕表的人。想为简洁穿搭寻找安静点缀腕表的人。",
+      },
+    ],
+    recommendedTitle: "购买前想确认的要点",
+    recommendedFor: [
+      "商品详情标注中号尺寸（30mm）、厚度 7.6mm",
+      "表壳与表链为不锈钢。商品名标注为银色网带",
+      "商品说明标注为 Azure Collection 的蓝色调表盘表现",
+      "机芯为 MIYOTA 2035（石英），3ATM（日常生活防水）",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "Signature 30mm Azure 蓝色＆银色网带，是搭配蓝色调表盘与不锈钢网状表链的 OLIVIA BURTON 腕表。官方以 Azure Collection 介绍，适合想为简洁穿搭增加腕间点缀时参考。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt:
+      "蓝色表盘与银色网带的 OLIVIA BURTON Signature 30mm Azure",
+  },
   "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue": {
     title:
       "玫瑰金×粉蓝。OLIVIA BURTON Signature 30mm Illustrated Floral",

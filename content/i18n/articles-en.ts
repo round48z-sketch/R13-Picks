@@ -1329,6 +1329,62 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ctaLabel: "View product",
     imageAlt: "Matte black wireless headphones placed against a black background",
   },
+  "olivia-burton-signature-30mm-azure-blue-silver-mesh": {
+    title:
+      "Blue dial × silver mesh. OLIVIA BURTON Signature 30mm Azure",
+    seoTitle:
+      "OLIVIA BURTON Signature 30mm Azure Blue & Silver Mesh | R13 Picks",
+    description:
+      "An R13 Picks look at the OLIVIA BURTON Signature 30mm Azure Blue & Silver Mesh. Focused on the blue-toned dial and stainless-steel mesh bracelet.",
+    productType: "Watch",
+    excerpt:
+      "A blue-toned dial with a silver mesh bracelet. A 30mm Signature watch.",
+    intro:
+      "The OLIVIA BURTON Signature 30mm Azure Blue & Silver Mesh (model: OB24000335) is a watch sold on the official online store. Official product copy presents it as part of the Azure Collection, highlighting a blue-toned dial treatment with a mesh bracelet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Signature 30mm Azure Blue & Silver Mesh",
+    points: [
+      "Brand: OLIVIA BURTON",
+      "Product name: Signature 30mm Azure Blue & Silver Mesh",
+      "Model number: OB24000335",
+      "Sold on the OLIVIA BURTON Japan official online store",
+      "Product details list a medium size (30mm) and thickness of 7.6mm",
+      "Case: stainless steel",
+      "Bracelet: stainless steel; the product name specifies silver mesh",
+      "Movement: MIYOTA 2035 (quartz); 3ATM (everyday water resistance)",
+    ],
+    sections: [
+      {
+        title: "A blue-toned dial",
+        body: "Official copy presents the Azure Collection as using dials with water-like layers and soft watercolor-like ombré (gradient) effects. It describes cool blues and other natural tones, so the blue-toned dial is the design focus. You can also check the look in the official product images.",
+      },
+      {
+        title: "A silver mesh bracelet",
+        body: "Both the case and bracelet are stainless steel. The product name presents it as silver mesh, and official copy says pairing a classical face with Roman numerals and a mesh bracelet creates a light, refined look. It’s a candidate when you want a simple accent at the wrist.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Official copy notes a 30mm case size that stays close to everyday wear while still giving presence on the wrist. The design is easy to consider as a blue-dial and silver-mesh accent for dressier or more minimal outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People drawn to a blue-toned dial. People considering a silver mesh bracelet. People looking for a medium-size (30mm) watch. People looking for a quiet accent watch for simple outfits.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Product details list a medium size (30mm) and thickness of 7.6mm",
+      "Case and bracelet: stainless steel; product name specifies silver mesh",
+      "Official copy presents an Azure Collection blue-toned dial treatment",
+      "Movement: MIYOTA 2035 (quartz); 3ATM (everyday water resistance)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Signature 30mm Azure Blue & Silver Mesh is an OLIVIA BURTON watch that pairs a blue-toned dial with a stainless-steel mesh bracelet. Official materials present it as part of the Azure Collection, making it a candidate when you want a wrist accent for simple outfits. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt:
+      "OLIVIA BURTON Signature 30mm Azure with blue dial and silver mesh",
+  },
   "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue": {
     title:
       "Rose gold × chalk blue. OLIVIA BURTON Signature 30mm Illustrated Floral",

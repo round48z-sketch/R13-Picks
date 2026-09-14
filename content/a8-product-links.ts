@@ -87,6 +87,8 @@ export const a8ProductLinks: Record<string, string> = {
     '<span class="a8ad 4AMQlC5-g7-vveKZfg"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BC2EG+97MHI2+2JXG+2BCGZ5","alt":"商品リンク","id":"4AMQlC5-g7-vveKZfg"},"goods": {"ejp":"h"+"ttps://www.oliviaburton.jp/c/watch/ob24000284","imu":"h"+"ttps://objapan.itembox.cloud/product/020/000000002065/000000002065-01.jpg?size=l&w=NjAw&t=20251007123122"}});</script>',
   "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue":
     '<span class="a8ad 4AMQlC5-g7-vveSHGe"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BC2EG+97MHI2+2JXG+2BCGZ5","alt":"商品リンク","id":"4AMQlC5-g7-vveSHGe"},"goods": {"ejp":"h"+"ttps://www.oliviaburton.jp/c/watch/ob24000227","imu":"h"+"ttps://objapan.itembox.cloud/product/018/000000001888/000000001888-01.jpg?size=l&w=NjAw&t=20241111165547"}});</script>',
+  "olivia-burton-signature-30mm-azure-blue-silver-mesh":
+    '<span class="a8ad 4AMQlC5-g7-vvf0gaN"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BC2EG+97MHI2+2JXG+2BCGZ5","alt":"商品リンク","id":"4AMQlC5-g7-vvf0gaN"},"goods": {"ejp":"h"+"ttps://www.oliviaburton.jp/c/watch/ob24000335","imu":"h"+"ttps://objapan.itembox.cloud/product/020/000000002095/000000002095-01.jpg?size=l&w=NjAw&t=20260619150523"}});</script>',
 };
 
 export function getA8ProductLinkHtml(slug: string) {
