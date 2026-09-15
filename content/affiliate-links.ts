@@ -7,6 +7,10 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "olivia-burton-varsity-big-matte-black-gold-detail-38mm":
+    "https://px.a8.net/svt/ejp?a8mat=4BC2EG+97MHI2+2JXG+2BCGZ5&a8ejpredirect=https%3A%2F%2Fwww.oliviaburton.jp%2Fc%2Fwatch%2Fob16vs05",
+  "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh":
+    "https://px.a8.net/svt/ejp?a8mat=4BC2EG+97MHI2+2JXG+2BCGZ5&a8ejpredirect=https%3A%2F%2Fwww.oliviaburton.jp%2Fc%2Fwatch%2Fob16us45",
   "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose":
     "https://px.a8.net/svt/ejp?a8mat=4BC2EG+97MHI2+2JXG+2BCGZ5&a8ejpredirect=https%3A%2F%2Fwww.oliviaburton.jp%2Fc%2Fwatch%2Fob24000126",
   "olivia-burton-signature-30mm-azure-blue-silver-mesh":

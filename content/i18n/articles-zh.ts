@@ -2141,6 +2141,113 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ctaLabel: "查看商品",
     imageAlt: "放在黑色背景上的雾面黑无线耳机",
   },
+  "olivia-burton-varsity-big-matte-black-gold-detail-38mm": {
+    title: "雾面黑×金。OLIVIA BURTON Varsity Big 38mm",
+    seoTitle:
+      "OLIVIA BURTON Varsity Big 雾面黑＆金色细节 38mm | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 OLIVIA BURTON Varsity Big 雾面黑＆金色细节 38mm。围绕 38mm 表盘、金色标志与细节、花卉图案来整理。",
+    productType: "腕表",
+    excerpt: "38mm 表盘配金色标志与花卉。雾面黑＆金色细节的 Varsity。",
+    intro:
+      "OLIVIA BURTON（奥利维亚·伯顿）的 Varsity Big 雾面黑＆金色细节 38mm（型号：OB16VS05）是在官方网店销售的腕表。商品说明介绍了 38mm 表盘上的金色 Olivia Burton 标志、花卉，以及施华洛世奇水晶时刻标记。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "Varsity Big 雾面黑＆金色细节是什么",
+    points: [
+      "品牌为 OLIVIA BURTON（奥利维亚·伯顿）",
+      "商品名为 Varsity Big 雾面黑＆金色细节 38mm",
+      "型号为 OB16VS05",
+      "在 OLIVIA BURTON 日本官方网店销售",
+      "商品详情标注大表盘（38mm）、厚度 8.3mm",
+      "表壳为不锈钢，表带为皮革",
+      "日本产石英机芯，1ATM（非防水）",
+    ],
+    sections: [
+      {
+        title: "38mm 表盘与金色细节",
+        body: "商品详情标注大表盘（38mm）。商品说明写到，38mm 表盘上金色 Olivia Burton 标志十分醒目，黄色三色堇与紫色花朵鲜艳绽放。施华洛世奇水晶时刻标记增添光泽，营造精致氛围。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "雾面黑＆金色组合",
+        body: "商品名标注为雾面黑＆金色细节。表壳为不锈钢，表带为皮革。以黑与金收束的外观，适合想为腕间增加对比感点缀时参考。",
+      },
+      {
+        title: "搭配穿搭时",
+        body: "商品说明称花卉与施华洛世奇水晶时刻标记营造精致氛围。在偏精致的穿搭中，较容易作为花卉与金色的点缀来考虑。是否合适仍取决于整体造型。因非防水规格，涉水使用请按官方说明确认。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "想考虑 38mm 较大表盘的人。对雾面黑＆金色细节组合感兴趣的人。对绘有黄色三色堇与紫色花朵的表盘感兴趣的人。想选择带有施华洛世奇水晶时刻标记腕表的人。",
+      },
+    ],
+    recommendedTitle: "购买前想确认的要点",
+    recommendedFor: [
+      "商品详情标注大表盘（38mm）、厚度 8.3mm",
+      "表壳为不锈钢，表带为皮革",
+      "商品说明标注金色标志、花卉与施华洛世奇水晶时刻标记",
+      "规格为日本产石英机芯，1ATM（非防水）",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "Varsity Big 雾面黑＆金色细节 38mm，是搭配 38mm 表盘、金色标志、花卉与施华洛世奇水晶时刻标记的 OLIVIA BURTON 腕表。官方以雾面黑＆金色细节介绍，适合想为腕间增加对比感点缀时参考。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "雾面黑与金色细节的 OLIVIA BURTON Varsity Big 38mm",
+  },
+  "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh": {
+    title:
+      "美人鱼尾表盘。OLIVIA BURTON Under the Sea 玫瑰金网带",
+    seoTitle:
+      "OLIVIA BURTON Under the Sea Mermaid Tail｜玫瑰金 Bouclé 网带 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 OLIVIA BURTON Under the Sea Mermaid Tail 玫瑰金 Bouclé 网带。围绕美人鱼尾意象表盘与玫瑰金网状表链来整理。",
+    productType: "腕表",
+    excerpt: "美人鱼尾意象表盘，搭配玫瑰金 Bouclé 网带。",
+    intro:
+      "OLIVIA BURTON（奥利维亚·伯顿）的 Under the Sea Mermaid Tail 玫瑰金 Bouclé 网带（型号：OB16US45）是在官方网店销售的腕表。商品说明将其介绍为表现海底世界的风格，并突出随光线改变表情的表盘与网带组合。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "Under the Sea Mermaid Tail 是什么",
+    points: [
+      "品牌为 OLIVIA BURTON（奥利维亚·伯顿）",
+      "商品名为 Under the Sea Mermaid Tail 玫瑰金 Bouclé 网带",
+      "型号为 OB16US45",
+      "在 OLIVIA BURTON 日本官方网店销售",
+      "商品详情标注 demi 表盘（34mm）、厚度 8.9mm",
+      "表壳与表链为不锈钢。商品名标注为玫瑰金 Bouclé 网带",
+      "日本产石英机芯，1ATM（非防水）",
+      "商品详情标注表带尺寸 15〜20cm",
+    ],
+    sections: [
+      {
+        title: "美人鱼尾意象表盘",
+        body: "商品名标注为 Mermaid Tail。商品说明将其介绍为表现海底世界的神秘风格，并写到表达晨、昼、夜随时间变化的海面与海中深度，以及被光线映出的气泡之美。表盘使用天然贝壳，官方说明写到受光角度不同，颜色深浅看起来会不同。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "玫瑰金网状表链",
+        body: "表壳与表链均为不锈钢。商品名标注为玫瑰金 Bouclé 网带。在偏女性化或偏华丽的穿搭中，较容易作为腕间点缀来考虑。是否合适仍取决于整体造型。",
+      },
+      {
+        title: "搭配穿搭时",
+        body: "商品说明称其为如海底漂浮宝石般闪耀的系列。适合想以配饰感为腕间增加海洋主题点缀时参考。因非防水规格，涉水使用请按官方说明确认。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "对美人鱼尾意象表盘感兴趣的人。想考虑玫瑰金网状表链的人。对天然贝壳表盘、随光线改变颜色观感的设计感兴趣的人。想以配饰感挑选腕表的人。",
+      },
+    ],
+    recommendedTitle: "购买前想确认的要点",
+    recommendedFor: [
+      "商品详情标注 demi 表盘（34mm）、厚度 8.9mm、表带尺寸 15〜20cm",
+      "表壳与表链为不锈钢。商品名标注为玫瑰金 Bouclé 网带",
+      "商品说明写到表盘使用天然贝壳，受光不同颜色观感会变化",
+      "规格为日本产石英机芯，1ATM（非防水）",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "Under the Sea Mermaid Tail 玫瑰金 Bouclé 网带，是搭配美人鱼尾意象表盘与玫瑰金网带的 OLIVIA BURTON 腕表。官方以表现海底世界的风格介绍，适合想为腕间增加华丽点缀时参考。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt:
+      "美人鱼尾表盘与玫瑰金网带的 OLIVIA BURTON Under the Sea",
+  },
   "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose": {
     title:
       "蝴蝶×柔粉玫瑰。OLIVIA BURTON Signature 28mm Ultra Slim",

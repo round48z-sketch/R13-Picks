@@ -1329,6 +1329,116 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ctaLabel: "View product",
     imageAlt: "Matte black wireless headphones placed against a black background",
   },
+  "olivia-burton-varsity-big-matte-black-gold-detail-38mm": {
+    title: "Matte black × gold. OLIVIA BURTON Varsity Big 38mm",
+    seoTitle:
+      "OLIVIA BURTON Varsity Big Matte Black & Gold Detail 38mm | R13 Picks",
+    description:
+      "An R13 Picks look at the OLIVIA BURTON Varsity Big Matte Black & Gold Detail 38mm. Focused on the 38mm dial, gold logo and details, and floral motifs.",
+    productType: "Watch",
+    excerpt:
+      "A 38mm dial with a gold logo and flowers. Varsity in matte black & gold detail.",
+    intro:
+      "The OLIVIA BURTON Varsity Big Matte Black & Gold Detail 38mm (model: OB16VS05) is a watch sold on the official online store. Official product copy highlights a 38mm dial with a gold Olivia Burton logo, flowers, and Swarovski crystal hour markers. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Varsity Big Matte Black & Gold Detail",
+    points: [
+      "Brand: OLIVIA BURTON",
+      "Product name: Varsity Big Matte Black & Gold Detail 38mm",
+      "Model number: OB16VS05",
+      "Sold on the OLIVIA BURTON Japan official online store",
+      "Product details list a big dial (38mm) and thickness of 8.3mm",
+      "Case: stainless steel; strap: leather",
+      "Japanese quartz movement; 1ATM (not water resistant)",
+    ],
+    sections: [
+      {
+        title: "A 38mm dial with gold details",
+        body: "Product details list a big dial (38mm). Official copy says the 38mm dial features a gold Olivia Burton logo, with yellow pansies and purple flowers in bloom. Swarovski crystal hour markers add sparkle and a refined mood. You can also check the look in the official product images.",
+      },
+      {
+        title: "Matte black & gold pairing",
+        body: "The product name presents it as matte black & gold detail. The case is stainless steel and the strap is leather. The black and gold look is a candidate when you want a higher-contrast accent at the wrist.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Official copy says the flowers and Swarovski crystal hour markers create a refined atmosphere. The design is easy to consider as a floral and gold accent for dressier outfits. How well it pairs depends on what you wear. Because it is not water resistant, check the official guidance for water-related use.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People considering a larger 38mm dial. People drawn to a matte black & gold detail look. People interested in a dial with yellow pansies and purple flowers. People looking for a watch with Swarovski crystal hour markers.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Product details list a big dial (38mm) and thickness of 8.3mm",
+      "Case: stainless steel; strap: leather",
+      "Official copy highlights a gold logo, flowers, and Swarovski crystal hour markers",
+      "Japanese quartz movement; 1ATM (not water resistant)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Varsity Big Matte Black & Gold Detail 38mm is an OLIVIA BURTON watch that pairs a 38mm dial with a gold logo, flowers, and Swarovski crystal hour markers. Official materials present a matte black & gold detail look, making it a candidate when you want a higher-contrast accent at the wrist. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt:
+      "OLIVIA BURTON Varsity Big 38mm with matte black and gold detail",
+  },
+  "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh": {
+    title:
+      "A mermaid-tail dial. OLIVIA BURTON Under the Sea Rose Gold Mesh",
+    seoTitle:
+      "OLIVIA BURTON Under the Sea Mermaid Tail｜Rose Gold Bouclé Mesh | R13 Picks",
+    description:
+      "An R13 Picks look at the OLIVIA BURTON Under the Sea Mermaid Tail Rose Gold Bouclé Mesh. Focused on the mermaid-tail dial and rose-gold mesh bracelet.",
+    productType: "Watch",
+    excerpt:
+      "A mermaid-tail dial with rose-gold bouclé mesh.",
+    intro:
+      "The OLIVIA BURTON Under the Sea Mermaid Tail Rose Gold Bouclé Mesh (model: OB16US45) is a watch sold on the official online store. Official product copy presents it as a mystical underwater style, highlighting a dial whose look shifts with light and a mesh bracelet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Under the Sea Mermaid Tail",
+    points: [
+      "Brand: OLIVIA BURTON",
+      "Product name: Under the Sea Mermaid Tail Rose Gold Bouclé Mesh",
+      "Model number: OB16US45",
+      "Sold on the OLIVIA BURTON Japan official online store",
+      "Product details list a demi dial (34mm) and thickness of 8.9mm",
+      "Case and bracelet: stainless steel; the product name specifies rose-gold bouclé mesh",
+      "Japanese quartz movement; 1ATM (not water resistant)",
+      "Product details list a strap size of 15–20cm",
+    ],
+    sections: [
+      {
+        title: "A mermaid-tail dial",
+        body: "The product name presents it as Mermaid Tail. Official copy describes a mystical underwater style that expresses the changing surface and depths of the sea across morning, day, and night, and the beauty of bubbles caught in light. The dial uses natural shell, and official notes say the color depth can look different depending on how light hits it. You can also check the look in the official product images.",
+      },
+      {
+        title: "A rose-gold mesh bracelet",
+        body: "Both the case and bracelet are stainless steel. The product name presents it as rose-gold bouclé mesh. The design is easy to consider as a wrist accent for more feminine or dressier outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Official copy presents the collection as sparkling like jewels floating in the sea. It’s a candidate when you want an accessory-like underwater motif at the wrist. Because it is not water resistant, check the official guidance for water-related use.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People drawn to a mermaid-tail dial. People considering a rose-gold mesh bracelet. People interested in a natural-shell dial whose color look shifts with light. People considering a watch in a more accessory-like way.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Product details list a demi dial (34mm), thickness of 8.9mm, and strap size 15–20cm",
+      "Case and bracelet: stainless steel; product name specifies rose-gold bouclé mesh",
+      "Official copy says the dial uses natural shell and color depth can change with light",
+      "Japanese quartz movement; 1ATM (not water resistant)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Under the Sea Mermaid Tail Rose Gold Bouclé Mesh is an OLIVIA BURTON watch that pairs a mermaid-tail dial with rose-gold mesh. Official materials present an underwater style, making it a candidate when you want a brighter accent at the wrist. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt:
+      "OLIVIA BURTON Under the Sea with mermaid-tail dial and rose-gold mesh",
+  },
   "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose": {
     title:
       "Butterfly × mellow rose. OLIVIA BURTON Signature 28mm Ultra Slim",
