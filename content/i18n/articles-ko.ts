@@ -1,6 +1,268 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "womens-watches-7-picks": {
+    title:
+      "디자인으로 고르는 여성 손목시계 추천 7선｜블랙·골드·플로럴 모델을 엄선",
+    seoTitle:
+      "디자인으로 고르는 여성 손목시계 추천 7선｜블랙·골드·플로럴 | R13 Picks",
+    description:
+      "가격 랭킹이 아니라 블랙×골드·플로럴·블루·버터플라이·머메이드·럭셔리·매트 블랙 등 디자인 차이로 정리한 여성 손목시계 7선.",
+    productType: "비교·모음 기사",
+    excerpt:
+      "블랙×골드부터 플로럴, 블루, 매트 블랙까지. 보이는 차이로 고르는 여성 손목시계 7선.",
+    intro:
+      "여성 손목시계는 스펙표만으로는 취향이 정해지기 어려운 아이템입니다. 이 기사는 가격 순위가 아니라, 블랙×골드, 플로럴, 블루 계열, 버터플라이, 머메이드, 화려한 럭셔리 계열, 매트 블랙의 모드 계열 같은 디자인 관점에서 R13 Picks에서 소개한 7본을 정리합니다. 우열을 가리기보다, 어떤 보이는 느낌이 끌리는 사람에게 맞는지 비교하기 위한 모음입니다. 최신 가격·재고는 각 공식 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "디자인으로 고를 때의 포인트",
+    points: [
+      "색감 인상(블랙×골드, 블루, 파스텔, 매트 블랙 등)",
+      "다이얼 모티프(플로럴, 버터플라이, 머메이드 등)",
+      "케이스와 벨트 조합(레더, 메쉬, 메탈 벨트)",
+      "사이즈감과 손목에서의 존재감(컴팩트~큰 사이즈)",
+    ],
+    overviewTitle: "수록 모델 한눈에 보기",
+    comparisonTable: {
+      title: "디자인 비교표",
+      headers: ["상품명", "디자인 관점", "사이즈 기준", "벨트", "잘 맞는 인상"],
+      rows: [
+        [
+          "OLIVIA BURTON 클래식 16mm 미니 그로브",
+          "블랙×골드",
+          "스퀘어 다이얼(24mm)",
+          "크로커다일 룩 레더",
+          "컴팩트·대비",
+        ],
+        [
+          "OLIVIA BURTON 시그니처 30mm 일러스트레이티드 플로럴",
+          "플로럴",
+          "30mm",
+          "초크 블루 레더",
+          "페미닌·꽃무늬",
+        ],
+        [
+          "OLIVIA BURTON 시그니처 30mm 아주르",
+          "블루 계열",
+          "30mm",
+          "실버 메쉬",
+          "단정·시원함",
+        ],
+        [
+          "OLIVIA BURTON 시그니처 28mm 버터플라이 울트라 슬림",
+          "버터플라이",
+          "28mm",
+          "멜로우 로즈 레더",
+          "페미닌·화려함",
+        ],
+        [
+          "OLIVIA BURTON 언더 더 시 머메이드 테일",
+          "머메이드·파스텔",
+          "34mm",
+          "로즈골드 메쉬",
+          "액세서리 감각",
+        ],
+        [
+          "BRILLAMICO QUILT BLACK×GOLD",
+          "화려한 럭셔리 계열",
+          "33mm",
+          "퀼팅 벨트",
+          "BLACK×GOLD·존재감",
+        ],
+        [
+          "BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+          "매트 블랙·모드 계열",
+          "46.5mm",
+          "메탈 벨트(매트 블랙)",
+          "모드·존재감",
+        ],
+      ],
+    },
+    picksTitle: "디자인별 추천 7선",
+    pickFeaturesLabel: "디자인의 특징",
+    pickRecommendedLabel: "이런 사람에게 맞음",
+    picks: [
+      {
+        slug: "olivia-burton-classic-16mm-mini-grove-gold-black",
+        name: "OLIVIA BURTON 클래식 16mm 미니 그로브 골드＆블랙 크로커다일 레더",
+        tagline: "블랙×골드로 작게 정리하는 컴팩트 스퀘어 다이얼.",
+        shortLabel: "블랙×골드",
+        priceGuide: "스퀘어 다이얼(24mm)",
+        tags: ["블랙×골드", "컴팩트", "레더"],
+        features: [
+          "상품 상세에서는 스퀘어 다이얼(24mm), 두께 7.1mm로 안내",
+          "케이스는 스테인리스 스틸(골드 코팅)",
+          "상품 설명에서는 페이크 크로커다일 스트랩으로 안내",
+        ],
+        recommendedFor: [
+          "블랙×골드 대비가 궁금한 사람",
+          "컴팩트한 손목시계를 검토하고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue",
+        name: "OLIVIA BURTON 시그니처 30mm 일러스트레이티드 플로럴 로즈골드＆초크 블루 레더 스트랩 워치",
+        tagline: "플로럴 다이얼에 로즈골드와 초크 블루.",
+        shortLabel: "플로럴",
+        priceGuide: "미디엄 사이즈(30mm)",
+        tags: ["플로럴", "로즈골드", "레더"],
+        features: [
+          "상품 설명에서는 클래식한 플로럴 디자인, 섬세한 모란 다이얼로 안내",
+          "케이스는 스테인리스 스틸(로즈골드 코팅)",
+          "벨트는 카프스킨 레더. 상품명에서는 초크 블루 레더 스트랩",
+        ],
+        recommendedFor: [
+          "꽃무늬 다이얼이 궁금한 사람",
+          "페미닌하고 단정한 스타일에 맞추고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "olivia-burton-signature-30mm-azure-blue-silver-mesh",
+        name: "OLIVIA BURTON 시그니처 30mm 아주르 블루＆실버 메쉬",
+        tagline: "블루 계열 다이얼과 실버 메쉬로 시원한 인상.",
+        shortLabel: "블루 계열",
+        priceGuide: "미디엄 사이즈(30mm)",
+        tags: ["블루 계열", "메쉬", "단정"],
+        features: [
+          "상품 설명에서는 Azure Collection의 블루 계열 다이얼 표현으로 안내",
+          "케이스·브레이슬릿은 스테인리스 스틸. 상품명에서는 실버 메쉬",
+          "상품 상세에서는 미디엄 사이즈(30mm), 두께 7.6mm로 안내",
+        ],
+        recommendedFor: [
+          "블루 계열 다이얼이 궁금한 사람",
+          "심플하고 단정한 스타일에 액센트를 더하고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose",
+        name: "OLIVIA BURTON 시그니처 28mm 버터플라이 울트라 슬림 로즈골드＆멜로우 로즈 레더 스트랩 워치",
+        tagline: "버터플라이 모티프와 멜로우 로즈로 페미닌하게.",
+        shortLabel: "버터플라이",
+        priceGuide: "미디엄 다이얼(28mm)",
+        tags: ["버터플라이", "로즈골드", "레더"],
+        features: [
+          "상품 설명에서는 버터플라이를 표현한 다이얼로 안내",
+          "케이스는 스테인리스 스틸(로즈골드 코팅)",
+          "상품 상세에서는 미디엄 다이얼(28mm), 두께 6.65mm로 안내",
+        ],
+        recommendedFor: [
+          "버터플라이 모티프 다이얼이 궁금한 사람",
+          "로즈골드와 연한 핑크 계열 벨트를 검토하고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh",
+        name: "OLIVIA BURTON 언더 더 시 머메이드 테일 로즈골드 부클레 메쉬",
+        tagline: "머메이드 테일 다이얼과 로즈골드 메쉬.",
+        shortLabel: "머메이드·파스텔",
+        priceGuide: "데미 다이얼(34mm)",
+        tags: ["머메이드", "로즈골드", "메쉬"],
+        features: [
+          "상품명에서는 머메이드 테일로 안내",
+          "상품 설명에서는 다이얼에 천연 셸을 사용하고, 빛에 따라 색 보이는 방식이 달라진다고 안내",
+          "케이스·브레이슬릿은 스테인리스 스틸. 상품명에서는 로즈골드 부클레 메쉬",
+        ],
+        recommendedFor: [
+          "머메이드나 바다 모티프 다이얼이 궁금한 사람",
+          "액세서리 감각으로 화려한 손목시계를 검토하고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "brillamico-quilt-33mm-black-gold-quilting-belt",
+        name: "BRILLAMICO QUILT BLACK×GOLD〈퀼팅 벨트〉",
+        tagline: "퀼팅 다이얼과 BLACK×GOLD로 화려한 손목에.",
+        shortLabel: "화려한 럭셔리 계열",
+        priceGuide: "직경 33mm",
+        tags: ["BLACK×GOLD", "퀼팅", "럭셔리"],
+        features: [
+          "상품 설명에서는 입체감 있는 퀼팅 다이얼로 안내",
+          "상품명은 BLACK×GOLD. 블랙과 골드를 조합한 외관",
+          "본체 사이즈는 직경 33mm／두께 7mm(상품 사양)",
+        ],
+        recommendedFor: [
+          "BLACK×GOLD 배색이 궁금한 사람",
+          "화려함과 손목 존재감을 원하는 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "brillamico-lily-limited-46mm-matte-black",
+        name: "BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+        tagline: "매트 블랙으로 정리하는, 존재감 있는 모드에 가까운 한 본.",
+        shortLabel: "매트 블랙·모드 계열",
+        priceGuide: "직경 46.5mm",
+        tags: ["매트 블랙", "모드", "메탈 벨트"],
+        features: [
+          "바디·벨트는 매트 블랙 마감. 벨트는 특별 사양 메탈 벨트",
+          "스와로브스키를 더한 디자인으로 안내",
+          "본체 사이즈는 직경 46.5mm／두께 11mm(상품 사양)",
+        ],
+        recommendedFor: [
+          "매트 블랙의 모드에 가까운 느낌이 궁금한 사람",
+          "큰 페이스로 손목에 존재감을 내고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+    ],
+    useCasesTitle: "디자인 관점으로 고른다면",
+    useCases: [
+      {
+        title: "블랙×골드",
+        productName: "OLIVIA BURTON 클래식 16mm 미니 그로브",
+        productSlug: "olivia-burton-classic-16mm-mini-grove-gold-black",
+      },
+      {
+        title: "플로럴",
+        productName: "OLIVIA BURTON 시그니처 30mm 일러스트레이티드 플로럴",
+        productSlug:
+          "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue",
+      },
+      {
+        title: "블루 계열",
+        productName: "OLIVIA BURTON 시그니처 30mm 아주르",
+        productSlug: "olivia-burton-signature-30mm-azure-blue-silver-mesh",
+      },
+      {
+        title: "버터플라이",
+        productName: "OLIVIA BURTON 시그니처 28mm 버터플라이 울트라 슬림",
+        productSlug:
+          "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose",
+      },
+      {
+        title: "머메이드·파스텔",
+        productName: "OLIVIA BURTON 언더 더 시 머메이드 테일",
+        productSlug: "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh",
+      },
+      {
+        title: "화려한 럭셔리 계열",
+        productName: "BRILLAMICO QUILT BLACK×GOLD",
+        productSlug: "brillamico-quilt-33mm-black-gold-quilting-belt",
+      },
+      {
+        title: "매트 블랙·모드 계열",
+        productName: "BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+        productSlug: "brillamico-lily-limited-46mm-matte-black",
+      },
+    ],
+    recommendedTitle: "고민되면, 좋아하는 보이는 느낌부터",
+    recommendedFor: [
+      "블랙×골드로 컴팩트하게 → OLIVIA BURTON 클래식 16mm 미니 그로브",
+      "플로럴 다이얼이라면 → OLIVIA BURTON 시그니처 30mm 일러스트레이티드 플로럴",
+      "블루 계열×메쉬라면 → OLIVIA BURTON 시그니처 30mm 아주르",
+      "버터플라이 모티프라면 → OLIVIA BURTON 시그니처 28mm 버터플라이 울트라 슬림",
+      "머메이드나 화려한 메쉬라면 → OLIVIA BURTON 언더 더 시 머메이드 테일",
+      "BLACK×GOLD 럭셔리감이라면 → BRILLAMICO QUILT",
+      "매트 블랙 모드감이라면 → BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+    ],
+    summary:
+      "이 7본은 가격 순위가 아니라 디자인 차이로 비교하기 위한 후보입니다. 블랙×골드, 플로럴, 블루, 버터플라이, 머메이드, 퀼팅 럭셔리감, 매트 블랙 모드감——끌리는 보이는 느낌부터 개별 기사와 공식 페이지를 확인하는 편이 고르기 쉽습니다. 사양 상세와 최신 가격·재고는 각 공식 판매 페이지에서 확인해 주세요.",
+    note: "※사이즈와 사양은 각 공식 상품 페이지 안내에 따릅니다. 최신 가격·재고는 각 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "자세히 보기",
+    imageAlt: "디자인으로 고르는 여성 손목시계 추천 7선 모음 썸네일",
+  },
   "wireless-earbuds-under-10000": {
     title: "1만 엔 이하로 고르는 완전 무선 이어폰 추천 7선",
     seoTitle: "1만 엔 이하 완전 무선 이어폰 추천 7선 | R13 Picks",

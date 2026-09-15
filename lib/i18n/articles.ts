@@ -77,5 +77,11 @@ export function localizeArticle(article: Article, locale: Locale): Article {
       ...article.image,
       alt: translation.imageAlt,
     },
+    thumbnailImage: article.thumbnailImage
+      ? {
+          ...article.thumbnailImage,
+          alt: translation.imageAlt,
+        }
+      : article.thumbnailImage,
   };
 }

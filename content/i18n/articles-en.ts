@@ -1,6 +1,268 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "womens-watches-7-picks": {
+    title:
+      "7 women’s watches to choose by design｜Black, gold, and floral looks",
+    seoTitle:
+      "7 women’s watches by design｜Black, gold, floral | R13 Picks",
+    description:
+      "Not a price ranking—seven women’s watches organized by design: black × gold, floral, blue, butterfly, mermaid, luxury sparkle, and matte black.",
+    productType: "Comparison / roundup",
+    excerpt:
+      "From black × gold to floral, blue, and matte black. Seven women’s watches to compare by look.",
+    intro:
+      "Women’s watches are hard to choose from specs alone. This guide is not a price ranking. It organizes seven watches already covered on R13 Picks by design angles—black × gold, floral, blue tones, butterfly, mermaid, brighter luxury looks, and matte-black mode. The goal is not to crown a winner, but to help you see which look may suit what you like. Check each official product page for the latest price and stock.",
+    pointsTitle: "What to check when choosing by design",
+    points: [
+      "Color impression (black × gold, blue, pastel, matte black, and more)",
+      "Dial motifs (floral, butterfly, mermaid, and more)",
+      "Case and strap pairing (leather, mesh, metal bracelet)",
+      "Size and presence on the wrist (compact to larger)",
+    ],
+    overviewTitle: "Models in this guide",
+    comparisonTable: {
+      title: "Design comparison",
+      headers: ["Product", "Design angle", "Size guide", "Strap", "Look vibe"],
+      rows: [
+        [
+          "OLIVIA BURTON Classic 16mm Mini Grove",
+          "Black × gold",
+          "Square dial (24mm)",
+          "Crocodile-look leather",
+          "Compact / contrast",
+        ],
+        [
+          "OLIVIA BURTON Signature 30mm Illustrated Floral",
+          "Floral",
+          "30mm",
+          "Chalk-blue leather",
+          "Feminine / floral",
+        ],
+        [
+          "OLIVIA BURTON Signature 30mm Azure",
+          "Blue tones",
+          "30mm",
+          "Silver mesh",
+          "Dressy / cool",
+        ],
+        [
+          "OLIVIA BURTON Signature 28mm Butterfly Ultra Slim",
+          "Butterfly",
+          "28mm",
+          "Mellow-rose leather",
+          "Feminine / bright",
+        ],
+        [
+          "OLIVIA BURTON Under the Sea Mermaid Tail",
+          "Mermaid / pastel",
+          "34mm",
+          "Rose-gold mesh",
+          "Accessory-like",
+        ],
+        [
+          "BRILLAMICO QUILT BLACK × GOLD",
+          "Brighter luxury",
+          "33mm",
+          "Quilting strap",
+          "BLACK × GOLD / presence",
+        ],
+        [
+          "BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+          "Matte black / mode",
+          "46.5mm",
+          "Metal bracelet (matte black)",
+          "Mode / presence",
+        ],
+      ],
+    },
+    picksTitle: "7 picks by design",
+    pickFeaturesLabel: "Design notes",
+    pickRecommendedLabel: "Who it may suit",
+    picks: [
+      {
+        slug: "olivia-burton-classic-16mm-mini-grove-gold-black",
+        name: "OLIVIA BURTON Classic 16mm Mini Grove Gold & Black Crocodile Leather",
+        tagline: "A compact square dial kept in black × gold.",
+        shortLabel: "Black × gold",
+        priceGuide: "Square dial (24mm)",
+        tags: ["Black × gold", "Compact", "Leather"],
+        features: [
+          "Product details list a square dial (24mm) and thickness of 7.1mm",
+          "Case: stainless steel (gold coating)",
+          "Official copy lists a faux crocodile strap",
+        ],
+        recommendedFor: [
+          "Anyone drawn to black × gold contrast",
+          "Anyone considering a compact watch",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue",
+        name: "OLIVIA BURTON Signature 30mm Illustrated Floral Rose Gold & Chalk Blue Leather Strap Watch",
+        tagline: "A floral dial with rose gold and chalk blue.",
+        shortLabel: "Floral",
+        priceGuide: "Medium size (30mm)",
+        tags: ["Floral", "Rose gold", "Leather"],
+        features: [
+          "Official copy highlights a classic floral design with a peony dial",
+          "Case: stainless steel (rose-gold coating)",
+          "Strap: calfskin leather; product name specifies chalk-blue leather",
+        ],
+        recommendedFor: [
+          "Anyone drawn to a floral dial",
+          "Anyone pairing with more feminine or dressier outfits",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "olivia-burton-signature-30mm-azure-blue-silver-mesh",
+        name: "OLIVIA BURTON Signature 30mm Azure Blue & Silver Mesh",
+        tagline: "A cooler look with a blue-toned dial and silver mesh.",
+        shortLabel: "Blue tones",
+        priceGuide: "Medium size (30mm)",
+        tags: ["Blue tones", "Mesh", "Dressy"],
+        features: [
+          "Official copy presents Azure Collection blue-toned dial expression",
+          "Case and bracelet: stainless steel; product name specifies silver mesh",
+          "Product details list a medium size (30mm) and thickness of 7.6mm",
+        ],
+        recommendedFor: [
+          "Anyone drawn to a blue-toned dial",
+          "Anyone wanting a quiet accent for simple, dressier outfits",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose",
+        name: "OLIVIA BURTON Signature 28mm Butterfly Ultra Slim Rose Gold & Mellow Rose Leather Strap Watch",
+        tagline: "A feminine pairing of butterfly motif and mellow rose.",
+        shortLabel: "Butterfly",
+        priceGuide: "Medium dial (28mm)",
+        tags: ["Butterfly", "Rose gold", "Leather"],
+        features: [
+          "Official copy highlights a butterfly dial",
+          "Case: stainless steel (rose-gold coating)",
+          "Product details list a medium dial (28mm) and thickness of 6.65mm",
+        ],
+        recommendedFor: [
+          "Anyone drawn to a butterfly dial",
+          "Anyone considering rose gold with a soft pink strap",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh",
+        name: "OLIVIA BURTON Under the Sea Mermaid Tail Rose Gold Bouclé Mesh",
+        tagline: "A mermaid-tail dial with rose-gold mesh.",
+        shortLabel: "Mermaid / pastel",
+        priceGuide: "Demi dial (34mm)",
+        tags: ["Mermaid", "Rose gold", "Mesh"],
+        features: [
+          "Product name presents it as Mermaid Tail",
+          "Official copy says the dial uses natural shell and color look can shift with light",
+          "Case and bracelet: stainless steel; product name specifies rose-gold bouclé mesh",
+        ],
+        recommendedFor: [
+          "Anyone drawn to mermaid or sea motifs",
+          "Anyone considering a brighter, more accessory-like watch",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "brillamico-quilt-33mm-black-gold-quilting-belt",
+        name: "BRILLAMICO QUILT BLACK × GOLD <quilting strap>",
+        tagline: "A quilted dial and BLACK × GOLD for a brighter wrist.",
+        shortLabel: "Brighter luxury",
+        priceGuide: "Diameter 33mm",
+        tags: ["BLACK × GOLD", "Quilting", "Luxury"],
+        features: [
+          "Official copy highlights a dimensional quilted dial",
+          "Product name is BLACK × GOLD—black paired with gold",
+          "Case size: diameter 33mm / thickness 7mm (official specs)",
+        ],
+        recommendedFor: [
+          "Anyone drawn to BLACK × GOLD",
+          "Anyone wanting more sparkle and presence at the wrist",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "brillamico-lily-limited-46mm-matte-black",
+        name: "BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+        tagline: "A mode-leaning pick kept in matte black with strong presence.",
+        shortLabel: "Matte black / mode",
+        priceGuide: "Diameter 46.5mm",
+        tags: ["Matte black", "Mode", "Metal bracelet"],
+        features: [
+          "Body and bracelet in a matte-black finish; special metal bracelet",
+          "Presented with Swarovski detailing",
+          "Case size: diameter 46.5mm / thickness 11mm (official specs)",
+        ],
+        recommendedFor: [
+          "Anyone drawn to a matte-black, mode-leaning look",
+          "Anyone wanting a larger face with more presence",
+        ],
+        linkLabel: "Read more",
+      },
+    ],
+    useCasesTitle: "If you choose by design angle",
+    useCases: [
+      {
+        title: "Black × gold",
+        productName: "OLIVIA BURTON Classic 16mm Mini Grove",
+        productSlug: "olivia-burton-classic-16mm-mini-grove-gold-black",
+      },
+      {
+        title: "Floral",
+        productName: "OLIVIA BURTON Signature 30mm Illustrated Floral",
+        productSlug:
+          "olivia-burton-signature-30mm-illustrated-floral-rose-gold-chalk-blue",
+      },
+      {
+        title: "Blue tones",
+        productName: "OLIVIA BURTON Signature 30mm Azure",
+        productSlug: "olivia-burton-signature-30mm-azure-blue-silver-mesh",
+      },
+      {
+        title: "Butterfly",
+        productName: "OLIVIA BURTON Signature 28mm Butterfly Ultra Slim",
+        productSlug:
+          "olivia-burton-signature-28mm-butterfly-ultra-slim-rose-gold-mellow-rose",
+      },
+      {
+        title: "Mermaid / pastel",
+        productName: "OLIVIA BURTON Under the Sea Mermaid Tail",
+        productSlug: "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh",
+      },
+      {
+        title: "Brighter luxury",
+        productName: "BRILLAMICO QUILT BLACK × GOLD",
+        productSlug: "brillamico-quilt-33mm-black-gold-quilting-belt",
+      },
+      {
+        title: "Matte black / mode",
+        productName: "BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+        productSlug: "brillamico-lily-limited-46mm-matte-black",
+      },
+    ],
+    recommendedTitle: "Not sure? Start from the look you like",
+    recommendedFor: [
+      "Compact black × gold → OLIVIA BURTON Classic 16mm Mini Grove",
+      "Floral dial → OLIVIA BURTON Signature 30mm Illustrated Floral",
+      "Blue × mesh → OLIVIA BURTON Signature 30mm Azure",
+      "Butterfly motif → OLIVIA BURTON Signature 28mm Butterfly Ultra Slim",
+      "Mermaid / brighter mesh → OLIVIA BURTON Under the Sea Mermaid Tail",
+      "BLACK × GOLD luxury feel → BRILLAMICO QUILT",
+      "Matte-black mode feel → BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+    ],
+    summary:
+      "These seven watches are candidates to compare by design—not by price ranking. Black × gold, floral, blue, butterfly, mermaid, quilted luxury, and matte-black mode: start from the look you like, then check each product article and official page. Confirm full specs and the latest price and stock on each official product page.",
+    note: "※Sizes and specs follow each official product page. Check each sales page for the latest price and stock.",
+    ctaLabel: "Read more",
+    imageAlt: "Thumbnail collage of 7 women’s watches in the design picks guide",
+  },
   "wireless-earbuds-under-10000": {
     title: "7 true wireless earbuds to consider under ¥10,000",
     seoTitle: "7 true wireless earbuds under ¥10,000 | R13 Picks",
