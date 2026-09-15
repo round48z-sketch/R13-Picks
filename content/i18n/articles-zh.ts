@@ -2141,6 +2141,114 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ctaLabel: "查看商品",
     imageAlt: "放在黑色背景上的雾面黑无线耳机",
   },
+  "olivia-burton-3d-flower-midi-gold-black-leather": {
+    title: "3D 向日葵×金色。OLIVIA BURTON 3D 花卉 Midi",
+    seoTitle:
+      "OLIVIA BURTON 3D 花卉 Midi 金色 黑色皮革 | R13 Picks",
+    description:
+      "以 R13 Picks 的视角介绍 OLIVIA BURTON 3D 花卉 Midi 金色 黑色皮革。围绕 3D 花卉表盘、金色调表壳与黑色皮革表带进行整理。",
+    productType: "腕表",
+    excerpt:
+      "华丽的 3D 向日葵表盘，搭配金色调表壳与黑色皮革。",
+    intro:
+      "OLIVIA BURTON（奥利维亚·伯顿）的 3D 花卉 Midi 金色 黑色皮革（型号：OB24000222）是在官方网店销售的腕表。商品说明介绍了华丽的向日葵 3D 图案，以及金色调表壳与经典黑色皮革表带的组合。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "关于 3D 花卉 Midi 金色 黑色皮革",
+    points: [
+      "品牌为 OLIVIA BURTON（奥利维亚·伯顿）",
+      "商品名为 3D 花卉 Midi 金色 黑色皮革",
+      "型号为 OB24000222",
+      "在 OLIVIA BURTON 日本官方网店销售",
+      "商品详情标注为中等尺寸（30mm）、厚度 10.2mm、表带宽度 12mm",
+      "表壳为不锈钢（金色镀层）",
+      "表带为小牛皮；商品名标注为黑色皮革",
+      "日本产石英机芯，3ATM（日常生活防水）",
+    ],
+    sections: [
+      {
+        title: "3D 花卉图案表盘",
+        body: "商品说明介绍称，象征羁绊与希望的华丽向日葵十分吸睛。精细的 3D 图案以精巧花瓣与微型珠饰点缀，置于色调统一的金属质感表盘中央。3D 花卉是设计的核心。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "金色调表壳与黑色皮革",
+        body: "表壳为不锈钢（金色镀层），表带为小牛皮。商品说明称经典黑色皮革表带与金色调表壳相协调。以金色与黑色收束的外观，适合想在手腕上增加华丽感与对比点缀时参考。",
+      },
+      {
+        title: "搭配穿搭时",
+        body: "商品详情标注为中等尺寸（30mm）。商品说明也称其适合作为礼物或犒赏自己的特别单品。对于偏精致、偏女性化或偏时装感的穿搭，较容易作为 3D 花卉与金色的点缀来考虑。是否合适取决于具体穿搭。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "对 3D 花卉图案表盘感兴趣的人。想考虑金色调表壳与黑色皮革表带组合的人。想选择中等尺寸（30mm）腕表的人。想以配饰感挑选更有华丽感腕表的人。",
+      },
+    ],
+    recommendedTitle: "购买前建议确认的要点",
+    recommendedFor: [
+      "商品详情标注为中等尺寸（30mm）、厚度 10.2mm、表带宽度 12mm",
+      "表壳为不锈钢（金色镀层），表带为小牛皮",
+      "商品说明介绍了向日葵 3D 图案、金色调表壳与黑色皮革",
+      "规格为日本产石英机芯，3ATM（日常生活防水）",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "3D 花卉 Midi 金色 黑色皮革是将向日葵 3D 图案表盘与金色调表壳、黑色皮革组合的 OLIVIA BURTON 腕表。官方以华丽设计介绍，适合想在手腕上增加存在感点缀时参考。规格详情与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "金色表壳与黑色皮革的 OLIVIA BURTON 3D 花卉 Midi",
+  },
+  "brillamico-late-31mm-black-silver-leather-belt": {
+    title: "以 BLACK×SILVER 收束。BRILLAMICO LATE 31MM",
+    seoTitle:
+      "BRILLAMICO LATE 31MM BLACK×SILVER〈皮革表带〉｜腕表 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 BRILLAMICO LATE 31MM BLACK×SILVER〈皮革表带〉。围绕 31mm 尺寸、BLACK×SILVER、施华洛世奇与皮革表带来整理。",
+    productType: "腕表",
+    excerpt:
+      "点缀施华洛世奇的 LATE 31MM。BLACK×SILVER 与皮革表带。",
+    intro:
+      "BRILLAMICO（布里拉米科）的 LATE 31MM BLACK×SILVER〈皮革表带〉是在官方网站销售的腕表。商品说明将 LATE 作为新系列介绍，并写到将施华洛世奇点缀于整表，以高纯度不锈钢打造。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "LATE 31MM BLACK×SILVER〈皮革表带〉是什么",
+    points: [
+      "品牌为 BRILLAMICO（布里拉米科）",
+      "商品名为 LATE 31MM BLACK×SILVER〈皮革表带〉",
+      "货号为 458954005199",
+      "在 BRILLAMICO 官方网站销售",
+      "表壳尺寸为直径 31mm／厚度 11mm",
+      "表壳材质为不锈钢（SUS316L）、施华洛世奇。表盘材质为施华洛世奇",
+      "表带材质为真皮（鳄鱼压纹）、施华洛世奇",
+      "日本产石英机芯，3 气压防水（生活防水）",
+    ],
+    sections: [
+      {
+        title: "BLACK×SILVER 与施华洛世奇设计",
+        body: "商品名为 BLACK×SILVER，是黑与银的组合。商品说明写到，将施华洛世奇奢华地点缀于整表，并以耐久性出色的高纯度不锈钢，营造精致又带玩味的成人时刻。在偏黑白的穿搭中，较容易作为腕间点缀来考虑。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "31mm 尺寸与皮革表带",
+        body: "商品规格标注表壳尺寸为直径 31mm／厚度 11mm、重量 42g、耳宽 12mm。表带为真皮（鳄鱼压纹）与施华洛世奇，腕围为 14.5〜19.5cm（佩戴时以扣孔固定的尺寸）。是紧凑尺寸与皮革表带的组合。",
+      },
+      {
+        title: "搭配穿搭时",
+        body: "商品说明称其妖艳夺目的光泽会发挥独特存在感。在偏精致、偏模式或偏黑白的穿搭中，较容易作为 BLACK×SILVER 的点缀来考虑。是否合适仍取决于整体造型。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "对 BLACK×SILVER 配色感兴趣的人。想考虑点缀施华洛世奇设计的人。想选择 31mm 腕表的人。想以皮革表带搭配偏精致、偏模式或偏黑白穿搭的人。",
+      },
+    ],
+    recommendedTitle: "购买前想确认的要点",
+    recommendedFor: [
+      "表壳尺寸为直径 31mm、厚度 11mm、重量 42g（官方规格）",
+      "腕围为 14.5〜19.5cm（佩戴时以扣孔固定的尺寸）",
+      "表壳与表盘使用施华洛世奇。表带为真皮（鳄鱼压纹）与施华洛世奇",
+      "规格为日本产石英机芯，3 气压防水（生活防水）",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "LATE 31MM BLACK×SILVER〈皮革表带〉，是搭配 BLACK×SILVER、施华洛世奇与皮革表带的 BRILLAMICO 腕表。官方以新系列介绍，适合想以 31mm 为腕间增加黑白点缀时参考。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "BLACK×SILVER 的 BRILLAMICO LATE 31MM 皮革表带",
+  },
   "brillamico-quilt-33mm-black-gold-quilting-belt": {
     title: "BLACK×GOLD 绗缝。BRILLAMICO QUILT 33mm",
     seoTitle:

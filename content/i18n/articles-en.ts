@@ -1329,6 +1329,115 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ctaLabel: "View product",
     imageAlt: "Matte black wireless headphones placed against a black background",
   },
+  "olivia-burton-3d-flower-midi-gold-black-leather": {
+    title: "3D sunflower × gold. OLIVIA BURTON 3D Flower Midi",
+    seoTitle:
+      "OLIVIA BURTON 3D Flower Midi Gold Black Leather | R13 Picks",
+    description:
+      "An R13 Picks look at the OLIVIA BURTON 3D Flower Midi Gold Black Leather. Focused on the 3D flower dial, gold-tone case, and black leather strap.",
+    productType: "Watch",
+    excerpt:
+      "A striking 3D sunflower dial with a gold-tone case and black leather strap.",
+    intro:
+      "The OLIVIA BURTON 3D Flower Midi Gold Black Leather (model: OB24000222) is a watch sold on the official online store. Official product copy highlights a striking 3D sunflower motif with a gold-tone case and a classic black leather strap. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the 3D Flower Midi Gold Black Leather",
+    points: [
+      "Brand: OLIVIA BURTON",
+      "Product name: 3D Flower Midi Gold Black Leather",
+      "Model number: OB24000222",
+      "Sold on the OLIVIA BURTON Japan official online store",
+      "Product details list a medium size (30mm), thickness of 10.2mm, and strap width of 12mm",
+      "Case: stainless steel (gold coating)",
+      "Strap: calfskin leather; the product name specifies black leather",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+    ],
+    sections: [
+      {
+        title: "A 3D flower-motif dial",
+        body: "Official copy describes a striking sunflower design that symbolizes bonds and hope. It says the delicate 3D motif is finished with intricate petals and micro beads and placed at the center of a tonal metallic dial. The 3D flower is the design focus. You can also check the look in the official product images.",
+      },
+      {
+        title: "Gold-tone case and black leather",
+        body: "The case is stainless steel (gold coating), and the strap is calfskin leather. Official copy says a classic black leather strap and gold-tone case work in harmony. With a gold-and-black look, it’s a candidate when you want a brighter accent with contrast at the wrist.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Product details list a medium size (30mm). Official copy also notes it as well suited as a gift or a special piece for yourself. The design is easy to consider as a 3D-flower and gold accent for dressier, more feminine, or more mode-leaning outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People drawn to a 3D flower-motif dial. People considering a gold-tone case with a black leather strap. People looking for a medium-size (30mm) watch. People considering a more accessory-like watch with brighter presence.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Product details list a medium size (30mm), thickness of 10.2mm, and strap width of 12mm",
+      "Case: stainless steel (gold coating); strap: calfskin leather",
+      "Official copy highlights a 3D sunflower motif, gold-tone case, and black leather",
+      "Japanese quartz movement; 3ATM (everyday water resistance)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The 3D Flower Midi Gold Black Leather is an OLIVIA BURTON watch that pairs a 3D sunflower dial with a gold-tone case and black leather. Official materials present a striking design, making it a candidate when you want a stronger accent at the wrist. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt:
+      "OLIVIA BURTON 3D Flower Midi with gold case and black leather",
+  },
+  "brillamico-late-31mm-black-silver-leather-belt": {
+    title: "Kept in BLACK × SILVER. BRILLAMICO LATE 31MM",
+    seoTitle:
+      "BRILLAMICO LATE 31MM BLACK × SILVER <leather strap>｜Watch | R13 Picks",
+    description:
+      "An R13 Picks look at the BRILLAMICO LATE 31MM BLACK × SILVER <leather strap>. Focused on the 31mm size, BLACK × SILVER look, Swarovski detailing, and leather strap.",
+    productType: "Watch",
+    excerpt:
+      "LATE 31MM with Swarovski detailing. BLACK × SILVER with a leather strap.",
+    intro:
+      "The BRILLAMICO LATE 31MM BLACK × SILVER <leather strap> is a watch sold on the official site. Official product copy presents LATE as a new series, noting Swarovski detailing across the watch and a high-purity stainless steel finish. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the LATE 31MM BLACK × SILVER <leather strap>",
+    points: [
+      "Brand: BRILLAMICO",
+      "Product name: LATE 31MM BLACK × SILVER <leather strap>",
+      "Product number: 458954005199",
+      "Sold on the BRILLAMICO official site",
+      "Case size: diameter 31mm / thickness 11mm",
+      "Case materials: stainless steel (SUS316L), Swarovski; dial material: Swarovski",
+      "Strap materials: genuine leather (crocodile embossed), Swarovski",
+      "Japanese quartz movement; 3 bar water resistance (everyday water resistance)",
+    ],
+    sections: [
+      {
+        title: "A BLACK × SILVER design with Swarovski",
+        body: "The product name is BLACK × SILVER, pairing black and silver. Official copy says Swarovski is generously applied across the watch, finished in durable high-purity stainless steel, to create a refined yet playful adult look. The design is easy to consider as a wrist accent for more monochrome outfits. You can also check the look in the official product images.",
+      },
+      {
+        title: "31mm size and leather strap",
+        body: "Product specs list a case diameter of 31mm, thickness of 11mm, weight of 42g, and lug width of 12mm. The strap is genuine leather (crocodile embossed) with Swarovski, and wrist circumference is 14.5–19.5cm (when worn, measured at the buckle hole). It pairs a compact size with a leather strap.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Official copy says its dazzling sparkle creates a unique presence. The design is easy to consider as a BLACK × SILVER accent for dressier, more mode-leaning, or monochrome outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People drawn to a BLACK × SILVER color pairing. People considering a design with Swarovski detailing. People looking for a 31mm watch. People who want a leather-strap watch for dressier, mode-leaning, or monochrome outfits.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Case size: diameter 31mm, thickness 11mm, weight 42g (official specs)",
+      "Wrist circumference: 14.5–19.5cm (when worn, measured at the buckle hole)",
+      "Case and dial use Swarovski; strap is genuine leather (crocodile embossed) with Swarovski",
+      "Japanese quartz movement; 3 bar water resistance (everyday water resistance)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The LATE 31MM BLACK × SILVER <leather strap> is a BRILLAMICO watch that pairs BLACK × SILVER with Swarovski and a leather strap. Official materials present it as a new series, making it a candidate when you want a monochrome accent in a 31mm size. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "BRILLAMICO LATE 31MM BLACK × SILVER with leather strap",
+  },
   "brillamico-quilt-33mm-black-gold-quilting-belt": {
     title: "BLACK × GOLD quilting. BRILLAMICO QUILT 33mm",
     seoTitle:
