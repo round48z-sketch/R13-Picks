@@ -2141,6 +2141,112 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ctaLabel: "查看商品",
     imageAlt: "放在黑色背景上的雾面黑无线耳机",
   },
+  "brillamico-quilt-33mm-black-gold-quilting-belt": {
+    title: "BLACK×GOLD 绗缝。BRILLAMICO QUILT 33mm",
+    seoTitle:
+      "BRILLAMICO QUILT BLACK×GOLD〈绗缝表带〉｜33mm 腕表 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 BRILLAMICO QUILT BLACK×GOLD〈绗缝表带〉。围绕立体绗缝表盘、BLACK×GOLD 与 33mm 尺寸来整理。",
+    productType: "腕表",
+    excerpt: "立体绗缝表盘与 BLACK×GOLD。33mm 的 QUILT。",
+    intro:
+      "BRILLAMICO（布里拉米科）的 QUILT BLACK×GOLD〈绗缝表带〉是在官方网站销售的腕表。商品说明将 QUILT 作为新系列介绍，并写到表盘采用立体绗缝设计。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "QUILT BLACK×GOLD〈绗缝表带〉是什么",
+    points: [
+      "品牌为 BRILLAMICO（布里拉米科）",
+      "商品名为 QUILT BLACK×GOLD〈绗缝表带〉",
+      "在 BRILLAMICO 官方网站销售。商品说明标注为限定商品",
+      "表壳尺寸为直径 33mm／厚度 7mm",
+      "表壳材质为不锈钢（SUS316L）、施华洛世奇",
+      "表带材质为合成革／聚氨酯。商品名标注为绗缝表带",
+      "日本产石英机芯，3ATM（3 气压）防水",
+    ],
+    sections: [
+      {
+        title: "绗缝表盘与 BLACK×GOLD",
+        body: "商品说明将其介绍为优雅闪耀的新系列，表盘采用立体绗缝，呈现出温润设计。商品名为 BLACK×GOLD，是黑与金的组合。适合想要华丽感与腕间存在感时参考。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "33mm 尺寸与规格",
+        body: "商品规格标注表壳尺寸为直径 33mm／厚度 7mm、重量 23g、耳宽 12mm。表带尺寸为 15〜18.5cm（佩戴时以扣孔固定的尺寸）。作为紧凑尺寸较容易考虑。",
+      },
+      {
+        title: "搭配穿搭时",
+        body: "商品说明也称其可作为送给重要伴侣的礼物或给自己的奖励。在偏精致、偏模式或偏奢华的穿搭中，较容易作为 BLACK×GOLD 与绗缝的点缀来考虑。是否合适仍取决于整体造型。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "对 BLACK×GOLD 配色感兴趣的人。想考虑立体绗缝表盘的人。想选择 33mm 腕表的人。想搭配偏精致、偏模式或偏奢华穿搭的人。",
+      },
+    ],
+    recommendedTitle: "购买前想确认的要点",
+    recommendedFor: [
+      "表壳尺寸为直径 33mm、厚度 7mm、重量 23g（官方规格）",
+      "表带尺寸为 15〜18.5cm（佩戴时以扣孔固定的尺寸）",
+      "表壳材质为不锈钢（SUS316L）与施华洛世奇，表带为合成革／聚氨酯",
+      "规格为日本产石英机芯，3ATM（3 气压）防水",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "QUILT BLACK×GOLD〈绗缝表带〉，是搭配立体绗缝表盘与 BLACK×GOLD 的 BRILLAMICO 腕表。官方以新系列介绍，适合想以 33mm 为腕间增加华丽点缀时参考。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "BLACK×GOLD 的 BRILLAMICO QUILT 绗缝表带",
+  },
+  "brillamico-lily-limited-46mm-matte-black": {
+    title: "以雾面黑收束。BRILLAMICO LILY LIMITED 46MM",
+    seoTitle:
+      "BRILLAMICO LILY LIMITED 46MM MATTE BLACK｜雾面黑腕表 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 BRILLAMICO LILY LIMITED 46MM MATTE BLACK。围绕雾面黑表壳与表带，以及点缀施华洛世奇的 46mm 级设计来整理。",
+    productType: "腕表",
+    excerpt:
+      "雾面黑表壳与金属表带。点缀施华洛世奇的 LILY LIMITED 46MM。",
+    intro:
+      "BRILLAMICO（布里拉米科）的 LILY LIMITED 46MM MATTE BLACK 是在官方网站销售的腕表。商品说明将其介绍为将闪耀的施华洛世奇与精致时尚设计融合的人气型号，表壳与表带为雾面黑饰面，表带为特别规格的金属表带。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "LILY LIMITED 46MM MATTE BLACK 是什么",
+    points: [
+      "品牌为 BRILLAMICO（布里拉米科）",
+      "商品名为 LILY LIMITED 46MM MATTE BLACK",
+      "货号为 458954005017",
+      "在 BRILLAMICO 官方网站销售",
+      "表壳尺寸为直径 46.5mm／厚度 11mm",
+      "表壳与表带为雾面黑饰面。表带为特别规格的金属表带",
+      "表壳与表带材质为不锈钢（SUS316L）与施华洛世奇，表盘为珍珠母贝（MOP）",
+      "日本产石英机芯，3 气压防水（生活防水）",
+    ],
+    sections: [
+      {
+        title: "以雾面黑为基调的设计",
+        body: "商品说明将其介绍为将闪耀的施华洛世奇与精致时尚设计魅力融合的型号。表款设计将品牌标志性的施华洛世奇散布于整体，表壳与表带颜色为雾面黑饰面。以黑色调收束的外观，较容易作为偏模式或黑色穿搭的点缀来考虑。",
+      },
+      {
+        title: "有存在感的 46mm 级尺寸",
+        body: "商品名标注 46MM，商品规格标注表壳尺寸为直径 46.5mm／厚度 11mm、重量 149g。耳宽为 20mm，腕围为 19cm（可按 1cm 增减调节）。作为较大表盘，适合想为腕间增加存在感时参考。尺寸细节请在官方商品页面确认。",
+      },
+      {
+        title: "金属表带与表盘规格",
+        body: "表带为特别规格的金属表带，表带材质为不锈钢（SUS316L）与施华洛世奇。表盘材质标注为珍珠母贝（MOP）。是装饰性较高的表盘与雾面黑金属表带的组合。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "想考虑雾面黑基调腕表的人。对点缀施华洛世奇、装饰性较高的设计感兴趣的人。想选择直径 46.5mm 级有存在感尺寸的人。想搭配黑色穿搭，或偏模式、偏奢华造型的人。",
+      },
+    ],
+    recommendedTitle: "购买前想确认的要点",
+    recommendedFor: [
+      "表壳尺寸为直径 46.5mm、厚度 11mm、重量 149g（官方规格）",
+      "腕围为 19cm（可按 1cm 增减调节）。通常发货标注为腕围 19cm",
+      "规格为日本产石英机芯，3 气压防水（生活防水）",
+      "表壳与表带为雾面黑。表带为特别规格的金属表带",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "LILY LIMITED 46MM MATTE BLACK，是雾面黑表壳与金属表带并点缀施华洛世奇的 BRILLAMICO 腕表。官方以时尚设计与施华洛世奇的融合介绍，适合想以黑色调为腕间增加存在感时参考。规格细节与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "雾面黑的 BRILLAMICO LILY LIMITED 46MM",
+  },
   "olivia-burton-varsity-big-matte-black-gold-detail-38mm": {
     title: "雾面黑×金。OLIVIA BURTON Varsity Big 38mm",
     seoTitle:

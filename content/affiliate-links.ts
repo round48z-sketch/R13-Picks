@@ -7,6 +7,10 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "brillamico-quilt-33mm-black-gold-quilting-belt":
+    "https://px.a8.net/svt/ejp?a8mat=4BACLG+40ODJU+46HS+BW0YB&a8ejpredirect=https%3A%2F%2Fbrillamico.jp%2Fproducts%2Fquilt-33mm-black-gold-%25E3%2582%25AD%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2583%2599%25E3%2583%25AB%25E3%2583%2588",
+  "brillamico-lily-limited-46mm-matte-black":
+    "https://px.a8.net/svt/ejp?a8mat=4BACLG+40ODJU+46HS+BW0YB&a8ejpredirect=https%3A%2F%2Fbrillamico.jp%2Fproducts%2Flily-limited-46mm-matte-black",
   "olivia-burton-varsity-big-matte-black-gold-detail-38mm":
     "https://px.a8.net/svt/ejp?a8mat=4BC2EG+97MHI2+2JXG+2BCGZ5&a8ejpredirect=https%3A%2F%2Fwww.oliviaburton.jp%2Fc%2Fwatch%2Fob16vs05",
   "olivia-burton-under-the-sea-mermaid-tail-rose-gold-boucle-mesh":

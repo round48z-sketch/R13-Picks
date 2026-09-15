@@ -2118,6 +2118,113 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
     ctaLabel: "상품 보기",
     imageAlt: "블랙 배경에 놓인 매트 블랙 무선 헤드폰",
   },
+  "brillamico-quilt-33mm-black-gold-quilting-belt": {
+    title: "BLACK×GOLD 퀼팅. BRILLAMICO QUILT 33mm",
+    seoTitle:
+      "BRILLAMICO QUILT BLACK×GOLD〈퀼팅 벨트〉｜33mm 손목시계 | R13 Picks",
+    description:
+      "BRILLAMICO QUILT BLACK×GOLD〈퀼팅 벨트〉를 R13 Picks의 시선으로 소개합니다. 입체감 있는 퀼팅 다이얼과 BLACK×GOLD, 33mm 사이즈를 중심으로 정리합니다.",
+    productType: "손목시계",
+    excerpt:
+      "입체감 있는 퀼팅 다이얼과 BLACK×GOLD. 33mm QUILT.",
+    intro:
+      "BRILLAMICO(브릴라미코)의 QUILT BLACK×GOLD〈퀼팅 벨트〉는 공식 사이트에서 판매되는 손목시계입니다. 상품 설명에서는 QUILT를 새 시리즈로 안내하며, 다이얼에 입체감 있는 퀼팅을 더한 디자인으로 기재되어 있습니다. 가격이나 재고는 바뀔 수 있으므로, 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "QUILT BLACK×GOLD〈퀼팅 벨트〉란",
+    points: [
+      "브랜드는 BRILLAMICO(브릴라미코)",
+      "상품명은 QUILT BLACK×GOLD〈퀼팅 벨트〉",
+      "BRILLAMICO 공식 사이트에서 판매. 상품 설명에서는 한정 상품으로 안내",
+      "본체 사이즈는 지름 33mm／두께 7mm",
+      "본체 소재는 스테인리스(SUS316L), 스와로브스키",
+      "벨트 소재는 합성 가죽／폴리우레탄. 상품명에서는 퀼팅 벨트",
+      "일본제 쿼츠, 3ATM(3기압) 방수",
+    ],
+    sections: [
+      {
+        title: "퀼팅 다이얼과 BLACK×GOLD",
+        body: "상품 설명에서는 우아하게 빛나는 새 시리즈로 안내되며, 다이얼에 입체감 있는 퀼팅을 더해 따뜻한 디자인이라고 기재되어 있습니다. 상품명은 BLACK×GOLD로, 블랙과 골드를 조합한 인상입니다. 화사함과 손목의 존재감을 원할 때의 후보입니다. 인상은 공식 상품 이미지에서도 확인할 수 있습니다.",
+      },
+      {
+        title: "33mm 사이즈와 사양",
+        body: "상품 사양에서는 본체 사이즈가 지름 33mm／두께 7mm, 무게 23g, 러그 폭 12mm로 안내됩니다. 벨트 사이즈는 15〜18.5cm(벨트 착용 시, 구멍에 고정한 사이즈)입니다. 컴팩트한 사이즈감으로 검토하기 쉬운 한 점입니다.",
+      },
+      {
+        title: "패션에 맞춘다면",
+        body: "상품 설명에서는 소중한 파트너에게 주는 선물이나 자신을 위한 보상으로도 안내됩니다. 단정하거나 모드, 럭셔리 성향의 스타일에 BLACK×GOLD와 퀼팅의 포인트로 검토하기 쉬운 디자인입니다. 잘 어울리는지는 옷차림에 따라 달라집니다.",
+      },
+      {
+        title: "어떤 사람에게 맞을까",
+        body: "BLACK×GOLD 배색이 궁금한 사람. 입체감 있는 퀼팅 다이얼을 검토하고 싶은 사람. 33mm 사이즈 손목시계를 고르고 싶은 사람. 단정·모드·럭셔리 성향 코디에 맞추고 싶은 사람.",
+      },
+    ],
+    recommendedTitle: "구매 전에 확인해 두고 싶은 포인트",
+    recommendedFor: [
+      "본체 사이즈는 지름 33mm, 두께 7mm, 무게 23g(공식 사양)",
+      "벨트 사이즈는 15〜18.5cm(벨트 착용 시, 구멍에 고정한 사이즈)",
+      "본체 소재는 스테인리스(SUS316L)와 스와로브스키, 벨트는 합성 가죽／폴리우레탄",
+      "사양은 일본제 쿼츠, 3ATM(3기압) 방수",
+      "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요",
+    ],
+    summary:
+      "QUILT BLACK×GOLD〈퀼팅 벨트〉는 입체감 있는 퀼팅 다이얼과 BLACK×GOLD를 조합한 BRILLAMICO 손목시계입니다. 공식에서는 새 시리즈로 안내되며, 33mm 사이즈로 손목에 화사한 포인트를 더하고 싶을 때의 후보입니다. 사양 상세와 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "BLACK×GOLD의 BRILLAMICO QUILT 퀼팅 벨트",
+  },
+  "brillamico-lily-limited-46mm-matte-black": {
+    title: "매트 블랙으로 정리하는. BRILLAMICO LILY LIMITED 46MM",
+    seoTitle:
+      "BRILLAMICO LILY LIMITED 46MM MATTE BLACK｜매트 블랙 손목시계 | R13 Picks",
+    description:
+      "BRILLAMICO LILY LIMITED 46MM MATTE BLACK를 R13 Picks의 시선으로 소개합니다. 매트 블랙 바디와 벨트, 스와로브스키를 곁들인 46mm급 디자인을 중심으로 정리합니다.",
+    productType: "손목시계",
+    excerpt:
+      "매트 블랙 바디와 메탈 벨트. 스와로브스키를 곁들인 LILY LIMITED 46MM.",
+    intro:
+      "BRILLAMICO(브릴라미코)의 LILY LIMITED 46MM MATTE BLACK는 공식 사이트에서 판매되는 손목시계입니다. 상품 설명에서는 스와로브스키와 시크한 디자인이 융합된 인기 모델로 안내되며, 바디·벨트는 매트 블랙 마감, 벨트는 특별 사양의 메탈 벨트로 기재되어 있습니다. 가격이나 재고는 바뀔 수 있으므로, 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "LILY LIMITED 46MM MATTE BLACK란",
+    points: [
+      "브랜드는 BRILLAMICO(브릴라미코)",
+      "상품명은 LILY LIMITED 46MM MATTE BLACK",
+      "품번은 458954005017",
+      "BRILLAMICO 공식 사이트에서 판매",
+      "본체 사이즈는 지름 46.5mm／두께 11mm",
+      "바디·벨트는 매트 블랙 마감. 벨트는 특별 사양의 메탈 벨트",
+      "본체·벨트 소재는 스테인리스(SUS316L)와 스와로브스키, 다이얼은 마더오브펄(MOP)",
+      "일본제 쿼츠, 3기압 방수(생활 방수)",
+    ],
+    sections: [
+      {
+        title: "매트 블랙을 기조로 한 디자인",
+        body: "상품 설명에서는 반짝이는 스와로브스키와 세련된 시크한 디자인이 매력적으로 융합된 모델로 안내됩니다. 시계 디자인에는 브랜드를 상징하는 스와로브스키를 전체에 흩뿌리고, 바디·벨트 색은 매트 블랙으로 마감했다고 기재되어 있습니다. 블랙 톤으로 정리된 인상이라, 모드 성향이나 블랙 코디의 포인트로 검토하기 쉬운 디자인입니다.",
+      },
+      {
+        title: "존재감 있는 46mm급 사이즈",
+        body: "상품명에서는 46MM, 상품 사양에서는 본체 사이즈가 지름 46.5mm／두께 11mm, 무게 149g으로 안내됩니다. 러그 폭은 20mm, 손목 둘레는 19cm(1cm씩 증감 조절 가능)입니다. 큰 페이스로 손목에 존재감을 내고 싶을 때의 후보입니다. 사이즈감 상세는 공식 상품 페이지에서 확인해 주세요.",
+      },
+      {
+        title: "메탈 벨트와 다이얼 사양",
+        body: "벨트는 특별 사양의 메탈 벨트이며, 벨트 소재는 스테인리스(SUS316L)와 스와로브스키입니다. 다이얼 소재는 마더오브펄(MOP)로 안내됩니다. 장식성 높은 다이얼과 매트 블랙 메탈 벨트를 조합한 구성입니다.",
+      },
+      {
+        title: "어떤 사람에게 맞을까",
+        body: "매트 블랙을 기조로 한 손목시계를 검토하고 싶은 사람. 스와로브스키를 곁들인 장식성 높은 디자인이 궁금한 사람. 지름 46.5mm급의 존재감 있는 사이즈를 고르고 싶은 사람. 블랙 톤 코디나 모드·럭셔리 성향의 스타일에 맞추고 싶은 사람.",
+      },
+    ],
+    recommendedTitle: "구매 전에 확인해 두고 싶은 포인트",
+    recommendedFor: [
+      "본체 사이즈는 지름 46.5mm, 두께 11mm, 무게 149g(공식 사양)",
+      "손목 둘레는 19cm(1cm씩 증감 조절 가능). 일반 발송 시 손목 둘레 19cm로 보낸다고 안내",
+      "사양은 일본제 쿼츠, 3기압 방수(생활 방수)",
+      "바디·벨트는 매트 블랙. 벨트는 특별 사양의 메탈 벨트",
+      "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요",
+    ],
+    summary:
+      "LILY LIMITED 46MM MATTE BLACK는 매트 블랙 바디와 메탈 벨트에 스와로브스키를 곁들인 BRILLAMICO 손목시계입니다. 공식에서는 시크한 디자인과 스와로브스키의 융합으로 안내되며, 블랙 톤으로 손목에 존재감을 내고 싶을 때의 후보입니다. 사양 상세와 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "매트 블랙의 BRILLAMICO LILY LIMITED 46MM",
+  },
   "olivia-burton-varsity-big-matte-black-gold-detail-38mm": {
     title: "매트 블랙×골드. OLIVIA BURTON 바시티 빅 38mm",
     seoTitle:

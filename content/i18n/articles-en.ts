@@ -1329,6 +1329,113 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ctaLabel: "View product",
     imageAlt: "Matte black wireless headphones placed against a black background",
   },
+  "brillamico-quilt-33mm-black-gold-quilting-belt": {
+    title: "BLACK × GOLD quilting. BRILLAMICO QUILT 33mm",
+    seoTitle:
+      "BRILLAMICO QUILT BLACK × GOLD <quilting strap>｜33mm watch | R13 Picks",
+    description:
+      "An R13 Picks look at the BRILLAMICO QUILT BLACK × GOLD <quilting strap>. Focused on the dimensional quilted dial, BLACK × GOLD look, and 33mm size.",
+    productType: "Watch",
+    excerpt:
+      "A dimensional quilted dial in BLACK × GOLD. A 33mm QUILT.",
+    intro:
+      "The BRILLAMICO QUILT BLACK × GOLD <quilting strap> is a watch sold on the official site. Official product copy presents QUILT as a new series and notes a dial with dimensional quilting. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the QUILT BLACK × GOLD <quilting strap>",
+    points: [
+      "Brand: BRILLAMICO",
+      "Product name: QUILT BLACK × GOLD <quilting strap>",
+      "Sold on the BRILLAMICO official site; product copy presents it as a limited item",
+      "Case size: diameter 33mm / thickness 7mm",
+      "Case materials: stainless steel (SUS316L), Swarovski",
+      "Strap materials: synthetic leather / polyurethane; the product name specifies a quilting strap",
+      "Japanese quartz movement; 3ATM (3 bar) water resistance",
+    ],
+    sections: [
+      {
+        title: "A quilted dial and BLACK × GOLD",
+        body: "Official copy presents it as an elegantly sparkling new series, with dimensional quilting on the dial and a warm design. The product name is BLACK × GOLD, pairing black and gold. It’s a candidate when you want a brighter look with presence on the wrist. You can also check the look in the official product images.",
+      },
+      {
+        title: "33mm size and specs",
+        body: "Product specs list a case diameter of 33mm, thickness of 7mm, weight of 23g, and lug width of 12mm. Strap size is 15–18.5cm (when worn, measured at the buckle hole). It’s an easy size to consider as a more compact watch.",
+      },
+      {
+        title: "Wearing it with fashion",
+        body: "Official copy also presents it as a gift for a partner or a treat for yourself. The design is easy to consider as a BLACK × GOLD and quilting accent for dressier, more mode-leaning, or more luxurious outfits. How well it pairs depends on what you wear.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People drawn to a BLACK × GOLD color pairing. People considering a dimensional quilted dial. People looking for a 33mm watch. People who want to pair it with dressier, mode-leaning, or more luxurious outfits.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Case size: diameter 33mm, thickness 7mm, weight 23g (official specs)",
+      "Strap size: 15–18.5cm (when worn, measured at the buckle hole)",
+      "Case: stainless steel (SUS316L) and Swarovski; strap: synthetic leather / polyurethane",
+      "Japanese quartz movement; 3ATM (3 bar) water resistance",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The QUILT BLACK × GOLD <quilting strap> is a BRILLAMICO watch that pairs a dimensional quilted dial with BLACK × GOLD. Official materials present it as a new series, making it a candidate when you want a brighter 33mm accent at the wrist. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "BRILLAMICO QUILT BLACK × GOLD with quilting strap",
+  },
+  "brillamico-lily-limited-46mm-matte-black": {
+    title: "Kept in matte black. BRILLAMICO LILY LIMITED 46MM",
+    seoTitle:
+      "BRILLAMICO LILY LIMITED 46MM MATTE BLACK｜A matte black watch | R13 Picks",
+    description:
+      "An R13 Picks look at the BRILLAMICO LILY LIMITED 46MM MATTE BLACK. Focused on the matte-black body and bracelet, and a 46mm-class design with Swarovski detailing.",
+    productType: "Watch",
+    excerpt:
+      "A matte-black body and metal bracelet. LILY LIMITED 46MM with Swarovski detailing.",
+    intro:
+      "The BRILLAMICO LILY LIMITED 46MM MATTE BLACK is a watch sold on the official site. Official product copy presents it as a popular model that blends sparkling Swarovski with a refined, chic design, finished in matte black on the body and bracelet, with a special metal bracelet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the LILY LIMITED 46MM MATTE BLACK",
+    points: [
+      "Brand: BRILLAMICO",
+      "Product name: LILY LIMITED 46MM MATTE BLACK",
+      "Product number: 458954005017",
+      "Sold on the BRILLAMICO official site",
+      "Case size: diameter 46.5mm / thickness 11mm",
+      "Body and bracelet finished in matte black; bracelet is a special metal bracelet",
+      "Case and bracelet materials: stainless steel (SUS316L) and Swarovski; dial: mother of pearl (MOP)",
+      "Japanese quartz movement; 3 bar water resistance (everyday water resistance)",
+    ],
+    sections: [
+      {
+        title: "A matte-black focused design",
+        body: "Official copy presents it as a model that blends sparkling Swarovski with a refined, chic design. The watch design scatters brand-signature Swarovski throughout, and the body and bracelet colors are finished in matte black. The all-black look is easy to consider as an accent for more mode-leaning or black-focused outfits.",
+      },
+      {
+        title: "A 46mm-class size with presence",
+        body: "The product name says 46MM; product specs list a case diameter of 46.5mm, thickness of 11mm, and weight of 149g. Lug width is 20mm, and wrist circumference is 19cm (adjustable in 1cm steps). As a larger face, it’s a candidate when you want more presence on the wrist. Check the official product page for size details.",
+      },
+      {
+        title: "Metal bracelet and dial specs",
+        body: "The bracelet is a special metal bracelet made of stainless steel (SUS316L) and Swarovski. The dial material is listed as mother of pearl (MOP). It pairs a more decorative dial with a matte-black metal bracelet.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People considering a matte-black focused watch. People drawn to a more decorative design with Swarovski. People looking for a diameter-46.5mm class size with presence. People who want to pair it with black-focused, mode-leaning, or more luxurious outfits.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Case size: diameter 46.5mm, thickness 11mm, weight 149g (official specs)",
+      "Wrist circumference: 19cm (adjustable in 1cm steps); standard shipping is listed as 19cm",
+      "Japanese quartz movement; 3 bar water resistance (everyday water resistance)",
+      "Body and bracelet: matte black; bracelet is a special metal bracelet",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The LILY LIMITED 46MM MATTE BLACK is a BRILLAMICO watch with a matte-black body and metal bracelet accented by Swarovski. Official materials present a chic design blended with Swarovski, making it a candidate when you want presence on a black-focused wrist. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Matte black BRILLAMICO LILY LIMITED 46MM",
+  },
   "olivia-burton-varsity-big-matte-black-gold-detail-38mm": {
     title: "Matte black × gold. OLIVIA BURTON Varsity Big 38mm",
     seoTitle:

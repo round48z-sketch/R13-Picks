@@ -320,6 +320,133 @@ export const articles: Article[] = [
     layout: "roundup",
   },
   {
+    slug: "brillamico-quilt-33mm-black-gold-quilting-belt",
+    title: "BLACK×GOLDのキルティング。BRILLAMICO QUILT 33mm",
+    seoTitle:
+      "BRILLAMICO QUILT BLACK×GOLD〈キルティングベルト〉｜33mm腕時計 | R13 Picks",
+    description:
+      "BRILLAMICO QUILT BLACK×GOLD〈キルティングベルト〉をR13 Picksの視点で紹介。立体感のあるキルティング文字盤とBLACK×GOLD、33mmサイズを中心にまとめます。",
+    category: "watch",
+    productName: "BRILLAMICO QUILT BLACK×GOLD〈キルティングベルト〉",
+    productType: "腕時計",
+    publishedAt: "2026-09-15",
+    image: {
+      src: "/images/articles/brillamico-quilt-33mm-black-gold-quilting-belt.jpg",
+      alt: "BLACK×GOLDのBRILLAMICO QUILT キルティングベルト",
+      width: 1000,
+      height: 1000,
+    },
+    excerpt:
+      "立体感のあるキルティング文字盤とBLACK×GOLD。33mmのQUILT。",
+    intro:
+      "BRILLAMICO（ブリラミコ）の QUILT BLACK×GOLD〈キルティングベルト〉は、公式サイトで販売されている腕時計です。商品説明では QUILT を新シリーズとして案内し、文字盤に立体感のあるキルティングを施したデザインと記載されています。価格や在庫は変わることがあるため、最新の価格・在庫は公式販売ページで確認してください。",
+    pointsTitle: "QUILT BLACK×GOLD〈キルティングベルト〉とは",
+    points: [
+      "ブランドは BRILLAMICO（ブリラミコ）",
+      "商品名は QUILT BLACK×GOLD〈キルティングベルト〉",
+      "BRILLAMICO公式サイトで販売。商品説明では限定商品として案内",
+      "本体サイズは直径 33mm／厚さ 7mm",
+      "本体素材はステンレス（SUS316L）、スワロフスキー",
+      "ベルト素材は合皮革／ポリウレタン。商品名ではキルティングベルト",
+      "日本製クオーツ、3ATM（3気圧）防水",
+    ],
+    sections: [
+      {
+        title: "キルティング文字盤とBLACK×GOLD",
+        body: "商品説明では、上品に光り輝く新シリーズとして案内され、文字盤には立体感のあるキルティングを施し、温かみのあるデザインと記載されています。商品名は BLACK×GOLD で、黒とゴールドを組み合わせた外観です。華やかさと手元の存在感を求める場合の候補です。見え方は公式の商品画像でも確認できます。",
+      },
+      {
+        title: "33mmサイズと仕様",
+        body: "商品仕様では、本体サイズは直径 33mm／厚さ 7mm、重量 23g、ラグ幅 12mm と案内されています。ベルトサイズは 15〜18.5cm（ベルト着用時、穴に留めたサイズ）です。コンパクトなサイズ感として検討しやすい一本です。",
+      },
+      {
+        title: "ファッションに取り入れるなら",
+        body: "商品説明では、大切なパートナーへのプレゼントや自分へのご褒美としても案内されています。きれいめやモード、ラグジュアリー寄りの装いに、BLACK×GOLD とキルティングのアクセントとして検討しやすいデザインです。合う・合わないは装いによって異なります。",
+      },
+      {
+        title: "どんな人に向いているか",
+        body: "BLACK×GOLD の配色が気になる人。立体感のあるキルティング文字盤を検討したい人。33mm サイズの腕時計を選びたい人。きれいめ・モード・ラグジュアリー寄りのコーデに合わせたい人。",
+      },
+    ],
+    recommendedTitle: "購入前に確認しておきたいポイント",
+    recommendedFor: [
+      "本体サイズは直径 33mm、厚さ 7mm、重量 23g（公式仕様）",
+      "ベルトサイズは 15〜18.5cm（ベルト着用時、穴に留めたサイズ）",
+      "本体素材はステンレス（SUS316L）とスワロフスキー、ベルトは合皮革／ポリウレタン",
+      "仕様は日本製クオーツ、3ATM（3気圧）防水",
+      "最新の価格・在庫は公式販売ページで確認してください",
+    ],
+    summary:
+      "QUILT BLACK×GOLD〈キルティングベルト〉は、立体感のあるキルティング文字盤と BLACK×GOLD を組み合わせた BRILLAMICO の腕時計です。公式では新シリーズとして案内されており、33mm サイズで手元に華やかなアクセントを足したい場合の候補です。仕様の詳細と最新の価格・在庫は、公式販売ページで確認してください。",
+    note: "最新の価格・在庫は公式販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
+    slug: "brillamico-lily-limited-46mm-matte-black",
+    title: "マットブラックでまとめる。BRILLAMICO LILY LIMITED 46MM",
+    seoTitle:
+      "BRILLAMICO LILY LIMITED 46MM MATTE BLACK｜マットブラックの腕時計 | R13 Picks",
+    description:
+      "BRILLAMICO LILY LIMITED 46MM MATTE BLACKをR13 Picksの視点で紹介。マットブラックのボディとベルト、スワロフスキーをあしらった46mmクラスのデザインを中心にまとめます。",
+    category: "watch",
+    productName: "BRILLAMICO LILY LIMITED 46MM MATTE BLACK",
+    productType: "腕時計",
+    publishedAt: "2026-09-15",
+    image: {
+      src: "/images/articles/brillamico-lily-limited-46mm-matte-black.jpg",
+      alt: "マットブラックのBRILLAMICO LILY LIMITED 46MM",
+      width: 1000,
+      height: 1000,
+    },
+    excerpt:
+      "マットブラックのボディと金属ベルト。スワロフスキーをあしらったLILY LIMITED 46MM。",
+    intro:
+      "BRILLAMICO（ブリラミコ）の LILY LIMITED 46MM MATTE BLACKは、公式サイトで販売されている腕時計です。商品説明では、スワロフスキーとシックなデザインが融合した人気モデルとして案内され、ボディ・ベルトはマットブラック仕上げ、ベルトは特別仕様の金属ベルトと記載されています。価格や在庫は変わることがあるため、最新の価格・在庫は公式販売ページで確認してください。",
+    pointsTitle: "LILY LIMITED 46MM MATTE BLACKとは",
+    points: [
+      "ブランドは BRILLAMICO（ブリラミコ）",
+      "商品名は LILY LIMITED 46MM MATTE BLACK",
+      "品番は 458954005017",
+      "BRILLAMICO公式サイトで販売",
+      "本体サイズは直径 46.5mm／厚さ 11mm",
+      "ボディ・ベルトはマットブラック仕上げ。ベルトは特別仕様の金属ベルト",
+      "本体・ベルト素材はステンレス（SUS316L）とスワロフスキー、文字盤はマザーオブパール（MOP）",
+      "日本製クオーツ、3気圧防水（生活防水）",
+    ],
+    sections: [
+      {
+        title: "マットブラックを基調としたデザイン",
+        body: "商品説明では、煌々と輝くスワロフスキーと洗練されたシックなデザインが魅力的に融合したモデルとして案内されています。時計デザインにはブランドを象徴するスワロフスキーを全体に散りばめ、ボディ・ベルトの色はマットブラックで仕上げていると記載されています。黒基調でまとめた見た目なので、モード寄りや黒コーデのアクセントとして検討しやすいデザインです。",
+      },
+      {
+        title: "存在感のある46mmクラスのサイズ",
+        body: "商品名では 46MM、商品仕様では本体サイズは直径 46.5mm／厚さ 11mm、重量 149g と案内されています。ラグ幅は 20mm、腕周りは 19cm（1cmずつ増減調節可能）です。大きめのフェイスとして、手元に存在感を出したい場合の候補です。サイズ感の詳細は公式の商品ページで確認してください。",
+      },
+      {
+        title: "金属ベルトと文字盤の仕様",
+        body: "ベルトは特別仕様の金属ベルトで、ベルト素材はステンレス（SUS316L）とスワロフスキーです。文字盤素材はマザーオブパール（MOP）と案内されています。装飾性の高い文字盤とマットブラックの金属ベルトを組み合わせた構成です。",
+      },
+      {
+        title: "どんな人に向いているか",
+        body: "マットブラックを基調にした腕時計を検討したい人。スワロフスキーをあしらった装飾性の高いデザインが気になる人。直径 46.5mm クラスの存在感のあるサイズを選びたい人。黒基調のコーデや、モード寄り・ラグジュアリー寄りの装いに合わせたい人。",
+      },
+    ],
+    recommendedTitle: "購入前に確認しておきたいポイント",
+    recommendedFor: [
+      "本体サイズは直径 46.5mm、厚さ 11mm、重量 149g（公式仕様）",
+      "腕周りは 19cm（1cmずつ増減調節可能）。通常発送時は腕周り 19cm で送付と案内",
+      "仕様は日本製クオーツ、3気圧防水（生活防水）",
+      "ボディ・ベルトはマットブラック。ベルトは特別仕様の金属ベルト",
+      "最新の価格・在庫は公式販売ページで確認してください",
+    ],
+    summary:
+      "LILY LIMITED 46MM MATTE BLACKは、マットブラックのボディと金属ベルトにスワロフスキーをあしらった BRILLAMICO の腕時計です。公式ではシックなデザインとスワロフスキーの融合として案内されており、黒基調で手元に存在感を出したい場合の候補です。仕様の詳細と最新の価格・在庫は、公式販売ページで確認してください。",
+    note: "最新の価格・在庫は公式販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "olivia-burton-varsity-big-matte-black-gold-detail-38mm",
     title:
       "マットブラック×ゴールド。OLIVIA BURTON ヴァースティ ビッグ 38mm",
