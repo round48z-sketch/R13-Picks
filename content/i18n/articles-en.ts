@@ -1,6 +1,62 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "epeios-okare-pulse": {
+    title: "Choose dual vibration. EPEIOS OKare! Pulse",
+    seoTitle:
+      "EPEIOS OKare! dual-vibration electric toothbrush Pulse｜Oral care | R13 Picks",
+    description:
+      "An R13 Picks look at the EPEIOS OKare! dual-vibration electric toothbrush Pulse. Focused on dual vibration, Soft/Medium/Strong modes, USB Type-C charging, and IPX7-equivalent waterproofing.",
+    productType: "Electric toothbrush",
+    excerpt:
+      "Vertical + lateral dual vibration. EPEIOS OKare! Pulse with USB Type-C charging.",
+    intro:
+      "The EPEIOS OKare! dual-vibration electric toothbrush Pulse is an electric toothbrush sold on the EPEIOS official store. Official product copy presents it as a model that uses dual (double) vibration brushing—vertical motion plus lateral vibration. Colors include Black and White. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About EPEIOS OKare! Pulse",
+    points: [
+      "Brand: EPEIOS",
+      "Product name: OKare! dual-vibration electric toothbrush Pulse",
+      "Sold on the EPEIOS official store",
+      "Colors: Black / White",
+      "Modes: Soft / Medium / Strong (vibration listed as about 26,000 times/min for each)",
+      "Charging: USB Type-C; charge time about 2 hours",
+      "Continuous use listed as up to 45 days (2 minutes once per day)",
+      "Waterproof rating: IPX7 equivalent (JIS); warranty: 2 years (standard manufacturer warranty)",
+    ],
+    sections: [
+      {
+        title: "Design notes",
+        body: "Official specs list a compact body size of about 156 × 28 × 32 mm (L·W·H) and a product weight of 132g ±5%. Colors include Black and White. It is a candidate when you want an oral-care appliance look that sits neatly in a bathroom. You can also check the look in the official product images.",
+      },
+      {
+        title: "Dual vibration and brushing modes",
+        body: "Official copy says dual-vibration brushing adds lateral motion on top of vertical vibration. There are three modes—Soft, Medium, and Strong—with different swing angles for the lateral motion (Soft 20° / Medium 40° / Strong 60°). Vibration is listed as about 26,000 times/min for all modes. How it feels is personal, so this section only summarizes the official listing.",
+      },
+      {
+        title: "Charging, waterproofing, and daily use",
+        body: "Charging is USB Type-C, battery capacity 900mAh, charge time about 2 hours (5°C–35°C), and continuous use up to 45 days (2 minutes once per day), per official specs. Waterproofing is listed as IPX7 equivalent (JIS). Official materials also describe a smart timer that stops after 2 minutes and a guide every 30 seconds. Portability is mentioned in connection with USB Type-C charging for travel.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People considering a dual-vibration electric toothbrush. People checking Soft / Medium / Strong modes. People who want USB Type-C charging and longer continuous use. People confirming IPX7-equivalent waterproofing. People choosing between Black and White. People who pick oral-care appliances by both look and specs.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Colors: Black / White",
+      "Modes: Soft / Medium / Strong; vibration listed as about 26,000 times/min for each",
+      "Size about 156 × 28 × 32 mm; weight 132g ±5%",
+      "USB Type-C charging; about 2 hours charge for up to 45 days (2 min once daily), per listing",
+      "Waterproofing: IPX7 equivalent (JIS)",
+      "Warranty: 2 years (standard manufacturer warranty)",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "EPEIOS OKare! Pulse is an electric toothbrush with dual vibration. Official materials highlight Soft / Medium / Strong modes, USB Type-C charging, IPX7-equivalent waterproofing, and a 2-year warranty. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "EPEIOS OKare! dual-vibration electric toothbrush Pulse",
+  },
   "rede-suhada": {
     title: "Minimal and easy to carry. Re・De Suhada",
     seoTitle:

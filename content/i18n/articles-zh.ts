@@ -1,6 +1,62 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "epeios-okare-pulse": {
+    title: "以双重振动来选择。EPEIOS OKare! Pulse",
+    seoTitle:
+      "EPEIOS OKare! 双重振动电动牙刷 Pulse｜口腔护理 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 EPEIOS OKare! 双重振动电动牙刷 Pulse。重点整理双重振动方式、弱／中／强模式、USB Type-C 充电与 IPX7 相当防水等。",
+    productType: "电动牙刷",
+    excerpt:
+      "上下＋左右双重振动。USB Type-C 充电的 EPEIOS OKare! Pulse。",
+    intro:
+      "EPEIOS OKare! 双重振动电动牙刷 Pulse 是在 EPEIOS 官方商店销售的电动牙刷。商品说明中将其介绍为在上下振动之外还加入横向振动的双重振动（双振动）刷牙机型。颜色可选黑色／白色。价格与库存可能变动，请以官方销售页面确认最新价格与库存。",
+    pointsTitle: "关于 EPEIOS OKare! Pulse",
+    points: [
+      "品牌：EPEIOS",
+      "商品名：OKare! 双重振动电动牙刷 Pulse",
+      "于 EPEIOS 官方商店销售",
+      "颜色：黑色／白色",
+      "模式：弱／中／强（均标注振动约 26,000 次/分）",
+      "充电：USB Type-C。充电时间约 2 小时",
+      "连续使用时间：最长 45 天（每次 2 分钟、每日 1 次）",
+      "防水性能：IPX7 相当（JIS）。保修：2 年（标准厂家保修）",
+    ],
+    sections: [
+      {
+        title: "设计特点",
+        body: "官方标注紧凑机身尺寸约 156 × 28 × 32 mm（L·W·H），产品重量 132g ±5%。颜色可选黑色／白色。适合希望口腔护理电器外观更利落、便于放在洗手台的人选。外观也可通过官方商品图确认。",
+      },
+      {
+        title: "双重振动与刷牙模式",
+        body: "商品说明称采用在上下振动之外加入横向振动的双重振动刷牙。模式为弱、中、强三种，通过改变横向振动的摆动角度来切换刷牙感受（弱 20 度／中 40 度／强 60 度）。各模式振动均标注约 26,000 次/分。体感因人而异，此处仅整理官方说明内容。",
+      },
+      {
+        title: "充电、防水与日常使用",
+        body: "充电类型为 USB Type-C，电池容量 900mAh，充电时间约 2 小时（5℃〜35℃），连续使用时间最长 45 天（每次 2 分钟、每日 1 次）。防水性能为 IPX7 相当（JIS）。官方还介绍了 2 分钟自动停止的智能计时，以及每 30 秒的引导。关于外出携带，也提到了 USB Type-C 充电的便利性。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "想选购双重振动电动牙刷的人。希望确认弱／中／强模式切换的人。看重 USB Type-C 充电或较长连续使用时间的人。希望确认 IPX7 相当防水的人。想在黑色／白色中选色的人。希望同时看外观与规格来选口腔护理电器的人。",
+      },
+    ],
+    recommendedTitle: "购买前建议确认的要点",
+    recommendedFor: [
+      "颜色：黑色／白色",
+      "模式：弱／中／强。各模式振动约 26,000 次/分",
+      "产品尺寸约 156 × 28 × 32 mm。重量 132g ±5%",
+      "充电：USB Type-C。约 2 小时充电最长 45 天（每次 2 分钟・每日 1 次）",
+      "防水性能：IPX7 相当（JIS）",
+      "保修：2 年（标准厂家保修）",
+      "请以官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "EPEIOS OKare! Pulse 是采用双重振动方式的电动牙刷。官方介绍了弱／中／强模式、USB Type-C 充电、IPX7 相当防水、2 年保修等。详细规格与最新价格、库存请以官方销售页面确认。",
+    note: "请以官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "EPEIOS OKare! 双重振动电动牙刷 Pulse",
+  },
   "rede-suhada": {
     title: "极简且便于携带。Re・De Suhada",
     seoTitle:

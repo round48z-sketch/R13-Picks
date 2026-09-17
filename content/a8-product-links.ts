@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "epeios-okare-pulse":
+    '<span class="a8ad 4ANNI2u-g7-vvri7DM"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCDBG+1VVI22+5T0G+BWGDT","alt":"商品リンク","id":"4ANNI2u-g7-vvri7DM"},"goods": {"ejp":"h"+"ttps://epeios.jp/products/okare_pulse","imu":"h"+"ttps://epeios.jp/cdn/shop/files/IMG_9155.jpg?v=1752031971&width=1200"}});</script>',
   "rede-suhada":
     '<span class="a8ad 4ANNI1T-g7-vvr8bjB"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCDBG+19UGOA+4KJC+NT4HD","alt":"商品リンク","id":"4ANNI1T-g7-vvr8bjB"},"goods": {"ejp":"h"+"ttps://chouchou-shop.jp/products/rede-suhada","imu":"h"+"ttps://chouchou-shop.jp/cdn/shop/files/rede-suhada8.webp?v=1759820567&width=1800"}});</script>',
   "rede-hairstraight":
