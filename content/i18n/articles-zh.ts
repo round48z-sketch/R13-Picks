@@ -1,6 +1,65 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "rede-suhada": {
+    title: "极简且便于携带。Re・De Suhada",
+    seoTitle:
+      "Re・De Suhada（理德 素肌）棒状美容仪｜极简便携的美容家电 | R13 Picks",
+    description:
+      "介绍 Re・De Suhada（理德 素肌）棒状美容仪。极简设计、便于携带、以及 Re・De 式的质感气质，是其作为美容家电的魅力。",
+    productType: "棒状美容仪",
+    excerpt:
+      "紧凑棒状造型。Re・De Suhada 棒状美容仪。",
+    intro:
+      "选购美容家电时，外观与使用便利同样重要。Re・De Suhada 是在 CHOUCHOU 官方商店销售的 Re・De 棒状美容仪。商品说明中将其介绍为可从头部到颈部护理的紧凑棒状美容仪。简洁精致的设计与融入日常的尺寸感是其魅力所在。价格与库存可能变动，请以官方销售页面确认最新价格与库存。",
+    pointsTitle: "Re・De Suhada 的特点",
+    points: [
+      "品牌：Re・De（理德）",
+      "商品名：Re・De Suhada（理德 素肌）棒状美容仪",
+      "于 CHOUCHOU 官方商店销售",
+      "颜色：white／darkgray／hyggegray",
+      "机身尺寸：W22×D19×H147mm",
+      "机身重量：50g（充电座 40g）",
+      "附件：机身、充电座、充电线、快速指南、旅行收纳袋、安全注意事项（含保修卡）",
+      "保修：自购买日起 1 年",
+    ],
+    sections: [
+      {
+        title: "极简精致的设计",
+        body: "纤细的棒状造型，更容易弱化美容家电的存在感。颜色可选 white／darkgray／hyggegray。与其他 Re・De 产品一样，适合重视极简气质、希望融入卫生间或室内空间的选择。外观也可通过官方商品图确认。",
+      },
+      {
+        title: "便于携带的棒状造型",
+        body: "官方标注机身尺寸为 W22×D19×H147mm，机身重量 50g。附带旅行收纳袋，便于同时考虑居家与外出携带。充电座尺寸为 W41×D41×H35mm，重量 40g，线长约 45cm。",
+      },
+      {
+        title: "官方介绍的功能",
+        body: "商品说明中介绍了紧凑棒状美容仪、金属过敏相关对应、红／蓝两种 LED 光美容，以及结合 EMS、温热与振动的集中护理（RED）与间隙护理（BLUE）等。使用方法与注意事项请参阅说明书与官方页面。体感因人而异，此处仅整理官方说明内容。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "想选购纤细、有设计感的棒状美容仪的人。重视极简与质感外观的人。希望确认居家与携带都方便的尺寸感的人。以是否融入室内空间为标准选择美容家电的人。",
+      },
+      {
+        title: "也适合想统一 Re・De 系列的人",
+        body: "与 Re・De Hairdry+、Re・De 直发夹板等同品牌美容家电更容易统一视觉风格。若希望在吹风机、夹板与美容仪之间保持一致气质，可作为候选来确认。",
+      },
+    ],
+    recommendedTitle: "购买前建议确认的要点",
+    recommendedFor: [
+      "颜色：white／darkgray／hyggegray",
+      "机身尺寸：W22×D19×H147mm。机身重量：50g",
+      "充电座：W41×D41×H35mm／40g。线长约 45cm",
+      "附件：机身、充电座、充电线、快速指南、旅行收纳袋、安全注意事项（含保修卡）",
+      "保修：自购买日起 1 年",
+      "请以官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "Re・De Suhada 是紧凑的棒状美容仪。官方介绍了极简尺寸、white／darkgray／hyggegray 配色，以及附带旅行收纳袋等。详细规格与最新价格、库存请以官方销售页面确认。",
+    note: "请以官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "Re・De Suhada 棒状美容仪",
+  },
   "rede-hairstraight": {
     title: "在 Smooth 与 Moist 中选择。Re・De 直发夹板",
     seoTitle:

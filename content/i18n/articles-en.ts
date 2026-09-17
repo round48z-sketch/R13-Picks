@@ -1,6 +1,65 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "rede-suhada": {
+    title: "Minimal and easy to carry. Re・De Suhada",
+    seoTitle:
+      "Re・De Suhada stick facial device｜Minimal, portable beauty appliance | R13 Picks",
+    description:
+      "An introduction to the Re・De Suhada stick facial device. A beauty appliance with minimal design, easy portability, and Re・De’s refined presence.",
+    productType: "Stick facial device",
+    excerpt:
+      "A compact stick form. The Re・De Suhada stick facial device.",
+    intro:
+      "With beauty appliances, look and ease of use matter as much as features. Re・De Suhada is a Re・De stick facial device sold on the CHOUCHOU official store. Official product copy presents it as a compact stick device for care from head to neck. Its simple, refined design and size that fits everyday life are part of the appeal. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "Highlights of Re・De Suhada",
+    points: [
+      "Brand: Re・De",
+      "Product name: Re・De Suhada stick facial device",
+      "Sold on the CHOUCHOU official store",
+      "Colors: white / darkgray / hyggegray",
+      "Body size: W22 × D19 × H147mm",
+      "Body weight: 50g (charging stand 40g)",
+      "Accessories: body, charging stand, charging cable, quick guide, travel pouch, safety notes (with warranty)",
+      "Warranty: 1 year from purchase date",
+    ],
+    sections: [
+      {
+        title: "Minimal, refined design",
+        body: "The slim stick form makes it easier to keep a restrained look for a beauty appliance. Colors include white / darkgray / hyggegray. Like other Re・De items, it is a candidate when you want a minimal presence that fits a bathroom or interior. You can also check the look in the official product images.",
+      },
+      {
+        title: "Portable stick form",
+        body: "Official specs list body size as W22 × D19 × H147mm and body weight as 50g. A travel pouch is included, so it is easy to consider for both home and travel use. The charging stand is listed as W41 × D41 × H35mm and 40g, with a cord length of about 45cm.",
+      },
+      {
+        title: "Features listed officially",
+        body: "Official copy describes a compact stick facial device, metal-allergy consideration, red and blue LED light care, and focused care (RED) plus in-between care (BLUE) that combine EMS, warmth, and vibration. Check the manual and official page for usage and precautions. How it feels is personal, so this section only summarizes the official listing.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People considering a slim, stylish stick facial device. People who value a minimal, refined look. People looking for a size that works at home and on the go. People who choose beauty appliances by how well they fit an interior.",
+      },
+      {
+        title: "Also for those building a Re・De set",
+        body: "It pairs well with other Re・De beauty appliances such as Hairdry+ and the hair straightener when you want a consistent brand look. A candidate if you want to choose a dryer, iron, and facial device with a shared visual world.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Colors: white / darkgray / hyggegray",
+      "Body size: W22 × D19 × H147mm; body weight 50g",
+      "Charging stand: W41 × D41 × H35mm / 40g; cord length about 45cm",
+      "Accessories: body, charging stand, charging cable, quick guide, travel pouch, safety notes (with warranty)",
+      "Warranty: 1 year from purchase date",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "Re・De Suhada is a compact stick facial device. Official materials highlight a minimal size, white / darkgray / hyggegray colors, and an included travel pouch. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Re・De Suhada stick facial device",
+  },
   "rede-hairstraight": {
     title: "Choose Smooth or Moist. Re・De hair straightener",
     seoTitle:

@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "rede-suhada":
+    '<span class="a8ad 4ANNI1T-g7-vvr8bjB"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCDBG+19UGOA+4KJC+NT4HD","alt":"商品リンク","id":"4ANNI1T-g7-vvr8bjB"},"goods": {"ejp":"h"+"ttps://chouchou-shop.jp/products/rede-suhada","imu":"h"+"ttps://chouchou-shop.jp/cdn/shop/files/rede-suhada8.webp?v=1759820567&width=1800"}});</script>',
   "rede-hairstraight":
     '<span class="a8ad 4ANNI1T-g7-vvqZxZm"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCDBG+19UGOA+4KJC+NT4HD","alt":"商品リンク","id":"4ANNI1T-g7-vvqZxZm"},"goods": {"ejp":"h"+"ttps://chouchou-shop.jp/products/rede-hairstraight","imu":"h"+"ttps://chouchou-shop.jp/cdn/shop/files/rede-smooth-bk.jpg?v=1764036245&width=1800"}});</script>',
   "rede-hairdry-plus":

@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "rede-suhada":
+    "https://px.a8.net/svt/ejp?a8mat=4BCDBG+19UGOA+4KJC+NT4HD&a8ejpredirect=https%3A%2F%2Fchouchou-shop.jp%2Fproducts%2Frede-suhada",
   "rede-hairstraight":
     "https://px.a8.net/svt/ejp?a8mat=4BCDBG+19UGOA+4KJC+NT4HD&a8ejpredirect=https%3A%2F%2Fchouchou-shop.jp%2Fproducts%2Frede-hairstraight",
   "rede-hairdry-plus":
