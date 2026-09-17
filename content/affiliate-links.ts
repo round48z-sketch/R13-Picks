@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "rede-hairdry-plus":
+    "https://px.a8.net/svt/ejp?a8mat=4BCDBG+19UGOA+4KJC+NT4HD&a8ejpredirect=https%3A%2F%2Fchouchou-shop.jp%2Fproducts%2Frede-hairdry",
   "olivia-burton-3d-flower-midi-gold-black-leather":
     "https://px.a8.net/svt/ejp?a8mat=4BC2EG+97MHI2+2JXG+2BCGZ5&a8ejpredirect=https%3A%2F%2Fwww.oliviaburton.jp%2Fc%2Fwatch%2Fob24000222",
   "brillamico-late-31mm-black-silver-leather-belt":

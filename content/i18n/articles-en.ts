@@ -1,6 +1,60 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "rede-hairdry-plus": {
+    title: "Slim and light hair drying. Re・De Hairdry+",
+    seoTitle: "Re・De Hairdry+｜Slim hair dryer | R13 Picks",
+    description:
+      "An R13 Picks look at the Re・De Hairdry+. Focused on the slim body, about 280g weight, included stand, and white / black / hyggegray color options.",
+    productType: "Hair dryer",
+    excerpt:
+      "A slim body and about 280g. Re・De Hairdry+ with a stand.",
+    intro:
+      "The Re・De Hairdry+ is a Re・De hair dryer sold on the CHOUCHOU official store. Official product copy highlights speed drying with a slim body, combining fast drying with higher airflow and quieter operation, about 280g of lightness, and a hands-free STAND mode using the stand. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Re・De Hairdry+",
+    points: [
+      "Brand: Re・De",
+      "Product name: Re・De Hairdry+",
+      "Sold on the CHOUCHOU official store",
+      "Body size: W 38mm × D 185mm × H 170mm",
+      "Weight: about 280g (excluding nozzle and cable)",
+      "Colors: white / black / hyggegray",
+      "Accessories: body, nozzle, stand, travel pouch, quick guide, instruction manual (with warranty)",
+      "Power consumption: 1000W - 900W; multi-voltage AC100V-240V support",
+    ],
+    sections: [
+      {
+        title: "A slim body and light weight",
+        body: "Official copy presents speed drying made possible by a slim body. Body size is W 38mm × D 185mm × H 170mm, and weight is about 280g (excluding nozzle and cable). Official materials say it is about as light as an apple, aiming to keep strain on the hand lower. You can also check the look in the official product images.",
+      },
+      {
+        title: "Stand and mode setup",
+        body: "A stand is included. Official copy says there are five calculated modes, including GROW for the scalp and hands-free STAND, so you can choose airflow for the situation. Warm/cool switching and mode indicator colors are also described officially. Check the manual and official page for full usage details.",
+      },
+      {
+        title: "Features listed officially",
+        body: "Official copy lists airflow of 4.5 m³/min and wind speed of 52m/s, more than 50 million negative ions per cc, a maintenance function that automatically removes dust from the intake, and AC100V-240V support. Fast drying, quieter operation, and temperature output are also described in official materials. How it feels is personal, so this section only summarizes the official listing.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People considering a slim, light dryer. People interested in hands-free use with a stand. People who want to choose among white / black / hyggegray. People who want multi-voltage support for travel. People who choose beauty appliances by both look and specs.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Body size: W 38mm × D 185mm × H 170mm; weight about 280g (excluding nozzle and cable)",
+      "Cord length about 1.8m; power consumption 1000W - 900W",
+      "Colors: white / black / hyggegray",
+      "Accessories: body, nozzle, stand, travel pouch, quick guide, instruction manual (with warranty)",
+      "Listed as multi-voltage AC100V-240V compatible",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Re・De Hairdry+ is a Re・De hair dryer with a slim body, about 280g weight, and an included stand. Official materials highlight fast drying, mode options, negative ions, and a maintenance function. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Black Re・De Hairdry+ hair dryer",
+  },
   "womens-watches-7-picks": {
     title:
       "7 women’s watches to choose by design｜Black, gold, and floral looks",

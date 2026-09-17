@@ -1,6 +1,60 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "rede-hairdry-plus": {
+    title: "纤薄轻盈的吹发体验。Re・De Hairdry+",
+    seoTitle: "Re・De Hairdry+（里德 Hairdry Plus）｜纤薄吹风机 | R13 Picks",
+    description:
+      "以 R13 Picks 的视角介绍 Re・De Hairdry+（里德 Hairdry Plus）。围绕纤薄机身、约 280g 重量、附带支架，以及 white／black／hyggegray 配色进行整理。",
+    productType: "吹风机",
+    excerpt:
+      "纤薄机身与约 280g 重量。附带支架的 Re・De Hairdry+。",
+    intro:
+      "Re・De Hairdry+（里德 Hairdry Plus）是在 CHOUCHOU 官方商店销售的 Re・De（里德）吹风机。商品说明介绍由纤薄机身带来的快速吹干，并突出在速干之外兼顾更大风量与静音、约 280g 的轻量，以及使用支架的免提 STAND 模式等。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "关于 Re・De Hairdry+",
+    points: [
+      "品牌为 Re・De（里德）",
+      "商品名为 Re・De Hairdry+（里德 Hairdry Plus）",
+      "在 CHOUCHOU 官方商店销售",
+      "机身尺寸为 宽 38mm × 深 185mm × 高 170mm",
+      "重量约 280g（不含风嘴与线缆）",
+      "颜色为 white／black／hyggegray",
+      "附件含机身、风嘴、支架、旅行收纳袋、快速指南、使用说明书（含保修卡）",
+      "功耗为 1000W - 900W；支持多电压 AC100V-240V",
+    ],
+    sections: [
+      {
+        title: "纤薄机身与轻量",
+        body: "商品说明将其介绍为由纤薄机身实现的快速吹干。机身尺寸为宽 38mm × 深 185mm × 高 170mm，重量约 280g（不含风嘴与线缆）。官方称其轻量接近一个苹果，有助于减轻手部负担。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "支架与模式构成",
+        body: "附件包含支架。商品说明称有 5 种经过设计的模式，包括呵护头皮的 GROW，以及免提的 STAND，可按场景选择风力。温风／冷风切换与运行模式指示灯颜色也在官方说明中有介绍。详细用法请查阅说明书与官方页面。",
+      },
+      {
+        title: "官方列出的功能",
+        body: "商品说明列出风量 4.5 ㎥/min、风速 52m/s、每 cc 超过 5000 万个负离子、可自动清除进风口灰尘的维护功能，以及 AC100V-240V 支持等。速干、静音与温度输出也作为官方说明记载。实际感受因人而异，此处仅整理官方内容。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "想考虑纤薄轻盈吹风机的人。对带支架的免提用法感兴趣的人。想从 white／black／hyggegray 中选色的人。想确认多电压支持以便出行使用的人。希望同时看外观与规格再选美妆家电的人。",
+      },
+    ],
+    recommendedTitle: "购买前建议确认的要点",
+    recommendedFor: [
+      "机身尺寸为 宽 38mm × 深 185mm × 高 170mm；重量约 280g（不含风嘴与线缆）",
+      "线长约 1.8m；功耗为 1000W - 900W",
+      "颜色为 white／black／hyggegray",
+      "附件含机身、风嘴、支架、旅行收纳袋、快速指南、使用说明书（含保修卡）",
+      "官方说明支持多电压 AC100V-240V",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "Re・De Hairdry+ 是以纤薄机身、约 280g 轻量与附带支架为特点的 Re・De 吹风机。官方介绍了速干、模式构成、负离子与维护功能等。规格详情与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 Re・De Hairdry+ 吹风机",
+  },
   "womens-watches-7-picks": {
     title: "按设计挑选的女表推荐7款｜精选黑、金与花卉风格",
     seoTitle: "按设计挑选的女表推荐7款｜黑·金·花卉 | R13 Picks",

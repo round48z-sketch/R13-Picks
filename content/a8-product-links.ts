@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "rede-hairdry-plus":
+    '<span class="a8ad 4ANNI1T-g7-vvqTyCa"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCDBG+19UGOA+4KJC+NT4HD","alt":"商品リンク","id":"4ANNI1T-g7-vvqTyCa"},"goods": {"ejp":"h"+"ttps://chouchou-shop.jp/products/rede-hairdry","imu":"h"+"ttps://chouchou-shop.jp/cdn/shop/files/rede-hairdry-plus-bk.webp?v=1779946175&width=1800"}});</script>',
   "tamas-tbs86k":
     '<span class="a8ad 4AHHahx-g7-vuKvizt"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BAFPE+62I4KA+54VA+BWGDT","alt":"商品リンク","id":"4AHHahx-g7-vuKvizt"},"goods": {"ejp":"h"+"ttps://shop.tamadenco.co.jp/product/tbs86k/","imu":"h"+"ttps://shop.tamadenco.co.jp/wp-content/uploads/2026/04/TBS86K_2.jpg"}});</script>',
   "moondrop-space-travel-2-ultra":
