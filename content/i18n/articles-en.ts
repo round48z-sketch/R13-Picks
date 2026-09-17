@@ -1,6 +1,62 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "rede-hairstraight": {
+    title: "Choose Smooth or Moist. Re・De hair straightener",
+    seoTitle:
+      "Re・De hair straightener Smooth / Moist｜Straightening iron | R13 Picks",
+    description:
+      "An R13 Picks look at the Re・De hair straightener Smooth / Moist. Focused on the Smooth vs Moist difference, 100°C–230°C temperature settings, and black-tone color options.",
+    productType: "Straightening iron",
+    excerpt:
+      "Two types: Smooth and Moist. A Re・De straightener with 100°C–230°C settings.",
+    intro:
+      "The Re・De hair straightener Smooth / Moist is a Re・De straightening iron sold on the CHOUCHOU official store. Official product copy highlights a clean form with a refined finish from a special coating, a temperature range of 100°C–230°C in 10°C steps, overseas use support, and a heat-resistant dedicated pouch. You can choose between Smooth and Moist types. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the Re・De hair straightener",
+    points: [
+      "Brand: Re・De",
+      "Product name: Hair straightener Smooth / Moist",
+      "Sold on the CHOUCHOU official store",
+      "Types: Smooth / Moist",
+      "Colors: white / black / hyggegray (for each type)",
+      "Temperature range listed as 100°C–230°C in 10°C steps",
+      "Body size: W 42mm × D 33mm × H 288mm (shared by Smooth and Moist)",
+      "Accessories: travel pouch, instruction manual (with warranty)",
+    ],
+    sections: [
+      {
+        title: "Design notes",
+        body: "Official copy presents a straightening iron with a clean, beautiful form and a refined feel from a special coating. Colors include white / black / hyggegray. With black-tone options available, it is a candidate when you want a more restrained look for beauty appliances. You can also check the look in the official product images.",
+      },
+      {
+        title: "Smooth vs Moist",
+        body: "Official materials present Smooth for thicker hair, stronger waves/curls, or firmer styling, and Moist for softer or finer hair, or gentler styling. Specs list weight as Smooth 240g (excluding cord) and Moist 250g (excluding cord). Choose based on hair type and preferred finish, and confirm the official guidance.",
+      },
+      {
+        title: "Temperature settings and portability",
+        body: "Official copy says temperature can be set from 100°C to 230°C in 10°C steps. Cord length is 1.8m with a 360° swivel cord, and overseas use is listed as possible. The included travel pouch is described as heat resistant, making carry and storage easier to check. Confirm full operation details in the manual and on the official page.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People who want to choose between Smooth and Moist. People checking a 100°C–230°C temperature range. People choosing among white / black / hyggegray. People considering a straightener usable overseas. People who also want a dedicated pouch for carry. People who choose beauty appliances by both look and specs.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Types: Smooth / Moist; colors: white / black / hyggegray",
+      "Temperature range listed as 100°C–230°C in 10°C steps",
+      "Body size: W 42mm × D 33mm × H 288mm (shared)",
+      "Weight: Smooth 240g / Moist 250g (both excluding cord)",
+      "Cord length 1.8m (360° swivel); power consumption 49W; overseas use supported",
+      "Accessories: travel pouch, instruction manual (with warranty); warranty 1 year from purchase date",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The Re・De hair straightener is a straightening iron available in Smooth and Moist types. Official materials highlight a clean form, 100°C–230°C temperature settings, overseas use support, and a heat-resistant dedicated pouch. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Black Re・De hair straightener",
+  },
   "rede-hairdry-plus": {
     title: "Slim and light hair drying. Re・De Hairdry+",
     seoTitle: "Re・De Hairdry+｜Slim hair dryer | R13 Picks",

@@ -1,6 +1,62 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "rede-hairstraight": {
+    title: "在 Smooth 与 Moist 中选择。Re・De 直发夹板",
+    seoTitle:
+      "Re・De 直发夹板 Smooth／Moist｜直发夹板 | R13 Picks",
+    description:
+      "以 R13 Picks 的视角介绍 Re・De（里德）直发夹板 Smooth／Moist。围绕 Smooth 与 Moist 的差异、100℃〜230℃ 温度设置，以及偏黑配色进行整理。",
+    productType: "直发夹板",
+    excerpt:
+      "Smooth／Moist 两种类型。可设置 100℃〜230℃ 的 Re・De 直发夹板。",
+    intro:
+      "Re・De（里德）直发夹板 Smooth／Moist 是在 CHOUCHOU 官方商店销售的 Re・De 直发夹板。商品说明介绍了简洁造型与特殊涂装带来的质感、可按 10℃ 档设置的 100℃〜230℃ 温度范围、支持海外使用，以及附带耐热专用收纳袋等。类型可在 Smooth 与 Moist 中选择。价格与库存可能会变动，请在官方销售页面确认最新价格与库存。",
+    pointsTitle: "关于 Re・De 直发夹板",
+    points: [
+      "品牌为 Re・De（里德）",
+      "商品名为 直发夹板 Smooth／Moist",
+      "在 CHOUCHOU 官方商店销售",
+      "类型为 Smooth／Moist",
+      "颜色为 white／black／hyggegray（各类型）",
+      "温度范围说明为 100℃〜230℃（每 10℃ 一档）",
+      "机身尺寸为 宽 42mm × 深 33mm × 高 288mm（Smooth・Moist 通用）",
+      "附件为 旅行收纳袋、说明书（含保修）",
+    ],
+    sections: [
+      {
+        title: "设计特点",
+        body: "商品说明将其介绍为具有简洁美观造型，以及特殊涂装带来质感的直发夹板。颜色可从 white／black／hyggegray 中选择。包含偏黑配色，适合想让美妆家电外观更克制时参考。外观也可在官方商品图片中确认。",
+      },
+      {
+        title: "Smooth 与 Moist 的差异",
+        body: "官方说明：Smooth 适合发质较粗、卷曲较强，或想更稳固定型的人；Moist 适合发质较软、较细，或想尽量温和定型的人。商品规格记载重量为 Smooth 240g（不含线缆）、Moist 250g（不含线缆）。选择哪一种，请结合发质与期望效果，并确认官方说明。",
+      },
+      {
+        title: "温度设置与便携",
+        body: "商品说明称温度可在 100℃〜230℃ 范围内按 10℃ 一档设置。线长为 1.8m（360° 旋转线），并记载可海外使用。附带旅行收纳袋说明为耐热规格，便于确认携带与收纳。详细操作请查阅说明书与官方页面。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "想对比 Smooth 与 Moist 再选择的人。想确认 100℃〜230℃ 温度设置的人。想从 white／black／hyggegray 中选色的人。想考虑可海外使用的直发夹板的人。也想看专用收纳袋便于携带的人。希望同时看外观与规格再选美妆家电的人。",
+      },
+    ],
+    recommendedTitle: "购买前建议确认的要点",
+    recommendedFor: [
+      "类型为 Smooth／Moist；颜色为 white／black／hyggegray",
+      "温度范围说明为 100℃〜230℃（每 10℃ 一档）",
+      "机身尺寸为 宽 42mm × 深 33mm × 高 288mm（通用）",
+      "重量为 Smooth 240g／Moist 250g（均不含线缆）",
+      "线长 1.8m（360° 旋转）；功耗 49W；可海外使用",
+      "附件为 旅行收纳袋、说明书（含保修）；保修自购买日起 1 年",
+      "请在官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "Re・De 直发夹板可在 Smooth 与 Moist 两种类型中选择。官方介绍了简洁造型、100℃〜230℃ 温度设置、海外使用支持，以及耐热专用收纳袋等。规格详情与最新价格、库存请在官方销售页面确认。",
+    note: "请在官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 Re・De 直发夹板",
+  },
   "rede-hairdry-plus": {
     title: "纤薄轻盈的吹发体验。Re・De Hairdry+",
     seoTitle: "Re・De Hairdry+（里德 Hairdry Plus）｜纤薄吹风机 | R13 Picks",
