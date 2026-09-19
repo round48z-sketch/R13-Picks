@@ -90,6 +90,71 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "tamas-te015",
+    title: "ノートPCの端子をまとめる。tama's T-E015 USB3.1ハブ",
+    seoTitle: "tama's T-E015｜USB3.1ハブ HDMI・LAN・SD対応 | R13 Picks",
+    description:
+      "多摩電子工業 tama's T-E015 USB3.1ハブをR13 Picksの視点で紹介。Type-C接続、USB-A×3、HDMI、LAN、SD／microSD、PD100W入力対応のポート構成を中心にまとめます。",
+    category: "gadget",
+    productName: "tama's T-E015 USB3.1ハブ",
+    productType: "USBハブ",
+    publishedAt: "2026-09-19",
+    image: {
+      src: "/images/articles/tamas-te015.jpg",
+      alt: "tama's T-E015 USB3.1ハブ",
+      width: 1000,
+      height: 1000,
+    },
+    excerpt:
+      "Type-C接続。USB-A・HDMI・LAN・SD／microSD・PD入力対応のUSBハブ。",
+    intro:
+      "多摩電子工業の tama's T-E015 は、Type-Cコネクタ接続の USB3.1Gen1 ハブです。公式では、USB-A×3ポート、HDMI、LAN、SD／マイクロSDカードスロット、USB Type-Cポート（通信／電源入力PD100W）を備えたモデルとして案内されています。テレワーク用途のUSBハブとしても紹介されています。価格や在庫は変わることがあるため、最新の価格・在庫は公式販売ページで確認してください。",
+    pointsTitle: "tama's T-E015とは",
+    points: [
+      "ブランドは tama's（多摩電子工業）",
+      "型番は T-E015（E015モデル）",
+      "インターフェイス規格は USB仕様 Ver3.1Gen1（USB3.0）準拠（上位互換）",
+      "接続は USB Type-C（アップストリーム）",
+      "USB-A×3、HDMI、LAN、SD／microSD、Type-C（ダウンストリーム／PD100W電源入力）",
+      "通信速度は 5Gbps／480Mbps／12Mbps（理論値）と案内",
+      "HDMIは 4K：最大3840×2160（30Hz）と案内",
+      "外形寸法は 約幅109×高さ16×奥行39.5mm。本体質量は 約76g",
+    ],
+    sections: [
+      {
+        title: "どんな端子が使えるか",
+        body: "公式のコネクタ構成は次のとおりです。USB3.1Gen1（USB3.0）Aコネクタ メス×3（ダウンストリーム）、USB Type-Cコネクタ オス×1（アップストリーム）、USB3.1Gen1 Type-Cコネクタ メス×1（ダウンストリーム／PD100W電源入力）、HDMI、SDカードスロット×1、マイクロSDカードスロット×1、LAN（RJ-45）ポート×1。ノートPCのType-Cから、周辺機器・映像・有線LAN・カードリーダーをまとめやすい構成です。",
+      },
+      {
+        title: "USB3.1とHDMI・PD入力について",
+        body: "インターフェイス規格は USB仕様 Ver3.1Gen1（USB3.0）準拠（上位互換）と案内されています。通信速度は 5Gbps／480Mbps／12Mbps（理論値）です。HDMIは 4K：最大3840×2160（30Hz）と記載されています。Type-Cポートは通信／電源入力PD100Wとして案内されています。実際の転送速度や映像出力、給電の可否は接続する機器側の仕様によって変わるため、公式の案内を確認してください。",
+      },
+      {
+        title: "ノートPC周りでの使い方",
+        body: "公式では、テレワークに最適なUSBハブとして案内されています。Type-C接続で、USB機器の増設に加えてHDMIでの映像出力、LANでの有線接続、SD／microSDの読み書きを一つのハブでまとめられます。電源はバスパワー／セルフパワー対応と記載されています。ケーブル長は約170mmです。",
+      },
+      {
+        title: "どんな人に向いているか",
+        body: "ノートPCのType-Cから複数端子を増やしたい人。HDMI・LAN・SD／microSDをまとめて使いたい人。PD100W電源入力対応のType-Cポートを確認したい人。アルミ製のコンパクトなハブ（約76g、約幅109×高さ16×奥行39.5mm）をデスク周りに置きたい人。",
+      },
+    ],
+    recommendedTitle: "購入前に確認しておきたいポイント",
+    recommendedFor: [
+      "接続は Type-C（アップストリーム）。USB3.1Gen1（USB3.0）準拠",
+      "USB-A×3、HDMI（最大3840×2160／30Hz）、LAN、SD／microSD、Type-C（PD100W電源入力）",
+      "通信速度は 5Gbps／480Mbps／12Mbps（理論値）と案内",
+      "電源は バスパワー／セルフパワー。ケーブル長 約170mm",
+      "外形寸法 約幅109×高さ16×奥行39.5mm。本体質量 約76g。本体素材はアルミ製",
+      "対応機器や実際の動作条件は公式販売ページで確認してください",
+      "最新の価格・在庫は公式販売ページで確認してください",
+    ],
+    summary:
+      "tama's T-E015は、Type-C接続の USB3.1Gen1 ハブです。公式では USB-A×3、HDMI、LAN、SD／microSD、PD100W電源入力対応のType-Cなどを備えた構成として案内されています。仕様の詳細と最新の価格・在庫は、公式販売ページで確認してください。",
+    note: "最新の価格・在庫は公式販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "epeios-okare-pulse",
     title: "二重振動で選ぶ。EPEIOS OKare! Pulse",
     seoTitle:

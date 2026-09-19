@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "tamas-te015":
+    '<span class="a8ad 4AHHahx-g7-vvE7Wtz"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BAFPE+62I4KA+54VA+BWGDT","alt":"商品リンク","id":"4AHHahx-g7-vvE7Wtz"},"goods": {"ejp":"h"+"ttps://shop.tamadenco.co.jp/product/te015/","imu":"h"+"ttps://shop.tamadenco.co.jp/wp-content/uploads/2025/03/T-E015_202503.jpg"}});</script>',
   "epeios-okare-pulse":
     '<span class="a8ad 4ANNI2u-g7-vvri7DM"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCDBG+1VVI22+5T0G+BWGDT","alt":"商品リンク","id":"4ANNI2u-g7-vvri7DM"},"goods": {"ejp":"h"+"ttps://epeios.jp/products/okare_pulse","imu":"h"+"ttps://epeios.jp/cdn/shop/files/IMG_9155.jpg?v=1752031971&width=1200"}});</script>',
   "rede-suhada":

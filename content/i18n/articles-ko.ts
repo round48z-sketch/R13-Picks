@@ -1,6 +1,61 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "tamas-te015": {
+    title: "노트북 단자를 정리하는. tama's T-E015 USB3.1 허브",
+    seoTitle: "tama's T-E015｜USB3.1 허브 HDMI·LAN·SD 대응 | R13 Picks",
+    description:
+      "다마전자공업 tama's T-E015 USB3.1 허브를 R13 Picks 시점에서 소개합니다. Type-C 연결, USB-A×3, HDMI, LAN, SD／microSD, PD100W 입력 대응 포트 구성을 중심으로 정리합니다.",
+    productType: "USB 허브",
+    excerpt:
+      "Type-C 연결. USB-A·HDMI·LAN·SD／microSD·PD 입력 대응 USB 허브.",
+    intro:
+      "다마전자공업의 tama's T-E015는 Type-C 커넥터 연결의 USB3.1Gen1 허브입니다. 공식에서는 USB-A×3 포트, HDMI, LAN, SD／마이크로SD 카드 슬롯, USB Type-C 포트（통신／전원 입력 PD100W）를 갖춘 모델로 안내되어 있습니다. 재택근무용 USB 허브로도 소개되어 있습니다. 가격과 재고는 변동될 수 있으므로, 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "tama's T-E015란",
+    points: [
+      "브랜드: tama's（다마전자공업）",
+      "형번: T-E015（E015 모델）",
+      "인터페이스 규격: USB 사양 Ver3.1Gen1（USB3.0）준거（상위 호환）",
+      "연결: USB Type-C（업스트림）",
+      "USB-A×3, HDMI, LAN, SD／microSD, Type-C（다운스트림／PD100W 전원 입력）",
+      "통신 속도: 5Gbps／480Mbps／12Mbps（이론값）로 안내",
+      "HDMI: 4K 최대 3840×2160（30Hz）로 안내",
+      "외형 치수: 약 폭109×높이16×깊이39.5mm. 본체 질량: 약 76g",
+    ],
+    sections: [
+      {
+        title: "어떤 단자를 쓸 수 있는가",
+        body: "공식 커넥터 구성은 다음과 같습니다. USB3.1Gen1（USB3.0）A 커넥터 암×3（다운스트림）, USB Type-C 커넥터 수×1（업스트림）, USB3.1Gen1 Type-C 커넥터 암×1（다운스트림／PD100W 전원 입력）, HDMI, SD 카드 슬롯×1, 마이크로SD 카드 슬롯×1, LAN（RJ-45）포트×1. 노트북 Type-C에서 주변기기·영상·유선 LAN·카드 리더를 모으기 쉬운 구성입니다.",
+      },
+      {
+        title: "USB3.1과 HDMI·PD 입력에 대해",
+        body: "인터페이스 규격은 USB 사양 Ver3.1Gen1（USB3.0）준거（상위 호환）로 안내되어 있습니다. 통신 속도는 5Gbps／480Mbps／12Mbps（이론값）입니다. HDMI는 4K: 최대 3840×2160（30Hz）로 기재되어 있습니다. Type-C 포트는 통신／전원 입력 PD100W로 안내되어 있습니다. 실제 전송 속도·영상 출력·전원 공급 가능 여부는 연결 기기 사양에 따라 달라지므로 공식 안내를 확인해 주세요.",
+      },
+      {
+        title: "노트북 주변에서의 사용",
+        body: "공식에서는 재택근무에 적합한 USB 허브로 안내되어 있습니다. Type-C 연결로 USB 기기 확장에 더해 HDMI 영상 출력, LAN 유선 연결, SD／microSD 읽기·쓰기를 하나의 허브로 모을 수 있습니다. 전원은 버스 파워／셀프 파워 대응으로 기재되어 있습니다. 케이블 길이는 약 170mm입니다.",
+      },
+      {
+        title: "이런 분께 맞을 수 있습니다",
+        body: "노트북 Type-C에서 여러 단자를 늘리고 싶은 분. HDMI·LAN·SD／microSD를 모아 쓰고 싶은 분. PD100W 전원 입력 대응 Type-C 포트를 확인하고 싶은 분. 알루미늄제 컴팩트 허브（약 76g, 약 폭109×높이16×깊이39.5mm）를 책상 주변에 두고 싶은 분.",
+      },
+    ],
+    recommendedTitle: "구매 전에 확인해 두면 좋은 포인트",
+    recommendedFor: [
+      "연결: Type-C（업스트림）. USB3.1Gen1（USB3.0）준거",
+      "USB-A×3, HDMI（최대 3840×2160／30Hz）, LAN, SD／microSD, Type-C（PD100W 전원 입력）",
+      "통신 속도: 5Gbps／480Mbps／12Mbps（이론값）로 안내",
+      "전원: 버스 파워／셀프 파워. 케이블 길이 약 170mm",
+      "외형 치수 약 폭109×높이16×깊이39.5mm. 본체 질량 약 76g. 본체 소재 알루미늄",
+      "대응 기기와 실제 동작 조건은 공식 판매 페이지에서 확인해 주세요",
+      "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요",
+    ],
+    summary:
+      "tama's T-E015는 Type-C 연결의 USB3.1Gen1 허브입니다. 공식에서는 USB-A×3, HDMI, LAN, SD／microSD, PD100W 전원 입력 대응 Type-C 등을 갖춘 구성으로 안내되어 있습니다. 상세 스펙과 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "tama's T-E015 USB3.1 허브",
+  },
   "epeios-okare-pulse": {
     title: "이중 진동으로 고르는. EPEIOS OKare! Pulse",
     seoTitle:

@@ -1,6 +1,61 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "tamas-te015": {
+    title: "Expand a laptop’s ports. tama’s T-E015 USB3.1 hub",
+    seoTitle: "tama’s T-E015｜USB3.1 hub with HDMI, LAN, and SD | R13 Picks",
+    description:
+      "An R13 Picks look at the tama’s T-E015 USB3.1 hub from Tama Electric. Focused on Type-C connection, USB-A ×3, HDMI, LAN, SD/microSD, and PD100W input support.",
+    productType: "USB hub",
+    excerpt:
+      "Type-C connection. A USB hub with USB-A, HDMI, LAN, SD/microSD, and PD input.",
+    intro:
+      "The tama’s T-E015 from Tama Electric is a USB3.1 Gen1 hub that connects via a Type-C connector. Official materials present it with USB-A ×3, HDMI, LAN, SD/microSD card slots, and a USB Type-C port (data / PD100W power input). It is also introduced as a USB hub suited to remote work. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "About the tama’s T-E015",
+    points: [
+      "Brand: tama’s (Tama Electric)",
+      "Model number: T-E015 (E015 model)",
+      "Interface standard: USB Ver3.1 Gen1 (USB3.0) compliant (backward compatible)",
+      "Host connection: USB Type-C (upstream)",
+      "Ports: USB-A ×3, HDMI, LAN, SD/microSD, Type-C (downstream / PD100W power input)",
+      "Transfer speeds listed as 5Gbps / 480Mbps / 12Mbps (theoretical)",
+      "HDMI listed as 4K: up to 3840×2160 (30Hz)",
+      "Size about W109 × H16 × D39.5mm; weight about 76g",
+    ],
+    sections: [
+      {
+        title: "Which ports you get",
+        body: "Official connector layout: USB3.1 Gen1 (USB3.0) A female ×3 (downstream), USB Type-C male ×1 (upstream), USB3.1 Gen1 Type-C female ×1 (downstream / PD100W power input), HDMI, SD card slot ×1, microSD card slot ×1, and LAN (RJ-45) ×1. From a laptop Type-C port, it is a setup that can combine peripherals, video, wired LAN, and card reading.",
+      },
+      {
+        title: "USB3.1, HDMI, and PD input",
+        body: "The interface is listed as USB Ver3.1 Gen1 (USB3.0) compliant (backward compatible). Transfer speeds are listed as 5Gbps / 480Mbps / 12Mbps (theoretical). HDMI is listed as 4K up to 3840×2160 (30Hz). The Type-C port is described for data / PD100W power input. Actual speed, video output, and power delivery depend on the connected devices—confirm the official guidance.",
+      },
+      {
+        title: "How it fits around a laptop",
+        body: "Official copy presents it as a USB hub suited to remote work. With Type-C connection, one hub can combine USB expansion, HDMI video, wired LAN, and SD/microSD use. Power is listed as bus power / self power. Cable length is about 170mm.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People who want more ports from a laptop Type-C. People who want HDMI, LAN, and SD/microSD in one hub. People checking a Type-C port with PD100W power input. People who want a compact aluminum hub (about 76g; about W109 × H16 × D39.5mm) for a desk setup.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Connection: Type-C (upstream); USB3.1 Gen1 (USB3.0) compliant",
+      "USB-A ×3, HDMI (up to 3840×2160 / 30Hz), LAN, SD/microSD, Type-C (PD100W power input)",
+      "Transfer speeds listed as 5Gbps / 480Mbps / 12Mbps (theoretical)",
+      "Power: bus power / self power; cable length about 170mm",
+      "Size about W109 × H16 × D39.5mm; weight about 76g; aluminum body",
+      "Confirm supported devices and operating conditions on the official product page",
+      "Check the official product page for the latest price and availability",
+    ],
+    summary:
+      "The tama’s T-E015 is a USB3.1 Gen1 hub with Type-C connection. Official materials list USB-A ×3, HDMI, LAN, SD/microSD, and a Type-C port with PD100W power input. Check the official product page for full specs and the latest price and stock.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "tama’s T-E015 USB3.1 hub",
+  },
   "epeios-okare-pulse": {
     title: "Choose dual vibration. EPEIOS OKare! Pulse",
     seoTitle:

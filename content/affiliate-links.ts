@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "tamas-te015":
+    "https://px.a8.net/svt/ejp?a8mat=4BAFPE+62I4KA+54VA+BW0YB&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Fte015%2F",
   "epeios-okare-pulse":
     "https://px.a8.net/svt/ejp?a8mat=4BCDBG+1VVI22+5T0G+BWGDT&a8ejpredirect=https%3A%2F%2Fepeios.jp%2Fproducts%2Fokare_pulse",
   "rede-suhada":

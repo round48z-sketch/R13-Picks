@@ -1,6 +1,61 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "tamas-te015": {
+    title: "整理笔记本电脑接口。tama's T-E015 USB3.1 集线器",
+    seoTitle: "tama's T-E015｜USB3.1 集线器 支持 HDMI·LAN·SD | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍多摩电子工业 tama's T-E015 USB3.1 集线器。重点整理 Type-C 连接、USB-A×3、HDMI、LAN、SD／microSD 与 PD100W 输入等端口配置。",
+    productType: "USB 集线器",
+    excerpt:
+      "Type-C 连接。具备 USB-A、HDMI、LAN、SD／microSD 与 PD 输入的 USB 集线器。",
+    intro:
+      "多摩电子工业的 tama's T-E015 是通过 Type-C 连接器连接的 USB3.1Gen1 集线器。官方将其介绍为配备 USB-A×3、HDMI、LAN、SD／microSD 卡槽，以及 USB Type-C 端口（数据／电源输入 PD100W）的机型。也作为适合远程办公的 USB 集线器介绍。价格与库存可能变动，请以官方销售页面确认最新价格与库存。",
+    pointsTitle: "关于 tama's T-E015",
+    points: [
+      "品牌：tama's（多摩电子工业）",
+      "型号：T-E015（E015 型号）",
+      "接口规格：符合 USB 规格 Ver3.1Gen1（USB3.0）（向上兼容）",
+      "连接：USB Type-C（上游）",
+      "USB-A×3、HDMI、LAN、SD／microSD、Type-C（下游／PD100W 电源输入）",
+      "通信速度标注为 5Gbps／480Mbps／12Mbps（理论值）",
+      "HDMI 标注为 4K：最大 3840×2160（30Hz）",
+      "外形尺寸约 宽109×高16×深39.5mm。本体质量约 76g",
+    ],
+    sections: [
+      {
+        title: "有哪些接口可用",
+        body: "官方连接器构成为：USB3.1Gen1（USB3.0）A 口母座×3（下游）、USB Type-C 公头×1（上游）、USB3.1Gen1 Type-C 母座×1（下游／PD100W 电源输入）、HDMI、SD 卡槽×1、microSD 卡槽×1、LAN（RJ-45）×1。从笔记本电脑的 Type-C 出发，便于汇总外设、影像、有线网络与读卡。",
+      },
+      {
+        title: "关于 USB3.1 与 HDMI、PD 输入",
+        body: "接口规格标注为符合 USB 规格 Ver3.1Gen1（USB3.0）（向上兼容）。通信速度为 5Gbps／480Mbps／12Mbps（理论值）。HDMI 记载为 4K：最大 3840×2160（30Hz）。Type-C 端口标注为数据／电源输入 PD100W。实际传输速度、影像输出与供电是否可行，取决于所连接设备的规格，请确认官方说明。",
+      },
+      {
+        title: "在笔记本电脑周边如何使用",
+        body: "官方将其介绍为适合远程办公的 USB 集线器。通过 Type-C 连接，除扩展 USB 设备外，还可在一个集线器上汇总 HDMI 影像输出、有线 LAN 连接与 SD／microSD 读写。电源记载为总线供电／自供电。线缆长度约 170mm。",
+      },
+      {
+        title: "适合什么样的人",
+        body: "希望从笔记本电脑 Type-C 增加多个接口的人。希望一并使用 HDMI、LAN、SD／microSD 的人。希望确认支持 PD100W 电源输入的 Type-C 端口的人。希望在桌面放置约 76g、约 宽109×高16×深39.5mm 的铝制紧凑集线器的人。",
+      },
+    ],
+    recommendedTitle: "购买前建议确认的要点",
+    recommendedFor: [
+      "连接：Type-C（上游）。符合 USB3.1Gen1（USB3.0）",
+      "USB-A×3、HDMI（最大 3840×2160／30Hz）、LAN、SD／microSD、Type-C（PD100W 电源输入）",
+      "通信速度标注为 5Gbps／480Mbps／12Mbps（理论值）",
+      "电源：总线供电／自供电。线缆长度约 170mm",
+      "外形尺寸约 宽109×高16×深39.5mm。本体质量约 76g。本体材质为铝制",
+      "对应设备与实际运行条件请在官方销售页面确认",
+      "请以官方销售页面确认最新价格与库存",
+    ],
+    summary:
+      "tama's T-E015 是 Type-C 连接的 USB3.1Gen1 集线器。官方介绍其具备 USB-A×3、HDMI、LAN、SD／microSD，以及支持 PD100W 电源输入的 Type-C 等配置。详细规格与最新价格、库存请以官方销售页面确认。",
+    note: "请以官方销售页面确认最新价格与库存。",
+    ctaLabel: "查看商品",
+    imageAlt: "tama's T-E015 USB3.1 集线器",
+  },
   "epeios-okare-pulse": {
     title: "以双重振动来选择。EPEIOS OKare! Pulse",
     seoTitle:
