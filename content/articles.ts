@@ -90,6 +90,160 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "acer-nitro-16s-ai-an16s-61-f93z57t",
+    title: "CPUとGPUの構成を見る。Acer Nitro 16S AI AN16S-61-F93Z57T",
+    seoTitle:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T｜Ryzen AI 9・RTX 5070 Ti Laptop GPU | R13 Picks",
+    description:
+      "Acer Nitro 16S AI AN16S-61-F93Z57TをR13 Picksの視点で紹介。Windows 11 Home、Ryzen AI 9 365、GeForce RTX 5070 Ti Laptop GPU、32GBメモリ、1TB SSD、16インチWQXGA 180Hzなど、公式で確認できる構成を中心にまとめます。",
+    category: "gadget",
+    productName: "Acer Nitro 16S AI AN16S-61-F93Z57T",
+    productType: "ノートパソコン",
+    publishedAt: "2026-09-21",
+    image: {
+      src: "/images/articles/acer-nitro-16s-ai-an16s-61-f93z57t.jpg",
+      alt: "Acer Nitro 16S AI AN16S-61-F93Z57Tのノートパソコン",
+      width: 1000,
+      height: 1000,
+    },
+    excerpt:
+      "Ryzen AI 9 365とRTX 5070 Ti Laptop GPU。16インチ WQXGA 180Hzの Nitro 16S AI。",
+    intro:
+      "Acer Nitro 16S AI AN16S-61-F93Z57Tは、Acer公式オンラインストアで販売されている16インチのノートパソコンです。公式では、Windows 11 Home、AMD Ryzen AI 9 365、NVIDIA GeForce RTX 5070 Ti Laptop GPU、32GBメモリー、1TB SSD、16インチ WQXGA IPS（非光沢、180Hz）などの構成として案内されています。持ち運びのしやすさより、CPUとGPUの構成を公式スペックで見比べたい場合の候補として紹介します。価格や在庫は変わることがあるため、最新の価格・在庫は公式販売ページで確認してください。",
+    pointsTitle: "AN16S-61-F93Z57Tの特徴",
+    points: [
+      "型番は AN16S-61-F93Z57T（部品番号 NH.U06SJ.003、JAN 4515777657921）。本体色はオブシディアンブラック。商品ページに Copilot+ PC の表記",
+      "OSは Windows 11 Home 64ビット",
+      "プロセッサーは AMD Ryzen AI 9 365（動作周波数 2GHz／最大ブースト・クロック 5.00GHz、L3キャッシュ 24MB）",
+      "プロセッサー・テクノロジーに AMD Ryzen AI（最大 50 TOPS NPU）と案内",
+      "グラフィックスは NVIDIA GeForce RTX 5070 Ti Laptop GPU（Maximum Graphics Power 115W、専用ビデオメモリ 12GB）",
+      "システムメモリーは 32GB（SO-DIMM 16GB×2、DDR5-5600MHz、デュアルチャネル）。最大 32GB。ユーザーによる変更・増設はできないと案内",
+      "ストレージは 1024GB SSD（M.2 Type 2280、PCIe Gen4、NVMe）",
+      "ディスプレイは 16インチ、WQXGA（2560×1600）、16:10、IPSパネル、非光沢。リフレッシュレート 180Hz、応答速度 3ms（GTG、オーバードライブ時）、sRGB 100%、NVIDIA G-SYNC 対応",
+      "Webカメラは フルHD IR（約207万画素）。Windows Hello顔認証対応と案内",
+      "キーボードは Acer FineTip RGBバックライト付き（107キー／日本語／Copilotキー搭載）",
+      "無線LANは Wi-Fi 6E（IEEE802.11 a/b/g/n/ac/ax準拠）、Bluetooth 5.2準拠",
+      "有線LANは 2.5GBase-T ほか準拠（Killer Ethernet E3100G）。Wake-on-LAN対応と案内",
+      "インターフェースに USB4 Type-C×1（最大40Gbps、映像出力対応）、USB 3.2 Type-C×1（Gen 2）、USB 3.2 Type-A×2、USB 2.0×1、HDMI出力、microSDカードリーダー",
+      "本体寸法は 約 356.78 × 約 20.99 × 約 275.5 mm（幅×高さ×奥行）。最小高さは 約 12.14 mm。重量は 約 2,160 g",
+      "バッテリー駆動時間（標準）は 約6時間（76Whリチウムイオン、本体内蔵）と案内",
+      "付属に 230W ACアダプター。商品説明にデュアルファン、クアッド吸排気、液体金属熱グリスの記載。Acer製ソフトウェアに NitroSense",
+    ],
+    sections: [
+      {
+        title: "高性能CPUとGPUの構成",
+        body: "公式では、AMD Ryzen AI 9 365（動作周波数 2GHz、最大ブースト・クロック 5.00GHz）と、NVIDIA GeForce RTX 5070 Ti Laptop GPU が案内されています。グラフィックスの Maximum Graphics Power は 115W、専用ビデオメモリは 12GBと記載されています。これはノートPC向けの Laptop GPU であり、デスクトップ向けGPUと同じ性能であるとはここでは書きません。メモリーはオンボードではなく SO-DIMM 16GB×2 の 32GB（DDR5-5600MHz、デュアルチャネル）で、最大も 32GB。ユーザーによる変更・増設はできないと案内されています。ストレージは 1024GB SSD（PCIe Gen4、NVMe）です。OSは Windows 11 Home 64ビットです。プロセッサー・テクノロジーには AMD Ryzen AI（最大 50 TOPS NPU）と記載があります。処理速度やAI機能の体感は環境によって変わるため、ここでは公式の記載に留めます。",
+      },
+      {
+        title: "16インチ高リフレッシュレートディスプレイ",
+        body: "ディスプレイは 16インチ、WQXGA（2560×1600）、16:10、IPSパネル、非光沢です。公式の注記では、リフレッシュレート 180Hz、応答速度 3ms（GTG、オーバードライブ時）、色再現性 sRGB 100%、NVIDIA G-SYNC 対応と案内されています。応答速度の 3ms は、公式が示すオーバードライブ時の条件での記載です。輝度は非公開とされています。画面の大きさ、解像度、リフレッシュレートを公式スペックで確認したい場合のポイントです。",
+      },
+      {
+        title: "ゲーム用途で見るポイント",
+        body: "公式の商品名はゲーミングノートパソコンとして案内されています。見るポイントは、GeForce RTX 5070 Ti Laptop GPU、180Hzの WQXGA ディスプレイ、G-SYNC 対応、RGBバックライト付き日本語キーボード、有線LAN（2.5GBase-T ほか）といった記載です。フレームレートなどの実測値は公式スペック表にはないため、ここでは記載しません。ゲーミング性能の体感はタイトルや設定によって変わるため、断定はしません。",
+      },
+      {
+        title: "動画編集・クリエイティブ用途で見るポイント",
+        body: "32GBメモリー、1024GB SSD、16インチ WQXGA（2560×1600）、sRGB 100% という公式記載は、動画や画像の作業環境をスペック表で比較するときの材料になります。専用ビデオメモリは 12GBと案内されています。編集ソフトの動作や書き出し時間は環境によって変わるため、ここでは推測しません。WebカメラはフルHD IR（約207万画素）で、Windows Hello顔認証対応と記載されています。",
+      },
+      {
+        title: "持ち運びより性能を重視する場合の選択肢",
+        body: "本体質量は約 2,160 g、高さは約 20.99 mm（最小高さ 約 12.14 mm）です。画面を16インチ WQXGA にしながら、CPUとGPUの構成を優先して見たい場合に、公式の重量とサイズをあわせて確認するモデルです。バッテリー駆動時間（標準）は約6時間（76Wh）と案内されています。実際の駆動時間は使い方によって変わるため、公式の注記もあわせて確認してください。電源は 230W ACアダプターが付属します。",
+      },
+    ],
+    recommendedTitle: "選ぶときに確認しておきたいポイント",
+    recommendedFor: [
+      "グラフィックスは GeForce RTX 5070 Ti Laptop GPU。デスクトップ向けGPUと同等とは限りません",
+      "メモリーは 32GB（最大32GB）で、ユーザーによる変更・増設はできないと案内されています",
+      "ストレージは 1024GB SSD。M.2スロットの空きがあっても、製品仕様によりユーザーによる変更・増設はできないと案内されています",
+      "応答速度 3ms は GTG・オーバードライブ時の公式表記です。条件を外した数値ではありません",
+      "重量は約2,160g。持ち運びを優先する場合は、公式の質量を用途と見比べてください",
+      "バッテリー駆動時間は約6時間（標準）と案内。実使用では前後するため、公式の注記を確認してください",
+      "商品ページに Copilot+ PC の表記があります。NPU や Copilotキーの記載以上の効果は、ここでは推測しません",
+      "商品説明にデュアルファン、クアッド吸排気、液体金属熱グリスの記載があります。液体金属については、同じ条件下で従来の熱グリスと比べ熱容量が14.5%向上したとするAcer社内テストに基づく、と注記されています。冷却の体感や静音性は実機を確認していないため、ここでは断定しません。NitroSense の動作モードとして、静音・バランス・パフォーマンス・エコが案内されています",
+      "最新の価格・在庫・保証内容は公式販売ページで確認してください",
+    ],
+    summary:
+      "Acer Nitro 16S AI AN16S-61-F93Z57Tは、Ryzen AI 9 365 と GeForce RTX 5070 Ti Laptop GPU、32GBメモリー、1TB SSD、16インチ WQXGA 180Hz IPS（非光沢）をあわせて確認できるノートPCとして、Acer公式で案内されています。ゲーム用途や動画編集を、公式スペックの範囲で見比べるときの参考にしてください。仕様の詳細と最新の価格・在庫は、公式販売ページで確認してください。",
+    note: "最新の価格・在庫は公式販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
+    slug: "acer-swift-air-16-sfa16-61m-n73y",
+    title: "16インチを約990gで。Acer Swift Air 16 SFA16-61M-N73Y",
+    seoTitle:
+      "Acer Swift Air 16 SFA16-61M-N73Y｜16インチ約990gのノートPC | R13 Picks",
+    description:
+      "Acer Swift Air 16 SFA16-61M-N73YをR13 Picksの視点で紹介。Windows 11 Home、Ryzen AI 7 345、32GBメモリ、512GB SSD、16インチWUXGA IPS、約990gなど、公式で確認できる構成を中心にまとめます。",
+    category: "gadget",
+    productName: "Acer Swift Air 16 SFA16-61M-N73Y",
+    productType: "ノートパソコン",
+    publishedAt: "2026-09-21",
+    image: {
+      src: "/images/articles/acer-swift-air-16-sfa16-61m-n73y.jpg",
+      alt: "Acer Swift Air 16 SFA16-61M-N73Yのノートパソコン",
+      width: 1000,
+      height: 1000,
+    },
+    excerpt:
+      "16インチ WUXGA IPSを約990gで。Ryzen AI 7 345・32GBの Swift Air 16。",
+    intro:
+      "Acer Swift Air 16 SFA16-61M-N73Yは、Acer公式オンラインストアで販売されている16インチのノートパソコンです。公式では、Windows 11 Home、AMD Ryzen AI 7 345、AMD Radeon 840M、32GBメモリー、512GB SSD、16インチ WUXGA IPS（非光沢）、本体質量約990gなどの構成として案内されています。16インチの画面と軽さを同時に見たい場合の候補として紹介します。価格や在庫は変わることがあるため、最新の価格・在庫は公式販売ページで確認してください。",
+    pointsTitle: "SFA16-61M-N73Yの特徴",
+    points: [
+      "型番は SFA16-61M-N73Y（部品番号 NX.DL2SJ.001）。本体色はライトシルバー",
+      "OSは Windows 11 Home 64ビット。Copilot+ PC として案内",
+      "プロセッサーは AMD Ryzen AI 7 345（動作周波数 2GHz／最大ブースト・クロック 4.60GHz）",
+      "プロセッサー・テクノロジーに AMD Ryzen AI（最大 50 TOPS NPU）と案内",
+      "グラフィックスは AMD Radeon 840M（メイン・プロセッサーに内蔵）",
+      "システムメモリーは オンボード 32GB（LPDDR5-6400MHz）。最大 32GB。ユーザーによる変更・増設はできないと案内",
+      "ストレージは 512GB SSD",
+      "ディスプレイは 16インチ、WUXGA（1920×1200）、16:10、IPSパネル、非光沢",
+      "Webカメラは フルHD IR（約207万画素）、スライドカバー付き。Windows Hello顔認証対応と案内",
+      "キーボードは バックライト付き（100キー／日本語／Copilotキー搭載）",
+      "無線LANは Wi-Fi 6E（IEEE802.11 a/b/g/n/ac/ax準拠）、Bluetooth 5.4準拠",
+      "インターフェースに USB 3.2 Type-C×2（Gen 1、PD／映像出力対応）、USB 3.2 Type-A×1、HDMI出力",
+      "本体寸法は 約 358.9 × 約 16.5 × 約 239.7 mm（幅×高さ×奥行）。最小高さは 約 15.9 mm。重量は 約 990 g",
+      "バッテリー駆動時間（標準）は 約13時間（50Whリチウムイオン、本体内蔵）と案内",
+      "付属に 65W USB Type-C ACアダプター",
+    ],
+    sections: [
+      {
+        title: "16インチと軽量性の両立",
+        body: "公式では、16インチのWUXGA（1920×1200、16:10）IPS・非光沢ディスプレイと、本体質量約990gが案内されています。高さは約16.5mm（最小高さ約15.9mm）です。画面サイズを16インチにしながら、持ち運び時の重量を公式スペックで確認したい場合のポイントです。",
+      },
+      {
+        title: "スペックの特徴",
+        body: "公式では、AMD Ryzen AI 7 345、オンボード32GBメモリー、512GB SSDという構成が案内されています。グラフィックスは AMD Radeon 840M（プロセッサー内蔵）です。OSは Windows 11 Home 64ビットで、Copilot+ PC として案内されています。プロセッサー・テクノロジーには AMD Ryzen AI（最大 50 TOPS NPU）と記載があります。AI機能の体感や処理速度は環境によって変わるため、ここでは公式の記載に留めます。",
+      },
+      {
+        title: "接続と仕事・持ち運びで見るポイント",
+        body: "無線LANは Wi-Fi 6E 準拠、Bluetooth は 5.4 準拠と案内されています。インターフェースには USB 3.2 Type-C×2（Gen 1、最大5Gbps、PD／映像出力対応）、USB 3.2 Type-A×1、HDMI出力ポートが記載されています。メモリカードスロットは非搭載です。キーボードはバックライト付きの日本語配列で、Copilotキー搭載と案内されています。WebカメラはフルHD IR（約207万画素）でスライドカバー付き、Windows Hello顔認証対応と記載されています。バッテリー駆動時間（標準）は約13時間（50Wh）です。実際の駆動時間は使い方によって変わるため、公式の注記もあわせて確認してください。",
+      },
+      {
+        title: "どんな用途に向いているか",
+        body: "16インチの画面で文書や資料を見つつ、約990gの重量を確認したい人。在宅と外出の両方で使う仕事用ノートPCを検討したい人。32GBメモリーと512GB SSDの構成を公式スペック表で比較したい人。Copilot+ PC や Ryzen AI の記載があるモデルを、公式案内の範囲で確認したい人。",
+      },
+    ],
+    recommendedTitle: "選ぶときに確認しておきたいポイント",
+    recommendedFor: [
+      "重量は約990g、画面は16インチ WUXGA。持ち運びと画面サイズのどちらを優先するかは用途で判断してください",
+      "メモリーはオンボード32GBで、ユーザーによる変更・増設はできないと案内されています",
+      "ストレージは512GB SSD。容量が足りるかはデータの持ち方次第です",
+      "メモリカードスロットは非搭載です。カードを直接挿す用途がある場合は別途アダプターの検討が必要です",
+      "バッテリー駆動時間は約13時間（標準）と案内。実使用では前後するため、公式の注記を確認してください",
+      "Copilot+ PC や NPU の記載以上の効果は、ここでは推測しません",
+      "ゲーミング性能や処理速度の体感は環境によって変わるため、ここでは断定しません",
+      "最新の価格・在庫・保証内容は公式販売ページで確認してください",
+    ],
+    summary:
+      "Acer Swift Air 16 SFA16-61M-N73Yは、16インチ WUXGA IPS（非光沢）と約990gをあわせて確認できるノートPCとして、Acer公式で案内されています。Windows 11 Home、Ryzen AI 7 345、32GBメモリー、512GB SSD、Copilot+ PC などの記載もあります。仕事用・持ち運び用の候補としてスペックを見比べるときの参考にしてください。仕様の詳細と最新の価格・在庫は、公式販売ページで確認してください。",
+    note: "最新の価格・在庫は公式販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "acer-aspire-lite-15-al15-74p-n76y",
     title: "仕事にも普段使いにも。Acer Aspire Lite 15 AL15-74P-N76Y",
     seoTitle:

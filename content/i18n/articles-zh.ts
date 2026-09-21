@@ -1,6 +1,76 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "acer-nitro-16s-ai-an16s-61-f93z57t": {
+    title: "看 CPU 与 GPU 的配置。Acer Nitro 16S AI AN16S-61-F93Z57T",
+    seoTitle:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T｜Ryzen AI 9 与 RTX 5070 Ti Laptop GPU | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Acer Nitro 16S AI AN16S-61-F93Z57T。以 Windows 11 Home、Ryzen AI 9 365、GeForce RTX 5070 Ti Laptop GPU、32GB 内存、1TB SSD、16 英寸 WQXGA 180Hz 等官方可确认的配置为核心整理。",
+    productType: "笔记本电脑",
+    excerpt:
+      "Ryzen AI 9 365 与 RTX 5070 Ti Laptop GPU。16 英寸 WQXGA 180Hz 的 Nitro 16S AI。",
+    intro:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T 是 Acer 官方在线商店在售的 16 英寸笔记本电脑。官方说明配置包括 Windows 11 Home、AMD Ryzen AI 9 365、NVIDIA GeForce RTX 5070 Ti Laptop GPU、32GB 内存、1TB SSD、16 英寸 WQXGA IPS（雾面、180Hz）等。适合想优先对照 CPU 与 GPU 规格、而不是便携性时列入候选。价格与库存可能变动，最新价格与库存请在官方销售页面确认。",
+    pointsTitle: "AN16S-61-F93Z57T 的特点",
+    points: [
+      "型号为 AN16S-61-F93Z57T（部件号 NH.U06SJ.003，JAN 4515777657921）。机身颜色为黑曜石黑。商品页标注为 Copilot+ PC",
+      "系统为 Windows 11 Home 64 位",
+      "处理器为 AMD Ryzen AI 9 365（主频 2GHz／最高加速 5.00GHz，L3 缓存 24MB）",
+      "处理器技术说明含 AMD Ryzen AI（最高 50 TOPS NPU）",
+      "显卡为 NVIDIA GeForce RTX 5070 Ti Laptop GPU（Maximum Graphics Power 115W，独立显存 12GB）",
+      "系统内存 32GB（SO-DIMM 16GB×2，DDR5-5600MHz，双通道）。最大 32GB。说明用户不可自行更改或加装",
+      "存储为 1024GB SSD（M.2 Type 2280，PCIe Gen4，NVMe）",
+      "屏幕为 16 英寸、WQXGA（2560×1600）、16:10、IPS、雾面。刷新率 180Hz，响应时间 3ms（GTG，超频驱动时），sRGB 100%，支持 NVIDIA G-SYNC",
+      "摄像头为全高清 IR（约 207 万像素）。说明支持 Windows Hello 人脸识别",
+      "键盘为 Acer FineTip RGB 背光（107 键／日文／带 Copilot 键）",
+      "无线为 Wi-Fi 6E（IEEE802.11 a/b/g/n/ac/ax）、Bluetooth 5.2",
+      "有线网口为 2.5GBase-T 等（Killer Ethernet E3100G）。说明支持 Wake-on-LAN",
+      "接口含 USB4 Type-C×1（最高 40Gbps、支持影像输出）、USB 3.2 Type-C×1（Gen 2）、USB 3.2 Type-A×2、USB 2.0×1、HDMI、microSD 读卡器",
+      "机身约 356.78 × 约 20.99 × 约 275.5 mm（宽×高×深）。最小高度约 12.14 mm。重量约 2,160 g",
+      "电池续航（标准）约 6 小时（76Wh 锂离子，内置）",
+      "附件含 230W 电源适配器。商品说明记载双风扇、四向进排气、液态金属导热膏。Acer 软件说明含 NitroSense",
+    ],
+    sections: [
+      {
+        title: "高性能 CPU 与 GPU 配置",
+        body: "官方列出 AMD Ryzen AI 9 365（主频 2GHz，最高加速 5.00GHz）与 NVIDIA GeForce RTX 5070 Ti Laptop GPU。显卡 Maximum Graphics Power 为 115W，独立显存为 12GB。这是笔记本用 Laptop GPU，本文不将其写成与台式机 GPU 同等。内存为 SO-DIMM 16GB×2 的 32GB（DDR5-5600MHz，双通道），最大同样为 32GB，说明用户不可自行更改或加装。存储为 1024GB SSD（PCIe Gen4，NVMe）。系统为 Windows 11 Home 64 位。处理器技术含 AMD Ryzen AI（最高 50 TOPS NPU）。速度体感与 AI 功能随环境变化，本文只保留官方记载。",
+      },
+      {
+        title: "16 英寸高刷新率屏幕",
+        body: "屏幕为 16 英寸、WQXGA（2560×1600）、16:10、IPS、雾面。官方注释为刷新率 180Hz、响应时间 3ms（GTG，超频驱动时）、色域 sRGB 100%、支持 NVIDIA G-SYNC。3ms 是官方给出的超频驱动条件下的数值。亮度标注为未公开。适合在规格表里核对屏幕尺寸、分辨率与刷新率。",
+      },
+      {
+        title: "游戏用途可看的要点",
+        body: "官方商品名将其作为游戏笔记本介绍。可核对的是 GeForce RTX 5070 Ti Laptop GPU、180Hz WQXGA 屏幕、G-SYNC、带 RGB 背光的日文键盘，以及有线网口（2.5GBase-T 等）。官方规格表没有帧率实测，本文不写。游戏体感随作品与设置变化，这里不断言。",
+      },
+      {
+        title: "视频剪辑与创作用途可看的要点",
+        body: "32GB 内存、1024GB SSD、16 英寸 WQXGA（2560×1600）、sRGB 100% 是对照视频或图像工作环境时可用的官方数字。独立显存为 12GB。剪辑软件能否流畅、导出要多久，随环境变化，本文不估算。摄像头为全高清 IR（约 207 万像素），说明支持 Windows Hello 人脸识别。",
+      },
+      {
+        title: "更看重性能而不是随身携带时",
+        body: "机身质量约 2,160 g，高度约 20.99 mm（最小高度约 12.14 mm）。适合在保留 16 英寸 WQXGA 的前提下，优先看 CPU 与 GPU，并同时核对官方重量与尺寸。电池续航（标准）约 6 小时（76Wh）。实际续航随使用方式变化，请一并查看官方注释。附件含 230W 电源适配器。",
+      },
+    ],
+    recommendedTitle: "选购时建议确认的要点",
+    recommendedFor: [
+      "显卡为 GeForce RTX 5070 Ti Laptop GPU，并不等于台式机 GPU",
+      "内存为 32GB（最大 32GB），说明用户不可自行更改或加装",
+      "存储为 1024GB SSD。即使 M.2 插槽有空位，产品规格也说明用户不可自行更改或加装",
+      "响应时间 3ms 是 GTG、超频驱动条件下的官方标注",
+      "重量约 2,160g。若更在意携带，请把官方质量与用途对照",
+      "电池续航约 6 小时（标准）。实际使用可能有差异，请查看官方注释",
+      "商品页标注为 Copilot+ PC。本文不推测 NPU 或 Copilot 键记载之外的效果",
+      "商品说明记载双风扇、四向进排气与液态金属导热膏。关于液态金属，官方注明：在相同条件下相较传统导热膏热容量提升 14.5%，依据为 Acer 内部测试。散热体感与噪音未经实测，这里不断言。NitroSense 的模式说明为安静、平衡、性能、节能",
+      "最新价格、库存与保修请在官方销售页面确认",
+    ],
+    summary:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T 在 Acer 官方说明中配备 Ryzen AI 9 365、GeForce RTX 5070 Ti Laptop GPU、32GB 内存、1TB SSD、16 英寸 WQXGA 180Hz IPS（雾面）。可作为在官方规格范围内对照游戏或视频用途时的参考。规格详情与最新价格、库存请在官方销售页面确认。",
+    note: "最新价格与库存请在官方销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "Acer Nitro 16S AI AN16S-61-F93Z57T 笔记本电脑",
+  },
   "acer-aspire-lite-15-al15-74p-n76y": {
     title: "兼顾工作与日常。Acer Aspire Lite 15 AL15-74P-N76Y",
     seoTitle:

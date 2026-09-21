@@ -1,6 +1,76 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "acer-nitro-16s-ai-an16s-61-f93z57t": {
+    title: "CPU와 GPU 구성을 보다. Acer Nitro 16S AI AN16S-61-F93Z57T",
+    seoTitle:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T｜Ryzen AI 9·RTX 5070 Ti Laptop GPU | R13 Picks",
+    description:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T를 R13 Picks의 시선으로 소개합니다. Windows 11 Home, Ryzen AI 9 365, GeForce RTX 5070 Ti Laptop GPU, 32GB 메모리, 1TB SSD, 16인치 WQXGA 180Hz 등 공식에서 확인할 수 있는 구성을 중심으로 정리합니다.",
+    productType: "노트북",
+    excerpt:
+      "Ryzen AI 9 365와 RTX 5070 Ti Laptop GPU. 16인치 WQXGA 180Hz Nitro 16S AI.",
+    intro:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T는 Acer 공식 온라인 스토어에서 판매하는 16인치 노트북입니다. 공식에서는 Windows 11 Home, AMD Ryzen AI 9 365, NVIDIA GeForce RTX 5070 Ti Laptop GPU, 32GB 메모리, 1TB SSD, 16인치 WQXGA IPS(비광택, 180Hz) 등의 구성으로 안내합니다. 휴대성보다 CPU와 GPU 구성을 공식 스펙으로 비교하고 싶을 때의 후보로 소개합니다. 가격과 재고는 변경될 수 있으므로, 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "AN16S-61-F93Z57T의 특징",
+    points: [
+      "형번은 AN16S-61-F93Z57T(부품 번호 NH.U06SJ.003, JAN 4515777657921). 본체색은 옵시디언 블랙. 상품 페이지에 Copilot+ PC 표기",
+      "OS는 Windows 11 Home 64비트",
+      "프로세서는 AMD Ryzen AI 9 365(동작 주파수 2GHz / 최대 부스트 클록 5.00GHz, L3 캐시 24MB)",
+      "프로세서 기술에 AMD Ryzen AI(최대 50 TOPS NPU)로 안내",
+      "그래픽은 NVIDIA GeForce RTX 5070 Ti Laptop GPU(Maximum Graphics Power 115W, 전용 비디오 메모리 12GB)",
+      "시스템 메모리는 32GB(SO-DIMM 16GB×2, DDR5-5600MHz, 듀얼 채널). 최대 32GB. 사용자 변경·증설은 불가하다고 안내",
+      "스토리지는 1024GB SSD(M.2 Type 2280, PCIe Gen4, NVMe)",
+      "디스플레이는 16인치, WQXGA(2560×1600), 16:10, IPS, 비광택. 주사율 180Hz, 응답 속도 3ms(GTG, 오버드라이브 시), sRGB 100%, NVIDIA G-SYNC 대응",
+      "웹캠은 풀HD IR(약 207만 화소). Windows Hello 얼굴 인증 대응으로 안내",
+      "키보드는 Acer FineTip RGB 백라이트(107키 / 일본어 / Copilot 키)",
+      "무선 LAN은 Wi-Fi 6E(IEEE802.11 a/b/g/n/ac/ax), Bluetooth 5.2",
+      "유선 LAN은 2.5GBase-T 등(Killer Ethernet E3100G). Wake-on-LAN 대응으로 안내",
+      "인터페이스에 USB4 Type-C×1(최대 40Gbps, 영상 출력), USB 3.2 Type-C×1(Gen 2), USB 3.2 Type-A×2, USB 2.0×1, HDMI, microSD 카드 리더",
+      "본체 치수는 약 356.78 × 약 20.99 × 약 275.5 mm(가로×높이×세로). 최소 높이 약 12.14 mm. 무게 약 2,160 g",
+      "배터리 구동 시간(표준)은 약 6시간(76Wh 리튬이온, 본체 내장)으로 안내",
+      "부속에 230W AC 어댑터. 상품 설명에 듀얼 팬, 쿼드 흡배기, 액체 금속 서멀 그리스 기재. Acer 소프트웨어로 NitroSense",
+    ],
+    sections: [
+      {
+        title: "고성능 CPU와 GPU 구성",
+        body: "공식에서는 AMD Ryzen AI 9 365(동작 주파수 2GHz, 최대 부스트 클록 5.00GHz)와 NVIDIA GeForce RTX 5070 Ti Laptop GPU를 안내합니다. 그래픽 Maximum Graphics Power는 115W, 전용 비디오 메모리는 12GB로 기재되어 있습니다. 노트북용 Laptop GPU이며, 데스크톱 GPU와 같은 성능이라고는 쓰지 않습니다. 메모리는 SO-DIMM 16GB×2의 32GB(DDR5-5600MHz, 듀얼 채널)이고 최대도 32GB입니다. 사용자 변경·증설은 불가하다고 안내됩니다. 스토리지는 1024GB SSD(PCIe Gen4, NVMe)입니다. OS는 Windows 11 Home 64비트입니다. 프로세서 기술에는 AMD Ryzen AI(최대 50 TOPS NPU)가 있습니다. 체감 속도와 AI 기능은 환경에 따라 달라지므로 공식 기재에 둡니다.",
+      },
+      {
+        title: "16인치 고주사율 디스플레이",
+        body: "디스플레이는 16인치, WQXGA(2560×1600), 16:10, IPS, 비광택입니다. 공식 주석에서는 주사율 180Hz, 응답 속도 3ms(GTG, 오버드라이브 시), 색재현 sRGB 100%, NVIDIA G-SYNC 대응으로 안내합니다. 3ms는 공식이 제시한 오버드라이브 조건의 수치입니다. 밝기는 비공개입니다. 화면 크기, 해상도, 주사율을 공식 스펙에서 확인할 때의 포인트입니다.",
+      },
+      {
+        title: "게임 용도로 보는 포인트",
+        body: "공식 상품명은 게이밍 노트북으로 안내됩니다. 볼 포인트는 GeForce RTX 5070 Ti Laptop GPU, 180Hz WQXGA 디스플레이, G-SYNC, RGB 백라이트 일본어 키보드, 유선 LAN(2.5GBase-T 등)입니다. 프레임레이트 실측은 공식 스펙표에 없으므로 적지 않습니다. 게임 체감은 타이틀과 설정에 따라 달라지므로 단정하지 않습니다.",
+      },
+      {
+        title: "영상 편집·크리에이티브 용도로 보는 포인트",
+        body: "32GB 메모리, 1024GB SSD, 16인치 WQXGA(2560×1600), sRGB 100%는 영상·이미지 작업 환경을 스펙표로 비교할 때의 재료입니다. 전용 비디오 메모리는 12GB로 안내됩니다. 편집 소프트웨어 동작이나 출력 시간은 환경에 따라 달라지므로 추정하지 않습니다. 웹캠은 풀HD IR(약 207만 화소)이며 Windows Hello 얼굴 인증 대응으로 기재되어 있습니다.",
+      },
+      {
+        title: "휴대보다 성능을 우선할 때의 선택",
+        body: "본체 질량은 약 2,160 g, 높이는 약 20.99 mm(최소 높이 약 12.14 mm)입니다. 16인치 WQXGA를 유지하면서 CPU와 GPU 구성을 우선해 보고 싶을 때, 공식 무게와 크기를 함께 확인하는 모델입니다. 배터리 구동 시간(표준)은 약 6시간(76Wh)으로 안내됩니다. 실제 구동 시간은 사용 방식에 따라 달라지므로 공식 주석도 확인해 주세요. 전원은 230W AC 어댑터가 부속됩니다.",
+      },
+    ],
+    recommendedTitle: "고를 때 확인할 포인트",
+    recommendedFor: [
+      "그래픽은 GeForce RTX 5070 Ti Laptop GPU. 데스크톱 GPU와 같다고 보기는 어렵습니다",
+      "메모리는 32GB(최대 32GB)이며, 사용자 변경·증설은 불가하다고 안내됩니다",
+      "스토리지는 1024GB SSD. M.2 슬롯 여유가 있어도 제품 사양상 사용자 변경·증설은 불가하다고 안내됩니다",
+      "응답 속도 3ms는 GTG·오버드라이브 시의 공식 표기입니다",
+      "무게는 약 2,160g. 휴대를 우선한다면 공식 질량을 용도와 비교하세요",
+      "배터리 구동 시간은 약 6시간(표준). 실사용에서는 달라질 수 있으니 공식 주석을 확인하세요",
+      "상품 페이지에 Copilot+ PC 표기가 있습니다. NPU나 Copilot 키 기재 이상의 효과는 여기서 추정하지 않습니다",
+      "상품 설명에 듀얼 팬, 쿼드 흡배기, 액체 금속 서멀 그리스가 있습니다. 액체 금속은 같은 조건에서 기존 그리스 대비 열용량이 14.5% 향상됐다는 Acer 사내 테스트에 따른다고 주석되어 있습니다. 냉각 체감이나 정음은 실기를 확인하지 않았으므로 단정하지 않습니다. NitroSense 동작 모드로 정음·밸런스·퍼포먼스·에코가 안내됩니다",
+      "최신 가격·재고·보증은 공식 판매 페이지에서 확인해 주세요",
+    ],
+    summary:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T는 Ryzen AI 9 365와 GeForce RTX 5070 Ti Laptop GPU, 32GB 메모리, 1TB SSD, 16인치 WQXGA 180Hz IPS(비광택)를 함께 확인할 수 있는 노트북으로 Acer 공식에서 안내합니다. 게임이나 영상 편집을 공식 스펙 범위에서 비교할 때 참고해 주세요. 사양 상세와 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "Acer Nitro 16S AI AN16S-61-F93Z57T 노트북",
+  },
   "acer-aspire-lite-15-al15-74p-n76y": {
     title: "업무에도 일상에도. Acer Aspire Lite 15 AL15-74P-N76Y",
     seoTitle:

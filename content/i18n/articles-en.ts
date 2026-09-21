@@ -1,6 +1,76 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "acer-nitro-16s-ai-an16s-61-f93z57t": {
+    title: "Looking at the CPU and GPU. Acer Nitro 16S AI AN16S-61-F93Z57T",
+    seoTitle:
+      "Acer Nitro 16S AI AN16S-61-F93Z57T｜Ryzen AI 9 and RTX 5070 Ti Laptop GPU | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer Nitro 16S AI AN16S-61-F93Z57T. Focused on the Windows 11 Home, Ryzen AI 9 365, GeForce RTX 5070 Ti Laptop GPU, 32GB memory, 1TB SSD, and 16-inch WQXGA 180Hz configuration listed by Acer.",
+    productType: "Laptop",
+    excerpt:
+      "Ryzen AI 9 365 and an RTX 5070 Ti Laptop GPU. A 16-inch WQXGA 180Hz Nitro 16S AI.",
+    intro:
+      "The Acer Nitro 16S AI AN16S-61-F93Z57T is a 16-inch laptop sold on the Acer official online store. Official listings describe Windows 11 Home, an AMD Ryzen AI 9 365, an NVIDIA GeForce RTX 5070 Ti Laptop GPU, 32GB memory, a 1TB SSD, and a 16-inch WQXGA IPS display (matte, 180Hz). It is introduced here as a candidate when you want to compare CPU and GPU specs more than portability. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "AN16S-61-F93Z57T highlights",
+    points: [
+      "Model: AN16S-61-F93Z57T (part number NH.U06SJ.003, JAN 4515777657921). Color: Obsidian Black. The product page marks it as a Copilot+ PC",
+      "OS: Windows 11 Home 64-bit",
+      "Processor: AMD Ryzen AI 9 365 (2GHz base / up to 5.00GHz boost, 24MB L3 cache)",
+      "Processor technology listed as AMD Ryzen AI (up to 50 TOPS NPU)",
+      "Graphics: NVIDIA GeForce RTX 5070 Ti Laptop GPU (Maximum Graphics Power 115W, 12GB dedicated video memory)",
+      "System memory: 32GB (SO-DIMM 16GB ×2, DDR5-5600MHz, dual channel). Maximum 32GB. User changes or upgrades are listed as not supported",
+      "Storage: 1024GB SSD (M.2 Type 2280, PCIe Gen4, NVMe)",
+      "Display: 16-inch WQXGA (2560×1600), 16:10, IPS, matte. 180Hz, 3ms response (GTG, with overdrive), sRGB 100%, NVIDIA G-SYNC",
+      "Webcam: Full HD IR (about 2.07 megapixels). Listed with Windows Hello face sign-in",
+      "Keyboard: Acer FineTip with RGB backlight (107 keys / Japanese / Copilot key)",
+      "Wireless: Wi-Fi 6E (IEEE 802.11 a/b/g/n/ac/ax), Bluetooth 5.2",
+      "Wired LAN: 2.5GBase-T and related standards (Killer Ethernet E3100G). Wake-on-LAN listed",
+      "Interfaces include USB4 Type-C ×1 (up to 40Gbps, video output), USB 3.2 Type-C ×1 (Gen 2), USB 3.2 Type-A ×2, USB 2.0 ×1, HDMI, and a microSD card reader",
+      "Dimensions about 356.78 × 20.99 × 275.5 mm (W×H×D). Minimum height about 12.14 mm. Weight about 2,160 g",
+      "Battery life (standard) listed as about 6 hours (76Wh lithium-ion, built-in)",
+      "Includes a 230W AC adapter. The product description lists dual fans, quad intake/exhaust, and liquid-metal thermal grease. Acer software listed includes NitroSense",
+    ],
+    sections: [
+      {
+        title: "A high-spec CPU and GPU configuration",
+        body: "Official materials list an AMD Ryzen AI 9 365 (2GHz base, up to 5.00GHz boost) and an NVIDIA GeForce RTX 5070 Ti Laptop GPU. Maximum Graphics Power is listed as 115W, with 12GB of dedicated video memory. This is a laptop GPU; this article does not treat it as equivalent to a desktop GPU. Memory is 32GB as SO-DIMM 16GB ×2 (DDR5-5600MHz, dual channel), with a 32GB maximum. User changes or upgrades are listed as not supported. Storage is a 1024GB SSD (PCIe Gen4, NVMe). The OS is Windows 11 Home 64-bit. Processor technology includes AMD Ryzen AI (up to 50 TOPS NPU). Subjective speed and AI features vary by environment, so this stays with the official listing.",
+      },
+      {
+        title: "A 16-inch high-refresh display",
+        body: "The display is a 16-inch WQXGA (2560×1600), 16:10, IPS panel with a matte finish. Official notes list a 180Hz refresh rate, 3ms response (GTG, with overdrive), sRGB 100% color, and NVIDIA G-SYNC. The 3ms figure is the official overdrive condition, not a number outside that condition. Brightness is listed as undisclosed. These are the points to check when comparing screen size, resolution, and refresh rate on the spec sheet.",
+      },
+      {
+        title: "What to look at for gaming",
+        body: "The official product name presents it as a gaming laptop. Points to check are the GeForce RTX 5070 Ti Laptop GPU, the 180Hz WQXGA display, G-SYNC, the Japanese keyboard with RGB backlight, and wired LAN (2.5GBase-T and related standards). Frame-rate measurements are not in the official spec table, so they are not listed here. How games feel depends on the title and settings, and this article does not claim a result.",
+      },
+      {
+        title: "What to look at for video and creative work",
+        body: "32GB of memory, a 1024GB SSD, a 16-inch WQXGA (2560×1600) panel, and sRGB 100% are official figures you can compare when looking at a video or image workflow on a spec sheet. Dedicated video memory is listed as 12GB. How editing software behaves, or how long an export takes, depends on the setup, so this article does not estimate it. The webcam is Full HD IR (about 2.07 megapixels) and is listed with Windows Hello face sign-in.",
+      },
+      {
+        title: "When performance matters more than carrying it",
+        body: "Body weight is about 2,160 g, and height is about 20.99 mm (minimum height about 12.14 mm). It is a model to check when you want the CPU and GPU configuration first, and are also reading the official weight and size of a 16-inch WQXGA system. Battery life (standard) is listed as about 6 hours (76Wh). Actual runtime varies with use—also check Acer’s notes. A 230W AC adapter is included.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Graphics are a GeForce RTX 5070 Ti Laptop GPU. That does not mean it matches a desktop GPU",
+      "Memory is 32GB (32GB max). User changes or upgrades are listed as not supported",
+      "Storage is a 1024GB SSD. Even if an M.2 slot is free, user changes or upgrades are listed as not supported by the product spec",
+      "The 3ms response time is the official GTG figure with overdrive",
+      "Weight is about 2,160 g. If carrying it matters more, compare that official mass with your use",
+      "Battery life is listed as about 6 hours (standard). Real use can differ—read the official notes",
+      "The product page marks it as a Copilot+ PC. This article does not infer effects beyond the listed NPU and Copilot key",
+      "The product description lists dual fans, quad intake/exhaust, and liquid-metal thermal grease. Acer notes that a 14.5% thermal-capacity gain versus conventional grease is based on an internal test under the same conditions. Cooling feel and noise were not tested here, so they are not claimed. NitroSense modes are listed as quiet, balanced, performance, and eco",
+      "Check the official product page for the latest price, stock, and warranty",
+    ],
+    summary:
+      "The Acer Nitro 16S AI AN16S-61-F93Z57T is listed by Acer with a Ryzen AI 9 365, a GeForce RTX 5070 Ti Laptop GPU, 32GB memory, a 1TB SSD, and a 16-inch WQXGA 180Hz IPS (matte) display. Use it as a reference when comparing gaming or video work within the official specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer Nitro 16S AI AN16S-61-F93Z57T laptop",
+  },
   "acer-aspire-lite-15-al15-74p-n76y": {
     title: "For work and everyday use. Acer Aspire Lite 15 AL15-74P-N76Y",
     seoTitle:
