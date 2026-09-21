@@ -109,8 +109,8 @@ export const articles: Article[] = [
     thumbnailImage: {
       src: "/images/articles/beauty-appliances-5-picks-collage.jpg",
       alt: "美容家電おすすめ5選のまとめサムネイル",
-      width: 1024,
-      height: 1280,
+      width: 800,
+      height: 1000,
     },
     excerpt:
       "ドライヤー・ストレートアイロン・スティック美顔器。用途とデザインの違いで選ぶ美容家電5選。",
