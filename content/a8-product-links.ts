@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "acer-aspire-lite-15-al15-74p-n76y":
+    '<span class="a8ad 4AO4E1Q-g7-vvOOfdS"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvOOfdS"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-al15-74p-n76y","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777620604_01_nx.dkbsj.002.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
   "tamas-te015":
     '<span class="a8ad 4AHHahx-g7-vvE7Wtz"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BAFPE+62I4KA+54VA+BWGDT","alt":"商品リンク","id":"4AHHahx-g7-vvE7Wtz"},"goods": {"ejp":"h"+"ttps://shop.tamadenco.co.jp/product/te015/","imu":"h"+"ttps://shop.tamadenco.co.jp/wp-content/uploads/2025/03/T-E015_202503.jpg"}});</script>',
   "epeios-okare-pulse":

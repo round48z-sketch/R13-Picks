@@ -1,6 +1,68 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "acer-aspire-lite-15-al15-74p-n76y": {
+    title: "업무에도 일상에도. Acer Aspire Lite 15 AL15-74P-N76Y",
+    seoTitle:
+      "Acer Aspire Lite 15 AL15-74P-N76Y｜Core Ultra 7 노트북 | R13 Picks",
+    description:
+      "Acer Aspire Lite 15 AL15-74P-N76Y를 R13 Picks의 시선으로 소개합니다. Windows 11 Home, Core Ultra 7 155H, 16GB 메모리, 512GB SSD, 15.6인치 풀HD IPS 등 공식에서 확인할 수 있는 구성을 중심으로 정리합니다.",
+    productType: "노트북",
+    excerpt:
+      "Core Ultra 7 155H·16GB·512GB. 15.6인치 풀HD IPS Aspire Lite 15.",
+    intro:
+      "Acer Aspire Lite 15 AL15-74P-N76Y는 Acer 공식 온라인 스토어에서 판매하는 15.6인치 노트북입니다. 공식에서는 Windows 11 Home, 인텔 Core Ultra 7 프로세서 155H, 16GB 메모리, 512GB SSD, 15.6인치 풀HD IPS(비광택) 등의 구성으로 안내합니다. 업무용·일상용 노트북을 공식 스펙을 보며 검토하고 싶을 때의 후보로 소개합니다. 가격과 재고는 변경될 수 있으므로, 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "AL15-74P-N76Y의 특징",
+    points: [
+      "형번은 AL15-74P-N76Y(부품 번호 NX.DKBSJ.002)",
+      "OS는 Windows 11 Home 64비트",
+      "프로세서는 인텔 Core Ultra 7 프로세서 155H(동작 주파수 1.4GHz / 터보 부스트 시 최대 4.80GHz)",
+      "시스템 메모리는 표준 16GB(SO-DIMM 8GB×2). 최대 24GB로 안내",
+      "스토리지는 512GB SSD",
+      "디스플레이는 15.6인치, 풀HD(1920×1080), IPS 패널, 비광택",
+      "그래픽은 인텔 Arc 그래픽스(메인 프로세서 내장)",
+      "웹캠은 약 207만 화소, 슬라이드 커버 포함",
+      "무선 LAN은 Wi-Fi 6(IEEE802.11 a/b/g/n/ac/ax), Bluetooth 5.1",
+      "180° 힌지. microSD 카드 리더 탑재",
+      "인터페이스에 USB Type-C(PD/영상 출력 대응 포함), USB Type-A, HDMI 등",
+      "본체 치수는 약 359.3 × 약 18.9 × 약 230.2 mm(가로×높이×세로). 무게 약 1,540 g",
+      "배터리 구동 시간(표준)은 약 8시간(58Wh 리튬이온, 본체 내장)으로 안내",
+      "부속에 100W USB Type-C AC 어댑터",
+    ],
+    sections: [
+      {
+        title: "스펙의 특징",
+        body: "공식에서는 인텔 Core Ultra 7 프로세서 155H, 표준 16GB 메모리, 512GB SSD 구성을 안내합니다. 디스플레이는 15.6인치 풀HD IPS(비광택)입니다. 그래픽은 인텔 Arc 그래픽스(프로세서 내장)로 기재되어 있습니다. OS는 Windows 11 Home 64비트입니다. 수치 상세와 최신 구성은 공식 판매 페이지의 사양표에서 확인해 주세요.",
+      },
+      {
+        title: "화면·힌지·카메라",
+        body: "15.6인치 풀HD(1920×1080) IPS 패널에 비광택 디스플레이로 안내됩니다. 180° 힌지를 갖추고, 웹캠은 약 207만 화소에 슬라이드 커버가 있습니다. 재택 온라인 미팅이나 화면을 넓게 펼쳐 자료를 볼 때 구성을 확인하기 쉬운 포인트입니다.",
+      },
+      {
+        title: "연결과 휴대성",
+        body: "무선 LAN은 Wi-Fi 6, Bluetooth는 5.1로 안내됩니다. 인터페이스에는 USB 3.2 Type-C(Gen 1, PD 대응, 영상 출력 대응 포트 포함), USB Type-A, HDMI, microSD 카드 리더 등이 기재되어 있습니다. 본체 무게는 약 1,540g, 두께는 약 18.9mm입니다. 배터리 구동 시간(표준)은 약 8시간(58Wh)으로 안내됩니다. 실제 구동 시간은 사용 방식에 따라 달라지므로 공식 주석도 함께 확인해 주세요.",
+      },
+      {
+        title: "어떤 용도에 맞는지",
+        body: "문서 작성·브라우저·온라인 미팅 등 업무용 노트북을 검토하는 사람. 15.6인치 풀HD IPS로 일상용 화면 크기를 확보하고 싶은 사람. Core Ultra 7 155H·16GB·512GB 구성을 공식 스펙표로 비교하며 고르고 싶은 사람. 180° 힌지와 슬라이드 커버 카메라 등 재택 업무에 가까운 기능을 확인하고 싶은 사람.",
+      },
+    ],
+    recommendedTitle: "고를 때 확인할 포인트",
+    recommendedFor: [
+      "프로세서는 Core Ultra 7 155H. 필요한 작업에 맞는지는 공식 스펙과 용도를 비교해 판단하세요",
+      "메모리는 표준 16GB / 최대 24GB로 안내. 사용자 변경은 보증 대상 외가 될 수 있다고 기재되어 있습니다",
+      "스토리지는 512GB SSD. 용량이 충분한지는 데이터 보관 방식에 달립니다",
+      "유선 LAN은 비탑재로 안내. 유선 연결이 필요하면 별도 어댑터 검토가 필요합니다",
+      "배터리 구동 시간은 약 8시간(표준)으로 안내. 실사용에서는 달라질 수 있으니 공식 주석을 확인하세요",
+      "게이밍 성능이나 체감 속도는 환경에 따라 달라지므로 여기서는 단정하지 않습니다",
+      "최신 가격·재고·보증은 공식 판매 페이지에서 확인해 주세요",
+    ],
+    summary:
+      "Acer Aspire Lite 15 AL15-74P-N76Y는 Windows 11 Home, Core Ultra 7 155H, 16GB 메모리, 512GB SSD, 15.6인치 풀HD IPS(비광택) 등을 갖춘 노트북으로 Acer 공식에서 안내합니다. 업무·일상용 후보로 스펙을 비교할 때 참고해 주세요. 사양 상세와 최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 공식 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "Acer Aspire Lite 15 AL15-74P-N76Y 노트북",
+  },
   "desk-setup-5-picks": {
     title: "데스크 환경을 정리하는 추천 5선｜체어·데스크를 엄선",
     seoTitle:

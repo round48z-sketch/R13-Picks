@@ -1,6 +1,68 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "acer-aspire-lite-15-al15-74p-n76y": {
+    title: "For work and everyday use. Acer Aspire Lite 15 AL15-74P-N76Y",
+    seoTitle:
+      "Acer Aspire Lite 15 AL15-74P-N76Y｜Core Ultra 7 laptop | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer Aspire Lite 15 AL15-74P-N76Y. Focused on the Windows 11 Home, Core Ultra 7 155H, 16GB memory, 512GB SSD, and 15.6-inch Full HD IPS configuration listed by Acer.",
+    productType: "Laptop",
+    excerpt:
+      "Core Ultra 7 155H, 16GB, 512GB. A 15.6-inch Full HD IPS Aspire Lite 15.",
+    intro:
+      "The Acer Aspire Lite 15 AL15-74P-N76Y is a 15.6-inch laptop sold on the Acer official online store. Official listings describe Windows 11 Home, an Intel Core Ultra 7 processor 155H, 16GB memory, a 512GB SSD, and a 15.6-inch Full HD IPS (matte) display. It is introduced here as a candidate when you want to compare a work or everyday laptop by official specs. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "AL15-74P-N76Y highlights",
+    points: [
+      "Model: AL15-74P-N76Y (part number NX.DKBSJ.002)",
+      "OS: Windows 11 Home 64-bit",
+      "Processor: Intel Core Ultra 7 processor 155H (1.4GHz base / up to 4.80GHz with Turbo Boost)",
+      "System memory: 16GB standard (SO-DIMM 8GB ×2); maximum listed as 24GB",
+      "Storage: 512GB SSD",
+      "Display: 15.6-inch Full HD (1920×1080), IPS panel, matte",
+      "Graphics: Intel Arc graphics (built into the main processor)",
+      "Webcam: about 2.07 megapixels with a privacy slider",
+      "Wireless: Wi-Fi 6 (IEEE 802.11 a/b/g/n/ac/ax), Bluetooth 5.1",
+      "180° hinge; microSD card reader",
+      "Interfaces include USB Type-C (with PD / video output support), USB Type-A, and HDMI",
+      "Dimensions about 359.3 × 18.9 × 230.2 mm (W×H×D); weight about 1,540 g",
+      "Battery life (standard) listed as about 8 hours (58Wh lithium-ion, built-in)",
+      "Includes a 100W USB Type-C AC adapter",
+    ],
+    sections: [
+      {
+        title: "What stands out in the specs",
+        body: "Official materials list an Intel Core Ultra 7 processor 155H, 16GB standard memory, and a 512GB SSD. The display is a 15.6-inch Full HD IPS panel (matte). Graphics are listed as Intel Arc graphics (processor-integrated). The OS is Windows 11 Home 64-bit. Confirm full numbers and the latest configuration in the official specification table.",
+      },
+      {
+        title: "Display, hinge, and camera",
+        body: "It is listed with a 15.6-inch Full HD (1920×1080) IPS panel and a matte finish. A 180° hinge is included, and the webcam is about 2.07 megapixels with a privacy slider. These are easy points to check for remote meetings or when you want the screen to open flat for documents.",
+      },
+      {
+        title: "Connectivity and portability",
+        body: "Wireless LAN is listed as Wi-Fi 6 compliant, and Bluetooth as 5.1. Interfaces include USB 3.2 Type-C (Gen 1, PD support, including video output on one port), USB Type-A, HDMI, and a microSD card reader. Body weight is about 1,540 g and thickness about 18.9 mm. Battery life (standard) is listed as about 8 hours (58Wh). Actual runtime varies with use—also check Acer’s notes.",
+      },
+      {
+        title: "Who it may suit",
+        body: "People considering a work laptop for documents, browsing, and online meetings. People who want a 15.6-inch Full HD IPS screen for everyday use. People comparing a Core Ultra 7 155H / 16GB / 512GB setup against other models on the official spec sheet. People checking a 180° hinge and a privacy-slider webcam for remote work.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Processor is Core Ultra 7 155H—match it to your workload using the official specs",
+      "Memory is listed as 16GB standard / 24GB max; user changes may void the warranty",
+      "Storage is a 512GB SSD—check whether the capacity fits how you keep files",
+      "Wired LAN is listed as not included; plan an adapter if you need Ethernet",
+      "Battery life is listed as about 8 hours (standard); real use can differ—read the official notes",
+      "We do not claim gaming performance or subjective speed here",
+      "Check the official product page for the latest price, stock, and warranty",
+    ],
+    summary:
+      "The Acer Aspire Lite 15 AL15-74P-N76Y is listed by Acer with Windows 11 Home, Core Ultra 7 155H, 16GB memory, a 512GB SSD, and a 15.6-inch Full HD IPS (matte) display. Use it as a reference when comparing work or everyday laptops by specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer Aspire Lite 15 AL15-74P-N76Y laptop",
+  },
   "desk-setup-5-picks": {
     title: "5 desk setup picks｜Chairs and desks to organize your workspace",
     seoTitle:

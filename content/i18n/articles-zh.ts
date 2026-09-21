@@ -1,6 +1,68 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "acer-aspire-lite-15-al15-74p-n76y": {
+    title: "兼顾工作与日常。Acer Aspire Lite 15 AL15-74P-N76Y",
+    seoTitle:
+      "Acer Aspire Lite 15 AL15-74P-N76Y｜搭载 Core Ultra 7 的笔记本 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Acer Aspire Lite 15 AL15-74P-N76Y。以 Windows 11 Home、Core Ultra 7 155H、16GB 内存、512GB SSD、15.6 英寸全高清 IPS 等官方可确认的配置为核心整理。",
+    productType: "笔记本电脑",
+    excerpt:
+      "Core Ultra 7 155H、16GB、512GB。15.6 英寸全高清 IPS 的 Aspire Lite 15。",
+    intro:
+      "Acer Aspire Lite 15 AL15-74P-N76Y 是 Acer 官方在线商店在售的 15.6 英寸笔记本电脑。官方说明配置包括 Windows 11 Home、英特尔 Core Ultra 7 处理器 155H、16GB 内存、512GB SSD、15.6 英寸全高清 IPS（雾面）等。适合想对照官方规格挑选工作或日常用笔记本时列入候选。价格与库存可能变动，最新价格与库存请在官方销售页面确认。",
+    pointsTitle: "AL15-74P-N76Y 的特点",
+    points: [
+      "型号为 AL15-74P-N76Y（部件号 NX.DKBSJ.002）",
+      "系统为 Windows 11 Home 64 位",
+      "处理器为英特尔 Core Ultra 7 处理器 155H（主频 1.4GHz / 涡轮加速最高 4.80GHz）",
+      "系统内存标准 16GB（SO-DIMM 8GB×2）；最大 24GB",
+      "存储为 512GB SSD",
+      "屏幕为 15.6 英寸、全高清（1920×1080）、IPS、雾面",
+      "显卡为英特尔 Arc 图形（集成于主处理器）",
+      "摄像头约 207 万像素，带滑动遮盖",
+      "无线为 Wi-Fi 6（IEEE802.11 a/b/g/n/ac/ax）、Bluetooth 5.1",
+      "180° 开合转轴；配备 microSD 读卡器",
+      "接口含 USB Type-C（含 PD／影像输出）、USB Type-A、HDMI 等",
+      "机身约 359.3 × 约 18.9 × 约 230.2 mm（宽×高×深）；重量约 1,540 g",
+      "电池续航（标准）约 8 小时（58Wh 锂离子，内置）",
+      "附件含 100W USB Type-C 电源适配器",
+    ],
+    sections: [
+      {
+        title: "规格特点",
+        body: "官方列出英特尔 Core Ultra 7 处理器 155H、标准 16GB 内存、512GB SSD。屏幕为 15.6 英寸全高清 IPS（雾面）。显卡为英特尔 Arc 图形（处理器集成）。系统为 Windows 11 Home 64 位。具体数值与最新配置请以官方销售页面规格表为准。",
+      },
+      {
+        title: "屏幕、转轴与摄像头",
+        body: "官方说明为 15.6 英寸全高清（1920×1080）IPS 雾面屏，具备 180° 开合转轴，摄像头约 207 万像素并带滑动遮盖。便于在居家会议或需要把屏幕展平查看资料时核对配置。",
+      },
+      {
+        title: "连接与便携",
+        body: "无线局域网为 Wi-Fi 6，蓝牙为 5.1。接口含 USB 3.2 Type-C（Gen 1、支持 PD，含影像输出端口）、USB Type-A、HDMI、microSD 读卡器等。机身约 1,540g，厚度约 18.9mm。电池续航（标准）约 8 小时（58Wh）。实际续航随使用方式变化，请一并查看官方注释。",
+      },
+      {
+        title: "适合怎样的用途",
+        body: "考虑文档、浏览与在线会议等工作用笔记本的人。希望 15.6 英寸全高清 IPS 满足日常屏幕尺寸的人。想对照官方规格比较 Core Ultra 7 155H、16GB、512GB 配置的人。想确认 180° 转轴与滑动遮盖摄像头等居家办公相关功能的人。",
+      },
+    ],
+    recommendedTitle: "选购时建议确认的要点",
+    recommendedFor: [
+      "处理器为 Core Ultra 7 155H，请对照官方规格与自身用途判断是否合适",
+      "内存标准 16GB／最大 24GB；说明用户自行更改可能不在保修范围内",
+      "存储为 512GB SSD，容量是否足够取决于文件存放方式",
+      "说明未搭载有线网口；需要有线连接时请另行考虑适配器",
+      "电池续航约 8 小时（标准）；实际使用可能有差异，请查看官方注释",
+      "本文不断言游戏性能或主观速度",
+      "最新价格、库存与保修请在官方销售页面确认",
+    ],
+    summary:
+      "Acer Aspire Lite 15 AL15-74P-N76Y 在 Acer 官方说明中配备 Windows 11 Home、Core Ultra 7 155H、16GB 内存、512GB SSD、15.6 英寸全高清 IPS（雾面）等。可作为对照工作与日常用途笔记本规格时的参考。规格详情与最新价格、库存请在官方销售页面确认。",
+    note: "最新价格与库存请在官方销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "Acer Aspire Lite 15 AL15-74P-N76Y 笔记本电脑",
+  },
   "desk-setup-5-picks": {
     title: "整理桌面环境的推荐5款｜精选座椅与书桌",
     seoTitle: "整理桌面环境的推荐5款｜办公椅与书桌 | R13 Picks",

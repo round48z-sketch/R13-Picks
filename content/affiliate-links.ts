@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "acer-aspire-lite-15-al15-74p-n76y":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+4J4UUI+5G54+BWGDT&a8ejpredirect=https%3A%2F%2Fstore.acer.com%2Fja-jp%2Facer-al15-74p-n76y",
   "tamas-te015":
     "https://px.a8.net/svt/ejp?a8mat=4BAFPE+62I4KA+54VA+BW0YB&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Fte015%2F",
   "epeios-okare-pulse":
