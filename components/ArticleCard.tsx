@@ -24,8 +24,9 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
       >
         <div
           className={
-            article.slug === "beauty-appliances-5-picks"
-              ? "article-card__image article-card__image--beauty-roundup-thumb"
+            article.slug === "beauty-appliances-5-picks" ||
+            article.slug === "desk-setup-5-picks"
+              ? "article-card__image article-card__image--roundup-5-thumb"
               : "article-card__image"
           }
         >
@@ -35,7 +36,8 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
             fill
             sizes="(max-width: 979px) 92vw, 420px"
             style={
-              article.slug === "beauty-appliances-5-picks"
+              article.slug === "beauty-appliances-5-picks" ||
+              article.slug === "desk-setup-5-picks"
                 ? { objectFit: "contain", objectPosition: "center" }
                 : { objectFit: "cover", objectPosition: "center" }
             }

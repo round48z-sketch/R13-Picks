@@ -1,6 +1,198 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "desk-setup-5-picks": {
+    title: "5 desk setup picks｜Chairs and desks to organize your workspace",
+    seoTitle:
+      "5 desk setup picks｜Office chairs and desks | R13 Picks",
+    description:
+      "Not a ranking—five chairs and desks organized by use and workspace fit: office chairs, desk chairs, and office desks, focused on who each may suit.",
+    productType: "Comparison / roundup",
+    excerpt:
+      "Office chairs, desk chairs, and office desks. Five picks to compare by use and desk setup.",
+    intro:
+      "A desk setup changes with the chair and desk you choose. This guide is not a price ranking. It organizes five products already covered on R13 Picks by use and workspace fit—office chairs, desk chairs, and office desks. The goal is not to crown a winner, but to help you see which environment and needs each may suit. Check each product page for the latest price and stock.",
+    pointsTitle: "What to check when building a desk setup",
+    points: [
+      "Type (office chair / desk chair / office desk)",
+      "How it fits the room (black-based look and overall tone)",
+      "Work style (remote work / longer desk sessions)",
+      "Storage and build (single/double pedestal, headrest, adjustable arms, and so on)",
+    ],
+    overviewTitle: "Models in this guide",
+    comparisonTable: {
+      title: "Comparison",
+      headers: ["Product", "Type", "Key notes", "Who it may suit"],
+      rows: [
+        [
+          "GTPLAYER CH488",
+          "Office chair",
+          "Black mesh · headrest · armrests",
+          "Anyone checking a black desk chair",
+        ],
+        [
+          "Okamura Sylphy C685XR-FMP1",
+          "Office chair",
+          "High back · mesh back · adjustable arms",
+          "Anyone considering a black-based work chair",
+        ],
+        [
+          "COFO Chair Lite",
+          "Office chair",
+          "Promesh · headrest · adjustable arms",
+          "Anyone checking a black mesh chair",
+        ],
+        [
+          "KOKUYO INVENT TKG-D127E6AM10N",
+          "Office desk",
+          "Single pedestal · black legs · W1200mm",
+          "Anyone wanting work surface and storage in one",
+        ],
+        [
+          "ITOKI CZR-147BAC-1W9",
+          "Office desk",
+          "Double pedestal · W1400mm · white top × black body",
+          "Anyone looking for a desk with solid storage",
+        ],
+      ],
+    },
+    picksTitle: "5 picks by use and desk setup",
+    pickFeaturesLabel: "Key notes",
+    pickRecommendedLabel: "Who it may suit",
+    picks: [
+      {
+        slug: "gtplayer-ch488",
+        name: "GTPLAYER ergonomic series CH488",
+        tagline: "A black mesh office chair for desk setups.",
+        shortLabel: "Black mesh chair",
+        priceGuide: "Office chair",
+        tags: ["Office chair", "Mesh", "Headrest"],
+        features: [
+          "Listed as an office chair; black mesh back",
+          "Headrest, armrests, and casters are confirmed",
+          "Presented as an ergonomic series; the official site lists a 1-year warranty",
+        ],
+        recommendedFor: [
+          "Anyone considering a black mesh desk chair",
+          "Anyone finishing a PC desk or remote-work space in black",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "okamura-sylphy-c685xr-fmp1",
+        name: "Okamura Sylphy series C685XR-FMP1",
+        tagline: "A black mesh-back work chair.",
+        shortLabel: "Sylphy work chair",
+        priceGuide: "Office chair",
+        tags: ["Office chair", "High back", "Adjustable arms"],
+        features: [
+          "Product page lists high back and adjustable arms; mesh back and cushion seat",
+          "Back and leg colors listed as black; five-star base with nylon dual-wheel casters",
+          "Sylphy series listings mention Good Design Award recognition",
+        ],
+        recommendedFor: [
+          "Anyone looking for a work chair for a black-unified desk setup",
+          "Anyone considering a mainstream mesh-back chair from a domestic brand",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "cofo-chair-lite",
+        name: "COFO Chair Lite",
+        tagline: "A black-based mesh work chair that fits desk spaces.",
+        shortLabel: "COFO chair",
+        priceGuide: "Office chair",
+        tags: ["Office chair", "Promesh", "Headrest"],
+        features: [
+          "Black body and leg colors available; back and seat listed as promesh",
+          "Headrest, adjustable arms, and hanger included",
+          "Weight listed as 20kg; casters are PU (polyurethane)",
+        ],
+        recommendedFor: [
+          "Anyone pairing a mesh chair with a black-based desk setup",
+          "Anyone checking a headrest model while balancing price and features",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "kokuyo-invent-tkg-d127e6am10n",
+        name: "KOKUYO INVENT series TKG-D127E6AM10N",
+        tagline: "An office desk that combines work surface and single-pedestal storage.",
+        shortLabel: "INVENT single-pedestal",
+        priceGuide: "Office desk",
+        tags: ["Office desk", "Single pedestal", "Black legs"],
+        features: [
+          "Single-pedestal desk; black body and white natural top (product page)",
+          "Size W1200 × D700 × H700mm; L-shaped steel legs",
+          "Two cable holes, tray, modesty panel; pedestal with cylinder lock / all-lock",
+        ],
+        recommendedFor: [
+          "Anyone wanting work space and storage in one desk",
+          "Anyone looking for a practical desk for remote work or office use in black/gray tones",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "itoki-czr-147bac-1w9",
+        name: "ITOKI CZR series CZR-147BAC-1W9",
+        tagline: "A calm office desk with double-pedestal storage.",
+        shortLabel: "CZR double-pedestal",
+        priceGuide: "Office desk",
+        tags: ["Office desk", "Double pedestal", "Storage"],
+        features: [
+          "Double-pedestal desk; white W top and black T body (product page)",
+          "Size W1400 × D700 × H720mm",
+          "Three drawers on each side (A4 standard); cylinder lock and shallow center drawer",
+        ],
+        recommendedFor: [
+          "Anyone looking for a desk with solid storage",
+          "Anyone wanting a practical desk that fits remote work and office use",
+        ],
+        linkLabel: "Read more",
+      },
+    ],
+    useCasesTitle: "If you choose by use or desk setup",
+    useCases: [
+      {
+        title: "Black mesh desk chair",
+        productName: "GTPLAYER CH488",
+        productSlug: "gtplayer-ch488",
+      },
+      {
+        title: "Black-based high-function work chair",
+        productName: "Okamura Sylphy C685XR-FMP1",
+        productSlug: "okamura-sylphy-c685xr-fmp1",
+      },
+      {
+        title: "Black mesh chair for a tidy look",
+        productName: "COFO Chair Lite",
+        productSlug: "cofo-chair-lite",
+      },
+      {
+        title: "Single pedestal for work and storage",
+        productName: "KOKUYO INVENT TKG-D127E6AM10N",
+        productSlug: "kokuyo-invent-tkg-d127e6am10n",
+      },
+      {
+        title: "Double pedestal for more storage",
+        productName: "ITOKI CZR-147BAC-1W9",
+        productSlug: "itoki-czr-147bac-1w9",
+      },
+    ],
+    recommendedTitle: "If you’re unsure, start from the use case",
+    recommendedFor: [
+      "Black mesh desk chair → GTPLAYER CH488",
+      "Black-based mesh work chair → Okamura Sylphy C685XR-FMP1",
+      "Black mesh chair with headrest → COFO Chair Lite",
+      "Single pedestal for work and storage → KOKUYO INVENT TKG-D127E6AM10N",
+      "Double pedestal for storage → ITOKI CZR-147BAC-1W9",
+    ],
+    summary:
+      "These five are candidates to compare by use and desk setup, not by price rank. Black mesh desk chair, mainstream work chair, mesh chair checked for price and features, single-pedestal desk, double-pedestal desk—start from the angle that interests you, then check each individual article and product page. Confirm full specs and the latest price and stock on each product page.",
+    note: "* Specs are based on each product page and existing individual articles. Check each sales page for the latest price and stock.",
+    ctaLabel: "Read more",
+    imageAlt: "Thumbnail collage for the 5 desk setup picks guide",
+  },
   "beauty-appliances-5-picks": {
     title: "5 beauty appliances｜Dryers, straighteners, and a stick facial device",
     seoTitle:
@@ -1537,7 +1729,7 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ],
     summary:
       "The ITOKI CZR-147BAC-1W9 is a double-pedestal office desk with a light top and black body. It makes it easier to balance storage and presence, and it pairs well with a calm desk setup. Check the product page for the latest price, stock, and full specifications.",
-    note: "Check the product page for the latest price, stock, and detailed specifications.",
+    note: "Check the product page for the latest price, stock, and detailed specifications. If you want to compare chairs and desks together, also see “5 desk setup picks”.",
     ctaLabel: "View product",
     imageAlt: "ITOKI CZR-147BAC-1W9 double-pedestal office desk",
   },
@@ -1583,7 +1775,7 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ],
     summary:
       "The KOKUYO INVENT TKG-D127E6AM10N is an office desk with black legs and single-pedestal storage. It pairs easily with black- or gray-based spaces and is a candidate when you want a work surface and storage in one. Check the product page for the latest price, stock, and full specifications.",
-    note: "Check the product page for the latest price and stock.",
+    note: "Check the product page for the latest price and stock. If you want to compare chairs and desks together, also see “5 desk setup picks”.",
     ctaLabel: "View product",
     imageAlt: "KOKUYO INVENT TKG-D127E6AM10N single-pedestal office desk",
   },
@@ -1628,7 +1820,7 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ],
     summary:
       "The COFO Chair Lite is a mesh-style office chair available in a black-based look. It has a configuration that is easy to check as a task chair, including a headrest and adjustable arms, and it pairs well with black-finished workspaces. Check the product page for the latest price, stock, and full specifications.",
-    note: "Check the product page for the latest price and stock.",
+    note: "Check the product page for the latest price and stock. If you want to compare chairs and desks together, also see “5 desk setup picks”.",
     ctaLabel: "View product",
     imageAlt: "Black COFO Chair Lite office chair",
   },
@@ -1673,7 +1865,7 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     ],
     summary:
       "The Okamura Sylphy C685XR-FMP1 is an office chair with a black-based mesh back. It pairs easily with a black-finished workspace, and its task-chair configuration is easy to confirm. Check the product page for the latest price, stock, and full specifications.",
-    note: "Check the product page for the latest price and stock.",
+    note: "Check the product page for the latest price and stock. If you want to compare chairs and desks together, also see “5 desk setup picks”.",
     ctaLabel: "View product",
     imageAlt: "Black Okamura Sylphy C685XR-FMP1 office chair",
   },
@@ -1926,7 +2118,7 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
     design: "A mesh look centered on black, with silver-toned parts as accents. It tones down the flashiness often associated with gaming chairs, so it pairs easily with black desk setups and spaces where PCs and gadgets are kept in black. A candidate when you want a calmer desk tone.",
     pairing: "Easy to place beside a black desk, monitor, keyboard, and other low-color workspaces. The coloring is not loud, so it also fits work and PC desk environments.",
     recommendedFor: ["Anyone looking for a black desk chair","Anyone considering a mesh chair","Anyone looking for a headrest model","Anyone who wants a black-coordinated PC desk or work-from-home setup","Anyone who wants an office chair that is not too flashy"],
-    note: "Check the official product page for the latest price, availability, and campaign information.",
+    note: "Check the official product page for the latest price, availability, and campaign information. If you want to compare chairs and desks together, also see “5 desk setup picks”.",
     ctaLabel: "View product",
     imageAlt: "Black GTPLAYER CH488 office chair",
   },

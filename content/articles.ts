@@ -90,6 +90,246 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "desk-setup-5-picks",
+    title: "デスク環境を整えるおすすめ5選｜チェア・デスクを厳選",
+    seoTitle:
+      "デスク環境を整えるおすすめ5選｜オフィスチェア・デスク | R13 Picks",
+    description:
+      "順位付けではなく、用途やデスク環境に合わせて選ぶチェア・デスク5選。オフィスチェア、デスクチェア、オフィスデスクを、向いている人の視点で整理します。",
+    category: "desk",
+    productName: "デスク環境を整えるおすすめ5選",
+    productType: "比較・まとめ記事",
+    publishedAt: "2026-09-21",
+    image: {
+      src: "/images/articles/gtplayer-ch488.png",
+      alt: "デスク環境を整えるおすすめ5選のテーマビジュアル",
+      width: 1600,
+      height: 1600,
+    },
+    thumbnailImage: {
+      src: "/images/articles/desk-setup-5-picks-collage.jpg",
+      alt: "デスク環境を整えるおすすめ5選のまとめサムネイル",
+      width: 800,
+      height: 1000,
+    },
+    excerpt:
+      "オフィスチェア・デスクチェア・オフィスデスク。用途とデスク環境で選ぶ5選。",
+    intro:
+      "デスク環境は、チェアとデスクの組み合わせによって印象も使い方も変わります。この記事では価格の順位付けではなく、オフィスチェア、デスクチェア、オフィスデスクといった用途やデスク環境づくりの切り口から、R13 Picksで紹介している5製品を整理します。優劣を決めるのではなく、どんな環境・どんな人に向いているかを見比べるためのまとめです。最新の価格・在庫は各販売ページで確認してください。",
+    pointsTitle: "デスク環境を整えるときの選び方",
+    points: [
+      "種類（オフィスチェア／デスクチェア／オフィスデスク）",
+      "デスク環境へのなじみやすさ（ブラック基調・見た目のトーン）",
+      "作業スタイル（在宅ワーク・長時間のデスク作業向けか）",
+      "収納や構成（片袖／両袖、ヘッドレスト・可動肘の有無など）",
+    ],
+    overviewTitle: "掲載モデル一覧",
+    comparisonTable: {
+      title: "比較表",
+      headers: ["商品名", "種類", "主な特徴", "向いている人"],
+      rows: [
+        [
+          "GTPLAYER CH488",
+          "オフィスチェア",
+          "黒メッシュ・ヘッドレスト・アームレスト",
+          "黒でまとめるデスクチェアを見たい人",
+        ],
+        [
+          "Okamura Sylphy C685XR-FMP1",
+          "オフィスチェア",
+          "ハイバック・メッシュ背・可動肘",
+          "黒基調のワークチェアを検討したい人",
+        ],
+        [
+          "COFO Chair Lite",
+          "オフィスチェア",
+          "プロメッシュ・ヘッドレスト・可動肘",
+          "黒で整えるメッシュチェアを見たい人",
+        ],
+        [
+          "KOKUYO INVENT TKG-D127E6AM10N",
+          "オフィスデスク",
+          "片袖・ブラック脚・幅1200mm",
+          "作業面と収納をひとつにしたい人",
+        ],
+        [
+          "ITOKI CZR-147BAC-1W9",
+          "オフィスデスク",
+          "両袖・幅1400mm・ホワイト天板×ブラック本体",
+          "収納力のあるデスクを探している人",
+        ],
+      ],
+    },
+    picksTitle: "用途・デスク環境別おすすめ5選",
+    pickFeaturesLabel: "主な特徴",
+    pickRecommendedLabel: "こんな人に向いている",
+    picks: [
+      {
+        slug: "gtplayer-ch488",
+        name: "GTPLAYER 人間工学シリーズ CH488",
+        tagline: "黒メッシュで整える、デスク向けのオフィスチェア。",
+        shortLabel: "黒メッシュチェア",
+        priceGuide: "オフィスチェア",
+        tags: ["オフィスチェア", "メッシュ", "ヘッドレスト"],
+        features: [
+          "公式ではオフィスチェアとして紹介。ブラックのメッシュ背もたれ",
+          "ヘッドレスト、アームレスト、キャスター付きの構成が確認できる",
+          "メーカーでは人間工学シリーズとして案内。公式サイトでは1年保証を案内",
+        ],
+        recommendedFor: [
+          "黒いデスクチェア・メッシュタイプを検討している人",
+          "PCデスクや在宅ワーク環境を黒でまとめたい人",
+        ],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/gtplayer-ch488.png",
+          alt: "黒いGTPLAYER CH488のオフィスチェア",
+          width: 1600,
+          height: 1600,
+        },
+      },
+      {
+        slug: "okamura-sylphy-c685xr-fmp1",
+        name: "オカムラ Sylphy（シルフィー）シリーズ C685XR-FMP1",
+        tagline: "黒で整うメッシュバックのワークチェア。",
+        shortLabel: "Sylphy ワークチェア",
+        priceGuide: "オフィスチェア",
+        tags: ["オフィスチェア", "ハイバック", "可動肘"],
+        features: [
+          "販売ページではハイバック・可動肘。背はメッシュ、座はクッション",
+          "背カラー・脚カラーはブラック。5本脚、ナイロン双輪キャスター",
+          "Sylphyシリーズはグッドデザイン賞などの受賞が案内されている",
+        ],
+        recommendedFor: [
+          "黒で統一したデスク環境向けのワークチェアを探している人",
+          "国内メーカーの定番メッシュバックチェアを候補にしたい人",
+        ],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/okamura-sylphy-c685xr-fmp1.jpg",
+          alt: "黒いオカムラ Sylphy C685XR-FMP1のオフィスチェア",
+          width: 960,
+          height: 960,
+        },
+      },
+      {
+        slug: "cofo-chair-lite",
+        name: "COFO Chair Lite",
+        tagline: "黒基調のメッシュで、デスク空間に合わせやすいワークチェア。",
+        shortLabel: "COFO チェア",
+        priceGuide: "オフィスチェア",
+        tags: ["オフィスチェア", "プロメッシュ", "ヘッドレスト"],
+        features: [
+          "ボディ・脚カラーにブラックあり。背・座はプロメッシュ（販売ページ案内）",
+          "ヘッドレスト付き、可動肘付き、ハンガー付き",
+          "重量は20kg。キャスターはPU（ポリウレタン）",
+        ],
+        recommendedFor: [
+          "黒基調のデスク環境にメッシュ系チェアを合わせたい人",
+          "ヘッドレスト付きモデルを候補にしつつ価格と機能のバランスを見たい人",
+        ],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/cofo-chair-lite.jpg",
+          alt: "黒いCOFO Chair Liteのオフィスチェア",
+          width: 480,
+          height: 480,
+        },
+      },
+      {
+        slug: "kokuyo-invent-tkg-d127e6am10n",
+        name: "KOKUYO INVENT（インベント）シリーズ TKG-D127E6AM10N",
+        tagline: "作業面と片袖収納をひとつにまとめるオフィスデスク。",
+        shortLabel: "INVENT 片袖デスク",
+        priceGuide: "オフィスデスク",
+        tags: ["オフィスデスク", "片袖", "ブラック脚"],
+        features: [
+          "片袖机タイプ。本体ブラック、天板ホワイトナチュラル（販売ページ案内）",
+          "サイズは幅1200mm、奥行700mm、高さ700mm。L字脚（スチール）",
+          "配線穴2箇所、トレー付き、幕板付き。袖はシリンダー錠／オールロック",
+        ],
+        recommendedFor: [
+          "作業スペースと収納をひとつのデスクでまとめたい人",
+          "黒やグレー基調の在宅ワーク／オフィス向けデスクを探している人",
+        ],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/kokuyo-invent-tkg-d127e6am10n.jpg",
+          alt: "コクヨ INVENT TKG-D127E6AM10Nの片袖オフィスデスク",
+          width: 480,
+          height: 480,
+        },
+      },
+      {
+        slug: "itoki-czr-147bac-1w9",
+        name: "ITOKI CZR（シーゼットアール）シリーズ CZR-147BAC-1W9",
+        tagline: "両袖で収納力を確保しやすい、落ち着いたオフィスデスク。",
+        shortLabel: "CZR 両袖デスク",
+        priceGuide: "オフィスデスク",
+        tags: ["オフィスデスク", "両袖", "収納"],
+        features: [
+          "両袖机タイプ。天板ホワイトW、本体ブラックT（販売ページ案内）",
+          "サイズは幅1400mm、奥行700mm、高さ720mm",
+          "左右とも袖引き出し3段（A4標準）。シリンダー錠、浅型センター引出し付き",
+        ],
+        recommendedFor: [
+          "収納力のあるデスクを探している人",
+          "在宅ワークにもオフィスにもなじむ実用的なデスクがほしい人",
+        ],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/itoki-czr-147bac-1w9.jpg",
+          alt: "ITOKI CZR-147BAC-1W9の両袖オフィスデスク",
+          width: 480,
+          height: 480,
+        },
+      },
+    ],
+    useCasesTitle: "用途・デスク環境の切り口で選ぶなら",
+    useCases: [
+      {
+        title: "黒メッシュのデスクチェア",
+        productName: "GTPLAYER CH488",
+        productSlug: "gtplayer-ch488",
+      },
+      {
+        title: "黒基調の高機能ワークチェア",
+        productName: "Okamura Sylphy C685XR-FMP1",
+        productSlug: "okamura-sylphy-c685xr-fmp1",
+      },
+      {
+        title: "黒で整えるメッシュチェア",
+        productName: "COFO Chair Lite",
+        productSlug: "cofo-chair-lite",
+      },
+      {
+        title: "片袖で作業と収納をひとつに",
+        productName: "KOKUYO INVENT TKG-D127E6AM10N",
+        productSlug: "kokuyo-invent-tkg-d127e6am10n",
+      },
+      {
+        title: "両袖で収納力を確保",
+        productName: "ITOKI CZR-147BAC-1W9",
+        productSlug: "itoki-czr-147bac-1w9",
+      },
+    ],
+    recommendedTitle: "迷ったら、用途から選ぶ",
+    recommendedFor: [
+      "黒メッシュのデスクチェアなら → GTPLAYER CH488",
+      "黒基調のメッシュワークチェアなら → Okamura Sylphy C685XR-FMP1",
+      "ヘッドレスト付きの黒メッシュチェアなら → COFO Chair Lite",
+      "片袖で作業と収納をまとめたいなら → KOKUYO INVENT TKG-D127E6AM10N",
+      "両袖で収納力を確保したいなら → ITOKI CZR-147BAC-1W9",
+    ],
+    summary:
+      "この5製品は、価格の順位ではなく用途やデスク環境の違いで見比べるための候補です。黒メッシュのデスクチェア、定番系のワークチェア、コスパを見ながら選ぶメッシュチェア、片袖デスク、両袖デスク——気になる切り口から個別記事と販売ページを確認するのが選びやすい進め方です。仕様の詳細と最新の価格・在庫は、各販売ページで確認してください。",
+    note: "※仕様は各販売ページおよび既存個別記事の案内に基づきます。最新の価格・在庫は各販売ページで確認してください。",
+    ctaLabel: "詳しく見る",
+    featured: true,
+    hideAffiliateCta: true,
+    layout: "roundup",
+  },
+  {
     slug: "beauty-appliances-5-picks",
     title: "美容家電おすすめ5選｜ドライヤー・ヘアアイロン・美顔器を厳選",
     seoTitle:
@@ -2613,7 +2853,7 @@ export const articles: Article[] = [
     ],
     summary:
       "ITOKI CZR-147BAC-1W9は、白系天板とブラック系本体の両袖オフィスデスクです。収納力と重厚感を両立しやすく、落ち着いたデスク環境にも合わせやすい一台です。最新の価格・在庫と仕様の詳細は、販売ページで確認してください。",
-    note: "最新の価格・在庫と詳細仕様は販売ページで確認してください。",
+    note: "最新の価格・在庫と詳細仕様は販売ページで確認してください。チェアとデスクの組み合わせを見たい場合は、「デスク環境を整えるおすすめ5選」も参考にしてください。",
     ctaLabel: "商品を見る",
     featured: true,
   },
@@ -2669,7 +2909,7 @@ export const articles: Article[] = [
     ],
     summary:
       "コクヨ INVENT TKG-D127E6AM10Nは、ブラック脚部と片袖収納を備えたオフィスデスクです。黒やグレー基調の空間にも合わせやすく、作業面と収納をひとつにまとめたい場合の候補になります。最新の価格・在庫と仕様の詳細は、販売ページで確認してください。",
-    note: "最新の価格・在庫は販売ページで確認してください。",
+    note: "最新の価格・在庫は販売ページで確認してください。チェアとデスクの組み合わせを見たい場合は、「デスク環境を整えるおすすめ5選」も参考にしてください。",
     ctaLabel: "商品を見る",
     featured: true,
   },
@@ -2724,7 +2964,7 @@ export const articles: Article[] = [
     ],
     summary:
       "COFO Chair Liteは、ブラック基調で選べるメッシュ系のオフィスチェアです。ヘッドレストや可動肘など、作業用チェアとして確認しやすい構成があり、黒でまとめたワークスペースにも合わせやすい見た目です。最新の価格・在庫と仕様の詳細は、販売ページで確認してください。",
-    note: "最新の価格・在庫は販売ページで確認してください。",
+    note: "最新の価格・在庫は販売ページで確認してください。チェアとデスクの組み合わせを見たい場合は、「デスク環境を整えるおすすめ5選」も参考にしてください。",
     ctaLabel: "商品を見る",
     featured: true,
   },
@@ -2779,7 +3019,7 @@ export const articles: Article[] = [
     ],
     summary:
       "オカムラ Sylphy C685XR-FMP1は、ブラック基調のメッシュバックを持つオフィスチェアです。黒で整えたワークスペースに合わせやすく、作業用チェアとしての構成も確認しやすいモデルです。最新の価格・在庫と仕様の詳細は、販売ページで確認してください。",
-    note: "最新の価格・在庫は販売ページで確認してください。",
+    note: "最新の価格・在庫は販売ページで確認してください。チェアとデスクの組み合わせを見たい場合は、「デスク環境を整えるおすすめ5選」も参考にしてください。",
     ctaLabel: "商品を見る",
     featured: true,
   },
@@ -3744,7 +3984,7 @@ export const articles: Article[] = [
       "PCデスクや在宅ワーク環境を黒でまとめたい人",
       "派手すぎないオフィスチェアを選びたい人",
     ],
-    note: "最新の価格・在庫・キャンペーン情報は公式商品ページをご確認ください。",
+    note: "最新の価格・在庫・キャンペーン情報は公式商品ページをご確認ください。チェアとデスクの組み合わせを見たい場合は、「デスク環境を整えるおすすめ5選」も参考にしてください。",
     ctaLabel: "商品を見る",
     featured: true,
   },

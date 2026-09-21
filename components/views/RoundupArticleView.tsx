@@ -51,10 +51,12 @@ export function RoundupArticleView({
   const table = article.comparisonTable;
   const headers = table?.headers ?? [];
 
-  const roundupPageClass =
-    article.slug === "beauty-appliances-5-picks"
-      ? "article-page article-page--roundup roundup-page roundup-page--beauty-5"
-      : "article-page article-page--roundup roundup-page";
+  const isFivePicksRoundup =
+    article.slug === "beauty-appliances-5-picks" ||
+    article.slug === "desk-setup-5-picks";
+  const roundupPageClass = isFivePicksRoundup
+    ? "article-page article-page--roundup roundup-page roundup-page--picks-5"
+    : "article-page article-page--roundup roundup-page";
 
   return (
     <article className={roundupPageClass}>

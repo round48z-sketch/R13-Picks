@@ -373,12 +373,12 @@ h3 {
   border-radius: 4px;
 }
 
-/* 美容家電5選サムネ専用: 余白過多のcover裁断を避け、商品群を大きく見せる */
-.article-card__image--beauty-roundup-thumb {
+/* 5商品まとめサムネ専用: 余白過多のcover裁断を避け、商品群を大きく見せる */
+.article-card__image--roundup-5-thumb {
   background: #0b0b0b;
 }
 
-.article-card__image--beauty-roundup-thumb img {
+.article-card__image--roundup-5-thumb img {
   object-fit: contain !important;
   filter: saturate(0.7) brightness(0.96);
 }
@@ -1293,8 +1293,8 @@ h3 {
     padding: 6px;
   }
 
-  /* 美容家電5選専用: 親をwidth100%+flex中央、stripは5列で中央配置 */
-  .roundup-page--beauty-5 .roundup-hero__strip-wrap {
+  /* 5商品まとめ専用: 親をwidth100%+flex中央、stripは5列で中央配置 */
+  .roundup-page--picks-5 .roundup-hero__strip-wrap {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -1303,7 +1303,7 @@ h3 {
     padding-right: 20px;
   }
 
-  .roundup-page--beauty-5 .roundup-hero__strip {
+  .roundup-page--picks-5 .roundup-hero__strip {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     width: 100%;
@@ -1430,7 +1430,7 @@ h3 {
     padding: 8px;
   }
 
-  .roundup-page--beauty-5 .roundup-hero__strip-wrap {
+  .roundup-page--picks-5 .roundup-hero__strip-wrap {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -1438,7 +1438,7 @@ h3 {
     padding-right: 24px;
   }
 
-  .roundup-page--beauty-5 .roundup-hero__strip {
+  .roundup-page--picks-5 .roundup-hero__strip {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     width: 100%;
     max-width: 960px;
@@ -1499,7 +1499,7 @@ h3 {
     gap: 12px;
   }
 
-  .roundup-page--beauty-5 .roundup-hero__strip-wrap {
+  .roundup-page--picks-5 .roundup-hero__strip-wrap {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -1507,7 +1507,7 @@ h3 {
     box-sizing: border-box;
   }
 
-  .roundup-page--beauty-5 .roundup-hero__strip {
+  .roundup-page--picks-5 .roundup-hero__strip {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     width: 100%;
     max-width: 960px;

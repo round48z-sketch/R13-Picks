@@ -1,6 +1,198 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "desk-setup-5-picks": {
+    title: "데스크 환경을 정리하는 추천 5선｜체어·데스크를 엄선",
+    seoTitle:
+      "데스크 환경을 정리하는 추천 5선｜오피스 체어·데스크 | R13 Picks",
+    description:
+      "순위가 아니라 용도와 데스크 환경에 맞춰 고르는 체어·데스크 5선. 오피스 체어, 데스크 체어, 오피스 데스크를 어울리는 사람 관점으로 정리합니다.",
+    productType: "비교·모음 기사",
+    excerpt:
+      "오피스 체어·데스크 체어·오피스 데스크. 용도와 데스크 환경으로 고르는 5선.",
+    intro:
+      "데스크 환경은 체어와 데스크 조합에 따라 인상과 쓰임이 달라집니다. 이 글에서는 가격 순위가 아니라 오피스 체어, 데스크 체어, 오피스 데스크 같은 용도와 데스크 환경 만들기 관점에서 R13 Picks에서 소개한 5제품을 정리합니다. 우열을 가르기보다, 어떤 환경·어떤 사람에게 맞는지 비교하기 위한 모음입니다. 최신 가격·재고는 각 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "데스크 환경을 정리할 때의 고르는 법",
+    points: [
+      "종류(오피스 체어 / 데스크 체어 / 오피스 데스크)",
+      "데스크 환경과의 조화(블랙 기조·외관 톤)",
+      "작업 스타일(재택근무·장시간 데스크 작업에 맞는지)",
+      "수납과 구성(편수/양수, 헤드레스트·가동 팔걸이 유무 등)",
+    ],
+    overviewTitle: "수록 모델 목록",
+    comparisonTable: {
+      title: "비교표",
+      headers: ["상품명", "종류", "주요 특징", "어울리는 사람"],
+      rows: [
+        [
+          "GTPLAYER CH488",
+          "오피스 체어",
+          "블랙 메시·헤드레스트·암레스트",
+          "블랙으로 맞추는 데스크 체어를 보는 사람",
+        ],
+        [
+          "Okamura Sylphy C685XR-FMP1",
+          "오피스 체어",
+          "하이백·메시 등·가동 팔걸이",
+          "블랙 기조 워크 체어를 검토하는 사람",
+        ],
+        [
+          "COFO Chair Lite",
+          "오피스 체어",
+          "프로메시·헤드레스트·가동 팔걸이",
+          "블랙으로 정리하는 메시 체어를 보는 사람",
+        ],
+        [
+          "KOKUYO INVENT TKG-D127E6AM10N",
+          "오피스 데스크",
+          "편수·블랙 다리·폭 1200mm",
+          "작업면과 수납을 하나로 원하는 사람",
+        ],
+        [
+          "ITOKI CZR-147BAC-1W9",
+          "오피스 데스크",
+          "양수·폭 1400mm·화이트 상판×블랙 본체",
+          "수납력 있는 데스크를 찾는 사람",
+        ],
+      ],
+    },
+    picksTitle: "용도·데스크 환경별 추천 5선",
+    pickFeaturesLabel: "주요 특징",
+    pickRecommendedLabel: "이런 사람에게 맞음",
+    picks: [
+      {
+        slug: "gtplayer-ch488",
+        name: "GTPLAYER 인체공학 시리즈 CH488",
+        tagline: "블랙 메시로 정리하는 데스크용 오피스 체어.",
+        shortLabel: "블랙 메시 체어",
+        priceGuide: "오피스 체어",
+        tags: ["오피스 체어", "메시", "헤드레스트"],
+        features: [
+          "공식에서는 오피스 체어로 소개. 블랙 메시 등받이",
+          "헤드레스트, 암레스트, 캐스터 구성을 확인할 수 있음",
+          "제조사는 인체공학 시리즈로 안내. 공식 사이트는 1년 보증을 안내",
+        ],
+        recommendedFor: [
+          "블랙 데스크 체어·메시 타입을 검토하는 사람",
+          "PC 데스크나 재택 환경을 블랙으로 맞추고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "okamura-sylphy-c685xr-fmp1",
+        name: "오카무라 Sylphy(실피) 시리즈 C685XR-FMP1",
+        tagline: "블랙으로 정돈되는 메시 백 워크 체어.",
+        shortLabel: "Sylphy 워크 체어",
+        priceGuide: "오피스 체어",
+        tags: ["오피스 체어", "하이백", "가동 팔걸이"],
+        features: [
+          "판매 페이지는 하이백·가동 팔걸이. 등은 메시, 좌면은 쿠션",
+          "등·다리 컬러는 블랙. 5본 다리, 나일론 쌍륜 캐스터",
+          "Sylphy 시리즈는 굿디자인상 등의 수상이 안내되어 있음",
+        ],
+        recommendedFor: [
+          "블랙으로 통일한 데스크용 워크 체어를 찾는 사람",
+          "국내 브랜드 정번 메시 백 체어를 후보로 두고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "cofo-chair-lite",
+        name: "COFO Chair Lite",
+        tagline: "블랙 기조 메시로 데스크 공간에 맞추기 쉬운 워크 체어.",
+        shortLabel: "COFO 체어",
+        priceGuide: "오피스 체어",
+        tags: ["오피스 체어", "프로메시", "헤드레스트"],
+        features: [
+          "바디·다리 컬러에 블랙 있음. 등·좌면은 프로메시(판매 페이지 안내)",
+          "헤드레스트 포함, 가동 팔걸이 포함, 행거 포함",
+          "중량 20kg. 캐스터는 PU(폴리우레탄)",
+        ],
+        recommendedFor: [
+          "블랙 기조 데스크에 메시 체어를 맞추고 싶은 사람",
+          "헤드레스트 모델을 후보로 두며 가격과 기능 균형을 보고 싶은 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "kokuyo-invent-tkg-d127e6am10n",
+        name: "KOKUYO INVENT(인벤트) 시리즈 TKG-D127E6AM10N",
+        tagline: "작업면과 편수 수납을 하나로 정리하는 오피스 데스크.",
+        shortLabel: "INVENT 편수 데스크",
+        priceGuide: "오피스 데스크",
+        tags: ["오피스 데스크", "편수", "블랙 다리"],
+        features: [
+          "편수형. 본체 블랙, 상판 화이트 내추럴(판매 페이지 안내)",
+          "크기 폭 1200mm, 깊이 700mm, 높이 700mm. L자 다리(스틸)",
+          "배선 구멍 2곳, 트레이·막판 포함. 소는 실린더 자물쇠/올록",
+        ],
+        recommendedFor: [
+          "작업 공간과 수납을 하나의 데스크로 정리하고 싶은 사람",
+          "블랙·그레이 기조의 재택/오피스용 데스크를 찾는 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "itoki-czr-147bac-1w9",
+        name: "ITOKI CZR(시제트아르) 시리즈 CZR-147BAC-1W9",
+        tagline: "양수로 수납을 확보하기 쉬운 차분한 오피스 데스크.",
+        shortLabel: "CZR 양수 데스크",
+        priceGuide: "오피스 데스크",
+        tags: ["오피스 데스크", "양수", "수납"],
+        features: [
+          "양수형. 상판 화이트W, 본체 블랙T(판매 페이지 안내)",
+          "크기 폭 1400mm, 깊이 700mm, 높이 720mm",
+          "좌우 소 서랍 3단(A4 표준). 실린더 자물쇠, 얕은 센터 서랍",
+        ],
+        recommendedFor: [
+          "수납력 있는 데스크를 찾는 사람",
+          "재택과 오피스 모두에 맞는 실용 데스크가 필요한 사람",
+        ],
+        linkLabel: "자세히 보기",
+      },
+    ],
+    useCasesTitle: "용도·데스크 환경 관점으로 고른다면",
+    useCases: [
+      {
+        title: "블랙 메시 데스크 체어",
+        productName: "GTPLAYER CH488",
+        productSlug: "gtplayer-ch488",
+      },
+      {
+        title: "블랙 기조 고기능 워크 체어",
+        productName: "Okamura Sylphy C685XR-FMP1",
+        productSlug: "okamura-sylphy-c685xr-fmp1",
+      },
+      {
+        title: "블랙으로 정리하는 메시 체어",
+        productName: "COFO Chair Lite",
+        productSlug: "cofo-chair-lite",
+      },
+      {
+        title: "편수로 작업과 수납을 하나로",
+        productName: "KOKUYO INVENT TKG-D127E6AM10N",
+        productSlug: "kokuyo-invent-tkg-d127e6am10n",
+      },
+      {
+        title: "양수로 수납력 확보",
+        productName: "ITOKI CZR-147BAC-1W9",
+        productSlug: "itoki-czr-147bac-1w9",
+      },
+    ],
+    recommendedTitle: "고민되면 용도부터",
+    recommendedFor: [
+      "블랙 메시 데스크 체어 → GTPLAYER CH488",
+      "블랙 기조 메시 워크 체어 → Okamura Sylphy C685XR-FMP1",
+      "헤드레스트 포함 블랙 메시 체어 → COFO Chair Lite",
+      "편수로 작업·수납 정리 → KOKUYO INVENT TKG-D127E6AM10N",
+      "양수로 수납 확보 → ITOKI CZR-147BAC-1W9",
+    ],
+    summary:
+      "이 5제품은 가격 순위가 아니라 용도와 데스크 환경 차이로 비교하기 위한 후보입니다. 블랙 메시 데스크 체어, 정번형 워크 체어, 가격·기능을 보며 고르는 메시 체어, 편수 데스크, 양수 데스크—관심 있는 관점에서 개별 기사와 판매 페이지를 확인하는 편이 고르기 쉽습니다. 사양 상세와 최신 가격·재고는 각 판매 페이지에서 확인해 주세요.",
+    note: "※사양은 각 판매 페이지 및 기존 개별 기사 안내를 바탕으로 합니다. 최신 가격·재고는 각 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "자세히 보기",
+    imageAlt: "데스크 환경 추천 5선 모음 썸네일",
+  },
   "beauty-appliances-5-picks": {
     title: "뷰티 가전 추천 5선｜드라이어·헤어 아이론·미용기 엄선",
     seoTitle:
@@ -1536,7 +1728,7 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
     ],
     summary:
       "ITOKI CZR-147BAC-1W9은 밝은 상판과 블랙 계열 본체의 양수 오피스 데스크입니다. 수납력과 중후함을 양립하기 쉽고, 차분한 데스크 환경에도 맞추기 쉬운 한 대입니다. 최신 가격·재고와 사양 상세는 판매 페이지에서 확인해 주세요.",
-    note: "최신 가격·재고와 상세 사양은 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고와 상세 사양은 판매 페이지에서 확인해 주세요. 체어와 데스크 조합을 보고 싶다면 「데스크 환경을 정리하는 추천 5선」도 참고해 주세요.",
     ctaLabel: "상품 보기",
     imageAlt: "ITOKI CZR-147BAC-1W9 양수 오피스 데스크",
   },
@@ -1582,7 +1774,7 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
     ],
     summary:
       "코쿠요 INVENT TKG-D127E6AM10N은 블랙 다리와 편수 수납을 갖춘 오피스 데스크입니다. 블랙·그레이 기조 공간에도 맞추기 쉽고, 작업면과 수납을 하나로 정리하고 싶을 때의 후보가 됩니다. 최신 가격·재고와 사양 상세는 판매 페이지에서 확인해 주세요.",
-    note: "최신 가격·재고는 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 판매 페이지에서 확인해 주세요. 체어와 데스크 조합을 보고 싶다면 「데스크 환경을 정리하는 추천 5선」도 참고해 주세요.",
     ctaLabel: "상품 보기",
     imageAlt: "코쿠요 INVENT TKG-D127E6AM10N 편수 오피스 데스크",
   },
@@ -1627,7 +1819,7 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
     ],
     summary:
       "COFO Chair Lite는 블랙 기조로 고를 수 있는 메시 계열 오피스 체어입니다. 헤드레스트와 가동 팔걸이 등 작업용 체어로서 확인하기 쉬운 구성이 있고, 블랙으로 정리한 워크스페이스에도 맞추기 쉬운 외관입니다. 최신 가격·재고와 사양 상세는 판매 페이지에서 확인해 주세요.",
-    note: "최신 가격·재고는 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 판매 페이지에서 확인해 주세요. 체어와 데스크 조합을 보고 싶다면 「데스크 환경을 정리하는 추천 5선」도 참고해 주세요.",
     ctaLabel: "상품 보기",
     imageAlt: "블랙 COFO Chair Lite 오피스 체어",
   },
@@ -1672,7 +1864,7 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
     ],
     summary:
       "오카무라 Sylphy C685XR-FMP1은 블랙 기조의 메시 백을 가진 오피스 체어입니다. 블랙으로 정돈한 워크스페이스에 맞추기 쉽고, 작업용 체어로서의 구성도 확인하기 쉬운 모델입니다. 최신 가격·재고와 사양 상세는 판매 페이지에서 확인해 주세요.",
-    note: "최신 가격·재고는 판매 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고는 판매 페이지에서 확인해 주세요. 체어와 데스크 조합을 보고 싶다면 「데스크 환경을 정리하는 추천 5선」도 참고해 주세요.",
     ctaLabel: "상품 보기",
     imageAlt: "블랙 오카무라 Sylphy C685XR-FMP1 오피스 체어",
   },
@@ -2501,7 +2693,7 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
       "PC 데스크나 재택근무 환경을 블랙으로 정리하고 싶은 사람",
       "너무 화려하지 않은 오피스 체어를 고르고 싶은 사람",
     ],
-    note: "최신 가격·재고·프로모션 정보는 공식 상품 페이지에서 확인해 주세요.",
+    note: "최신 가격·재고·프로모션 정보는 공식 상품 페이지에서 확인해 주세요. 체어와 데스크 조합을 보고 싶다면 「데스크 환경을 정리하는 추천 5선」도 참고해 주세요.",
     ctaLabel: "상품 보기",
     imageAlt: "블랙 GTPLAYER CH488 오피스 체어",
   },

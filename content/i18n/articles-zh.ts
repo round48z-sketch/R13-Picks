@@ -1,6 +1,196 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "desk-setup-5-picks": {
+    title: "整理桌面环境的推荐5款｜精选座椅与书桌",
+    seoTitle: "整理桌面环境的推荐5款｜办公椅与书桌 | R13 Picks",
+    description:
+      "不是排名，而是按用途与桌面环境挑选的座椅与书桌5款。办公椅、电脑椅、办公桌，从适合人群的角度整理。",
+    productType: "对比 / 汇总文章",
+    excerpt: "办公椅、电脑椅与办公桌。按用途与桌面环境挑选的5款。",
+    intro:
+      "桌面环境会因座椅与书桌的组合而改变印象与用法。本文不是价格排名，而是从办公椅、电脑椅、办公桌等用途与桌面环境搭建的角度，整理 R13 Picks 已介绍的5款产品。目的不是分出优劣，而是帮助你对照适合怎样的环境与人群。最新价格与库存请在各销售页面确认。",
+    pointsTitle: "整理桌面环境时的挑选要点",
+    points: [
+      "类型（办公椅 / 电脑椅 / 办公桌）",
+      "与桌面环境的契合度（黑色基调、外观色调）",
+      "工作方式（居家办公、较长时间的桌面作业）",
+      "收纳与结构（单边柜/双边柜、头枕与可调扶手等）",
+    ],
+    overviewTitle: "收录型号一览",
+    comparisonTable: {
+      title: "对比表",
+      headers: ["商品名", "类型", "主要特点", "适合的人"],
+      rows: [
+        [
+          "GTPLAYER CH488",
+          "办公椅",
+          "黑色网布·头枕·扶手",
+          "想看黑色电脑椅的人",
+        ],
+        [
+          "Okamura Sylphy C685XR-FMP1",
+          "办公椅",
+          "高背·网布靠背·可调扶手",
+          "考虑黑色基调工作椅的人",
+        ],
+        [
+          "COFO Chair Lite",
+          "办公椅",
+          "ProMesh·头枕·可调扶手",
+          "想用黑色整理网布椅的人",
+        ],
+        [
+          "KOKUYO INVENT TKG-D127E6AM10N",
+          "办公桌",
+          "单边柜·黑脚·宽1200mm",
+          "想把作业面与收纳合为一体的人",
+        ],
+        [
+          "ITOKI CZR-147BAC-1W9",
+          "办公桌",
+          "双边柜·宽1400mm·浅色桌面×黑色机身",
+          "寻找收纳力书桌的人",
+        ],
+      ],
+    },
+    picksTitle: "按用途与桌面环境推荐的5款",
+    pickFeaturesLabel: "主要特点",
+    pickRecommendedLabel: "适合这样的人",
+    picks: [
+      {
+        slug: "gtplayer-ch488",
+        name: "GTPLAYER 人体工学系列 CH488",
+        tagline: "用黑色网布整理的桌面办公椅。",
+        shortLabel: "黑色网布椅",
+        priceGuide: "办公椅",
+        tags: ["办公椅", "网布", "头枕"],
+        features: [
+          "官方介绍为办公椅；黑色网布靠背",
+          "可确认头枕、扶手与脚轮结构",
+          "厂商标示为人体工学系列；官方网站说明有1年保修",
+        ],
+        recommendedFor: [
+          "考虑黑色电脑椅、网布类型的人",
+          "想把 PC 桌或居家办公环境用黑色统一的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "okamura-sylphy-c685xr-fmp1",
+        name: "Okamura Sylphy（Sylphy）系列 C685XR-FMP1",
+        tagline: "用黑色整理出的网布靠背工作椅。",
+        shortLabel: "Sylphy 工作椅",
+        priceGuide: "办公椅",
+        tags: ["办公椅", "高背", "可调扶手"],
+        features: [
+          "销售页面为高背、可调扶手；靠背网布、座面坐垫",
+          "靠背与椅脚颜色为黑色；五星脚、尼龙双轮脚轮",
+          "Sylphy 系列有良好设计奖等获奖说明",
+        ],
+        recommendedFor: [
+          "为黑色统一的桌面寻找工作椅的人",
+          "想把国内品牌主流网布椅列入候选的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "cofo-chair-lite",
+        name: "COFO Chair Lite",
+        tagline: "黑色基调网布、容易搭配桌面空间的工作椅。",
+        shortLabel: "COFO 椅",
+        priceGuide: "办公椅",
+        tags: ["办公椅", "ProMesh", "头枕"],
+        features: [
+          "机身与椅脚有黑色可选；靠背与座面为 ProMesh（销售页面说明）",
+          "附头枕、可调扶手、衣架",
+          "重量 20kg；脚轮为 PU（聚氨酯）",
+        ],
+        recommendedFor: [
+          "想在黑色基调桌面搭配网布椅的人",
+          "想把附头枕型号列入候选并兼顾价格与功能的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "kokuyo-invent-tkg-d127e6am10n",
+        name: "KOKUYO INVENT（Invent）系列 TKG-D127E6AM10N",
+        tagline: "把作业面与单边收纳合为一体的办公桌。",
+        shortLabel: "INVENT 单边柜",
+        priceGuide: "办公桌",
+        tags: ["办公桌", "单边柜", "黑脚"],
+        features: [
+          "单边柜型；机身黑色、桌面白自然色（销售页面说明）",
+          "尺寸宽1200mm、深700mm、高700mm；L 形钢脚",
+          "走线孔2处、附托盘与挡板；柜体为圆柱锁/全锁",
+        ],
+        recommendedFor: [
+          "想用一张桌子兼顾作业与收纳的人",
+          "寻找黑灰基调居家/办公用实用书桌的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "itoki-czr-147bac-1w9",
+        name: "ITOKI CZR（CZR）系列 CZR-147BAC-1W9",
+        tagline: "双边柜更容易确保收纳的沉稳办公桌。",
+        shortLabel: "CZR 双边柜",
+        priceGuide: "办公桌",
+        tags: ["办公桌", "双边柜", "收纳"],
+        features: [
+          "双边柜型；桌面白色W、机身黑色T（销售页面说明）",
+          "尺寸宽1400mm、深700mm、高720mm",
+          "左右各3层抽屉（A4标准）；圆柱锁与浅型中央抽屉",
+        ],
+        recommendedFor: [
+          "寻找收纳力书桌的人",
+          "需要兼顾居家办公与办公室的实用书桌的人",
+        ],
+        linkLabel: "查看详情",
+      },
+    ],
+    useCasesTitle: "按用途与桌面环境挑选时",
+    useCases: [
+      {
+        title: "黑色网布电脑椅",
+        productName: "GTPLAYER CH488",
+        productSlug: "gtplayer-ch488",
+      },
+      {
+        title: "黑色基调高机能工作椅",
+        productName: "Okamura Sylphy C685XR-FMP1",
+        productSlug: "okamura-sylphy-c685xr-fmp1",
+      },
+      {
+        title: "用黑色整理的网布椅",
+        productName: "COFO Chair Lite",
+        productSlug: "cofo-chair-lite",
+      },
+      {
+        title: "单边柜兼顾作业与收纳",
+        productName: "KOKUYO INVENT TKG-D127E6AM10N",
+        productSlug: "kokuyo-invent-tkg-d127e6am10n",
+      },
+      {
+        title: "双边柜确保收纳力",
+        productName: "ITOKI CZR-147BAC-1W9",
+        productSlug: "itoki-czr-147bac-1w9",
+      },
+    ],
+    recommendedTitle: "犹豫时从用途入手",
+    recommendedFor: [
+      "黑色网布电脑椅 → GTPLAYER CH488",
+      "黑色基调网布工作椅 → Okamura Sylphy C685XR-FMP1",
+      "附头枕的黑色网布椅 → COFO Chair Lite",
+      "单边柜兼顾作业与收纳 → KOKUYO INVENT TKG-D127E6AM10N",
+      "双边柜确保收纳 → ITOKI CZR-147BAC-1W9",
+    ],
+    summary:
+      "这5款不是按价格排名，而是按用途与桌面环境差异来对照的候选。黑色网布电脑椅、主流工作椅、兼顾价格与功能的网布椅、单边柜书桌、双边柜书桌——从感兴趣的角度查看各篇单品文章与销售页面会更容易挑选。规格详情与最新价格、库存请在各销售页面确认。",
+    note: "※规格依据各销售页面及既有单品文章说明。最新价格与库存请在各销售页面确认。",
+    ctaLabel: "查看详情",
+    imageAlt: "整理桌面环境推荐5款汇总缩略图",
+  },
   "beauty-appliances-5-picks": {
     title: "美容家电推荐5款｜精选吹风机、直发夹板与美容仪",
     seoTitle:
@@ -1525,7 +1715,7 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ],
     summary:
       "ITOKI CZR-147BAC-1W9 是一款浅色桌面与黑色系机身的双边柜办公桌。更容易兼顾收纳力与厚重感，也容易搭配沉稳的桌面环境。最新的价格、库存与规格详情请在销售页面确认。",
-    note: "最新的价格、库存与详细规格请在销售页面确认。",
+    note: "最新的价格、库存与详细规格请在销售页面确认。若想对照座椅与书桌的组合，也可参考「整理桌面环境的推荐5款」。",
     ctaLabel: "查看商品",
     imageAlt: "ITOKI CZR-147BAC-1W9 双边柜办公桌",
   },
@@ -1571,7 +1761,7 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ],
     summary:
       "国誉 INVENT TKG-D127E6AM10N 是一款具备黑色椅脚与单边收纳的办公桌。也容易搭配黑、灰基调的空间，适合想把作业面与收纳合为一体时列入候选。最新的价格、库存与规格详情请在销售页面确认。",
-    note: "最新的价格与库存请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。若想对照座椅与书桌的组合，也可参考「整理桌面环境的推荐5款」。",
     ctaLabel: "查看商品",
     imageAlt: "国誉 INVENT TKG-D127E6AM10N 单边柜办公桌",
   },
@@ -1616,7 +1806,7 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ],
     summary:
       "COFO Chair Lite 是一款可选黑色基调外观的网布系办公椅。具备头枕与可调扶手等较容易作为作业用椅确认的结构，也容易搭配以黑色整理的工作空间。最新的价格、库存与规格详情请在销售页面确认。",
-    note: "最新的价格与库存请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。若想对照座椅与书桌的组合，也可参考「整理桌面环境的推荐5款」。",
     ctaLabel: "查看商品",
     imageAlt: "黑色 COFO Chair Lite 办公椅",
   },
@@ -1661,7 +1851,7 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     ],
     summary:
       "Okamura Sylphy C685XR-FMP1 是一款具备黑色基调网布靠背的办公椅。容易搭配以黑色整理的工作空间，作为作业用椅的结构也较容易确认。最新的价格、库存与规格详情请在销售页面确认。",
-    note: "最新的价格与库存请在销售页面确认。",
+    note: "最新的价格与库存请在销售页面确认。若想对照座椅与书桌的组合，也可参考「整理桌面环境的推荐5款」。",
     ctaLabel: "查看商品",
     imageAlt: "黑色 Okamura Sylphy C685XR-FMP1 办公椅",
   },
@@ -2547,7 +2737,7 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
       "想把电脑桌或居家办公环境以黑色统一的人",
       "想挑选不过于张扬的办公椅的人",
     ],
-    note: "最新的价格、库存与活动资讯请确认官方商品页面。",
+    note: "最新的价格、库存与活动资讯请确认官方商品页面。若想对照座椅与书桌的组合，也可参考「整理桌面环境的推荐5款」。",
     ctaLabel: "查看商品",
     imageAlt: "黑色 GTPLAYER CH488 办公椅",
   },
