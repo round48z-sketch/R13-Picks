@@ -19,6 +19,20 @@ export function getFeaturedArticles() {
   return getAllArticles().filter((article) => article.featured);
 }
 
+/** Homepage Popular Guides: fixed order of existing roundup articles. */
+const popularGuideSlugs = [
+  "wireless-earbuds-under-10000",
+  "desk-setup-5-picks",
+  "beauty-appliances-5-picks",
+  "womens-watches-7-picks",
+] as const;
+
+export function getPopularGuideArticles() {
+  return popularGuideSlugs
+    .map((slug) => getArticleBySlug(slug))
+    .filter((article): article is Article => Boolean(article));
+}
+
 export function getRelatedArticles(article: Article, limit = 2) {
   return getAllArticles()
     .filter((item) => item.slug !== article.slug && item.category === article.category)
