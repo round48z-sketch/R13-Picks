@@ -51,8 +51,13 @@ export function RoundupArticleView({
   const table = article.comparisonTable;
   const headers = table?.headers ?? [];
 
+  const roundupPageClass =
+    article.slug === "beauty-appliances-5-picks"
+      ? "article-page article-page--roundup roundup-page roundup-page--beauty-5"
+      : "article-page article-page--roundup roundup-page";
+
   return (
-    <article className="article-page article-page--roundup roundup-page">
+    <article className={roundupPageClass}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="roundup-hero">

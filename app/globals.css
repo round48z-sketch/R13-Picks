@@ -373,6 +373,16 @@ h3 {
   border-radius: 4px;
 }
 
+/* 美容家電5選サムネ専用: 余白過多のcover裁断を避け、商品群を大きく見せる */
+.article-card__image--beauty-roundup-thumb {
+  background: #0b0b0b;
+}
+
+.article-card__image--beauty-roundup-thumb img {
+  object-fit: contain !important;
+  filter: saturate(0.7) brightness(0.96);
+}
+
 /* Next/Image fill wrapper must fill the fixed card frame */
 .article-card__image > span {
   position: absolute !important;
@@ -1282,6 +1292,29 @@ h3 {
   .roundup-hero__strip-img-box {
     padding: 6px;
   }
+
+  /* 美容家電5選専用: 親をwidth100%+flex中央、stripは5列で中央配置 */
+  .roundup-page--beauty-5 .roundup-hero__strip-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .roundup-page--beauty-5 .roundup-hero__strip {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 12px;
+    padding: 0;
+    justify-content: center;
+    justify-items: stretch;
+  }
 }
 
 @media (min-width: 980px) {
@@ -1397,6 +1430,24 @@ h3 {
     padding: 8px;
   }
 
+  .roundup-page--beauty-5 .roundup-hero__strip-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .roundup-page--beauty-5 .roundup-hero__strip {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 14px;
+    justify-content: center;
+  }
+
   .roundup-hero__banner {
     width: min(980px, calc(100% - 40px));
     margin: 28px auto 0;
@@ -1446,6 +1497,23 @@ h3 {
 
   .roundup-hero__strip {
     gap: 12px;
+  }
+
+  .roundup-page--beauty-5 .roundup-hero__strip-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  .roundup-page--beauty-5 .roundup-hero__strip {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
 }
 

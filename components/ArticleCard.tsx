@@ -22,13 +22,23 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
         href={localizePath(`/picks/${article.slug}`, locale)}
         className="article-card__link"
       >
-        <div className="article-card__image">
+        <div
+          className={
+            article.slug === "beauty-appliances-5-picks"
+              ? "article-card__image article-card__image--beauty-roundup-thumb"
+              : "article-card__image"
+          }
+        >
           <Image
             src={thumbnail.src}
             alt={thumbnail.alt}
             fill
             sizes="(max-width: 979px) 92vw, 420px"
-            style={{ objectFit: "cover", objectPosition: "center" }}
+            style={
+              article.slug === "beauty-appliances-5-picks"
+                ? { objectFit: "contain", objectPosition: "center" }
+                : { objectFit: "cover", objectPosition: "center" }
+            }
           />
         </div>
         <div className="article-card__body">
