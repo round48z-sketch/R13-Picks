@@ -1,6 +1,198 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "beauty-appliances-5-picks": {
+    title: "5 beauty appliances｜Dryers, straighteners, and a stick facial device",
+    seoTitle:
+      "5 beauty appliances｜Dryer, straightener, facial device | R13 Picks",
+    description:
+      "Not a price ranking—five beauty appliances organized by use and design: dryers, straighteners, and a stick facial device, focused on who each may suit.",
+    productType: "Comparison / roundup",
+    excerpt:
+      "Dryers, straighteners, and a stick facial device. Five beauty appliances to compare by use and design.",
+    intro:
+      "Beauty appliances are easier to choose when you start from type, look, and portability. This guide is not a price ranking. It organizes five products already covered on R13 Picks by use and design—dryers, straighteners, and a stick facial device. The goal is not to crown a winner, but to help you see which use case and look may suit you. Check each official product page for the latest price and stock.",
+    pointsTitle: "What to check when choosing beauty appliances",
+    points: [
+      "Type (dryer / straightener / stick facial device)",
+      "Design (how well it fits a bathroom or interior)",
+      "Portability (weight, size, pouch or stand)",
+      "Everyday fit (color options, operation, accessories)",
+    ],
+    overviewTitle: "Models in this guide",
+    comparisonTable: {
+      title: "Comparison",
+      headers: ["Product", "Type", "Key notes", "Who it may suit"],
+      rows: [
+        [
+          "Re・De Hairdry+",
+          "Dryer",
+          "Slim body · about 280g · stand included",
+          "Anyone checking lightness and hands-free use",
+        ],
+        [
+          "Re・De hair straightener",
+          "Straightener",
+          "Smooth / Moist · 100–230°C",
+          "Anyone choosing by type and temperature range",
+        ],
+        [
+          "Re・De Suhada",
+          "Stick facial device",
+          "Compact · about 50g · pouch included",
+          "Anyone wanting minimal look and easy carry",
+        ],
+        [
+          "KINUJO Sapphire Straight Pro",
+          "Straightener",
+          "Sapphire plate · listed as pro-oriented",
+          "Anyone considering a black pro-style iron",
+        ],
+        [
+          "KINUJO Silk Premium Dryer PRO",
+          "Dryer",
+          "About 2.7 m³/min · stand · multiple nozzles",
+          "Anyone checking high airflow and a black look",
+        ],
+      ],
+    },
+    picksTitle: "5 picks by use and design",
+    pickFeaturesLabel: "Key notes",
+    pickRecommendedLabel: "Who it may suit",
+    picks: [
+      {
+        slug: "rede-hairdry-plus",
+        name: "Re・De Hairdry+",
+        tagline: "Slim, light drying. A Re・De dryer with a stand.",
+        shortLabel: "Slim dryer",
+        priceGuide: "Dryer",
+        tags: ["Dryer", "Light", "Stand"],
+        features: [
+          "Body size W38 × D185 × H170mm (existing article / official listing)",
+          "Weight about 280g (excluding nozzle and cable)",
+          "Colors: white / black / hyggegray; stand and travel pouch included",
+        ],
+        recommendedFor: [
+          "Anyone considering a slim, light dryer",
+          "Anyone interested in hands-free use with a stand",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "rede-hairstraight",
+        name: "Re・De hair straightener Smooth / Moist",
+        tagline: "Choose Smooth or Moist. A Re・De straightener.",
+        shortLabel: "Straightener",
+        priceGuide: "Straightener",
+        tags: ["Straightener", "Smooth / Moist", "Temperature"],
+        features: [
+          "Types: Smooth / Moist; colors: white / black / hyggegray",
+          "Temperature range listed as 100°C–230°C in 10°C steps",
+          "Body size W42 × D33 × H288mm; travel pouch included",
+        ],
+        recommendedFor: [
+          "Anyone comparing Smooth and Moist",
+          "Anyone checking both temperature settings and look",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "rede-suhada",
+        name: "Re・De Suhada stick facial device",
+        tagline: "Minimal and easy to carry. A stick facial device.",
+        shortLabel: "Stick facial device",
+        priceGuide: "Stick facial device",
+        tags: ["Facial device", "Compact", "Portable"],
+        features: [
+          "Body size W22 × D19 × H147mm; body weight 50g",
+          "Colors: white / darkgray / hyggegray",
+          "Accessories include charging stand and travel pouch (existing article / official listing)",
+        ],
+        recommendedFor: [
+          "Anyone who values a minimal, refined look",
+          "Anyone checking a size that works at home and on the go",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "kinujo-sapphire-straight-pro",
+        name: "KINUJO Sapphire Straight Pro",
+        tagline: "A black pro-style straightener with sapphire plate.",
+        shortLabel: "Pro-style straightener",
+        priceGuide: "Straightener",
+        tags: ["Straightener", "Black", "Pro-oriented listing"],
+        features: [
+          "KINUJO lists it as a pro-oriented model developed for straightening work",
+          "Uses proprietary “Sapphire Plate” and a count function (official listing)",
+          "Body color: black; Japan-only power (AC100V 50/60Hz)",
+        ],
+        recommendedFor: [
+          "Anyone considering a black pro-style straightener",
+          "Anyone interested in the KINUJO PRO series",
+        ],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "kinujo-silk-premium-dryer-pro",
+        name: "KINUJO Silk Premium Dryer PRO",
+        tagline: "A black dryer with about 2.7 m³/min airflow.",
+        shortLabel: "High-airflow dryer",
+        priceGuide: "Dryer",
+        tags: ["Dryer", "High airflow", "Black"],
+        features: [
+          "Airflow about 2.7 m³/min (manufacturer in-house measurement)",
+          "Temperature and airflow each in 3 steps; stand and three nozzles included",
+          "Body weight about 392g (body only); Japan-only power",
+        ],
+        recommendedFor: [
+          "Anyone looking for a black beauty appliance or high-airflow dryer",
+          "Anyone considering a model with stand and multiple nozzles",
+        ],
+        linkLabel: "Read more",
+      },
+    ],
+    useCasesTitle: "If you choose by use or design",
+    useCases: [
+      {
+        title: "Slim, light dryer",
+        productName: "Re・De Hairdry+",
+        productSlug: "rede-hairdry-plus",
+      },
+      {
+        title: "Straightener by type",
+        productName: "Re・De hair straightener",
+        productSlug: "rede-hairstraight",
+      },
+      {
+        title: "Portable stick facial device",
+        productName: "Re・De Suhada",
+        productSlug: "rede-suhada",
+      },
+      {
+        title: "Black pro-style straightener",
+        productName: "KINUJO Sapphire Straight Pro",
+        productSlug: "kinujo-sapphire-straight-pro",
+      },
+      {
+        title: "High-airflow black dryer",
+        productName: "KINUJO Silk Premium Dryer PRO",
+        productSlug: "kinujo-silk-premium-dryer-pro",
+      },
+    ],
+    recommendedTitle: "If you’re unsure, start from the use case",
+    recommendedFor: [
+      "Slim, light dryer → Re・De Hairdry+",
+      "Choose an iron by Smooth / Moist → Re・De hair straightener",
+      "Minimal stick facial device → Re・De Suhada",
+      "Black pro-style straightener → KINUJO Sapphire Straight Pro",
+      "High-airflow black dryer → KINUJO Silk Premium Dryer PRO",
+    ],
+    summary:
+      "These five are candidates to compare by use and design, not by price rank. Slim dryer, type-based straightener, portable facial device, black pro-style iron, high-airflow dryer—start from the angle that interests you, then check each individual article and official page. Confirm full specs and the latest price and stock on each official product page.",
+    note: "* Specs are based on each official product page and existing individual articles. Check each sales page for the latest price and stock.",
+    ctaLabel: "Read more",
+    imageAlt: "Thumbnail collage for the 5 beauty appliances guide",
+  },
   "tamas-te015": {
     title: "Expand a laptop’s ports. tama’s T-E015 USB3.1 hub",
     seoTitle: "tama’s T-E015｜USB3.1 hub with HDMI, LAN, and SD | R13 Picks",

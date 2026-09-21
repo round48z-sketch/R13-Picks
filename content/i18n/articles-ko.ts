@@ -1,6 +1,198 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "beauty-appliances-5-picks": {
+    title: "뷰티 가전 추천 5선｜드라이어·헤어 아이론·미용기 엄선",
+    seoTitle:
+      "뷰티 가전 추천 5선｜드라이어·헤어 아이론·미용기 | R13 Picks",
+    description:
+      "가격 순위가 아니라 용도와 디자인의 차이로 고르는 뷰티 가전 5선. 드라이어, 스트레이트 아이론, 스틱 미용기를 맞는 사람 관점으로 정리합니다.",
+    productType: "비교·모음 기사",
+    excerpt:
+      "드라이어·스트레이트 아이론·스틱 미용기. 용도와 디자인 차이로 고르는 뷰티 가전 5선.",
+    intro:
+      "뷰티 가전은 종류·외형·휴대성에 따라 고르는 기준이 달라집니다. 이 글에서는 가격 순위가 아니라 드라이어, 스트레이트 아이론, 스틱 미용기 등 용도와 디자인의 관점에서 R13 Picks에서 소개한 5제품을 정리합니다. 우열을 정하기보다, 어떤 용도·어떤 사람에게 맞는지 비교하기 위한 모음입니다. 최신 가격·재고는 각 공식 판매 페이지에서 확인해 주세요.",
+    pointsTitle: "뷰티 가전을 고를 때의 포인트",
+    points: [
+      "종류（드라이어／스트레이트 아이론／스틱 미용기）",
+      "디자인성（세면대·인테리어에 잘 어울리는지）",
+      "휴대성（무게·사이즈·파우치·스탠드 유무）",
+      "일상에 들이기 쉬운지（컬러·조작·구성품）",
+    ],
+    overviewTitle: "수록 모델 목록",
+    comparisonTable: {
+      title: "비교표",
+      headers: ["상품명", "종류", "주요 특징", "맞는 사람"],
+      rows: [
+        [
+          "Re・De Hairdry+",
+          "드라이어",
+          "슬림 본체·약 280g·스탠드 포함",
+          "가벼움·핸즈프리를 보고 싶은 분",
+        ],
+        [
+          "Re・De 헤어 스트레이트 아이론",
+          "스트레이트 아이론",
+          "스무스／모이스트·100〜230℃",
+          "타입과 온도 설정으로 고르고 싶은 분",
+        ],
+        [
+          "Re・De Suhada",
+          "스틱 미용기",
+          "컴팩트·약 50g·파우치 포함",
+          "미니멀하고 휴대도 보고 싶은 분",
+        ],
+        [
+          "KINUJO Sapphire Straight Pro",
+          "스트레이트 아이론",
+          "사파이어 플레이트·프로용 안내",
+          "검정 프로 사양을 검토하고 싶은 분",
+        ],
+        [
+          "KINUJO Silk Premium Dryer PRO",
+          "드라이어",
+          "약 2.7㎥/분·스탠드·복수 노즐",
+          "대풍량·검정 디자인을 보고 싶은 분",
+        ],
+      ],
+    },
+    picksTitle: "용도·디자인별 추천 5선",
+    pickFeaturesLabel: "주요 특징",
+    pickRecommendedLabel: "이런 분께 맞을 수 있습니다",
+    picks: [
+      {
+        slug: "rede-hairdry-plus",
+        name: "Re・De Hairdry+（리데 헤어드라이 플러스）",
+        tagline: "슬림하고 가벼운 헤어드라이. 스탠드 포함 Re・De 드라이어.",
+        shortLabel: "슬림 드라이어",
+        priceGuide: "드라이어",
+        tags: ["드라이어", "경량", "스탠드"],
+        features: [
+          "본체 사이즈 폭38mm × 깊이185mm × 높이170mm（기존 기사·공식 안내）",
+          "무게 약 280g（노즐·케이블 제외）",
+          "컬러 white／black／hyggegray. 스탠드·트래블 파우치 포함",
+        ],
+        recommendedFor: [
+          "슬림하고 가벼운 드라이어를 검토하고 싶은 분",
+          "스탠드 포함 핸즈프리 사용에 관심 있는 분",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "rede-hairstraight",
+        name: "Re・De（리데）헤어 스트레이트 아이론 스무스 모이스트",
+        tagline: "스무스와 모이스트로 고르는 Re・De 스트레이트 아이론.",
+        shortLabel: "스트레이트 아이론",
+        priceGuide: "스트레이트 아이론",
+        tags: ["스트레이트 아이론", "스무스／모이스트", "온도 설정"],
+        features: [
+          "타입: 스무스／모이스트. 컬러: white／black／hyggegray",
+          "온도대 100℃〜230℃（10℃ 단위）로 안내",
+          "본체 사이즈 폭42mm × 깊이33mm × 높이288mm. 트래블 파우치 포함",
+        ],
+        recommendedFor: [
+          "스무스와 모이스트 차이를 보고 고르고 싶은 분",
+          "온도 설정과 외형 모두를 확인하고 싶은 분",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "rede-suhada",
+        name: "Re・De Suhada（리데 스하다）스틱 미용기",
+        tagline: "미니멀하고 휴대하기 쉬운 스틱형 미용기.",
+        shortLabel: "스틱 미용기",
+        priceGuide: "스틱 미용기",
+        tags: ["미용기", "컴팩트", "휴대"],
+        features: [
+          "본체 치수 W22×D19×H147mm. 본체 무게 50g",
+          "컬러 white／darkgray／hyggegray",
+          "구성에 충전대·트래블 파우치 등（기존 기사·공식 안내）",
+        ],
+        recommendedFor: [
+          "미니멀하고 고급스러운 외형을 중시하는 분",
+          "집용과 휴대용 모두로 들이기 쉬운 사이즈감을 보고 싶은 분",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "kinujo-sapphire-straight-pro",
+        name: "KINUJO Sapphire Straight Pro",
+        tagline: "검정 프로 사양. 사파이어 플레이트의 스트레이트 아이론.",
+        shortLabel: "프로용 스트레이트",
+        priceGuide: "스트레이트 아이론",
+        tags: ["스트레이트 아이론", "블랙", "프로용 안내"],
+        features: [
+          "KINUJO 공식에서는 축모교정용으로 개발된 프로용 모델로 안내",
+          "독자 기술「사파이어 플레이트」와 카운트 기능 탑재（공식 안내）",
+          "본체 컬러 블랙. 국내 전용（AC100V 50/60Hz）",
+        ],
+        recommendedFor: [
+          "검정 프로 사양 스트레이트 아이론을 검토하고 싶은 분",
+          "KINUJO PRO 시리즈가 궁금한 분",
+        ],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "kinujo-silk-premium-dryer-pro",
+        name: "KINUJO Silk Premium Dryer PRO",
+        tagline: "검정으로 정리하는, 약 2.7㎥/분의 대풍량 드라이어.",
+        shortLabel: "대풍량 드라이어",
+        priceGuide: "드라이어",
+        tags: ["드라이어", "대풍량", "블랙"],
+        features: [
+          "풍량 약 2.7㎥/분（제조사 자체 기준 측정값）",
+          "온도·풍량 각 3단계. 전용 스탠드와 노즐 3종 포함",
+          "본체 질량 약 392g（본체만）. 국내 전용",
+        ],
+        recommendedFor: [
+          "검정 뷰티 가전·대풍량 드라이어를 찾는 분",
+          "스탠드·복수 노즐 포함 모델을 검토하고 싶은 분",
+        ],
+        linkLabel: "자세히 보기",
+      },
+    ],
+    useCasesTitle: "용도·디자인 관점으로 고른다면",
+    useCases: [
+      {
+        title: "슬림하고 가벼운 드라이어",
+        productName: "Re・De Hairdry+",
+        productSlug: "rede-hairdry-plus",
+      },
+      {
+        title: "타입으로 고르는 스트레이트 아이론",
+        productName: "Re・De 헤어 스트레이트 아이론",
+        productSlug: "rede-hairstraight",
+      },
+      {
+        title: "휴대하기 쉬운 스틱 미용기",
+        productName: "Re・De Suhada",
+        productSlug: "rede-suhada",
+      },
+      {
+        title: "검정 프로용 스트레이트",
+        productName: "KINUJO Sapphire Straight Pro",
+        productSlug: "kinujo-sapphire-straight-pro",
+      },
+      {
+        title: "대풍량 검정 드라이어",
+        productName: "KINUJO Silk Premium Dryer PRO",
+        productSlug: "kinujo-silk-premium-dryer-pro",
+      },
+    ],
+    recommendedTitle: "고민되면 용도부터 고르기",
+    recommendedFor: [
+      "슬림하고 가벼운 드라이어 → Re・De Hairdry+",
+      "스무스／모이스트로 아이론 고르기 → Re・De 헤어 스트레이트 아이론",
+      "미니멀 스틱 미용기 → Re・De Suhada",
+      "검정 프로 사양 스트레이트 → KINUJO Sapphire Straight Pro",
+      "대풍량 검정 드라이어 → KINUJO Silk Premium Dryer PRO",
+    ],
+    summary:
+      "이 5제품은 가격 순위가 아니라 용도와 디자인의 차이로 비교하기 위한 후보입니다. 슬림 드라이어, 타입으로 고르는 스트레이트 아이론, 휴대하기 쉬운 미용기, 검정 프로용 아이론, 대풍량 드라이어—관심 가는 관점에서 개별 기사와 공식 페이지를 확인하는 편이 고르기 쉽습니다. 상세 스펙과 최신 가격·재고는 각 공식 판매 페이지에서 확인해 주세요.",
+    note: "※사양은 각 공식 상품 페이지 및 기존 개별 기사 안내에 기반합니다. 최신 가격·재고는 각 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "자세히 보기",
+    imageAlt: "뷰티 가전 추천 5선 모음 썸네일",
+  },
   "tamas-te015": {
     title: "노트북 단자를 정리하는. tama's T-E015 USB3.1 허브",
     seoTitle: "tama's T-E015｜USB3.1 허브 HDMI·LAN·SD 대응 | R13 Picks",

@@ -1,6 +1,198 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "beauty-appliances-5-picks": {
+    title: "美容家电推荐5款｜精选吹风机、直发夹板与美容仪",
+    seoTitle:
+      "美容家电推荐5款｜吹风机·直发夹板·美容仪 | R13 Picks",
+    description:
+      "不是价格排名，而是按用途与设计差异来选择的5款美容家电。从吹风机、直发夹板、棒状美容仪出发，整理各自更适合什么样的人。",
+    productType: "比较 / 汇总文章",
+    excerpt:
+      "吹风机、直发夹板、棒状美容仪。按用途与设计差异挑选的5款美容家电。",
+    intro:
+      "选购美容家电时，种类、外观与便携性都会影响选择。本文不做价格排名，而是从吹风机、直发夹板、棒状美容仪等用途与设计切入，整理 R13 Picks 已介绍的5款产品。目标不是判定优劣，而是帮助你对照用途与人群。最新价格与库存请以各官方销售页面为准。",
+    pointsTitle: "选购美容家电时的要点",
+    points: [
+      "种类（吹风机／直发夹板／棒状美容仪）",
+      "设计感（是否容易融入卫生间或室内）",
+      "便携性（重量、尺寸、收纳袋或支架有无）",
+      "日常易用性（配色、操作、附件）",
+    ],
+    overviewTitle: "收录机型一览",
+    comparisonTable: {
+      title: "对比表",
+      headers: ["商品名", "种类", "主要特点", "适合人群"],
+      rows: [
+        [
+          "Re・De Hairdry+",
+          "吹风机",
+          "纤细机身·约280g·含支架",
+          "看重轻量与免提使用的人",
+        ],
+        [
+          "Re・De 直发夹板",
+          "直发夹板",
+          "Smooth／Moist·100〜230℃",
+          "想按类型与温度选择的人",
+        ],
+        [
+          "Re・De Suhada",
+          "棒状美容仪",
+          "紧凑·约50g·含收纳袋",
+          "看重极简外观与便携的人",
+        ],
+        [
+          "KINUJO Sapphire Straight Pro",
+          "直发夹板",
+          "蓝宝石板·面向专业的说明",
+          "考虑黑色专业规格的人",
+        ],
+        [
+          "KINUJO Silk Premium Dryer PRO",
+          "吹风机",
+          "约2.7㎥/分·支架·多喷嘴",
+          "看重大风量与黑色设计的人",
+        ],
+      ],
+    },
+    picksTitle: "按用途与设计推荐的5款",
+    pickFeaturesLabel: "主要特点",
+    pickRecommendedLabel: "适合什么样的人",
+    picks: [
+      {
+        slug: "rede-hairdry-plus",
+        name: "Re・De Hairdry+（理德 护发 加强版）",
+        tagline: "纤细轻量的吹发体验。附支架的 Re・De 吹风机。",
+        shortLabel: "纤细吹风机",
+        priceGuide: "吹风机",
+        tags: ["吹风机", "轻量", "支架"],
+        features: [
+          "机身尺寸宽38mm × 深185mm × 高170mm（既有文章／官方说明）",
+          "重量约280g（不含喷嘴与线缆）",
+          "颜色 white／black／hyggegray。含支架与旅行收纳袋",
+        ],
+        recommendedFor: [
+          "想选购纤细轻量吹风机的人",
+          "对附支架免提使用感兴趣的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "rede-hairstraight",
+        name: "Re・De（理德）直发夹板 Smooth／Moist",
+        tagline: "在 Smooth 与 Moist 中选择。Re・De 直发夹板。",
+        shortLabel: "直发夹板",
+        priceGuide: "直发夹板",
+        tags: ["直发夹板", "Smooth／Moist", "温度设定"],
+        features: [
+          "类型：Smooth／Moist。颜色：white／black／hyggegray",
+          "温度范围标注为100℃〜230℃（10℃步进）",
+          "机身尺寸宽42mm × 深33mm × 高288mm。含旅行收纳袋",
+        ],
+        recommendedFor: [
+          "想对照 Smooth 与 Moist 差异再选择的人",
+          "希望同时确认温度设定与外观的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "rede-suhada",
+        name: "Re・De Suhada（理德 素肌）棒状美容仪",
+        tagline: "极简且便于携带的棒状美容仪。",
+        shortLabel: "棒状美容仪",
+        priceGuide: "棒状美容仪",
+        tags: ["美容仪", "紧凑", "便携"],
+        features: [
+          "机身尺寸 W22×D19×H147mm。机身重量50g",
+          "颜色 white／darkgray／hyggegray",
+          "附件含充电座、旅行收纳袋等（既有文章／官方说明）",
+        ],
+        recommendedFor: [
+          "重视极简与质感外观的人",
+          "希望确认居家与外出都方便的尺寸感的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "kinujo-sapphire-straight-pro",
+        name: "KINUJO Sapphire Straight Pro",
+        tagline: "黑色专业规格。蓝宝石板直发夹板。",
+        shortLabel: "专业向直发夹板",
+        priceGuide: "直发夹板",
+        tags: ["直发夹板", "黑色", "专业向说明"],
+        features: [
+          "KINUJO 官方说明其为面向直发矫正作业开发的专业向机型",
+          "采用独有技术「蓝宝石板」并搭载计数功能（官方说明）",
+          "机身颜色为黑色。仅限日本国内（AC100V 50/60Hz）",
+        ],
+        recommendedFor: [
+          "考虑黑色专业规格直发夹板的人",
+          "对 KINUJO PRO 系列感兴趣的人",
+        ],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "kinujo-silk-premium-dryer-pro",
+        name: "KINUJO Silk Premium Dryer PRO",
+        tagline: "以黑色整理的约2.7㎥/分大风量吹风机。",
+        shortLabel: "大风量吹风机",
+        priceGuide: "吹风机",
+        tags: ["吹风机", "大风量", "黑色"],
+        features: [
+          "风量约2.7㎥/分（厂商自有基准测定值）",
+          "温度与风量各3档。附专用支架与3种喷嘴",
+          "机身质量约392g（仅机身）。仅限日本国内",
+        ],
+        recommendedFor: [
+          "寻找黑色美容家电或大风量吹风机的人",
+          "考虑附支架与多喷嘴机型的人",
+        ],
+        linkLabel: "查看详情",
+      },
+    ],
+    useCasesTitle: "按用途与设计切入时",
+    useCases: [
+      {
+        title: "纤细轻量吹风机",
+        productName: "Re・De Hairdry+",
+        productSlug: "rede-hairdry-plus",
+      },
+      {
+        title: "按类型选择直发夹板",
+        productName: "Re・De 直发夹板",
+        productSlug: "rede-hairstraight",
+      },
+      {
+        title: "便于携带的棒状美容仪",
+        productName: "Re・De Suhada",
+        productSlug: "rede-suhada",
+      },
+      {
+        title: "黑色专业向直发夹板",
+        productName: "KINUJO Sapphire Straight Pro",
+        productSlug: "kinujo-sapphire-straight-pro",
+      },
+      {
+        title: "大风量黑色吹风机",
+        productName: "KINUJO Silk Premium Dryer PRO",
+        productSlug: "kinujo-silk-premium-dryer-pro",
+      },
+    ],
+    recommendedTitle: "犹豫时，先从用途选起",
+    recommendedFor: [
+      "纤细轻量吹风机 → Re・De Hairdry+",
+      "按 Smooth／Moist 选夹板 → Re・De 直发夹板",
+      "极简棒状美容仪 → Re・De Suhada",
+      "黑色专业规格直发夹板 → KINUJO Sapphire Straight Pro",
+      "大风量黑色吹风机 → KINUJO Silk Premium Dryer PRO",
+    ],
+    summary:
+      "这5款不是按价格排名，而是按用途与设计差异来对照的候选。纤细吹风机、按类型选择的直发夹板、便于携带的美容仪、黑色专业向夹板、大风量吹风机——从感兴趣的切入点开始，再查看各篇单品文章与官方页面会更顺。详细规格与最新价格、库存请以各官方销售页面为准。",
+    note: "※规格依据各官方商品页与既有单品文章说明。最新价格与库存请以各销售页为准。",
+    ctaLabel: "查看详情",
+    imageAlt: "美容家电推荐5款汇总缩略图",
+  },
   "tamas-te015": {
     title: "整理笔记本电脑接口。tama's T-E015 USB3.1 集线器",
     seoTitle: "tama's T-E015｜USB3.1 集线器 支持 HDMI·LAN·SD | R13 Picks",
