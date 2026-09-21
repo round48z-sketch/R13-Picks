@@ -22,13 +22,12 @@ export function GuideCard({ article, locale = "ja" }: GuideCardProps) {
         href={localizePath(`/picks/${article.slug}`, locale)}
         className="guide-card__link"
       >
-        <div className="guide-card__image">
+        <div className="guide-card__image guide-card__image--roundup-thumb">
           <Image
             src={thumbnail.src}
             alt={thumbnail.alt}
             fill
             sizes="(max-width: 639px) 92vw, (max-width: 979px) 45vw, 240px"
-            style={{ objectFit: "cover", objectPosition: "center" }}
           />
         </div>
         <div className="guide-card__body">

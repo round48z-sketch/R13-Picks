@@ -1462,10 +1462,10 @@ export const articles: Article[] = [
       height: 1024,
     },
     thumbnailImage: {
-      src: "/images/articles/wireless-earbuds-under-10000-thumb.png",
-      alt: "1万円以下で選ぶ完全ワイヤレスイヤホン特集のテーマビジュアル",
-      width: 1024,
-      height: 1024,
+      src: "/images/articles/wireless-earbuds-under-10000-collage.jpg",
+      alt: "1万円以下で選ぶ完全ワイヤレスイヤホンおすすめ7選のまとめサムネイル",
+      width: 800,
+      height: 1000,
     },
     heroImage: {
       src: "/images/articles/wireless-earbuds-under-10000-hero.png",
