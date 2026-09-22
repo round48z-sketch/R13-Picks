@@ -7,6 +7,12 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "acer-vg270s6bmix":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+4J4UUI+5G54+BWGDT&a8ejpredirect=https%3A%2F%2Fstore.acer.com%2Fja-jp%2Facer-vg270s6bmix",
+  "acer-extensa-15-ex215-24-a38u":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+4J4UUI+5G54+BWGDT&a8ejpredirect=https%3A%2F%2Fstore.acer.com%2Fja-jp%2Facer-ex215-24-a38u",
+  "acer-chromebook-315-cb315-7h-h18p":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+4J4UUI+5G54+BWGDT&a8ejpredirect=https%3A%2F%2Fstore.acer.com%2Fja-jp%2Facer-cb315-7h-h18p",
   "acer-pm161qta1bmiuux":
     "https://px.a8.net/svt/ejp?a8mat=4BCGFK+4J4UUI+5G54+BWGDT&a8ejpredirect=https%3A%2F%2Fstore.acer.com%2Fja-jp%2Facer-pm161qta1bmiuux",
   "acer-ek271p6bi":

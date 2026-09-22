@@ -5,6 +5,12 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "acer-vg270s6bmix":
+    '<span class="a8ad 4AO4E1Q-g7-vvVLjAR"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvVLjAR"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-vg270s6bmix","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777655675_01_um.hv0sj.603.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
+  "acer-extensa-15-ex215-24-a38u":
+    '<span class="a8ad 4AO4E1Q-g7-vvVJE2R"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvVJE2R"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-ex215-24-a38u","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777642439_01_nx.ej4sj.001.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
+  "acer-chromebook-315-cb315-7h-h18p":
+    '<span class="a8ad 4AO4E1Q-g7-vvVIWaI"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvVIWaI"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-cb315-7h-h18p","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777659093_01_nx.juvsj.001.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
   "acer-pm161qta1bmiuux":
     '<span class="a8ad 4AO4E1Q-g7-vvVxpHz"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvVxpHz"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-pm161qta1bmiuux","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777652551_01_um.zp1sj.101.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
   "acer-ek271p6bi":

@@ -1,6 +1,234 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "acer-vg270s6bmix": {
+    title: "A 27-inch, 180Hz screen. Acer Nitro VG270S6bmix",
+    seoTitle:
+      "Acer Nitro VG270S6bmix｜27-inch Full HD IPS 180Hz monitor | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer Nitro VG270S6bmix. Focused on the 27-inch Full HD IPS (matte), 180Hz, 1ms (VRB), sRGB 99%, and AMD FreeSync specs listed by Acer.",
+    productType: "Gaming monitor",
+    excerpt:
+      "27-inch Full HD IPS (matte) at 180Hz. An AMD FreeSync Acer Nitro VG270S6bmix.",
+    intro:
+      "The Acer Nitro VG270S6bmix is a 27-inch gaming monitor sold on the Acer official online store. Official listings describe Full HD (1920×1080) 16:9, an IPS matte panel, a 48–180Hz vertical frequency over HDMI, 1ms response (VRB), sRGB 99%, and AMD FreeSync. It is introduced here as a candidate when you want to compare gaming use or everyday / video watching on the official spec sheet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "VG270S6bmix highlights",
+    points: [
+      "Model: VG270S6bmix (part number UM.HV0SJ.603, JAN 4515777655675). Color: Black",
+      "Panel size: 27-inch. Active area: 598×336 mm",
+      "Resolution: Full HD (1920×1080), 16:9. Pixel pitch: 0.311 mm",
+      "Panel: IPS, matte, LED backlight. About 16.77 million colors",
+      "Color: sRGB 99%. Brightness: 250 cd/m². Contrast: up to 100,000,000:1 (ACM), typical 1,500:1. Viewing angles listed as 178° horizontal / 178° vertical",
+      "Response time: 1ms (VRB). A note says VRB can be used when vertical refresh is 75Hz or higher",
+      "Vertical frequency: 48–180Hz (HDMI), 48–75Hz (mini D-Sub 15-pin). Full HD 180Hz is HDMI only via overclock",
+      "Inputs: HDMI 2.1 ×1, mini D-Sub 15-pin ×1. Audio in: 3.5 mm stereo mini jack. Headphone jack included. Speakers: 2W + 2W stereo",
+      "AMD FreeSync supported. HDR not supported. Acer notes a compatible AMD graphics card is required, and FreeSync cannot be used at the same time as VRB / overdrive",
+      "BlueLightShield, Flickerless. Black Boost, 6-axis color adjustment, and ZeroFrame Pro are listed",
+      "Tilt: +25° / −5°. Swivel, height, and pivot are not supported",
+      "VESA mount: 100×100 mm",
+      "Dimensions about 612×464×199 mm (with stand), about 612×359×49 mm (without). Weight about 3.6 kg (with stand), about 3.3 kg (without)",
+      "Includes HDMI cable (1.5 m), audio cable (1.5 m), power cable (1.5 m), and more. Warranty listed as 3 years (panel and backlight unit 1 year)",
+    ],
+    sections: [
+      {
+        title: "What 27-inch and 180Hz mean here",
+        body: "Official materials list a 27-inch panel and Full HD (1920×1080) 16:9. Active area is 598×336 mm. Vertical frequency is 48–180Hz over HDMI and 48–75Hz over mini D-Sub 15-pin. Full HD 180Hz is HDMI only via overclock, and Acer notes some devices or settings may not support it. Claims that 180Hz always makes games more comfortable or improves win rate are not made here.",
+      },
+      {
+        title: "What to check with IPS and a matte finish",
+        body: "The panel is IPS, matte, with an LED backlight. Official figures include sRGB 99%, 250 cd/m² brightness, and about 16.77 million colors. Viewing angles are listed as 178° / 178°, but subjective color and viewing feel were not tested here. A matte finish is a useful spec-sheet option when you want to reduce glare. sRGB 99% or 6-axis color adjustment is not treated as proof of pro-level color accuracy.",
+      },
+      {
+        title: "What to check for gaming use",
+        body: "For gaming, points to check include up to 180Hz over HDMI, 1ms (VRB), AMD FreeSync, and Black Boost. 1ms (VRB) is Acer’s figure under specific internal test conditions—not a general measured response time. Black Boost is not claimed here as a confirmed real-world image improvement. Frame-rate or input-lag measurements are not on the official table, so they are not invented here.",
+      },
+      {
+        title: "What to check for everyday use and video",
+        body: "For everyday use or video watching, compare the 27-inch Full HD IPS matte panel, sRGB 99%, BlueLightShield, Flickerless, 2W + 2W speakers, headphone jack, and 3.5 mm stereo mini audio in. Speaker quality and motion feel were not tested here. Acer Display Widget and VisionCare features are named on the official page, but eye-strain or health benefits are not claimed.",
+      },
+      {
+        title: "How to think about differences from 144Hz models",
+        body: "Related 27-inch Full HD IPS models may list 144Hz over HDMI. This VG270S6bmix is listed at up to 180Hz over HDMI (overclock). How that gap matters depends on the frame rates your PC can output and whether HDMI is your planned connection. This article does not declare 180Hz always better or 144Hz always enough—compare Hz and port conditions with your setup.",
+      },
+      {
+        title: "What to check with FreeSync support",
+        body: "Official materials list AMD FreeSync. Acer notes a compatible AMD graphics card is required, and FreeSync cannot be used at the same time as VRB or overdrive. Effects beyond the official notes are not inferred. Confirm GPU support and settings on the connected hardware as well.",
+      },
+      {
+        title: "Ports and how it sits on a desk",
+        body: "Inputs are HDMI 2.1 ×1 and mini D-Sub 15-pin ×1, plus a 3.5 mm stereo mini audio in, a headphone jack, and 2W + 2W speakers. Tilt is +25° / −5°; swivel, height, and pivot are not supported. VESA is 100×100 mm. Dimensions are about 612×464×199 mm with stand and about 612×359×49 mm without; weight about 3.6 kg / 3.3 kg. Recheck ports and mounting if you plan an arm. Stand stability was not tested here.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "180Hz is an HDMI (overclock) figure; mini D-Sub 15-pin is listed up to 75Hz",
+      "1ms is a VRB official figure—not a general measured response time. VRB requires 75Hz or higher",
+      "AMD FreeSync cannot be used at the same time as VRB / overdrive",
+      "AMD FreeSync requires a compatible AMD graphics card",
+      "HDR is not supported. Height, swivel, and pivot are not supported",
+      "Black Boost, 6-axis color, and sRGB 99% are not treated as proof of pro color or confirmed image gains",
+      "Motion blur, input lag, color, viewing angles, speaker quality, and stand stability were not tested here",
+      "Price, stock, and warranty terms can change—confirm on the official product page",
+    ],
+    summary:
+      "The Acer Nitro VG270S6bmix is listed as a 27-inch Full HD IPS (matte) gaming monitor with up to 180Hz over HDMI, 1ms (VRB), sRGB 99%, AMD FreeSync, and built-in speakers. Use it as a reference when comparing gaming or everyday / video use within the official specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer Nitro VG270S6bmix 27-inch gaming monitor",
+  },
+  "acer-extensa-15-ex215-24-a38u": {
+    title: "A 15.6-inch Windows 11 Pro notebook. Acer Extensa 15 EX215-24-A38U",
+    seoTitle:
+      "Acer Extensa 15 EX215-24-A38U｜Ryzen 3, 8GB, 15.6-inch | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer Extensa 15 EX215-24-A38U. Focused on the Windows 11 Pro, AMD Ryzen 3 7320U, 8GB, 256GB SSD, and 15.6-inch Full HD configuration listed by Acer.",
+    productType: "Laptop",
+    excerpt:
+      "Windows 11 Pro, Ryzen 3 7320U, 8GB, 256GB. A 15.6-inch Full HD Extensa 15.",
+    intro:
+      "The Acer Extensa 15 EX215-24-A38U is a 15.6-inch notebook sold on the Acer official online store. Official listings describe Windows 11 Pro 64-bit, an AMD Ryzen 3 7320U processor, 8GB memory, a 256GB SSD, and a 15.6-inch Full HD (matte) display. It is introduced here as a candidate when you want to compare office-style or browser-centered work notebooks on the official spec sheet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "EX215-24-A38U highlights",
+    points: [
+      "Model: EX215-24-A38U (part number NX.EJ4SJ.001, JAN 4515777642439). Color: Steel Gray",
+      "OS: Windows 11 Pro 64-bit",
+      "Processor: AMD Ryzen 3 7320U (2.40GHz base / up to 4.10GHz boost, 4MB L3 cache). AMD Simultaneous Multithreading is listed",
+      "System memory: 8GB standard (onboard 8GB) / 8GB max, LPDDR5-6400MHz SDRAM. A note says the clock runs at 5200MHz and user changes or upgrades are not supported",
+      "Storage: 256GB SSD (M.2 Type 2280, PCIe, NVMe). Drive C is noted as about 236GB. No memory-card slot or optical drive",
+      "Graphics: AMD Radeon Graphics (built into the main processor). Up to 4195MB shared with main memory",
+      "Display: 15.6-inch Full HD (1920×1080), 16:9, matte, LED backlight. No touch panel",
+      "Keyboard: Acer FineTip (103 keys / Japanese / Copilot key). Touchpad: multi-gesture",
+      "Webcam: HD (about 0.92 megapixels). Audio: Acer PurifiedVoice, built-in stereo speakers, built-in microphones ×2",
+      "Wireless: IEEE 802.11 a/b/g/n/ac/ax (Wi-Fi 6). No wired LAN. Bluetooth 5.2",
+      "Interfaces include USB 3.2 Type-C ×2 (Gen 2, up to 10Gbps, PD / video output), USB 3.2 Type-A ×1 (Gen 1, up to 5Gbps), USB 2.0 ×1, HDMI, and a headset / speaker jack",
+      "Battery life listed as about 10 hours (53Wh lithium-ion, built-in). Includes a 65W USB Type-C AC adapter and an AC cord (about 1 m)",
+      "Security: TPM (TCG V2.0) and a Kensington lock slot. No fingerprint sensor",
+      "Dimensions about 19.90 × 362.90 × 237.50 mm (H×W×D). Weight about 1,720 g",
+      "Software listed includes AcerSense, Acer PurifiedVoice Console, Copilot, McAfee+ Premium - Individual (30-day trial), and Microsoft Edge. Overview lists Office as not included, while the spec table notes Microsoft 365 Personal (30-day free trial). Warranty listed as 1-year send-back / 1-year limited international traveler warranty",
+    ],
+    sections: [
+      {
+        title: "What Windows 11 Pro means on this notebook",
+        body: "Official materials list Windows 11 Pro 64-bit. Acer’s copy mentions Pro-oriented features such as BitLocker encryption, Remote Desktop host capability, and Group Policy control. Compared with consumer-focused Windows 11 Home notebooks, the management and security options are broader on paper. That does not mean Pro is ideal for every business use—match the official notes to your own requirements.",
+      },
+      {
+        title: "Why the 15.6-inch screen is easier to read",
+        body: "The display is a 15.6-inch Full HD (1920×1080), 16:9 panel with a matte finish. Touch is listed as not supported. Those figures are useful when comparing a larger screen for documents, spreadsheets, or browsers on a spec sheet. Color and viewing feel were not tested here, so this stays with the official numbers.",
+      },
+      {
+        title: "What to check for work and office tasks",
+        body: "Official materials list an AMD Ryzen 3 7320U, 8GB onboard memory, and a 256GB SSD. Graphics are AMD Radeon Graphics (integrated). These are the points to compare for document work or similar office-style tasks on a spec sheet. Subjective speed or “high performance” claims are not made here, and this article does not position the laptop for video editing, 3D work, or heavy gaming.",
+      },
+      {
+        title: "What to check for browser, Office-style, and online-meeting use",
+        body: "For browser work, Office-style tasks, or online meetings, points to check include the 15.6-inch Full HD panel, Wi-Fi 6, Bluetooth 5.2, the HD webcam (about 0.92 megapixels), dual speakers, two microphones, Acer PurifiedVoice, and the Copilot key. Battery life is listed as about 10 hours, but it varies with use. Camera, call quality, and keyboard feel were not tested here. Confirm ongoing Office product terms against Acer’s trial notes.",
+      },
+      {
+        title: "What to watch with 8GB memory and a 256GB SSD",
+        body: "Memory is onboard 8GB (8GB max). User changes or upgrades are listed as not supported. Storage is a 256GB SSD, with drive C noted as about 236GB—not the same headroom as higher-capacity models. Heavy tab or app use, or large local files, may feel tight depending on your workflow. There is no memory-card slot.",
+      },
+      {
+        title: "What to check for carrying it",
+        body: "Body weight is about 1,720 g, and height is about 19.90 mm. Battery life is listed as about 10 hours (53Wh). If portability matters, compare those official figures with your use. Keyboard feel and real-world runtime are not claimed here.",
+      },
+      {
+        title: "How a business-oriented notebook differs from a personal one",
+        body: "This model is listed with Windows 11 Pro, TPM (TCG V2.0), a Kensington lock slot, and a Copilot key. Versus Home-centric personal notebooks, those management and security items are easier to check on the spec sheet. Fingerprint and wired LAN are not included. Being business-oriented does not guarantee every corporate requirement—confirm the ports, authentication, and management features you need before buying.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "The OS is Windows 11 Pro—confirm the management and security features you need against Acer’s notes",
+      "Memory is onboard 8GB (8GB max). User changes or upgrades are listed as not supported",
+      "Storage is a 256GB SSD—not equivalent to a large-capacity SSD",
+      "Wired LAN, fingerprint, touch, and a memory-card slot are not included",
+      "Battery life is about 10 hours as listed; real use can differ—read the official notes",
+      "Overview lists Office as not included; also check the Microsoft 365 Personal trial terms in the spec table",
+      "Keyboard feel, speaker quality, display quality, and speed were not tested here",
+      "Price and stock can change—confirm on the official product page",
+    ],
+    summary:
+      "The Acer Extensa 15 EX215-24-A38U is listed by Acer with Windows 11 Pro, an AMD Ryzen 3 7320U, 8GB memory, a 256GB SSD, and a 15.6-inch Full HD (matte) display. Use it as a reference when comparing office-style or browser-centered work notebooks within the official specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer Extensa 15 EX215-24-A38U laptop",
+  },
+  "acer-chromebook-315-cb315-7h-h18p": {
+    title: "A 15.6-inch Chromebook for browser work. Acer Chromebook 315 CB315-7H-H18P",
+    seoTitle:
+      "Acer Chromebook 315 CB315-7H-H18P｜N50, 8GB, 15.6-inch | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer Chromebook 315 CB315-7H-H18P. Focused on the ChromeOS, Intel Processor N50, 8GB, 64GB eMMC, and 15.6-inch Full HD configuration listed by Acer.",
+    productType: "Chromebook",
+    excerpt:
+      "ChromeOS, N50, 8GB, 64GB eMMC. A 15.6-inch Full HD Chromebook 315.",
+    intro:
+      "The Acer Chromebook 315 CB315-7H-H18P is a 15.6-inch Chromebook sold on the Acer official online store. Official listings describe ChromeOS, an Intel Processor N50, 8GB memory, a 64GB eMMC, and a 15.6-inch Full HD (matte) display. It is introduced here as a candidate when you want to compare browser-centered work or video watching on the official spec sheet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "CB315-7H-H18P highlights",
+    points: [
+      "Model: CB315-7H-H18P (part number NX.JUVSJ.001, JAN 4515777659093). Color: Sparkly Silver",
+      "OS: Chrome OS",
+      "Processor: Intel Processor N50 (0.80GHz base / up to 3.40GHz with Turbo Boost, 6MB cache)",
+      "System memory: 8GB (onboard, LPDDR5X-8533MHz). Maximum 8GB. User changes or upgrades are listed as not supported. A note says the memory clock runs at 4800MHz due to CPU specifications",
+      "Storage: 64GB eMMC. No memory-card slot or optical drive",
+      "Graphics: Intel UHD Graphics (built into the main processor)",
+      "Display: 15.6-inch Full HD (1920×1080), 16:9, matte, LED backlight. No touch panel",
+      "Keyboard: Acer FineTip (103 keys / Japanese). Touchpad: OceanGlass (moisture-resistant)",
+      "Webcam: HD (1280×720, about 0.92 megapixels, 720p) with a privacy shutter. No rear camera",
+      "Wireless: IEEE 802.11 a/b/g/n/ac/ax (Wi-Fi 6E), 2x2 MU-MIMO. No wired LAN. Bluetooth 5.3",
+      "Interfaces include USB 3.2 Type-C ×2 (Gen 1, up to 5Gbps, PD / video output), USB 3.2 Type-A ×2 (Gen 1), HDMI, and a headset / speaker jack",
+      "Audio: DTS Audio, built-in stereo speakers, built-in microphones ×3",
+      "Battery life listed as about 13.5 hours (53Wh lithium-ion, built-in). Acer notes measurement with Google Power Load Test v2 and that results vary with use",
+      "Security: H1 TPM and a NanoSaver lock slot. No fingerprint sensor",
+      "Dimensions about 18.35–18.60 × 359.25 × 236.17 mm (H×W×D). Weight about 1,590 g",
+      "Includes a 65W USB Type-C AC adapter and an AC cord (about 1 m). Office is not included. Warranty listed as 1-year send-back / 1-year limited international traveler warranty",
+    ],
+    sections: [
+      {
+        title: "What makes it a Chromebook",
+        body: "Official materials list Chrome OS. That does not mean Windows desktop apps run as-is; the setup is centered on the browser and ChromeOS apps or services. Confirm support details on Acer’s page and Google’s documentation. Android apps or Linux features are not inferred here beyond what the official table lists.",
+      },
+      {
+        title: "Why the 15.6-inch screen is easier to read",
+        body: "The display is a 15.6-inch Full HD (1920×1080), 16:9 panel with a matte finish. Touch is listed as not supported. Those figures are useful when comparing a larger screen for documents, browsers, or video on a spec sheet. Color and viewing feel were not tested here, so this stays with the official numbers.",
+      },
+      {
+        title: "Browser-centered light work",
+        body: "Official materials list an Intel Processor N50, 8GB onboard memory, and a 64GB eMMC. Graphics are Intel UHD Graphics (integrated). These are the points to compare for browser-centered tasks such as web browsing or online documents. Subjective speed or “high performance” claims are not made here.",
+      },
+      {
+        title: "What to check for video and online work",
+        body: "For video watching or online work, points to check include the 15.6-inch Full HD panel, Wi-Fi 6E, Bluetooth 5.3, the HD webcam with privacy shutter, dual speakers, and three microphones. Battery life is listed as about 13.5 hours, but Acer notes it varies with use. Speaker and call quality were not tested here.",
+      },
+      {
+        title: "How it differs from a Windows PC",
+        body: "This model runs Chrome OS, and Office is listed as not included. It is not a drop-in Windows desktop-app environment. USB Type-C (PD / video), USB Type-A, HDMI, and a headset / speaker jack are still useful ports to compare on the spec sheet. Decide before buying whether your work is browser-centered or needs Windows-only apps.",
+      },
+      {
+        title: "What to watch with 64GB eMMC",
+        body: "Storage is a 64GB eMMC—not the same capacity as a large SSD. The OS and apps also use space, so local storage may feel tight depending on use. There is no memory-card slot. Check ChromeOS and accessory support if you plan to rely on cloud or external storage.",
+      },
+      {
+        title: "What to check for carrying it",
+        body: "Body weight is about 1,590 g, and height is about 18.35–18.60 mm. Battery life is listed as about 13.5 hours (53Wh). If portability matters, compare those official figures with your use. Keyboard feel and real-world runtime are not claimed here.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "The OS is Chrome OS. Do not assume every Windows app will run",
+      "Memory is onboard 8GB (8GB max). User changes or upgrades are listed as not supported",
+      "Storage is a 64GB eMMC—not equivalent to a large SSD",
+      "Wired LAN, fingerprint, touch, and a memory-card slot are not included",
+      "Battery life is about 13.5 hours under Acer’s stated test; real use can differ—read the official notes",
+      "Warranty is listed as 1-year send-back and related terms—confirm on the official page",
+      "Keyboard feel, speaker quality, display quality, and speed were not tested here",
+      "Price and stock can change—confirm on the official product page",
+    ],
+    summary:
+      "The Acer Chromebook 315 CB315-7H-H18P is listed by Acer with ChromeOS, an Intel Processor N50, 8GB memory, a 64GB eMMC, and a 15.6-inch Full HD (matte) display. Use it as a reference when comparing browser-centered work or video watching within the official specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer Chromebook 315 CB315-7H-H18P laptop",
+  },
   "acer-pm161qta1bmiuux": {
     title: "Carry a 15.6-inch screen. Acer PM161QTA1bmiuux",
     seoTitle:
