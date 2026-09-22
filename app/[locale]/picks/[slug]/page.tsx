@@ -11,6 +11,8 @@ type PageProps = {
   params: Promise<{ locale: string; slug: string }>;
 };
 
+export const dynamicParams = true;
+
 export function generateStaticParams() {
   const articles = getAllArticles();
   return prefixedLocales.flatMap((locale) =>

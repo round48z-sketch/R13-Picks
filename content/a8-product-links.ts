@@ -5,6 +5,16 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "panasonic-lets-note-cf-sv9-refurbished":
+    '<span class="a8ad 4AO4E1j-g7-vvWaXd8"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+3ZHJVU+4X3U+BWGDT","alt":"商品リンク","id":"4AO4E1j-g7-vvWaXd8"},"goods": {"ejp":"h"+"ttps://pcnext.shop/products/panasonic-lets-note-cf-sv9","imu":"h"+"ttps://pcnext.shop/cdn/shop/files/1_5551aea4-7f57-481e-a45f-390bcf5ad0eb.png?v=1783309150&width=823"}});</script>',
+  "fujitsu-lifebook-u9312-k-refurbished":
+    '<span class="a8ad 4AO4E1j-g7-vvW9fqx"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+3ZHJVU+4X3U+BWGDT","alt":"商品リンク","id":"4AO4E1j-g7-vvW9fqx"},"goods": {"ejp":"h"+"ttps://pcnext.shop/products/fujitsu-lifebook-u9312-k","imu":"h"+"ttps://pcnext.shop/cdn/shop/files/1_3d2c5535-4b06-40bb-afdb-b2bf9a03832b.png?v=1783309218&width=823"}});</script>',
+  "fujitsu-lifebook-u9311x-f-refurbished":
+    '<span class="a8ad 4AO4E1j-g7-vvW6g4A"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+3ZHJVU+4X3U+BWGDT","alt":"商品リンク","id":"4AO4E1j-g7-vvW6g4A"},"goods": {"ejp":"h"+"ttps://pcnext.shop/products/fujitsu-lifebook-u9311-xf","imu":"h"+"ttps://pcnext.shop/cdn/shop/files/1_3cbc8c02-8f2b-45d7-b475-64cc3620e4d3.png?v=1783309278&width=823"}});</script>',
+  "nec-mobile-silver-refurbished":
+    '<span class="a8ad 4AO4E1j-g7-vvW5Bh2"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+3ZHJVU+4X3U+BWGDT","alt":"商品リンク","id":"4AO4E1j-g7-vvW5Bh2"},"goods": {"ejp":"h"+"ttps://pcnext.shop/products/necmobile-silver","imu":"h"+"ttps://pcnext.shop/cdn/shop/files/1_bc425658-2903-4698-afd8-d65514b1aef0.png?v=1783309274&width=823"}});</script>',
+  "fujitsu-lifebook-refurbished":
+    '<span class="a8ad 4AO4E1j-g7-vvVQ5gd"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+3ZHJVU+4X3U+BWGDT","alt":"商品リンク","id":"4AO4E1j-g7-vvVQ5gd"},"goods": {"ejp":"h"+"ttps://pcnext.shop/products/fujitsu-lifebook","imu":"h"+"ttps://pcnext.shop/cdn/shop/files/u748_4c79103e-c1f7-477e-8681-4c12ea5c7957.png?v=1783309284&width=823"}});</script>',
   "acer-vg270s6bmix":
     '<span class="a8ad 4AO4E1Q-g7-vvVLjAR"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvVLjAR"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-vg270s6bmix","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777655675_01_um.hv0sj.603.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
   "acer-extensa-15-ex215-24-a38u":

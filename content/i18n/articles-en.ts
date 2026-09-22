@@ -1,6 +1,393 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "panasonic-lets-note-cf-sv9-refurbished": {
+    title: "A compact refurbished mobile notebook. Panasonic Let's note CF-SV9",
+    seoTitle:
+      "Panasonic Let's note CF-SV9 refurbished laptop｜10th-gen Core i5 used PC | R13 Picks",
+    description:
+      "An R13 Picks look at the Panasonic Let's note CF-SV9 refurbished laptop sold by PC next. Focused on it being refurbished, the 10th-gen Core i5-10310U, 16GB memory, new 256GB SSD, 12.1-inch panel, 1 kg weight, and official warranty, battery, and appearance caveats.",
+    productType: "Refurbished laptop",
+    excerpt:
+      "Refurbished. 10th-gen Core i5, 16GB memory, new 256GB SSD Let's note CF-SV9.",
+    intro:
+      "The Panasonic Let's note CF-SV9 refurbished laptop is sold on the PC next official online store as “Panasonic Let's note CF-SV9 (16GB memory).” It is a used / refurbished notebook—not a new PC. The product page and specs table list manufacturer Panasonic, model Let's note CF-SV9, Core i5-10310U (10th generation), 16GB memory, a new 256GB SSD, a 12.1-inch display (1920×1200), Windows 11 Home, and a weight of 1 kg. It is introduced here as a candidate when you want a lower-cost lightweight mobile Windows notebook and are willing to compare official specs and warranty terms. Price, stock, and cosmetic condition can vary by unit and timing—confirm the latest details on the product page.",
+    pointsTitle: "Let's note CF-SV9 refurbished laptop highlights (official)",
+    points: [
+      "Sold as a refurbished / reconditioned PC. The title includes 【再生パソコン】",
+      "Manufacturer: Panasonic. Model: Let's note CF-SV9. Listed name: Panasonic Let's note CF-SV9 (16GB memory)",
+      "CPU: Core i5-10310U @1.7GHz (10th generation)",
+      "Memory: 16GB",
+      "Storage: new 256GB SSD",
+      "Display: 12.1-inch, 1920×1200 (listed as FHD on the product page)",
+      "OS: Windows 11 Home. Listed with a genuine Windows 11 license and Windows Security installed",
+      "Built-in webcam, built-in wireless LAN, Bluetooth. Optical drive: none",
+      "Interfaces listed as USB 3.0×3 / USB Type-C / HDMI / VGA / SDXC card slot / wired LAN / AC adapter (ports/features not in the specs are untested and not covered)",
+      "Size: 284 × 205 × 24 mm (W×D×H). Weight: 1 kg",
+      "Software listed: WPS Office 2 / Windows Security. Microsoft Office Home & Business 2024 license card is offered as an option",
+      "Ships with initial setup done and a simple PDF manual",
+      "Warranty: 1-year operational warranty. Refund: 15-day money-back guarantee after arrival (with conditions). Confirm the warranty and refund policies",
+      "Other notes: cleaned, but the lid and other surfaces may have scratches; battery wear is excluded from warranty replacement; photos are illustrative; ports/features not listed in the specs are untested and not covered",
+    ],
+    sections: [
+      {
+        title: "What this Let's note refurbished notebook is",
+        body: "This is a Panasonic Let's note used / refurbished laptop from PC next, listed as Let's note CF-SV9. The specs table confirms a 10th-generation Core i5-10310U, 16GB memory, a new 256GB SSD, a 12.1-inch panel, and a listed weight of 1 kg. It is sold in the Windows 11 (mobile) category and is not the same as a brand-new Let's note.",
+      },
+      {
+        title: "How it differs from a new PC",
+        body: "Compared with a new PC, the product page notes that scratches may be present, battery wear is outside warranty replacement, and photos are illustrative. It also lists Windows 11 Home with a genuine license, a new 256GB SSD, a 1-year operational warranty, and a 15-day refund window. Set expectations for price and appearance around a refurbished unit, not a new one.",
+      },
+      {
+        title: "What to check for carrying it",
+        body: "The display is listed as 12.1 inches, the weight as 1 kg, and the body as 284 × 205 × 24 mm. Product highlights also describe it as a lightweight model under 1 kg. If portability matters, compare those official figures with your bag and workload. Carry feel and battery runtime are not claimed here.",
+      },
+      {
+        title: "What to check for work and office tasks",
+        body: "For office-style or browser work, compare the 12.1-inch 1920×1200 panel, Windows 11 Home, wireless LAN, wired LAN, webcam, and WPS Office 2 (as listed by default). Microsoft Office is listed as a separate option. Confirm what’s included with your order on the product page.",
+      },
+      {
+        title: "What to check in the CPU, memory, and SSD setup",
+        body: "Official materials list Core i5-10310U (10th generation), 16GB memory, and a new 256GB SSD. A 10th-gen CPU is not equivalent to current-generation processors. 16GB may help when many apps are open, but whether 256GB of storage is enough depends on how much you store locally. Subjective speed is not claimed here because units and use differ.",
+      },
+      {
+        title: "Ports and business-use checkpoints",
+        body: "The specs list USB 3.0×3, USB Type-C, HDMI, VGA, an SDXC card slot, wired LAN, and an AC adapter. If your desk setup needs wired LAN, VGA, or HDMI, compare that official list with your peripherals. Ports/features not listed in the specs are untested and not covered. There is no optical drive.",
+      },
+      {
+        title: "Warranty, battery, and appearance notes for used PCs",
+        body: "A 1-year operational warranty is listed. The warranty terms cover repair, a replacement unit, or complementary accessories for defects or natural failure within one year, at the seller’s choice. Battery and other consumable issues are excluded. The product notes also say battery wear is outside warranty replacement and that the lid may have scratches. The 15-day refund window starts from arrival (excluding some items); customer-initiated returns deduct round-trip shipping plus re-setup fees (tax-included ¥3,300). Confirm the product page, refund policy, and warranty terms.",
+      },
+      {
+        title: "Who it may suit / who it may not",
+        body: "It may suit people who want a lower-cost ~12-inch lightweight Windows 11 Home notebook, who want to review the 16GB memory and port list (wired LAN / HDMI / VGA), for browser and document work, and who accept refurbished condition after reading warranty and refund terms. It may not suit people who cannot accept cosmetic scratches, expect new-PC battery life, need a current-gen CPU or a larger screen, need an optical drive, or mainly play games / do heavy creative work. Used refurbished units vary—plan to check the unit when it arrives.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "This is a used / refurbished PC, not a new one",
+      "Scratches on the lid and elsewhere are possible; cosmetics vary by unit",
+      "Battery wear is excluded from warranty replacement; runtime is not estimated here",
+      "The 1-year warranty and 15-day refund have conditions—read the policies",
+      "The CPU is 10th-generation Core i5-10310U—not equivalent to current-gen CPUs. Memory is 16GB",
+      "There is no optical drive. Ports/features not listed in the specs are untested and not covered",
+      "Price, stock, and options can change—confirm on the product page",
+    ],
+    summary:
+      "The Panasonic Let's note CF-SV9 refurbished laptop from PC next is a used / refurbished Windows notebook listed with a 10th-gen Core i5-10310U, 16GB memory, a new 256GB SSD, a 12.1-inch panel, a 1 kg weight, and Windows 11 Home. Review warranty, battery, and appearance notes before treating it as a lower-cost lightweight mobile Windows notebook option. Confirm the latest price, stock, and terms on the product page.",
+    note: "This is a refurbished product. Check the product page for the latest price, stock, and warranty terms.",
+    ctaLabel: "View product",
+    imageAlt: "Panasonic Let's note CF-SV9 refurbished laptop product image",
+  },
+  "fujitsu-lifebook-u9312-k-refurbished": {
+    title: "A compact refurbished mobile notebook. Fujitsu LIFEBOOK U9312/K",
+    seoTitle:
+      "Fujitsu LIFEBOOK U9312/K refurbished laptop｜12th-gen Core i5 used PC | R13 Picks",
+    description:
+      "An R13 Picks look at the Fujitsu LIFEBOOK U9312/K refurbished laptop sold by PC next. Focused on it being refurbished, the 12th-gen Core i5-1245U, new 256GB SSD, 13.3-inch FHD panel, 738 g weight, and official warranty, battery, and appearance caveats.",
+    productType: "Refurbished laptop",
+    excerpt:
+      "Refurbished. 12th-gen Core i5, new 256GB SSD, 13.3-inch FHD U9312/K.",
+    intro:
+      "The Fujitsu LIFEBOOK U9312/K refurbished laptop is sold on the PC next official online store as “Fujitsu Lifebook U9312/K.” It is a used / refurbished notebook—not a new PC. The product page and specs table list manufacturer Fujitsu, model Lifebook U9312/K, Core i5-1245U (12th generation), 8GB memory, a new 256GB SSD, a 13.3-inch display (1920×1080 FHD), Windows 11 Home, and a weight of 738 g. It is introduced here as a candidate when you want a lower-cost lightweight mobile Windows notebook and are willing to compare official specs and warranty terms. Price, stock, and cosmetic condition can vary by unit and timing—confirm the latest details on the product page.",
+    pointsTitle: "LIFEBOOK U9312/K refurbished laptop highlights (official)",
+    points: [
+      "Sold as a refurbished / reconditioned PC. The title includes 【再生パソコン】 and the specs table labels it refurbished",
+      "Manufacturer: Fujitsu. Model: Lifebook U9312/K. Listed name: Fujitsu Lifebook U9312/K",
+      "CPU: Core i5-1245U @2.50GHz (12th generation)",
+      "Memory: 8GB",
+      "Storage: new 256GB SSD",
+      "Display: 13.3-inch, 1920×1080 (FHD)",
+      "OS: Windows 11 Home. Listed with a genuine Windows 11 license and Windows Security installed",
+      "Built-in webcam, built-in wireless LAN, Bluetooth",
+      "Interfaces listed as USB 3.2×2 / USB Type-C×1 / HDMI / headphone jack / SDXC card slot / wired LAN / AC adapter (ports/features not in the specs are untested and not covered)",
+      "Size: 307 × 197 × 15.5 mm (W×D×H). Weight: 738 g",
+      "Software listed: WPS Office 2 / Windows Security. Microsoft Office Home & Business 2024 license card is offered as an option",
+      "Ships with initial setup done and a simple PDF manual",
+      "Warranty: 1-year operational warranty. Refund: 15-day money-back guarantee after arrival (with conditions). Confirm the warranty and refund policies",
+      "Other notes: cleaned, but the lid and other surfaces may have scratches; battery wear is excluded from warranty replacement; photos are illustrative; ports/features not listed in the specs are untested and not covered",
+    ],
+    sections: [
+      {
+        title: "What this lightweight refurbished notebook is",
+        body: "This is a Fujitsu used / refurbished laptop from PC next, listed as Lifebook U9312/K. The specs table confirms a 12th-generation Core i5-1245U, 8GB memory, a new 256GB SSD, a 13.3-inch FHD panel, and a listed weight of 738 g. It is sold in the Windows 11 (mobile) category and is not the same as a brand-new LIFEBOOK.",
+      },
+      {
+        title: "How it differs from a new PC",
+        body: "Compared with a new PC, the product page notes that scratches may be present, battery wear is outside warranty replacement, and photos are illustrative. It also lists Windows 11 Home with a genuine license, a new 256GB SSD, a 1-year operational warranty, and a 15-day refund window. Set expectations for price and appearance around a refurbished unit, not a new one.",
+      },
+      {
+        title: "What to check for carrying it",
+        body: "The display is listed as 13.3 inches, the weight as 738 g, and the body as 307 × 197 × 15.5 mm. Versus roughly 14-inch or 1 kg+ notebooks, the listed mass is on the lighter side. If portability matters, compare those official figures with your bag and workload. Carry feel and battery runtime are not claimed here.",
+      },
+      {
+        title: "What to check for work and office tasks",
+        body: "For office-style or browser work, compare the 13.3-inch 1920×1080 (FHD) panel, Windows 11 Home, wireless LAN, wired LAN, webcam, and WPS Office 2 (as listed by default). The resolution is Full HD. Microsoft Office is listed as a separate option. Confirm what’s included with your order on the product page.",
+      },
+      {
+        title: "What to check in the CPU, memory, and SSD setup",
+        body: "Official materials list Core i5-1245U (12th generation), 8GB memory, and a new 256GB SSD. A 12th-gen CPU is not equivalent to current-generation processors. Whether 8GB and 256GB are enough depends on how many apps you run and how much you store locally. Subjective speed is not claimed here because units and use differ.",
+      },
+      {
+        title: "Warranty, battery, and appearance notes for used PCs",
+        body: "A 1-year operational warranty is listed. The warranty terms cover repair, a replacement unit, or complementary accessories for defects or natural failure within one year, at the seller’s choice. Battery and other consumable issues are excluded. The product notes also say battery wear is outside warranty replacement and that the lid may have scratches. The 15-day refund window starts from arrival (excluding some items); customer-initiated returns deduct round-trip shipping plus re-setup fees (tax-included ¥3,300). Confirm the product page, refund policy, and warranty terms.",
+      },
+      {
+        title: "Who it may suit / who it may not",
+        body: "It may suit people who want a lower-cost ~13.3-inch lightweight Windows 11 Home notebook for browser and document work and who accept refurbished condition after reading warranty and refund terms. It may not suit people who cannot accept cosmetic scratches, expect new-PC battery life, need 16GB+ memory or a current-gen CPU, or mainly play games / do heavy creative work. Used refurbished units vary—plan to check the unit when it arrives.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "This is a used / refurbished PC, not a new one",
+      "Scratches on the lid and elsewhere are possible; cosmetics vary by unit",
+      "Battery wear is excluded from warranty replacement; runtime is not estimated here",
+      "The 1-year warranty and 15-day refund have conditions—read the policies",
+      "The CPU is 12th-generation Core i5-1245U—not equivalent to current-gen CPUs. Memory is 8GB",
+      "Ports/features not listed in the specs are untested and not covered",
+      "Price, stock, and options can change—confirm on the product page",
+    ],
+    summary:
+      "The Fujitsu LIFEBOOK U9312/K refurbished laptop from PC next is a used / refurbished Windows notebook listed with a 12th-gen Core i5-1245U, 8GB memory, a new 256GB SSD, a 13.3-inch FHD panel, a 738 g weight, and Windows 11 Home. Review warranty, battery, and appearance notes before treating it as a lower-cost lightweight mobile Windows notebook option. Confirm the latest price, stock, and terms on the product page.",
+    note: "This is a refurbished product. Check the product page for the latest price, stock, and warranty terms.",
+    ctaLabel: "View product",
+    imageAlt: "Fujitsu LIFEBOOK U9312/K refurbished laptop product image",
+  },
+  "fujitsu-lifebook-u9311x-f-refurbished": {
+    title: "A compact refurbished mobile notebook. Fujitsu LIFEBOOK U9311X/F",
+    seoTitle:
+      "Fujitsu LIFEBOOK U9311X/F refurbished laptop｜11th-gen Core i5 used PC | R13 Picks",
+    description:
+      "An R13 Picks look at the Fujitsu LIFEBOOK U9311X/F refurbished laptop sold by PC next. Focused on it being refurbished, the 11th-gen Core i5-1145G7, new 256GB SSD, 13.3-inch FHD touch display, 360° hinge notes, and official warranty, battery, and appearance caveats.",
+    productType: "Refurbished laptop",
+    excerpt:
+      "Refurbished. 11th-gen Core i5, new 256GB SSD, 13.3-inch FHD touch U9311X/F.",
+    intro:
+      "The Fujitsu LIFEBOOK U9311X/F refurbished laptop is sold on the PC next official online store as “Fujitsu Lifebook U9311X/F (touch panel).” It is a used / refurbished notebook—not a new PC. The product page and specs table list manufacturer Fujitsu, model Lifebook U9311X/F, Core i5-1145G7 (11th generation), 8GB memory, a new 256GB SSD, a 13.3-inch display (1920×1080 FHD), and Windows 11 Home. Product highlights also mention 360° screen rotation and touch or pen input. It is introduced here as a candidate when you want a lower-cost lightweight mobile Windows notebook and are willing to compare official specs and warranty terms. Price, stock, and cosmetic condition can vary by unit and timing—confirm the latest details on the product page.",
+    pointsTitle: "LIFEBOOK U9311X/F refurbished laptop highlights (official)",
+    points: [
+      "Sold as a refurbished / reconditioned PC. The title includes 【再生パソコン】 and the specs table labels it refurbished",
+      "Manufacturer: Fujitsu. Model: Lifebook U9311X/F. Listed name: Fujitsu Lifebook U9311X/F (touch panel)",
+      "CPU: Core i5-1145G7 @2.60GHz (11th generation)",
+      "Memory: 8GB",
+      "Storage: new 256GB SSD",
+      "Display: 13.3-inch, 1920×1080 (FHD). Listed as a touch-panel model",
+      "Product highlights state 360° screen rotation and touch or pen input",
+      "OS: Windows 11 Home. Listed with a genuine Windows 11 license and Windows Security installed",
+      "Built-in webcam, built-in wireless LAN, Bluetooth",
+      "Interfaces listed as USB 3.2×2 / USB Type-C×2 / HDMI / headphone jack / SDXC card slot / wired LAN / AC adapter (ports/features not in the specs are untested and not covered)",
+      "Size: 309 × 215 × 17 mm (W×D×H). Weight: 877 g",
+      "Software listed: WPS Office 2 / Windows Security. Microsoft Office Home & Business 2024 license card is offered as an option",
+      "Ships with initial setup done and a simple PDF manual",
+      "Warranty: 1-year operational warranty. Refund: 15-day money-back guarantee after arrival (with conditions). Confirm the warranty and refund policies",
+      "Other notes: cleaned, but the lid and other surfaces may have scratches; battery wear is excluded from warranty replacement; photos are illustrative; ports/features not listed in the specs are untested and not covered",
+    ],
+    sections: [
+      {
+        title: "What this lightweight refurbished notebook is",
+        body: "This is a Fujitsu used / refurbished laptop from PC next, listed as Lifebook U9311X/F. The specs table confirms an 11th-generation Core i5-1145G7, 8GB memory, a new 256GB SSD, a 13.3-inch FHD panel, and a listed weight of 877 g. It is sold in the Windows 11 (mobile) category and is not the same as a brand-new LIFEBOOK.",
+      },
+      {
+        title: "How it differs from a new PC",
+        body: "Compared with a new PC, the product page notes that scratches may be present, battery wear is outside warranty replacement, and photos are illustrative. It also lists Windows 11 Home with a genuine license, a new 256GB SSD, a 1-year operational warranty, and a 15-day refund window. Set expectations for price and appearance around a refurbished unit, not a new one.",
+      },
+      {
+        title: "What to check for carrying it",
+        body: "The display is listed as 13.3 inches, the weight as 877 g, and the body as 309 × 215 × 17 mm. Versus roughly 14-inch or 1 kg+ notebooks, the listed mass is on the lighter side. If portability matters, compare those official figures with your bag and workload. Carry feel and battery runtime are not claimed here.",
+      },
+      {
+        title: "What to check for work and office tasks",
+        body: "For office-style or browser work, compare the 13.3-inch 1920×1080 (FHD) panel, Windows 11 Home, wireless LAN, wired LAN, webcam, and WPS Office 2 (as listed by default). The resolution is Full HD. Microsoft Office is listed as a separate option. Confirm what’s included with your order on the product page.",
+      },
+      {
+        title: "Touch and 360° rotation notes",
+        body: "The listed name includes (touch panel). Product highlights state that the screen rotates 360° and that touch or pen input is supported. Hands-on usability, whether a pen is included, and hinge condition by unit are not claimed here. Check the latest product-page notes and plan to inspect the unit when it arrives.",
+      },
+      {
+        title: "What to check in the CPU, memory, and SSD setup",
+        body: "Official materials list Core i5-1145G7 (11th generation), 8GB memory, and a new 256GB SSD. An 11th-gen CPU is not equivalent to current-generation processors. Whether 8GB and 256GB are enough depends on how many apps you run and how much you store locally. Subjective speed is not claimed here because units and use differ.",
+      },
+      {
+        title: "Warranty, battery, and appearance notes for used PCs",
+        body: "A 1-year operational warranty is listed. The warranty terms cover repair, a replacement unit, or complementary accessories for defects or natural failure within one year, at the seller’s choice. Battery and other consumable issues are excluded. The product notes also say battery wear is outside warranty replacement and that the lid may have scratches. The 15-day refund window starts from arrival (excluding some items); customer-initiated returns deduct round-trip shipping plus re-setup fees (tax-included ¥3,300). Confirm the product page, refund policy, and warranty terms.",
+      },
+      {
+        title: "Who it may suit / who it may not",
+        body: "It may suit people who want a lower-cost ~13.3-inch lightweight Windows 11 Home notebook for browser and document work, who want to review the official touch / 360° notes, and who accept refurbished condition after reading warranty and refund terms. It may not suit people who cannot accept cosmetic scratches, expect new-PC battery life, need 16GB+ memory or a current-gen CPU, or mainly play games / do heavy creative work. Used refurbished units vary—plan to check the unit when it arrives.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "This is a used / refurbished PC, not a new one",
+      "Scratches on the lid and elsewhere are possible; cosmetics vary by unit",
+      "Battery wear is excluded from warranty replacement; runtime is not estimated here",
+      "The 1-year warranty and 15-day refund have conditions—read the policies",
+      "The CPU is 11th-generation Core i5-1145G7—not equivalent to current-gen CPUs. Memory is 8GB",
+      "Touch / 360° rotation are described only as officially listed; usability and pen inclusion are not asserted here",
+      "Ports/features not listed in the specs are untested and not covered",
+      "Price, stock, and options can change—confirm on the product page",
+    ],
+    summary:
+      "The Fujitsu LIFEBOOK U9311X/F refurbished laptop from PC next is a used / refurbished Windows notebook listed with an 11th-gen Core i5-1145G7, 8GB memory, a new 256GB SSD, a 13.3-inch FHD touch panel, a 877 g weight, and Windows 11 Home. Review warranty, battery, and appearance notes before treating it as a lower-cost lightweight mobile Windows notebook option. Confirm the latest price, stock, and terms on the product page.",
+    note: "This is a refurbished product. Check the product page for the latest price, stock, and warranty terms.",
+    ctaLabel: "View product",
+    imageAlt: "Fujitsu LIFEBOOK U9311X/F refurbished laptop product image",
+  },
+  "nec-mobile-silver-refurbished": {
+    title: "A compact refurbished Windows notebook. NEC compact (Silver) refurbished laptop",
+    seoTitle:
+      "NEC compact (Silver) refurbished laptop｜8th-gen Core i5 used PC | R13 Picks",
+    description:
+      "An R13 Picks look at the NEC compact (Silver) refurbished laptop sold by PC next. Focused on it being refurbished, the 8th-gen Core i5, new 256GB SSD, 12.5-inch panel, Windows 11 Home, and official notes on warranty, battery, and appearance.",
+    productType: "Refurbished laptop",
+    excerpt:
+      "Refurbished. 8th-gen Core i5, new 256GB SSD, 12.5-inch NEC compact (Silver).",
+    intro:
+      "The NEC compact (Silver) refurbished laptop is sold on the PC next official online store as “[NEC compact (Silver)] recommended laptop (8th-generation Core i5).” It is a used / refurbished notebook—not a new PC. The product page lists manufacturer NEC, an 8th-generation Core i5, 8GB memory, a new 256GB SSD, a 12.5-inch display (1366×768), and Windows 11 Home. It also states that a specific model number cannot be chosen. It is introduced here as a candidate when you want a lower-cost compact Windows notebook and are willing to compare official specs and warranty terms. Price, stock, and cosmetic condition can vary by unit and timing—confirm the latest details on the product page.",
+    pointsTitle: "NEC compact (Silver) refurbished laptop highlights (official)",
+    points: [
+      "Sold as a refurbished / reconditioned PC. The specs table also labels it refurbished",
+      "Manufacturer: NEC. Listed name: [NEC compact (Silver)] recommended laptop (8th-generation Core i5). Model number cannot be specified",
+      "Color: Silver (stated to match the product images)",
+      "CPU: 8th-generation Core i5 (no individual CPU SKU listed in the specs table)",
+      "Memory: 8GB",
+      "Storage: new 256GB SSD. The seller states HDD units are replaced with a new SSD before sale",
+      "Display: 12.5-inch, 1366×768",
+      "OS: Windows 11 Home. Listed with a genuine Windows 11 license and Windows Security installed",
+      "Built-in webcam, built-in wireless LAN, Bluetooth",
+      "Interfaces listed as USB 3.0 / HDMI / AC adapter and more (ports/features not in the specs are untested and not covered)",
+      "Weight: 1.3 kg",
+      "Software listed: WPS Office 2 / Windows Security. Microsoft Office Home & Business 2024 license card is offered as an option",
+      "Ships with initial setup done and a simple PDF manual",
+      "Warranty: 1-year operational warranty. Refund: 15-day money-back guarantee after arrival (with conditions). Confirm the warranty and refund policies",
+      "Other notes: cleaned, but the lid and other surfaces may have scratches; battery wear is excluded from warranty replacement; photos are illustrative; ports/features not listed in the specs are untested and not covered",
+    ],
+    sections: [
+      {
+        title: "What this NEC refurbished notebook is",
+        body: "This is an NEC used / refurbished laptop from PC next, listed in the compact (Silver) recommended series. The specs table confirms manufacturer NEC, an 8th-generation Core i5, 8GB memory, a new 256GB SSD, a 12.5-inch panel, and Windows 11 Home. A specific model number cannot be chosen. It is not the same as a brand-new NEC notebook.",
+      },
+      {
+        title: "How it differs from a new PC",
+        body: "Compared with a new PC, the product page notes that scratches may be present, battery wear is outside warranty replacement, and photos are illustrative. It also lists Windows 11 Home with a genuine license, a new 256GB SSD, a 1-year operational warranty, and a 15-day refund window. Set expectations for price and appearance around a refurbished unit, not a new one.",
+      },
+      {
+        title: "A lower-cost Windows notebook option",
+        body: "The product page positions it for web browsing, light Office-style work, online classes, and remote work (including Zoom). It is not presented for gaming or heavy video editing. Match those listed uses with your own workload before buying.",
+      },
+      {
+        title: "What to check in the CPU, memory, and SSD setup",
+        body: "Official materials list an 8th-generation Core i5, 8GB memory, and a new 256GB SSD. An 8th-gen CPU is not equivalent to current-generation processors. Whether 8GB and 256GB are enough depends on how many apps you run and how much you store locally. Subjective speed is not claimed here because units and use differ.",
+      },
+      {
+        title: "What to check for work and office tasks",
+        body: "For office-style or browser work, compare the 12.5-inch 1366×768 panel, Windows 11 Home, wireless LAN, webcam, and WPS Office 2 (as listed by default). The resolution is not Full HD (1920×1080). Microsoft Office is listed as a separate option. Confirm what’s included with your order on the product page.",
+      },
+      {
+        title: "What to check for carrying it",
+        body: "The display is listed as 12.5 inches and the weight as 1.3 kg. Versus roughly 14-inch notebooks, the screen is smaller and the listed mass is on the lighter side. If portability matters, compare those official figures with your bag and workload. Carry feel and battery runtime are not claimed here.",
+      },
+      {
+        title: "Warranty, battery, and appearance notes for used PCs",
+        body: "A 1-year operational warranty is listed. The warranty terms cover repair, a replacement unit, or complementary accessories for defects or natural failure within one year, at the seller’s choice. Battery and other consumable issues are excluded. The product notes also say battery wear is outside warranty replacement and that the lid may have scratches. The 15-day refund window starts from arrival (excluding some items); customer-initiated returns deduct round-trip shipping plus re-setup fees (tax-included ¥3,300). Confirm the product page, refund policy, and warranty terms.",
+      },
+      {
+        title: "Who it may suit / who it may not",
+        body: "It may suit people who want a lower-cost ~12.5-inch Windows 11 Home notebook for browser and document work and who accept refurbished condition after reading warranty and refund terms. It may not suit people who cannot accept cosmetic scratches, expect new-PC battery life, need Full HD or a current-gen CPU / 16GB+ memory, mainly play games / do heavy creative work, or need a fixed model number before purchase. Used refurbished units vary—plan to check the unit when it arrives.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "This is a used / refurbished PC, not a new one",
+      "A specific model number cannot be chosen",
+      "Scratches on the lid and elsewhere are possible; cosmetics vary by unit",
+      "Battery wear is excluded from warranty replacement; runtime is not estimated here",
+      "The 1-year warranty and 15-day refund have conditions—read the policies",
+      "The CPU is 8th-generation Core i5—not equivalent to current-gen CPUs. Memory is 8GB",
+      "Resolution is 1366×768, not Full HD",
+      "Ports/features not listed in the specs are untested and not covered",
+      "Price, stock, and options can change—confirm on the product page",
+    ],
+    summary:
+      "The NEC compact (Silver) refurbished laptop from PC next is a used / refurbished Windows notebook listed with an 8th-gen Core i5, 8GB memory, a new 256GB SSD, a 12.5-inch panel, and Windows 11 Home. Note that the model number cannot be specified, and review warranty, battery, and appearance notes before treating it as a lower-cost compact Windows notebook option. Confirm the latest price, stock, and terms on the product page.",
+    note: "This is a refurbished product. Check the product page for the latest price, stock, and warranty terms.",
+    ctaLabel: "View product",
+    imageAlt: "NEC compact (Silver) refurbished laptop product image",
+  },
+  "fujitsu-lifebook-refurbished": {
+    title: "A refurbished Windows notebook. Fujitsu LIFEBOOK refurbished laptop",
+    seoTitle:
+      "Fujitsu LIFEBOOK refurbished laptop｜8th-gen Core i5 used PC | R13 Picks",
+    description:
+      "An R13 Picks look at the Fujitsu LIFEBOOK refurbished laptop sold by PC next. Focused on it being refurbished, the 8th-gen Core i5, new 256GB SSD, Windows 11 Home, and official notes on warranty, battery, and appearance.",
+    productType: "Refurbished laptop",
+    excerpt:
+      "Refurbished. 8th-gen Core i5, new 256GB SSD, Windows 11 Home LIFEBOOK.",
+    intro:
+      "The Fujitsu LIFEBOOK refurbished laptop is a used / refurbished notebook sold on the PC next official online store. It is not a new PC. The product page lists an 8th-generation Core i5 (Core i5-8350U), 8GB / 16GB memory options, a new 256GB SSD, a 14-inch display (1366×768), and Windows 11 Home. It is introduced here as a candidate when you want a lower-cost Windows notebook and are willing to compare official specs and warranty terms. Price, stock, and cosmetic condition can vary by unit and timing—confirm the latest details on the product page.",
+    pointsTitle: "LIFEBOOK refurbished laptop highlights (official)",
+    points: [
+      "Sold as a refurbished / reconditioned PC. The product title also labels it as a refurbished PC",
+      "CPU: 8th-generation Core i5 (listed as Core i5-8350U on the product page)",
+      "Memory: choose 8GB or 16GB (availability can change on the product page)",
+      "Storage: new 256GB SSD. The seller states storage is replaced with a new SSD before shipping",
+      "Display: 14-inch, 1366×768 (HD)",
+      "OS: Windows 11 Home. Listed with a genuine Windows 11 license and Windows Security installed",
+      "Built-in webcam, built-in wireless LAN, Bluetooth",
+      "Interfaces listed: USB 3.0 ×2, USB Type-C ×1, VGA, DisplayPort, SDXC, headphone jack, wired LAN port, AC adapter",
+      "Dimensions: 332.6 × 234 × 19 mm (W×D×H). Weight: 1.5 kg",
+      "Software listed: WPS Office 2 / Windows Security. Microsoft Office Home & Business 2024 license card is offered as an option",
+      "Ships with initial setup done and a simple PDF manual",
+      "Warranty: 1-year operational warranty. Refund: 15-day money-back guarantee after arrival (with conditions). Confirm the warranty and refund policies",
+      "Other notes: cleaned, but the lid and other surfaces may have scratches; battery wear is excluded from warranty replacement; images are for illustration; ports/features not listed in the specs are untested and not covered",
+    ],
+    sections: [
+      {
+        title: "What a refurbished notebook means here",
+        body: "This product is a used / refurbished laptop from PC next. The specs table explicitly says it is refurbished. The seller describes preparing the used unit and replacing storage with a new SSD before delivery. It is not the same as a brand-new Fujitsu notebook. Before buying, confirm that it is refurbished and read the warranty, appearance, and battery notes.",
+      },
+      {
+        title: "How it differs from a new PC",
+        body: "Compared with a new PC, the product page notes that scratches may be present, battery wear is outside warranty replacement, and images are illustrative. It also lists Windows 11 Home with a genuine license, a new 256GB SSD, a 1-year operational warranty, and a 15-day refund window. Set expectations for price and appearance around a refurbished unit, not a new one.",
+      },
+      {
+        title: "A lower-cost Windows notebook option",
+        body: "The product page positions it for web browsing, light Office-style work, online classes, and remote work (including Zoom). It is not presented for gaming or heavy video editing. Match those listed uses with your own workload before buying.",
+      },
+      {
+        title: "What to check in the CPU, memory, and SSD setup",
+        body: "Official materials list an 8th-generation Core i5 (Core i5-8350U), 8GB or 16GB memory, and a new 256GB SSD. An 8th-gen CPU is not equivalent to current-generation processors. Whether 8/16GB and 256GB are enough depends on how many apps you run and how much you store locally. Subjective speed is not claimed here because units and use differ.",
+      },
+      {
+        title: "What to check for work and office tasks",
+        body: "For office-style or browser work, compare the 14-inch HD (1366×768) panel, Windows 11 Home, wireless / wired LAN, webcam, and WPS Office 2 (as listed by default). The resolution is not Full HD (1920×1080). Microsoft Office is listed as a separate option. Confirm what’s included with your order on the product page.",
+      },
+      {
+        title: "Warranty, battery, and appearance notes for used PCs",
+        body: "A 1-year operational warranty is listed. The warranty terms cover repair, a replacement unit, or complementary accessories for defects or natural failure within one year, at the seller’s choice. Battery and other consumable issues are excluded. The product notes also say battery wear is outside warranty replacement and that the lid may have scratches. The 15-day refund window starts from arrival (excluding some items such as “訳あり” units); customer-initiated returns deduct round-trip shipping plus re-setup fees (tax-included ¥3,300). Confirm the product page, refund policy, and warranty terms.",
+      },
+      {
+        title: "Who it may suit / who it may not",
+        body: "It may suit people who want a lower-cost Windows 11 Home notebook for browser and document work and who accept refurbished condition after reading warranty and refund terms. It may not suit people who cannot accept cosmetic scratches, expect new-PC battery life, need Full HD or a current-gen CPU, or mainly play games / do heavy creative work. Used refurbished units vary—plan to check the unit when it arrives.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "This is a used / refurbished PC, not a new one",
+      "Scratches on the lid and elsewhere are possible; cosmetics vary by unit",
+      "Battery wear is excluded from warranty replacement; runtime is not estimated here",
+      "The 1-year warranty and 15-day refund have conditions—read the policies",
+      "The CPU is 8th-generation Core i5—not equivalent to current-gen CPUs",
+      "Resolution is 1366×768 (HD), not Full HD",
+      "Ports/features not listed in the specs are untested and not covered",
+      "Price, stock, and options can change—confirm on the product page",
+    ],
+    summary:
+      "The Fujitsu LIFEBOOK refurbished laptop from PC next is a used / refurbished Windows notebook listed with an 8th-gen Core i5, 8GB / 16GB memory, a new 256GB SSD, a 14-inch HD panel, and Windows 11 Home. Review warranty, battery, and appearance notes on the official pages before treating it as a lower-cost Windows notebook option. Confirm the latest price, stock, and terms on the product page.",
+    note: "This is a refurbished product. Check the product page for the latest price, stock, and warranty terms.",
+    ctaLabel: "View product",
+    imageAlt: "Fujitsu LIFEBOOK refurbished laptop product image",
+  },
   "acer-vg270s6bmix": {
     title: "A 27-inch, 180Hz screen. Acer Nitro VG270S6bmix",
     seoTitle:

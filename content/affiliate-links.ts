@@ -7,6 +7,16 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "panasonic-lets-note-cf-sv9-refurbished":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+3ZHJVU+4X3U+BWGDT&a8ejpredirect=https%3A%2F%2Fpcnext.shop%2Fproducts%2Fpanasonic-lets-note-cf-sv9",
+  "fujitsu-lifebook-u9312-k-refurbished":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+3ZHJVU+4X3U+BWGDT&a8ejpredirect=https%3A%2F%2Fpcnext.shop%2Fproducts%2Ffujitsu-lifebook-u9312-k",
+  "fujitsu-lifebook-u9311x-f-refurbished":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+3ZHJVU+4X3U+BWGDT&a8ejpredirect=https%3A%2F%2Fpcnext.shop%2Fproducts%2Ffujitsu-lifebook-u9311-xf",
+  "nec-mobile-silver-refurbished":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+3ZHJVU+4X3U+BWGDT&a8ejpredirect=https%3A%2F%2Fpcnext.shop%2Fproducts%2Fnecmobile-silver",
+  "fujitsu-lifebook-refurbished":
+    "https://px.a8.net/svt/ejp?a8mat=4BCGFK+3ZHJVU+4X3U+BWGDT&a8ejpredirect=https%3A%2F%2Fpcnext.shop%2Fproducts%2Ffujitsu-lifebook",
   "acer-vg270s6bmix":
     "https://px.a8.net/svt/ejp?a8mat=4BCGFK+4J4UUI+5G54+BWGDT&a8ejpredirect=https%3A%2F%2Fstore.acer.com%2Fja-jp%2Facer-vg270s6bmix",
   "acer-extensa-15-ex215-24-a38u":
