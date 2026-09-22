@@ -21,6 +21,7 @@ export function getFeaturedArticles() {
 
 /** Homepage Popular Guides: fixed order of existing roundup articles. */
 const popularGuideSlugs = [
+  "refurbished-laptops-5-picks",
   "wireless-earbuds-under-10000",
   "desk-setup-5-picks",
   "beauty-appliances-5-picks",

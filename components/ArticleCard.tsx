@@ -26,7 +26,8 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
           className={
             article.slug === "beauty-appliances-5-picks" ||
             article.slug === "desk-setup-5-picks" ||
-            article.slug === "wireless-earbuds-under-10000"
+            article.slug === "wireless-earbuds-under-10000" ||
+            article.slug === "refurbished-laptops-5-picks"
               ? "article-card__image article-card__image--roundup-5-thumb"
               : "article-card__image"
           }
@@ -39,7 +40,8 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
             style={
               article.slug === "beauty-appliances-5-picks" ||
               article.slug === "desk-setup-5-picks" ||
-              article.slug === "wireless-earbuds-under-10000"
+              article.slug === "wireless-earbuds-under-10000" ||
+              article.slug === "refurbished-laptops-5-picks"
                 ? { objectFit: "contain", objectPosition: "center" }
                 : { objectFit: "cover", objectPosition: "center" }
             }

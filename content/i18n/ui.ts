@@ -14,6 +14,7 @@ export type UiMessages = {
   affiliate: string;
   privacy: string;
   readMore: string;
+  viewProduct: string;
   relatedLabel: string;
   relatedTitle: string;
   newPicksLabel: string;
@@ -63,6 +64,7 @@ export const uiMessages: Record<Locale, UiMessages> = {
     affiliate: "広告・アフィリエイトについて",
     privacy: "プライバシーポリシー",
     readMore: "詳しく見る",
+    viewProduct: "商品を見る",
     relatedLabel: "Related",
     relatedTitle: "関連記事",
     newPicksLabel: "New Picks",
@@ -111,6 +113,7 @@ export const uiMessages: Record<Locale, UiMessages> = {
     affiliate: "Advertising & Affiliates",
     privacy: "Privacy Policy",
     readMore: "Read more",
+    viewProduct: "View product",
     relatedLabel: "Related",
     relatedTitle: "Related articles",
     newPicksLabel: "New Picks",
@@ -159,6 +162,7 @@ export const uiMessages: Record<Locale, UiMessages> = {
     affiliate: "광고·제휴 안내",
     privacy: "개인정보 처리방침",
     readMore: "자세히 보기",
+    viewProduct: "상품 보기",
     relatedLabel: "Related",
     relatedTitle: "관련 기사",
     newPicksLabel: "New Picks",
@@ -207,6 +211,7 @@ export const uiMessages: Record<Locale, UiMessages> = {
     affiliate: "广告与联盟说明",
     privacy: "隐私政策",
     readMore: "查看详情",
+    viewProduct: "查看商品",
     relatedLabel: "Related",
     relatedTitle: "相关文章",
     newPicksLabel: "New Picks",

@@ -2,9 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { A8ProductLink } from "@/components/A8ProductLink";
 import { AdSlot } from "@/components/AdSlot";
+import { AffiliateButton } from "@/components/AffiliateButton";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import type { Article } from "@/content/articles";
 import { getA8ProductLinkHtml } from "@/content/a8-product-links";
+import { affiliateLinks } from "@/content/affiliate-links";
 import type { Locale } from "@/content/i18n/config";
 import { getUi } from "@/content/i18n/ui";
 import { getSiteUrl, siteConfig } from "@/content/site";
@@ -53,7 +55,8 @@ export function RoundupArticleView({
 
   const isFivePicksRoundup =
     article.slug === "beauty-appliances-5-picks" ||
-    article.slug === "desk-setup-5-picks";
+    article.slug === "desk-setup-5-picks" ||
+    article.slug === "refurbished-laptops-5-picks";
   const roundupPageClass = isFivePicksRoundup
     ? "article-page article-page--roundup roundup-page roundup-page--picks-5"
     : "article-page article-page--roundup roundup-page";
@@ -260,12 +263,21 @@ export function RoundupArticleView({
                         <li key={item}>{item}</li>
                       ))}
                     </ul>
-                    <Link
-                      href={localizePath(`/picks/${pick.slug}`, locale)}
-                      className="cta-button cta-button--inline"
-                    >
-                      {pick.linkLabel ?? ui.readMore}
-                    </Link>
+                    <div className="roundup-pick-card__ctas">
+                      <Link
+                        href={localizePath(`/picks/${pick.slug}`, locale)}
+                        className="cta-button cta-button--inline"
+                      >
+                        {pick.linkLabel ?? ui.readMore}
+                      </Link>
+                      {affiliateLinks[pick.slug] ? (
+                        <AffiliateButton
+                          slug={pick.slug}
+                          label={ui.viewProduct}
+                          className="cta-button--inline"
+                        />
+                      ) : null}
+                    </div>
                   </div>
                 </article>
               );

@@ -500,7 +500,7 @@ h3 {
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
-  /* Match Popular Guides collage thumbs (4:5) so all four cards share height */
+  /* Match Popular Guides collage thumbs (4:5) so guide cards share height */
   aspect-ratio: 4 / 5;
   background: #0a0a0a;
   border-bottom: 1px solid var(--line);
@@ -618,7 +618,7 @@ h3 {
 
 @media (min-width: 980px) {
   .guide-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
 
@@ -628,6 +628,17 @@ h3 {
 
   .guide-card h3 {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .guide-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+
+  .guide-card h3 {
+    font-size: 13px;
   }
 }
 
@@ -1313,6 +1324,17 @@ h3 {
   margin-top: 20px;
   color: #9a9a9a;
   font-size: 13px;
+}
+
+.roundup-pick-card__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.roundup-pick-card__ctas .cta-button--inline {
+  margin-top: 0;
 }
 
 .cta-button--inline {
