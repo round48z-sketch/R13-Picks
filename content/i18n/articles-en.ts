@@ -1,6 +1,153 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "acer-pm161qta1bmiuux": {
+    title: "Carry a 15.6-inch screen. Acer PM161QTA1bmiuux",
+    seoTitle:
+      "Acer PM161QTA1bmiuux｜15.6-inch touch mobile monitor | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer PM161QTA1bmiuux. Focused on the 15.6-inch Full HD IPS (matte), 10-point multitouch, about 700g, and USB-C / mini HDMI specs listed by Acer.",
+    productType: "Mobile monitor",
+    excerpt:
+      "15.6-inch Full HD IPS with touch. An about-700g Acer mobile monitor.",
+    intro:
+      "The Acer PM161QTA1bmiuux is a 15.6-inch mobile monitor sold on the Acer official online store. Official listings describe Full HD (1920×1080) 16:9, an IPS matte panel, 10-point multitouch, a 48–60Hz vertical frequency, 6ms response (GTG), about 700g, and USB Type-C / mini HDMI connections. It is introduced here as a candidate when you want to compare travel or secondary-display use on the official spec sheet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "PM161QTA1bmiuux highlights",
+    points: [
+      "Model: PM161QTA1bmiuux (part number UM.ZP1SJ.101, JAN 4515777652551). Color: Black",
+      "Panel size: 15.6-inch. Active area: 344×194 mm",
+      "Resolution: Full HD (1920×1080), 16:9. Pixel pitch: 0.179 mm",
+      "Panel: IPS, matte, LED backlight, touch (10-point multitouch). About 16.77 million colors",
+      "Color: NTSC 45%. Brightness: 220 cd/m². Contrast: up to 100,000,000:1 (ACM), typical 800:1",
+      "Response time: 6ms (GTG). Vertical frequency: 48–60Hz (mini HDMI / USB Type-C). Full HD 60Hz noted",
+      "Inputs: mini HDMI 2.1 ×1, USB 3.2 ports ×2 (Type-C, Gen 1, up to 5Gbps, PD)",
+      "Adaptive-Sync, HDR10. FreeSync and G-Sync are not supported. Adaptive-Sync / HDR10 cannot be used at the same time as overdrive",
+      "BlueLightShield, Flickerless. PIP/PBP not supported",
+      "Speakers: 1W + 1W stereo. Headphone jack included. Audio in not included",
+      "Tilt: 0°–90° (continuous). Swivel, height, and pivot are not supported. VESA is not supported. 1/4-inch tripod screw hole supported",
+      "Dimensions about 355×210×15 mm. Weight about 0.7 kg (about 700 g). Weight with cover about 1.09 kg",
+      "Power input: USB Type-C (15W, 5V/3A). Mini HDMI use requires power from USB Type-C. A separate PD AC adapter is needed when the connected device is not PD-capable",
+      "Touch requires the included USB Type-C cable. 10-point touch is noted for Windows 10 or later",
+      "Includes mini HDMI to HDMI cable (1 m), USB Type-C cable (1 m), and more. Warranty listed as 3 years (panel and backlight unit 1 year)",
+    ],
+    sections: [
+      {
+        title: "Why a 15.6-inch size is easier to carry",
+        body: "Official materials list a 15.6-inch panel, dimensions about 355×210×15 mm, and weight about 0.7 kg (about 700 g). Weight with cover is about 1.09 kg. Those figures are useful when comparing a notebook-sized mobile monitor on thickness and mass. How it feels to carry was not tested here, so this stays with the official numbers.",
+      },
+      {
+        title: "How it works as a mobile monitor",
+        body: "Official materials list a foldable kickstand and continuous tilt from 0° to 90°. VESA mounting is not supported; a 1/4-inch tripod screw hole is. Inputs are mini HDMI 2.1 and USB Type-C (×2). The setup reads as travel or temporary expansion rather than a fixed desk mount—check the official connection and stand notes for your use.",
+      },
+      {
+        title: "What the touch panel means here",
+        body: "The panel is listed with 10-point multitouch. An official note says touch requires connecting with the included USB Type-C cable. Another note says 10-point touch is for Windows 10 or later. Behavior may differ by device and OS, so follow Acer’s notes for supported environments.",
+      },
+      {
+        title: "USB-C and mini HDMI points to check",
+        body: "Inputs are mini HDMI 2.1 ×1 and USB 3.2 Type-C ×2 (Gen 1, up to 5Gbps, PD). Acer describes the included USB Type-C cable as handling video, data, and power together. It also notes that the monitor needs USB Type-C power, and a separate USB AC adapter is required if the connected device cannot supply power. Mini HDMI use requires power from the USB Type-C port. Non-PD devices need a separate PD AC adapter. Whether video output and power work depends on the source device, so this article does not infer conditions beyond the official notes.",
+      },
+      {
+        title: "Work, travel, and secondary-display use",
+        body: "For work or travel as a secondary display, points to compare include the 15.6-inch Full HD IPS (matte) panel, about 700 g, USB-C / mini HDMI, speakers (1W+1W), and a headphone jack. Color is listed as NTSC 45% and brightness as 220 cd/m²—this article does not exaggerate color performance from NTSC 45%. HDR10 and Adaptive-Sync are listed, but picture-quality gains are not claimed. BlueLightShield and Flickerless appear as feature names; health effects are not claimed.",
+      },
+      {
+        title: "How it differs from a desk monitor",
+        body: "Compared with fixed 23.8–27-inch monitors, this model is listed as 15.6 inches, about 0.7 kg, and about 15 mm thick, with no VESA mount and 0–90° kickstand tilt. Refresh rate tops out at 60Hz, which sits differently from 144Hz-class desk models. Whether size, weight, connection, or mounting comes first depends on your bag and desk setup.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "Touch needs the included USB Type-C cable. 10-point touch is noted for Windows 10 or later",
+      "Even over USB-C, a separate USB AC adapter is needed if the source cannot power the monitor",
+      "Mini HDMI use requires power from USB Type-C",
+      "Non-PD devices need a separate PD AC adapter, per Acer’s note",
+      "VESA is not supported. If you need arm mounting, check the tripod screw or other options",
+      "Adaptive-Sync / HDR10 cannot be used at the same time as overdrive",
+      "Color feel, viewing angle, response feel, speaker quality, and stand stability were not tested here",
+      "Price, stock, and warranty can change—confirm on the official product page",
+    ],
+    summary:
+      "The Acer PM161QTA1bmiuux is listed by Acer as a 15.6-inch Full HD IPS (matte) mobile monitor with 10-point multitouch, about 700 g, USB-C / mini HDMI, Adaptive-Sync, and HDR10. Use it as a reference when comparing travel or secondary-display needs within the official specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer PM161QTA1bmiuux 15.6-inch mobile monitor",
+  },
+  "acer-ek271p6bi": {
+    title: "A wider 27-inch screen. Acer EK271P6bi",
+    seoTitle:
+      "Acer EK271P6bi｜27-inch Full HD IPS 144Hz monitor | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer EK271P6bi. Focused on the 27-inch Full HD IPS (matte), 144Hz, 1ms (VRB), sRGB 99%, and AMD FreeSync specs listed by Acer.",
+    productType: "Monitor",
+    excerpt:
+      "27-inch Full HD IPS (matte) at 144Hz. The Acer EK271P6bi with AMD FreeSync.",
+    intro:
+      "The Acer EK271P6bi is a 27-inch monitor sold on the Acer official online store. Official listings describe Full HD (1920×1080) 16:9, an IPS matte panel, a 48–144Hz vertical frequency over HDMI, 1ms response (VRB), sRGB 99%, and AMD FreeSync. It is introduced here as a candidate when you want a larger screen for everyday or work use and are comparing official specs. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "EK271P6bi highlights",
+    points: [
+      "Model: EK271P6bi (part number UM.HE1SJ.601, JAN 4515777636155). Color: Black",
+      "Panel size: 27-inch. Active area: 597×336 mm",
+      "Resolution: Full HD (1920×1080), 16:9. Pixel pitch: 0.311 mm",
+      "Panel: IPS, matte, LED backlight. About 16.77 million colors",
+      "Color: sRGB 99%. Brightness: 250 cd/m². Contrast: up to 100,000,000:1 (ACM), typical 1,500:1",
+      "Response time: 1ms (VRB)",
+      "Vertical frequency: 48–144Hz (HDMI), 48–75Hz (mini D-Sub 15-pin). Full HD 144Hz is HDMI only per the note",
+      "Inputs: HDMI 1.4 ×1, mini D-Sub 15-pin ×1. Speakers, headphone jack, and audio in are not included",
+      "AMD FreeSync. Official note: an AMD FreeSync-compatible AMD graphics card is required. FreeSync cannot be used at the same time as VRB / overdrive. HDR is not supported",
+      "BlueLightShield, Flickerless. 6-axis color adjustment listed. ZeroFrame Pro listed. PIP/PBP not supported",
+      "Tilt: up 20° / down 5°. Swivel, height, and pivot are not supported",
+      "VESA mount: 100×100 mm (a monitor arm is required separately). Kensington lock included",
+      "Dimensions about 612×447×205 mm with stand, about 612×355×43 mm without. Weight about 3.4 kg with stand, about 3.0 kg without. Stand base width about 252 mm",
+      "Includes HDMI cable (1.5 m), AC adapter, AC cable (1.5 m), and more. Warranty listed as 3 years (panel and backlight unit 1 year)",
+    ],
+    sections: [
+      {
+        title: "Why a 27-inch screen is easier to see",
+        body: "Official materials list a 27-inch panel and Full HD (1920×1080) 16:9 resolution. The active area is 597×336 mm. Those figures are useful when comparing a larger screen for documents, browsers, or video on a spec sheet. Weight is about 3.4 kg with stand and about 3.0 kg without. Check the official dimensions and mass together with your desk space.",
+      },
+      {
+        title: "IPS and matte panel points",
+        body: "The panel is IPS, matte, with an LED backlight. Color is listed as sRGB 99%, brightness 250 cd/m², and about 16.77 million colors. Viewing angles are listed as 178° horizontal / 178° vertical, but viewing feel and color impression were not tested here, so this stays with the official numbers. A matte panel is a spec-sheet option when you want less glare. 6-axis color adjustment is listed, but sRGB 99% alone is not treated here as proof of pro-level color work.",
+      },
+      {
+        title: "What 144Hz support means here",
+        body: "Vertical frequency is listed as 48–144Hz over HDMI and 48–75Hz over mini D-Sub 15-pin. An official note says Full HD (1920×1080) 144Hz is HDMI only. Higher refresh rates are often described as smoother in general, but smoothness also depends on the source device and settings, so this article does not claim a result. If you plan to use 144Hz, confirm that the connection is on the HDMI side against the official specs.",
+      },
+      {
+        title: "What to check for everyday and work use",
+        body: "For everyday and work use, points to compare include the 27-inch Full HD panel, IPS matte finish, sRGB 99%, BlueLightShield, and Flickerless as listed officially. Speakers, a headphone jack, and audio in are not included, so you need another way to play sound if you need audio. Acer Display Widget and VisionCare-related feature names appear on the official page, but this article does not claim eye-strain or health effects.",
+      },
+      {
+        title: "What to check for gaming",
+        body: "For gaming, check the up-to-144Hz HDMI figure, 1ms (VRB) response, and AMD FreeSync listing. An official note says an AMD FreeSync-compatible AMD graphics card is required. FreeSync cannot be used together with VRB / overdrive. Frame-rate and input-lag measurements are not in the official table, so they are not listed here. How competitive titles feel depends on the setup, and this article does not claim a result.",
+      },
+      {
+        title: "How 27 inches compares with around 24 inches",
+        body: "Even at the same Full HD (1920×1080) resolution, a 27-inch panel has a 597×336 mm active area. Compared with around 24 inches (for example, a related 23.8-inch model lists 527×296 mm), the physical screen is larger. With the same resolution, pixel density is lower on the larger panel—another point to compare on the spec sheet. Whether size comes first depends on desk width and viewing distance.",
+      },
+      {
+        title: "Ports and how it sits on a desk",
+        body: "Inputs are HDMI 1.4 ×1 and mini D-Sub 15-pin ×1. Audio in, a headphone jack, and speakers are not included. Tilt is up 20° / down 5°; swivel, height adjustment, and pivot are not. VESA is 100×100 mm, and an official note says a monitor arm is required separately. Dimensions are about 612×447×205 mm with stand and about 612×355×43 mm without, with a stand base about 252 mm wide. If desk depth or arm mounting matters, re-check ports and mounting on the official page.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "144Hz is an HDMI-side figure. Mini D-Sub 15-pin is listed up to 75Hz",
+      "1ms response is the official VRB figure—not treated here as a general real-world measurement",
+      "AMD FreeSync cannot be used at the same time as VRB / overdrive, per Acer’s note",
+      "AMD FreeSync is listed as requiring a compatible AMD graphics card",
+      "Speakers, headphone jack, and audio in are not included—plan another audio path if needed",
+      "Height, swivel, and pivot are not supported. Precise eye-line setup may need a VESA arm",
+      "Viewing angle feel, ghosting, color, input lag, and stand stability were not tested here",
+      "Price, stock, and warranty can change—confirm on the official product page",
+    ],
+    summary:
+      "The Acer EK271P6bi is listed by Acer as a 27-inch Full HD IPS (matte) monitor with up to 144Hz over HDMI, 1ms (VRB), sRGB 99%, and AMD FreeSync. Use it as a reference when comparing everyday, work, or gaming needs within the official specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer EK271P6bi 27-inch monitor",
+  },
   "acer-ek241ygbmix": {
     title: "23.8 inches for work and everyday use. Acer EK241YGbmix",
     seoTitle:
