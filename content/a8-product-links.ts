@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const a8ProductLinks: Record<string, string> = {
+  "acer-ek241ygbmix":
+    '<span class="a8ad 4AO4E1Q-g7-vvVqBs7"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvVqBs7"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-23-8-ek241ygbmix","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777611190-1_um.qe1sj.g02.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
   "acer-nitro-16s-ai-an16s-61-f93z57t":
     '<span class="a8ad 4AO4E1Q-g7-vvPl0HI"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript(\'body\').showAd({"req": {"mat":"4BCGFK+4J4UUI+5G54+BWGDT","alt":"商品リンク","id":"4AO4E1Q-g7-vvPl0HI"},"goods": {"ejp":"h"+"ttps://store.acer.com/ja-jp/acer-an16s-61-f93z57t","imu":"h"+"ttps://static-ecapac.acer.com/media/catalog/product/4/5/4515777657921_01_nh.u06sj.003.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"}});</script>',
   "acer-swift-air-16-sfa16-61m-n73y":

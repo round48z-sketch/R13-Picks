@@ -1,6 +1,78 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "acer-ek241ygbmix": {
+    title: "23.8 inches for work and everyday use. Acer EK241YGbmix",
+    seoTitle:
+      "Acer EK241YGbmix｜23.8-inch Full HD IPS 120Hz monitor | R13 Picks",
+    description:
+      "An R13 Picks look at the Acer EK241YGbmix. Focused on the 23.8-inch Full HD IPS (matte), 120Hz, 1ms (VRB), sRGB 99%, and AdaptiveSync specs listed by Acer.",
+    productType: "Monitor",
+    excerpt:
+      "23.8-inch Full HD IPS (matte) at 120Hz. The Acer EK241YGbmix with speakers.",
+    intro:
+      "The Acer EK241YGbmix is a 23.8-inch monitor sold on the Acer official online store. Official listings describe Full HD (1920×1080) 16:9, an IPS matte panel, a 48–120Hz vertical frequency over HDMI, 1ms response (VRB), sRGB 99%, Adaptive-Sync, and built-in speakers. It is introduced here as a candidate when you want to compare a work or everyday secondary display on the official spec sheet. Price and stock can change, so check the official product page for the latest price and availability.",
+    pointsTitle: "EK241YGbmix highlights",
+    points: [
+      "Model: EK241YGbmix (part number UM.QE1SJ.G02, JAN 4515777611190). Color: Black",
+      "Panel size: 23.8-inch widescreen. Active area: 527×296 mm",
+      "Resolution: Full HD (1920×1080), 16:9. Pixel pitch: 0.275 mm",
+      "Panel: IPS, matte, LED backlight. About 16.77 million colors",
+      "Color: sRGB 99%. Brightness: 250 cd/m². Contrast: up to 100,000,000:1 (ACM), typical 1,500:1",
+      "Response time: 1ms (VRB). Official note: available when vertical frequency is 75Hz or higher",
+      "Vertical frequency: 48–120Hz (HDMI), 48–75Hz (mini D-Sub 15-pin). Full HD 120Hz is HDMI only per the note",
+      "Inputs: HDMI 1.4 ×1, mini D-Sub 15-pin ×1",
+      "Other features: Adaptive-Sync, BlueLightShield, Flickerless. G-Sync and FreeSync are listed as not supported. Adaptive-Sync cannot be used at the same time as VRB / overdrive",
+      "Speakers: 2W + 2W stereo. Headphone jack included. Audio in: 3.5 mm stereo mini jack",
+      "Tilt supported. Product overview lists up 20° / down 5°; the spec table lists up 25° / down 5°. Swivel, height, and pivot are not supported",
+      "VESA mount: 100×100 mm (a monitor arm is required separately). Kensington lock included",
+      "Dimensions about 539×401×192 mm with stand, about 539×315×40 mm without. Weight about 2.7 kg with stand, about 2.3 kg without",
+      "Includes HDMI cable (1.5 m), AC cable (1.5 m), AC adapter, audio cable (1.5 m), and more. Warranty listed as 3 years (panel and backlight unit 1 year)",
+      "ZeroFrame design listed. PIP/PBP not supported",
+    ],
+    sections: [
+      {
+        title: "Why a 23.8-inch size is practical",
+        body: "Official materials list a 23.8-inch widescreen panel and Full HD (1920×1080) 16:9 resolution. The active area is 527×296 mm. Those figures are useful when comparing a notebook secondary display or a document-and-browser desk setup on a spec sheet. Weight is about 2.7 kg with stand and about 2.3 kg without. Check the official dimensions and mass together with your desk space.",
+      },
+      {
+        title: "IPS and matte panel points",
+        body: "The panel is IPS, matte, with an LED backlight. Color is listed as sRGB 99%, brightness 250 cd/m², and about 16.77 million colors. Viewing angles are listed as 178° horizontal / 178° vertical, but viewing feel and color impression were not tested here, so this stays with the official numbers. A matte panel is a spec-sheet option when you want less glare on a desk.",
+      },
+      {
+        title: "What 120Hz support means here",
+        body: "Vertical frequency is listed as 48–120Hz over HDMI and 48–75Hz over mini D-Sub 15-pin. An official note says Full HD (1920×1080) 120Hz is HDMI only. Higher refresh rates are often described as smoother in general, but smoothness also depends on the source device and settings, so this article does not claim a result. If you plan to use 120Hz, confirm that the connection is on the HDMI side against the official specs.",
+      },
+      {
+        title: "What to check for work and everyday use",
+        body: "For work and everyday use, points to compare include the 23.8-inch Full HD panel, IPS matte finish, sRGB 99%, BlueLightShield, and Flickerless as listed officially. Speakers (2W+2W), a headphone jack, and an audio input are also listed, which matters if you want simple sound without an external speaker. Sound quality was not tested here. Acer Display Widget and VisionCare-related feature names appear on the official page, but this article does not claim eye-strain or health effects.",
+      },
+      {
+        title: "What to check for gaming",
+        body: "For gaming, check the up-to-120Hz HDMI figure, 1ms (VRB) response, and Adaptive-Sync listing. G-Sync and FreeSync are listed as not supported. The 1ms (VRB) figure is noted as available when vertical frequency is 75Hz or higher. Adaptive-Sync cannot be used together with VRB / overdrive. Frame-rate and input-lag measurements are not in the official table, so they are not listed here. How competitive titles feel depends on the setup, and this article does not claim a result.",
+      },
+      {
+        title: "Ports and how it sits on a desk",
+        body: "Inputs are HDMI 1.4 ×1 and mini D-Sub 15-pin ×1. Audio in is a 3.5 mm stereo mini jack, and a headphone jack is included. Tilt is supported; swivel, height adjustment, and pivot are not. VESA is 100×100 mm, and an official note says a monitor arm is required separately. Dimensions are about 539×401×192 mm with stand and about 539×315×40 mm without. If desk depth or arm mounting matters, re-check ports and mounting on the official page.",
+      },
+    ],
+    recommendedTitle: "Points to check before buying",
+    recommendedFor: [
+      "120Hz is an HDMI-side figure. Mini D-Sub 15-pin is listed up to 75Hz",
+      "1ms response is the official VRB figure, noted as available at 75Hz vertical or higher",
+      "Adaptive-Sync cannot be used at the same time as VRB / overdrive, per Acer’s note",
+      "G-Sync and FreeSync are not supported. Confirm Adaptive-Sync with your source device",
+      "Tilt angles differ between the overview (up 20° / down 5°) and the spec table (up 25° / down 5°). Check the latest official page",
+      "Height, swivel, and pivot are not supported. Precise eye-line setup may need a VESA arm",
+      "Viewing angle feel, ghosting, color, speaker quality, and stand stability were not tested here",
+      "Price, stock, and warranty can change—confirm on the official product page",
+    ],
+    summary:
+      "The Acer EK241YGbmix is listed by Acer as a 23.8-inch Full HD IPS (matte) monitor with up to 120Hz over HDMI, 1ms (VRB), sRGB 99%, Adaptive-Sync, and built-in speakers. Use it as a reference when comparing work, everyday, or light gaming needs within the official specs. Confirm full details and the latest price and stock on the official product page.",
+    note: "Check the official product page for the latest price and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Acer EK241YGbmix 23.8-inch monitor",
+  },
   "acer-nitro-16s-ai-an16s-61-f93z57t": {
     title: "Looking at the CPU and GPU. Acer Nitro 16S AI AN16S-61-F93Z57T",
     seoTitle:
