@@ -74,7 +74,10 @@ export function buildMetadata({
 
 export function buildHomeMetadata(locale: Locale): Metadata {
   const description = getSiteDescription(locale);
-  const homeTitle = `${siteConfig.name}｜${siteConfig.tagline}`;
+  const homeTitle =
+    locale === "ja"
+      ? `${siteConfig.name}｜ガジェット・オーディオ・時計・暮らしのおすすめを厳選`
+      : `${siteConfig.name}｜${siteConfig.tagline}`;
   return {
     ...buildMetadata({
       title: homeTitle,
