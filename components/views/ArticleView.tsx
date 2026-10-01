@@ -162,7 +162,17 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
 
         {!article.hideAffiliateCta ? (
           <div className="article-cta">
-            <AffiliateButton slug={article.slug} label={article.ctaLabel} />
+            <AffiliateButton
+              slug={article.slug}
+              label={article.ctaLabel}
+              tracking={{
+                articleSlug: article.slug,
+                articleTitle: article.title,
+                productName: article.productName,
+                category: article.category,
+                language: locale,
+              }}
+            />
           </div>
         ) : null}
 

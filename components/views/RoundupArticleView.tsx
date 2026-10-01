@@ -11,6 +11,7 @@ import type { Locale } from "@/content/i18n/config";
 import { getUi } from "@/content/i18n/ui";
 import { getSiteUrl, siteConfig } from "@/content/site";
 import type { Category } from "@/content/categories";
+import { getArticleBySlug } from "@/lib/articles";
 import { localizePath } from "@/lib/i18n/path";
 
 type RoundupArticleViewProps = {
@@ -275,6 +276,13 @@ export function RoundupArticleView({
                           slug={pick.slug}
                           label={ui.viewProduct}
                           className="cta-button--inline"
+                          tracking={{
+                            articleSlug: article.slug,
+                            articleTitle: article.title,
+                            productName: getArticleBySlug(pick.slug)?.productName ?? pick.name,
+                            category: article.category,
+                            language: locale,
+                          }}
                         />
                       ) : null}
                     </div>
