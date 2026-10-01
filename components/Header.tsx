@@ -46,8 +46,9 @@ export function Header() {
                   {category.name}
                 </Link>
               ))}
-              <Link href={localizePath("/about", locale)}>{ui.aboutShort}</Link>
-            </nav>
+        <Link href={localizePath("/about", locale)}>{ui.aboutShort}</Link>
+        <Link href={localizePath("/contact", locale)}>{ui.contactShort}</Link>
+      </nav>
             <LanguageSwitcher />
             <button
               type="button"
