@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Noto_Sans_JP } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { HtmlLang } from "@/components/HtmlLang";
@@ -57,6 +58,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <Footer />
         </div>
       </body>
+      <GoogleAnalytics gaId="G-P1CXMVNL4C" />
     </html>
   );
 }
