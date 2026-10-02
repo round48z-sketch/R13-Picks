@@ -6,7 +6,7 @@ export type StaticPageCopy = {
   label: string;
   heading: string;
   paragraphs: string[];
-  sections?: { title: string; body: string }[];
+  sections?: { title: string; body: string | string[] }[];
 };
 
 export const aboutPages: Record<Locale, StaticPageCopy> = {
@@ -30,7 +30,7 @@ export const aboutPages: Record<Locale, StaticPageCopy> = {
       },
       {
         title: "記事の性質について",
-        body: "当サイトの商品紹介にはアフィリエイト広告を利用しています。紹介する商品は編集部の視点で選んでいますが、リンク経由の購入により紹介料を受け取ることがあります。詳細は「広告・アフィリエイトについて」をご覧ください。",
+        body: "当サイトの商品紹介にはアフィリエイト広告を利用しています。Amazonを含む各種アフィリエイトプログラムを通じて、リンク経由の購入により紹介料を受け取ることがあります。紹介する商品は、サイトの方針に基づいて選定しています。詳しくは「広告・アフィリエイトについて」をご覧ください。",
       },
     ],
   },
@@ -54,7 +54,7 @@ export const aboutPages: Record<Locale, StaticPageCopy> = {
       },
       {
         title: "About our articles",
-        body: "Product introductions on this site use affiliate advertising. We select products from an editorial perspective, but we may earn a commission when purchases are made through our links. See Advertising & Affiliates for details.",
+        body: "Product introductions on this site use affiliate advertising. Through various affiliate programs, including Amazon, we may earn a commission when purchases are made through our links. Products are selected based on the site’s editorial policy. See Advertising & Affiliates for details.",
       },
     ],
   },
@@ -78,7 +78,7 @@ export const aboutPages: Record<Locale, StaticPageCopy> = {
       },
       {
         title: "기사 성격에 대하여",
-        body: "본 사이트의 제품 소개에는 제휴 광고를 사용합니다. 소개 제품은 편집부의 관점으로 고르지만, 링크를 통한 구매 시 소개 수수료를 받을 수 있습니다. 자세한 내용은 광고·제휴 안내를 확인해 주세요.",
+        body: "본 사이트의 제품 소개에는 제휴 광고를 사용합니다. Amazon을 포함한 각종 제휴 프로그램을 통해, 링크를 통한 구매 시 소개 수수료를 받을 수 있습니다. 소개 제품은 사이트의 방침에 따라 선정합니다. 자세한 내용은 광고·제휴 안내를 확인해 주세요.",
       },
     ],
   },
@@ -101,7 +101,7 @@ export const aboutPages: Record<Locale, StaticPageCopy> = {
       },
       {
         title: "关于文章性质",
-        body: "本站的产品介绍使用联盟广告。介绍商品由编辑视角挑选，但通过链接产生购买时，本站可能获得介绍佣金。详情请查看「广告与联盟说明」。",
+        body: "本站的产品介绍使用联盟广告。通过包括 Amazon 在内的各类联盟计划，经由链接产生购买时，本站可能获得介绍佣金。介绍商品依据本站方针挑选。详情请查看「广告与联盟说明」。",
       },
     ],
   },
@@ -154,20 +154,19 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
     label: "Disclosure",
     heading: "広告・アフィリエイトについて",
     paragraphs: [
-      "R13 Picksは、コンテンツを無料でお届けするために、アフィリエイト広告および第三者配信広告を利用します。",
+      "R13 Picksは、コンテンツを無料でお届けするために、アフィリエイト広告を利用しています。",
     ],
     sections: [
       {
         title: "アフィリエイト広告",
-        body: "商品紹介記事には、Amazonなどの販売サイトへのアフィリエイトリンクを掲載しています。リンク経由で商品が購入された場合、当サイトが紹介料を受け取ることがあります。商品価格が利用者に上乗せされることはありません。アフィリエイトを利用している記事では、ページ上部に「PR｜この記事にはアフィリエイト広告を含みます」と表示します。",
+        body: [
+          "当サイトでは、アフィリエイト広告を利用しています。商品リンク経由で購入された場合、当サイトが紹介料を受け取ることがあります。",
+          "Amazonのアソシエイトとして、R13 Picksは適格販売により収入を得ています。",
+        ],
       },
       {
         title: "記事の選定について",
-        body: "紹介する商品は、編集部の視点で選んでいます。報酬の有無だけで掲載を決めることはしません。ただし、在庫状況や販売ページの都合により、リンク先が変わる場合があります。",
-      },
-      {
-        title: "Google AdSense",
-        body: "当サイトでは、Google AdSense などの広告配信を将来導入する予定です。広告は記事本文の合間やページ下部などに表示されます。表示される広告の内容は、広告配信事業者の仕組みに基づきます。",
+        body: "紹介する商品は、編集部の視点で選んでいます。報酬の有無だけで掲載を決めることはありません。",
       },
       {
         title: "お問い合わせ",
@@ -182,20 +181,19 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
     label: "Disclosure",
     heading: "Advertising & Affiliates",
     paragraphs: [
-      "R13 Picks uses affiliate advertising and third-party ad delivery so we can offer content free of charge.",
+      "R13 Picks uses affiliate advertising so we can offer content free of charge.",
     ],
     sections: [
       {
         title: "Affiliate advertising",
-        body: "Product articles may include affiliate links to retailers such as Amazon. If a purchase is made through those links, this site may earn a commission. Prices are not increased for users because of affiliate links. Articles that use affiliates display “PR｜This article contains affiliate links” near the top of the page.",
+        body: [
+          "This site uses affiliate advertising. If a purchase is made through a product link, this site may earn a commission.",
+          "As an Amazon Associate, R13 Picks earns from qualifying purchases.",
+        ],
       },
       {
         title: "How we select products",
-        body: "We choose products from an editorial perspective. We do not decide what to feature based only on compensation. Link destinations may change due to stock or retailer page conditions.",
-      },
-      {
-        title: "Google AdSense",
-        body: "This site may introduce ad delivery such as Google AdSense in the future. Ads may appear between article sections or near the bottom of pages. Ad content is determined by the ad network.",
+        body: "We choose products from an editorial perspective. We never decide what to feature based on compensation alone.",
       },
       {
         title: "Contact",
@@ -210,20 +208,19 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
     label: "Disclosure",
     heading: "광고·제휴 안내",
     paragraphs: [
-      "R13 Picks는 콘텐츠를 무료로 제공하기 위해 제휴 광고와 제3자 광고 송출을 이용합니다.",
+      "R13 Picks는 콘텐츠를 무료로 제공하기 위해 제휴 광고를 이용합니다.",
     ],
     sections: [
       {
         title: "제휴 광고",
-        body: "제품 소개 기사에는 Amazon 등 판매 사이트로의 제휴 링크가 포함될 수 있습니다. 링크를 통해 구매가 이루어지면 본 사이트가 소개 수수료를 받을 수 있습니다. 제휴 링크 때문에 이용자 가격이 올라가지는 않습니다. 제휴를 사용하는 기사에는 페이지 상단에 “PR｜이 기사에는 제휴 광고가 포함되어 있습니다”를 표시합니다.",
+        body: [
+          "본 사이트는 제휴 광고를 이용합니다. 제품 링크를 통해 구매가 이루어지면 본 사이트가 소개 수수료를 받을 수 있습니다.",
+          "Amazon 어소시에이트로서 R13 Picks는 적격 판매를 통해 수입을 얻고 있습니다.",
+        ],
       },
       {
         title: "기사 선정에 대하여",
-        body: "소개 제품은 편집부의 관점으로 고릅니다. 보상 여부만으로 게재를 결정하지 않습니다. 다만 재고나 판매 페이지 사정에 따라 링크 목적지가 바뀔 수 있습니다.",
-      },
-      {
-        title: "Google AdSense",
-        body: "본 사이트는 향후 Google AdSense 등의 광고 송출을 도입할 수 있습니다. 광고는 본문 사이나 페이지 하단에 표시될 수 있으며, 내용은 광고 사업자의 방식에 따릅니다.",
+        body: "소개 제품은 편집부의 관점으로 고릅니다. 보상 여부만으로 게재를 결정하지 않습니다.",
       },
       {
         title: "문의",
@@ -237,20 +234,19 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
     label: "Disclosure",
     heading: "广告与联盟说明",
     paragraphs: [
-      "为了免费提供内容，R13 Picks 会使用联盟广告以及第三方广告投放。",
+      "为了免费提供内容，R13 Picks 会使用联盟广告。",
     ],
     sections: [
       {
         title: "联盟广告",
-        body: "产品介绍文章可能包含指向 Amazon 等销售站点的联盟链接。通过链接产生购买时，本站可能获得介绍佣金。联盟链接不会导致用户支付更高价格。使用联盟的文章会在页面上方显示“PR｜本文包含联盟营销链接”。",
+        body: [
+          "本站使用联盟广告。通过商品链接产生购买时，本站可能获得介绍佣金。",
+          "作为 Amazon 联盟会员，R13 Picks 通过符合条件的销售获得收入。",
+        ],
       },
       {
         title: "关于选品",
-        body: "介绍商品由编辑视角挑选。我们不会仅因是否有报酬决定刊载。不过，因库存或销售页面情况，链接目标可能会变化。",
-      },
-      {
-        title: "Google AdSense",
-        body: "本站未来可能导入 Google AdSense 等广告投放。广告可能出现在正文之间或页面底部，内容由广告投放方机制决定。",
+        body: "介绍商品由编辑视角挑选。我们不会仅因是否有报酬决定刊载。",
       },
       {
         title: "联系我们",
