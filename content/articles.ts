@@ -90,6 +90,60 @@ export type Article = {
  */
 export const articles: Article[] = [
   {
+    slug: "wayetto-wtms0001",
+    title: "WAYetTO wtms0001｜Bluetooth・2.4GHz対応の薄型ワイヤレスマウス",
+    seoTitle: "WAYetTO wtms0001｜Bluetooth・2.4GHz対応の薄型ワイヤレスマウス | R13 Picks",
+    description:
+      "WAYetTO wtms0001をR13 Picksの視点で紹介。2.4GHzワイヤレスとBluetoothの2Way接続、3段階DPI切替に対応した薄型・充電式のワイヤレスマウスです。購入前に確認したい販売元の注意事項もまとめています。",
+    category: "gadget",
+    productName: "WAYetTO ワイヤレスマウス wtms0001（Bluetooth・2.4GHz・充電式）",
+    productType: "ワイヤレスマウス",
+    publishedAt: "2026-10-03",
+    image: {
+      src: "https://thumbnail.image.rakuten.co.jp/@0_mall/wayetto/cabinet/09979914/10551015/imgrc0083822402.jpg?_ex=500x500",
+      alt: "WAYetTO wtms0001 薄型ワイヤレスマウス",
+      width: 500,
+      height: 500,
+    },
+    excerpt: "2.4GHzとBluetoothの2Way接続に対応した、薄型・充電式のワイヤレスマウス。",
+    intro:
+      "WAYetTO wtms0001は、2.4GHzワイヤレス（USB）とBluetoothの2Way接続に対応した薄型のワイヤレスマウスです。販売元の案内では、静音デザインと3段階のDPI切替を備えた充電式モデルとされています。購入前には、販売元が案内している技適に関する注意事項もあわせてご確認ください。価格や在庫は変わることがあるため、最新の価格・在庫状況は商品ページをご確認ください。",
+    points: [
+      "2.4GHzワイヤレス（USB）とBluetoothの2Way接続",
+      "DPIを800 / 1200 / 1600の3段階で切替可能",
+      "薄型・静音デザイン",
+      "MicroUSBケーブルによる充電式",
+      "販売元の案内では、充電時間は約2時間、使用時間は約100時間",
+      "サイズは110mm × 56mm × 25mm、重量は約77g",
+      "素材はABS",
+      "カラーはブラック / ホワイト / ゴールド / シルバー",
+    ],
+    design:
+      "厚さ25mmの薄型ボディに、静音デザインを組み合わせたワイヤレスマウスです。サイズは110mm × 56mm × 25mm、重量は約77g。カラーはブラック、ホワイト、ゴールド、シルバーの4色が案内されており、黒系のデスク周りにはブラックを合わせやすい見た目です。",
+    sections: [
+      {
+        title: "購入前に確認したいポイント",
+        body: "販売元の商品ページでは、本製品には技適マークが貼付されておらず、日本国内で使用すると電波法違反になるおそれがある旨が案内されています。購入前に販売元の最新情報をご確認ください。また、充電はMicroUSBケーブルで行う仕様です。保証は、購入より60日以内の不具合について交換・返品対応と案内されています。",
+      },
+    ],
+    recommendedFor: [
+      "2.4GHzとBluetoothの両方に対応したマウスを探している人",
+      "薄型のワイヤレスマウスが気になる人",
+      "DPIを切り替えられるマウスを探している人",
+      "電池交換ではなく充電式で使いたい人",
+      "黒系のガジェットでデスク周りをまとめたい人",
+    ],
+    scenes: [
+      "自宅のデスクワーク",
+      "ノートPCでの作業",
+      "カフェやコワーキングスペース",
+      "外出先での作業",
+    ],
+    note: "最新の価格・在庫状況は商品ページをご確認ください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "blenck-q23",
     title: "BLENCK Q23｜薄型・静音設計の充電式ワイヤレスマウス",
     seoTitle: "BLENCK Q23｜薄型・静音設計、2.4GHz接続の充電式ワイヤレスマウス | R13 Picks",

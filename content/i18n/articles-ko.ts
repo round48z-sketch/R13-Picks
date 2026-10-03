@@ -1,6 +1,46 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "wayetto-wtms0001": {
+    title: "WAYetTO wtms0001｜Bluetooth·2.4GHz 대응 슬림 무선 마우스",
+    seoTitle: "WAYetTO wtms0001｜Bluetooth·2.4GHz 대응 슬림 무선 마우스 | R13 Picks",
+    description:
+      "WAYetTO wtms0001을 R13 Picks의 시선으로 소개합니다. 2.4GHz 무선과 Bluetooth의 2Way 연결, 3단계 DPI 전환에 대응하는 슬림·충전식 무선 마우스입니다. 구매 전에 확인할 판매처의 주의 사항도 정리했습니다.",
+    productType: "무선 마우스",
+    excerpt: "2.4GHz와 Bluetooth의 2Way 연결에 대응하는 슬림·충전식 무선 마우스.",
+    intro:
+      "WAYetTO wtms0001은 2.4GHz 무선(USB)과 Bluetooth의 2Way 연결에 대응하는 슬림 무선 마우스입니다. 판매처 안내에 따르면 저소음 디자인과 3단계 DPI 전환을 갖춘 충전식 모델입니다. 구매 전에는 판매처가 안내하는 일본 기술기준적합증명(기적) 관련 주의 사항도 함께 확인해 주세요. 가격이나 재고는 변경될 수 있으므로, 최신 가격·재고 상황은 상품 페이지에서 확인해 주세요.",
+    points: [
+      "2.4GHz 무선(USB)과 Bluetooth의 2Way 연결",
+      "DPI를 800 / 1200 / 1600의 3단계로 전환 가능",
+      "슬림·저소음 디자인",
+      "MicroUSB 케이블을 통한 충전식",
+      "판매처 안내에서는 충전 시간 약 2시간, 사용 시간 약 100시간",
+      "크기는 110mm × 56mm × 25mm, 무게는 약 77g",
+      "소재는 ABS",
+      "컬러는 블랙 / 화이트 / 골드 / 실버",
+    ],
+    design:
+      "두께 25mm의 슬림한 바디에 저소음 디자인을 조합한 무선 마우스입니다. 크기는 110mm × 56mm × 25mm, 무게는 약 77g. 컬러는 블랙, 화이트, 골드, 실버 4가지가 안내되어 있으며, 블랙 계열 데스크 주변에는 블랙을 맞추기 쉬운 외관입니다.",
+    sections: [
+      {
+        title: "구매 전에 확인할 포인트",
+        body: "판매처의 상품 페이지에서는 본 제품에 일본의 기술기준적합증명(기적) 마크가 부착되어 있지 않으며, 일본 국내에서 사용하면 전파법 위반이 될 우려가 있다는 취지가 안내되어 있습니다. 구매 전에 판매처의 최신 정보를 확인해 주세요. 또한 충전은 MicroUSB 케이블로 하는 사양입니다. 보증은 구매일로부터 60일 이내의 불량에 대해 교환·반품 대응으로 안내되어 있습니다.",
+      },
+    ],
+    recommendedFor: [
+      "2.4GHz와 Bluetooth 모두에 대응하는 마우스를 찾고 있는 사람",
+      "슬림한 무선 마우스가 궁금한 사람",
+      "DPI를 전환할 수 있는 마우스를 찾고 있는 사람",
+      "건전지 교체가 아닌 충전식으로 사용하고 싶은 사람",
+      "블랙 계열 가젯으로 데스크 주변을 정리하고 싶은 사람",
+    ],
+    scenes: ["집에서의 데스크 작업", "노트북 작업", "카페나 코워킹 스페이스", "외출지에서의 작업"],
+    note: "최신 가격·재고 상황은 상품 페이지에서 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "WAYetTO wtms0001 슬림 무선 마우스",
+  },
+
   "blenck-q23": {
     title: "BLENCK Q23｜슬림·저소음 설계의 충전식 무선 마우스",
     seoTitle: "BLENCK Q23｜슬림·저소음 설계, 2.4GHz 연결 충전식 무선 마우스 | R13 Picks",

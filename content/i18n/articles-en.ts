@@ -1,6 +1,24 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "wayetto-wtms0001": {
+    title: "WAYetTO wtms0001｜A slim wireless mouse with Bluetooth and 2.4GHz",
+    seoTitle: "WAYetTO wtms0001｜Slim wireless mouse with Bluetooth and 2.4GHz | R13 Picks",
+    description: "An R13 Picks look at the WAYetTO wtms0001. A slim, rechargeable wireless mouse with 2-way 2.4GHz wireless and Bluetooth connection and 3-level DPI switching. We also note the seller’s precautions to check before buying.",
+    productType: "Wireless mouse",
+    excerpt: "A slim, rechargeable wireless mouse with 2-way 2.4GHz and Bluetooth connection.",
+    intro: "The WAYetTO wtms0001 is a slim wireless mouse with 2-way connection: 2.4GHz wireless (USB) and Bluetooth. According to the seller, it is a rechargeable model with a quiet design and 3-level DPI switching. Before buying, please also check the seller’s notice regarding Japan’s technical conformity mark (Giteki). Prices and stock can change, so check the product page for the latest pricing and availability.",
+    points: ["2-way connection: 2.4GHz wireless (USB) and Bluetooth","DPI switchable between 800 / 1200 / 1600","Slim, quiet design","Rechargeable via a MicroUSB cable","According to the seller, charging takes about 2 hours and use time is about 100 hours","Size is 110mm × 56mm × 25mm, weight about 77g","Made of ABS","Colors: black / white / gold / silver"],
+    design: "A wireless mouse that combines a slim 25mm-thick body with a quiet design. It measures 110mm × 56mm × 25mm and weighs about 77g. Four colors are listed—black, white, gold, and silver—and black pairs easily with a black desk setup.",
+    sections: [
+      { title: "Points to check before buying", body: "The seller’s product page states that this product does not bear Japan’s technical conformity mark (Giteki) and that using it in Japan may violate the Radio Act. Please check the seller’s latest information before buying. Charging is done with a MicroUSB cable. The warranty is listed as exchange or return for defects within 60 days of purchase." },
+    ],
+    recommendedFor: ["Anyone looking for a mouse that supports both 2.4GHz and Bluetooth","Anyone interested in a slim wireless mouse","Anyone looking for a mouse with switchable DPI","Anyone who prefers a rechargeable mouse over replacing batteries","Anyone who wants to keep their desk setup in black"],
+    scenes: ["Desk work at home","Working on a laptop","Cafés or coworking spaces","Working on the go"],
+    note: "Check the product page for the latest pricing and availability.",
+    ctaLabel: "View product",
+    imageAlt: "WAYetTO wtms0001 slim wireless mouse",
+  },
   "blenck-q23": {
     title: "BLENCK Q23｜A slim, quiet rechargeable wireless mouse",
     seoTitle: "BLENCK Q23｜Slim, quiet rechargeable wireless mouse with 2.4GHz connection | R13 Picks",

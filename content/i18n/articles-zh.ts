@@ -1,6 +1,46 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "wayetto-wtms0001": {
+    title: "WAYetTO wtms0001｜支持 Bluetooth·2.4GHz 的薄型无线鼠标",
+    seoTitle: "WAYetTO wtms0001｜支持 Bluetooth·2.4GHz 的薄型无线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 WAYetTO wtms0001。这是一款支持 2.4GHz 无线与 Bluetooth 双模连接、3 档 DPI 切换的薄型充电式无线鼠标。同时整理了购买前想确认的销售方注意事项。",
+    productType: "无线鼠标",
+    excerpt: "支持 2.4GHz 与 Bluetooth 双模连接的薄型充电式无线鼠标。",
+    intro:
+      "WAYetTO wtms0001 是一款支持 2.4GHz 无线（USB）与 Bluetooth 双模连接的薄型无线鼠标。依销售方说明，这是一款具备静音设计与 3 档 DPI 切换的充电式机型。购买前，也请一并确认销售方关于日本技术适合证明（技适）的注意事项。由于价格与库存可能变动，最新的价格与库存状况请确认商品页面。",
+    points: [
+      "2.4GHz 无线（USB）与 Bluetooth 双模连接",
+      "DPI 可在 800 / 1200 / 1600 三档之间切换",
+      "薄型·静音设计",
+      "通过 MicroUSB 线充电",
+      "销售方说明充电时间约 2 小时，使用时间约 100 小时",
+      "尺寸为 110mm × 56mm × 25mm，重量约 77g",
+      "材质为 ABS",
+      "颜色为黑色 / 白色 / 金色 / 银色",
+    ],
+    design:
+      "厚度 25mm 的薄型机身搭配静音设计的无线鼠标。尺寸为 110mm × 56mm × 25mm，重量约 77g。颜色列出黑色、白色、金色、银色四种，黑色容易搭配黑色系的桌面环境。",
+    sections: [
+      {
+        title: "购买前想确认的要点",
+        body: "销售方的商品页面说明，本产品未贴有日本技术适合证明（技适）标志，在日本国内使用可能违反《电波法》。购买前请确认销售方的最新信息。此外，本产品通过 MicroUSB 线充电。保修说明为购买后 60 天内的故障可提供换货或退货。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找同时支持 2.4GHz 与 Bluetooth 鼠标的人",
+      "对薄型无线鼠标感兴趣的人",
+      "正在寻找可切换 DPI 鼠标的人",
+      "想用充电式而非更换电池的人",
+      "想用黑色系数码产品统一桌面环境的人",
+    ],
+    scenes: ["在家办公", "使用笔记本电脑工作", "咖啡馆或共享办公空间", "外出时工作"],
+    note: "最新的价格与库存状况请确认商品页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "WAYetTO wtms0001 薄型无线鼠标",
+  },
+
   "blenck-q23": {
     title: "BLENCK Q23｜薄型·静音设计的充电式无线鼠标",
     seoTitle: "BLENCK Q23｜薄型·静音设计、2.4GHz 连接的充电式无线鼠标 | R13 Picks",
