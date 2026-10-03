@@ -1,6 +1,27 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "blenck-q23": {
+    title: "BLENCK Q23｜A slim, quiet rechargeable wireless mouse",
+    seoTitle: "BLENCK Q23｜Slim, quiet rechargeable wireless mouse with 2.4GHz connection | R13 Picks",
+    description: "An R13 Picks look at the BLENCK Q23. A slim, quiet wireless mouse with 2.4GHz wireless connection and USB charging. Based on the seller’s information, we outline the connection type, charging, and points to check before buying.",
+    productType: "Wireless mouse",
+    excerpt: "A slim, quiet wireless mouse with 2.4GHz wireless connection and USB charging.",
+    intro: "The BLENCK Q23 is a slim, quiet wireless mouse. According to the seller, it connects over 2.4GHz wireless via the included USB receiver and is recharged over USB rather than using replaceable batteries. The seller also describes a quiet design that reduces click noise and a power-saving sleep mode. Prices and stock can change, so check the product page for the latest pricing and availability.",
+    points: ["2.4GHz wireless connection via the included USB receiver","According to the seller, range is up to about 10m","No driver installation needed for the 2.4GHz connection","Quiet design that reduces click noise","USB rechargeable (can also be used while charging)","Enters power-saving mode after 3 seconds idle and sleep mode after 10 minutes idle","Symmetrical button layout","The USB receiver stores in the back of the mouse","Supports Windows, Mac OS, Chrome OS, and Linux (from the versions listed by the seller)","Q23 colors: black / white / pale pink"],
+    design: "A simple shape that combines a slim body with symmetrical buttons and a center wheel. The seller describes it as an ergonomic design that fits the palm and fingers naturally. Three colors are listed—black, white, and pale pink—and black pairs easily with a black desk setup.",
+    sections: [
+      { title: "About quietness", body: "The seller describes a quiet design that reduces click noise, stating noise is reduced by 90% compared with its previous model. It is designed with places like libraries, cafés, or late at night in mind, where surrounding noise can be a concern. Because how sound is perceived varies by environment and person, we present this as the seller’s description." },
+      { title: "Connection and charging", body: "The Q23 is a 2.4GHz wireless model that you use by plugging the included USB receiver into your computer’s USB port. According to the seller, it fully charges in about 2 hours and can be used continuously for 7–10 days. It can also be used while charging, switches to power-saving mode after 3 seconds idle and to sleep mode after 10 minutes idle, and wakes when you press any button. The package also includes a USB charging cable and a Type-C adapter." },
+      { title: "Points to consider for carrying", body: "It has a slim body, and the USB receiver stores in the back of the mouse. Because you can carry the receiver together with the mouse, it fits easily into work on the go alongside a laptop. The seller’s page does not list weight or dimensions, so check the product page for the latest information if they matter to you." },
+      { title: "Points to check before buying", body: "The sales page covers both the Q23, a 2.4GHz wireless model, and the B107, which supports Bluetooth and 2.4GHz wireless. The Q23 connects via a USB receiver rather than Bluetooth, so if you want to use Bluetooth, check the model number when ordering. A device with a USB port is also required for connection. The warranty is listed as 90 days from the date of purchase." },
+    ],
+    recommendedFor: ["Anyone looking for a wireless mouse with reduced click noise","Anyone who wants to carry a slim mouse along with a laptop","Anyone who prefers USB charging over replacing batteries","Anyone who wants a 2.4GHz wireless mouse that connects via a USB receiver","Anyone who wants to keep their desk setup in black"],
+    scenes: ["Desk work at home","Working on a laptop","Quiet places such as libraries or cafés","Working at night","Business trips or working on the go"],
+    note: "Check the product page for the latest pricing and availability.",
+    ctaLabel: "View product",
+    imageAlt: "BLENCK Q23 slim wireless mouse",
+  },
   "sanwa-direct-400-ma097": {
     title: "Sanwa Direct 400-MA097｜2.4GHz wireless mouse with 5 buttons",
     seoTitle: "Sanwa Direct 400-MA097｜5-button 2.4GHz BlueLED wireless mouse | R13 Picks",

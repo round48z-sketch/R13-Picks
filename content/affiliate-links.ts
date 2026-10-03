@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "blenck-q23":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Faskrtech%2Fq23%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faskrtech%2Fi%2F10000300%2F",
   "sanwa-direct-400-ma097":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fzzap%2Fs-b07cyqpzcq-20260713%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fzzap%2Fi%2F10068069%2F",
   "panasonic-lets-note-cf-sv9-refurbished":
