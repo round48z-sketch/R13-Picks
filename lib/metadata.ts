@@ -78,15 +78,25 @@ export function buildHomeMetadata(locale: Locale): Metadata {
     locale === "ja"
       ? `${siteConfig.name}｜ガジェット・オーディオ・時計・暮らしのおすすめを厳選`
       : `${siteConfig.name}｜${siteConfig.tagline}`;
+  const base = buildMetadata({
+    title: homeTitle,
+    description,
+    path: "/",
+    locale,
+  });
+  const homeOgImageUrl = `${getSiteUrl()}/images/articles/refurbished-laptops-5-picks-collage.jpg`;
   return {
-    ...buildMetadata({
-      title: homeTitle,
-      description,
-      path: "/",
-      locale,
-    }),
+    ...base,
     title: {
       absolute: homeTitle,
+    },
+    openGraph: {
+      ...base.openGraph,
+      images: [{ url: homeOgImageUrl, width: 800, height: 1000, alt: homeTitle }],
+    },
+    twitter: {
+      ...base.twitter,
+      images: [homeOgImageUrl],
     },
   };
 }
