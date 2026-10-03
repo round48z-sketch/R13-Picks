@@ -1,6 +1,21 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "sanwa-direct-400-ma097": {
+    title: "Sanwa Direct 400-MA097｜2.4GHz wireless mouse with 5 buttons",
+    seoTitle: "Sanwa Direct 400-MA097｜5-button 2.4GHz BlueLED wireless mouse | R13 Picks",
+    description: "An R13 Picks look at the Sanwa Direct 400-MA097. A black wireless mouse with 5 buttons including back/forward, 2.4GHz wireless, a BlueLED sensor, and switchable 800/1200/1600 counts.",
+    productType: "Wireless mouse",
+    excerpt: "A black wireless mouse with 5 buttons including back/forward, 2.4GHz wireless, and a BlueLED sensor.",
+    intro: "The Sanwa Direct 400-MA097 is a black wireless mouse that connects over 2.4GHz wireless. Along with left/right buttons and a wheel button, it has back/forward side buttons for a 5-button layout, and it uses a BlueLED sensor. The count can be switched between three levels: 800/1200/1600. Prices and stock can change, so check the product page for the latest pricing and availability.",
+    points: ["2.4GHz RF wireless connection","5-button layout including back/forward side buttons","Uses a BlueLED sensor","Count switchable between 800/1200/1600","An LED shows the selected count","According to the manufacturer, it works on glossy desks and cloth without a mouse pad","The compact receiver stores in the bottom of the mouse","Power ON/OFF switch and a sleep mode that kicks in after about 10 minutes without use","According to the manufacturer, continuous operation is about 130 hours (with an AA battery)","Supports Windows, macOS, and ChromeOS (on macOS, scrolling works only in OS-standard apps)"],
+    design: "A simple shape with a black body. The surface has a rubber coating, which the manufacturer describes as having a smooth feel. The body measures about W62 × D109.5 × H40mm and weighs about 67g (without battery). Its look fits easily into a black desk setup.",
+    recommendedFor: ["Anyone looking for a wireless mouse with back/forward buttons","Anyone who wants a 2.4GHz mouse that connects via a receiver","Anyone interested in a mouse with switchable counts","Anyone who wants to keep their desk setup in black","Anyone who sometimes needs to use a mouse without a mouse pad","Anyone looking for a simple 5-button mouse"],
+    scenes: ["Desk work at home","Working on a laptop","Web browsing or reading documents","Cafés or coworking spaces","Business trips or working on the go"],
+    note: "Check the product page for the latest pricing and availability.",
+    ctaLabel: "View product",
+    imageAlt: "Black Sanwa Direct 400-MA097 wireless mouse",
+  },
   "refurbished-laptops-5-picks": {
     title: "5 refurbished laptops｜Compare work and portable picks",
     seoTitle:

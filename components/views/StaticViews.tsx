@@ -21,7 +21,9 @@ function StaticProse({ page }: { page: StaticPageCopy }) {
       {page.sections?.map((section) => (
         <div key={section.title}>
           <h2>{section.title}</h2>
-          <p>{section.body}</p>
+          {(Array.isArray(section.body) ? section.body : [section.body]).map((text) => (
+            <p key={text}>{text}</p>
+          ))}
         </div>
       ))}
     </div>

@@ -1,6 +1,43 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "sanwa-direct-400-ma097": {
+    title: "Sanwa Direct 400-MA097｜搭载 5 键的 2.4GHz 无线鼠标",
+    seoTitle: "Sanwa Direct 400-MA097｜5 键·2.4GHz·BlueLED 无线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Sanwa Direct 400-MA097。这是一款具备含后退/前进键在内的 5 键、2.4GHz 无线、BlueLED 传感器，并支持 800/1200/1600 计数切换的黑色无线鼠标。",
+    productType: "无线鼠标",
+    excerpt: "具备含后退/前进键在内的 5 键，搭载 2.4GHz 无线与 BlueLED 传感器的黑色无线鼠标。",
+    intro:
+      "Sanwa Direct 400-MA097 是一款通过 2.4GHz 无线连接的黑色无线鼠标。除左右键与滚轮键外，还具备后退/前进侧键，为 5 键规格，并采用 BlueLED 传感器。计数可在 800/1200/1600 三档之间切换。由于价格与库存可能变动，最新的价格与库存状况请确认商品页面。",
+    points: [
+      "2.4GHz RF 无线电波方式连接",
+      "含后退/前进侧键在内的 5 键规格",
+      "采用 BlueLED 传感器",
+      "计数可在 800/1200/1600 三档之间切换",
+      "可通过 LED 确认所切换的计数",
+      "厂商说明在有光泽的桌面或布面上也可不用鼠标垫使用",
+      "小型接收器可收纳在鼠标底部",
+      "配备电源 ON/OFF 开关，以及约 10 分钟无操作即切换的休眠模式",
+      "厂商说明连续工作时间约 130 小时（使用 5 号电池）",
+      "支持 Windows、macOS、ChromeOS（macOS 下仅 OS 标准应用支持滚动）",
+    ],
+    design:
+      "黑色机身搭配简约造型的设计。表面采用橡胶涂层，厂商说明为干爽的触感。机身尺寸约 W62×D109.5×H40mm，重量约 67g（不含电池）。外观也容易融入黑色系的桌面环境。",
+    recommendedFor: [
+      "正在寻找带后退/前进键无线鼠标的人",
+      "想使用通过 2.4GHz 无线接收器连接鼠标的人",
+      "对可切换计数的鼠标感兴趣的人",
+      "想用黑色系数码产品统一桌面环境的人",
+      "有时想不用鼠标垫操作的人",
+      "正在寻找简约造型 5 键鼠标的人",
+    ],
+    scenes: ["在家办公", "使用笔记本电脑工作", "浏览网页或查阅资料", "咖啡馆或共享办公空间", "出差或外出时工作"],
+    note: "最新的价格与库存状况请确认商品页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "黑色 Sanwa Direct 400-MA097 无线鼠标",
+  },
+
   "refurbished-laptops-5-picks": {
     title: "二手·再生笔记本推荐5选｜比较办公与便携用途",
     seoTitle:

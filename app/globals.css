@@ -792,7 +792,8 @@ h3 {
 }
 
 /* Keep A8 1x1 tracking pixel from inheriting hero img rules */
-.article-hero--a8 .a8ad > img {
+.article-hero--a8 .a8ad > img,
+.article-hero--a8 .a8-product-link > img {
   width: 1px !important;
   height: 1px !important;
   max-width: 1px !important;

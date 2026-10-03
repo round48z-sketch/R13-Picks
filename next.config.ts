@@ -2,6 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "thumbnail.image.rakuten.co.jp", pathname: "/@0_mall/**" },
+    ],
+  },
   async redirects() {
     const legacy = [
       {

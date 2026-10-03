@@ -7,6 +7,7 @@ import { AffiliateButton } from "@/components/AffiliateButton";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { RoundupArticleView } from "@/components/views/RoundupArticleView";
 import { getA8ProductLinkHtml } from "@/content/a8-product-links";
+import { getMoshimoProductLinkHtml } from "@/content/moshimo-product-links";
 import type { Locale } from "@/content/i18n/config";
 import { getSiteUrl, siteConfig } from "@/content/site";
 import { getUi } from "@/content/i18n/ui";
@@ -30,7 +31,8 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
   const category = getArticleCategory(article);
   const related = getRelatedArticles(article).map((item) => localizeArticle(item, locale));
   const hero = getArticleHero(article);
-  const a8ProductLinkHtml = getA8ProductLinkHtml(article.slug);
+  const a8ProductLinkHtml =
+    getA8ProductLinkHtml(article.slug) ?? getMoshimoProductLinkHtml(article.slug);
 
   if (article.layout === "roundup") {
     return (
@@ -49,7 +51,7 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
     "@type": "Article",
     headline: article.title,
     description: article.description,
-    image: [`${getSiteUrl()}${hero.src}`],
+    image: [hero.src.startsWith("http") ? hero.src : `${getSiteUrl()}${hero.src}`],
     datePublished: article.publishedAt,
     mainEntityOfPage: url,
     inLanguage: locale === "zh" ? "zh-CN" : locale,
