@@ -133,6 +133,59 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     imageAlt: "黑色无线耳机推荐 5 款的缩略图",
   },
 
+  "logicool-m240gr": {
+    title: "Logicool M240 Silent Bluetooth Mouse｜静音·轻量·无需接收器的简约无线鼠标",
+    seoTitle: "Logicool M240 Silent Bluetooth Mouse（M240GR）｜静音·轻量·无需接收器的 Bluetooth 鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Logicool M240 Silent Bluetooth Mouse（M240GR）。这是一款通过 Bluetooth 连接、无需接收器的无线鼠标，具备与旧款 M170 相比点击声降低 90% 的静音设计、73.8g（含电池）的轻量机身与左右对称设计。",
+    productType: "Bluetooth 鼠标",
+    excerpt: "通过 Bluetooth 连接使用，静音·轻量·左右对称的简约无线鼠标。",
+    intro:
+      "Logicool M240 Silent Bluetooth Mouse（型号：M240GR，颜色：石墨色）是一款通过 Bluetooth 连接的无线鼠标。不附带 USB 接收器，直接与支持 Bluetooth 的设备连接，因此在寻找无需接收器的鼠标时容易列为候选。厂商官方说明其为与旧款 M170 相比点击声降低 90% 的静音鼠标。价格、库存与优惠券可能变动，最新信息请确认销售页面。",
+    points: [
+      "仅通过 Bluetooth 连接即可使用（不附带 USB 接收器）",
+      "与旧款 M170 相比点击声降低 90%（厂商官方）",
+      "光学追踪，分辨率 1000dpi",
+      "3 个按键，带滚轮（无倾斜功能）",
+      "左右手皆可使用的左右对称设计",
+      "本体重量 73.8g（含电池）",
+      "5 号（AA）电池 × 1，电池寿命最长 18 个月（因使用情况而异）",
+      "操作距离 10m（可能因使用环境而异）",
+      "保修 2 年",
+    ],
+    design:
+      "左右对称的简约造型，左右手皆可使用。本体尺寸为宽 60mm × 深 39mm × 高 99mm，重量 73.8g（含电池），属于轻量鼠标。本次颜色为石墨色，色调沉稳，也容易与黑色系桌面搭配。",
+    sections: [
+      {
+        title: "连接方式与支持系统",
+        body: "M240GR 为 Bluetooth 连接机型，不附带 USB 接收器。无需占用 USB 接口即可连接，但所连接的设备需支持 Bluetooth。厂商官方的支持系统为 Windows 10、Windows 11 及以上、macOS 11 及以上、iPadOS 14 及以上、ChromeOS、Linux、Android 9.0 及以上。操作距离为 10m，可能因使用环境而异。",
+      },
+      {
+        title: "静音性与基本规格",
+        body: "厂商官方说明，与旧款 M170 相比点击声降低 90%。这是基于厂商测量条件的比较，并不代表完全没有声音。传感器为光学追踪，分辨率 1000dpi，具备 3 个按键与滚轮（无倾斜功能）。",
+      },
+      {
+        title: "电池与包装内容",
+        body: "电源为 1 节 5 号（AA）电池，购买时已装入本体。电池寿命标示为最长 18 个月，但因使用情况而异。包装内容为产品本体、5 号（AA）电池 × 1（已装入）、保修卡与保修条款，保修期为 2 年。发售日为 2023 年 6 月 1 日。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "M240GR 为 3 键·1000dpi 的简约配置，若重视前进·后退键等多按键操作或 DPI 切换功能，其他机型可能更合适。此外，由于不附带 USB 接收器，无法在不支持 Bluetooth 的设备上使用。最新的价格、库存与优惠券请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找简约 Bluetooth 鼠标的人",
+      "想使用无需 USB 接收器的无线鼠标的人",
+      "对降低点击声的静音鼠标感兴趣的人",
+      "正在寻找便于携带的轻量鼠标的人",
+      "正在寻找左手也能使用的左右对称鼠标的人",
+      "想用黑色系数码产品统一桌面的人",
+    ],
+    scenes: ["在家的桌面工作", "笔记本电脑或平板作业", "咖啡馆或共享办公空间", "外出时的作业"],
+    note: "最新的价格、库存与优惠券请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "Logicool M240 Silent Bluetooth Mouse M240GR 石墨色",
+  },
   "ewine-trackball-100938": {
     title: "EWINE 系 轨迹球鼠标｜支持 3 台连接·5 档 DPI·静音的无线机型",
     seoTitle: "EWINE 系 轨迹球鼠标｜Bluetooth·2.4GHz、支持 3 台连接的无线轨迹球 | R13 Picks",
