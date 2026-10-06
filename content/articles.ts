@@ -76,6 +76,8 @@ export type Article = {
   pickRecommendedLabel?: string;
   useCasesTitle?: string;
   useCases?: UseCaseBlock[];
+  /** Shown first in Related articles; the rest is filled automatically. */
+  relatedSlugs?: string[];
 };
 
 /**
@@ -89,6 +91,180 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "black-wireless-earbuds",
+    title: "黒いワイヤレスイヤホンおすすめ5選｜デザイン・機能で選ぶ",
+    seoTitle: "黒いワイヤレスイヤホンおすすめ5選｜ブラックで選ぶ完全ワイヤレス | R13 Picks",
+    description:
+      "黒・ブラック系のワイヤレスイヤホンをR13 Picksから厳選。ANC、再生時間、デザイン、装着方式などを比較し、用途に合わせて選びやすく整理します。",
+    category: "audio",
+    productName: "黒いワイヤレスイヤホン",
+    productType: "比較・まとめ記事",
+    publishedAt: "2026-10-06",
+    image: {
+      src: "/images/articles/edifier-x2-pro.jpg",
+      alt: "黒いワイヤレスイヤホンおすすめ5選のサムネイル",
+      width: 1000,
+      height: 1000,
+    },
+    excerpt: "ANC・再生時間・装着方式の違いから選べる、ブラックの完全ワイヤレスイヤホン5モデル。",
+    intro:
+      "黒いワイヤレスイヤホンは、服装やデスク周り、スマートフォンなどのガジェットと色を合わせやすいのが特徴です。この記事では、R13 Picksで掲載しているモデルを中心に、ブラックカラーを選べる完全ワイヤレスイヤホン5モデルを、デザインだけでなくANC・再生時間・装着方式などの違いから整理します。順位付けではなく、用途に合わせて選ぶための比較です。",
+    pointsTitle: "黒いワイヤレスイヤホンを選ぶポイント",
+    points: [
+      "装着方式（耳に入れるタイプか、耳をふさがないオープンイヤー型か）",
+      "ANCの有無（通勤・移動中に周囲の音を抑えたいか）",
+      "再生時間（本体単体と充電ケース併用の時間）",
+      "防水・防滴の等級（汗や雨が気になる場面で使うか）",
+      "本体やケースの形（スクエア型、丸みのある形など）",
+    ],
+    overviewTitle: "掲載モデル一覧",
+    comparisonTable: {
+      title: "比較表",
+      headers: ["商品名", "タイプ", "ANC", "再生時間", "防水・防滴", "向いている用途"],
+      rows: [
+        ["audio-technica ATH-SQ1TW2NC", "完全ワイヤレス", "あり", "ANC ON時 最大約6h / ケース併用最大約18h", "IPX5相当（イヤホン本体のみ）", "コンパクト・デザイン"],
+        ["final ZE3000 SV", "完全ワイヤレス", "コンフォートANC", "ANC ON時 最大約7h / ケース込み最大約28h", "IPX4", "機能重視・LDAC"],
+        ["DENON AH-C830NCW", "完全ワイヤレス", "ハイブリッドANC", "最大約6h / ケース込み最大約24h（ANC ON時 約4.8h / 約19h）", "IPX4", "通勤・日常"],
+        ["EDIFIER X2 Pro", "完全ワイヤレス", "あり", "ケース併用最大49h", "—", "長時間再生・普段使い"],
+        ["EDIFIER Comfo Q", "オープンイヤー型完全ワイヤレス", "—", "本体最長約8h / ケース併用最大約32h", "IP56", "ながら聴き・通話"],
+      ],
+    },
+    picksTitle: "おすすめ5選",
+    pickFeaturesLabel: "主な特徴",
+    pickRecommendedLabel: "こんな人におすすめ",
+    picks: [
+      {
+        slug: "audio-technica-ath-sq1tw2nc",
+        name: "audio-technica ATH-SQ1TW2NC",
+        tagline: "スクエア型の見た目とANCを、コンパクトにまとめた黒イヤホン。",
+        shortLabel: "コンパクト・デザイン",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["スクエア型", "ANC", "コンパクト"],
+        features: [
+          "ブラック（BK）を含む複数カラー展開（公式案内）",
+          "アクティブノイズキャンセリング搭載、ワイヤレス充電対応",
+          "片耳約4.0g、IPX5相当（イヤホン本体のみ・公式案内）",
+        ],
+        recommendedFor: ["角のあるデザインが好きな人", "ANC付きのコンパクトな黒イヤホンを探す人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/audio-technica-ath-sq1tw2nc.jpg",
+          alt: "audio-technica ATH-SQ1TW2NC",
+          width: 600,
+          height: 600,
+        },
+      },
+      {
+        slug: "final-ze3000-sv",
+        name: "final ZE3000 SV",
+        tagline: "黒を基調に、コンフォートANCやLDACなど機能面も確認しやすいモデル。",
+        shortLabel: "機能重視",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["コンフォートANC", "LDAC", "マルチポイント"],
+        features: [
+          "コンフォートANC搭載（公式案内）",
+          "SBC / AAC / LDAC、最大2台のマルチポイント（公式案内）",
+          "ANC ON時 本体最大約7h / ケース込み最大約28h、IPX4（公式案内）",
+        ],
+        recommendedFor: ["LDACやマルチポイントを重視する人", "機能も確認して黒イヤホンを選びたい人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/final-ze3000-sv.jpg",
+          alt: "final ZE3000 SV",
+          width: 600,
+          height: 600,
+        },
+      },
+      {
+        slug: "denon-ah-c830ncw",
+        name: "DENON AH-C830NCW",
+        tagline: "ハイブリッドANCと外音取り込みを備えた、日常向けの黒イヤホン。",
+        shortLabel: "通勤・日常",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["ハイブリッドANC", "外音取り込み", "IPX4"],
+        features: [
+          "ハイブリッドANC搭載",
+          "外音取り込み（Ambient Monitor）対応",
+          "最大約6h / ケース込み最大約24h（ANC ON時 約4.8h / 約19h）、IPX4",
+        ],
+        recommendedFor: ["通勤・移動中に使いたい人", "周囲の音も把握しながら使いたい人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/denon-ah-c830ncw.jpg",
+          alt: "DENON AH-C830NCW",
+          width: 600,
+          height: 600,
+        },
+      },
+      {
+        slug: "edifier-x2-pro",
+        name: "EDIFIER X2 Pro",
+        tagline: "ブラックのミニマルな見た目と、ANC・長時間再生を備えた普段使い向け。",
+        shortLabel: "長時間再生",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["ANC", "長時間再生", "ミニマル"],
+        features: [
+          "ANC搭載",
+          "充電ケース併用で最大49時間再生（メーカー案内）",
+          "11mm複合ドライバー（メーカー案内）",
+        ],
+        recommendedFor: ["バッテリー持ちを重視する人", "シンプルな黒イヤホンを探す人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/edifier-x2-pro.jpg",
+          alt: "EDIFIER X2 Pro",
+          width: 1000,
+          height: 1000,
+        },
+      },
+      {
+        slug: "edifier-comfo-q",
+        name: "EDIFIER Comfo Q",
+        tagline: "耳をふさがないオープンイヤー型。ブラックも選べる日常向けモデル。",
+        shortLabel: "オープンイヤー",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["オープンイヤー", "IP56", "マルチポイント"],
+        features: [
+          "耳をふさがないオープンイヤー型（公式案内）",
+          "本体最長約8h / ケース併用最大約32h（公式案内）",
+          "IP56防塵・防滴、Bluetooth 5.4・マルチポイント（公式案内）",
+        ],
+        recommendedFor: ["耳をふさがない黒イヤホンを探す人", "ながら聴きや通話にも使いたい人"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "/images/articles/edifier-comfo-q.jpg",
+          alt: "EDIFIER Comfo Q",
+          width: 1000,
+          height: 1000,
+        },
+      },
+    ],
+    useCasesTitle: "タイプ別で選ぶなら",
+    useCases: [
+      { title: "コンパクト・スクエア型", productName: "audio-technica ATH-SQ1TW2NC", productSlug: "audio-technica-ath-sq1tw2nc" },
+      { title: "LDAC・マルチポイント", productName: "final ZE3000 SV", productSlug: "final-ze3000-sv" },
+      { title: "通勤・外音取り込み", productName: "DENON AH-C830NCW", productSlug: "denon-ah-c830ncw" },
+      { title: "長時間再生", productName: "EDIFIER X2 Pro", productSlug: "edifier-x2-pro" },
+      { title: "耳をふさがない", productName: "EDIFIER Comfo Q", productSlug: "edifier-comfo-q" },
+    ],
+    recommendedTitle: "迷ったらどれを選ぶ？",
+    recommendedFor: [
+      "小さく、形にも個性を出したいなら → audio-technica ATH-SQ1TW2NC",
+      "LDACやマルチポイントも確認したいなら → final ZE3000 SV",
+      "通勤で外音取り込みも使いたいなら → DENON AH-C830NCW",
+      "バッテリー持ちを重視するなら → EDIFIER X2 Pro",
+      "耳をふさがずに使いたいなら → EDIFIER Comfo Q",
+    ],
+    summary:
+      "同じ黒いワイヤレスイヤホンでも、装着方式やANC、再生時間によって向いている使い方は分かれます。この記事は順位付けではなく比較の整理です。価格を抑えて探したい場合は、関連記事の「1万円以下で選ぶ完全ワイヤレスイヤホンおすすめ7選」もあわせて確認してください。仕様の詳細と最新価格は、各単品記事・販売ページで確認してください。",
+    note: "※価格は変動しやすいため掲載していません。最新価格は販売ページで確認してください。",
+    ctaLabel: "詳しく見る",
+    featured: true,
+    hideAffiliateCta: true,
+    layout: "roundup",
+    relatedSlugs: ["wireless-earbuds-under-10000"],
+  },
   {
     slug: "wayetto-wtms0001",
     title: "WAYetTO wtms0001｜Bluetooth・2.4GHz対応の薄型ワイヤレスマウス",

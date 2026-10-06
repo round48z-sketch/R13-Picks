@@ -26,6 +26,7 @@ const popularGuideSlugs = [
   "desk-setup-5-picks",
   "beauty-appliances-5-picks",
   "womens-watches-7-picks",
+  "black-wireless-earbuds",
 ] as const;
 
 export function getPopularGuideArticles() {
@@ -35,11 +36,26 @@ export function getPopularGuideArticles() {
 }
 
 export function getRelatedArticles(article: Article, limit = 2) {
-  return getAllArticles()
-    .filter((item) => item.slug !== article.slug && item.category === article.category)
+  const pinned = (article.relatedSlugs ?? [])
+    .map((slug) => getArticleBySlug(slug))
+    .filter((item): item is Article => Boolean(item) && item?.slug !== article.slug);
+  const pinnedSlugs = new Set(pinned.map((item) => item.slug));
+
+  return pinned
     .concat(
       getAllArticles().filter(
-        (item) => item.slug !== article.slug && item.category !== article.category,
+        (item) =>
+          item.slug !== article.slug &&
+          item.category === article.category &&
+          !pinnedSlugs.has(item.slug),
+      ),
+    )
+    .concat(
+      getAllArticles().filter(
+        (item) =>
+          item.slug !== article.slug &&
+          item.category !== article.category &&
+          !pinnedSlugs.has(item.slug),
       ),
     )
     .slice(0, limit);
