@@ -50,6 +50,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja" className={`${sans.variable} ${display.variable}`}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2686187361737003"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body>
         <HtmlLang />
         <div className="site-shell">
