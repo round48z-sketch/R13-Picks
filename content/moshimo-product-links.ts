@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const moshimoProductLinks: Record<string, string> = {
+  "ewine-trackball-100938":
+    '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Fezone%2F100938%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fezone%2Fi%2F10001705%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/ezone/cabinet/a/100938/100938.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "wayetto-wtms0001":
     '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Fwayetto%2Fwtms0001%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fwayetto%2Fi%2F10000005%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/wayetto/cabinet/09979914/10551015/imgrc0083822402.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "blenck-q23":

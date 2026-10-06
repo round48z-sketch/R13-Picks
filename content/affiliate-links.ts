@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "ewine-trackball-100938":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fezone%2F100938%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fezone%2Fi%2F10001705%2F",
   "wayetto-wtms0001":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fwayetto%2Fwtms0001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwayetto%2Fi%2F10000005%2F",
   "blenck-q23":
