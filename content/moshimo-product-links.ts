@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const moshimoProductLinks: Record<string, string> = {
+  "nakabayashi-mus-rit126bk":
+    '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Frcmdse%2Fan-4902205483120%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frcmdse%2Fi%2F16944471%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/rcmdse/cabinet/an205/an-4902205483120.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "logicool-g203-bk":
     '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Flogicool%2Fg203-bk%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Flogicool%2Fi%2F10000187%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/g_mice/g203-bk/g203-bk_r1.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "logicool-m650mgr":

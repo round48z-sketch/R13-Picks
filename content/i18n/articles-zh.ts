@@ -133,6 +133,59 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     imageAlt: "黑色无线耳机推荐 5 款的缩略图",
   },
 
+  "nakabayashi-mus-rit126bk": {
+    title: "Nakabayashi MUS-RIT126BK｜静音·3 档 DPI 的简约无线鼠标",
+    seoTitle: "Nakabayashi Digio2 MUS-RIT126BK｜静音 3 键·IR LED 无线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Nakabayashi Digio2 MUS-RIT126BK。这是一款通过 2.4GHz 连接的无线鼠标，左右键与滚轮键采用静音开关的 3 键配置，支持 800 / 1200 / 1600dpi 三档切换，并搭载 IR LED 传感器，是一款简约机型。",
+    productType: "无线鼠标",
+    excerpt: "具备静音开关 3 键与 3 档 DPI 的 2.4GHz 简约无线鼠标。",
+    intro:
+      "Nakabayashi Digio2 无线静音 3 键 IR LED 鼠标（型号：MUS-RIT126BK，颜色：黑色）是一款将附带的小型微型接收器插入电脑 USB 接口使用的 2.4GHz 无线鼠标。左右键与滚轮键采用静音开关的 3 键鼠标，分辨率可在 800 / 1200 / 1600dpi 三档之间切换。是一款面向日常使用、配置简约的 Nakabayashi 鼠标。价格、库存与运费可能变动，最新信息请确认销售页面。",
+    points: [
+      "插入 USB 接收器使用的 2.4GHz 无线连接",
+      "左右键·滚轮键采用静音开关",
+      "3 键配置",
+      "分辨率 800 / 1200 / 1600dpi 三档切换",
+      "IR LED 传感器",
+      "本体重量约 62g（不含接收器与电池）",
+      "电源为 5 号（AA）电池 × 1",
+      "小型微型接收器可收纳于本体",
+      "通信距离为半径约 6～8m（因使用环境而异）",
+    ],
+    design:
+      "本体尺寸为 W60 × D106 × H38mm，重量约 62g（不含接收器与电池）。只有左右键与滚轮共 3 个按键的简约配置，本次颜色为黑色，也容易与黑色系桌面搭配。",
+    sections: [
+      {
+        title: "连接方式与接收器",
+        body: "MUS-RIT126BK 为 2.4GHz 无线连接机型，将 USB Type-A 小型微型接收器（W18 × D15 × H5mm）插入电脑即可使用。接收器可收纳于本体，携带时可以收在一起。通信距离为半径约 6～8m，因使用环境而异。销售页面记载的支持系统为 Windows 10 / 8.1 / 8 / 7、macOS X 10.2 及以上，适用机型为 USB 接口可正常工作的电脑。",
+      },
+      {
+        title: "静音开关与分辨率",
+        body: "左右键与滚轮键采用静音开关。静音规格针对点击部分，并不代表转动滚轮时的滚动声也完全无声。传感器为 IR LED，分辨率可在 800 / 1200 / 1600dpi 三档之间切换。",
+      },
+      {
+        title: "电池与附件",
+        body: "电源为 1 节 5 号（AA）电池。销售页面标示连续工作时间约 449 小时、电池更换参考约 764 天，但因使用环境而异。附件为 5 号（AA）碱性电池 × 1（试用）与小型微型接收器。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "MUS-RIT126BK 通过 USB 接收器连接，不支持 Bluetooth 连接。若要在没有 USB Type-A 接口的电脑或平板上使用，请多加注意。此外，由于是 3 键·最高 1600dpi 的简约配置，若需要前进·后退键等多按键操作或更高的 DPI，其他机型可能更合适。最新的价格、库存与运费请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找简约无线鼠标的人",
+      "对降低点击声的静音鼠标感兴趣的人",
+      "想选择插上 USB 接收器即可使用的无线鼠标的人",
+      "想在 3 档 DPI 之间切换的人",
+      "想把接收器收纳在本体中携带的人",
+      "想用黑色系数码产品统一桌面的人",
+    ],
+    scenes: ["在家的桌面工作", "笔记本电脑作业", "图书馆或咖啡馆等安静场所", "出差或外出时的作业"],
+    note: "最新的价格、库存与运费请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "Nakabayashi Digio2 MUS-RIT126BK 黑色",
+  },
   "logicool-g203-bk": {
     title: "Logicool G203 LIGHTSYNC｜6 键·最高 8,000DPI 的有线游戏鼠标",
     seoTitle: "Logicool G203 LIGHTSYNC（G203-BK）｜支持 LIGHTSYNC RGB 的有线游戏鼠标 | R13 Picks",
