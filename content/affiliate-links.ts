@@ -7,6 +7,10 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "rgb-wired-gaming-mouse02":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Ffukuroyuri%2Fmouse02%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffukuroyuri%2Fi%2F10000124%2F",
+  "sanwa-400-ma096":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanwadirect%2F400-ma096%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsanwadirect%2Fi%2F10090880%2F",
   "blenck-sb-a100":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Faskrtech%2Fa100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faskrtech%2Fi%2F10000437%2F",
   "sanwa-400-ma124bk":
