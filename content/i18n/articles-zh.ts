@@ -133,6 +133,246 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     imageAlt: "黑色无线耳机推荐 5 款的缩略图",
   },
 
+  "pcastore-mini-mouse-10002930": {
+    title: "PCASTORE 伸缩线迷你鼠标｜支持 Type-C / USB-A 的 1000DPI 有线款",
+    seoTitle: "PCASTORE 伸缩线迷你鼠标｜可选 Type-C / USB-A 的 1000DPI 小型有线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 PCASTORE 的伸缩线迷你鼠标。这是一款可在 Type-C 版与 USB-A 版之间选择的有线鼠标，具备 1000DPI 光学传感器、约 4.5 × 2.5 × 7.5cm 的小型机身以及约 70～80cm 的伸缩线。",
+    productType: "有线鼠标",
+    excerpt: "可在 Type-C 版与 USB-A 版之间选择的 1000DPI·光学式伸缩线迷你鼠标。",
+    intro:
+      "PCASTORE 的伸缩线迷你有线鼠标是一款可以收卷线材的小型鼠标。接口有 Type-C 用与 USB-A 用 2 种类型，在同一商品页面内选择。读取方式为光学式，分辨率为 1000DPI。由于是有线连接，无需充电或更换电池。价格、库存与规格可能变动，最新信息请确认销售页面。",
+    points: [
+      "有线连接的伸缩线鼠标",
+      "可在 Type-C 版与 USB-A 版之间选择",
+      "光学式，1000DPI",
+      "本体尺寸约 4.5 × 2.5 × 7.5cm 的小型设计",
+      "线材为约 70～80cm 的伸缩式",
+      "无需充电或电池",
+      "黑色×银色等 5 色可选",
+      "考虑便携性的紧凑设计",
+    ],
+    design:
+      "本体尺寸约 4.5 × 2.5 × 7.5cm 的迷你鼠标，采用小型·伸缩线的简约结构。颜色有黑色×银色、红色×银色、蓝色×银色、紫色×银色、银色 5 种。如想统一为黑色系，黑色×银色是容易选择的组合。",
+    sections: [
+      {
+        title: "接口与线材",
+        body: "这款迷你鼠标为有线连接，可作为 Type-C 鼠标使用的 Type-C 版与可作为 USB-A 鼠标使用的 USB-A 版在同一页面内销售。Type-C 版与 USB-A 版为不同规格，购买时请确认接口。线材为伸缩式，长度约 70～80cm（销售页面上也有 80cm 的标示）。销售页面介绍其适用于 PC、笔记本电脑与膝上型电脑。",
+      },
+      {
+        title: "光学传感器与小型机身",
+        body: "读取方式为光学式的光学式鼠标，分辨率为 1000DPI，是一款 1000DPI 鼠标。本体为约 4.5 × 2.5 × 7.5cm 的小型鼠标，线材可以收卷，是考虑便携性的紧凑配置。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "Type-C 版与 USB-A 版作为不同规格销售，购买时请确认接口与颜色。重量、按键数量、保修期以及支持系统的详细版本均无法在销售页面上确认。作为一款简约的小型鼠标，需要多按键或高 DPI 切换的用途可能更适合其他型号。最新的价格、库存与规格请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找便于携带的迷你鼠标的人",
+      "想省去充电与更换电池麻烦的人",
+      "想选择便于整理线材的伸缩线鼠标的人",
+      "正在寻找可用于 Type-C 接口笔记本的有线鼠标的人",
+      "正在寻找可用于 USB-A 接口的小型鼠标的人",
+      "正在寻找可选颜色鼠标的人",
+    ],
+    scenes: ["搭配笔记本电脑的作业", "外出或咖啡馆作业", "出差或移动时携带", "在家的桌面工作"],
+    note: "最新的价格、库存与规格请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "PCASTORE 伸缩线迷你鼠标 颜色款式",
+  },
+  "elecom-m-k6urbk-rs": {
+    title: "ELECOM M-K6URBK/RS｜3 键·光学式的简约有线鼠标",
+    seoTitle: "ELECOM M-K6URBK/RS｜3 键·光学式的 M 尺寸 USB 有线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 ELECOM M-K6URBK/RS。这是一款通过 USB-A 连接的标准光学式有线鼠标，具备光学传感器方式、1000 计数分辨率、含滚轮键的 3 个按键、M 尺寸、约 77g 与 1.5m 线长。",
+    productType: "有线鼠标",
+    excerpt: "光学式·3 键·M 尺寸、重视基本功能的标准 USB 有线鼠标。",
+    intro:
+      "ELECOM M-K6URBK/RS（ELECOM USB 有线鼠标 光学式 3 键／黑色）是一款通过 USB-A 连接的有线鼠标。读取方式为光学传感器方式，分辨率为 1000 计数。按键为含滚轮键在内的 3 个，配置简约，是一款重视鼠标基本性能的标准尺寸型号。通过 USB 总线供电工作，无需电池或充电。价格、库存与规格可能变动，最新信息请确认销售页面。",
+    points: [
+      "通过 USB-A 连接的有线鼠标（线长 1.5m）",
+      "USB 总线供电，无需电池或充电",
+      "光学传感器方式，分辨率 1000 计数",
+      "含滚轮键的 3 键配置",
+      "M 尺寸，重量约 77g（含线材）",
+      "支持 Windows、macOS、ChromeOS",
+      "符合 EU RoHS 指令（10 种物质）",
+      "保修期为 6 个月",
+    ],
+    design:
+      "外形尺寸为宽 60.0mm × 深 105.0mm × 高 40.0mm，重量约 77g（含线材），属于 M 尺寸。颜色为黑色，造型标准、没有多余装饰，外观沉稳，也容易搭配办公桌。",
+    sections: [
+      {
+        title: "连接方式与支持系统",
+        body: "M-K6URBK/RS 是通过 USB(A) 公头接口连接的有线机型，线长 1.5m，电源为 USB 总线供电（额定电压 5V）。适用机型为配备 USB 接口的 Windows OS、macOS 设备，ChromeOS 以及 PlayStation3。支持系统为 Windows 11 / 10 S / 10 Home / 10 / 8.1 / 7 / Vista / XP、macOS Sonoma 14 / macOS Ventura 13 / macOS Monterey 12 / macOS Big Sur 11、ChromeOS。部分情况下可能需要将各系统更新至最新版本。",
+      },
+      {
+        title: "光学传感器与 3 键",
+        body: "读取方式为光学传感器方式（LED 颜色：红色）的光学式鼠标，分辨率为 1000 计数。按键为含滚轮键在内的 3 个，滚轮为 1 个，是一款 3 键鼠标。作为面向企业的鼠标销售，配置简约、重视基本功能，也适合办公用途。环保事项记载有符合 EU RoHS 指令（10 种物质）与环保包装。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "M-K6URBK/RS 是通过 USB 线连接的有线鼠标，无法以无线方式使用。它没有后退/前进等侧键，也没有 DPI 切换功能，因此需要多按键或 DPI 切换的用途可能更适合其他型号。最新的价格、库存与规格请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找简约 ELECOM 鼠标的人",
+      "想省去更换电池与充电麻烦的人",
+      "想选择 3 键即可满足日常使用的有线鼠标的人",
+      "正在寻找标准 M 尺寸鼠标的人",
+      "想为办公室配备 USB 鼠标的人",
+      "正在寻找也能用于 ChromeOS 设备的鼠标的人",
+    ],
+    scenes: ["办公室作业", "在家的桌面工作", "网页浏览或资料阅读", "搭配笔记本电脑的作业"],
+    note: "最新的价格、库存与规格请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "ELECOM M-K6URBK/RS 黑色",
+  },
+  "buffalo-bsmbu308gr": {
+    title: "BUFFALO BSMBU308GR｜静音·5 键·搭载 BlueLED 的有线鼠标",
+    seoTitle: "BUFFALO BSMBU308GR｜带后退/前进键的静音 5 键·BlueLED 有线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 BUFFALO BSMBU308GR。这是一款通过 USB 连接的有线鼠标，具备 BlueLED 传感器、1000 / 1600DPI 两档切换、含后退/前进键的 5 个按键、静音开关以及哑光机身＋橡胶握把。",
+    productType: "有线鼠标",
+    excerpt: "具备 BlueLED、1000 / 1600DPI 切换与静音开关的带后退/前进键 5 键有线鼠标。",
+    intro:
+      "BUFFALO BSMBU308GR（有线 BlueLED 静音 5 键鼠标／绿色）是一款通过 USB 连接的有线鼠标。传感器为 Blue LED 方式，分辨率可在 1000 / 1600DPI 两档之间切换。采用含后退/前进键的 5 键配置，左右键、滚轮键与侧键均采用静音开关。作为 USB 连接的有线机型，无需电池或充电。价格、库存与运费可能变动，最新信息请确认销售页面。",
+    points: [
+      "通过 USB 连接的有线鼠标（线长约 1.5m）",
+      "无需电池或充电",
+      "Blue LED 传感器方式",
+      "分辨率 1000 / 1600DPI 两档切换",
+      "含后退/前进键的 5 键配置（无倾斜功能）",
+      "左右键·滚轮键·侧键采用静音开关",
+      "哑光机身＋橡胶握把，重量约 95g",
+      "保修期为 6 个月",
+    ],
+    design:
+      "本体尺寸约 W75 × H40 × D105mm（不含线材），重量约 95g。表面为哑光机身，并搭配橡胶握把。颜色为绿色，作为沉稳的点缀，也容易融入以黑色为基调的桌面。",
+    sections: [
+      {
+        title: "连接方式与适用机型",
+        body: "BSMBU308GR 是通过 USB 连接的有线机型，线长约 1.5m。适用机型为配备 USB 接口的 Windows 电脑、Mac 与 PlayStation 3。支持系统的详细版本请确认销售页面与厂商官方信息。附件为说明书与保修卡，符合 VCCI Class B。",
+      },
+      {
+        title: "DPI 切换与静音 5 键",
+        body: "这是一款传感器为 Blue LED 方式的 BlueLED 鼠标，也是可在 1000 / 1600DPI 两档之间切换分辨率的 DPI 切换鼠标。按键为 5 个，带滚轮，但没有倾斜功能。左右键、滚轮键与侧键均采用静音开关，是一款静音鼠标。不过，这并不代表点击声会完全消失。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "BSMBU308GR 是通过 USB 线连接的有线鼠标，无法以无线方式使用。浏览键的后退/前进功能仅支持 Windows，因此在 Mac 上无法使用后退/前进功能。此外，它与游戏专用型号方向不同，是一款兼具静音性与 5 键的日常用有线鼠标。最新的价格、库存与运费请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找 BUFFALO 有线鼠标的人",
+      "想省去更换电池与充电麻烦的人",
+      "想选择降低点击声的静音鼠标的人",
+      "想在 Windows 上使用带后退/前进键的 5 键鼠标的人",
+      "想在两档 DPI 之间切换的人",
+      "正在寻找沉稳绿色鼠标的人",
+    ],
+    scenes: ["在家的桌面工作", "办公室作业", "安静环境下的作业", "网页浏览或资料阅读"],
+    note: "最新的价格、库存与运费请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "BUFFALO BSMBU308GR 绿色",
+  },
+  "elecom-m-y8ubbk": {
+    title: "ELECOM EPRIM M-Y8UBBK｜搭载 1600dpi·BlueLED 的简约有线鼠标",
+    seoTitle: "ELECOM EPRIM M-Y8UBBK｜1600dpi·BlueLED 的 3 键有线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 ELECOM EPRIM M-Y8UBBK。这是一款通过 USB Type-A 连接的简约有线鼠标，具备 BlueLED、1600dpi 分辨率、含滚轮键的 3 个按键、约 66.5g 的 M 尺寸、左右对称设计与约 1.5m 线长。",
+    productType: "有线鼠标",
+    excerpt: "具备 BlueLED、1600dpi 与 3 键的 M 尺寸·左右对称简约 USB 有线鼠标。",
+    intro:
+      "ELECOM EPRIM M-Y8UBBK（ELECOM BlueLED 鼠标 EPRIM 有线 3 键／黑色）是一款通过 USB Type-A 连接的有线鼠标。采用光学传感器方式与 BlueLED，分辨率为 1600dpi。按键为含滚轮键在内的 3 个，配置简约。通过 USB 总线供电工作，无需电池或充电。价格、库存与优惠券可能变动，最新信息请确认销售页面。",
+    points: [
+      "通过 USB Type-A 连接的有线鼠标（线长约 1.5m）",
+      "USB 总线供电，无需电池或充电",
+      "光学传感器方式，采用 BlueLED",
+      "分辨率 1600dpi",
+      "含滚轮键的 3 键配置",
+      "M 尺寸，重量约 66.5g",
+      "左右对称设计",
+      "保修期为 6 个月",
+    ],
+    design:
+      "本体尺寸约 W61.5 × D100.0 × H38.0mm，重量约 66.5g，属于 M 尺寸。采用左右对称设计，颜色为黑色。外观简约、没有多余装饰，也容易融入黑色系桌面。",
+    sections: [
+      {
+        title: "连接方式与支持系统",
+        body: "M-Y8UBBK 是通过 USB Type-A 接口连接的有线机型，线长约 1.5m，电源为 USB 总线供电（额定电压 5.0V）。适用机型为配备 USB 接口的 Windows OS、macOS、ChromeOS 设备，支持系统为 Windows 11 / Windows 10 / Windows RT 8.1 / Windows 8.1 / Windows 7 / macOS Sonoma 14 / macOS Ventura 13 / ChromeOS。附件为用户手册 1 份。",
+      },
+      {
+        title: "BlueLED 与 3 键",
+        body: "读取方式为光学传感器方式，是一款采用 BlueLED 的 BlueLED 鼠标。分辨率为 1600dpi。按键为含滚轮键在内的 3 个，滚轮为 1 个，是一款以点击与滚动为中心、操作简约的 3 键鼠标。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "M-Y8UBBK 是通过 USB 线连接的有线鼠标，无法以无线方式使用。它没有后退/前进等侧键，也没有 DPI 切换功能，因此需要多按键或 DPI 切换的用途可能更适合其他型号。销售页面同时刊登了黑色以外的颜色，购买时请选择黑色（M-Y8UBBK）。最新的价格、库存与优惠券请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找简约鼠标的人",
+      "想省去更换电池与充电麻烦的人",
+      "想选择 3 键即可满足日常使用的有线鼠标的人",
+      "正在寻找较轻 M 尺寸鼠标的人",
+      "正在寻找左右对称造型鼠标的人",
+      "正在寻找可用于 Windows、Mac、ChromeOS 的 USB 鼠标的人",
+    ],
+    scenes: ["在家的桌面工作", "办公室作业", "网页浏览或资料阅读", "搭配笔记本电脑的作业"],
+    note: "最新的价格、库存与优惠券请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "ELECOM EPRIM M-Y8UB 系列",
+  },
+  "elecom-m-xgl30ubskabk": {
+    title: "ELECOM EX-G M-XGL30UBSKABK｜静音·5 键·搭载 BlueLED 的有线鼠标",
+    seoTitle: "ELECOM EX-G M-XGL30UBSKABK｜静音·5 键·BlueLED 的 L 尺寸有线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 ELECOM EX-G M-XGL30UBSKABK。这是一款通过 USB-A 连接的有线鼠标，具备 BlueLED 传感器、2000DPI、含滚轮键的 5 个按键、静音型号、L 尺寸造型、约 1.5m 线长与 2 年保修。",
+    productType: "有线鼠标",
+    excerpt: "具备 BlueLED 传感器与 5 键的 ELECOM EX-G 系列 L 尺寸静音有线鼠标。",
+    intro:
+      "ELECOM EX-G M-XGL30UBSKABK（静音有线鼠标 “EX-G” 5 键 L 尺寸／黑色）是一款通过 USB-A 连接的有线鼠标。读取方式为 BlueLED，传感器分辨率为 2000DPI，具备含滚轮键在内的 5 个按键。厂商官方将其介绍为静音型号，并且通过 USB 总线供电工作，无需电池或充电。价格、库存与优惠券可能变动，最新信息请确认销售页面。",
+    points: [
+      "通过 USB-A 连接的有线鼠标（线长约 1.5m）",
+      "USB 总线供电，无需电池或充电",
+      "BlueLED 方式，传感器分辨率 2000DPI",
+      "含滚轮键的 5 键配置",
+      "厂商官方介绍为静音型号",
+      "L 尺寸，重量约 115g（含线材）",
+      "可通过 ELECOM Mouse Assistant 分配按键功能",
+      "保修期为 2 年",
+    ],
+    design:
+      "本体尺寸为宽约 79mm × 深约 120mm × 高约 58mm，重量约 115g（含线材），属于 L 尺寸。EX-G 系列与骨科医生共同开发，造型设计考虑了手的自然形态。颜色为黑色，外观沉稳，容易融入黑色系桌面。",
+    sections: [
+      {
+        title: "连接方式与支持系统",
+        body: "M-XGL30UBSKABK 是通过 USB-A 接口连接的有线机型，线长约 1.5m，电源为 USB 总线供电。支持系统为 Windows 11 / Windows 10 / macOS Sonoma 14 / macOS Ventura 13 / ChromeOS，适用于配备 USB 接口的 Windows OS、macOS、ChromeOS 设备。",
+      },
+      {
+        title: "BlueLED 传感器与 5 键",
+        body: "这是一款读取方式采用 BlueLED 的 BlueLED 鼠标，传感器分辨率为 2000DPI。按键为含滚轮键在内的 5 个，滚轮为 1 个，是一款 5 键鼠标。使用 ELECOM Mouse Assistant 可以分配按键功能。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "M-XGL30UBSKABK 是通过 USB 线连接的有线鼠标，无法通过 Bluetooth 或无线方式使用。虽然被介绍为静音型号，但并不代表点击声会完全消失。此外，它与游戏专用型号方向不同，是一款重视贴合手形的造型与静音性的 L 尺寸鼠标。最新的价格、库存与优惠券请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找 ELECOM EX-G 系列有线鼠标的人",
+      "想省去更换电池与充电麻烦的人",
+      "想选择静音鼠标的人",
+      "正在寻找较大 L 尺寸鼠标的人",
+      "想选择可分配按键功能的 5 键鼠标的人",
+      "正在寻找可用于 Windows、Mac、ChromeOS 的 USB 鼠标的人",
+    ],
+    scenes: ["在家的桌面工作", "办公室作业", "安静环境下的作业", "台式电脑作业"],
+    note: "最新的价格、库存与优惠券请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "ELECOM EX-G M-XGL30UBSKABK 黑色",
+  },
   "rgb-wired-gaming-mouse02": {
     title: "FANTECH X15 PHANTOM｜7 键·最高 4800DPI·RGB 的有线游戏鼠标",
     seoTitle: "FANTECH X15 PHANTOM｜7 键·支持 200～4800DPI 的 RGB 有线游戏鼠标 | R13 Picks",

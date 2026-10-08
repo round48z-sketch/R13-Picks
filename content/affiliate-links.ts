@@ -7,6 +7,16 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "pcastore-mini-mouse-10002930":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcastore%2F10002930%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcastore%2Fi%2F10006553%2F",
+  "elecom-m-k6urbk-rs":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-express%2F4953103553859%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-express%2Fi%2F10537749%2F",
+  "buffalo-bsmbu308gr":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4950190365785%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fr-kojima%2Fi%2F10978322%2F",
+  "elecom-m-y8ubbk":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonan%2F4953103373143v%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkonan%2Fi%2F11322523%2F",
+  "elecom-m-xgl30ubskabk":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Felecom%2F4549550298995%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Felecom%2Fi%2F10062842%2F",
   "rgb-wired-gaming-mouse02":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Ffukuroyuri%2Fmouse02%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffukuroyuri%2Fi%2F10000124%2F",
   "sanwa-400-ma096":
