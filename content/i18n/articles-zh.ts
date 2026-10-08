@@ -133,6 +133,58 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     imageAlt: "黑色无线耳机推荐 5 款的缩略图",
   },
 
+  "logicool-g203-bk": {
+    title: "Logicool G203 LIGHTSYNC｜6 键·最高 8,000DPI 的有线游戏鼠标",
+    seoTitle: "Logicool G203 LIGHTSYNC（G203-BK）｜支持 LIGHTSYNC RGB 的有线游戏鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Logicool G203 LIGHTSYNC（G203-BK）。这是一款 USB 连接的有线游戏鼠标，具备 200～8,000DPI 的游戏级传感器、6 个可编程按键，以及约 1,680 万色的 LIGHTSYNC RGB。",
+    productType: "有线游戏鼠标",
+    excerpt: "具备最高 8,000DPI 传感器、6 个按键与 LIGHTSYNC RGB 的 USB 有线游戏鼠标。",
+    intro:
+      "Logicool G203 LIGHTSYNC（型号：G203-BK，颜色：黑色）是一款通过 USB 连接的有线游戏鼠标。厂商官方说明，它采用游戏级传感器，灵敏度可在 200～8,000 DPI 范围内调节，具备经典的 6 键设计与 LIGHTSYNC RGB 灯效。销售页面将其介绍为入门级游戏鼠标。价格、库存与优惠券可能变动，最新信息请确认销售页面。",
+    points: [
+      "USB 连接的有线游戏鼠标（线长 2,100mm）",
+      "分辨率 200～8,000dpi，可通过按键切换最多 5 档灵敏度",
+      "6 个可编程按键（通过罗技 G HUB 分配）",
+      "可从约 1,680 万色中设置的 LIGHTSYNC RGB 灯效",
+      "USB 回报率 1000Hz（1ms）",
+      "本体重量 85g（仅鼠标）",
+      "板载内存可保存 1 个配置文件",
+      "保修 2 年（在日本国内购买的国内正规品）",
+    ],
+    design:
+      "销售页面记载的本体尺寸为 62.15 × 38.2 × 116.6mm，重量 85g（仅鼠标）。销售页面说明其造型沿袭了罗技 G100 的经典设计，并改良了握持感。本次颜色为黑色，也容易与黑色系桌面搭配。此外还有白色、蓝色与淡紫色可选。",
+    sections: [
+      {
+        title: "规格",
+        body: "销售页面记载的主要规格为：分辨率 200～8,000dpi、最大加速度 25G、最大速度 200IPS（均为在罗技 G240 游戏鼠标垫上测试的结果）、USB 回报率 1000Hz（1ms）、32 位 ARM 微处理器。PTFE 脚垫的耐久性标示为 250km（同条件测试）。包装内容为产品本体与保修条款。",
+      },
+      {
+        title: "连接方式与操作性",
+        body: "G203 是通过 USB 连接的有线机型，线长 2,100mm。支持系统标示为配备 USB 接口的 Windows 7 及以上、macOS 10.13 及以上、Chrome OS。左右主按键搭载了罗技 G 独家的金属弹簧机械式按键张力系统。灵敏度可设置最多 5 档，并通过按键切换。使用罗技 G HUB，可为 6 个按键分配系统命令、键盘命令与宏，设置可在板载内存中保存为 1 个配置文件。",
+      },
+      {
+        title: "LIGHTSYNC RGB 灯效",
+        body: "LIGHTSYNC RGB 是可从约 1,680 万色中设置颜色与色彩波浪的灯效功能。厂商官方说明，除选择单色、混合三色与动画预设外，还支持与屏幕同步的屏幕取样，以及随声音变色的音频可视化。也可与其他罗技 G LIGHTSYNC 设备同步。使用高级功能需要免费的罗技 G HUB 软件。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "G203 为有线连接，若想无线、不带线使用，其他机型会是候选。灯效与按键分配等详细设置需要罗技 G HUB。保修对象为在日本国内购买的国内正规品，销售页面说明 Logitech G 产品不在日本国内保修范围内。最新的价格、库存与优惠券请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找第一只有线游戏鼠标的人",
+      "想选择 Logicool G203 这类经典 6 键配置的人",
+      "想用 LIGHTSYNC RGB 统一桌面灯效的人",
+      "想在多档 DPI 之间切换使用的人",
+      "想使用无需充电的有线鼠标的人",
+      "想用黑色系数码产品统一桌面的人",
+    ],
+    scenes: ["PC 游戏", "在家的桌面工作", "游戏桌面布置", "台式电脑作业"],
+    note: "最新的价格、库存与优惠券请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "Logicool G203 LIGHTSYNC G203-BK 黑色",
+  },
   "logicool-m650mgr": {
     title: "Logicool Signature M650｜静音·SmartWheel·双连接方式的无线鼠标",
     seoTitle: "Logicool Signature M650（M650MGR）｜支持 Logi Bolt·Bluetooth 的静音无线鼠标 | R13 Picks",
