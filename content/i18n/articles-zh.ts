@@ -133,6 +133,63 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
     imageAlt: "黑色无线耳机推荐 5 款的缩略图",
   },
 
+  "logicool-m650mgr": {
+    title: "Logicool Signature M650｜静音·SmartWheel·双连接方式的无线鼠标",
+    seoTitle: "Logicool Signature M650（M650MGR）｜支持 Logi Bolt·Bluetooth 的静音无线鼠标 | R13 Picks",
+    description:
+      "从 R13 Picks 的视角介绍 Logicool Signature M650（M650MGR）。这是一款可通过 Logi Bolt USB 接收器与 Bluetooth Low Energy 两种方式连接的无线鼠标，具备 SmartWheel、400～4,000dpi、5 个按键，以及点击声较以往降低 90% 的静音设计。",
+    productType: "无线鼠标",
+    excerpt: "具备 Logi Bolt 与 Bluetooth 双连接方式、SmartWheel 与静音点击的日常用无线鼠标。",
+    intro:
+      "Logicool Signature M650（型号：M650MGR，颜色：石墨色）是一款可通过附带的 Logi Bolt USB 接收器与 Bluetooth Low Energy 两种方式连接的无线鼠标。具备在逐行滚动与高速滚动之间自动切换的 SmartWheel、400～4,000dpi 的传感器，以及含倾斜在内的 5 个按键。销售页面说明其采用独家静音技术 SilentTouch，点击声较以往降低 90%。价格、库存与优惠券可能变动，最新信息请确认销售页面。",
+    points: [
+      "Logi Bolt USB 接收器与 Bluetooth Low Energy 双连接方式",
+      "SmartWheel（快速转动时自动切换为高速滚动）",
+      "SilentTouch 使点击声较以往降低 90%（销售页面记载）",
+      "高级光学追踪，分辨率 400～4,000dpi",
+      "总按键数 5（含倾斜功能），支持虚拟横向滚动",
+      "本体重量 101.2g（含电池）",
+      "5 号（AA）电池 × 1，电池寿命为使用 Logi Bolt 时最长 24 个月 / 使用 Bluetooth 时最长 20 个月",
+      "操作距离约 10m（因使用环境·状况而异）",
+      "保修 2 年",
+    ],
+    design:
+      "本体尺寸为宽 61.8mm × 深 107.19mm × 高 37.8mm，重量 101.2g（含电池）。本次颜色为石墨色，色调沉稳，也容易与黑色系桌面搭配。功能配置不过于繁杂，容易作为日常工作用鼠标使用。",
+    sections: [
+      {
+        title: "Logi Bolt 与 Bluetooth 双连接方式",
+        body: "Signature M650 是一款可通过附带的 Logi Bolt USB 接收器或 Bluetooth Low Energy 任一方式连接的 Logi Bolt 鼠标。在有 USB 接口的设备上可使用接收器，在不想插接收器的设备上则可作为 Bluetooth 鼠标使用。操作距离约 10m，因使用环境·状况而异。",
+      },
+      {
+        title: "支持系统",
+        body: "厂商官方的支持系统：使用 Logi Bolt USB 接收器时为 Windows 10 及以上、Windows 8、Windows 7、macOS 10.10 及以上、Linux、Chrome OS；使用 Bluetooth Low Energy 时为 Windows 10 及以上、macOS 10.15 及以上、Linux、Chrome OS、iPadOS 13.4 及以上、Android 5.0 及以上。支持系统因连接方式而异，请根据要使用的设备确认。",
+      },
+      {
+        title: "SmartWheel 与静音点击",
+        body: "SmartWheel 除了逐行滚动外，快速转动时还会自动切换为高速滚动。也支持通过倾斜实现的虚拟横向滚动。关于点击声，销售页面说明采用独家静音技术 SilentTouch，较以往降低 90%。这是与罗技 M170 的比较，依据独立研究机构在 1m 距离测量的左键 dBA 值，并不代表完全没有声音。",
+      },
+      {
+        title: "电池与附件",
+        body: "电源为 1 节 5 号（AA）电池。电池寿命标示为使用 Logi Bolt 接收器时最长 24 个月、使用 Bluetooth 时最长 20 个月，但因使用环境·状况而异。附件为产品本体、Logi Bolt USB 接收器、5 号（AA）电池 × 1、保修卡与保修条款，保修期为 2 年。发售日为 2022 年 2 月 3 日。",
+      },
+      {
+        title: "购买前想确认的要点",
+        body: "M650MGR 是以办公与居家工作等日常用途为设想的鼠标。若重视高回报率等游戏用途的性能，方向性有所不同，建议同时比较专用机型。最新的价格、库存与优惠券请确认销售页面。",
+      },
+    ],
+    recommendedFor: [
+      "正在寻找可切换 Logi Bolt 与 Bluetooth 的无线鼠标的人",
+      "对降低点击声的静音鼠标感兴趣的人",
+      "经常滚动浏览长文档或网页的人",
+      "正在寻找 DPI 范围较广的日常用鼠标的人",
+      "想减少更换电池频率的人",
+      "想用黑色系数码产品统一桌面的人",
+    ],
+    scenes: ["在家的桌面工作", "办公室作业", "笔记本电脑或平板作业", "在线会议中的作业"],
+    note: "最新的价格、库存与优惠券请确认销售页面。",
+    ctaLabel: "查看商品",
+    imageAlt: "Logicool Signature M650 M650MGR 石墨色",
+  },
   "logicool-m240gr": {
     title: "Logicool M240 Silent Bluetooth Mouse｜静音·轻量·无需接收器的简约无线鼠标",
     seoTitle: "Logicool M240 Silent Bluetooth Mouse（M240GR）｜静音·轻量·无需接收器的 Bluetooth 鼠标 | R13 Picks",

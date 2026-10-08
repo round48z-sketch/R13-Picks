@@ -266,6 +266,78 @@ export const articles: Article[] = [
     relatedSlugs: ["wireless-earbuds-under-10000"],
   },
   {
+    slug: "logicool-m650mgr",
+    title: "Logicool Signature M650｜静音・SmartWheel・2方式接続のワイヤレスマウス",
+    seoTitle: "Logicool Signature M650（M650MGR）｜Logi Bolt・Bluetooth対応の静音ワイヤレスマウス | R13 Picks",
+    description:
+      "Logicool Signature M650（M650MGR）をR13 Picksの視点で紹介。Logi Bolt USBレシーバーとBluetooth Low Energyの2方式で接続できるワイヤレス マウスで、SmartWheel、400〜4,000dpi、5ボタン、クリック音を従来比90%軽減した静音設計を備えています。",
+    category: "gadget",
+    productName: "Logicool Signature M650 M650MGR",
+    productType: "ワイヤレスマウス",
+    publishedAt: "2026-10-08",
+    image: {
+      src: "https://thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/mice/m650mgr/m650mgr_01_02_r.jpg?_ex=500x500",
+      alt: "Logicool Signature M650 M650MGR グラファイト",
+      width: 500,
+      height: 500,
+    },
+    excerpt: "Logi BoltとBluetoothの2方式接続、SmartWheel、静音クリックを備えた日常向けワイヤレスマウス。",
+    intro:
+      "Logicool Signature M650（型番：M650MGR、カラー：グラファイト）は、付属のLogi Bolt USBレシーバーとBluetooth Low Energyの2方式で接続できるワイヤレス マウスです。1行ごとのスクロールと高速スクロールが自動で切り替わるSmartWheel、400〜4,000dpiのセンサー、チルトを含む5ボタンを備えています。販売ページでは、独自の静音技術SilentTouchによりクリック音を従来比90%軽減した静音 マウスとして案内されています。価格・在庫・クーポンは変わることがあるため、最新の情報は販売ページで確認してください。",
+    points: [
+      "Logi Bolt USBレシーバーとBluetooth Low Energyの2方式接続",
+      "SmartWheel（勢いよく回すと高速スクロールに自動で切り替わる）",
+      "SilentTouchでクリック音を従来比90%軽減（販売ページ記載）",
+      "アドバンス オプティカル トラッキング、解像度は400〜4,000dpi",
+      "総ボタン数は5（チルト機能を含む）、バーチャルサイドスクロール対応",
+      "本体重量は101.2g（電池含む）",
+      "単3形乾電池 × 1、電池寿命はLogi Bolt使用時最大24か月 / Bluetooth使用時最大20か月",
+      "操作距離は約10m（使用環境・状況によって異なる）",
+      "保証は2年間",
+    ],
+    design:
+      "本体サイズは幅61.8mm × 奥行107.19mm × 高さ37.8mm、重量は101.2g（電池含む）です。今回のカラーはグラファイトで、黒系のデスク周りにも合わせやすい落ち着いた色味です。多機能すぎない構成のため、日常の作業用マウスとして取り入れやすいモデルです。",
+    sections: [
+      {
+        title: "Logi BoltとBluetoothの2方式接続",
+        body: "Signature M650は、付属のLogi Bolt USBレシーバーと、Bluetooth Low Energyのどちらでも接続できるLogi Bolt マウスです。USBポートがある機器ではレシーバーで、レシーバーを挿したくない機器ではBluetooth マウスとして使い分けられます。操作距離は約10mで、使用環境・状況によって異なります。",
+      },
+      {
+        title: "対応OS",
+        body: "メーカー公式の対応OSは、Logi Bolt USBレシーバー使用時がWindows 10以降、Windows 8、Windows 7、macOS 10.10以降、Linux、Chrome OS。Bluetooth Low Energy使用時がWindows 10以降、macOS 10.15以降、Linux、Chrome OS、iPadOS 13.4以降、Android 5.0以降です。接続方式によって対応OSが異なるため、使う機器にあわせて確認してください。",
+      },
+      {
+        title: "SmartWheelと静音クリック",
+        body: "SmartWheelは、1行ごとのスクロールに加えて、勢いよく回すと高速スクロールに自動で切り替わるホイールです。チルトによるバーチャルサイドスクロールにも対応しています。クリック音は、販売ページでは独自の静音技術SilentTouchにより従来比90%軽減と案内されています。これはロジクールのM170との比較で、独立した研究機関が1mの距離で測定した左クリックのdBA値にもとづくもので、音がまったく出ないという意味ではありません。",
+      },
+      {
+        title: "電池と付属品",
+        body: "電源は単3形乾電池1本です。電池寿命はLogi Boltレシーバー使用時で最大24か月、Bluetooth使用時で最大20か月とされていますが、使用環境・状況によって異なります。付属品は製品本体、Logi Bolt USBレシーバー、単3形乾電池 × 1、保証書、保証規定で、保証期間は2年間です。発売日は2022年2月3日です。",
+      },
+      {
+        title: "購入前に確認したいポイント",
+        body: "M650MGRは、オフィス作業や在宅作業などの日常用途を想定した構成のマウスです。高いポーリングレートなど、ゲーミング用途向けの性能を重視する場合は、方向性が異なるため専用モデルも比較してください。最新の価格・在庫・クーポンは販売ページで確認してください。",
+      },
+    ],
+    recommendedFor: [
+      "Logi BoltとBluetoothを使い分けられるワイヤレス マウスを探している人",
+      "クリック音を抑えた静音 マウスが気になる人",
+      "長い文書やWebページをスクロールすることが多い人",
+      "DPIの幅が広い日常用マウスを探している人",
+      "電池交換の頻度を抑えたい人",
+      "黒系のガジェットでデスク周りをまとめたい人",
+    ],
+    scenes: [
+      "自宅のデスクワーク",
+      "オフィスでの作業",
+      "ノートPCやタブレットでの作業",
+      "オンライン会議中の作業",
+    ],
+    note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
+    ctaLabel: "商品を見る",
+    featured: true,
+  },
+  {
     slug: "logicool-m240gr",
     title: "Logicool M240 Silent Bluetooth Mouse｜静音・軽量・レシーバー不要のシンプルワイヤレスマウス",
     seoTitle: "Logicool M240 Silent Bluetooth Mouse（M240GR）｜静音・軽量・レシーバー不要のBluetoothマウス | R13 Picks",

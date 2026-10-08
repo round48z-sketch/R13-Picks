@@ -133,6 +133,63 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
     imageAlt: "블랙 무선 이어폰 추천 5선 썸네일",
   },
 
+  "logicool-m650mgr": {
+    title: "Logicool Signature M650｜저소음·SmartWheel·2가지 연결 방식의 무선 마우스",
+    seoTitle: "Logicool Signature M650(M650MGR)｜Logi Bolt·Bluetooth 대응 저소음 무선 마우스 | R13 Picks",
+    description:
+      "Logicool Signature M650(M650MGR)을 R13 Picks의 시선으로 소개합니다. Logi Bolt USB 리시버와 Bluetooth Low Energy의 2가지 방식으로 연결할 수 있는 무선 마우스로, SmartWheel, 400~4,000dpi, 5버튼, 클릭 소음을 기존 대비 90% 줄인 저소음 설계를 갖추고 있습니다.",
+    productType: "무선 마우스",
+    excerpt: "Logi Bolt와 Bluetooth의 2가지 연결 방식, SmartWheel, 저소음 클릭을 갖춘 일상용 무선 마우스.",
+    intro:
+      "Logicool Signature M650(모델명: M650MGR, 컬러: 그래파이트)은 부속 Logi Bolt USB 리시버와 Bluetooth Low Energy의 2가지 방식으로 연결할 수 있는 무선 마우스입니다. 한 줄 단위 스크롤과 고속 스크롤이 자동으로 전환되는 SmartWheel, 400~4,000dpi 센서, 틸트를 포함한 5버튼을 갖추고 있습니다. 판매 페이지에서는 독자적인 저소음 기술 SilentTouch로 클릭 소음을 기존 대비 90% 줄인 저소음 마우스로 안내하고 있습니다. 가격·재고·쿠폰은 변경될 수 있으므로, 최신 정보는 판매 페이지에서 확인해 주세요.",
+    points: [
+      "Logi Bolt USB 리시버와 Bluetooth Low Energy의 2가지 연결 방식",
+      "SmartWheel(힘차게 돌리면 고속 스크롤로 자동 전환)",
+      "SilentTouch로 클릭 소음을 기존 대비 90% 감소(판매 페이지 기재)",
+      "어드밴스드 옵티컬 트래킹, 해상도 400~4,000dpi",
+      "총 버튼 수 5(틸트 기능 포함), 가상 사이드 스크롤 대응",
+      "본체 무게 101.2g(전지 포함)",
+      "AA 건전지 × 1, 전지 수명은 Logi Bolt 사용 시 최대 24개월 / Bluetooth 사용 시 최대 20개월",
+      "작동 거리 약 10m(사용 환경·상황에 따라 다름)",
+      "보증 2년",
+    ],
+    design:
+      "본체 크기는 폭 61.8mm × 깊이 107.19mm × 높이 37.8mm, 무게는 101.2g(전지 포함)입니다. 이번 컬러는 그래파이트로, 블랙 계열의 데스크 주변에도 맞추기 쉬운 차분한 색감입니다. 기능이 지나치게 많지 않은 구성이라 일상 작업용 마우스로 들이기 쉬운 모델입니다.",
+    sections: [
+      {
+        title: "Logi Bolt와 Bluetooth의 2가지 연결 방식",
+        body: "Signature M650은 부속 Logi Bolt USB 리시버와 Bluetooth Low Energy 중 어느 쪽으로도 연결할 수 있는 Logi Bolt 마우스입니다. USB 포트가 있는 기기에서는 리시버로, 리시버를 꽂고 싶지 않은 기기에서는 Bluetooth 마우스로 나눠 쓸 수 있습니다. 작동 거리는 약 10m이며 사용 환경·상황에 따라 다릅니다.",
+      },
+      {
+        title: "대응 OS",
+        body: "제조사 공식 대응 OS는 Logi Bolt USB 리시버 사용 시 Windows 10 이상, Windows 8, Windows 7, macOS 10.10 이상, Linux, Chrome OS이며, Bluetooth Low Energy 사용 시 Windows 10 이상, macOS 10.15 이상, Linux, Chrome OS, iPadOS 13.4 이상, Android 5.0 이상입니다. 연결 방식에 따라 대응 OS가 다르므로, 사용할 기기에 맞춰 확인해 주세요.",
+      },
+      {
+        title: "SmartWheel과 저소음 클릭",
+        body: "SmartWheel은 한 줄 단위 스크롤에 더해, 힘차게 돌리면 고속 스크롤로 자동 전환되는 휠입니다. 틸트를 통한 가상 사이드 스크롤에도 대응합니다. 클릭 소음은 판매 페이지에서 독자적인 저소음 기술 SilentTouch로 기존 대비 90% 감소했다고 안내하고 있습니다. 이는 로지텍 M170과의 비교로, 독립 연구 기관이 1m 거리에서 측정한 왼쪽 클릭의 dBA 값에 근거한 것이며, 소리가 전혀 나지 않는다는 의미는 아닙니다.",
+      },
+      {
+        title: "전지와 부속품",
+        body: "전원은 AA 건전지 1개입니다. 전지 수명은 Logi Bolt 리시버 사용 시 최대 24개월, Bluetooth 사용 시 최대 20개월로 안내되어 있지만 사용 환경·상황에 따라 다릅니다. 부속품은 제품 본체, Logi Bolt USB 리시버, AA 건전지 × 1, 보증서, 보증 규정이며, 보증 기간은 2년입니다. 출시일은 2022년 2월 3일입니다.",
+      },
+      {
+        title: "구매 전에 확인할 포인트",
+        body: "M650MGR은 사무 작업이나 재택 작업 등 일상 용도를 상정한 구성의 마우스입니다. 높은 폴링 레이트 등 게이밍 용도의 성능을 중시한다면 방향성이 다르므로 전용 모델도 비교해 주세요. 최신 가격·재고·쿠폰은 판매 페이지에서 확인해 주세요.",
+      },
+    ],
+    recommendedFor: [
+      "Logi Bolt와 Bluetooth를 나눠 쓸 수 있는 무선 마우스를 찾는 분",
+      "클릭 소음을 줄인 저소음 마우스가 궁금한 분",
+      "긴 문서나 웹페이지를 스크롤할 일이 많은 분",
+      "DPI 범위가 넓은 일상용 마우스를 찾는 분",
+      "전지 교체 빈도를 줄이고 싶은 분",
+      "블랙 계열 가젯으로 데스크 주변을 정리하고 싶은 분",
+    ],
+    scenes: ["집에서의 데스크 작업", "사무실 작업", "노트북이나 태블릿 작업", "온라인 회의 중의 작업"],
+    note: "최신 가격·재고·쿠폰은 판매 페이지에서 확인해 주세요.",
+    ctaLabel: "상품 보기",
+    imageAlt: "Logicool Signature M650 M650MGR 그래파이트",
+  },
   "logicool-m240gr": {
     title: "Logicool M240 Silent Bluetooth Mouse｜저소음·경량·리시버 불필요의 심플한 무선 마우스",
     seoTitle: "Logicool M240 Silent Bluetooth Mouse(M240GR)｜저소음·경량·리시버 불필요의 Bluetooth 마우스 | R13 Picks",
