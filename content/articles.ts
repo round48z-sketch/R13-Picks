@@ -65,6 +65,8 @@ export type Article = {
   sections?: { title: string; body: string }[];
   /** Roundup only: when set, `sections` render under this h2 as h3 blocks. */
   sectionsTitle?: string;
+  /** Roundup only: render comparison table, then useCaseGroups, then sections. */
+  comparisonTableFirst?: boolean;
   /** Popular Guides card only; does not affect OGP or ArticleCard. */
   guideThumbnailImage?: ArticleImage;
   design?: string;
@@ -105,6 +107,245 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "wired-mouse-recommendations-5",
+    title: "有線マウスおすすめ5選｜静音・5ボタン・ゲーミング・小型モデルを比較",
+    seoTitle: "有線マウスおすすめ5選｜静音・5ボタン・ゲーミング・小型モデルを比較 | R13 Picks",
+    description:
+      "有線マウスおすすめ5選を、R13 Picksの単品記事をもとに整理。静音モデル、5ボタンの仕事用、ゲーミング、小型のType-C対応モデルまで、接続端子・ボタン数・DPI・重量・ケーブル長を用途別比較し、仕事用やゲーム用の有線マウスの選び方もまとめます。",
+    category: "gadget",
+    productName: "有線マウスおすすめ5選",
+    productType: "比較・まとめ記事",
+    publishedAt: "2026-10-10",
+    image: {
+      src: "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/4/400-ma124bk.jpg?_ex=500x500",
+      alt: "有線マウスおすすめ5選のサムネイル",
+      width: 500,
+      height: 500,
+    },
+    guideThumbnailImage: {
+      src: "/images/articles/wired-mouse-recommendations-5-collage.jpg",
+      alt: "有線マウスおすすめ5選のサムネイル",
+      width: 800,
+      height: 1000,
+    },
+    excerpt: "静音・5ボタン・ゲーミング・小型など、用途の違う有線マウス5モデルを比較。",
+    intro:
+      "有線マウスは、ケーブルでパソコンとつなぐため、充電や電池交換が不要で、Bluetoothのペアリングやレシーバーの用意といったワイヤレス接続の設定もいりません。USBポートに挿せば使い始められる、シンプルな接続が特徴です。一方で、ケーブルがあるぶんデスク上で取り回しを考える必要があり、持ち運ぶときにはかさばる場合もあります。この記事では、R13 Picksで紹介している有線マウスの中から、静音・5ボタン・ゲーミング・シンプル・小型と用途が重ならない5モデルを選び、比較表と用途別のおすすめで整理します。順位付けではなく、自分に合うUSBマウスを選ぶための比較です。",
+    points: [],
+    overviewTitle: "掲載モデル一覧",
+    comparisonTableFirst: true,
+    comparisonTable: {
+      title: "有線マウス5モデル比較表",
+      headers: [
+        "商品名",
+        "接続端子",
+        "ボタン数",
+        "DPI",
+        "静音",
+        "重量",
+        "ケーブル長",
+        "特徴",
+        "おすすめ用途",
+      ],
+      rows: [
+        ["Logicool G203 LIGHTSYNC", "USB", "6（プログラム可能）", "200〜8,000dpi（最大5段階）", "—", "85g（マウスのみ）", "2,100mm", "LIGHTSYNC RGB・レポートレート1000Hz", "ゲーミング"],
+        ["サンワダイレクト 400-MA124BK", "USB Type-A", "5", "800 / 1200 / 1600 / 2000", "静音ボタン（左右クリック・サイドボタン）", "約85.2g", "約1.5m", "ブルーLED・4段階DPI切替", "静音・仕事用"],
+        ["ELECOM EX-G M-XGL30UBSKABK", "USB-A", "5（ホイールボタン含む）", "2000DPI", "静音モデル（メーカー公式）", "約115g（ケーブル含む）", "約1.5m", "BlueLED・Lサイズ・ボタン割り当て対応", "静音・大きめのマウス"],
+        ["ELECOM EPRIM M-Y8UBBK", "USB Type-A", "3（ホイールボタン含む）", "1600dpi", "—", "約66.5g", "約1.5m", "BlueLED・Mサイズ・左右対称", "シンプルな仕事用"],
+        ["PCASTORE 巻き取り式ミニマウス", "Type-C または USB-A（購入時に選択）", "—", "1000DPI", "—", "—", "約70〜80cm（巻き取り式）", "約4.5 × 2.5 × 7.5cmの小型設計", "持ち運び・小型"],
+      ],
+    },
+    useCaseGroups: [
+      {
+        title: "ゲーム用途で選ぶなら",
+        body: "ゲーミング用の有線マウスを選ぶなら、Logicool G203 LIGHTSYNCが候補です。200〜8,000dpiの範囲で感度を設定でき、ボタンで最大5段階を切り替えられます。6個のボタンにはロジクールG HUBで機能を割り当てられ、USBレポートレートは1000Hz（1ms）、約1,680万色のLIGHTSYNC RGBライティングにも対応しています。",
+        productSlugs: ["logicool-g203-bk"],
+      },
+      {
+        title: "静音性を重視するなら",
+        body: "クリック音を抑えたい場合は、静音仕様が案内されている2モデルが候補です。サンワダイレクト 400-MA124BKは左右クリックとサイドボタンに静音ボタンを採用した5ボタンの有線マウスで、DPIを4段階で切り替えられます。ELECOM EX-G M-XGL30UBSKABKはメーカー公式で静音モデルとして紹介されている、Lサイズ・5ボタンのモデルです。手の大きさや重さの好みに合わせて選べます。",
+        productSlugs: ["sanwa-400-ma124bk", "elecom-m-xgl30ubskabk"],
+      },
+      {
+        title: "シンプルな仕事用なら",
+        body: "クリックとスクロールが中心の仕事用なら、ELECOM EPRIM M-Y8UBBKのようなシンプルな3ボタンモデルも選択肢です。USB Type-Aで接続し、BlueLED・1600dpi、約66.5gのMサイズで、左右対称のデザインです。戻る/進むボタンやDPI切替は備えていないため、操作をシンプルにしたい人向けです。",
+        productSlugs: ["elecom-m-y8ubbk"],
+      },
+      {
+        title: "持ち運びや小型モデルなら",
+        body: "ノートPCと一緒に持ち歩くなら、PCASTOREの巻き取り式ミニマウスがあります。本体は約4.5 × 2.5 × 7.5cmの小型設計で、約70〜80cmのケーブルを巻き取って収納できます。Type-C版とUSB-A版から選べるため、USB-Aポートのないノートパソコンでも、Type-C版を選べば直接つなげます。",
+        productSlugs: ["pcastore-mini-mouse-10002930"],
+      },
+    ],
+    sectionsTitle: "有線マウスの選び方",
+    sections: [
+      {
+        title: "USB-AとType-C",
+        body: "有線マウスを選ぶときは、まず接続端子を確認します。多くのUSBマウスはUSB-A（USB Type-A）端子ですが、最近のノートパソコンにはUSB-Aポートがない機種もあります。その場合は、Type-C端子のマウスを選ぶか、変換アダプターを用意する必要があります。今回の5モデルでは、PCASTOREのミニマウスにType-C版があります。",
+      },
+      {
+        title: "ボタン数",
+        body: "左右クリックとホイールの3ボタンは、操作がシンプルで迷いにくい構成です。戻る/進むのサイドボタンを含む5ボタンの有線マウスは、Webブラウジングや資料の行き来が多い仕事用で確認したいポイントです。ゲーミングマウスでは、ボタンに機能を割り当てられるモデルもあります。サイドボタンはMacで使えないモデルもあるため、使うOSも確認してください。",
+      },
+      {
+        title: "静音",
+        body: "静音マウスは、クリック音を抑えたボタンを採用したモデルです。静音になるのが左右クリックだけか、サイドボタンなども含むかはモデルによって異なります。クリック音が完全になくなるわけではないため、オフィスや夜間など静かな場所で使うときの目安として確認してください。",
+      },
+      {
+        title: "DPI",
+        body: "DPIは、マウスを動かしたときにカーソルがどれだけ動くかの目安です。数値が高いほど、少ない動きでカーソルが大きく動きます。DPIを切り替えられるモデルなら、画面の大きさや作業内容に合わせて調整できます。DPI切替がないモデルは、設定を気にせずシンプルに使いたい人向けです。",
+      },
+      {
+        title: "サイズ",
+        body: "マウスのサイズは、手の大きさや持ち方との相性に関わります。大きめのLサイズは手のひら全体で支えやすく、Mサイズや小型モデルは取り回しやすさや持ち運びやすさが特徴です。購入前に本体サイズの数値を確認しておくと、イメージとの違いを減らせます。",
+      },
+      {
+        title: "重量",
+        body: "重量は、マウスを動かしたときの感覚に影響するポイントです。軽いモデルは軽快に動かしやすく、ある程度重さのあるモデルは安定感を好む人に向いています。重量の表記は、ケーブルを含むかどうかでメーカーごとに条件が異なるため、比較するときは表記の条件もあわせて見てください。",
+      },
+      {
+        title: "ケーブル長",
+        body: "ケーブル長は、パソコンとマウスの位置関係で選びます。デスクトップPCの本体を足元に置く場合などは長めのケーブルが扱いやすく、ノートPCのすぐ横で使うなら短いケーブルや巻き取り式のほうがデスクをすっきりさせやすくなります。今回の5モデルでは、約70〜80cmの巻き取り式から2,100mmまで幅があります。",
+      },
+      {
+        title: "ゲーミング用途と普段使いの違い",
+        body: "ゲーミング向けの有線マウスは、広いDPI範囲、ボタンへの機能割り当て、レポートレート、ライティングなど、ゲームでの操作や設定の幅を意識した機能を備えています。普段使い向けのモデルは、静音性やボタン構成、サイズなど日常の作業に関わる部分を重視したものが中心です。用途に合った方向性のモデルを選ぶと比較しやすくなります。",
+      },
+    ],
+    picksTitle: "各商品の詳細",
+    pickFeaturesLabel: "主な特徴",
+    pickRecommendedLabel: "向いている人",
+    pickCautionLabel: "注意点",
+    picks: [
+      {
+        slug: "logicool-g203-bk",
+        name: "Logicool G203 LIGHTSYNC",
+        tagline: "最大8,000DPIのセンサーと6ボタン、LIGHTSYNC RGBを備えたUSB有線ゲーミングマウス。",
+        shortLabel: "ゲーミング",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["ゲーミング", "6ボタン", "RGB"],
+        features: [
+          "200〜8,000dpi、ボタンで最大5段階の感度切替",
+          "6個のプログラム可能なボタン、USBレポートレート1000Hz（1ms）",
+          "約1,680万色のLIGHTSYNC RGB、85g（マウスのみ）、ケーブル長2,100mm",
+        ],
+        recommendedFor: ["はじめての有線ゲーミングマウスを探している人", "ボタン割り当てやライティングを設定したい人"],
+        cautions: ["詳細な設定にはロジクールG HUBが必要", "有線接続のためワイヤレスでは使えない"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/g_mice/g203-bk/g203-bk_r1.jpg?_ex=500x500",
+          alt: "Logicool G203 LIGHTSYNC G203-BK",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "sanwa-400-ma124bk",
+        name: "サンワダイレクト 400-MA124BK",
+        tagline: "静音ボタンと戻る/進むボタン、4段階DPIを備えたUSB有線マウス。",
+        shortLabel: "静音 / 5ボタン",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["静音", "5ボタン", "仕事用"],
+        features: [
+          "USB Type-Aで接続する有線マウス（ケーブル約1.5m）",
+          "左右クリックとサイドボタンに静音ボタンを採用した5ボタン構成",
+          "800 / 1200 / 1600 / 2000count/inchの4段階切替、約85.2g",
+        ],
+        recommendedFor: ["静音の5ボタン有線マウスを探している人", "電池や充電を気にせず仕事で使いたい人"],
+        cautions: ["Macではサイドボタンが使えず、ホイールボタンを押す操作もサポートされない"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/4/400-ma124bk.jpg?_ex=500x500",
+          alt: "サンワダイレクト 400-MA124BK",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "elecom-m-xgl30ubskabk",
+        name: "ELECOM EX-G M-XGL30UBSKABK",
+        tagline: "BlueLEDセンサーと5ボタンを備えた、EX-GシリーズのLサイズ静音有線マウス。",
+        shortLabel: "静音 / Lサイズ / 5ボタン",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["静音", "Lサイズ", "5ボタン"],
+        features: [
+          "USB-Aで接続する有線マウス（ケーブル約1.5m）、メーカー公式で静音モデルとして紹介",
+          "BlueLED方式・2000DPI、ホイールボタンを含む5ボタン",
+          "Lサイズ・約115g（ケーブル含む）、エレコムマウスアシスタントでボタン割り当てが可能",
+        ],
+        recommendedFor: ["大きめのLサイズの有線マウスを探している人", "静音で5ボタンのマウスを選びたい人"],
+        cautions: ["静音モデルでもクリック音が完全になくなるわけではない", "ゲーミング特化モデルとは方向性が異なる"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/elecom/cabinet/s500_26/m-xgl30ubskabk_03r.jpg?_ex=500x500",
+          alt: "エレコム EX-G M-XGL30UBSKABK ブラック",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "elecom-m-y8ubbk",
+        name: "ELECOM EPRIM M-Y8UBBK",
+        tagline: "BlueLEDと1600dpi、3ボタンを備えた、Mサイズ・左右対称のシンプルなUSB有線マウス。",
+        shortLabel: "シンプル / 3ボタン",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["シンプル", "3ボタン", "仕事用"],
+        features: [
+          "USB Type-Aで接続する有線マウス（ケーブル約1.5m）",
+          "光学センサー方式・BlueLED、分解能1600dpi",
+          "ホイールボタンを含む3ボタン、約66.5gのMサイズ・左右対称デザイン",
+        ],
+        recommendedFor: ["3ボタンで十分なシンプルな仕事用マウスを探している人", "左右対称形状の軽めのマウスを選びたい人"],
+        cautions: ["戻る/進むなどのサイドボタンやDPI切替は備えていない", "販売ページは複数カラーをまとめて掲載しているため、購入時はブラックを選択"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/konan/cabinet/ki032/4953103373143v_1.jpg?_ex=500x500",
+          alt: "エレコム EPRIM M-Y8UBシリーズ",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "pcastore-mini-mouse-10002930",
+        name: "PCASTORE 巻き取り式ミニマウス",
+        tagline: "Type-C版とUSB-A版から選べる、巻き取り式ケーブルの小型有線マウス。",
+        shortLabel: "小型 / 持ち運び",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["小型", "持ち運び", "Type-C / USB-A"],
+        features: [
+          "Type-C版とUSB-A版から選べる有線接続",
+          "約70〜80cmの巻き取り式ケーブル",
+          "約4.5 × 2.5 × 7.5cmの小型設計、光学式・1000DPI",
+        ],
+        recommendedFor: ["ノートPCと一緒に持ち歩ける小型の有線マウスを探している人", "Type-C接続のマウスを探している人"],
+        cautions: ["Type-C版とUSB-A版は別仕様のため購入時に接続端子を確認", "重量・ボタン数・保証期間は販売ページで確認できなかった"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/pcastore/cabinet/pc/ap/10002930_n_01.jpg?_ex=500x500",
+          alt: "PCASTORE 巻き取り式ミニマウス",
+          width: 500,
+          height: 500,
+        },
+      },
+    ],
+    recommendedTitle: "迷ったらどれを選ぶ？",
+    recommendedFor: [
+      "ゲーム用途で選ぶなら → Logicool G203 LIGHTSYNC",
+      "静音・5ボタンを標準的なサイズで選ぶなら → サンワダイレクト 400-MA124BK",
+      "静音・5ボタンを大きめのLサイズで選ぶなら → ELECOM EX-G M-XGL30UBSKABK",
+      "シンプルな3ボタンの仕事用なら → ELECOM EPRIM M-Y8UBBK",
+      "持ち運びやType-C接続なら → PCASTORE 巻き取り式ミニマウス",
+    ],
+    summary:
+      "有線マウスは、充電や電池交換が不要で、USBポートに挿すだけで使えるシンプルさが特徴です。ゲーミングならG203、静音で5ボタンなら400-MA124BKやEX-G、シンプルな仕事用ならEPRIM、持ち運びやType-C接続ならPCASTOREのミニマウスと、用途によって選ぶモデルは変わります。ワイヤレスやトラックボールも含めて比較したい場合は、関連記事の「おすすめマウス10選」もあわせて確認してください。仕様の詳細は各単品記事で、最新価格・在庫は販売ページで確認してください。",
+    note: "※価格は変動しやすいため掲載していません。最新価格・在庫は販売ページで確認してください。",
+    ctaLabel: "詳しく見る",
+    featured: true,
+    hideAffiliateCta: true,
+    layout: "roundup",
+    relatedSlugs: ["mouse-recommendations-10"],
+  },
   {
     slug: "mouse-recommendations-10",
     title: "おすすめマウス10選｜有線・ワイヤレス・静音・トラックボールを用途別に比較",
@@ -197,8 +438,13 @@ export const articles: Article[] = [
       },
       {
         title: "有線で選びたい人におすすめ",
-        body: "電池や充電を気にせず使いたいなら有線モデルです。サンワダイレクト 400-MA124BKは静音ボタンと5ボタン、Logicool G203はゲーミング向けの6ボタンとRGBライティングを備えています。持ち運び用なら、ケーブルを巻き取れるPCASTOREのミニマウスもあります。",
-        productSlugs: ["sanwa-400-ma124bk", "logicool-g203-bk", "pcastore-mini-mouse-10002930"],
+        body: "電池や充電を気にせず使いたいなら有線モデルです。サンワダイレクト 400-MA124BKは静音ボタンと5ボタン、Logicool G203はゲーミング向けの6ボタンとRGBライティングを備えています。持ち運び用なら、ケーブルを巻き取れるPCASTOREのミニマウスもあります。有線モデルだけを比較したい場合は、有線マウスおすすめ5選もあわせて確認してください。",
+        productSlugs: [
+          "sanwa-400-ma124bk",
+          "logicool-g203-bk",
+          "pcastore-mini-mouse-10002930",
+          "wired-mouse-recommendations-5",
+        ],
       },
       {
         title: "ゲーム用途で選びたい人におすすめ",
@@ -486,6 +732,7 @@ export const articles: Article[] = [
     featured: true,
     hideAffiliateCta: true,
     layout: "roundup",
+    relatedSlugs: ["wired-mouse-recommendations-5"],
   },
   {
     slug: "black-wireless-earbuds",
@@ -729,7 +976,7 @@ export const articles: Article[] = [
     note: "最新価格・在庫・仕様は販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
-    relatedSlugs: ["mouse-recommendations-10"],
+    relatedSlugs: ["mouse-recommendations-10", "wired-mouse-recommendations-5"],
   },
   {
     slug: "elecom-m-k6urbk-rs",
@@ -919,6 +1166,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["wired-mouse-recommendations-5"],
   },
   {
     slug: "elecom-m-xgl30ubskabk",
@@ -982,6 +1230,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["wired-mouse-recommendations-5"],
   },
   {
     slug: "rgb-wired-gaming-mouse02",
@@ -1248,7 +1497,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
-    relatedSlugs: ["mouse-recommendations-10"],
+    relatedSlugs: ["mouse-recommendations-10", "wired-mouse-recommendations-5"],
   },
   {
     slug: "sanwa-400-mawbt207",
@@ -1458,7 +1707,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
-    relatedSlugs: ["mouse-recommendations-10"],
+    relatedSlugs: ["mouse-recommendations-10", "wired-mouse-recommendations-5"],
   },
   {
     slug: "logicool-m650mgr",

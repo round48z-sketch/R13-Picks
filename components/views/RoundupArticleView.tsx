@@ -59,10 +59,90 @@ export function RoundupArticleView({
     article.slug === "desk-setup-5-picks" ||
     article.slug === "refurbished-laptops-5-picks" ||
     article.slug === "black-wireless-earbuds" ||
-    article.slug === "mouse-recommendations-10";
+    article.slug === "mouse-recommendations-10" ||
+    article.slug === "wired-mouse-recommendations-5";
   const roundupPageClass = isFivePicksRoundup
     ? "article-page article-page--roundup roundup-page roundup-page--picks-5"
     : "article-page article-page--roundup roundup-page";
+
+  const sectionsBlock =
+    article.sectionsTitle && article.sections && article.sections.length > 0 ? (
+      <section>
+        <h2>{article.sectionsTitle}</h2>
+        {article.sections.map((section) => (
+          <div key={section.title}>
+            <h3>{section.title}</h3>
+            <p>{section.body}</p>
+          </div>
+        ))}
+      </section>
+    ) : null;
+
+  const useCaseGroupsBlock = article.useCaseGroups?.map((group) => (
+    <section key={group.title}>
+      <h2>{group.title}</h2>
+      <p>{group.body}</p>
+      <ul>
+        {group.productSlugs.map((slug) => (
+          <li key={slug}>
+            <Link href={localizePath(`/picks/${slug}`, locale)}>
+              {picks.find((pick) => pick.slug === slug)?.name ??
+                related.find((item) => item.slug === slug)?.title ??
+                slug}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ));
+
+  const tableBlock =
+    table ? (
+      <section className="roundup-compare" aria-labelledby="roundup-compare-heading">
+        {table.title ? <h2 id="roundup-compare-heading">{table.title}</h2> : null}
+
+        <div className="roundup-compare__desktop">
+          <div className="article-table-scroll">
+            <table className="article-table roundup-table">
+              <thead>
+                <tr>
+                  {headers.map((header) => (
+                    <th key={header} scope="col">
+                      {header}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {table.rows.map((row) => (
+                  <tr key={row.join("|")}>
+                    {row.map((cell, index) => (
+                      <td key={`${row[0]}-${index}`}>{cell}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div className="roundup-compare__mobile">
+          {table.rows.map((row) => (
+            <article key={row.join("|")} className="roundup-compare-card">
+              <h3>{row[0]}</h3>
+              <dl>
+                {row.slice(1).map((cell, index) => (
+                  <div key={`${row[0]}-${headers[index + 1]}`}>
+                    <dt>{headers[index + 1]}</dt>
+                    <dd>{cell}</dd>
+                  </div>
+                ))}
+              </dl>
+            </article>
+          ))}
+        </div>
+      </section>
+    ) : null;
 
   return (
     <article className={roundupPageClass}>
@@ -166,80 +246,19 @@ export function RoundupArticleView({
           </section>
         ) : null}
 
-        {article.sectionsTitle && article.sections && article.sections.length > 0 ? (
-          <section>
-            <h2>{article.sectionsTitle}</h2>
-            {article.sections.map((section) => (
-              <div key={section.title}>
-                <h3>{section.title}</h3>
-                <p>{section.body}</p>
-              </div>
-            ))}
-          </section>
-        ) : null}
-
-        {article.useCaseGroups?.map((group) => (
-          <section key={group.title}>
-            <h2>{group.title}</h2>
-            <p>{group.body}</p>
-            <ul>
-              {group.productSlugs.map((slug) => (
-                <li key={slug}>
-                  <Link href={localizePath(`/picks/${slug}`, locale)}>
-                    {picks.find((pick) => pick.slug === slug)?.name ?? slug}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
-
-        {table ? (
-          <section className="roundup-compare" aria-labelledby="roundup-compare-heading">
-            {table.title ? <h2 id="roundup-compare-heading">{table.title}</h2> : null}
-
-            <div className="roundup-compare__desktop">
-              <div className="article-table-scroll">
-                <table className="article-table roundup-table">
-                  <thead>
-                    <tr>
-                      {headers.map((header) => (
-                        <th key={header} scope="col">
-                          {header}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {table.rows.map((row) => (
-                      <tr key={row.join("|")}>
-                        {row.map((cell, index) => (
-                          <td key={`${row[0]}-${index}`}>{cell}</td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div className="roundup-compare__mobile">
-              {table.rows.map((row) => (
-                <article key={row.join("|")} className="roundup-compare-card">
-                  <h3>{row[0]}</h3>
-                  <dl>
-                    {row.slice(1).map((cell, index) => (
-                      <div key={`${row[0]}-${headers[index + 1]}`}>
-                        <dt>{headers[index + 1]}</dt>
-                        <dd>{cell}</dd>
-                      </div>
-                    ))}
-                  </dl>
-                </article>
-              ))}
-            </div>
-          </section>
-        ) : null}
+        {article.comparisonTableFirst ? (
+          <>
+            {tableBlock}
+            {useCaseGroupsBlock}
+            {sectionsBlock}
+          </>
+        ) : (
+          <>
+            {sectionsBlock}
+            {useCaseGroupsBlock}
+            {tableBlock}
+          </>
+        )}
 
         {picks.length > 0 ? (
           <section className="roundup-picks" aria-labelledby="roundup-picks-heading">

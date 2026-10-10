@@ -1,6 +1,195 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "wired-mouse-recommendations-5": {
+    title: "有线鼠标推荐 5 款｜比较静音、5 键、游戏与小型型号",
+    seoTitle: "有线鼠标推荐 5 款｜比较静音、5 键、游戏与小型型号 | R13 Picks",
+    description:
+      "根据 R13 Picks 单品文章整理的有线鼠标推荐 5 款。从静音型号、5 键办公鼠标、游戏鼠标到小型 Type-C 型号，按接口、按键数、DPI、重量和线长进行用途比较，并整理有线鼠标的选购方法。",
+    productType: "比较·汇总文章",
+    excerpt: "比较静音、5 键、游戏、小型等用途不同的 5 款有线鼠标。",
+    intro:
+      "有线鼠标通过线缆连接电脑，因此无需充电或更换电池，也不需要蓝牙配对或准备接收器等无线连接设置。插入 USB 接口即可开始使用，连接简单是它的特点。另一方面，由于有线缆，需要考虑桌面上的走线，携带时也可能比较占空间。本文从 R13 Picks 介绍过的有线鼠标中，挑选了静音、5 键、游戏、简洁、小型等用途不重叠的 5 款，并通过比较表和按用途推荐进行整理。这不是排名，而是帮助你选择合适 USB 鼠标的比较。",
+    points: [],
+    overviewTitle: "收录型号一览",
+    comparisonTable: {
+      title: "5 款有线鼠标比较表",
+      headers: [
+        "商品名",
+        "接口",
+        "按键数",
+        "DPI",
+        "静音",
+        "重量",
+        "线长",
+        "特点",
+        "推荐用途",
+      ],
+      rows: [
+        ["Logicool G203 LIGHTSYNC", "USB", "6（可编程）", "200～8,000dpi（最多 5 档）", "—", "85g（仅鼠标）", "2,100mm", "LIGHTSYNC RGB·回报率 1000Hz", "游戏"],
+        ["Sanwa Direct 400-MA124BK", "USB Type-A", "5", "800 / 1200 / 1600 / 2000", "静音按键（左右键·侧键）", "约 85.2g", "约 1.5m", "蓝光 LED·4 档 DPI 切换", "静音·办公"],
+        ["ELECOM EX-G M-XGL30UBSKABK", "USB-A", "5（含滚轮键）", "2000DPI", "静音型号（厂商官方）", "约 115g（含线缆）", "约 1.5m", "BlueLED·L 尺寸·支持按键分配", "静音·较大鼠标"],
+        ["ELECOM EPRIM M-Y8UBBK", "USB Type-A", "3（含滚轮键）", "1600dpi", "—", "约 66.5g", "约 1.5m", "BlueLED·M 尺寸·左右对称", "简洁办公"],
+        ["PCASTORE 收卷式迷你鼠标", "Type-C 或 USB-A（购买时选择）", "—", "1000DPI", "—", "—", "约 70～80cm（收卷式）", "约 4.5 × 2.5 × 7.5cm 小巧设计", "便携·小型"],
+      ],
+    },
+    useCaseGroups: [
+      {
+        title: "用于游戏时",
+        body: "选择游戏用有线鼠标时，Logicool G203 LIGHTSYNC 是候选。它可以在 200～8,000dpi 范围内设置灵敏度，并通过按键切换最多 5 档。可通过罗技 G HUB 为 6 个按键分配功能，USB 回报率为 1000Hz（1ms），还支持约 1,680 万色的 LIGHTSYNC RGB 灯光。",
+        productSlugs: ["logicool-g203-bk"],
+      },
+      {
+        title: "重视静音时",
+        body: "想降低点击声时，标明静音规格的 2 款型号是候选。Sanwa Direct 400-MA124BK 是左右键和侧键采用静音按键的 5 键有线鼠标，DPI 可 4 档切换。ELECOM EX-G M-XGL30UBSKABK 是厂商官方介绍为静音型号的 L 尺寸 5 键鼠标。可以根据手的大小和对重量的偏好来选择。",
+        productSlugs: ["sanwa-400-ma124bk", "elecom-m-xgl30ubskabk"],
+      },
+      {
+        title: "用于简洁办公时",
+        body: "以点击和滚动为主的办公用途，可以选择 ELECOM EPRIM M-Y8UBBK 这样的简洁 3 键型号。它通过 USB Type-A 连接，采用 BlueLED、1600dpi，约 66.5g 的 M 尺寸，左右对称设计。它没有后退/前进键和 DPI 切换，适合想让操作保持简单的人。",
+        productSlugs: ["elecom-m-y8ubbk"],
+      },
+      {
+        title: "需要便携或小型型号时",
+        body: "与笔记本电脑一起携带时，可以选择 PCASTORE 收卷式迷你鼠标。机身约 4.5 × 2.5 × 7.5cm，设计小巧，约 70～80cm 的线缆可以收卷收纳。可从 Type-C 版和 USB-A 版中选择，即使是没有 USB-A 接口的笔记本电脑，选择 Type-C 版也能直接连接。",
+        productSlugs: ["pcastore-mini-mouse-10002930"],
+      },
+    ],
+    sectionsTitle: "有线鼠标的选购方法",
+    sections: [
+      {
+        title: "USB-A 与 Type-C",
+        body: "选择有线鼠标时，首先要确认接口。许多 USB 鼠标采用 USB-A（USB Type-A）接口，但最近的一些笔记本电脑没有 USB-A 接口。这种情况下，需要选择 Type-C 接口的鼠标或准备转接头。本次 5 款中，PCASTORE 迷你鼠标有 Type-C 版。",
+      },
+      {
+        title: "按键数量",
+        body: "左右键加滚轮的 3 键构成操作简单，不易混淆。包含后退/前进侧键的 5 键有线鼠标，适合经常浏览网页或来回查看资料的办公用途。部分游戏鼠标可以为按键分配功能。部分型号的侧键在 Mac 上无法使用，也请确认使用的操作系统。",
+      },
+      {
+        title: "静音",
+        body: "静音鼠标是采用降低点击声按键的型号。静音范围是仅限左右键，还是包括侧键等，因型号而异。点击声不会完全消失，请作为在办公室或夜间等安静场所使用时的参考来确认。",
+      },
+      {
+        title: "DPI",
+        body: "DPI 是表示移动鼠标时光标移动距离的参考值。数值越高，较小的移动就能让光标移动得更远。可以切换 DPI 的型号能根据屏幕大小和工作内容进行调整。没有 DPI 切换的型号适合不想在意设置、希望简单使用的人。",
+      },
+      {
+        title: "尺寸",
+        body: "鼠标尺寸关系到与手的大小和握法是否合适。较大的 L 尺寸更容易用整个手掌支撑，M 尺寸和小型型号则以易于操控和便于携带为特点。购买前确认机身尺寸数值，可以减少与预期的差距。",
+      },
+      {
+        title: "重量",
+        body: "重量是影响移动鼠标时手感的要点。较轻的型号移动轻快，有一定重量的型号适合偏好稳定感的人。重量标注会因是否包含线缆而在各厂商之间条件不同，比较时请一并确认标注条件。",
+      },
+      {
+        title: "线长",
+        body: "线长应根据电脑与鼠标的位置关系来选择。将台式电脑主机放在脚边等情况下，较长的线缆更方便；在笔记本电脑旁边使用时，短线或收卷式更容易保持桌面整洁。本次 5 款从约 70～80cm 的收卷式到 2,100mm 不等。",
+      },
+      {
+        title: "游戏用途与日常使用的区别",
+        body: "游戏用有线鼠标具备较宽的 DPI 范围、按键功能分配、回报率、灯光等，面向游戏操作和设置自由度的功能。日常使用的型号则多以静音性、按键构成、尺寸等与日常工作相关的部分为重点。选择与用途方向一致的型号会更容易比较。",
+      },
+    ],
+    picksTitle: "各商品详情",
+    pickFeaturesLabel: "主要特点",
+    pickRecommendedLabel: "适合的人",
+    pickCautionLabel: "注意事项",
+    picks: [
+      {
+        slug: "logicool-g203-bk",
+        name: "Logicool G203 LIGHTSYNC",
+        tagline: "具备最高 8,000DPI 传感器、6 键和 LIGHTSYNC RGB 的 USB 有线游戏鼠标。",
+        shortLabel: "游戏",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["游戏", "6 键", "RGB"],
+        features: [
+          "200～8,000dpi，可通过按键切换最多 5 档灵敏度",
+          "6 个可编程按键，USB 回报率 1000Hz（1ms）",
+          "约 1,680 万色的 LIGHTSYNC RGB，85g（仅鼠标），线长 2,100mm",
+        ],
+        recommendedFor: ["在寻找第一款有线游戏鼠标的人", "想设置按键分配和灯光的人"],
+        cautions: ["详细设置需要罗技 G HUB", "有线连接，无法无线使用"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "sanwa-400-ma124bk",
+        name: "Sanwa Direct 400-MA124BK",
+        tagline: "具备静音按键、后退/前进键和 4 档 DPI 的 USB 有线鼠标。",
+        shortLabel: "静音 / 5 键",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["静音", "5 键", "办公"],
+        features: [
+          "通过 USB Type-A 连接的有线鼠标（线长约 1.5m）",
+          "左右键和侧键采用静音按键的 5 键构成",
+          "800 / 1200 / 1600 / 2000count/inch 4 档切换，约 85.2g",
+        ],
+        recommendedFor: ["在寻找静音 5 键有线鼠标的人", "想在工作中使用而不在意电池或充电的人"],
+        cautions: ["在 Mac 上无法使用侧键，也不支持按下滚轮键的操作"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "elecom-m-xgl30ubskabk",
+        name: "ELECOM EX-G M-XGL30UBSKABK",
+        tagline: "具备 BlueLED 传感器和 5 键的 EX-G 系列 L 尺寸静音有线鼠标。",
+        shortLabel: "静音 / L 尺寸 / 5 键",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["静音", "L 尺寸", "5 键"],
+        features: [
+          "通过 USB-A 连接的有线鼠标（线长约 1.5m），厂商官方介绍为静音型号",
+          "BlueLED 方式·2000DPI，含滚轮键的 5 键",
+          "L 尺寸·约 115g（含线缆），可通过 ELECOM 鼠标助手分配按键",
+        ],
+        recommendedFor: ["在寻找较大 L 尺寸有线鼠标的人", "想选择静音 5 键鼠标的人"],
+        cautions: ["即使是静音型号，点击声也不会完全消失", "与专门面向游戏的型号方向不同"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "elecom-m-y8ubbk",
+        name: "ELECOM EPRIM M-Y8UBBK",
+        tagline: "具备 BlueLED、1600dpi 和 3 键的 M 尺寸、左右对称简洁 USB 有线鼠标。",
+        shortLabel: "简洁 / 3 键",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["简洁", "3 键", "办公"],
+        features: [
+          "通过 USB Type-A 连接的有线鼠标（线长约 1.5m）",
+          "光学传感器方式·BlueLED，分辨率 1600dpi",
+          "含滚轮键的 3 键，约 66.5g 的 M 尺寸·左右对称设计",
+        ],
+        recommendedFor: ["在寻找 3 键就足够的简洁办公鼠标的人", "想选择左右对称轻量鼠标的人"],
+        cautions: ["没有后退/前进等侧键，也没有 DPI 切换", "销售页面汇总刊载多种颜色，购买时请选择黑色"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "pcastore-mini-mouse-10002930",
+        name: "PCASTORE 收卷式迷你鼠标",
+        tagline: "可从 Type-C 版和 USB-A 版中选择的收卷式线缆小型有线鼠标。",
+        shortLabel: "小型 / 便携",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["小型", "便携", "Type-C / USB-A"],
+        features: [
+          "可从 Type-C 版和 USB-A 版中选择的有线连接",
+          "约 70～80cm 的收卷式线缆",
+          "约 4.5 × 2.5 × 7.5cm 的小巧设计，光学式·1000DPI",
+        ],
+        recommendedFor: ["在寻找可与笔记本电脑一起携带的小型有线鼠标的人", "在寻找 Type-C 连接鼠标的人"],
+        cautions: ["Type-C 版和 USB-A 版为不同规格，购买时请确认接口", "未能在销售页面确认重量、按键数和保修期"],
+        linkLabel: "查看详情",
+      },
+    ],
+    recommendedTitle: "犹豫时该选哪款？",
+    recommendedFor: [
+      "用于游戏 → Logicool G203 LIGHTSYNC",
+      "想选标准尺寸的静音 5 键 → Sanwa Direct 400-MA124BK",
+      "想选较大 L 尺寸的静音 5 键 → ELECOM EX-G M-XGL30UBSKABK",
+      "简洁的 3 键办公鼠标 → ELECOM EPRIM M-Y8UBBK",
+      "需要便携或 Type-C 连接 → PCASTORE 收卷式迷你鼠标",
+    ],
+    summary:
+      "有线鼠标无需充电或更换电池，插入 USB 接口即可使用，简单是它的特点。游戏选 G203，静音 5 键选 400-MA124BK 或 EX-G，简洁办公选 EPRIM，便携或 Type-C 连接选 PCASTORE 迷你鼠标，应选择的型号因用途而异。如果想把无线和轨迹球也一起比较，请同时参考相关文章“鼠标推荐 10 款”。规格详情请查看各单品文章，最新价格和库存请在销售页面确认。",
+    note: "※价格变动频繁，因此未刊载。最新价格和库存请在销售页面确认。",
+    ctaLabel: "查看详情",
+    imageAlt: "有线鼠标推荐 5 款缩略图",
+  },
   "mouse-recommendations-10": {
     title: "鼠标推荐 10 款｜按用途比较有线、无线、静音与轨迹球",
     seoTitle: "鼠标推荐 10 款｜按用途比较有线、无线、静音与轨迹球 | R13 Picks",
@@ -77,8 +266,13 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
       },
       {
         title: "推荐给想选有线的人",
-        body: "不想在意电池或充电时，可以选择有线型号。Sanwa Direct 400-MA124BK 具备静音按键和 5 键，Logicool G203 具备面向游戏的 6 键和 RGB 灯光。用于携带时，还有可以收卷线缆的 PCASTORE 迷你鼠标。",
-        productSlugs: ["sanwa-400-ma124bk", "logicool-g203-bk", "pcastore-mini-mouse-10002930"],
+        body: "不想在意电池或充电时，可以选择有线型号。Sanwa Direct 400-MA124BK 具备静音按键和 5 键，Logicool G203 具备面向游戏的 6 键和 RGB 灯光。用于携带时，还有可以收卷线缆的 PCASTORE 迷你鼠标。如果只想比较有线型号，也可以参考有线鼠标推荐 5 款。",
+        productSlugs: [
+          "sanwa-400-ma124bk",
+          "logicool-g203-bk",
+          "pcastore-mini-mouse-10002930",
+          "wired-mouse-recommendations-5",
+        ],
       },
       {
         title: "推荐给想用于游戏的人",
