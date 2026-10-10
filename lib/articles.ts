@@ -29,6 +29,7 @@ const popularGuideSlugs = [
   "black-wireless-earbuds",
   "mouse-recommendations-10",
   "wired-mouse-recommendations-5",
+  "silent-mouse-recommendations-5",
 ] as const;
 
 export function getPopularGuideArticles() {

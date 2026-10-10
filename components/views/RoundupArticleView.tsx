@@ -60,7 +60,8 @@ export function RoundupArticleView({
     article.slug === "refurbished-laptops-5-picks" ||
     article.slug === "black-wireless-earbuds" ||
     article.slug === "mouse-recommendations-10" ||
-    article.slug === "wired-mouse-recommendations-5";
+    article.slug === "wired-mouse-recommendations-5" ||
+    article.slug === "silent-mouse-recommendations-5";
   const roundupPageClass = isFivePicksRoundup
     ? "article-page article-page--roundup roundup-page roundup-page--picks-5"
     : "article-page article-page--roundup roundup-page";

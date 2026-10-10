@@ -1,6 +1,197 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsKo: Record<string, ArticleTranslation> = {
+  "silent-mouse-recommendations-5": {
+    title: "저소음 마우스 추천 5선｜무선·유선·업무용 모델 비교",
+    seoTitle: "저소음 마우스 추천 5선｜무선·유선·업무용 모델 비교 | R13 Picks",
+    description:
+      "R13 Picks의 단품 기사를 바탕으로 정리한 저소음 마우스 추천 5선. Bluetooth와 2.4GHz 무선 모델부터 유선 모델까지 연결 방식·버튼 수·DPI·무게·저소음 사양을 용도별로 비교하고, 업무용이나 사무실·재택근무에서 고를 때의 포인트도 정리합니다.",
+    productType: "비교·정리 기사",
+    excerpt: "Bluetooth·2.4GHz·유선 등 연결 방식과 형태가 다른 저소음 마우스 5모델 비교.",
+    intro:
+      "저소음 마우스는 클릭음을 줄인 스위치나 버튼을 채택한 마우스입니다. 사무실이나 재택근무, 야간 작업, 공유 공간 등 주변 소리가 신경 쓰이는 장면에서 선택되기도 합니다. 다만 저소음 모델이라도 클릭음이 완전히 사라지는 것은 아니며, 저소음이 적용되는 범위나 표기 방식은 제조사와 모델에 따라 다릅니다. 이 기사에서는 R13 Picks에서 소개한 저소음 마우스 중 Bluetooth·2.4GHz 무선·유선으로 연결 방식과 형태가 겹치지 않는 5모델을 골라 비교표와 용도별 추천으로 정리합니다. 순위가 아니라 자신의 사용 방식에 맞는 조용한 마우스를 고르기 위한 비교입니다.",
+    points: [],
+    overviewTitle: "게재 모델 목록",
+    comparisonTable: {
+      title: "저소음 마우스 5모델 비교표",
+      headers: [
+        "상품명",
+        "연결 방식",
+        "유선 / 무선",
+        "Bluetooth",
+        "버튼 수",
+        "DPI",
+        "무게",
+        "저소음 사양",
+        "특징",
+        "추천 용도",
+      ],
+      rows: [
+        ["Logicool M240 Silent Bluetooth Mouse", "Bluetooth(리시버 없음)", "무선", "지원", "3", "1000dpi", "73.8g(배터리 포함)", "클릭음 M170 대비 90% 감소(제조사 공식)", "좌우 대칭·AA 건전지 1개", "심플·휴대"],
+        ["Logicool Signature M650", "Logi Bolt USB 리시버 / Bluetooth Low Energy", "무선", "지원", "5(틸트 포함)", "400~4,000dpi", "101.2g(배터리 포함)", "SilentTouch(클릭음 M170 대비 90% 감소)", "SmartWheel·2방식 연결", "업무·일상용"],
+        ["산와다이렉트 400-MA124BK", "USB Type-A", "유선", "미지원", "5", "800 / 1200 / 1600 / 2000", "약 85.2g", "저소음 버튼(좌우 클릭·사이드 버튼)", "케이블 약 1.5m·4단계 DPI", "유선·5버튼"],
+        ["ELECOM EX-G M-XGL30UBSKABK", "USB-A", "유선", "미지원", "5(휠 버튼 포함)", "2000DPI", "약 115g(케이블 포함)", "저소음 모델(제조사 공식)", "L 사이즈·케이블 약 1.5m", "유선·큰 사이즈"],
+        ["나카바야시 Digio2 MUS-RIT126BK", "2.4GHz(USB 리시버)", "무선", "미지원", "3", "800 / 1200 / 1600", "약 62g(리시버·배터리 제외)", "저소음 스위치(좌우 버튼·휠 버튼)", "리시버 수납·AA 건전지 1개", "심플한 무선"],
+      ],
+    },
+    useCaseGroups: [
+      {
+        title: "심플한 Bluetooth 저소음 마우스라면",
+        body: "리시버 없이 Bluetooth로 연결하고 싶다면 Logicool M240 Silent Bluetooth Mouse가 후보입니다. 클릭음은 기존 제품 M170 대비 90% 감소로 제조사 공식에서 안내되어 있으며, 1000dpi·3버튼의 심플한 구성입니다. 무게는 73.8g(배터리 포함)이고 오른손·왼손 모두 쓸 수 있는 좌우 대칭 디자인입니다.",
+        productSlugs: ["logicool-m240gr"],
+      },
+      {
+        title: "업무·일상용으로 고른다면",
+        body: "업무나 일상용 저소음 마우스라면 Logicool Signature M650이 있습니다. Logi Bolt USB 리시버와 Bluetooth Low Energy의 2방식으로 연결할 수 있고, SilentTouch로 클릭음은 M170 대비 90% 감소로 안내되어 있습니다. 빠르게 돌리면 고속 스크롤로 전환되는 SmartWheel, 400~4,000dpi 센서, 틸트를 포함한 5버튼을 갖추고 있습니다.",
+        productSlugs: ["logicool-m650mgr"],
+      },
+      {
+        title: "유선·5버튼으로 고른다면",
+        body: "배터리나 충전을 신경 쓰지 않고 쓸 수 있는 유선 저소음 마우스라면 산와다이렉트 400-MA124BK가 후보입니다. 좌우 클릭과 사이드 버튼에 저소음 버튼을 채택한 5버튼 구성이며, DPI는 800 / 1200 / 1600 / 2000count/inch의 4단계로 전환할 수 있습니다. USB Type-A로 연결하고 케이블 길이는 약 1.5m입니다.",
+        productSlugs: ["sanwa-400-ma124bk"],
+      },
+      {
+        title: "큰 사이즈의 유선 저소음 마우스라면",
+        body: "손바닥 전체로 받치기 쉬운 큰 마우스를 찾는다면 ELECOM EX-G M-XGL30UBSKABK가 있습니다. 제조사 공식에서 저소음 모델로 소개하는 L 사이즈·약 115g(케이블 포함)의 유선 마우스입니다. BlueLED 방식·2000DPI이며, 휠 버튼을 포함한 5버튼에는 엘레컴 마우스 어시스턴트로 기능을 할당할 수 있습니다.",
+        productSlugs: ["elecom-m-xgl30ubskabk"],
+      },
+      {
+        title: "심플한 2.4GHz 무선 모델이라면",
+        body: "USB 리시버를 꽂기만 하면 쓸 수 있는 무선 저소음 마우스라면 나카바야시 Digio2 MUS-RIT126BK가 후보입니다. 좌우 버튼과 휠 버튼에 저소음 스위치를 채택한 3버튼 구성이며, DPI는 800 / 1200 / 1600의 3단계입니다. 리시버는 본체에 수납할 수 있고 전원은 AA 건전지 1개입니다.",
+        productSlugs: ["nakabayashi-mus-rit126bk"],
+      },
+    ],
+    sectionsTitle: "저소음 마우스 고르는 법",
+    sections: [
+      {
+        title: "유선과 무선",
+        body: "유선 저소음 마우스는 케이블로 PC에 연결하므로 배터리 교체나 충전이 필요 없습니다. 무선 저소음 마우스는 케이블이 없어 책상 주변을 깔끔하게 하기 쉽고 노트북과 함께 들고 다니는 장면에도 맞습니다. 고정된 책상에서 쓸지, 배선을 줄이고 싶은지, 들고 다닐지에 따라 고르는 것이 기본입니다.",
+      },
+      {
+        title: "Bluetooth와 2.4GHz 리시버",
+        body: "무선 저소음 마우스에는 주로 Bluetooth로 연결하는 것과 USB 리시버를 사용하는 2.4GHz 방식이 있습니다. Bluetooth 마우스는 USB 포트를 차지하지 않지만, 연결할 기기가 Bluetooth를 지원해야 합니다. 2.4GHz는 리시버를 USB 포트에 꽂아 쓰므로 USB Type-A 포트가 있는 기기가 전제입니다. 두 방식을 모두 지원하는 모델이라면 기기에 맞춰 나눠 쓸 수 있습니다.",
+      },
+      {
+        title: "버튼 수",
+        body: "좌우 클릭과 휠의 3버튼은 조작이 단순해 헷갈리지 않는 구성입니다. 뒤로/앞으로 버튼을 포함한 5버튼 전후의 모델은 웹 브라우징이나 자료를 오가는 작업이 많을 때 확인하고 싶은 포인트입니다. 저소음 마우스의 경우, 저소음이 좌우 클릭에만 해당하는지 사이드 버튼이나 휠 버튼까지 포함하는지도 함께 확인하세요.",
+      },
+      {
+        title: "DPI",
+        body: "DPI는 마우스를 움직였을 때 커서가 얼마나 움직이는지를 나타내는 기준입니다. DPI를 전환할 수 있는 모델이라면 화면 크기나 작업 내용에 맞춰 조정할 수 있습니다. 전환이 없는 모델은 설정을 신경 쓰지 않고 단순하게 쓰고 싶은 사람에게 맞습니다.",
+      },
+      {
+        title: "크기와 무게",
+        body: "손 크기에 맞는지는 장시간 사용할 때 확인하고 싶은 포인트입니다. 큰 L 사이즈는 손바닥 전체로 받치기 쉽고, 작고 가벼운 모델은 휴대하기 쉬운 것이 특징입니다. 무게는 배터리나 케이블 포함 여부에 따라 표기 조건이 다르므로, 비교할 때는 조건도 함께 확인하세요.",
+      },
+      {
+        title: "건전지식·충전식·유선",
+        body: "무선 저소음 마우스는 건전지식과 충전식으로 나뉩니다. 건전지식은 건전지를 교체해 쓰고, 충전식은 케이블로 충전해 씁니다. 이번 5모델 중에서는 M240·M650·MUS-RIT126BK가 AA 건전지 1개로 작동합니다. 유선 모델은 USB로 전원이 공급되므로 건전지도 충전도 필요 없습니다.",
+      },
+      {
+        title: "업무용으로 볼 포인트",
+        body: "업무용 저소음 마우스를 고를 때는 저소음 사양 외에도 사용하는 PC의 연결 단자와 Bluetooth 지원, 사용하는 OS에서 버튼을 쓸 수 있는지 확인해 두면 안심입니다. 사무실이나 재택근무에서 장시간 쓴다면 손에 맞는 크기인지, 뒤로/앞으로 버튼이나 스크롤 기능이 필요한지도 고르는 포인트가 됩니다.",
+      },
+    ],
+    picksTitle: "각 상품 상세",
+    pickFeaturesLabel: "주요 특징",
+    pickRecommendedLabel: "추천 대상",
+    pickCautionLabel: "주의점",
+    picks: [
+      {
+        slug: "logicool-m240gr",
+        name: "Logicool M240 Silent Bluetooth Mouse",
+        tagline: "리시버 없이 Bluetooth로 연결해 쓰는 저소음·경량·좌우 대칭의 심플한 마우스.",
+        shortLabel: "Bluetooth / 심플",
+        priceGuide: "가격은 판매 페이지에서 확인",
+        tags: ["Bluetooth", "저소음", "심플"],
+        features: [
+          "Bluetooth 연결 전용(USB 리시버 미포함)",
+          "기존 제품 M170 대비 클릭음 90% 감소(제조사 공식)",
+          "1000dpi·3버튼, 73.8g(배터리 포함)의 좌우 대칭 디자인",
+        ],
+        recommendedFor: ["USB 포트를 차지하지 않는 저소음 마우스를 찾는 사람", "왼손으로도 쓸 수 있는 심플한 마우스를 찾는 사람"],
+        cautions: ["Bluetooth를 지원하지 않는 기기에서는 사용할 수 없음", "뒤로/앞으로 버튼과 DPI 전환은 없음"],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "logicool-m650mgr",
+        name: "Logicool Signature M650",
+        tagline: "Logi Bolt와 Bluetooth의 2방식 연결, SmartWheel, 저소음 클릭을 갖춘 일상용 무선 마우스.",
+        shortLabel: "업무·일상용",
+        priceGuide: "가격은 판매 페이지에서 확인",
+        tags: ["무선", "저소음", "업무·일상용"],
+        features: [
+          "Logi Bolt USB 리시버와 Bluetooth Low Energy의 2방식 연결",
+          "SilentTouch로 클릭음 M170 대비 90% 감소(제조사 공식)",
+          "SmartWheel, 400~4,000dpi, 틸트 포함 5버튼, 101.2g(배터리 포함)",
+        ],
+        recommendedFor: ["업무나 일상에서 저소음 마우스를 쓰고 싶은 사람", "기기에 맞춰 연결 방식을 나눠 쓰고 싶은 사람"],
+        cautions: ["연결 방식에 따라 지원 OS가 다름", "게이밍용 성능을 중시하는 경우에는 방향성이 다름"],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "sanwa-400-ma124bk",
+        name: "산와다이렉트 400-MA124BK",
+        tagline: "저소음 버튼과 뒤로/앞으로 버튼, 4단계 DPI를 갖춘 USB 유선 마우스.",
+        shortLabel: "유선 / 5버튼",
+        priceGuide: "가격은 판매 페이지에서 확인",
+        tags: ["유선", "저소음", "5버튼"],
+        features: [
+          "USB Type-A로 연결하는 유선 마우스(케이블 약 1.5m)",
+          "좌우 클릭과 사이드 버튼에 저소음 버튼을 채택한 5버튼 구성",
+          "800 / 1200 / 1600 / 2000count/inch 4단계 전환, 약 85.2g",
+        ],
+        recommendedFor: ["유선으로 저소음·5버튼 마우스를 찾는 사람", "배터리나 충전을 신경 쓰지 않고 쓰고 싶은 사람"],
+        cautions: ["Mac에서는 사이드 버튼을 사용할 수 없고 휠 버튼 누르기 조작도 지원되지 않음"],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "elecom-m-xgl30ubskabk",
+        name: "ELECOM EX-G M-XGL30UBSKABK",
+        tagline: "BlueLED 센서와 5버튼을 갖춘 EX-G 시리즈의 L 사이즈 저소음 유선 마우스.",
+        shortLabel: "유선 / L 사이즈",
+        priceGuide: "가격은 판매 페이지에서 확인",
+        tags: ["유선", "저소음", "L 사이즈"],
+        features: [
+          "USB-A로 연결하는 유선 마우스(케이블 약 1.5m), 제조사 공식에서 저소음 모델로 소개",
+          "BlueLED 방식·2000DPI, 휠 버튼을 포함한 5버튼",
+          "L 사이즈·약 115g(케이블 포함), 엘레컴 마우스 어시스턴트로 버튼 할당 가능",
+        ],
+        recommendedFor: ["큰 L 사이즈 저소음 마우스를 찾는 사람", "유선으로 5버튼 마우스를 고르고 싶은 사람"],
+        cautions: ["저소음 모델이라도 클릭음이 완전히 사라지는 것은 아님", "게이밍 특화 모델과는 방향성이 다름"],
+        linkLabel: "자세히 보기",
+      },
+      {
+        slug: "nakabayashi-mus-rit126bk",
+        name: "나카바야시 Digio2 MUS-RIT126BK",
+        tagline: "좌우 버튼과 휠 버튼에 저소음 스위치를 채택한 2.4GHz의 심플한 무선 마우스.",
+        shortLabel: "2.4GHz 무선 / 심플",
+        priceGuide: "가격은 판매 페이지에서 확인",
+        tags: ["2.4GHz", "저소음", "심플"],
+        features: [
+          "USB 리시버로 연결하는 2.4GHz 무선, 리시버는 본체에 수납 가능",
+          "좌우 버튼·휠 버튼에 저소음 스위치, 3버튼 구성",
+          "800 / 1200 / 1600dpi 3단계 전환, 약 62g(리시버·배터리 제외)",
+        ],
+        recommendedFor: ["심플한 저소음 무선 마우스를 찾는 사람", "USB 리시버를 꽂기만 해서 쓰고 싶은 사람"],
+        cautions: ["Bluetooth 연결은 지원하지 않음", "USB Type-A 포트가 없는 기기에서는 주의 필요"],
+        linkLabel: "자세히 보기",
+      },
+    ],
+    recommendedTitle: "고민된다면 어떤 것을 고를까?",
+    recommendedFor: [
+      "심플한 Bluetooth 저소음 마우스라면 → Logicool M240 Silent Bluetooth Mouse",
+      "업무·일상에서 연결 방식을 나눠 쓰고 싶다면 → Logicool Signature M650",
+      "유선으로 저소음·5버튼을 고른다면 → 산와다이렉트 400-MA124BK",
+      "큰 L 사이즈의 유선 저소음 마우스라면 → ELECOM EX-G M-XGL30UBSKABK",
+      "리시버를 꽂기만 하는 심플한 무선 모델이라면 → 나카바야시 Digio2 MUS-RIT126BK",
+    ],
+    summary:
+      "저소음 마우스는 연결 방식·버튼 수·크기·전원에 따라 잘 맞는 사용 방식이 달라집니다. Bluetooth로 심플하게 쓴다면 M240, 업무나 일상에서 2방식 연결을 나눠 쓴다면 M650, 유선이라면 저소음·5버튼의 400-MA124BK나 L 사이즈의 EX-G, 2.4GHz의 심플한 무선이라면 MUS-RIT126BK가 고르기 쉬운 모델입니다. 다른 타입까지 포함해 종합적으로 비교하고 싶다면 '추천 마우스 10선', 유선 모델 중심으로 보고 싶다면 '유선 마우스 추천 5선'도 함께 확인하세요. 사양의 자세한 내용은 각 단품 기사에서, 최신 가격·재고는 판매 페이지에서 확인하세요.",
+    note: "※가격은 변동이 잦아 게재하지 않습니다. 최신 가격·재고는 판매 페이지에서 확인하세요.",
+    ctaLabel: "자세히 보기",
+    imageAlt: "저소음 마우스 추천 5선 썸네일",
+  },
   "wired-mouse-recommendations-5": {
     title: "유선 마우스 추천 5선｜저소음·5버튼·게이밍·소형 모델 비교",
     seoTitle: "유선 마우스 추천 5선｜저소음·5버튼·게이밍·소형 모델 비교 | R13 Picks",
@@ -244,13 +435,14 @@ export const articleTranslationsKo: Record<string, ArticleTranslation> = {
       },
       {
         title: "저소음을 중시하는 사람에게 추천",
-        body: "클릭음을 줄이고 싶다면 저소음 스위치나 저소음 설계가 안내된 모델 중에서 고릅니다. Logicool M650과 M240은 모두 M170 대비 클릭음 90% 감소로 안내되어 있고, 나카바야시 MUS-RIT126BK는 좌우 버튼과 휠 버튼, 산와다이렉트 400-MA124BK는 좌우 클릭과 사이드 버튼에 저소음 버튼을 채택했습니다.",
+        body: "클릭음을 줄이고 싶다면 저소음 스위치나 저소음 설계가 안내된 모델 중에서 고릅니다. Logicool M650과 M240은 모두 M170 대비 클릭음 90% 감소로 안내되어 있고, 나카바야시 MUS-RIT126BK는 좌우 버튼과 휠 버튼, 산와다이렉트 400-MA124BK는 좌우 클릭과 사이드 버튼에 저소음 버튼을 채택했습니다. 저소음 모델만 비교하고 싶다면 저소음 마우스 추천 5선도 함께 확인하세요.",
         productSlugs: [
           "logicool-m240gr",
           "logicool-m650mgr",
           "nakabayashi-mus-rit126bk",
           "sanwa-400-ma124bk",
           "blenck-q23",
+          "silent-mouse-recommendations-5",
         ],
       },
       {

@@ -1,6 +1,197 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "silent-mouse-recommendations-5": {
+    title: "静音鼠标推荐 5 款｜比较无线、有线与办公用型号",
+    seoTitle: "静音鼠标推荐 5 款｜比较无线、有线与办公用型号 | R13 Picks",
+    description:
+      "根据 R13 Picks 单品文章整理的静音鼠标推荐 5 款。从蓝牙和 2.4GHz 无线型号到有线型号，按连接方式、按键数、DPI、重量和静音规格进行用途比较，并整理办公、居家办公时的选购要点。",
+    productType: "比较·汇总文章",
+    excerpt: "比较蓝牙、2.4GHz、有线等连接方式与外形不同的 5 款静音鼠标。",
+    intro:
+      "静音鼠标是采用降低点击声的开关或按键的鼠标。在办公室、居家办公、夜间工作、共享空间等在意周围声音的场合，有时会被选择。不过，即使是静音型号，点击声也不会完全消失，静音的范围和标注方式也因厂商和型号而异。本文从 R13 Picks 介绍过的静音鼠标中，挑选了蓝牙、2.4GHz 无线、有线等连接方式和外形不重叠的 5 款，并通过比较表和按用途推荐进行整理。这不是排名，而是帮助你选择适合自己使用方式的安静鼠标的比较。",
+    points: [],
+    overviewTitle: "收录型号一览",
+    comparisonTable: {
+      title: "5 款静音鼠标比较表",
+      headers: [
+        "商品名",
+        "连接方式",
+        "有线 / 无线",
+        "蓝牙",
+        "按键数",
+        "DPI",
+        "重量",
+        "静音规格",
+        "特点",
+        "推荐用途",
+      ],
+      rows: [
+        ["Logicool M240 Silent Bluetooth Mouse", "蓝牙（无接收器）", "无线", "支持", "3", "1000dpi", "73.8g（含电池）", "点击声比 M170 降低 90%（厂商官方）", "左右对称·5 号电池 1 节", "简洁·便携"],
+        ["Logicool Signature M650", "Logi Bolt USB 接收器 / Bluetooth Low Energy", "无线", "支持", "5（含倾斜）", "400～4,000dpi", "101.2g（含电池）", "SilentTouch（点击声比 M170 降低 90%）", "SmartWheel·双模连接", "办公·日常使用"],
+        ["Sanwa Direct 400-MA124BK", "USB Type-A", "有线", "不支持", "5", "800 / 1200 / 1600 / 2000", "约 85.2g", "静音按键（左右键·侧键）", "线长约 1.5m·4 档 DPI", "有线·5 键"],
+        ["ELECOM EX-G M-XGL30UBSKABK", "USB-A", "有线", "不支持", "5（含滚轮键）", "2000DPI", "约 115g（含线缆）", "静音型号（厂商官方）", "L 尺寸·线长约 1.5m", "有线·较大尺寸"],
+        ["Nakabayashi Digio2 MUS-RIT126BK", "2.4GHz（USB 接收器）", "无线", "不支持", "3", "800 / 1200 / 1600", "约 62g（不含接收器和电池）", "静音开关（左右键·滚轮键）", "接收器收纳·5 号电池 1 节", "简洁无线"],
+      ],
+    },
+    useCaseGroups: [
+      {
+        title: "想要简洁的蓝牙静音鼠标时",
+        body: "想不用接收器、通过蓝牙连接时，Logicool M240 Silent Bluetooth Mouse 是候选。厂商官方标明其点击声比旧款 M170 降低 90%，采用 1000dpi、3 键的简洁构成。重量为 73.8g（含电池），左右对称设计，左右手都能使用。",
+        productSlugs: ["logicool-m240gr"],
+      },
+      {
+        title: "用于办公与日常使用时",
+        body: "用于办公或日常的静音鼠标，可以选择 Logicool Signature M650。它可通过 Logi Bolt USB 接收器和 Bluetooth Low Energy 双模连接，SilentTouch 标明点击声比 M170 降低 90%。具备快速转动时切换为高速滚动的 SmartWheel、400～4,000dpi 传感器和含倾斜的 5 键。",
+        productSlugs: ["logicool-m650mgr"],
+      },
+      {
+        title: "想选有线 5 键时",
+        body: "想要无需在意电池或充电的有线静音鼠标时，Sanwa Direct 400-MA124BK 是候选。它是左右键和侧键采用静音按键的 5 键构成，DPI 可在 800 / 1200 / 1600 / 2000count/inch 之间 4 档切换。通过 USB Type-A 连接，线长约 1.5m。",
+        productSlugs: ["sanwa-400-ma124bk"],
+      },
+      {
+        title: "想要较大尺寸的有线静音鼠标时",
+        body: "如果在寻找容易用整个手掌支撑的较大鼠标，可以选择 ELECOM EX-G M-XGL30UBSKABK。它是厂商官方介绍为静音型号的 L 尺寸有线鼠标，重约 115g（含线缆）。采用 BlueLED 方式·2000DPI，可通过 ELECOM 鼠标助手为含滚轮键在内的 5 个按键分配功能。",
+        productSlugs: ["elecom-m-xgl30ubskabk"],
+      },
+      {
+        title: "想要简洁的 2.4GHz 无线型号时",
+        body: "想要插上 USB 接收器即可使用的无线静音鼠标时，Nakabayashi Digio2 MUS-RIT126BK 是候选。它是左右键和滚轮键采用静音开关的 3 键构成，DPI 为 800 / 1200 / 1600 三档。接收器可收纳在机身内，电源为 5 号电池 1 节。",
+        productSlugs: ["nakabayashi-mus-rit126bk"],
+      },
+    ],
+    sectionsTitle: "静音鼠标的选购方法",
+    sections: [
+      {
+        title: "有线与无线",
+        body: "有线静音鼠标通过线缆连接电脑，因此无需更换电池或充电。无线静音鼠标没有线缆，更容易保持桌面整洁，也适合与笔记本电脑一起携带。基本上可以根据是在固定桌面使用、想减少线缆，还是需要携带来选择。",
+      },
+      {
+        title: "蓝牙与 2.4GHz 接收器",
+        body: "无线静音鼠标主要分为通过蓝牙连接和使用 USB 接收器的 2.4GHz 两种。蓝牙鼠标不占用 USB 接口，但连接的设备需要支持蓝牙。2.4GHz 需要将接收器插入 USB 接口使用，因此前提是设备带有 USB Type-A 接口。两种都支持的型号可以根据设备区分使用。",
+      },
+      {
+        title: "按键数量",
+        body: "左右键加滚轮的 3 键构成操作简单，不易混淆。包含后退/前进键的 5 键左右型号，适合经常浏览网页或来回查看资料的工作。对于静音鼠标，也请一并确认静音范围是仅限左右键，还是包括侧键和滚轮键。",
+      },
+      {
+        title: "DPI",
+        body: "DPI 是表示移动鼠标时光标移动距离的参考值。可以切换 DPI 的型号能根据屏幕大小和工作内容进行调整。没有切换功能的型号适合不想在意设置、希望简单使用的人。",
+      },
+      {
+        title: "尺寸与重量",
+        body: "是否适合手的大小，是长时间使用时需要确认的要点。较大的 L 尺寸更容易用整个手掌支撑，较小较轻的型号则便于携带。重量会因是否包含电池或线缆而标注条件不同，比较时请一并确认条件。",
+      },
+      {
+        title: "电池式·充电式·有线",
+        body: "无线静音鼠标分为电池式和充电式。电池式通过更换电池使用，充电式则用线缆充电使用。本次 5 款中，M240、M650 和 MUS-RIT126BK 使用 1 节 5 号电池工作。有线型号通过 USB 供电，因此既不需要电池也不需要充电。",
+      },
+      {
+        title: "办公用途需要关注的要点",
+        body: "选择办公用静音鼠标时，除了静音规格，事先确认所用电脑的接口、蓝牙支持情况，以及按键能否在所用操作系统上使用，会更安心。在办公室或居家办公长时间使用时，尺寸是否适合自己的手、是否需要后退/前进键或滚动功能，也是选择要点。",
+      },
+    ],
+    picksTitle: "各商品详情",
+    pickFeaturesLabel: "主要特点",
+    pickRecommendedLabel: "适合的人",
+    pickCautionLabel: "注意事项",
+    picks: [
+      {
+        slug: "logicool-m240gr",
+        name: "Logicool M240 Silent Bluetooth Mouse",
+        tagline: "无需接收器、通过蓝牙连接的静音、轻量、左右对称的简洁鼠标。",
+        shortLabel: "蓝牙 / 简洁",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["蓝牙", "静音", "简洁"],
+        features: [
+          "仅支持蓝牙连接（不附带 USB 接收器）",
+          "点击声比旧款 M170 降低 90%（厂商官方）",
+          "1000dpi·3 键，73.8g（含电池）的左右对称设计",
+        ],
+        recommendedFor: ["在寻找不占用 USB 接口的静音鼠标的人", "在寻找左手也能用的简洁鼠标的人"],
+        cautions: ["无法在不支持蓝牙的设备上使用", "没有后退/前进键和 DPI 切换"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "logicool-m650mgr",
+        name: "Logicool Signature M650",
+        tagline: "具备 Logi Bolt 与蓝牙双模连接、SmartWheel 和静音点击的日常无线鼠标。",
+        shortLabel: "办公·日常",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["无线", "静音", "办公·日常"],
+        features: [
+          "Logi Bolt USB 接收器与 Bluetooth Low Energy 双模连接",
+          "SilentTouch 使点击声比 M170 降低 90%（厂商官方）",
+          "SmartWheel，400～4,000dpi，含倾斜的 5 键，101.2g（含电池）",
+        ],
+        recommendedFor: ["想在办公或日常中使用静音鼠标的人", "想根据设备切换连接方式的人"],
+        cautions: ["支持的操作系统因连接方式而异", "如果重视游戏性能，方向有所不同"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "sanwa-400-ma124bk",
+        name: "Sanwa Direct 400-MA124BK",
+        tagline: "具备静音按键、后退/前进键和 4 档 DPI 的 USB 有线鼠标。",
+        shortLabel: "有线 / 5 键",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["有线", "静音", "5 键"],
+        features: [
+          "通过 USB Type-A 连接的有线鼠标（线长约 1.5m）",
+          "左右键和侧键采用静音按键的 5 键构成",
+          "800 / 1200 / 1600 / 2000count/inch 4 档切换，约 85.2g",
+        ],
+        recommendedFor: ["在寻找有线静音 5 键鼠标的人", "不想在意电池或充电的人"],
+        cautions: ["在 Mac 上无法使用侧键，也不支持按下滚轮键的操作"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "elecom-m-xgl30ubskabk",
+        name: "ELECOM EX-G M-XGL30UBSKABK",
+        tagline: "具备 BlueLED 传感器和 5 键的 EX-G 系列 L 尺寸静音有线鼠标。",
+        shortLabel: "有线 / L 尺寸",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["有线", "静音", "L 尺寸"],
+        features: [
+          "通过 USB-A 连接的有线鼠标（线长约 1.5m），厂商官方介绍为静音型号",
+          "BlueLED 方式·2000DPI，含滚轮键的 5 键",
+          "L 尺寸·约 115g（含线缆），可通过 ELECOM 鼠标助手分配按键",
+        ],
+        recommendedFor: ["在寻找较大 L 尺寸静音鼠标的人", "想选择有线 5 键鼠标的人"],
+        cautions: ["即使是静音型号，点击声也不会完全消失", "与专门面向游戏的型号方向不同"],
+        linkLabel: "查看详情",
+      },
+      {
+        slug: "nakabayashi-mus-rit126bk",
+        name: "Nakabayashi Digio2 MUS-RIT126BK",
+        tagline: "左右键和滚轮键采用静音开关的 2.4GHz 简洁无线鼠标。",
+        shortLabel: "2.4GHz 无线 / 简洁",
+        priceGuide: "价格请在销售页面确认",
+        tags: ["2.4GHz", "静音", "简洁"],
+        features: [
+          "通过 USB 接收器连接的 2.4GHz 无线，接收器可收纳在机身内",
+          "左右键·滚轮键采用静音开关，3 键构成",
+          "800 / 1200 / 1600dpi 3 档切换，约 62g（不含接收器和电池）",
+        ],
+        recommendedFor: ["在寻找简洁静音无线鼠标的人", "想插上 USB 接收器即可使用的人"],
+        cautions: ["不支持蓝牙连接", "在没有 USB Type-A 接口的设备上需要注意"],
+        linkLabel: "查看详情",
+      },
+    ],
+    recommendedTitle: "犹豫时该选哪款？",
+    recommendedFor: [
+      "想要简洁的蓝牙静音鼠标 → Logicool M240 Silent Bluetooth Mouse",
+      "办公与日常中想切换连接方式 → Logicool Signature M650",
+      "想选有线静音 5 键 → Sanwa Direct 400-MA124BK",
+      "想要较大 L 尺寸的有线静音鼠标 → ELECOM EX-G M-XGL30UBSKABK",
+      "想要插上接收器即可用的简洁无线型号 → Nakabayashi Digio2 MUS-RIT126BK",
+    ],
+    summary:
+      "适合的静音鼠标会因连接方式、按键数、尺寸和电源而不同。简洁使用蓝牙选 M240，办公与日常中切换双模连接选 M650，有线则选静音 5 键的 400-MA124BK 或 L 尺寸的 EX-G，简洁的 2.4GHz 无线选 MUS-RIT126BK，这些都是比较容易选择的型号。如果想综合比较其他类型，请参考“鼠标推荐 10 款”；想以有线型号为主查看，请参考“有线鼠标推荐 5 款”。规格详情请查看各单品文章，最新价格和库存请在销售页面确认。",
+    note: "※价格变动频繁，因此未刊载。最新价格和库存请在销售页面确认。",
+    ctaLabel: "查看详情",
+    imageAlt: "静音鼠标推荐 5 款缩略图",
+  },
   "wired-mouse-recommendations-5": {
     title: "有线鼠标推荐 5 款｜比较静音、5 键、游戏与小型型号",
     seoTitle: "有线鼠标推荐 5 款｜比较静音、5 键、游戏与小型型号 | R13 Picks",
@@ -244,13 +435,14 @@ export const articleTranslationsZh: Record<string, ArticleTranslation> = {
       },
       {
         title: "推荐给重视静音的人",
-        body: "想降低点击声时，可以从标明采用静音开关或静音设计的型号中选择。Logicool M650 和 M240 都标明点击声比 M170 降低 90%，Nakabayashi MUS-RIT126BK 的左右键和滚轮键采用静音开关，Sanwa Direct 400-MA124BK 的左右键和侧键采用静音按键。",
+        body: "想降低点击声时，可以从标明采用静音开关或静音设计的型号中选择。Logicool M650 和 M240 都标明点击声比 M170 降低 90%，Nakabayashi MUS-RIT126BK 的左右键和滚轮键采用静音开关，Sanwa Direct 400-MA124BK 的左右键和侧键采用静音按键。如果只想比较静音型号，也可以参考静音鼠标推荐 5 款。",
         productSlugs: [
           "logicool-m240gr",
           "logicool-m650mgr",
           "nakabayashi-mus-rit126bk",
           "sanwa-400-ma124bk",
           "blenck-q23",
+          "silent-mouse-recommendations-5",
         ],
       },
       {

@@ -1,6 +1,197 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "silent-mouse-recommendations-5": {
+    title: "Best Silent Mice: 5 Picks for Wireless, Wired and Office Use",
+    seoTitle: "Best Silent Mice: 5 Picks for Wireless, Wired and Office Use | R13 Picks",
+    description:
+      "5 recommended silent mice organized from R13 Picks product articles. From Bluetooth and 2.4GHz wireless models to wired ones, they are compared by connection, buttons, DPI, weight, and silent specs, with tips for choosing a mouse for office work or working from home.",
+    productType: "Comparison / roundup",
+    excerpt: "5 silent mice with different connections and shapes compared: Bluetooth, 2.4GHz, and wired.",
+    intro:
+      "Silent mice use switches or buttons designed to reduce click noise. They are sometimes chosen for places where sound is a concern, such as offices, working from home, late-night work, or shared spaces. However, even silent models do not eliminate click noise completely, and the scope of quietness and how it is described differ by manufacturer and model. This article selects 5 silent mice covered on R13 Picks with non-overlapping connections and shapes—Bluetooth, 2.4GHz wireless, and wired—and organizes them with a comparison table and use-case recommendations. It is not a ranking but a comparison to help you choose a quiet mouse that fits how you work.",
+    points: [],
+    overviewTitle: "Models in this guide",
+    comparisonTable: {
+      title: "5 silent mice comparison",
+      headers: [
+        "Product",
+        "Connection",
+        "Wired / Wireless",
+        "Bluetooth",
+        "Buttons",
+        "DPI",
+        "Weight",
+        "Silent spec",
+        "Features",
+        "Best for",
+      ],
+      rows: [
+        ["Logicool M240 Silent Bluetooth Mouse", "Bluetooth (no receiver)", "Wireless", "Yes", "3", "1000dpi", "73.8g (with battery)", "Clicks 90% quieter vs. M170 (manufacturer official)", "Symmetrical, 1 AA battery", "Simple / portable"],
+        ["Logicool Signature M650", "Logi Bolt USB receiver / Bluetooth Low Energy", "Wireless", "Yes", "5 (incl. tilt)", "400–4,000dpi", "101.2g (with battery)", "SilentTouch (clicks 90% quieter vs. M170)", "SmartWheel, dual connection", "Work / everyday use"],
+        ["Sanwa Direct 400-MA124BK", "USB Type-A", "Wired", "No", "5", "800 / 1200 / 1600 / 2000", "Approx. 85.2g", "Silent buttons (left/right clicks, side buttons)", "Approx. 1.5m cable, 4-level DPI", "Wired / 5 buttons"],
+        ["ELECOM EX-G M-XGL30UBSKABK", "USB-A", "Wired", "No", "5 (incl. wheel button)", "2000DPI", "Approx. 115g (incl. cable)", "Silent model (manufacturer official)", "L size, approx. 1.5m cable", "Wired / larger size"],
+        ["Nakabayashi Digio2 MUS-RIT126BK", "2.4GHz (USB receiver)", "Wireless", "No", "3", "800 / 1200 / 1600", "Approx. 62g (without receiver and battery)", "Silent switches (left/right buttons, wheel button)", "Receiver storage, 1 AA battery", "Simple wireless"],
+      ],
+    },
+    useCaseGroups: [
+      {
+        title: "For a simple Bluetooth silent mouse",
+        body: "If you want to connect via Bluetooth without a receiver, the Logicool M240 Silent Bluetooth Mouse is a candidate. The manufacturer states its clicks are 90% quieter than the previous M170, and it has a simple 1000dpi, 3-button layout. It weighs 73.8g (with battery) and has a symmetrical design usable with either hand.",
+        productSlugs: ["logicool-m240gr"],
+      },
+      {
+        title: "For work and everyday use",
+        body: "For a silent mouse for work and everyday use, there is the Logicool Signature M650. It connects via Logi Bolt USB receiver or Bluetooth Low Energy, and SilentTouch is described as making clicks 90% quieter than the M170. It features SmartWheel, which switches to high-speed scrolling when spun quickly, a 400–4,000dpi sensor, and 5 buttons including tilt.",
+        productSlugs: ["logicool-m650mgr"],
+      },
+      {
+        title: "For wired and 5 buttons",
+        body: "For a wired silent mouse with no batteries or charging, the Sanwa Direct 400-MA124BK is a candidate. It has a 5-button layout with silent buttons for the left/right clicks and side buttons, and its DPI switches in 4 levels: 800 / 1200 / 1600 / 2000 count/inch. It connects via USB Type-A with an approx. 1.5m cable.",
+        productSlugs: ["sanwa-400-ma124bk"],
+      },
+      {
+        title: "For a larger wired silent mouse",
+        body: "If you are looking for a larger mouse that is easy to support with your whole palm, there is the ELECOM EX-G M-XGL30UBSKABK. It is an L-size wired mouse at approx. 115g (incl. cable), introduced as a silent model by the manufacturer. It uses BlueLED at 2000DPI, and functions can be assigned to its 5 buttons, including the wheel button, with ELECOM Mouse Assistant.",
+        productSlugs: ["elecom-m-xgl30ubskabk"],
+      },
+      {
+        title: "For a simple 2.4GHz wireless model",
+        body: "For a wireless silent mouse that works by just plugging in a USB receiver, the Nakabayashi Digio2 MUS-RIT126BK is a candidate. It has a 3-button layout with silent switches for the left/right and wheel buttons, and 3 DPI levels: 800 / 1200 / 1600. The receiver stores in the body, and it runs on 1 AA battery.",
+        productSlugs: ["nakabayashi-mus-rit126bk"],
+      },
+    ],
+    sectionsTitle: "How to choose a silent mouse",
+    sections: [
+      {
+        title: "Wired vs. wireless",
+        body: "A wired silent mouse connects to your computer with a cable, so there are no batteries to replace or charge. A wireless silent mouse keeps your desk tidier without a cable and suits carrying with a laptop. The basic choice depends on whether you use a fixed desk, want fewer cables, or plan to carry it.",
+      },
+      {
+        title: "Bluetooth vs. 2.4GHz receiver",
+        body: "Wireless silent mice mainly connect via Bluetooth or 2.4GHz using a USB receiver. Bluetooth mice don't occupy a USB port, but the device must support Bluetooth. 2.4GHz models use a receiver plugged into a USB port, so the device needs a USB Type-A port. Models that support both can be used to match each device.",
+      },
+      {
+        title: "Number of buttons",
+        body: "A 3-button layout with left/right clicks and a wheel is simple and easy to use. Models with around 5 buttons including back/forward are worth checking for browsing or work that involves moving between documents. For silent mice, also check whether only the left/right clicks are quiet or whether side and wheel buttons are included.",
+      },
+      {
+        title: "DPI",
+        body: "DPI indicates how far the cursor moves when you move the mouse. Models with DPI switching can be adjusted to your screen size and work. Models without switching suit people who want simple use without settings.",
+      },
+      {
+        title: "Size and weight",
+        body: "Whether a mouse fits your hand is worth checking for long sessions. Larger L-size models are easier to support with your whole palm, while smaller, lighter models are easier to carry. Weight figures differ depending on whether batteries or cables are included, so check the conditions when comparing.",
+      },
+      {
+        title: "Battery, rechargeable, or wired",
+        body: "Wireless silent mice are either battery-powered or rechargeable. Battery models use replaceable batteries, while rechargeable ones are charged with a cable. Among these 5 models, the M240, M650, and MUS-RIT126BK run on 1 AA battery. Wired models are powered via USB, so they need neither batteries nor charging.",
+      },
+      {
+        title: "What to check for work",
+        body: "When choosing a silent mouse for work, in addition to the silent spec, it helps to check your computer's ports, Bluetooth support, and whether the buttons work on your OS. For long hours in the office or working from home, whether the size fits your hand and whether you need back/forward buttons or scrolling features are also points to consider.",
+      },
+    ],
+    picksTitle: "Product details",
+    pickFeaturesLabel: "Key features",
+    pickRecommendedLabel: "Recommended for",
+    pickCautionLabel: "Notes",
+    picks: [
+      {
+        slug: "logicool-m240gr",
+        name: "Logicool M240 Silent Bluetooth Mouse",
+        tagline: "A simple, quiet, lightweight, symmetrical mouse that connects via Bluetooth without a receiver.",
+        shortLabel: "Bluetooth / simple",
+        priceGuide: "Check price on the store page",
+        tags: ["Bluetooth", "Silent", "Simple"],
+        features: [
+          "Bluetooth connection only (no USB receiver included)",
+          "Clicks 90% quieter than the previous M170 (manufacturer official)",
+          "1000dpi, 3 buttons, symmetrical design at 73.8g (with battery)",
+        ],
+        recommendedFor: ["People looking for a silent mouse that keeps USB ports free", "People looking for a simple mouse that also works left-handed"],
+        cautions: ["Cannot be used with devices that lack Bluetooth", "No back/forward buttons or DPI switching"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "logicool-m650mgr",
+        name: "Logicool Signature M650",
+        tagline: "An everyday wireless mouse with dual Logi Bolt and Bluetooth connection, SmartWheel, and quiet clicks.",
+        shortLabel: "Work / everyday",
+        priceGuide: "Check price on the store page",
+        tags: ["Wireless", "Silent", "Work / everyday"],
+        features: [
+          "Dual connection via Logi Bolt USB receiver and Bluetooth Low Energy",
+          "SilentTouch makes clicks 90% quieter than the M170 (manufacturer official)",
+          "SmartWheel, 400–4,000dpi, 5 buttons including tilt, 101.2g (with battery)",
+        ],
+        recommendedFor: ["People who want a silent mouse for work and everyday use", "People who want to switch connection types to match devices"],
+        cautions: ["Supported OS differs by connection type", "Not aimed at gaming-focused performance"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "sanwa-400-ma124bk",
+        name: "Sanwa Direct 400-MA124BK",
+        tagline: "A USB wired mouse with silent buttons, back/forward buttons, and 4-level DPI.",
+        shortLabel: "Wired / 5 buttons",
+        priceGuide: "Check price on the store page",
+        tags: ["Wired", "Silent", "5 buttons"],
+        features: [
+          "Wired mouse connecting via USB Type-A (approx. 1.5m cable)",
+          "5-button layout with silent buttons for the left/right clicks and side buttons",
+          "4-level switching at 800 / 1200 / 1600 / 2000 count/inch, approx. 85.2g",
+        ],
+        recommendedFor: ["People looking for a wired, silent, 5-button mouse", "People who don't want to worry about batteries or charging"],
+        cautions: ["On Mac, the side buttons cannot be used and pressing the wheel button is not supported"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "elecom-m-xgl30ubskabk",
+        name: "ELECOM EX-G M-XGL30UBSKABK",
+        tagline: "An L-size silent wired mouse from the EX-G series with a BlueLED sensor and 5 buttons.",
+        shortLabel: "Wired / L size",
+        priceGuide: "Check price on the store page",
+        tags: ["Wired", "Silent", "L size"],
+        features: [
+          "Wired mouse connecting via USB-A (approx. 1.5m cable), introduced as a silent model by the manufacturer",
+          "BlueLED, 2000DPI, 5 buttons including the wheel button",
+          "L size, approx. 115g (incl. cable), button assignment via ELECOM Mouse Assistant",
+        ],
+        recommendedFor: ["People looking for a larger L-size silent mouse", "People who want a wired 5-button mouse"],
+        cautions: ["Even as a silent model, click noise does not disappear completely", "Not aimed in the same direction as gaming-focused models"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "nakabayashi-mus-rit126bk",
+        name: "Nakabayashi Digio2 MUS-RIT126BK",
+        tagline: "A simple 2.4GHz wireless mouse with silent switches on the left/right and wheel buttons.",
+        shortLabel: "2.4GHz wireless / simple",
+        priceGuide: "Check price on the store page",
+        tags: ["2.4GHz", "Silent", "Simple"],
+        features: [
+          "2.4GHz wireless via USB receiver; the receiver stores in the body",
+          "Silent switches on the left/right and wheel buttons, 3-button layout",
+          "3-level switching at 800 / 1200 / 1600dpi, approx. 62g (without receiver and battery)",
+        ],
+        recommendedFor: ["People looking for a simple silent wireless mouse", "People who just want to plug in a USB receiver"],
+        cautions: ["Does not support Bluetooth", "Check compatibility on devices without a USB Type-A port"],
+        linkLabel: "Read more",
+      },
+    ],
+    recommendedTitle: "Not sure which to choose?",
+    recommendedFor: [
+      "For a simple Bluetooth silent mouse → Logicool M240 Silent Bluetooth Mouse",
+      "To switch connection types for work and everyday use → Logicool Signature M650",
+      "For a wired, silent, 5-button mouse → Sanwa Direct 400-MA124BK",
+      "For a larger L-size wired silent mouse → ELECOM EX-G M-XGL30UBSKABK",
+      "For a simple wireless model with a plug-in receiver → Nakabayashi Digio2 MUS-RIT126BK",
+    ],
+    summary:
+      "Which silent mouse suits you depends on connection, buttons, size, and power. The M240 is easy to choose for simple Bluetooth use, the M650 for switching between two connections at work, the silent 5-button 400-MA124BK or the L-size EX-G for wired use, and the MUS-RIT126BK for simple 2.4GHz wireless. To compare all types, see the \"10 recommended mice\" guide; to focus on wired models, see the \"5 best wired mice\" guide. Check each product article for detailed specs, and the store page for the latest price and stock.",
+    note: "*Prices are not listed because they change often. Check the store page for the latest price and stock.",
+    ctaLabel: "Read more",
+    imageAlt: "Thumbnail for 5 recommended silent mice",
+  },
   "wired-mouse-recommendations-5": {
     title: "Best Wired Mice: 5 Picks for Silent, Gaming, Office & Compact Use",
     seoTitle: "Best Wired Mice: 5 Picks for Silent, Gaming, Office & Compact Use | R13 Picks",
@@ -244,13 +435,14 @@ export const articleTranslationsEn: Record<string, ArticleTranslation> = {
       },
       {
         title: "Recommended if quietness matters",
-        body: "To reduce click noise, choose from models with silent switches or a silent design. The Logicool M650 and M240 are both described as having 90% quieter clicks than the M170, the Nakabayashi MUS-RIT126BK uses silent switches for the left/right and wheel buttons, and the Sanwa Direct 400-MA124BK uses silent buttons for the left/right clicks and side buttons.",
+        body: "To reduce click noise, choose from models with silent switches or a silent design. The Logicool M650 and M240 are both described as having 90% quieter clicks than the M170, the Nakabayashi MUS-RIT126BK uses silent switches for the left/right and wheel buttons, and the Sanwa Direct 400-MA124BK uses silent buttons for the left/right clicks and side buttons. To compare silent models only, see the 5 best silent mice guide as well.",
         productSlugs: [
           "logicool-m240gr",
           "logicool-m650mgr",
           "nakabayashi-mus-rit126bk",
           "sanwa-400-ma124bk",
           "blenck-q23",
+          "silent-mouse-recommendations-5",
         ],
       },
       {
