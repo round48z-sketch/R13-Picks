@@ -65,6 +65,8 @@ export type Article = {
   sections?: { title: string; body: string }[];
   /** Roundup only: when set, `sections` render under this h2 as h3 blocks. */
   sectionsTitle?: string;
+  /** Popular Guides card only; does not affect OGP or ArticleCard. */
+  guideThumbnailImage?: ArticleImage;
   design?: string;
   pairing?: string;
   recommendedTitle?: string;
@@ -118,6 +120,12 @@ export const articles: Article[] = [
       alt: "おすすめマウス10選のサムネイル",
       width: 500,
       height: 500,
+    },
+    guideThumbnailImage: {
+      src: "/images/articles/mouse-recommendations-10-collage.jpg",
+      alt: "おすすめマウス10選のサムネイル",
+      width: 800,
+      height: 1000,
     },
     excerpt: "有線・ワイヤレス・静音・トラックボールなど、用途別に選べるマウス10モデルを比較。",
     intro:
@@ -493,6 +501,12 @@ export const articles: Article[] = [
       src: "/images/articles/edifier-x2-pro.jpg",
       alt: "黒いワイヤレスイヤホンおすすめ5選のサムネイル",
       width: 1000,
+      height: 1000,
+    },
+    guideThumbnailImage: {
+      src: "/images/articles/black-wireless-earbuds-collage.jpg",
+      alt: "黒いワイヤレスイヤホンおすすめ5選のサムネイル",
+      width: 800,
       height: 1000,
     },
     excerpt: "ANC・再生時間・装着方式の違いから選べる、ブラックの完全ワイヤレスイヤホン5モデル。",

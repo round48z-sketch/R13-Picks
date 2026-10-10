@@ -14,7 +14,7 @@ type GuideCardProps = {
 export function GuideCard({ article, locale = "ja" }: GuideCardProps) {
   const category = getArticleCategory(article);
   const ui = getUi(locale);
-  const thumbnail = getArticleThumbnail(article);
+  const thumbnail = article.guideThumbnailImage ?? getArticleThumbnail(article);
 
   return (
     <article className="guide-card">
