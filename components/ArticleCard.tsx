@@ -14,7 +14,13 @@ type ArticleCardProps = {
 export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
   const category = getArticleCategory(article);
   const ui = getUi(locale);
-  const thumbnail = getArticleThumbnail(article);
+  const thumbnail = article.guideThumbnailImage ?? getArticleThumbnail(article);
+  const isRoundupCollage =
+    Boolean(article.guideThumbnailImage) ||
+    article.slug === "beauty-appliances-5-picks" ||
+    article.slug === "desk-setup-5-picks" ||
+    article.slug === "wireless-earbuds-under-10000" ||
+    article.slug === "refurbished-laptops-5-picks";
 
   return (
     <article className="article-card">
@@ -24,10 +30,7 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
       >
         <div
           className={
-            article.slug === "beauty-appliances-5-picks" ||
-            article.slug === "desk-setup-5-picks" ||
-            article.slug === "wireless-earbuds-under-10000" ||
-            article.slug === "refurbished-laptops-5-picks"
+            isRoundupCollage
               ? "article-card__image article-card__image--roundup-5-thumb"
               : "article-card__image"
           }
@@ -38,10 +41,7 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
             fill
             sizes="(max-width: 979px) 92vw, 420px"
             style={
-              article.slug === "beauty-appliances-5-picks" ||
-              article.slug === "desk-setup-5-picks" ||
-              article.slug === "wireless-earbuds-under-10000" ||
-              article.slug === "refurbished-laptops-5-picks"
+              isRoundupCollage
                 ? { objectFit: "contain", objectPosition: "center" }
                 : { objectFit: "cover", objectPosition: "center" }
             }
