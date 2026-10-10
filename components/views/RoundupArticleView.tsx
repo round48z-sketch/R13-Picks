@@ -31,7 +31,7 @@ export function RoundupArticleView({
   const picks = article.picks ?? [];
   const hero = article.heroImage ?? article.image;
   const url = `${getSiteUrl()}${localizePath(`/picks/${article.slug}`, locale)}`;
-  const jsonLdImage = `${getSiteUrl()}${hero.src}`;
+  const jsonLdImage = hero.src.startsWith("http") ? hero.src : `${getSiteUrl()}${hero.src}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -58,7 +58,8 @@ export function RoundupArticleView({
     article.slug === "beauty-appliances-5-picks" ||
     article.slug === "desk-setup-5-picks" ||
     article.slug === "refurbished-laptops-5-picks" ||
-    article.slug === "black-wireless-earbuds";
+    article.slug === "black-wireless-earbuds" ||
+    article.slug === "mouse-recommendations-10";
   const roundupPageClass = isFivePicksRoundup
     ? "article-page article-page--roundup roundup-page roundup-page--picks-5"
     : "article-page article-page--roundup roundup-page";
@@ -165,6 +166,34 @@ export function RoundupArticleView({
           </section>
         ) : null}
 
+        {article.sectionsTitle && article.sections && article.sections.length > 0 ? (
+          <section>
+            <h2>{article.sectionsTitle}</h2>
+            {article.sections.map((section) => (
+              <div key={section.title}>
+                <h3>{section.title}</h3>
+                <p>{section.body}</p>
+              </div>
+            ))}
+          </section>
+        ) : null}
+
+        {article.useCaseGroups?.map((group) => (
+          <section key={group.title}>
+            <h2>{group.title}</h2>
+            <p>{group.body}</p>
+            <ul>
+              {group.productSlugs.map((slug) => (
+                <li key={slug}>
+                  <Link href={localizePath(`/picks/${slug}`, locale)}>
+                    {picks.find((pick) => pick.slug === slug)?.name ?? slug}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+
         {table ? (
           <section className="roundup-compare" aria-labelledby="roundup-compare-heading">
             {table.title ? <h2 id="roundup-compare-heading">{table.title}</h2> : null}
@@ -265,6 +294,18 @@ export function RoundupArticleView({
                         <li key={item}>{item}</li>
                       ))}
                     </ul>
+                    {pick.cautions && pick.cautions.length > 0 ? (
+                      <>
+                        <p className="roundup-pick-card__label">
+                          {article.pickCautionLabel ?? "Notes"}
+                        </p>
+                        <ul>
+                          {pick.cautions.map((item) => (
+                            <li key={item}>{item}</li>
+                          ))}
+                        </ul>
+                      </>
+                    ) : null}
                     <div className="roundup-pick-card__ctas">
                       <Link
                         href={localizePath(`/picks/${pick.slug}`, locale)}

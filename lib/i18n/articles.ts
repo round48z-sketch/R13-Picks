@@ -57,6 +57,7 @@ export function localizeArticle(article: Article, locale: Locale): Article {
     pointsTitle: translation.pointsTitle,
     points: translation.points,
     sections: translation.sections,
+    sectionsTitle: translation.sectionsTitle ?? article.sectionsTitle,
     design: translation.design,
     pairing: translation.pairing,
     recommendedTitle: translation.recommendedTitle,
@@ -71,8 +72,10 @@ export function localizeArticle(article: Article, locale: Locale): Article {
     picks: mergeRoundupPicks(article.picks, translation.picks),
     pickFeaturesLabel: translation.pickFeaturesLabel ?? article.pickFeaturesLabel,
     pickRecommendedLabel: translation.pickRecommendedLabel ?? article.pickRecommendedLabel,
+    pickCautionLabel: translation.pickCautionLabel ?? article.pickCautionLabel,
     useCasesTitle: translation.useCasesTitle ?? article.useCasesTitle,
     useCases: translation.useCases ?? article.useCases,
+    useCaseGroups: translation.useCaseGroups ?? article.useCaseGroups,
     image: {
       ...article.image,
       alt: translation.imageAlt,

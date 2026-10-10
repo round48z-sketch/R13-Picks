@@ -23,8 +23,16 @@ export type RoundupPick = {
   tags: string[];
   features: string[];
   recommendedFor: string[];
+  cautions?: string[];
   linkLabel?: string;
   image: ArticleImage;
+};
+
+/** Roundup: heading + short text + links to pick pages. */
+export type UseCaseGroup = {
+  title: string;
+  body: string;
+  productSlugs: string[];
 };
 
 export type UseCaseBlock = {
@@ -55,6 +63,8 @@ export type Article = {
   points: string[];
   pointsTitle?: string;
   sections?: { title: string; body: string }[];
+  /** Roundup only: when set, `sections` render under this h2 as h3 blocks. */
+  sectionsTitle?: string;
   design?: string;
   pairing?: string;
   recommendedTitle?: string;
@@ -74,8 +84,10 @@ export type Article = {
   picks?: RoundupPick[];
   pickFeaturesLabel?: string;
   pickRecommendedLabel?: string;
+  pickCautionLabel?: string;
   useCasesTitle?: string;
   useCases?: UseCaseBlock[];
+  useCaseGroups?: UseCaseGroup[];
   /** Shown first in Related articles; the rest is filled automatically. */
   relatedSlugs?: string[];
 };
@@ -91,6 +103,382 @@ export type Article = {
  * URL は /picks/[slug] になります。
  */
 export const articles: Article[] = [
+  {
+    slug: "mouse-recommendations-10",
+    title: "おすすめマウス10選｜有線・ワイヤレス・静音・トラックボールを用途別に比較",
+    seoTitle: "おすすめマウス10選｜有線・ワイヤレス・静音・トラックボールを用途別に比較 | R13 Picks",
+    description:
+      "おすすめマウス10選を、R13 Picksの単品記事をもとに整理。有線・ワイヤレス・静音・トラックボールなどのタイプごとに、接続方式やDPI、ボタン数、重量を用途別比較し、仕事用やゲーム用のマウス選びのポイントをまとめます。",
+    category: "gadget",
+    productName: "おすすめマウス10選",
+    productType: "比較・まとめ記事",
+    publishedAt: "2026-10-10",
+    image: {
+      src: "https://thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/mice/m650mgr/m650mgr_01_02_r.jpg?_ex=500x500",
+      alt: "おすすめマウス10選のサムネイル",
+      width: 500,
+      height: 500,
+    },
+    excerpt: "有線・ワイヤレス・静音・トラックボールなど、用途別に選べるマウス10モデルを比較。",
+    intro:
+      "マウスは、接続方式・静音性・ボタン数・形状などによって向いている用途が異なります。ケーブルで安定して使いたいのか、ワイヤレスでデスクをすっきりさせたいのか、クリック音を抑えたいのか、ゲームで使いたいのかによって、選ぶべきタイプは変わります。この記事では、R13 Picksで紹介しているマウスの中から、用途が重なりすぎないように10モデルを選び、有線・ワイヤレス・静音・トラックボールなどのタイプ別に比較します。順位付けではなく、「結局どのタイプを選べばいいのか」を判断するための整理です。",
+    points: [],
+    overviewTitle: "掲載モデル一覧",
+    sectionsTitle: "マウスを選ぶときのポイント",
+    sections: [
+      {
+        title: "有線とワイヤレスの違い",
+        body: "有線マウスはケーブルでパソコンに接続するため、電池交換や充電が必要ありません。一方、ワイヤレスマウスはケーブルがないぶんデスク周りをすっきりさせやすく、ノートPCと一緒に持ち運ぶ場面にも向いていますが、電池式か充電式かによって電源の管理が必要です。据え置きのデスクで使うなら有線、配線を減らしたい・持ち運びたいならワイヤレス、というのが基本的な考え方です。",
+      },
+      {
+        title: "Bluetoothと2.4GHzレシーバーの違い",
+        body: "ワイヤレスマウスの接続方式は、主にBluetoothとUSBレシーバーを使う2.4GHzの2種類です。Bluetoothマウスはレシーバーが不要でUSBポートをふさぎませんが、接続する機器がBluetoothに対応している必要があります。2.4GHzはレシーバーをUSBポートに挿して使うため、USB Type-Aポートのある機器が前提になります。両方に対応したモデルなら、機器に合わせて使い分けられます。",
+      },
+      {
+        title: "静音マウス",
+        body: "静音マウスは、クリック音を抑えたスイッチを採用したモデルです。メーカーによって「従来品比90%軽減」など表記の仕方が異なり、静音になるのが左右クリックだけか、ホイールやサイドボタンまで含むかもモデルごとに違います。いずれも音がまったく出なくなるわけではないため、静かな場所で使う場合の目安として確認してください。",
+      },
+      {
+        title: "DPI",
+        body: "DPI（カウント）は、マウスを動かしたときにカーソルがどれだけ動くかの目安です。数値が高いほど少ない動きでカーソルが大きく動きます。DPIを切り替えられるモデルなら、資料作成や画面の大きさに合わせて調整できます。普段使いでは1000〜1600前後のモデルも多く、ゲーミングマウスではより広い範囲を設定できるものがあります。",
+      },
+      {
+        title: "ボタン数",
+        body: "左右クリックとホイールだけの3ボタンは操作がシンプルで、迷わず使えます。戻る/進むボタンを含む5ボタン前後のモデルは、Webブラウジングや資料の行き来が多い作業で確認したいポイントです。さらに多いボタンにコマンドやマクロを割り当てられるモデルは、ゲームや特定の作業向けです。なお、サイドボタンはMacでは使えないモデルもあるため、使う環境に合わせて確認してください。",
+      },
+      {
+        title: "サイズと重量",
+        body: "持ち運び用途なら、小型・軽量なモデルや、レシーバーを本体に収納できるモデルが選びやすくなります。デスクで長時間使う場合は、手の大きさに合うサイズかどうかも確認したいポイントです。重量は電池やケーブルを含むかどうかで表記が異なるため、比較するときは条件もあわせて見てください。",
+      },
+      {
+        title: "トラックボール",
+        body: "トラックボールマウスは、本体を動かさずにボールを転がしてカーソルを操作するタイプです。マウスを動かすスペースが取りにくいデスクでも置きやすい一方、一般的なマウスとは操作感が異なるため、初めて使う場合は慣れるまで時間がかかることがあります。",
+      },
+      {
+        title: "仕事用とゲーム用の違い",
+        body: "仕事用マウスは、静音性や接続のしやすさ、スクロールのしやすさなど日常の作業に関わる機能を重視したモデルが中心です。ゲーミングマウスは、広いDPI範囲やプログラム可能なボタン、ライティングなど、ゲームでの操作や設定の幅を意識した機能を備えています。用途がはっきりしている場合は、その方向性に合ったモデルを選ぶと比較しやすくなります。",
+      },
+    ],
+    useCaseGroups: [
+      {
+        title: "仕事・普段使いにおすすめ",
+        body: "日常の作業用なら、接続方式やスクロール機能から選ぶのがおすすめです。Logicool Signature M650はLogi BoltとBluetoothの2方式接続とSmartWheelを備え、サンワダイレクト 400-MAWBT207はサイドホイールで横に長い表も扱いやすい構成です。戻る/進むボタン付きの2.4GHzモデルなら400-MA097も候補になります。",
+        productSlugs: ["logicool-m650mgr", "sanwa-400-mawbt207", "sanwa-direct-400-ma097"],
+      },
+      {
+        title: "静音性を重視したい人におすすめ",
+        body: "クリック音を抑えたいなら、静音スイッチや静音設計が案内されているモデルから選びます。Logicool M650とM240はいずれもM170比でクリック音90%軽減と案内され、ナカバヤシ MUS-RIT126BKは左右ボタンとホイールボタン、サンワダイレクト 400-MA124BKは左右クリックとサイドボタンに静音ボタンを採用しています。",
+        productSlugs: [
+          "logicool-m240gr",
+          "logicool-m650mgr",
+          "nakabayashi-mus-rit126bk",
+          "sanwa-400-ma124bk",
+          "blenck-q23",
+        ],
+      },
+      {
+        title: "ワイヤレスで選びたい人におすすめ",
+        body: "レシーバーを使わずに接続したいならBluetooth対応モデル、USBポートに挿すだけで使いたいなら2.4GHzモデルが選びやすくなります。両方に対応したモデルなら、機器に合わせて切り替えられます。電源は、M240やMUS-RIT126BKのような電池式と、Q23や400-MAWBT207のような充電式に分かれます。",
+        productSlugs: [
+          "logicool-m240gr",
+          "logicool-m650mgr",
+          "sanwa-400-mawbt207",
+          "nakabayashi-mus-rit126bk",
+          "blenck-q23",
+        ],
+      },
+      {
+        title: "有線で選びたい人におすすめ",
+        body: "電池や充電を気にせず使いたいなら有線モデルです。サンワダイレクト 400-MA124BKは静音ボタンと5ボタン、Logicool G203はゲーミング向けの6ボタンとRGBライティングを備えています。持ち運び用なら、ケーブルを巻き取れるPCASTOREのミニマウスもあります。",
+        productSlugs: ["sanwa-400-ma124bk", "logicool-g203-bk", "pcastore-mini-mouse-10002930"],
+      },
+      {
+        title: "ゲーム用途で選びたい人におすすめ",
+        body: "ゲーミングマウスを選ぶなら、Logicool G203 LIGHTSYNCが候補です。200〜8,000dpiの範囲で感度を設定でき、6個のプログラム可能なボタン、USBレポートレート1000Hz、LIGHTSYNC RGBを備えています。ボタン割り当てやライティングの詳細な設定には、ロジクールG HUBを使います。",
+        productSlugs: ["logicool-g203-bk"],
+      },
+      {
+        title: "トラックボールを試したい人におすすめ",
+        body: "本体を動かさずに操作したいなら、親指で操作するEWINE系のトラックボールマウスがあります。2.4GHzとBluetoothに対応し、3台同時接続、5段階のDPI切替、7ボタンを備えています。操作感が一般的なマウスと異なるため、初めての場合は慣れる時間も見込んでおくと安心です。",
+        productSlugs: ["ewine-trackball-100938"],
+      },
+      {
+        title: "持ち運びやすさで選びたい人におすすめ",
+        body: "ノートPCと一緒に持ち歩くなら、サイズやレシーバーの扱いやすさが選ぶポイントです。PCASTOREのミニマウスは約7.5cmの小型ボディと巻き取り式ケーブル、Logicool M240は73.8g（電池含む）でレシーバー不要、BLENCK Q23は薄型でレシーバーを背面に収納できます。",
+        productSlugs: ["pcastore-mini-mouse-10002930", "logicool-m240gr", "blenck-q23"],
+      },
+    ],
+    comparisonTable: {
+      title: "10モデル比較",
+      headers: [
+        "商品名",
+        "接続方式",
+        "有線 / ワイヤレス",
+        "Bluetooth",
+        "DPI",
+        "ボタン数",
+        "静音",
+        "重量",
+        "特徴",
+        "向いている用途",
+      ],
+      rows: [
+        ["Logicool Signature M650", "Logi Bolt USBレシーバー / Bluetooth Low Energy", "ワイヤレス", "対応", "400〜4,000dpi", "5（チルト含む）", "SilentTouch（M170比90%軽減）", "101.2g（電池含む）", "SmartWheel", "仕事・普段使い"],
+        ["Logicool M240 Silent Bluetooth Mouse", "Bluetooth（レシーバーなし）", "ワイヤレス", "対応", "1000dpi", "3", "M170比90%軽減", "73.8g（電池含む）", "左右対称・軽量", "静音・持ち運び"],
+        ["サンワダイレクト 400-MAWBT207", "Bluetooth 5.1 / 2.4GHz", "ワイヤレス", "対応", "1000 / 1600 / 2400 / 3200", "—", "静音ボタン", "約108g", "サイドホイール・高速スクロール・充電式", "多機能・表計算"],
+        ["サンワダイレクト 400-MA097", "2.4GHz", "ワイヤレス", "—", "800 / 1200 / 1600", "5", "—", "約67g（電池除く）", "戻る/進むボタン・BlueLED", "仕事・普段使い"],
+        ["ナカバヤシ Digio2 MUS-RIT126BK", "2.4GHz（USBレシーバー）", "ワイヤレス", "非対応", "800 / 1200 / 1600", "3", "静音スイッチ（左右・ホイール）", "約62g（レシーバー・電池除く）", "レシーバー収納・単3電池1本", "静音・シンプル"],
+        ["BLENCK Q23", "2.4GHz（USBレシーバー）", "ワイヤレス", "非対応", "—", "—", "静音設計（販売元記載）", "—", "薄型・USB充電式", "静音・持ち運び"],
+        ["サンワダイレクト 400-MA124BK", "USB Type-A", "有線", "非対応", "800 / 1200 / 1600 / 2000", "5", "静音ボタン（左右クリック・サイド）", "約85.2g", "ケーブル約1.5m・ブルーLED", "有線・静音"],
+        ["Logicool G203 LIGHTSYNC", "USB", "有線", "—", "200〜8,000dpi", "6", "—", "85g（マウスのみ）", "LIGHTSYNC RGB・1000Hz", "ゲーミング"],
+        ["EWINE系 トラックボールマウス", "2.4GHz / Bluetooth 5.0・3.0", "ワイヤレス", "対応", "200 / 400 / 800 / 1200 / 1600", "7", "静音設計", "約125.5g", "親指トラックボール・3台接続", "トラックボール"],
+        ["PCASTORE 巻き取り式ミニマウス", "Type-C または USB-A（購入時に選択）", "有線", "—", "1000DPI", "—", "—", "—", "巻き取り式ケーブル・約7.5cm", "持ち運び"],
+      ],
+    },
+    picksTitle: "各モデルの詳細",
+    pickFeaturesLabel: "主な特徴",
+    pickRecommendedLabel: "こんな人におすすめ",
+    pickCautionLabel: "注意点",
+    picks: [
+      {
+        slug: "logicool-m650mgr",
+        name: "Logicool Signature M650",
+        tagline: "Logi BoltとBluetoothの2方式接続、SmartWheel、静音クリックを備えた日常向けワイヤレスマウス。",
+        shortLabel: "仕事・普段使い / 静音",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["ワイヤレス", "静音", "仕事・普段使い"],
+        features: [
+          "Logi Bolt USBレシーバーとBluetooth Low Energyの2方式接続",
+          "勢いよく回すと高速スクロールに切り替わるSmartWheel",
+          "400〜4,000dpi、チルトを含む5ボタン、101.2g（電池含む）",
+        ],
+        recommendedFor: ["接続方式を機器に合わせて使い分けたい人", "長い文書やWebページをスクロールすることが多い人"],
+        cautions: ["接続方式によって対応OSが異なる", "ゲーミング用途向けの性能を重視する場合は方向性が異なる"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/mice/m650mgr/m650mgr_01_02_r.jpg?_ex=500x500",
+          alt: "Logicool Signature M650 M650MGR",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "logicool-m240gr",
+        name: "Logicool M240 Silent Bluetooth Mouse",
+        tagline: "レシーバー不要のBluetooth接続で使える、静音・軽量・左右対称のシンプルなマウス。",
+        shortLabel: "静音 / Bluetooth / 持ち運び",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["Bluetooth", "静音", "軽量"],
+        features: [
+          "Bluetooth接続のみ（USBレシーバーは付属なし）",
+          "従来品M170比でクリック音を90%軽減（メーカー公式）",
+          "1000dpi・3ボタン、73.8g（電池含む）の左右対称デザイン",
+        ],
+        recommendedFor: ["USBポートをふさがずに使いたい人", "左手でも使えるシンプルなマウスを探している人"],
+        cautions: ["Bluetooth非対応の機器では使えない", "戻る/進むボタンやDPI切替は備えていない"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/mice/m240gr/m240gr_r1.jpg?_ex=500x500",
+          alt: "Logicool M240 Silent Bluetooth Mouse M240GR",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "sanwa-400-mawbt207",
+        name: "サンワダイレクト 400-MAWBT207",
+        tagline: "サイドホイールと高速スクロールを備えた、Bluetooth・2.4GHz対応の充電式マウス。",
+        shortLabel: "多機能 / ワイヤレス",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["多機能", "サイドホイール", "充電式"],
+        features: [
+          "Bluetooth 5.1（2台までマルチペアリング）と2.4GHzの2方式接続",
+          "サイドホイールによる左右スクロール、通常・高速スクロール",
+          "1000 / 1600 / 2400 / 3200count/inch、静音ボタン、約108g",
+        ],
+        recommendedFor: ["横に長い表やタイムラインを扱うことが多い人", "電池交換ではなく充電式で使いたい人"],
+        cautions: ["Excelの一部旧バージョンでは横スクロールが正常に動作しない場合がある（販売ページ記載）", "ゲーミング用途に特化したモデルではない"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/4/400-mawbt207.jpg?_ex=500x500",
+          alt: "サンワダイレクト 400-MAWBT207",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "sanwa-direct-400-ma097",
+        name: "サンワダイレクト 400-MA097",
+        tagline: "戻る/進むボタンを含む5ボタンとBlueLEDセンサーを備えた、2.4GHzワイヤレスマウス。",
+        shortLabel: "仕事・普段使い / 5ボタン",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["ワイヤレス", "5ボタン", "BlueLED"],
+        features: [
+          "2.4GHz無線接続、小型レシーバーは底面に収納可能",
+          "戻る/進むのサイドボタンを含む5ボタン",
+          "800 / 1200 / 1600カウントの3段階切替、約67g（電池除く）",
+        ],
+        recommendedFor: ["戻る/進むボタン付きのワイヤレスマウスを探している人", "レシーバー接続でシンプルに使いたい人"],
+        cautions: ["macOSではOS標準アプリのみスクロールに対応"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/zzap/cabinet/n20260713085059/b07cyqpzcq-1.jpg?_ex=500x500",
+          alt: "サンワダイレクト 400-MA097",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "nakabayashi-mus-rit126bk",
+        name: "ナカバヤシ Digio2 MUS-RIT126BK",
+        tagline: "左右ボタンとホイールボタンに静音スイッチを採用した、2.4GHzのシンプルな無線マウス。",
+        shortLabel: "静音 / シンプル",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["静音", "無線", "シンプル"],
+        features: [
+          "USBレシーバーで接続する2.4GHz無線、レシーバーは本体に収納可能",
+          "左右ボタン・ホイールボタンに静音スイッチ、3ボタン構成",
+          "800 / 1200 / 1600dpiの3段階切替、約62g（レシーバー・電池除く）",
+        ],
+        recommendedFor: ["シンプルな静音マウスを探している人", "USBレシーバーを挿すだけで使いたい人"],
+        cautions: ["Bluetooth接続には対応していない", "USB Type-Aポートのない機器では注意が必要"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/rcmdse/cabinet/an205/an-4902205483120.jpg?_ex=500x500",
+          alt: "ナカバヤシ Digio2 MUS-RIT126BK",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "blenck-q23",
+        name: "BLENCK Q23",
+        tagline: "薄型・静音設計で、2.4GHz接続とUSB充電に対応したワイヤレスマウス。",
+        shortLabel: "静音 / 薄型 / 充電式",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["薄型", "静音", "充電式"],
+        features: [
+          "付属のUSBレシーバーによる2.4GHz接続、レシーバーは背面に収納可能",
+          "クリック音を抑えた静音設計（販売元記載）",
+          "USB充電式、充電しながらの使用にも対応",
+        ],
+        recommendedFor: ["薄型のマウスをノートPCと一緒に持ち歩きたい人", "電池交換ではなくUSB充電で使いたい人"],
+        cautions: ["Bluetoothには対応していない（同じ販売ページのB107と型番を確認）", "重量・サイズは販売元ページに数値の記載なし、保証は90日間"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/askrtech/cabinet/09154272/test/q23-0912.jpg?_ex=500x500",
+          alt: "BLENCK Q23",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "sanwa-400-ma124bk",
+        name: "サンワダイレクト 400-MA124BK",
+        tagline: "静音ボタンと戻る/進むボタン、4段階DPIを備えたUSB有線マウス。",
+        shortLabel: "有線 / 静音 / 5ボタン",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["有線", "静音", "5ボタン"],
+        features: [
+          "USB Type-Aで接続する有線マウス（ケーブル約1.5m）",
+          "左右クリックとサイドボタンに静音ボタンを採用",
+          "800 / 1200 / 1600 / 2000count/inchの4段階切替、約85.2g",
+        ],
+        recommendedFor: ["電池や充電を気にせず使いたい人", "有線で静音・5ボタンのマウスを探している人"],
+        cautions: ["Macではサイドボタンが使えず、ホイールボタンを押す操作もサポートされない"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/4/400-ma124bk.jpg?_ex=500x500",
+          alt: "サンワダイレクト 400-MA124BK",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "logicool-g203-bk",
+        name: "Logicool G203 LIGHTSYNC",
+        tagline: "最大8,000DPIのセンサーと6ボタン、LIGHTSYNC RGBを備えたUSB有線ゲーミングマウス。",
+        shortLabel: "ゲーミング / 有線",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["ゲーミング", "有線", "RGB"],
+        features: [
+          "200〜8,000dpi、ボタンで最大5段階の感度切替",
+          "6個のプログラム可能なボタン、USBレポートレート1000Hz",
+          "約1,680万色のLIGHTSYNC RGB、85g（マウスのみ）",
+        ],
+        recommendedFor: ["はじめての有線ゲーミングマウスを探している人", "ボタン割り当てやライティングを設定したい人"],
+        cautions: ["詳細な設定にはロジクールG HUBが必要", "有線接続のためワイヤレスでは使えない"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/g_mice/g203-bk/g203-bk_r1.jpg?_ex=500x500",
+          alt: "Logicool G203 LIGHTSYNC G203-BK",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "ewine-trackball-100938",
+        name: "EWINE系 トラックボールマウス",
+        tagline: "親指で操作するトラックボールに、2.4GHz・Bluetooth接続と3台接続を備えたモデル。",
+        shortLabel: "トラックボール / 複数台接続",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["トラックボール", "3台接続", "静音"],
+        features: [
+          "2.4GHz・Bluetooth 5.0・Bluetooth 3.0に対応、3台同時接続",
+          "200 / 400 / 800 / 1200 / 1600の5段階DPI",
+          "進む・戻るボタンを含む7ボタン、静音設計、約125.5g",
+        ],
+        recommendedFor: ["マウスを動かすスペースが限られるデスクで使いたい人", "複数の機器を切り替えて使いたい人"],
+        cautions: ["進む・戻るボタンはMacでは非対応", "一般的なマウスと操作感が異なり、慣れるまで時間がかかることがある"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/ezone/cabinet/a/100938/100938.jpg?_ex=500x500",
+          alt: "EWINE系 トラックボールマウス 100938",
+          width: 500,
+          height: 500,
+        },
+      },
+      {
+        slug: "pcastore-mini-mouse-10002930",
+        name: "PCASTORE 巻き取り式ミニマウス",
+        tagline: "Type-C版とUSB-A版から選べる、巻き取り式ケーブルの小型有線マウス。",
+        shortLabel: "持ち運び / 有線",
+        priceGuide: "価格は販売ページで確認",
+        tags: ["持ち運び", "有線", "Type-C / USB-A"],
+        features: [
+          "Type-C版とUSB-A版から選べる有線接続",
+          "約70〜80cmの巻き取り式ケーブル",
+          "約4.5 × 2.5 × 7.5cmの小型ボディ、光学式・1000DPI",
+        ],
+        recommendedFor: ["ノートPCと一緒に持ち歩けるマウスを探している人", "充電や電池を気にせず使いたい人"],
+        cautions: ["Type-C版とUSB-A版は別仕様のため購入時に接続端子を確認", "重量・ボタン数・保証期間は販売ページで確認できなかった"],
+        linkLabel: "詳しく見る",
+        image: {
+          src: "https://thumbnail.image.rakuten.co.jp/@0_mall/pcastore/cabinet/pc/ap/10002930_n_01.jpg?_ex=500x500",
+          alt: "PCASTORE 巻き取り式ミニマウス",
+          width: 500,
+          height: 500,
+        },
+      },
+    ],
+    recommendedTitle: "迷ったらどれを選ぶ？",
+    recommendedFor: [
+      "仕事用に接続方式を使い分けたいなら → Logicool Signature M650",
+      "静音でレシーバー不要のシンプルなマウスなら → Logicool M240 Silent Bluetooth Mouse",
+      "横スクロールなど多機能さを求めるなら → サンワダイレクト 400-MAWBT207",
+      "有線で静音・5ボタンを選ぶなら → サンワダイレクト 400-MA124BK",
+      "ゲーム用途で選ぶなら → Logicool G203 LIGHTSYNC",
+      "トラックボールを試すなら → EWINE系 トラックボールマウス",
+      "持ち運び用の有線マウスなら → PCASTORE 巻き取り式ミニマウス",
+    ],
+    summary:
+      "おすすめのマウスは、使う場所と作業内容によって変わります。据え置きで電池や充電を気にしたくないなら有線、配線を減らしたいならワイヤレス、周囲の音が気になるなら静音モデル、ゲームならゲーミングマウス、デスクのスペースが限られるならトラックボールが選びやすいタイプです。この記事は順位付けではなく比較の整理です。仕様の詳細は各単品記事で、最新価格・在庫は販売ページで確認してください。",
+    note: "※価格は変動しやすいため掲載していません。最新価格・在庫は販売ページで確認してください。",
+    ctaLabel: "詳しく見る",
+    featured: true,
+    hideAffiliateCta: true,
+    layout: "roundup",
+  },
   {
     slug: "black-wireless-earbuds",
     title: "黒いワイヤレスイヤホンおすすめ5選｜デザイン・機能で選ぶ",
@@ -327,6 +715,7 @@ export const articles: Article[] = [
     note: "最新価格・在庫・仕様は販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "elecom-m-k6urbk-rs",
@@ -845,6 +1234,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "sanwa-400-mawbt207",
@@ -917,6 +1307,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "nakabayashi-mus-rit126bk",
@@ -985,6 +1376,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・送料は販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "logicool-g203-bk",
@@ -1052,6 +1444,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "logicool-m650mgr",
@@ -1124,6 +1517,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "logicool-m240gr",
@@ -1192,6 +1586,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "ewine-trackball-100938",
@@ -1261,6 +1656,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫・クーポンは販売ページで確認してください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "wayetto-wtms0001",
@@ -1384,6 +1780,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫状況は商品ページをご確認ください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "sanwa-direct-400-ma097",
@@ -1436,6 +1833,7 @@ export const articles: Article[] = [
     note: "最新の価格・在庫状況は商品ページをご確認ください。",
     ctaLabel: "商品を見る",
     featured: true,
+    relatedSlugs: ["mouse-recommendations-10"],
   },
   {
     slug: "refurbished-laptops-5-picks",

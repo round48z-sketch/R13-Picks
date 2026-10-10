@@ -3,6 +3,7 @@ import type {
   ComparisonTable,
   RoundupPick,
   UseCaseBlock,
+  UseCaseGroup,
 } from "@/content/articles";
 
 /** Translatable fields of a roundup pick. Image stays on the base JA article. */
@@ -19,6 +20,7 @@ export type ArticleTranslation = {
   pointsTitle?: string;
   points: string[];
   sections?: { title: string; body: string }[];
+  sectionsTitle?: string;
   design?: string;
   pairing?: string;
   recommendedTitle?: string;
@@ -34,8 +36,10 @@ export type ArticleTranslation = {
   picks?: RoundupPickTranslation[];
   pickFeaturesLabel?: string;
   pickRecommendedLabel?: string;
+  pickCautionLabel?: string;
   useCasesTitle?: string;
   useCases?: UseCaseBlock[];
+  useCaseGroups?: UseCaseGroup[];
 };
 
 export type LocalizedArticle = Article;
