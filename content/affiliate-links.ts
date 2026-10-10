@@ -7,6 +7,16 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "olevs-os2892":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fidealstore%2Fos2892%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fidealstore%2Fi%2F10002894%2F",
+  "salvatore-marra-sm16110":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fcameron%2Fsm13102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcameron%2Fi%2F10008499%2F",
+  "seiko-prospex-sbej029":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fnanaple%2Fsbej029%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnanaple%2Fi%2F10152095%2F",
+  "spqr-ventuno-pr":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Ff202045-okaya%2Fo-019025%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ff202045-okaya%2Fi%2F10000323%2F",
+  "rolex-submariner-16610-u-16610-14":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-rasin%2Fu-16610-14%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-rasin%2Fi%2F10042926%2F",
   "pcastore-mini-mouse-10002930":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcastore%2F10002930%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcastore%2Fi%2F10006553%2F",
   "elecom-m-k6urbk-rs":
