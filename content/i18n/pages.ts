@@ -160,8 +160,8 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
       {
         title: "アフィリエイト広告",
         body: [
-          "当サイトでは、アフィリエイト広告を利用しています。商品リンク経由で購入された場合、当サイトが紹介料を受け取ることがあります。",
-          "Amazonのアソシエイトとして、R13 Picksは適格販売により収入を得ています。",
+          "当サイトでは、A8.net、もしもアフィリエイトなどのアフィリエイトサービスを利用しています。商品リンク経由で購入された場合、当サイトが紹介料を受け取ることがあります。",
+          "楽天市場の商品リンクには、もしもアフィリエイトを経由した楽天アフィリエイトのリンクを使用しています。",
         ],
       },
       {
@@ -187,8 +187,8 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
       {
         title: "Affiliate advertising",
         body: [
-          "This site uses affiliate advertising. If a purchase is made through a product link, this site may earn a commission.",
-          "As an Amazon Associate, R13 Picks earns from qualifying purchases.",
+          "This site uses affiliate services such as A8.net and Moshimo Affiliate. If a purchase is made through a product link, this site may earn a commission.",
+          "Product links to Rakuten Ichiba are Rakuten affiliate links provided through Moshimo Affiliate.",
         ],
       },
       {
@@ -214,8 +214,8 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
       {
         title: "제휴 광고",
         body: [
-          "본 사이트는 제휴 광고를 이용합니다. 제품 링크를 통해 구매가 이루어지면 본 사이트가 소개 수수료를 받을 수 있습니다.",
-          "Amazon 어소시에이트로서 R13 Picks는 적격 판매를 통해 수입을 얻고 있습니다.",
+          "본 사이트는 A8.net, 모시모 어필리에이트(もしもアフィリエイト) 등의 제휴 서비스를 이용합니다. 제품 링크를 통해 구매가 이루어지면 본 사이트가 소개 수수료를 받을 수 있습니다.",
+          "라쿠텐 시장(Rakuten Ichiba)의 제품 링크에는 모시모 어필리에이트를 경유한 라쿠텐 제휴 링크를 사용합니다.",
         ],
       },
       {
@@ -240,8 +240,8 @@ export const affiliatePages: Record<Locale, StaticPageCopy> = {
       {
         title: "联盟广告",
         body: [
-          "本站使用联盟广告。通过商品链接产生购买时，本站可能获得介绍佣金。",
-          "作为 Amazon 联盟会员，R13 Picks 通过符合条件的销售获得收入。",
+          "本站使用 A8.net、Moshimo Affiliate（もしもアフィリエイト）等联盟服务。通过商品链接产生购买时，本站可能获得介绍佣金。",
+          "乐天市场（Rakuten Ichiba）的商品链接使用经由 Moshimo Affiliate 提供的乐天联盟链接。",
         ],
       },
       {
