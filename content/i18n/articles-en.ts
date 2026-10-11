@@ -1,6 +1,149 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "radio-solar-watch-recommendations-3": {
+    title: "Best Radio-Controlled Solar Watches: 3 Practical Picks That Make Setting the Time Easier",
+    seoTitle: "Best Radio-Controlled Solar Watches: 3 Practical Picks That Make Setting the Time Easier | R13 Picks",
+    description:
+      "3 recommended radio-controlled solar watches compared from R13 Picks product articles. Men’s watches that receive time signals to correct the time automatically and charge from light are organized by radio reception, water resistance, case size, band material, and use case.",
+    productType: "Comparison / roundup",
+    excerpt: "3 watches with radio reception and solar charging compared, for work, everyday wear, and outdoor use.",
+    intro:
+      "A radio-controlled solar watch combines a function that receives time signals to correct the time automatically with solar charging from light. It can reduce the effort of setting the time and of routine battery replacement. This article selects 3 watches covered on R13 Picks whose sales pages list both radio reception and solar power, and organizes them with a comparison table and use-case recommendations. From a chronograph for work to a model with interchangeable bands and a military design that suits outdoor wear, use it as a reference when choosing a men’s radio-controlled solar watch.",
+    points: [],
+    overviewTitle: "Models in this guide",
+    comparisonTable: {
+      title: "3 radio-controlled solar watches comparison",
+      headers: ["Product", "Radio reception", "Movement", "Case size", "Water resistance", "Weight", "Key features", "Best for"],
+      rows: [
+        ["Salvatore Marra SM16110", "Yes (automatic reception)", "Solar", "Approx. H44 × W44 × D15mm", "10 ATM", "Approx. 136g", "Chronograph, 24-hour counter, day-of-week calendar, stainless steel × rubber band", "Work / features"],
+        ["Salvatore Marra SM15116", "Yes", "Solar", "Approx. 42mm (approx. 15mm thick)", "Everyday water resistance", "Check the sales page", "Set with interchangeable leather and metal bands, day-of-week calendar, 24-hour display", "Work / everyday"],
+        ["LAD WEATHER LAD017", "Yes (2 Japanese stations, automatic / forced reception)", "Solar charging", "Approx. 43mm (approx. 12mm thick)", "100m", "Approx. 72g", "Perpetual calendar, luminous hands, nylon band", "Everyday / outdoor"],
+      ],
+    },
+    useCaseGroups: [
+      {
+        title: "For work",
+        body: "For a work watch to wear with suits or smarter outfits, the Salvatore Marra SM16110 and SM15116 are candidates. The SM16110 pairs an approx. 44mm case with a chronograph and a stainless steel × rubber combination band, and the sales page presents it as a design that is easy to use in business settings. The SM15116 is a set that comes with both a metal band and a leather band, so you can change the look to suit the occasion.",
+        productSlugs: ["salvatore-marra-sm16110", "salvatore-marra-sm15116"],
+      },
+      {
+        title: "For everyday wear",
+        body: "For a radio-controlled solar watch to wear every day, there are the SM15116 and the LAD WEATHER LAD017. The SM15116 is a set that makes it easy to swap between leather and metal bands to match your outfit. The LAD017 is relatively light at approx. 72g and has a casual military design with a nylon band.",
+        productSlugs: ["salvatore-marra-sm15116", "lad-weather-lad017"],
+      },
+      {
+        title: "For outdoor-leaning use",
+        body: "If you also plan to wear it outdoors, the LAD WEATHER LAD017 is a candidate. It has 100m water resistance and a screw caseback, with a military design featuring a nylon band and luminous hands. It receives 2 Japanese stations and can correct the time by automatic or forced reception. However, the listing states that the time cannot be corrected using the crown, so check this in advance if you plan to use it where signals are hard to receive.",
+        productSlugs: ["lad-weather-lad017"],
+      },
+      {
+        title: "If features matter",
+        body: "If you want features on top of radio-controlled solar, there is the Salvatore Marra SM16110. It has a chronograph (60-second and 60-minute counters), a 24-hour counter, and a day-of-week calendar, and it is the only one of the 3 with a 10 ATM water resistance rating. The case is on the larger side at approx. 44mm and it weighs approx. 136g, so check the size in the sales page photos.",
+        productSlugs: ["salvatore-marra-sm16110"],
+      },
+    ],
+    sectionsTitle: "Radio-controlled solar watch basics and how to choose",
+    sections: [
+      {
+        title: "What is a radio-controlled solar watch?",
+        body: "A radio-controlled solar watch has the functions of both a \"radio-controlled watch,\" which receives time signals to correct the time automatically, and a \"solar watch,\" which charges from light. Where signals can be received, it can reduce the effort of setting the time. And because it runs on light-charged power, it can also reduce the effort of routine battery replacement compared with a typical battery-powered watch.",
+      },
+      {
+        title: "Radio reception",
+        body: "Radio reception specs differ by model. It is worth checking which reception methods are supported, such as automatic reception at set times or forced reception at any time you choose. Among these 3, the LAD017 is listed as receiving 2 Japanese stations with automatic and forced reception, and the SM16110 as supporting automatic reception. Whether signals can be received depends on where you use it, such as inside buildings or in the surrounding environment.",
+      },
+      {
+        title: "Solar charging",
+        body: "A solar watch runs on charge from light falling on the dial. Wearing and storing it where it gets light is the key to keeping it charged. Charging guidelines and how the watch behaves when its charge runs low differ by model, so check the instruction manual.",
+      },
+      {
+        title: "Case size and weight",
+        body: "Around 40mm is a common case size, and 44mm or more tends to look large. The 3 watches here range from approx. 42mm to approx. 44mm. Weight varies from approx. 72g for the LAD017 with a nylon band to approx. 136g for the SM16110 with a stainless steel × rubber band. Choosing between lightness and a more substantial feel is one way to decide.",
+      },
+      {
+        title: "Water resistance",
+        body: "The 3 watches have different water resistance ratings: everyday water resistance, 10 ATM, and 100m. Everyday water resistance is intended for routine exposure such as sweat and rain, so if you plan to work with water or use the watch underwater, check models with more margin and the precautions in the instruction manual.",
+      },
+      {
+        title: "Band material",
+        body: "Metal bands pair easily with business wear, leather gives a calmer impression, and nylon stands out for lightness and a casual feel. A stainless steel × rubber combination band combines the texture of metal with the softness of rubber. With a set that includes two bands, like the SM15116, you can swap them to suit the occasion.",
+      },
+      {
+        title: "Everyday, business, outdoor, and design",
+        body: "For business, a calm design with a metal or leather band; for everyday wear, comfort and lightness; and for outdoor use, water resistance and easy-care materials such as nylon bands are key points. A chronograph looks sporty and substantial, while a military design looks casual. When choosing a men’s radio-controlled watch, thinking about how the design matches where you will wear it makes the choice easier.",
+      },
+      {
+        title: "Things to keep in mind",
+        body: "Even a radio-controlled solar watch may not correct the time automatically in places where signals are hard to receive. And while solar watches can reduce the effort of routine battery replacement, that does not mean the internal rechargeable battery and parts never need replacing. For long-term use, check the reception methods and charging precautions in the instruction manual. Some models, like the LAD017, cannot have the time corrected using the crown, so it is also worth checking how time setting works before buying.",
+      },
+    ],
+    picksTitle: "Product details",
+    pickFeaturesLabel: "Key features",
+    pickRecommendedLabel: "Recommended for",
+    pickCautionLabel: "Notes",
+    picks: [
+      {
+        slug: "salvatore-marra-sm16110",
+        name: "Salvatore Marra SM16110",
+        tagline: "A radio-controlled solar watch with automatic reception, 10 ATM water resistance, a chronograph, and a combination band.",
+        shortLabel: "Work / features",
+        priceGuide: "Check price on the store page",
+        tags: ["Radio-controlled solar", "10 ATM", "Chronograph"],
+        features: [
+          "Solar powered, supports radio time-signal reception and automatic reception",
+          "10 ATM water resistance, chronograph (60-second and 60-minute counters), 24-hour counter, day-of-week calendar",
+          "Approx. H44 × W44 × D15mm stainless steel case, stainless steel × rubber band, approx. 136g",
+        ],
+        recommendedFor: ["People looking for a radio-controlled solar chronograph that also works for business", "People who want a model with some margin in water resistance"],
+        cautions: ["The case is on the larger side, so check the balance with your wrist in the photos", "Whether signals can be received depends on the location and environment"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "salvatore-marra-sm15116",
+        name: "Salvatore Marra SM15116",
+        tagline: "An approx. 42mm radio-controlled solar watch that comes with both leather and metal bands.",
+        shortLabel: "Work / interchangeable band",
+        priceGuide: "Check price on the store page",
+        tags: ["Radio-controlled solar", "Interchangeable band", "Business"],
+        features: [
+          "Solar powered, supports radio time-signal reception",
+          "Day-of-week calendar, 24-hour display, 60-minute totalizer, approx. 42mm stainless steel case, mineral crystal glass",
+          "Two bands, leather and metal (band removal tool included), everyday water resistance",
+        ],
+        recommendedFor: ["People who want to swap bands between work and everyday wear", "People looking for a radio-controlled solar men’s watch"],
+        cautions: ["Water resistance is listed as everyday water resistance", "Whether signals can be received depends on the location and environment"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "lad-weather-lad017",
+        name: "LAD WEATHER LAD017",
+        tagline: "A military watch with a nylon band, radio-controlled solar receiving 2 Japanese stations, and 100m water resistance.",
+        shortLabel: "Everyday / outdoor",
+        priceGuide: "Check price on the store page",
+        tags: ["Radio-controlled solar", "100m water resistance", "Military"],
+        features: [
+          "Solar charging, radio reception (2 Japanese stations), automatic / forced reception, reception result check",
+          "100m water resistance, screw caseback, perpetual calendar, luminous hands",
+          "Approx. 43mm stainless steel case, nylon band, approx. 72g, 5 colors",
+        ],
+        recommendedFor: ["People looking for a radio-controlled solar watch for both everyday and outdoor wear", "People who want a lighter watch"],
+        cautions: ["The time cannot be corrected using the crown", "Whether signals can be received depends on the location and environment"],
+        linkLabel: "Read more",
+      },
+    ],
+    recommendedTitle: "Not sure which to choose?",
+    recommendedFor: [
+      "For work with an emphasis on features → Salvatore Marra SM16110",
+      "To swap bands between work and everyday wear → Salvatore Marra SM15116",
+      "For everyday or outdoor wear with an emphasis on lightness → LAD WEATHER LAD017",
+    ],
+    summary:
+      "A radio-controlled solar watch is a practical solar watch that can reduce the effort of setting the time and of routine battery replacement. The SM16110 is an easy pick for work with an emphasis on features, the SM15116 for swapping bands between work and everyday wear, and the LAD017 for everyday or outdoor wear with an emphasis on lightness. To compare recommended watches including other types and brands, see \"Best Men’s Watches: 10 Picks Compared\"; to keep costs down, also see \"Best Men’s Watches Under 10,000 Yen.\" Check each product article for detailed specs, and the store page for the latest price and stock.",
+    note: "*Whether signals can be received depends on the location and environment. Prices are not listed because they change often. Check the store page for the latest price and stock.",
+    ctaLabel: "Read more",
+    imageAlt: "Thumbnail for 3 recommended radio-controlled solar watches",
+  },
   "mens-watch-under-10000-recommendations-4": {
     title: "Best Men’s Watches Under 10,000 Yen: 4 Affordable, Good-Looking Picks Compared",
     seoTitle: "Best Men’s Watches Under 10,000 Yen: 4 Affordable, Good-Looking Picks Compared | R13 Picks",
