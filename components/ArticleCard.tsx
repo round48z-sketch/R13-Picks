@@ -40,6 +40,7 @@ export function ArticleCard({ article, locale = "ja" }: ArticleCardProps) {
             alt={thumbnail.alt}
             fill
             sizes="(max-width: 979px) 92vw, 420px"
+            unoptimized={thumbnail.src.includes("thumbnail.image.rakuten.co.jp/@0_gold/")}
             style={
               isRoundupCollage
                 ? { objectFit: "contain", objectPosition: "center" }
