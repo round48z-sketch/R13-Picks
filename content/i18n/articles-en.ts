@@ -1,6 +1,168 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsEn: Record<string, ArticleTranslation> = {
+  "mens-watch-under-10000-recommendations-4": {
+    title: "Best Men’s Watches Under 10,000 Yen: 4 Affordable, Good-Looking Picks Compared",
+    seoTitle: "Best Men’s Watches Under 10,000 Yen: 4 Affordable, Good-Looking Picks Compared | R13 Picks",
+    description:
+      "4 men’s watches you can choose for under 10,000 yen, selected from R13 Picks product articles. Chronograph, radio-controlled solar, and digital models with an altimeter are compared by design, water resistance, features, and use case, with tips for choosing an affordable men’s watch.",
+    productType: "Comparison / roundup",
+    excerpt: "4 men’s watches under 10,000 yen compared, from chronographs and radio-controlled solar to outdoor digital models.",
+    intro:
+      "Even among men’s watches under 10,000 yen, there is a surprisingly wide range of designs and features, including chronographs, radio-controlled solar models, and digital watches with an altimeter and compass. This article selects 4 watches covered on R13 Picks whose sales pages showed a selling price of 10,000 yen or less at the time of writing, and organizes them with a comparison table and use-case recommendations. Rather than simply lining up the cheapest options, it is a guide to choosing an affordable men’s watch that suits you by comparing looks, water resistance, features, and where you will wear it. Prices change, so check the sales page for the latest price.",
+    points: [],
+    overviewTitle: "Models in this guide",
+    comparisonTable: {
+      title: "4 men’s watches under 10,000 yen comparison",
+      headers: ["Product", "Movement", "Case size", "Water resistance", "Key features", "Best for", "Price"],
+      rows: [
+        ["OLEVS os2892", "Quartz", "Approx. 42mm", "30m rating (everyday water resistance)", "Chronograph, sun & moon display, metal band, 7 colors", "Looks / everyday", "Selling price of 10,000 yen or less confirmed at the time of writing"],
+        ["MINIFOCUS men’s chronograph watch", "Quartz (battery)", "Dial diameter approx. 46mm", "3 ATM", "Chronograph, calendar, rubber band", "Chronograph / casual", "Selling price of 10,000 yen or less confirmed at the time of writing"],
+        ["LAD WEATHER LAD017", "Radio-controlled solar (2 Japanese stations)", "Approx. 43mm", "100m", "Military design, nylon band, approx. 72g", "Everyday / outdoor", "Selling price of 10,000 yen or less confirmed at the time of writing"],
+        ["LAD WEATHER LAD024", "Battery (digital)", "Approx. 46 × 46 × 15mm", "100m", "Altimeter, barometer, digital compass, approx. 65g", "Outdoor / lightweight", "Selling price of 10,000 yen or less confirmed at the time of writing (varies by color)"],
+      ],
+    },
+    useCaseGroups: [
+      {
+        title: "If looks come first",
+        body: "If you are looking for a good-looking watch at an affordable price, the OLEVS os2892 is a candidate. It pairs an approx. 42mm case and metal band with a dial that combines a chronograph and a sun & moon display, and it comes in 7 colors. Its water resistance is a 30m rating (everyday water resistance), so it is not suitable for underwater use or bathing.",
+        productSlugs: ["olevs-os2892"],
+      },
+      {
+        title: "For a chronograph",
+        body: "For an affordable men’s watch with a chronograph, there are the MINIFOCUS and the OLEVS. The MINIFOCUS has a sporty design that pairs a large face with an approx. 46mm dial diameter and a rubber band, with 3 ATM water resistance and a calendar. The OLEVS has a metal band and also features a sun & moon display and a 24-hour indicator.",
+        productSlugs: ["minifocus-10003862", "olevs-os2892"],
+      },
+      {
+        title: "For everyday wear",
+        body: "For a watch to wear every day, the LAD WEATHER LAD017 is a candidate. It combines solar charging from light with radio reception that sets the time by receiving time signals (2 Japanese stations), and it has 100m water resistance. However, the listing states that the time cannot be corrected using the crown. Whether signals can be received depends on the location and environment.",
+        productSlugs: ["lad-weather-lad017"],
+      },
+      {
+        title: "For outdoor use",
+        body: "For mountain climbing, camping, or running, there are two LAD WEATHER models. The LAD024 is a 100m water-resistant digital watch with an altimeter, barometer, and digital compass using a German-made sensor, and the LAD017 is a radio-controlled solar watch with 100m water resistance and a nylon band. Displayed values may vary depending on the environment, so treat them as functions based on the sales page specs.",
+        productSlugs: ["lad-weather-lad024", "lad-weather-lad017"],
+      },
+      {
+        title: "For light weight and practicality",
+        body: "If light weight matters, the LAD WEATHER LAD024 at approx. 65g and the LAD017 at approx. 72g are candidates. The LAD024 has functions that are also useful day to day, such as step, distance, speed, and calorie tracking, world time, and alarms, while the LAD017 has a perpetual calendar and luminous hands.",
+        productSlugs: ["lad-weather-lad024", "lad-weather-lad017"],
+      },
+    ],
+    sectionsTitle: "How to choose a men’s watch under 10,000 yen",
+    sections: [
+      {
+        title: "Quartz, solar, and digital",
+        body: "In the under-10,000-yen price range, battery-powered quartz watches are the mainstay, and some quartz models also have features such as a chronograph. Solar watches charge from light, and radio-controlled solar models that also receive time signals reduce the need to set the time. Digital watches show the time in numbers, and some are multifunction models with an altimeter or compass.",
+      },
+      {
+        title: "Case size",
+        body: "Around 40mm is a common case size, and 44mm or more tends to look large. The 4 watches here range from approx. 42mm to approx. 46mm, and the MINIFOCUS with an approx. 46mm dial diameter and the LAD024 at approx. 46 × 46mm have a bold presence. Check your wrist size alongside the photos on the sales page.",
+      },
+      {
+        title: "Water resistance",
+        body: "Even among affordable men’s watches, water resistance varies greatly by model. The 4 watches here range from a 30m rating (everyday water resistance) to 3 ATM and 100m. Just as a 30m rating can still be limited to everyday water resistance, the number does not directly mean a usable depth. If you will use a watch around water, check the instruction manual and the precautions on the sales page.",
+      },
+      {
+        title: "Band material",
+        body: "Metal bands pair easily with smarter outfits and business wear, while rubber and nylon stand out for lightness and ease with sweat and water. Among these 4, the OLEVS has a metal band, the MINIFOCUS a rubber band, the LAD017 a nylon band, and the LAD024 a polyurethane band.",
+      },
+      {
+        title: "Chronograph and other features",
+        body: "A chronograph lets you time elapsed periods, and a dial lined with subdials gives a sporty impression. Other features vary by model, such as a calendar, sun & moon display, radio reception, and an altimeter, barometer, and compass. Too many unused features can make operation complicated, so it is a good idea to narrow down the features you actually need.",
+      },
+      {
+        title: "Design",
+        body: "Even when choosing a good-value watch, design affects how satisfied you are every day. A metal-band chronograph looks smart, a large face on a rubber band looks sporty, a nylon band looks military, and a digital watch leans outdoor. For models with multiple colors, check the color combinations in the sales page photos.",
+      },
+      {
+        title: "Everyday, work, or outdoor",
+        body: "For everyday wear, readability and comfort matter; for work, a calm design such as a metal band; and for outdoor use, water resistance, light weight, and functions such as an altimeter or compass. If you want one watch for a wide range of uses, choosing a model with some margin in water resistance makes it less dependent on the situation.",
+      },
+    ],
+    picksTitle: "Product details",
+    pickFeaturesLabel: "Key features",
+    pickRecommendedLabel: "Recommended for",
+    pickCautionLabel: "Notes",
+    picks: [
+      {
+        slug: "olevs-os2892",
+        name: "OLEVS os2892",
+        tagline: "A metal-band watch combining a chronograph and a sun & moon display, available in 7 colors.",
+        shortLabel: "Looks / metal band",
+        priceGuide: "Check price on the store page",
+        tags: ["Quartz", "Sun & moon", "Metal band"],
+        features: [
+          "Quartz, approx. 42mm case (excluding crown), approx. 11mm thick, approx. 130g",
+          "Chronograph, sun & moon display, 24-hour indicator, date display, luminous finish",
+          "30m rating (everyday water resistance), adjustment tool and dedicated box included, 7 colors",
+        ],
+        recommendedFor: ["People who want a good-looking watch even at an affordable price", "People looking for a metal-band chronograph watch"],
+        cautions: ["The 30m rating is the everyday water resistance standard; not suitable for underwater use or bathing", "The instruction manual is provided online; no printed manual is included"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "minifocus-10003862",
+        name: "MINIFOCUS men’s chronograph watch",
+        tagline: "A quartz watch with a rubber band, combining a chronograph and calendar on a large face with an approx. 46mm dial diameter.",
+        shortLabel: "Chronograph / rubber band",
+        priceGuide: "Check price on the store page",
+        tags: ["Quartz", "Chronograph", "Rubber band"],
+        features: [
+          "Quartz (battery powered), chronograph and calendar functions",
+          "Dial diameter approx. 46mm (excluding crown), case thickness approx. 12mm, rubber band",
+          "3 ATM water resistance, Hardlex glass, genuine case and Japanese instruction manual, 1-year warranty",
+        ],
+        recommendedFor: ["People looking for a chronograph watch under 10,000 yen", "People who like a sporty design with a large face"],
+        cautions: ["Check the instruction manual for the scope of water resistance", "The dial is large, so check the balance with your wrist in the photos"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "lad-weather-lad017",
+        name: "LAD WEATHER LAD017",
+        tagline: "A military watch with a nylon band, radio-controlled solar receiving 2 Japanese stations, and 100m water resistance.",
+        shortLabel: "Radio solar / everyday",
+        priceGuide: "Check price on the store page",
+        tags: ["Radio-controlled solar", "100m water resistance", "Military"],
+        features: [
+          "Solar charging, radio reception (2 Japanese stations), automatic / forced reception, perpetual calendar",
+          "100m water resistance, screw caseback, luminous hands",
+          "Approx. 43mm stainless steel case, nylon band, approx. 72g, 5 colors",
+        ],
+        recommendedFor: ["People who want an everyday watch that rarely needs setting", "People who like a military design that also suits outdoor wear"],
+        cautions: ["The time cannot be corrected using the crown", "Whether signals can be received depends on the location and environment"],
+        linkLabel: "Read more",
+      },
+      {
+        slug: "lad-weather-lad024",
+        name: "LAD WEATHER LAD024",
+        tagline: "A 100m water-resistant digital outdoor watch with an altimeter, barometer, and digital compass.",
+        shortLabel: "Outdoor / lightweight",
+        priceGuide: "Check price on the store page",
+        tags: ["Digital", "Altimeter / barometer", "100m water resistance"],
+        features: [
+          "German-made sensor; altimeter, barometer, digital compass, temperature display, weather forecast",
+          "Step, distance, speed, and calorie tracking, world time, EL backlight",
+          "100m water resistance, approx. 46 × 46 × 15mm case, approx. 65g, battery powered, 16 color patterns",
+        ],
+        recommendedFor: ["People looking for a multifunction watch for mountain climbing, hiking, or camping", "People who want a lightweight digital watch"],
+        cautions: ["Values such as altitude, air pressure, and weather forecast may vary depending on the environment", "The selling price differs by color, so check the price of your chosen color on the sales page"],
+        linkLabel: "Read more",
+      },
+    ],
+    recommendedTitle: "Not sure which to choose?",
+    recommendedFor: [
+      "For looks and a metal band → OLEVS os2892",
+      "For a sporty chronograph → MINIFOCUS men’s chronograph watch",
+      "For radio-controlled solar that rarely needs setting → LAD WEATHER LAD017",
+      "For a digital watch with altimeter, barometer, and compass → LAD WEATHER LAD024",
+    ],
+    summary:
+      "Even among men’s watches under 10,000 yen, the best fit depends on design, water resistance, and features. The OLEVS os2892 is an easy pick for looks, the MINIFOCUS for a sporty chronograph, the LAD WEATHER LAD017 for everyday radio-controlled solar, and the LAD024 for outdoor use or light weight. If you want to compare beyond price, including radio-controlled solar, outdoor, and brand watches, also see the parent guide \"Best Men’s Watches: 10 Picks Compared.\" These 4 models showed a selling price of 10,000 yen or less at the time of writing, but prices change, so check the sales page for the latest price.",
+    note: "*These products showed a selling price of 10,000 yen or less (before coupons) on their sales pages at the time of writing. Prices change, so check the store page for the latest price and stock.",
+    ctaLabel: "Read more",
+    imageAlt: "Thumbnail for 4 recommended men’s watches under 10,000 yen",
+  },
   "mens-watch-recommendations-10": {
     title: "Best Men’s Watches: 10 Picks Compared — Affordable, Radio-Controlled Solar, Outdoor & Brand",
     seoTitle: "Best Men’s Watches: 10 Picks Compared — Affordable, Radio-Controlled Solar, Outdoor & Brand | R13 Picks",
