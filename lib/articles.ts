@@ -35,6 +35,7 @@ const popularGuideSlugs = [
   "mouse-recommendations-10",
   "wired-mouse-recommendations-5",
   "silent-mouse-recommendations-5",
+  "gadgets-under-10000-recommendations-10",
 ] as const;
 
 export function getPopularGuideArticles() {
