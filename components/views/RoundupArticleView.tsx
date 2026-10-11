@@ -168,6 +168,7 @@ export function RoundupArticleView({
                       height={pick.image.height || 400}
                       priority={index < 7}
                       sizes="(max-width: 768px) 110px, 150px"
+                      unoptimized={pick.image.src.includes("thumbnail.image.rakuten.co.jp/@0_gold/")}
                       className="roundup-hero__strip-img"
                     />
                   </div>
@@ -218,6 +219,7 @@ export function RoundupArticleView({
                       alt={pick.image.alt}
                       fill
                       sizes="(max-width: 720px) 45vw, 180px"
+                      unoptimized={pick.image.src.includes("thumbnail.image.rakuten.co.jp/@0_gold/")}
                       style={{ objectFit: "cover" }}
                     />
                   </div>
@@ -283,6 +285,7 @@ export function RoundupArticleView({
                         alt={pick.image.alt}
                         fill
                         sizes="(max-width: 720px) 100vw, 280px"
+                        unoptimized={pick.image.src.includes("thumbnail.image.rakuten.co.jp/@0_gold/")}
                         style={{ objectFit: "cover" }}
                       />
                     )}
