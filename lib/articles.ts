@@ -29,6 +29,8 @@ const popularGuideSlugs = [
   "mens-watch-recommendations-10",
   "mens-watch-under-10000-recommendations-4",
   "radio-solar-watch-recommendations-3",
+  "outdoor-watch-recommendations-2",
+  "black-watch-recommendations-6",
   "black-wireless-earbuds",
   "mouse-recommendations-10",
   "wired-mouse-recommendations-5",
