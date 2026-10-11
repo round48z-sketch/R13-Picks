@@ -7,6 +7,16 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "coach-perry-14503258":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fnopple%2F14503258%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnopple%2Fi%2F10013462%2F",
+  "minifocus-10003862":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fparisrose%2F10003862%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fparisrose%2Fi%2F10003862%2F",
+  "lad-weather-lad024":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fvanilla-vague%2Flad024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvanilla-vague%2Fi%2F10521138%2F",
+  "lad-weather-lad017":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fvanilla-vague%2Flad017%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvanilla-vague%2Fi%2F10520677%2F",
+  "salvatore-marra-sm15116":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fhstyle%2Fitem-51720%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhstyle%2Fi%2F10160684%2F",
   "olevs-os2892":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fidealstore%2Fos2892%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fidealstore%2Fi%2F10002894%2F",
   "salvatore-marra-sm16110":
