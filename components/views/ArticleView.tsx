@@ -29,7 +29,7 @@ export function ArticleView({ slug, locale }: { slug: string; locale: Locale }) 
   const article = localizeArticle(base, locale);
   const ui = getUi(locale);
   const category = getArticleCategory(article);
-  const related = getRelatedArticles(article).map((item) => localizeArticle(item, locale));
+  const related = getRelatedArticles(article, Math.max(2, base.relatedSlugs?.length ?? 0)).map((item) => localizeArticle(item, locale));
   const hero = getArticleHero(article);
   const a8ProductLinkHtml =
     getA8ProductLinkHtml(article.slug) ?? getMoshimoProductLinkHtml(article.slug);
