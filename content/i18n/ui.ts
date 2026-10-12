@@ -24,6 +24,8 @@ export type UiMessages = {
   popularGuidesLead: string;
   popularGuidesKind: string;
   popularGuidesCta: string;
+  popularGuidesMore: string;
+  popularGuidesTabsAria: string;
   prNote: string;
   featuresFallback: string;
   designTitle: string;
@@ -75,6 +77,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
       "用途・価格・特徴を比べながら、自分に合う候補を見つけるための比較ガイドです。",
     popularGuidesKind: "Guide",
     popularGuidesCta: "比較記事を見る →",
+    popularGuidesMore: "もっと見る →",
+    popularGuidesTabsAria: "Popular Guidesのカテゴリ切り替え",
     prNote: "PR｜この記事にはアフィリエイト広告を含みます",
     featuresFallback: "商品の特徴",
     designTitle: "デザインについて",
@@ -124,6 +128,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
       "Compare use, price, and features to find options that fit you.",
     popularGuidesKind: "Guide",
     popularGuidesCta: "View guide →",
+    popularGuidesMore: "View more →",
+    popularGuidesTabsAria: "Popular Guides category tabs",
     prNote: "PR｜This article contains affiliate links",
     featuresFallback: "Product highlights",
     designTitle: "Design",
@@ -173,6 +179,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
       "용도·가격·특징을 비교하며 나에게 맞는 후보를 찾는 비교 가이드입니다.",
     popularGuidesKind: "Guide",
     popularGuidesCta: "비교 기사 보기 →",
+    popularGuidesMore: "더 보기 →",
+    popularGuidesTabsAria: "Popular Guides 카테고리 전환",
     prNote: "PR｜이 기사에는 제휴 광고가 포함되어 있습니다",
     featuresFallback: "제품 특징",
     designTitle: "디자인",
@@ -222,6 +230,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
       "对照用途、价格与特点，找到更适合自己的候选——比较指南。",
     popularGuidesKind: "Guide",
     popularGuidesCta: "查看比较文章 →",
+    popularGuidesMore: "查看更多 →",
+    popularGuidesTabsAria: "Popular Guides 分类切换",
     prNote: "PR｜本文包含联盟营销链接",
     featuresFallback: "产品要点",
     designTitle: "关于设计",
