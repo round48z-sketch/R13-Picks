@@ -7,6 +7,16 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "ugreen-nexode-65w-35530":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fugreen-gear%2F35530%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fugreen-gear%2Fi%2F10000948%2F",
+  "elecom-mpa-accp20wf":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4549550215053-45-46775-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F13185027%2F",
+  "case-by-case-fast-charging-cable-1000":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fcase-by-case%2F1000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcase-by-case%2Fi%2F10002065%2F",
+  "anker-powerport-iii-3-port-65w-pod-a2667":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa2667%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fanker%2Fi%2F10001085%2F",
+  "ugreen-65w-gan-charger-10334":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fugreen-gear%2F10334%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fugreen-gear%2Fi%2F10000220%2F",
   "coach-perry-14503258":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fnopple%2F14503258%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnopple%2Fi%2F10013462%2F",
   "minifocus-10003862":
