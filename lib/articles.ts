@@ -40,6 +40,7 @@ const popularGuideTabs: { category: CategorySlug; slugs: string[] }[] = [
     slugs: [
       "work-gadgets-recommendations-10",
       "gadgets-under-10000-recommendations-10",
+      "65w-usb-c-charger-recommendations-5",
       "mouse-recommendations-10",
       "refurbished-laptops-5-picks",
       "wired-mouse-recommendations-5",
