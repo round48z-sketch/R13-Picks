@@ -1200,6 +1200,44 @@ h3 {
   margin-top: 16px;
 }
 
+/* Keeps many-column comparison tables readable; overflow scrolls inside .article-table-scroll */
+.roundup-table th,
+.roundup-table td {
+  min-width: 112px;
+}
+
+.roundup-table th:first-child,
+.roundup-table td:first-child {
+  min-width: 160px;
+}
+
+.roundup-compare .article-table-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+}
+
+.roundup-compare .article-table-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.roundup-compare .article-table-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+}
+
+.roundup-compare .article-table-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.roundup-compare--scroll .roundup-compare__desktop {
+  display: block;
+  margin-top: 16px;
+}
+
+.roundup-compare--scroll .roundup-compare__mobile {
+  display: none;
+}
+
 .roundup-compare-card {
   border: 1px solid var(--line);
   padding: 16px;

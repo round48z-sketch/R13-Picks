@@ -62,6 +62,7 @@ export function RoundupArticleView({
     article.slug === "mouse-recommendations-10" ||
     article.slug === "wired-mouse-recommendations-5" ||
     article.slug === "silent-mouse-recommendations-5";
+  const isScrollTableOnMobile = article.slug === "65w-usb-c-charger-recommendations-5";
   const roundupPageClass = isFivePicksRoundup
     ? "article-page article-page--roundup roundup-page roundup-page--picks-5"
     : "article-page article-page--roundup roundup-page";
@@ -99,7 +100,10 @@ export function RoundupArticleView({
 
   const tableBlock =
     table ? (
-      <section className="roundup-compare" aria-labelledby="roundup-compare-heading">
+      <section
+        className={isScrollTableOnMobile ? "roundup-compare roundup-compare--scroll" : "roundup-compare"}
+        aria-labelledby="roundup-compare-heading"
+      >
         {table.title ? <h2 id="roundup-compare-heading">{table.title}</h2> : null}
 
         <div className="roundup-compare__desktop">
