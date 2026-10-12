@@ -7,6 +7,8 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "elecom-ec-ac8565wh-65w-charger":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Felecom%2F4549550305549%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Felecom%2Fi%2F10064053%2F",
   "ugreen-55897-65w-retractable-charger":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fugreen-gear%2F55897%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fugreen-gear%2Fi%2F10001407%2F",
   "ugreen-nexode-65w-35530":

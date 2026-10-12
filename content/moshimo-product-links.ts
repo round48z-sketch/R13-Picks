@@ -5,6 +5,8 @@
  * キーは記事の slug と一致させる。
  */
 export const moshimoProductLinks: Record<string, string> = {
+  "elecom-ec-ac8565wh-65w-charger":
+    '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Felecom%2F4549550305549%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Felecom%2Fi%2F10064053%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/elecom/cabinet/s500_27/ec-ac8565wh_03r.jpg?_ex=500x500" alt="" style="border: none;" /><br>エレコム 充電器 type-c 65W USB PD対応 小型 Type-C 1ポート PPS対応 GaN II採用 PSE認証 ホワイト EC-AC8565WH</a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "ugreen-55897-65w-retractable-charger":
     '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Fugreen-gear%2F55897%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fugreen-gear%2Fi%2F10001407%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/13868535/55897.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "ugreen-nexode-65w-35530":

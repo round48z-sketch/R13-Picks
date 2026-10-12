@@ -1,6 +1,28 @@
 import type { ArticleTranslation } from "@/content/i18n/article-types";
 
 export const articleTranslationsZh: Record<string, ArticleTranslation> = {
+  "elecom-ec-ac8565wh-65w-charger": {
+    title: "ELECOM EC-AC8565WH｜65W・USB-C单口的小型GaN II充电器",
+    seoTitle: "ELECOM EC-AC8565WH｜65W・USB-C单口小型GaN II充电器（支持PD・PPS） | R13 Picks",
+    description: "从R13 Picks的视角介绍宜丽客（ELECOM）65W充电器“ELECOM EC-AC8565WH”。在1个USB-C接口上集中最大65W输出、采用GaN II的小型USB-C充电器。支持USB PD・PPS，PSE认证，白色。根据销售页面的规格，整理作为笔记本电脑充电器使用时的确认要点。",
+    productType: "USB快充充电器",
+    excerpt: "USB-C单口最大65W。采用GaN II、支持USB PD・PPS的小型USB AC充电器。",
+    intro: "ELECOM EC-AC8565WH是一款只配备1个USB-C接口、最大输出65W的USB AC充电器。根据销售页面的规格，其支持USB Power Delivery（PD）和PPS，并采用GaN II（氮化镓），在高功率的同时实现了小型化。由于只有1个接口，不适合同时为多台设备充电，但适合想用一台65W充电器依次为笔记本电脑・平板・手机充电，或想用单口简洁使用的人。实际输出会因连接设备・数据线・支持的充电规格而变化。最新价格・库存・兼容情况请在销售页面确认。",
+    points: ["最大输出65W（USB PD最大65W，PPS最大65W）","接口配置仅为USB-C × 1","支持USB Power Delivery・PPS","采用GaN II（氮化镓）","90度旋转结构的折叠式插头","PSE（特定电气用品）","外形尺寸约宽45.2 × 深38.1 × 高43.8mm，重量约98g","颜色为白色，保修期1年","数据线需另购"],
+    design: "白色机身上只配置1个USB-C接口的简洁小型USB-C充电器。销售页面标注外形尺寸约宽45.2 × 深38.1 × 高43.8mm，重量约98g。插头采用90度旋转结构可折叠，放在包里也不太占地方。与笔记本电脑附带的AC适配器不同，可以根据用途选择合适长度的数据线，销售页面称这样更便于整理桌面周围的线材。",
+    sections: [
+      { title: "65W输出与USB PD・PPS", body: "USB-C接口支持USB Power Delivery和PPS，会根据设备在5V/3A、9V/3A、12V/3A、15V/3A、20V/3.25A之间切换输出。标注USB PD最大输出为65W，PPS最大输出也为65W。销售页面称可为iPhone等手机、iPad等平板，以及MacBook和Windows笔记本电脑充电，但能以65W充电的仅限于可通过USB Power Delivery规格以最高65W充电的设备。并非所有设备都始终以65W充电。" },
+      { title: "USB-C单口的配置", body: "接口仅有USB-C × 1，未配备USB-A接口。因此无法同时为多台设备充电，需要逐台充电。由于65W输出集中在1个接口上，为笔记本电脑充电时无需考虑与其他接口的输出分配，是一种简洁的配置。" },
+      { title: "数据线需另行准备（65W充电建议使用支持100W的数据线）", body: "本产品不附带数据线。销售页面说明，以65W充电时，请准备支持100W以上充电的USB数据线。如果想一并选择数据线，也可以参考可选择接口类型和长度、并提供100W类型的Case by Case快充数据线的文章。" },
+      { title: "单口・多口・内置数据线的选择方法", body: "如果想用单口简洁使用，像这款EC-AC8565WH这样的小型65W充电器是可以考虑的选择。如果想同时为笔记本电脑和手机等多台设备充电，R13 Picks介绍过UGREEN 65W GaN充电器和Anker PowerPort III 3-Port 65W Pod等3口型号，以及UGREEN Nexode 65W 35530这款4口型号。如果不想另外携带数据线，内置伸缩式USB-C数据线的UGREEN 55897也是一种选择。如果不为笔记本电脑充电、以手机为主，也有ELECOM MPA-ACCP20WF这类20W级充电器。关键不在于哪个更好，而在于根据想充电的设备、数量以及携带方式来选择。" },
+      { title: "购买前需要确认的要点", body: "销售页面标注可使用地区为日本，使用温度范围为-10℃～25℃。请将其作为在日本国内出差、外出或居家办公桌面等场景使用的充电器来考虑。作为MacBook充电器使用时，请确认设备本身支持的功率，并使用支持100W以上的USB-C数据线。保修期为1年。最新价格・库存・兼容情况请在销售页面确认。" },
+    ],
+    recommendedFor: ["正在寻找可用单口简洁使用的小型USB-C充电器的人","想把笔记本电脑充电器换成比原装AC适配器更小的人","想用一台充电器依次为MacBook等支持USB-C充电的笔记本电脑和手机・平板充电的人","想用工作用小工具整理桌面线材的人","想要一款搭配白色系桌面的充电器的人"],
+    scenes: ["在家或办公室的桌面工作","居家办公・远程办公","日本国内出差・外出","在咖啡馆或共享办公空间使用笔记本电脑"],
+    note: "最新价格・库存・兼容情况请在销售页面确认。",
+    ctaLabel: "查看商品",
+    imageAlt: "ELECOM EC-AC8565WH 65W USB-C充电器 白色",
+  },
   "ugreen-55897-65w-retractable-charger": {
     title: "UGREEN 55897｜内置伸缩式USB-C数据线的65W GaN充电器",
     seoTitle: "UGREEN 55897｜内置伸缩式USB-C数据线的65W GaN充电器（附USB-C・USB-A接口） | R13 Picks",
