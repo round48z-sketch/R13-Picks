@@ -19,29 +19,62 @@ export function getFeaturedArticles() {
   return getAllArticles().filter((article) => article.featured);
 }
 
-/** Homepage Popular Guides: fixed order of existing roundup articles. */
-const popularGuideSlugs = [
-  "refurbished-laptops-5-picks",
-  "wireless-earbuds-under-10000",
-  "desk-setup-5-picks",
-  "beauty-appliances-5-picks",
-  "womens-watches-7-picks",
-  "mens-watch-recommendations-10",
-  "mens-watch-under-10000-recommendations-4",
-  "radio-solar-watch-recommendations-3",
-  "outdoor-watch-recommendations-2",
-  "black-watch-recommendations-6",
-  "black-wireless-earbuds",
-  "mouse-recommendations-10",
-  "wired-mouse-recommendations-5",
-  "silent-mouse-recommendations-5",
-  "gadgets-under-10000-recommendations-10",
-] as const;
+/**
+ * Homepage Popular Guides, grouped by category tab.
+ * Within each tab, order is priority: broad parent roundups first.
+ */
+const popularGuideTabs: { category: CategorySlug; slugs: string[] }[] = [
+  {
+    category: "watch",
+    slugs: [
+      "mens-watch-recommendations-10",
+      "womens-watches-7-picks",
+      "mens-watch-under-10000-recommendations-4",
+      "radio-solar-watch-recommendations-3",
+      "black-watch-recommendations-6",
+      "outdoor-watch-recommendations-2",
+    ],
+  },
+  {
+    category: "gadget",
+    slugs: [
+      "work-gadgets-recommendations-10",
+      "gadgets-under-10000-recommendations-10",
+      "mouse-recommendations-10",
+      "refurbished-laptops-5-picks",
+      "wired-mouse-recommendations-5",
+      "silent-mouse-recommendations-5",
+    ],
+  },
+  {
+    category: "audio",
+    slugs: ["wireless-earbuds-under-10000", "black-wireless-earbuds"],
+  },
+  {
+    category: "desk",
+    slugs: ["desk-setup-5-picks"],
+  },
+  {
+    category: "lifestyle",
+    slugs: ["beauty-appliances-5-picks"],
+  },
+];
 
-export function getPopularGuideArticles() {
-  return popularGuideSlugs
+function resolveArticles(slugs: string[]) {
+  return slugs
     .map((slug) => getArticleBySlug(slug))
     .filter((article): article is Article => Boolean(article));
+}
+
+export function getPopularGuideTabs() {
+  return popularGuideTabs.map((tab) => ({
+    category: tab.category,
+    articles: resolveArticles(tab.slugs),
+  }));
+}
+
+export function getPopularGuideArticles() {
+  return resolveArticles(popularGuideTabs.flatMap((tab) => tab.slugs));
 }
 
 export function getRelatedArticles(article: Article, limit = 2) {

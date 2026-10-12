@@ -642,6 +642,114 @@ h3 {
   }
 }
 
+/* Popular Guides category tabs (max 4 cards per tab, 2x2 on wider screens) */
+.guide-tabs__list {
+  display: flex;
+  gap: 4px;
+  margin: 0 -20px 18px;
+  padding: 0 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.guide-tabs__list::-webkit-scrollbar {
+  display: none;
+}
+
+.guide-tabs__tab {
+  flex-shrink: 0;
+  margin-bottom: -1px;
+  padding: 10px 12px 9px;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: none;
+  color: var(--muted);
+  font-family: var(--display);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.guide-tabs__tab:hover {
+  color: var(--ink);
+}
+
+.guide-tabs__tab.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+.guide-tabs__tab:focus-visible {
+  outline: 1px solid #666;
+  outline-offset: -1px;
+}
+
+.guide-grid--tabbed .guide-card__link {
+  flex-direction: row;
+}
+
+.guide-grid--tabbed .guide-card__image {
+  width: 112px;
+  border-bottom: 0;
+  border-right: 1px solid var(--line);
+}
+
+.guide-grid--tabbed .guide-card__body {
+  min-width: 0;
+}
+
+.guide-tabs__more {
+  margin-top: 18px;
+  text-align: right;
+}
+
+.guide-tabs__more a {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--display);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  padding: 8px 12px 7px;
+  transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.guide-tabs__more a:hover {
+  border-color: #666;
+  background: #181818;
+}
+
+@media (min-width: 640px) {
+  .guide-tabs__list {
+    margin: 0 0 20px;
+    padding: 0;
+  }
+
+  .guide-grid.guide-grid--tabbed {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .guide-grid--tabbed .guide-card__image {
+    width: 136px;
+  }
+}
+
+@media (min-width: 980px) {
+  .guide-tabs__tab {
+    padding: 10px 16px 9px;
+  }
+
+  .guide-grid--tabbed .guide-card__image {
+    width: 168px;
+  }
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 48px 0 36px;
