@@ -7,6 +7,10 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "wasser90-led-clamp-light":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Frennkou-syouji%2Fwasser90%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frennkou-syouji%2Fi%2F10019527%2F",
+  "led-deco-light-001":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Frennkou-syouji%2Fdeko0001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frennkou-syouji%2Fi%2F10000068%2F",
   "wasser27-led-desk-light":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fskywym%2Fwasser27%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fskywym%2Fi%2F10002497%2F",
   "wasser39-led-clamp-light":

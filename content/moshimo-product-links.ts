@@ -5,6 +5,10 @@
  * キーは記事の slug と一致させる。
  */
 export const moshimoProductLinks: Record<string, string> = {
+  "wasser90-led-clamp-light":
+    '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Frennkou-syouji%2Fwasser90%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frennkou-syouji%2Fi%2F10019527%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/rennkou-syouji/cabinet/light/wasser/wasser90_f203.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
+  "led-deco-light-001":
+    '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Frennkou-syouji%2Fdeko0001%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frennkou-syouji%2Fi%2F10000068%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/rennkou-syouji/cabinet/03338770/03352680/led001-01.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "wasser27-led-desk-light":
     '<a href="//af.moshimo.com/af/c/click?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fitem.rakuten.co.jp%2Fskywym%2Fwasser27%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fskywym%2Fi%2F10002497%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//thumbnail.image.rakuten.co.jp/@0_mall/skywym/cabinet/03465838/imgrc0066508150.jpg?_ex=500x500" alt="" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=5804358&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" alt="" loading="lazy" width="1" height="1" style="border: 0px;">',
   "wasser39-led-clamp-light":
