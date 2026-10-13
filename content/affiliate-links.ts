@@ -7,6 +7,10 @@
  * キーは記事の slug と一致させます。
  */
 export const affiliateLinks: Record<string, string> = {
+  "ugreen-45418-laptop-stand":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fugreen-gear%2F45418%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fugreen-gear%2Fi%2F10000982%2F",
+  "wayetto-wtps0006-laptop-stand":
+    "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Fwayetto%2Fwtps0006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwayetto%2Fi%2F10000152%2F",
   "wasser90-led-clamp-light":
     "//af.moshimo.com/af/c/click?a_id=5804358&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fitem.rakuten.co.jp%2Frennkou-syouji%2Fwasser90%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frennkou-syouji%2Fi%2F10019527%2F",
   "led-deco-light-001":
