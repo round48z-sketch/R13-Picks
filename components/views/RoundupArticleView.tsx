@@ -64,7 +64,8 @@ export function RoundupArticleView({
     article.slug === "silent-mouse-recommendations-5";
   const isScrollTableOnMobile =
     article.slug === "65w-usb-c-charger-recommendations-5" ||
-    article.slug === "usb-c-charger-recommendations-8";
+    article.slug === "usb-c-charger-recommendations-8" ||
+    article.slug === "travel-usb-c-charger-recommendations-7";
   const roundupPageClass = isFivePicksRoundup
     ? "article-page article-page--roundup roundup-page roundup-page--picks-5"
     : "article-page article-page--roundup roundup-page";
