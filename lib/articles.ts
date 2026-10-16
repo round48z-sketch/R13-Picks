@@ -20,6 +20,24 @@ export function getFeaturedArticles() {
 }
 
 /**
+ * Homepage hero carousel: curated public articles with strong local imagery
+ * and category balance (watch / gadget / audio / desk / lifestyle).
+ */
+const heroCarouselSlugs = [
+  "mens-watch-recommendations-10",
+  "work-gadgets-recommendations-10",
+  "wireless-earbuds-under-10000",
+  "desk-setup-5-picks",
+  "beauty-appliances-5-picks",
+] as const;
+
+export function getHeroCarouselArticles() {
+  return heroCarouselSlugs
+    .map((slug) => getArticleBySlug(slug))
+    .filter((article): article is Article => Boolean(article));
+}
+
+/**
  * Homepage Popular Guides, grouped by category tab.
  * Within each tab, order is priority: broad parent roundups first.
  */

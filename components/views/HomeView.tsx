@@ -2,17 +2,31 @@ import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryNav } from "@/components/CategoryNav";
 import { GuideCard } from "@/components/GuideCard";
+import { HeroCarousel } from "@/components/HeroCarousel";
 import { PopularGuideTabs } from "@/components/PopularGuideTabs";
 import { getCategory } from "@/content/categories";
 import type { Locale } from "@/content/i18n/config";
 import { getSiteDescription } from "@/content/i18n/site";
 import { getUi } from "@/content/i18n/ui";
 import { siteConfig } from "@/content/site";
-import { getAllArticles, getPopularGuideTabs } from "@/lib/articles";
+import {
+  getAllArticles,
+  getArticleCategory,
+  getArticleThumbnail,
+  getHeroCarouselArticles,
+  getPopularGuideTabs,
+} from "@/lib/articles";
 import { localizeArticle } from "@/lib/i18n/articles";
 import { localizePath } from "@/lib/i18n/path";
 
 const POPULAR_GUIDES_PER_TAB = 4;
+
+const ROUNDUP_HERO_SLUGS = new Set([
+  "beauty-appliances-5-picks",
+  "desk-setup-5-picks",
+  "wireless-earbuds-under-10000",
+  "refurbished-laptops-5-picks",
+]);
 
 export function HomeView({ locale }: { locale: Locale }) {
   const ui = getUi(locale);
@@ -21,6 +35,30 @@ export function HomeView({ locale }: { locale: Locale }) {
     category: tab.category,
     articles: tab.articles.map((article) => localizeArticle(article, locale)),
   }));
+  const heroSlides = getHeroCarouselArticles().map((article) => {
+    const localized = localizeArticle(article, locale);
+    // Prefer listing/guide collage so the hero shows the same visual as cards.
+    const thumbnail =
+      localized.guideThumbnailImage ??
+      localized.thumbnailImage ??
+      getArticleThumbnail(localized);
+    const category = getArticleCategory(localized);
+    const isRoundupThumb =
+      Boolean(localized.guideThumbnailImage) ||
+      Boolean(localized.thumbnailImage) ||
+      ROUNDUP_HERO_SLUGS.has(localized.slug);
+    return {
+      slug: localized.slug,
+      title: localized.title,
+      excerpt: localized.excerpt,
+      categoryName: category?.name ?? localized.category,
+      image: {
+        src: thumbnail.src,
+        alt: thumbnail.alt || localized.title,
+      },
+      isRoundupThumb,
+    };
+  });
 
   return (
     <>
@@ -33,6 +71,10 @@ export function HomeView({ locale }: { locale: Locale }) {
           <p>{siteConfig.tagline}</p>
         </div>
       </section>
+
+      <div className="container">
+        <HeroCarousel slides={heroSlides} locale={locale} />
+      </div>
 
       <div className="container">
         <CategoryNav />

@@ -26,6 +26,15 @@ export type UiMessages = {
   popularGuidesCta: string;
   popularGuidesMore: string;
   popularGuidesTabsAria: string;
+  heroCarouselAria: string;
+  heroCarouselTitle: string;
+  heroCarouselPrev: string;
+  heroCarouselNext: string;
+  heroCarouselDotsAria: string;
+  heroCarouselDotSuffix: string;
+  heroCarouselPause: string;
+  heroCarouselPlay: string;
+  heroCarouselReducedMotion: string;
   prNote: string;
   featuresFallback: string;
   designTitle: string;
@@ -79,6 +88,15 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "比較記事を見る →",
     popularGuidesMore: "もっと見る →",
     popularGuidesTabsAria: "Popular Guidesのカテゴリ切り替え",
+    heroCarouselAria: "注目の記事",
+    heroCarouselTitle: "注目の記事",
+    heroCarouselPrev: "前の記事",
+    heroCarouselNext: "次の記事",
+    heroCarouselDotsAria: "スライドの位置",
+    heroCarouselDotSuffix: "枚目を表示",
+    heroCarouselPause: "自動再生を停止",
+    heroCarouselPlay: "自動再生を開始",
+    heroCarouselReducedMotion: "動きを減らす設定中",
     prNote: "PR｜この記事にはアフィリエイト広告を含みます",
     featuresFallback: "商品の特徴",
     designTitle: "デザインについて",
@@ -130,6 +148,15 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "View guide →",
     popularGuidesMore: "View more →",
     popularGuidesTabsAria: "Popular Guides category tabs",
+    heroCarouselAria: "Featured articles",
+    heroCarouselTitle: "Featured articles",
+    heroCarouselPrev: "Previous article",
+    heroCarouselNext: "Next article",
+    heroCarouselDotsAria: "Slide position",
+    heroCarouselDotSuffix: " — show this slide",
+    heroCarouselPause: "Pause autoplay",
+    heroCarouselPlay: "Start autoplay",
+    heroCarouselReducedMotion: "Reduced motion is on",
     prNote: "PR｜This article contains affiliate links",
     featuresFallback: "Product highlights",
     designTitle: "Design",
@@ -181,6 +208,15 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "비교 기사 보기 →",
     popularGuidesMore: "더 보기 →",
     popularGuidesTabsAria: "Popular Guides 카테고리 전환",
+    heroCarouselAria: "주목 기사",
+    heroCarouselTitle: "주목 기사",
+    heroCarouselPrev: "이전 기사",
+    heroCarouselNext: "다음 기사",
+    heroCarouselDotsAria: "슬라이드 위치",
+    heroCarouselDotSuffix: "번째 표시",
+    heroCarouselPause: "자동 재생 중지",
+    heroCarouselPlay: "자동 재생 시작",
+    heroCarouselReducedMotion: "움직임 줄이기 설정 중",
     prNote: "PR｜이 기사에는 제휴 광고가 포함되어 있습니다",
     featuresFallback: "제품 특징",
     designTitle: "디자인",
@@ -232,6 +268,15 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "查看比较文章 →",
     popularGuidesMore: "查看更多 →",
     popularGuidesTabsAria: "Popular Guides 分类切换",
+    heroCarouselAria: "精选文章",
+    heroCarouselTitle: "精选文章",
+    heroCarouselPrev: "上一篇",
+    heroCarouselNext: "下一篇",
+    heroCarouselDotsAria: "幻灯片位置",
+    heroCarouselDotSuffix: " — 显示此张",
+    heroCarouselPause: "暂停自动播放",
+    heroCarouselPlay: "开始自动播放",
+    heroCarouselReducedMotion: "已开启减少动态效果",
     prNote: "PR｜本文包含联盟营销链接",
     featuresFallback: "产品要点",
     designTitle: "关于设计",
