@@ -28,6 +28,14 @@ export type UiMessages = {
   popularGuidesTabsAria: string;
   subCategoryTabsAria: string;
   subCategoryAll: string;
+  categorySearchPlaceholder: string;
+  categorySearchAria: string;
+  categorySearchClearAria: string;
+  categorySearchEmpty: string;
+  globalSearchPlaceholder: string;
+  globalSearchAria: string;
+  globalSearchClearAria: string;
+  globalSearchEmpty: string;
   heroCarouselAria: string;
   heroCarouselTitle: string;
   heroCarouselPrev: string;
@@ -92,6 +100,14 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesTabsAria: "Popular Guidesのカテゴリ切り替え",
     subCategoryTabsAria: "サブカテゴリで絞り込む",
     subCategoryAll: "すべて",
+    categorySearchPlaceholder: "商品名・ブランド・キーワードで検索",
+    categorySearchAria: "記事を検索",
+    categorySearchClearAria: "検索をクリア",
+    categorySearchEmpty: "該当する記事が見つかりませんでした。",
+    globalSearchPlaceholder: "商品名・ブランド・カテゴリ・キーワードで検索",
+    globalSearchAria: "サイト内の記事を検索",
+    globalSearchClearAria: "検索をクリア",
+    globalSearchEmpty: "該当する記事が見つかりませんでした。",
     heroCarouselAria: "注目の記事",
     heroCarouselTitle: "注目の記事",
     heroCarouselPrev: "前の記事",
@@ -154,6 +170,14 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesTabsAria: "Popular Guides category tabs",
     subCategoryTabsAria: "Filter by subcategory",
     subCategoryAll: "All",
+    categorySearchPlaceholder: "Search products, brands, or keywords",
+    categorySearchAria: "Search articles",
+    categorySearchClearAria: "Clear search",
+    categorySearchEmpty: "No matching articles were found.",
+    globalSearchPlaceholder: "Search products, brands, categories, or keywords",
+    globalSearchAria: "Search articles on this site",
+    globalSearchClearAria: "Clear search",
+    globalSearchEmpty: "No matching articles were found.",
     heroCarouselAria: "Featured articles",
     heroCarouselTitle: "Featured articles",
     heroCarouselPrev: "Previous article",
@@ -216,6 +240,14 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesTabsAria: "Popular Guides 카테고리 전환",
     subCategoryTabsAria: "서브카테고리로 필터",
     subCategoryAll: "모두",
+    categorySearchPlaceholder: "상품명·브랜드·키워드로 검색",
+    categorySearchAria: "기사 검색",
+    categorySearchClearAria: "검색 지우기",
+    categorySearchEmpty: "일치하는 기사를 찾을 수 없습니다.",
+    globalSearchPlaceholder: "상품명·브랜드·카테고리·키워드로 검색",
+    globalSearchAria: "사이트 내 기사 검색",
+    globalSearchClearAria: "검색 지우기",
+    globalSearchEmpty: "일치하는 기사를 찾을 수 없습니다.",
     heroCarouselAria: "주목 기사",
     heroCarouselTitle: "주목 기사",
     heroCarouselPrev: "이전 기사",
@@ -278,6 +310,14 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesTabsAria: "Popular Guides 分类切换",
     subCategoryTabsAria: "按子分类筛选",
     subCategoryAll: "全部",
+    categorySearchPlaceholder: "按商品名、品牌或关键词搜索",
+    categorySearchAria: "搜索文章",
+    categorySearchClearAria: "清除搜索",
+    categorySearchEmpty: "未找到匹配的文章。",
+    globalSearchPlaceholder: "按商品名、品牌、分类或关键词搜索",
+    globalSearchAria: "搜索站内文章",
+    globalSearchClearAria: "清除搜索",
+    globalSearchEmpty: "未找到匹配的文章。",
     heroCarouselAria: "精选文章",
     heroCarouselTitle: "精选文章",
     heroCarouselPrev: "上一篇",

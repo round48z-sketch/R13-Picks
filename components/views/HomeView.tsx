@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryNav } from "@/components/CategoryNav";
+import { GlobalSearch } from "@/components/GlobalSearch";
 import { GuideCard } from "@/components/GuideCard";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { PopularGuideTabs } from "@/components/PopularGuideTabs";
@@ -18,6 +19,7 @@ import {
 } from "@/lib/articles";
 import { localizeArticle } from "@/lib/i18n/articles";
 import { localizePath } from "@/lib/i18n/path";
+import { buildGlobalSearchIndex } from "@/lib/search-index";
 
 const POPULAR_GUIDES_PER_TAB = 4;
 
@@ -35,6 +37,7 @@ export function HomeView({ locale }: { locale: Locale }) {
     category: tab.category,
     articles: tab.articles.map((article) => localizeArticle(article, locale)),
   }));
+  const searchEntries = buildGlobalSearchIndex(locale);
   const heroSlides = getHeroCarouselArticles().map((article) => {
     const localized = localizeArticle(article, locale);
     // Prefer listing/guide collage so the hero shows the same visual as cards.
@@ -74,6 +77,10 @@ export function HomeView({ locale }: { locale: Locale }) {
 
       <div className="container">
         <HeroCarousel slides={heroSlides} locale={locale} />
+      </div>
+
+      <div className="container">
+        <GlobalSearch entries={searchEntries} locale={locale} />
       </div>
 
       <div className="container">

@@ -1,6 +1,12 @@
 "use client";
 
-import { useMemo, useState, type KeyboardEvent, type ReactNode } from "react";
+import {
+  useMemo,
+  useState,
+  type FormEvent,
+  type KeyboardEvent,
+  type ReactNode,
+} from "react";
 import type { Article } from "@/content/articles";
 import type { CategorySlug } from "@/content/categories";
 import type { Locale } from "@/content/i18n/config";
@@ -8,6 +14,7 @@ import { getUi } from "@/content/i18n/ui";
 import {
   categoryHasSubTabs,
   getSubCategoriesFor,
+  getSubCategoryLabel,
   type SubCategoryId,
 } from "@/content/subcategories";
 import { ArticleCard } from "@/components/ArticleCard";
@@ -25,6 +32,31 @@ type TabItem = {
   count: number;
 };
 
+function normalizeQuery(value: string) {
+  return value.trim().toLocaleLowerCase();
+}
+
+function articleSearchText(
+  article: Article,
+  category: CategorySlug,
+  locale: Locale,
+): string {
+  const subId = (article.subCategory ?? "other") as SubCategoryId;
+  const subLabel = getSubCategoryLabel(category, subId, locale) ?? "";
+  return [
+    article.title,
+    article.productName,
+    article.productType,
+    article.slug,
+    article.subCategory ?? "",
+    subLabel,
+    article.description,
+    article.excerpt,
+  ]
+    .join(" ")
+    .toLocaleLowerCase();
+}
+
 export function CategorySubTabs({
   category,
   articles,
@@ -33,6 +65,7 @@ export function CategorySubTabs({
 }: CategorySubTabsProps) {
   const ui = getUi(locale);
   const [activeId, setActiveId] = useState<"all" | SubCategoryId>("all");
+  const [query, setQuery] = useState("");
 
   const tabs = useMemo(() => {
     if (!categoryHasSubTabs(category)) {
@@ -67,15 +100,23 @@ export function CategorySubTabs({
     return items;
   }, [articles, category, locale, ui.subCategoryAll]);
 
-  const visibleArticles = useMemo(() => {
-    if (activeId === "all") return articles;
-    return articles.filter(
-      (article) => (article.subCategory ?? "other") === activeId,
-    );
-  }, [activeId, articles]);
-
-  // Keep selected tab valid if counts change (e.g. locale switch with same data).
   const safeActiveId = tabs.some((tab) => tab.id === activeId) ? activeId : "all";
+  const normalizedQuery = normalizeQuery(query);
+
+  const visibleArticles = useMemo(() => {
+    const bySub =
+      safeActiveId === "all"
+        ? articles
+        : articles.filter(
+            (article) => (article.subCategory ?? "other") === safeActiveId,
+          );
+
+    if (!normalizedQuery) return bySub;
+
+    return bySub.filter((article) =>
+      articleSearchText(article, category, locale).includes(normalizedQuery),
+    );
+  }, [articles, category, locale, normalizedQuery, safeActiveId]);
 
   if (tabs.length === 0) {
     return articles.length > 0 ? (
@@ -95,8 +136,41 @@ export function CategorySubTabs({
     document.getElementById(`category-subtab-${next.id}`)?.focus();
   }
 
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+  }
+
   return (
     <div className="category-subtabs">
+      <form className="category-search" role="search" onSubmit={handleSubmit}>
+        <label className="category-search__field">
+          <span className="sr-only">{ui.categorySearchAria}</span>
+          <span className="category-search__icon" aria-hidden="true">
+            <SearchIcon />
+          </span>
+          <input
+            type="search"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder={ui.categorySearchPlaceholder}
+            aria-label={ui.categorySearchAria}
+            autoComplete="off"
+            enterKeyHint="search"
+            className="category-search__input"
+          />
+          {query.trim() ? (
+            <button
+              type="button"
+              className="category-search__clear"
+              aria-label={ui.categorySearchClearAria}
+              onClick={() => setQuery("")}
+            >
+              <ClearIcon />
+            </button>
+          ) : null}
+        </label>
+      </form>
+
       <div
         className="category-subtabs__list"
         role="tablist"
@@ -137,6 +211,8 @@ export function CategorySubTabs({
           <div className="card-grid category-subtabs__grid">
             {renderCards(visibleArticles, locale)}
           </div>
+        ) : normalizedQuery ? (
+          <p className="empty-state category-search__empty">{ui.categorySearchEmpty}</p>
         ) : (
           emptyState
         )}
@@ -149,4 +225,40 @@ function renderCards(articles: Article[], locale: Locale) {
   return articles.map((article) => (
     <ArticleCard key={article.slug} article={article} locale={locale} />
   ));
+}
+
+function SearchIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle
+        cx="11"
+        cy="11"
+        r="6.25"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.4"
+      />
+      <path
+        d="M16.2 16.2 20 20"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+function ClearIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path
+        d="M7 7l10 10M17 7 7 17"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
 }

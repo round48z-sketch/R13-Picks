@@ -55,6 +55,11 @@ export type Article = {
    * Ignored for other categories.
    */
   subCategory?: SubCategoryId;
+  /**
+   * Extra search terms for the homepage global search.
+   * Category / subcategory / productType synonyms are added automatically.
+   */
+  searchKeywords?: string[];
   productName: string;
   productType: string;
   publishedAt: string;
