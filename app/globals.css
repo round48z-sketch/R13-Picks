@@ -966,6 +966,75 @@ h3 {
   }
 }
 
+/* Category page subcategory filter tabs (DESK / GADGET) */
+.category-subtabs {
+  margin-top: 8px;
+}
+
+.category-subtabs__list {
+  display: flex;
+  gap: 4px;
+  margin: 0 -20px 22px;
+  padding: 0 20px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  border-bottom: 1px solid var(--line);
+  -webkit-overflow-scrolling: touch;
+}
+
+.category-subtabs__list::-webkit-scrollbar {
+  display: none;
+}
+
+.category-subtabs__tab {
+  flex-shrink: 0;
+  margin-bottom: -1px;
+  padding: 10px 12px 9px;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: none;
+  color: var(--muted);
+  font-family: var(--display);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.category-subtabs__tab:hover {
+  color: var(--ink);
+}
+
+.category-subtabs__tab.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+.category-subtabs__tab:focus-visible {
+  outline: 1px solid #666;
+  outline-offset: -1px;
+}
+
+.category-subtabs__grid {
+  padding-bottom: 80px;
+}
+
+@media (min-width: 640px) {
+  .category-subtabs__list {
+    margin: 0 0 24px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 980px) {
+  .category-subtabs__tab {
+    padding: 10px 16px 9px;
+    letter-spacing: 0.14em;
+  }
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 48px 0 36px;

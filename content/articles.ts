@@ -1,4 +1,5 @@
 import type { CategorySlug } from "./categories";
+import type { SubCategoryId } from "./subcategories";
 
 export type ArticleImage = {
   src: string;
@@ -49,6 +50,11 @@ export type Article = {
   seoTitle: string;
   description: string;
   category: CategorySlug;
+  /**
+   * Optional subcategory for DESK / GADGET category-page tabs.
+   * Ignored for other categories.
+   */
+  subCategory?: SubCategoryId;
   productName: string;
   productType: string;
   publishedAt: string;
@@ -114,6 +120,7 @@ export const articles: Article[] = [
     description:
       "UGREEN 45418をR13 Picksの視点で紹介。360°回転と二軸構造、高さ・角度調整に対応した、折りたたみ式のノートPCスタンドです。耐荷重は最大5kg、最大17.3インチまでのデバイスに対応、鉄合金製。会議での画面共有や在宅ワーク PCスタンドとしての特徴を販売ページの情報をもとに整理します。",
     category: "desk",
+    subCategory: "laptop-stand",
     productName: "UGREEN 45418 Laptop Stand",
     productType: "卓上ノートPCスタンド",
     publishedAt: "2026-10-14",
@@ -199,6 +206,7 @@ export const articles: Article[] = [
     description:
       "WAYetTO wtps0006をR13 Picksの視点で紹介。高さ・角度調整に対応した、アルミニウム合金製の折りたたみ ノートPCスタンドです。サイズ表記は26cm×21cm×3cm、重量は約1.2kg、耐荷重は約10kg。13〜19インチ級のノートパソコン スタンドやMacBook スタンド、在宅ワーク PCスタンドとしての特徴を販売ページの情報をもとに整理します。",
     category: "desk",
+    subCategory: "laptop-stand",
     productName: "WAYetTO wtps0006 Laptop Stand",
     productType: "折りたたみ式ノートPCスタンド",
     publishedAt: "2026-10-14",
@@ -279,6 +287,7 @@ export const articles: Article[] = [
     description:
       "wasser（ヴァッサ）のLEDクランプライト「wasser90」をR13 Picksの視点で紹介。約3000K / 4000K / 6500Kの3段階調色と、4段階＋無段階調光に対応したクランプ式 デスクライトです。最大約400lm、3点ヒンジ、最大約10W、約515g。学習机 ライトや読書灯、在宅ワーク デスクライトとしての特徴を販売ページの仕様をもとに整理します。",
     category: "desk",
+    subCategory: "desk-light",
     productName: "wasser90 LED Clamp Light",
     productType: "クランプ式LEDデスクライト",
     publishedAt: "2026-10-14",
@@ -363,6 +372,7 @@ export const articles: Article[] = [
     description:
       "LED DECO LIGHT 001（商品番号：deko0001）をR13 Picksの視点で紹介。約110 / 220 / 330lmの3段階調光とタッチ操作に対応した、置き型 デスクライトです。昼白色、可動アーム、消費電力最大約2.8W、約700g、AC100V。学習机 ライトや読書灯、PC デスクライトとしての特徴を販売ページの仕様をもとに整理します。",
     category: "desk",
+    subCategory: "desk-light",
     productName: "LED DECO LIGHT 001",
     productType: "置き型LEDデスクライト",
     publishedAt: "2026-10-14",
@@ -443,6 +453,7 @@ export const articles: Article[] = [
     description:
       "wasser（ヴァッサ）のLED 卓上ライト「wasser27」をR13 Picksの視点で紹介。葉っぱ型のセードを備えた置き型のデスクライト LEDです。最大約550lm、無段階調光と無段階調色（電球色〜昼白色〜昼光色）、30分オフタイマー、ナイトライト（常夜灯）、フレキシブルアームなど、読書灯や学習机 ライトとしての特徴を販売ページの仕様をもとに整理します。",
     category: "desk",
+    subCategory: "desk-light",
     productName: "wasser27 LED Desk Light",
     productType: "置き型LEDデスクライト",
     publishedAt: "2026-10-13",
@@ -525,6 +536,7 @@ export const articles: Article[] = [
     description:
       "wasser（ヴァッサ）のLED クランプライト「wasser39」をR13 Picksの視点で紹介。最大約760lm、昼白色5000K、無段階調光とハーフ配光モードに対応したクランプ式 デスクライトです。細身のアームデザイン、タッチ操作、約0.7kg、消費電力最大約12Wなど、学習机やテレワークで使うデスクライト LEDとしての特徴を販売ページの仕様をもとに整理します。",
     category: "desk",
+    subCategory: "desk-light",
     productName: "wasser39 LED Clamp Light",
     productType: "クランプ式LEDデスクライト",
     publishedAt: "2026-10-13",
@@ -606,6 +618,7 @@ export const articles: Article[] = [
     description:
       "デスクランプ「LIT000101」をR13 Picksの視点で紹介。E26口金のLED電球を取り付けて使う、電球交換式 デスクライトです。スチール製でシェード角度調整に対応した置き型 デスクライトとして、対応電球（LED電球13W以下・60W相当以下）、サイズ、注意点を販売ページの仕様をもとに整理します。電球は別売りです。",
     category: "desk",
+    subCategory: "desk-light",
     productName: "LIT000101 Desk Lamp",
     productType: "置き型デスクランプ",
     publishedAt: "2026-10-13",
@@ -682,6 +695,7 @@ export const articles: Article[] = [
     description:
       "サンワダイレクト 800-LED079をR13 Picksの視点で紹介。3灯構成で最大約1650ルーメン、約95cmのアームを備えたクランプ式 デスクライトです。5段階調光・5段階調色（3000K〜6500K）、消費電力約24W、重量約930g。テレワークや学習机、モニター周りで使うLED デスクライト クランプとしての特徴を販売ページの仕様をもとに整理します。",
     category: "desk",
+    subCategory: "desk-light",
     productName: "Sanwa Direct 800-LED079",
     productType: "クランプ式LEDデスクライト",
     publishedAt: "2026-10-13",
@@ -762,6 +776,7 @@ export const articles: Article[] = [
     description:
       "atRise（アットライズ）のデスクライト LED「atRise Y0662」をR13 Picksの視点で紹介。シングルタイプ充電式・シングルタイプ給電式・ツイン（二又）タイプ充電式の3タイプから選べる卓上ライトです。調光 調色 デスクライトとしての機能、タイマー、USB Type-C充電、タイプごとの照度・全光束・バッテリー容量・重量の違いを販売ページの仕様をもとに整理します。",
     category: "desk",
+    subCategory: "desk-light",
     productName: "atRise Y0662 LED Desk Light",
     productType: "LEDデスクライト",
     publishedAt: "2026-10-13",
@@ -843,6 +858,7 @@ export const articles: Article[] = [
     description:
       "旅行 充電器 おすすめ・出張 充電器 おすすめを探す人向けに、R13 Picksの単品記事から旅行用 USB-C 充電器の候補7モデルを比較。小型の1ポート、ノートPCとスマホをまとめやすい多ポート 充電器、ケーブル内蔵 充電器まで、最大出力・ポート構成・プラグ・サイズ・重量を整理します。",
     category: "gadget",
+    subCategory: "charger",
     productName: "旅行・出張向けUSB-C充電器おすすめ7選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-13",
@@ -1155,6 +1171,7 @@ export const articles: Article[] = [
     description:
       "USB-C 充電器おすすめ8選を、R13 Picksの単品記事をもとに比較。スマホ中心の20Wクラスから、ノートPCにも使いやすい65Wクラス、100W対応の4ポートモデル、ケーブル内蔵モデルまで、最大出力・ポート構成・PD・PPS・GaN・複数ポート使用時の出力配分を整理し、スマホ・タブレット・ノートPC・MacBook 充電器としての選び方をまとめます。",
     category: "gadget",
+    subCategory: "charger",
     productName: "USB-C充電器おすすめ8選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-13",
@@ -1499,6 +1516,7 @@ export const articles: Article[] = [
     description:
       "65W USB-C 充電器おすすめ5選を、R13 Picksの単品記事をもとに比較。USB-C 1ポートの小型モデル、3ポート 65W 充電器、4ポート 65W 充電器、巻き取り式ケーブル内蔵モデルまで、ポート構成・単ポート最大出力・複数ポート使用時の出力配分・GaN・PD・PPSを整理し、ノートPC 充電器や出張用の選び方をまとめます。",
     category: "gadget",
+    subCategory: "charger",
     productName: "65W USB-C充電器おすすめ5選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-13",
@@ -1768,6 +1786,7 @@ export const articles: Article[] = [
     description:
       "エレコム 65W 充電器「ELECOM EC-AC8565WH」をR13 Picksの視点で紹介。USB-C 1ポートに最大65W出力をまとめた、GaN II採用の小型 USB-C 充電器です。USB PD・PPS対応、PSE認証、ホワイト。ノートPC 充電器としての確認ポイントを販売ページの仕様をもとに整理します。",
     category: "gadget",
+    subCategory: "charger",
     productName: "ELECOM EC-AC8565WH",
     productType: "USB急速充電器",
     publishedAt: "2026-10-12",
@@ -1840,6 +1859,7 @@ export const articles: Article[] = [
     description:
       "UGREEN 65W 充電器「UGREEN 55897」をR13 Picksの視点で紹介。約0.69mの巻き取り式USB-Cケーブルを内蔵し、USB-CポートとUSB-Aポートも備えたUSB-C ケーブル内蔵 充電器です。単一ポート使用時は最大65W、PD 3.0・PPS対応、GaN採用。複数接続時の出力の考え方を販売ページの情報をもとに整理します。",
     category: "gadget",
+    subCategory: "charger",
     productName: "UGREEN 55897 65W Retractable Charger",
     productType: "USB急速充電器",
     publishedAt: "2026-10-12",
@@ -1911,6 +1931,7 @@ export const articles: Article[] = [
     description:
       "UGREEN 65W 充電器「UGREEN Nexode 65W（UGREEN 35530）」をR13 Picksの視点で紹介。USB-C×3・USB-A×1の4ポート 充電器で、合計最大65W、GaN採用、PD 3.0・PPS対応。単ポート時と複数ポート時の出力の違いを、販売ページの仕様をもとに整理します。",
     category: "gadget",
+    subCategory: "charger",
     productName: "UGREEN Nexode 65W 35530",
     productType: "USB急速充電器",
     publishedAt: "2026-10-12",
@@ -1983,6 +2004,7 @@ export const articles: Article[] = [
     description:
       "エレコム 充電器「ELECOM MPA-ACCP20WF」をR13 Picksの視点で紹介。USB-C（PD 3.0・最大20W）とUSB-A（最大12W）を1つずつ備えた、合計32Wの2ポート 充電器です。iPhoneやタブレットなどのスマホ 充電器として、販売ページの仕様をもとに出力の違いや確認ポイントを整理します。",
     category: "gadget",
+    subCategory: "charger",
     productName: "ELECOM MPA-ACCP20WF",
     productType: "USB AC充電器",
     publishedAt: "2026-10-12",
@@ -2055,6 +2077,7 @@ export const articles: Article[] = [
     description:
       "ケースbyケースの急速充電ケーブルをR13 Picksの視点で紹介。USB-C ケーブル（Type-C ケーブル）とLightning ケーブルを含む5タイプ、0.25m・1m・1.5m・2mの長さ、複数カラーから選べる充電コードです。100W 充電ケーブルとして案内されているのは一部のタイプのみ。選び方と注意点を販売ページの情報をもとに整理します。",
     category: "gadget",
+    subCategory: "usb-hub-accessories",
     productName: "Case by Case 急速充電ケーブル",
     productType: "充電ケーブル",
     publishedAt: "2026-10-12",
@@ -2125,6 +2148,7 @@ export const articles: Article[] = [
     description:
       "Anker 65W 充電器「Anker PowerPort III 3-Port 65W Pod（A2667）」をR13 Picksの視点で紹介。USB-C×2・USB-A×1の3ポート構成で、最大65W出力、Anker GaN II採用、USB PD・PPS対応。ノートPC・タブレット・スマホを1台で充電したい人向けに、販売ページの出力仕様をもとに確認ポイントを整理します。",
     category: "gadget",
+    subCategory: "charger",
     productName: "Anker PowerPort III 3-Port 65W Pod A2667",
     productType: "USB急速充電器",
     publishedAt: "2026-10-12",
@@ -2197,6 +2221,7 @@ export const articles: Article[] = [
     description:
       "UGREEN 65W 充電器（GaN採用・3ポート）をR13 Picksの視点で紹介。USB-C×2・USB-A×1、最大65W出力、PD 3.0・PPS・Quick Charge対応、折りたたみ式プラグ、PSE対応。MacBookなどのノートPC、タブレット、スマホを1台にまとめたい人向けに、販売ページの仕様をもとに確認ポイントを整理します。",
     category: "gadget",
+    subCategory: "charger",
     productName: "UGREEN 65W GaN Charger",
     productType: "USB急速充電器",
     publishedAt: "2026-10-12",
@@ -2268,6 +2293,7 @@ export const articles: Article[] = [
     description:
       "仕事用ガジェットおすすめ10選を、R13 Picksの単品記事をもとに比較。マウス・トラックボール・モニター・モバイルモニター・ノートPC・USB充電器を、PC操作・静音性・画面拡張・持ち運び・省スペース・在宅ワーク・オフィスなどの用途別に整理します。",
     category: "gadget",
+    subCategory: "other",
     productName: "仕事用ガジェットおすすめ10選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-11",
@@ -2696,6 +2722,7 @@ export const articles: Article[] = [
     description:
       "1万円以下で買えるおすすめガジェット10選を、R13 Picksの単品記事をもとに比較。マウス・トラックボール・USB充電器・ワイヤレス充電器・モバイルバッテリーを、仕事用・デスク周り・持ち運び・省スペースなどの用途別に整理します。",
     category: "gadget",
+    subCategory: "other",
     productName: "1万円以下のおすすめガジェット10選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-11",
@@ -5085,6 +5112,7 @@ export const articles: Article[] = [
     description:
       "静音マウスおすすめ5選を、R13 Picksの単品記事をもとに整理。Bluetoothや2.4GHzのワイヤレスモデルから有線モデルまで、接続方式・ボタン数・DPI・重量・静音仕様を用途別比較し、仕事用やオフィス・在宅ワークで選ぶときのポイントもまとめます。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "静音マウスおすすめ5選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-10",
@@ -5326,6 +5354,7 @@ export const articles: Article[] = [
     description:
       "有線マウスおすすめ5選を、R13 Picksの単品記事をもとに整理。静音モデル、5ボタンの仕事用、ゲーミング、小型のType-C対応モデルまで、接続端子・ボタン数・DPI・重量・ケーブル長を用途別比較し、仕事用やゲーム用の有線マウスの選び方もまとめます。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "有線マウスおすすめ5選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-10",
@@ -5565,6 +5594,7 @@ export const articles: Article[] = [
     description:
       "おすすめマウス10選を、R13 Picksの単品記事をもとに整理。有線・ワイヤレス・静音・トラックボールなどのタイプごとに、接続方式やDPI、ボタン数、重量を用途別比較し、仕事用やゲーム用のマウス選びのポイントをまとめます。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "おすすめマウス10選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-10-10",
@@ -6134,6 +6164,7 @@ export const articles: Article[] = [
     description:
       "PCASTOREの巻き取り式ミニマウスをR13 Picksの視点で紹介。Type-C版とUSB-A版から選べる有線 マウスで、1000DPIの光学式センサー、約4.5 × 2.5 × 7.5cmの小型ボディ、約70〜80cmの巻き取り式ケーブルを備えています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "PCASTORE Mini Wired Mouse 10002930",
     productType: "有線マウス",
     publishedAt: "2026-10-09",
@@ -6198,6 +6229,7 @@ export const articles: Article[] = [
     description:
       "エレコム M-K6URBK/RSをR13 Picksの視点で紹介。USB-Aで接続する有線 マウスで、光学センサー方式、分解能1000カウント、ホイールボタンを含む3ボタン、Mサイズ、約77g、1.5mケーブルを備えたスタンダードな光学式 マウスです。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "ELECOM M-K6URBK/RS",
     productType: "有線マウス",
     publishedAt: "2026-10-09",
@@ -6261,6 +6293,7 @@ export const articles: Article[] = [
     description:
       "BUFFALO BSMBU308GRをR13 Picksの視点で紹介。USBで接続する有線 マウスで、BlueLEDセンサー、1000 / 1600DPIの2段階切替、戻る/進むボタンを含む5ボタン、静音スイッチ、マットボディ＋ラバーグリップを備えています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "BUFFALO BSMBU308GR",
     productType: "有線マウス",
     publishedAt: "2026-10-09",
@@ -6324,6 +6357,7 @@ export const articles: Article[] = [
     description:
       "エレコム EPRIM M-Y8UBBKをR13 Picksの視点で紹介。USB Type-Aで接続する有線 マウスで、BlueLED、分解能1600dpi、ホイールボタンを含む3ボタン、約66.5gのMサイズ、左右対称デザイン、約1.5mケーブルを備えたシンプル マウスです。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "ELECOM EPRIM M-Y8UBBK",
     productType: "有線マウス",
     publishedAt: "2026-10-09",
@@ -6388,6 +6422,7 @@ export const articles: Article[] = [
     description:
       "エレコム EX-G M-XGL30UBSKABKをR13 Picksの視点で紹介。USB-Aで接続する有線 マウスで、BlueLEDセンサー、2000DPI、ホイールボタンを含む5ボタン、静音モデル、Lサイズの形状、約1.5mケーブル、2年保証を備えています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "ELECOM EX-G M-XGL30UBSKABK",
     productType: "有線マウス",
     publishedAt: "2026-10-09",
@@ -6452,6 +6487,7 @@ export const articles: Article[] = [
     description:
       "FANTECH X15 PHANTOMをR13 Picksの視点で紹介。USB Type-Aで接続する有線 マウスのゲーミングマウスで、7つのプログラマブルボタン、200〜4800DPIのDPI切替、RGBライティング、光学式センサー、長さ1.8mのナイロン編組ケーブルを備えています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "FANTECH X15 PHANTOM",
     productType: "有線ゲーミングマウス",
     publishedAt: "2026-10-09",
@@ -6519,6 +6555,7 @@ export const articles: Article[] = [
     description:
       "サンワダイレクト 400-MA096をR13 Picksの視点で紹介。USBで接続する有線 マウスで、ブルーLEDセンサー、戻る/進むボタンを含む5ボタン、800 / 1200 / 1600 / 2000count/inchの4段階切替、左右対称形状とラバーコーティングを備えています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "Sanwa Direct 400-MA096",
     productType: "有線マウス",
     publishedAt: "2026-10-09",
@@ -6582,6 +6619,7 @@ export const articles: Article[] = [
     description:
       "BLENCK SB-A100をR13 Picksの視点で紹介。販売ページでは、2.4GHzワイヤレスのQ23と、Bluetooth＋2.4GHzのB107の2タイプを展開。薄型・静音設計のUSB充電式 マウスで、3段階DPIモードや省電力スリープを備えています。モデルごとの違いと購入前の確認ポイントを整理します。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "BLENCK SB-A100 Wireless Mouse",
     productType: "ワイヤレスマウス",
     publishedAt: "2026-10-09",
@@ -6655,6 +6693,7 @@ export const articles: Article[] = [
     description:
       "サンワダイレクト 400-MA124BKをR13 Picksの視点で紹介。USBで接続する有線 マウスで、戻る/進むボタンを含む5ボタン、800 / 1200 / 1600 / 2000count/inchの4段階切替、ブルーLEDセンサー、左右クリックとサイドボタンの静音ボタンを備えています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "Sanwa Direct 400-MA124BK",
     productType: "有線マウス",
     publishedAt: "2026-10-09",
@@ -6719,6 +6758,7 @@ export const articles: Article[] = [
     description:
       "サンワダイレクト 400-MAWBT207をR13 Picksの視点で紹介。BluetoothとUSBレシーバーの2.4GHzで接続できる充電式 マウスで、横スクロール用のサイドホイール、高速スクロール、静音ボタン、1000〜3200count/inchの分解能切替を備えたワイヤレス マウスです。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "Sanwa Direct 400-MAWBT207",
     productType: "ワイヤレスマウス",
     publishedAt: "2026-10-09",
@@ -6792,6 +6832,7 @@ export const articles: Article[] = [
     description:
       "ナカバヤシ Digio2 MUS-RIT126BKをR13 Picksの視点で紹介。2.4GHzで接続するワイヤレス マウスで、左右ボタンとホイールボタンに静音スイッチを採用した3ボタン構成、800 / 1200 / 1600dpiの3段階切替、IR LEDセンサーを備えたシンプルなモデルです。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "Nakabayashi Digio2 MUS-RIT126BK",
     productType: "無線マウス",
     publishedAt: "2026-10-09",
@@ -6861,6 +6902,7 @@ export const articles: Article[] = [
     description:
       "Logicool G203 LIGHTSYNC（G203-BK）をR13 Picksの視点で紹介。200〜8,000DPIのゲーミンググレードセンサー、6個のプログラム可能なボタン、約1,680万色のLIGHTSYNC RGBを備えた、USB接続の有線ゲーミングマウスです。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "Logicool G203 LIGHTSYNC G203-BK",
     productType: "有線ゲーミングマウス",
     publishedAt: "2026-10-08",
@@ -6929,6 +6971,7 @@ export const articles: Article[] = [
     description:
       "Logicool Signature M650（M650MGR）をR13 Picksの視点で紹介。Logi Bolt USBレシーバーとBluetooth Low Energyの2方式で接続できるワイヤレス マウスで、SmartWheel、400〜4,000dpi、5ボタン、クリック音を従来比90%軽減した静音設計を備えています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "Logicool Signature M650 M650MGR",
     productType: "ワイヤレスマウス",
     publishedAt: "2026-10-08",
@@ -7002,6 +7045,7 @@ export const articles: Article[] = [
     description:
       "Logicool M240 Silent Bluetooth Mouse（M240GR）をR13 Picksの視点で紹介。Bluetooth接続で使うレシーバー不要のワイヤレス マウスで、従来品M170比でクリック音を90%軽減した静音設計、73.8g（電池含む）の軽量ボディ、左右対称デザインを備えたモデルです。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "Logicool M240 Silent Bluetooth Mouse M240GR",
     productType: "Bluetoothマウス",
     publishedAt: "2026-10-07",
@@ -7071,6 +7115,7 @@ export const articles: Article[] = [
     description:
       "EWINE系のワイヤレス トラックボール マウスをR13 Picksの視点で紹介。親指で操作するトラックボールに、Bluetoothと2.4GHzの接続、3台接続、5段階DPI、7ボタン、静音設計を備えたモデルです。販売ページの仕様をもとに、購入前に確認したいポイントを整理します。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "EWINE トラックボールマウス 100938",
     productType: "トラックボールマウス",
     publishedAt: "2026-10-07",
@@ -7141,6 +7186,7 @@ export const articles: Article[] = [
     description:
       "WAYetTO wtms0001をR13 Picksの視点で紹介。2.4GHzワイヤレスとBluetoothの2Way接続、3段階DPI切替に対応した薄型・充電式のワイヤレスマウスです。購入前に確認したい販売元の注意事項もまとめています。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "WAYetTO ワイヤレスマウス wtms0001（Bluetooth・2.4GHz・充電式）",
     productType: "ワイヤレスマウス",
     publishedAt: "2026-10-03",
@@ -7195,6 +7241,7 @@ export const articles: Article[] = [
     description:
       "BLENCK Q23をR13 Picksの視点で紹介。薄型・静音設計で、2.4GHzワイヤレス接続とUSB充電に対応したワイヤレスマウスです。販売元の案内をもとに、接続方式や充電、購入前に確認したいポイントを整理します。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "BLENCK Q23 ワイヤレスマウス（薄型・静音・充電式）",
     productType: "ワイヤレスマウス",
     publishedAt: "2026-10-03",
@@ -7265,6 +7312,7 @@ export const articles: Article[] = [
     description:
       "サンワダイレクト 400-MA097をR13 Picksの視点で紹介。戻る/進むボタンを含む5ボタン、2.4GHz無線、BlueLEDセンサー、800/1200/1600カウントの切替に対応したブラックのワイヤレスマウスです。",
     category: "gadget",
+    subCategory: "mouse",
     productName: "サンワダイレクト 400-MA097 ワイヤレスマウス（5ボタン・2.4GHz・BlueLED）",
     productType: "ワイヤレスマウス",
     publishedAt: "2026-10-03",
@@ -7319,6 +7367,7 @@ export const articles: Article[] = [
     description:
       "PC nextの中古・再生ノートPC 5選を比較。Fujitsu LIFEBOOK、NEC小型、U9311X/F、U9312/K、Let's note CF-SV9について、CPU・メモリ・画面・重量・保証など公式で確認できる内容を整理します。新品PCではありません。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "中古・再生ノートPCおすすめ5選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-09-22",
@@ -7619,6 +7668,7 @@ export const articles: Article[] = [
     description:
       "PC nextで販売されるPanasonic Let's note CF-SV9 再生ノートPCを紹介。中古再生品であること、第10世代Core i5-10310U、メモリ16GB、新品SSD 256GB、12.1インチ、重量1kg、保証・バッテリー・外観の注意点など、公式で確認できる内容を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Panasonic Let's note CF-SV9 再生ノートPC",
     productType: "再生ノートパソコン",
     publishedAt: "2026-09-22",
@@ -7707,6 +7757,7 @@ export const articles: Article[] = [
     description:
       "PC nextで販売されるFujitsu LIFEBOOK U9312/K 再生ノートPCを紹介。中古再生品であること、第12世代Core i5-1245U、新品SSD 256GB、13.3インチFHD、重量738g、保証・バッテリー・外観の注意点など、公式で確認できる内容を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Fujitsu LIFEBOOK U9312/K 再生ノートPC",
     productType: "再生ノートパソコン",
     publishedAt: "2026-09-22",
@@ -7791,6 +7842,7 @@ export const articles: Article[] = [
     description:
       "PC nextで販売されるFujitsu LIFEBOOK U9311X/F 再生ノートPCを紹介。中古再生品であること、第11世代Core i5-1145G7、新品SSD 256GB、13.3インチFHDタッチ、360度回転、保証・バッテリー・外観の注意点など、公式で確認できる内容を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Fujitsu LIFEBOOK U9311X/F 再生ノートPC",
     productType: "再生ノートパソコン",
     publishedAt: "2026-09-22",
@@ -7881,6 +7933,7 @@ export const articles: Article[] = [
     description:
       "PC nextで販売されるNEC製小型（シルバー）再生ノートPCを紹介。中古再生品であること、第8世代Core i5、新品SSD 256GB、12.5インチ、Windows 11 Home、保証・バッテリー・外観の注意点など、公式で確認できる内容を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "NEC製小型（シルバー）再生ノートPC（第八世代 Core i5）",
     productType: "再生ノートパソコン",
     publishedAt: "2026-09-22",
@@ -7972,6 +8025,7 @@ export const articles: Article[] = [
     description:
       "PC nextで販売される富士通 LIFEBOOK 再生ノートPCを紹介。中古再生品であること、第8世代Core i5、新品SSD 256GB、Windows 11 Home、保証・バッテリー・外観の注意点など、公式で確認できる内容を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "富士通 LIFEBOOK 再生ノートPC",
     productType: "再生ノートパソコン",
     publishedAt: "2026-09-22",
@@ -8056,6 +8110,7 @@ export const articles: Article[] = [
     description:
       "Acer Nitro VG270S6bmixをR13 Picksの視点で紹介。27インチ、フルHD IPS（非光沢）、180Hz、1ms（VRB）、sRGB 99%、AMD FreeSyncなど、公式で確認できる仕様を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer Nitro VG270S6bmix 27インチ ゲーミングモニター",
     productType: "ゲーミングモニター",
     publishedAt: "2026-09-22",
@@ -8141,6 +8196,7 @@ export const articles: Article[] = [
     description:
       "Acer Extensa 15 EX215-24-A38UをR13 Picksの視点で紹介。Windows 11 Pro、AMD Ryzen 3 7320U、8GB、256GB SSD、15.6インチフルHDなど、公式で確認できる構成を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer Extensa 15 EX215-24-A38U",
     productType: "ノートパソコン",
     publishedAt: "2026-09-22",
@@ -8227,6 +8283,7 @@ export const articles: Article[] = [
     description:
       "Acer Chromebook 315 CB315-7H-H18PをR13 Picksの視点で紹介。ChromeOS、Intel Processor N50、8GB、64GB eMMC、15.6インチフルHDなど、公式で確認できる構成を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer Chromebook 315 CB315-7H-H18P",
     productType: "Chromebook",
     publishedAt: "2026-09-22",
@@ -8314,6 +8371,7 @@ export const articles: Article[] = [
     description:
       "Acer PM161QTA1bmiuuxをR13 Picksの視点で紹介。15.6インチ フルHD IPS（非光沢）、10点マルチタッチ、約700g、USB-C／mini HDMIなど、公式で確認できる仕様を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer PM161QTA1bmiuux 15.6インチ モバイルモニター",
     productType: "モバイルモニター",
     publishedAt: "2026-09-22",
@@ -8396,6 +8454,7 @@ export const articles: Article[] = [
     description:
       "Acer EK271P6biをR13 Picksの視点で紹介。27インチ、フルHD IPS（非光沢）、144Hz、1ms（VRB）、sRGB 99%、AMD FreeSyncなど、公式で確認できる仕様を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer EK271P6bi 27インチ モニター",
     productType: "モニター",
     publishedAt: "2026-09-22",
@@ -8481,6 +8540,7 @@ export const articles: Article[] = [
     description:
       "Acer EK241YGbmixをR13 Picksの視点で紹介。23.8インチ、フルHD IPS（非光沢）、120Hz、1ms（VRB）、sRGB 99%、AdaptiveSyncなど、公式で確認できる仕様を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer EK241YGbmix 23.8インチ モニター",
     productType: "モニター",
     publishedAt: "2026-09-22",
@@ -8563,6 +8623,7 @@ export const articles: Article[] = [
     description:
       "Acer Nitro 16S AI AN16S-61-F93Z57TをR13 Picksの視点で紹介。Windows 11 Home、Ryzen AI 9 365、GeForce RTX 5070 Ti Laptop GPU、32GBメモリ、1TB SSD、16インチWQXGA 180Hzなど、公式で確認できる構成を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer Nitro 16S AI AN16S-61-F93Z57T",
     productType: "ノートパソコン",
     publishedAt: "2026-09-21",
@@ -8643,6 +8704,7 @@ export const articles: Article[] = [
     description:
       "Acer Swift Air 16 SFA16-61M-N73YをR13 Picksの視点で紹介。Windows 11 Home、Ryzen AI 7 345、32GBメモリ、512GB SSD、16インチWUXGA IPS、約990gなど、公式で確認できる構成を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer Swift Air 16 SFA16-61M-N73Y",
     productType: "ノートパソコン",
     publishedAt: "2026-09-21",
@@ -8717,6 +8779,7 @@ export const articles: Article[] = [
     description:
       "Acer Aspire Lite 15 AL15-74P-N76YをR13 Picksの視点で紹介。Windows 11 Home、Core Ultra 7 155H、16GBメモリ、512GB SSD、15.6インチフルHD IPSなど、公式で確認できる構成を中心にまとめます。",
     category: "gadget",
+    subCategory: "pc-monitor",
     productName: "Acer Aspire Lite 15 AL15-74P-N76Y",
     productType: "ノートパソコン",
     publishedAt: "2026-09-21",
@@ -8789,6 +8852,7 @@ export const articles: Article[] = [
     description:
       "順位付けではなく、用途やデスク環境に合わせて選ぶチェア・デスク5選。オフィスチェア、デスクチェア、オフィスデスクを、向いている人の視点で整理します。",
     category: "desk",
+    subCategory: "other",
     productName: "デスク環境を整えるおすすめ5選",
     productType: "比較・まとめ記事",
     publishedAt: "2026-09-21",
@@ -9268,6 +9332,7 @@ export const articles: Article[] = [
     description:
       "多摩電子工業 tama's T-E015 USB3.1ハブをR13 Picksの視点で紹介。Type-C接続、USB-A×3、HDMI、LAN、SD／microSD、PD100W入力対応のポート構成を中心にまとめます。",
     category: "gadget",
+    subCategory: "usb-hub-accessories",
     productName: "tama's T-E015 USB3.1ハブ",
     productType: "USBハブ",
     publishedAt: "2026-09-19",
@@ -11595,6 +11660,7 @@ export const articles: Article[] = [
     description:
       "ITOKI CZR（シーゼットアール）シリーズ CZR-147BAC-1W9をR13 Picksの視点で紹介。白系天板とブラック系本体の両袖デスクとして、収納力と落ち着いた見た目をまとめます。",
     category: "desk",
+    subCategory: "desk",
     productName: "ITOKI CZR（シーゼットアール）シリーズ CZR-147BAC-1W9 オフィスデスク",
     productType: "オフィスデスク",
     publishedAt: "2026-09-06",
@@ -11650,6 +11716,7 @@ export const articles: Article[] = [
     description:
       "コクヨ INVENT（インベント）シリーズ TKG-D127E6AM10NをR13 Picksの視点で紹介。ブラック脚部と片袖収納を備えた、デスク環境に合わせやすいオフィスデスクとしてまとめます。",
     category: "desk",
+    subCategory: "desk",
     productName: "KOKUYO INVENT（インベント）シリーズ TKG-D127E6AM10N オフィスデスク",
     productType: "オフィスデスク",
     publishedAt: "2026-09-06",
@@ -11706,6 +11773,7 @@ export const articles: Article[] = [
     description:
       "COFO Chair LiteをR13 Picksの視点で紹介。ブラック基調のメッシュ仕様とヘッドレスト付き構成など、デスク環境に合わせやすいオフィスチェアとしての特徴をまとめます。",
     category: "desk",
+    subCategory: "chair",
     productName: "COFO Chair Lite",
     productType: "オフィスチェア",
     publishedAt: "2026-09-06",
@@ -11761,6 +11829,7 @@ export const articles: Article[] = [
     description:
       "オカムラ Sylphy（シルフィー）シリーズ C685XR-FMP1をR13 Picksの視点で紹介。ブラック基調のメッシュバックと、デスク空間に馴染むオフィスチェアとしての特徴をまとめます。",
     category: "desk",
+    subCategory: "chair",
     productName: "オカムラ Sylphy（シルフィー）シリーズ C685XR-FMP1 オフィスチェア",
     productType: "オフィスチェア",
     publishedAt: "2026-09-06",
@@ -12338,6 +12407,7 @@ export const articles: Article[] = [
     description:
       "多摩電子工業 tama's PR-WC64をR13 Picksの視点で紹介。Qi2対応のマグネット式ワイヤレス充電器で、最大15W、折りたたみスタンド、約1.5mのUSB-C直結ケーブルを備えています。",
     category: "gadget",
+    subCategory: "charger",
     productName: "tama's PR-WC64",
     productType: "ワイヤレス充電器",
     publishedAt: "2026-09-01",
@@ -12405,6 +12475,7 @@ export const articles: Article[] = [
     description:
       "多摩電子工業 tama's PR-AP160UC3をR13 Picksの視点で紹介。USB Power Delivery 100W、USB-C 3ポートとUSB-A 1ポート、GaN採用、折りたたみ式プラグの充電器です。",
     category: "gadget",
+    subCategory: "charger",
     productName: "tama's PR-AP160UC3",
     productType: "コンセント充電器",
     publishedAt: "2026-09-01",
@@ -12676,6 +12747,7 @@ export const articles: Article[] = [
     description:
       "多摩電子工業 tama's PR-APC265CをR13 Picksの視点で紹介。巻取り式USB-Cケーブル内蔵、USB Power Delivery最大65W、GaN採用の充電器です。",
     category: "gadget",
+    subCategory: "charger",
     productName: "tama's PR-APC265C",
     productType: "コンセント充電器",
     publishedAt: "2026-08-30",
@@ -12737,6 +12809,7 @@ export const articles: Article[] = [
     description:
       "GTPLAYER 人間工学シリーズ CH488をR13 Picksの視点で紹介。ブラックのメッシュデザインやヘッドレスト、アームレストなど、確認できる特徴を中心にまとめます。",
     category: "desk",
+    subCategory: "chair",
     productName: "GTPLAYER 人間工学シリーズ CH488",
     productType: "オフィスチェア",
     publishedAt: "2026-08-28",
@@ -12836,6 +12909,7 @@ export const articles: Article[] = [
     description:
       "RORRY CharmGo T1をR13 Picksの視点で紹介。10000mAh、最大30W急速充電、ケーブル収納、最大3台同時充電などに対応したキーホルダー型モバイルバッテリーです。",
     category: "gadget",
+    subCategory: "power-bank",
     productName: "RORRY CharmGo T1 10000mAh キーホルダー型モバイルバッテリー（30W対応）",
     productType: "モバイルバッテリー",
     publishedAt: "2026-08-27",

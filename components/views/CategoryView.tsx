@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/ArticleCard";
+import { CategorySubTabs } from "@/components/CategorySubTabs";
 import { getCategory } from "@/content/categories";
 import type { Locale } from "@/content/i18n/config";
 import { getCategoryCopy } from "@/content/i18n/categories";
 import { getUi } from "@/content/i18n/ui";
+import { categoryHasSubTabs } from "@/content/subcategories";
 import { getArticlesByCategory } from "@/lib/articles";
 import { localizeArticle } from "@/lib/i18n/articles";
 
@@ -18,6 +20,7 @@ export function CategoryView({ slug, locale }: { slug: string; locale: Locale })
   const articles = getArticlesByCategory(category.slug).map((article) =>
     localizeArticle(article, locale),
   );
+  const useSubTabs = categoryHasSubTabs(category.slug);
 
   return (
     <div className="container">
@@ -27,7 +30,14 @@ export function CategoryView({ slug, locale }: { slug: string; locale: Locale })
         <p>{copy.lead}</p>
       </header>
 
-      {articles.length > 0 ? (
+      {useSubTabs ? (
+        <CategorySubTabs
+          category={category.slug}
+          articles={articles}
+          locale={locale}
+          emptyState={<p className="empty-state">{ui.emptyCategory}</p>}
+        />
+      ) : articles.length > 0 ? (
         <div className="card-grid" style={{ paddingBottom: 80 }}>
           {articles.map((article) => (
             <ArticleCard key={article.slug} article={article} locale={locale} />

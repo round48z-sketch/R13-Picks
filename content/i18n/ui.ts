@@ -26,6 +26,8 @@ export type UiMessages = {
   popularGuidesCta: string;
   popularGuidesMore: string;
   popularGuidesTabsAria: string;
+  subCategoryTabsAria: string;
+  subCategoryAll: string;
   heroCarouselAria: string;
   heroCarouselTitle: string;
   heroCarouselPrev: string;
@@ -88,6 +90,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "比較記事を見る →",
     popularGuidesMore: "もっと見る →",
     popularGuidesTabsAria: "Popular Guidesのカテゴリ切り替え",
+    subCategoryTabsAria: "サブカテゴリで絞り込む",
+    subCategoryAll: "すべて",
     heroCarouselAria: "注目の記事",
     heroCarouselTitle: "注目の記事",
     heroCarouselPrev: "前の記事",
@@ -148,6 +152,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "View guide →",
     popularGuidesMore: "View more →",
     popularGuidesTabsAria: "Popular Guides category tabs",
+    subCategoryTabsAria: "Filter by subcategory",
+    subCategoryAll: "All",
     heroCarouselAria: "Featured articles",
     heroCarouselTitle: "Featured articles",
     heroCarouselPrev: "Previous article",
@@ -208,6 +214,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "비교 기사 보기 →",
     popularGuidesMore: "더 보기 →",
     popularGuidesTabsAria: "Popular Guides 카테고리 전환",
+    subCategoryTabsAria: "서브카테고리로 필터",
+    subCategoryAll: "모두",
     heroCarouselAria: "주목 기사",
     heroCarouselTitle: "주목 기사",
     heroCarouselPrev: "이전 기사",
@@ -268,6 +276,8 @@ export const uiMessages: Record<Locale, UiMessages> = {
     popularGuidesCta: "查看比较文章 →",
     popularGuidesMore: "查看更多 →",
     popularGuidesTabsAria: "Popular Guides 分类切换",
+    subCategoryTabsAria: "按子分类筛选",
+    subCategoryAll: "全部",
     heroCarouselAria: "精选文章",
     heroCarouselTitle: "精选文章",
     heroCarouselPrev: "上一篇",
