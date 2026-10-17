@@ -24,6 +24,19 @@ export type UiMessages = {
   editorsPicksTitle: string;
   editorsPicksLead: string;
   editorsPicksAria: string;
+  featuredStoriesLabel: string;
+  featuredStoriesTitle: string;
+  featuredStoriesLead: string;
+  featuredStoriesAria: string;
+  featuredStoriesPrev: string;
+  featuredStoriesNext: string;
+  featuredStoriesDotsAria: string;
+  featuredStoriesDotLabel: string;
+  featuredStoriesPause: string;
+  featuredStoriesPlay: string;
+  featuredStoriesPauseAria: string;
+  featuredStoriesPlayAria: string;
+  featuredStoriesReducedMotion: string;
   allArticlesLabel: string;
   allArticlesTitle: string;
   allArticlesLead: string;
@@ -111,6 +124,19 @@ export const uiMessages: Record<Locale, UiMessages> = {
     editorsPicksTitle: "編集部の注目",
     editorsPicksLead: "いま特に見てほしい、編集部が選んだ記事です。",
     editorsPicksAria: "編集部の注目記事",
+    featuredStoriesLabel: "Featured Stories",
+    featuredStoriesTitle: "特集記事",
+    featuredStoriesLead: "いま注目したいセレクトを、横に並べて紹介します。",
+    featuredStoriesAria: "特集記事スライダー",
+    featuredStoriesPrev: "前の特集記事",
+    featuredStoriesNext: "次の特集記事",
+    featuredStoriesDotsAria: "スライドの位置",
+    featuredStoriesDotLabel: "{n}枚目を表示",
+    featuredStoriesPause: "Pause",
+    featuredStoriesPlay: "Play",
+    featuredStoriesPauseAria: "自動再生を停止",
+    featuredStoriesPlayAria: "自動再生を開始",
+    featuredStoriesReducedMotion: "動きを減らす設定中",
     allArticlesLabel: "All Articles",
     allArticlesTitle: "すべての記事",
     allArticlesLead: "公開中の記事を新しい順に一覧できます。",
@@ -198,6 +224,19 @@ export const uiMessages: Record<Locale, UiMessages> = {
     editorsPicksTitle: "Selected by the editors",
     editorsPicksLead: "A short list of pieces we especially want you to see.",
     editorsPicksAria: "Editor's featured articles",
+    featuredStoriesLabel: "Featured Stories",
+    featuredStoriesTitle: "Featured stories",
+    featuredStoriesLead: "A horizontal selection of stories worth reading now.",
+    featuredStoriesAria: "Featured stories slider",
+    featuredStoriesPrev: "Previous featured story",
+    featuredStoriesNext: "Next featured story",
+    featuredStoriesDotsAria: "Slide position",
+    featuredStoriesDotLabel: "Show slide {n}",
+    featuredStoriesPause: "Pause",
+    featuredStoriesPlay: "Play",
+    featuredStoriesPauseAria: "Pause autoplay",
+    featuredStoriesPlayAria: "Start autoplay",
+    featuredStoriesReducedMotion: "Reduced motion is on",
     allArticlesLabel: "All Articles",
     allArticlesTitle: "All articles",
     allArticlesLead: "Browse every published article, newest first.",
@@ -285,6 +324,19 @@ export const uiMessages: Record<Locale, UiMessages> = {
     editorsPicksTitle: "편집부 추천",
     editorsPicksLead: "지금 특히 읽어 보셨으면 하는 편집부 선정 기사입니다.",
     editorsPicksAria: "편집부 추천 기사",
+    featuredStoriesLabel: "Featured Stories",
+    featuredStoriesTitle: "특집 기사",
+    featuredStoriesLead: "지금 눈여겨볼 셀렉트를 가로로 소개합니다.",
+    featuredStoriesAria: "특집 기사 슬라이더",
+    featuredStoriesPrev: "이전 특집 기사",
+    featuredStoriesNext: "다음 특집 기사",
+    featuredStoriesDotsAria: "슬라이드 위치",
+    featuredStoriesDotLabel: "{n}번째 슬라이드 보기",
+    featuredStoriesPause: "Pause",
+    featuredStoriesPlay: "Play",
+    featuredStoriesPauseAria: "자동 재생 정지",
+    featuredStoriesPlayAria: "자동 재생 시작",
+    featuredStoriesReducedMotion: "동작 줄이기 설정 중",
     allArticlesLabel: "All Articles",
     allArticlesTitle: "전체 기사",
     allArticlesLead: "공개 중인 기사를 최신순으로 볼 수 있습니다.",
@@ -372,6 +424,19 @@ export const uiMessages: Record<Locale, UiMessages> = {
     editorsPicksTitle: "编辑精选",
     editorsPicksLead: "编辑部特别想推荐给你的精选文章。",
     editorsPicksAria: "编辑精选文章",
+    featuredStoriesLabel: "Featured Stories",
+    featuredStoriesTitle: "精选特辑",
+    featuredStoriesLead: "以横向滑动的方式，介绍值得关注的精选文章。",
+    featuredStoriesAria: "精选特辑滑动区",
+    featuredStoriesPrev: "上一篇精选",
+    featuredStoriesNext: "下一篇精选",
+    featuredStoriesDotsAria: "幻灯片位置",
+    featuredStoriesDotLabel: "显示第 {n} 张",
+    featuredStoriesPause: "Pause",
+    featuredStoriesPlay: "Play",
+    featuredStoriesPauseAria: "停止自动播放",
+    featuredStoriesPlayAria: "开始自动播放",
+    featuredStoriesReducedMotion: "已开启减少动态效果",
     allArticlesLabel: "All Articles",
     allArticlesTitle: "全部文章",
     allArticlesLead: "按最新顺序浏览全部已发布文章。",

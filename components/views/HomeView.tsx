@@ -3,6 +3,7 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryNav } from "@/components/CategoryNav";
 import { GuideCard } from "@/components/GuideCard";
 import { EditorsPicks } from "@/components/home/EditorsPicks";
+import { FeaturedStories } from "@/components/home/FeaturedStories";
 import { HomeHero } from "@/components/home/HomeHero";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { PopularGuideTabs } from "@/components/PopularGuideTabs";
@@ -14,6 +15,7 @@ import {
   getArticleCategory,
   getArticleThumbnail,
   getEditorsPickArticles,
+  getFeaturedStoryArticles,
   getHeroCarouselArticles,
   getLatestArticles,
   getPopularGuideTabs,
@@ -40,6 +42,9 @@ const ROUNDUP_HERO_SLUGS = new Set([
 
 export function HomeView({ locale }: { locale: Locale }) {
   const ui = getUi(locale);
+  const featuredStories = getFeaturedStoryArticles().map((article) =>
+    localizeArticle(article, locale),
+  );
   const editorsPicks = getEditorsPickArticles().map((article) =>
     localizeArticle(article, locale),
   );
@@ -89,6 +94,8 @@ export function HomeView({ locale }: { locale: Locale }) {
       <div className="container home-categories">
         <CategoryNav />
       </div>
+
+      <FeaturedStories articles={featuredStories} locale={locale} />
 
       <EditorsPicks articles={editorsPicks} locale={locale} />
 
