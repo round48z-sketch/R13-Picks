@@ -62,7 +62,7 @@ export function FeaturedStories({ articles, locale = "ja" }: FeaturedStoriesProp
   const autoplay = useMemo(
     () =>
       Autoplay({
-        delay: 5000,
+        delay: 3500,
         playOnInit: false,
         stopOnInteraction: true,
         stopOnMouseEnter: false,
