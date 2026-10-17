@@ -3,13 +3,13 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryNav } from "@/components/CategoryNav";
 import { GlobalSearch } from "@/components/GlobalSearch";
 import { GuideCard } from "@/components/GuideCard";
+import { HomeHero } from "@/components/home/HomeHero";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { PopularGuideTabs } from "@/components/PopularGuideTabs";
 import { getCategory } from "@/content/categories";
 import type { Locale } from "@/content/i18n/config";
 import { getSiteDescription } from "@/content/i18n/site";
 import { getUi } from "@/content/i18n/ui";
-import { siteConfig } from "@/content/site";
 import {
   getAllArticles,
   getArticleCategory,
@@ -22,6 +22,12 @@ import { localizePath } from "@/lib/i18n/path";
 import { buildGlobalSearchIndex } from "@/lib/search-index";
 
 const POPULAR_GUIDES_PER_TAB = 4;
+
+/**
+ * Phase 1 home hero renewal: media hero is shown; carousel stays wired but hidden.
+ * Set to `true` to restore the previous HeroCarousel block without deleting code.
+ */
+const SHOW_HERO_CAROUSEL = false;
 
 const ROUNDUP_HERO_SLUGS = new Set([
   "beauty-appliances-5-picks",
@@ -65,19 +71,13 @@ export function HomeView({ locale }: { locale: Locale }) {
 
   return (
     <>
-      <section className="hero">
-        <div className="container">
-          <div className="brand-mark" aria-hidden="true">
-            R13
-          </div>
-          <p className="logo">{siteConfig.logo}</p>
-          <p>{siteConfig.tagline}</p>
-        </div>
-      </section>
+      <HomeHero locale={locale} />
 
-      <div className="container">
-        <HeroCarousel slides={heroSlides} locale={locale} />
-      </div>
+      {SHOW_HERO_CAROUSEL ? (
+        <div className="container">
+          <HeroCarousel slides={heroSlides} locale={locale} />
+        </div>
+      ) : null}
 
       <div className="container">
         <GlobalSearch entries={searchEntries} locale={locale} />
@@ -87,7 +87,7 @@ export function HomeView({ locale }: { locale: Locale }) {
         <CategoryNav />
       </div>
 
-      <section className="section section--guides">
+      <section className="section section--guides" id="popular-guides">
         <div className="container">
           <div className="section-head section-head--guides">
             <p className="section-label">{ui.popularGuidesLabel}</p>
@@ -121,7 +121,7 @@ export function HomeView({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" id="new-picks">
         <div className="container">
           <div className="section-head">
             <p className="section-label">{ui.newPicksLabel}</p>

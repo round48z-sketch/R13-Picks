@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Noto_Sans_JP } from "next/font/google";
+import { GFS_Didot, Inter, Noto_Sans_JP, Zen_Kurenaido } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -15,10 +15,30 @@ const sans = Noto_Sans_JP({
   display: "swap",
 });
 
+/** Neo-grotesque face for UI chrome (nav, etc.). */
 const display = Inter({
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["300", "400", "500", "700"],
   variable: "--font-display",
+  display: "swap",
+});
+
+/**
+ * Wordmark face: GFS Didot (Greek Font Society) via Google Fonts / next/font.
+ * License: SIL Open Font License 1.1 (self-hosted by Next.js at build time).
+ */
+const brand = GFS_Didot({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-brand",
+  display: "swap",
+});
+
+/** Soft handwritten Japanese face for hero accent copy (OFL via Google Fonts). */
+const hand = Zen_Kurenaido({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-hand",
   display: "swap",
 });
 
@@ -49,7 +69,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ja" className={`${sans.variable} ${display.variable}`}>
+    <html
+      lang="ja"
+      className={`${sans.variable} ${display.variable} ${brand.variable} ${hand.variable}`}
+    >
       <head>
         <script
           async

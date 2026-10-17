@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { categories } from "@/content/categories";
 import { getCategoryCopy } from "@/content/i18n/categories";
-import { siteConfig } from "@/content/site";
 import { getUi } from "@/content/i18n/ui";
 import { getLocaleFromPathname, localizePath } from "@/lib/i18n/path";
 
@@ -33,8 +32,9 @@ export function Header() {
     <>
       <header className="site-header">
         <div className="site-header__inner">
-          <Link href={homeHref} className="logo" onClick={() => setOpen(false)}>
-            {siteConfig.logo}
+          <Link href={homeHref} className="site-brand" onClick={() => setOpen(false)}>
+            <span className="site-brand__r13">R13</span>
+            <span className="site-brand__picks">Picks</span>
           </Link>
           <div className="site-header__actions">
             <nav className="desktop-nav" aria-label={ui.mainNavAria}>

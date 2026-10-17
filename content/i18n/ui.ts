@@ -36,6 +36,13 @@ export type UiMessages = {
   globalSearchAria: string;
   globalSearchClearAria: string;
   globalSearchEmpty: string;
+  homeHeroAria: string;
+  homeHeroHeadline: string;
+  homeHeroLead: string;
+  homeHeroCta: string;
+  /** Handwritten accent lines shown on the hero (desktop). */
+  homeHeroScriptLine1: string;
+  homeHeroScriptLine2: string;
   heroCarouselAria: string;
   heroCarouselTitle: string;
   heroCarouselPrev: string;
@@ -108,6 +115,13 @@ export const uiMessages: Record<Locale, UiMessages> = {
     globalSearchAria: "サイト内の記事を検索",
     globalSearchClearAria: "検索をクリア",
     globalSearchEmpty: "該当する記事が見つかりませんでした。",
+    homeHeroAria: "サイト紹介",
+    homeHeroHeadline: "いいものを選ぶ。毎日が変わる。",
+    homeHeroLead:
+      "オーディオ、ガジェット、時計、ファッション、デスク、ライフスタイルから、毎日に取り入れたいものだけを厳選して紹介します。",
+    homeHeroCta: "おすすめ記事を見る",
+    homeHeroScriptLine1: "いいものに囲まれて",
+    homeHeroScriptLine2: "もっと好きな自分に。",
     heroCarouselAria: "注目の記事",
     heroCarouselTitle: "注目の記事",
     heroCarouselPrev: "前の記事",
@@ -178,6 +192,13 @@ export const uiMessages: Record<Locale, UiMessages> = {
     globalSearchAria: "Search articles on this site",
     globalSearchClearAria: "Clear search",
     globalSearchEmpty: "No matching articles were found.",
+    homeHeroAria: "Site introduction",
+    homeHeroHeadline: "Choose well. Change every day.",
+    homeHeroLead:
+      "From audio, gadgets, watches, fashion, desk, and lifestyle, we curate only what you may want to bring into everyday life.",
+    homeHeroCta: "Explore a featured guide",
+    homeHeroScriptLine1: "Surrounded by good things",
+    homeHeroScriptLine2: "Become more yourself.",
     heroCarouselAria: "Featured articles",
     heroCarouselTitle: "Featured articles",
     heroCarouselPrev: "Previous article",
@@ -248,6 +269,13 @@ export const uiMessages: Record<Locale, UiMessages> = {
     globalSearchAria: "사이트 내 기사 검색",
     globalSearchClearAria: "검색 지우기",
     globalSearchEmpty: "일치하는 기사를 찾을 수 없습니다.",
+    homeHeroAria: "사이트 소개",
+    homeHeroHeadline: "좋은 것을 고르다. 매일이 바뀐다.",
+    homeHeroLead:
+      "오디오, 가제트, 시계, 패션, 데스크, 라이프스타일 가운데 매일 쓰고 싶은 것만 엄선해 소개합니다.",
+    homeHeroCta: "추천 기사 보기",
+    homeHeroScriptLine1: "좋은 것들에 둘러싸여",
+    homeHeroScriptLine2: "더 좋아하는 자신이 되도록.",
     heroCarouselAria: "주목 기사",
     heroCarouselTitle: "주목 기사",
     heroCarouselPrev: "이전 기사",
@@ -318,6 +346,13 @@ export const uiMessages: Record<Locale, UiMessages> = {
     globalSearchAria: "搜索站内文章",
     globalSearchClearAria: "清除搜索",
     globalSearchEmpty: "未找到匹配的文章。",
+    homeHeroAria: "网站介绍",
+    homeHeroHeadline: "选对好物，日常自会不同。",
+    homeHeroLead:
+      "我们从音频、数码配件、腕表、时尚、桌面与生活方式中，只挑选值得融入日常的好物。",
+    homeHeroCta: "查看精选文章",
+    homeHeroScriptLine1: "被美好事物环绕",
+    homeHeroScriptLine2: "成为更喜欢的自己。",
     heroCarouselAria: "精选文章",
     heroCarouselTitle: "精选文章",
     heroCarouselPrev: "上一篇",
