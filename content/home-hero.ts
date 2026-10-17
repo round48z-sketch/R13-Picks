@@ -11,12 +11,13 @@ import type { Locale } from "@/content/i18n/config";
  * While `imageSrc` is null, the UI uses a CSS placeholder background only.
  */
 export const homeHeroConfig = {
-  /** Public path under /public, or null for the CSS placeholder. */
+  /** Public path under /public, or null for the CSS placeholder. Desktop (≥720px). */
   imageSrc: "/images/home/hero.jpg" as string | null,
+  /** Portrait art for mobile (≤719px). Falls back to `imageSrc` when null. */
+  mobileImageSrc: "/images/home/hero-mobile.jpg" as string | null,
   /**
-   * CSS object-position when an image is set.
-   * Bias to the right so the subject (woman) stays in frame;
-   * mobile framing is refined further in `.home-hero` CSS.
+   * CSS object-position for the desktop image.
+   * Bias to the right so the subject (woman) stays in frame.
    */
   objectPosition: "78% 30%",
   /**

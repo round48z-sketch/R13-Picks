@@ -2716,6 +2716,11 @@ h3 {
   object-position: var(--home-hero-object-position, 78% 30%);
 }
 
+/* Art-directed mobile portrait; hidden on desktop */
+.home-hero__image--mobile {
+  display: none;
+}
+
 .home-hero__veil {
   position: absolute;
   inset: 0;
@@ -2885,25 +2890,22 @@ h3 {
   }
 
   .home-hero__media {
-    /*
-     * Widen the media box (clip via .home-hero overflow) so cover-crop
-     * matches the landscape source more closely — face stays natural-sized.
-     */
+    /* Full-bleed inside hero — no landscape “zoom-out” expansion */
     position: absolute;
-    top: -2%;
-    right: -100%;
-    bottom: -2%;
-    left: -100%;
+    inset: 0;
     width: auto;
     height: auto;
   }
 
-  .home-hero__image {
-    /*
-     * Less right-bias than PC: show more of the landscape so the face
-     * reads smaller/natural on a narrow clipped window.
-     */
-    object-position: 52% 18%;
+  .home-hero__image--desktop {
+    display: none;
+  }
+
+  .home-hero__image--mobile {
+    display: block;
+    /* Portrait art: natural full-frame; face upper, dark lower for copy */
+    object-fit: cover;
+    object-position: 55% 28%;
   }
 
   .home-hero__veil {

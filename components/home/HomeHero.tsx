@@ -41,9 +41,16 @@ function renderHomeHeroHeadline(locale: Locale, headline: string) {
 
 export function HomeHero({ locale = "ja", searchEntries }: HomeHeroProps) {
   const ui = getUi(locale);
-  const hasImage = Boolean(homeHeroConfig.imageSrc);
+  const desktopSrc = homeHeroConfig.imageSrc;
+  const mobileSrc = homeHeroConfig.mobileImageSrc || homeHeroConfig.imageSrc;
+  const hasImage = Boolean(desktopSrc);
+  const hasMobileArt = Boolean(
+    homeHeroConfig.mobileImageSrc &&
+      homeHeroConfig.mobileImageSrc !== homeHeroConfig.imageSrc,
+  );
   const ctaHref = localizePath(`/picks/${homeHeroConfig.ctaArticleSlug}`, locale);
   const hasScript = Boolean(ui.homeHeroScriptLine1 && ui.homeHeroScriptLine2);
+  const imageAlt = homeHeroImageAlt[locale];
 
   return (
     <section
@@ -63,14 +70,28 @@ export function HomeHero({ locale = "ja", searchEntries }: HomeHeroProps) {
         }
         aria-hidden={hasImage ? undefined : true}
       >
-        {hasImage && homeHeroConfig.imageSrc ? (
+        {hasImage && desktopSrc ? (
           <Image
-            src={homeHeroConfig.imageSrc}
-            alt={homeHeroImageAlt[locale]}
+            src={desktopSrc}
+            alt={imageAlt}
             fill
             priority
-            sizes="(max-width: 719px) 300vw, 100vw"
-            className="home-hero__image"
+            sizes="100vw"
+            className={
+              hasMobileArt
+                ? "home-hero__image home-hero__image--desktop"
+                : "home-hero__image"
+            }
+          />
+        ) : null}
+        {hasImage && hasMobileArt && mobileSrc ? (
+          <Image
+            src={mobileSrc}
+            alt={imageAlt}
+            fill
+            priority
+            sizes="100vw"
+            className="home-hero__image home-hero__image--mobile"
           />
         ) : null}
         <div className="home-hero__veil" />
