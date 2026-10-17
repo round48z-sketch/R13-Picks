@@ -36,8 +36,6 @@ export const categorySearchKeywords: Record<CategorySlug, string[]> = {
     "レディース腕時計",
     "電波ソーラー",
     "アウトドアウォッチ",
-    "黒い腕時計",
-    "黒時計",
   ],
   fashion: ["ファッション", "財布", "バッグ", "小物", "アクセサリー", "ネックレス"],
   desk: [
@@ -51,7 +49,10 @@ export const categorySearchKeywords: Record<CategorySlug, string[]> = {
   lifestyle: ["ライフスタイル", "暮らし", "美容家電", "ドライヤー", "ヘアアイロン", "美顔器"],
 };
 
-/** Subcategory synonyms (DESK / GADGET). */
+/**
+ * Subcategory synonyms (DESK / GADGET).
+ * Avoid guessing specs (wired/wireless/color) here — those come from article text.
+ */
 export const subCategorySearchKeywords: Partial<Record<SubCategoryId, string[]>> = {
   "desk-light": [
     "デスクライト",
@@ -87,19 +88,14 @@ export const subCategorySearchKeywords: Partial<Record<SubCategoryId, string[]>>
     "スマホ充電器",
     "MacBook充電器",
     "AC充電器",
-    "ワイヤレス充電器",
   ],
   mouse: [
     "マウス",
     "PCマウス",
-    "有線",
-    "ワイヤレス",
-    "無線",
     "静音",
     "トラックボール",
     "ゲーミング",
     "仕事用",
-    "Bluetoothマウス",
   ],
   "pc-monitor": [
     "ノートPC",
@@ -124,11 +120,20 @@ export const subCategorySearchKeywords: Partial<Record<SubCategoryId, string[]>>
   ],
 };
 
-/** productType substring → extra keywords */
+/** productType substring → extra keywords (no speculative wired/wireless/color). */
 export const productTypeSearchKeywords: { match: RegExp; keywords: string[] }[] = [
   {
     match: /ワイヤレスイヤホン|完全ワイヤレス|TWS/i,
-    keywords: ["イヤホン", "ワイヤレスイヤホン", "Bluetoothイヤホン", "ブルートゥース", "完全ワイヤレス", "TWS", "音楽", "通勤"],
+    keywords: [
+      "イヤホン",
+      "ワイヤレスイヤホン",
+      "Bluetoothイヤホン",
+      "ブルートゥース",
+      "完全ワイヤレス",
+      "TWS",
+      "音楽",
+      "通勤",
+    ],
   },
   {
     match: /ヘッドホン|ヘッドフォン/i,
@@ -136,7 +141,7 @@ export const productTypeSearchKeywords: { match: RegExp; keywords: string[] }[] 
   },
   {
     match: /マウス/i,
-    keywords: ["マウス", "PCマウス", "有線", "ワイヤレス", "無線", "仕事用"],
+    keywords: ["マウス", "PCマウス", "仕事用"],
   },
   {
     match: /静音/i,
@@ -200,8 +205,18 @@ export const productTypeSearchKeywords: { match: RegExp; keywords: string[] }[] 
   },
 ];
 
-/** Extra variants injected into both query and haystack normalization. */
-export const searchVariantGroups: string[][] = [
+/**
+ * Synonym groups for query matching (OR within a group) and haystack expansion
+ * (only when at least one member already appears in article text).
+ */
+export const searchSynonymGroups: string[][] = [
+  ["黒", "ブラック", "くろ", "black", "くろいろ"],
+  ["白", "ホワイト", "しろ", "white", "しろいろ"],
+  ["ワイヤレス", "無線", "wireless", "cordless"],
+  ["有線", "ケーブル接続", "wired", "コード付き"],
+  ["イヤホン", "いゃほん", "earphone", "earphones", "earbuds", "ear buds"],
+  ["ヘッドホン", "ヘッドフォン", "headphone", "headphones"],
+  ["マウス", "mouse"],
   ["usb-c", "usb c", "usbc", "type-c", "type c", "typec", "タイプc", "タイプ‐c", "タイプーc"],
   ["bluetooth", "ブルートゥース", "ぶるーとぅーす"],
   ["macbook", "mac book", "マックブック"],
@@ -214,15 +229,8 @@ export const searchVariantGroups: string[][] = [
   ["20w", "20ｗ"],
 ];
 
-export function expandSearchVariants(text: string): string {
-  let next = text;
-  for (const group of searchVariantGroups) {
-    if (group.some((token) => next.includes(token))) {
-      next = `${next} ${group.join(" ")}`;
-    }
-  }
-  return next;
-}
+/** @deprecated Use searchSynonymGroups — kept as alias for clarity in older notes. */
+export const searchVariantGroups = searchSynonymGroups;
 
 export function normalizeSearchText(value: string): string {
   return value
@@ -232,4 +240,115 @@ export function normalizeSearchText(value: string): string {
     .replace(/[_\u3000]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function isCjkChar(ch: string): boolean {
+  return /[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/.test(ch);
+}
+
+/**
+ * Strip common negation phrases before testing connectivity / color tokens,
+ * so "ワイヤレスではありません" does not count as a wireless product.
+ */
+function prepareHaystackForTokenMatch(haystack: string): string {
+  return normalizeSearchText(haystack)
+    .replace(
+      /ワイヤレス(?:モデル)?(?:で(?:は)?)?(?:ありません|ない|ありませんでした)|ワイヤレス非対応|bluetooth\s*非対応|無線(?:で(?:は)?)?(?:ありません|ない)/g,
+      " ",
+    )
+    .replace(
+      /有線(?:モデル)?(?:で(?:は)?)?(?:ありません|ない)|有線非対応/g,
+      " ",
+    )
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Content-grounded token test. Avoids false hits like 白 inside 昼白色.
+ */
+export function containsSearchToken(haystack: string, token: string): boolean {
+  const t = normalizeSearchText(token);
+  if (!t) return false;
+
+  const h = prepareHaystackForTokenMatch(haystack);
+  if (!h) return false;
+
+  if (t.length >= 2) {
+    return h.includes(t);
+  }
+
+  // Single-character CJK (e.g. 黒 / 白): skip known false-positive compounds
+  if (t === "白") {
+    let idx = 0;
+    while (idx < h.length) {
+      const found = h.indexOf("白", idx);
+      if (found === -1) return false;
+      const prev = found > 0 ? h[found - 1] : "";
+      if (prev !== "昼" && prev !== "温") return true;
+      idx = found + 1;
+    }
+    return false;
+  }
+
+  return h.includes(t);
+}
+
+/** True when a search query / term is long enough to run. */
+export function isSearchTermUsable(term: string): boolean {
+  const t = normalizeSearchText(term);
+  if (!t) return false;
+  if (isCjkChar(t[0] ?? "")) return t.length >= 1;
+  return t.length >= 2;
+}
+
+/**
+ * Expand a user term into OR-synonyms.
+ * Does not invent attributes — only maps known equivalent spellings.
+ */
+export function getSynonymsForTerm(term: string): string[] {
+  const t = normalizeSearchText(term);
+  if (!t) return [];
+
+  for (const group of searchSynonymGroups) {
+    const normalizedGroup = group.map((token) => normalizeSearchText(token)).filter(Boolean);
+    const hit = normalizedGroup.some((g) => {
+      if (g === t) return true;
+      if (g.length >= 2 && (t.includes(g) || g.includes(t))) return true;
+      // Allow single-kanji color / short CJK tokens (e.g. 黒, 白)
+      if (g.length === 1 && isCjkChar(g) && t.includes(g)) return true;
+      return false;
+    });
+    if (hit) {
+      return Array.from(new Set([t, ...normalizedGroup]));
+    }
+  }
+
+  return [t];
+}
+
+/**
+ * If article text already contains a synonym, append the rest of that group
+ * so queries using alternate spellings can match without fabricating facts.
+ */
+export function expandSearchVariants(text: string): string {
+  let next = normalizeSearchText(text);
+  for (const group of searchSynonymGroups) {
+    const normalizedGroup = group.map((token) => normalizeSearchText(token)).filter(Boolean);
+    if (normalizedGroup.some((token) => containsSearchToken(next, token))) {
+      next = `${next} ${normalizedGroup.join(" ")}`;
+    }
+  }
+  return next.replace(/\s+/g, " ").trim();
+}
+
+/** Split a user query into AND-terms (spaces / full-width spaces). */
+export function parseSearchTerms(query: string): string[] {
+  const normalized = normalizeSearchText(query);
+  if (!normalized) return [];
+
+  return normalized
+    .split(" ")
+    .map((part) => part.trim())
+    .filter((part) => isSearchTermUsable(part));
 }

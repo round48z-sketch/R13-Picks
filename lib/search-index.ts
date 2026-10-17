@@ -3,8 +3,11 @@ import { getCategory, type CategorySlug } from "@/content/categories";
 import type { Locale } from "@/content/i18n/config";
 import {
   categorySearchKeywords,
+  containsSearchToken,
   expandSearchVariants,
+  getSynonymsForTerm,
   normalizeSearchText,
+  parseSearchTerms,
   productTypeSearchKeywords,
   subCategorySearchKeywords,
 } from "@/content/search-keywords";
@@ -21,7 +24,7 @@ export type GlobalSearchEntry = {
   categoryName: string;
   productName: string;
   image: { src: string; alt: string };
-  /** Normalized text used for matching (includes synonyms / variants). */
+  /** Normalized text used for matching (includes content-grounded synonyms). */
   haystack: string;
 };
 
@@ -60,9 +63,9 @@ function collectKeywords(article: Article, locale: Locale): string[] {
   ]);
 }
 
-function buildHaystack(article: Article, locale: Locale): string {
-  const keywords = collectKeywords(article, locale);
-  const raw = [
+/** Pull searchable text from real article fields only (no invented attributes). */
+function collectArticleBodyText(article: Article): string[] {
+  const chunks: string[] = [
     article.title,
     article.productName,
     article.productType,
@@ -71,12 +74,54 @@ function buildHaystack(article: Article, locale: Locale): string {
     article.subCategory ?? "",
     article.description,
     article.excerpt,
+    article.intro,
     article.summary ?? "",
-    ...(article.points ?? []).slice(0, 8),
-    ...(article.recommendedFor ?? []).slice(0, 6),
-    ...keywords,
-  ].join(" ");
+    article.design ?? "",
+    article.pairing ?? "",
+    article.note ?? "",
+    ...(article.points ?? []),
+    ...(article.recommendedFor ?? []),
+    ...(article.scenes ?? []),
+  ];
 
+  for (const section of article.sections ?? []) {
+    chunks.push(section.title, section.body);
+  }
+
+  for (const pick of article.picks ?? []) {
+    chunks.push(
+      pick.name,
+      pick.tagline,
+      pick.shortLabel,
+      pick.priceGuide,
+      ...pick.tags,
+      ...pick.features,
+      ...pick.recommendedFor,
+      ...(pick.cautions ?? []),
+    );
+  }
+
+  for (const group of article.useCaseGroups ?? []) {
+    chunks.push(group.title, group.body);
+  }
+
+  for (const block of article.useCases ?? []) {
+    chunks.push(block.title, block.productName, block.body ?? "");
+  }
+
+  if (article.comparisonTable) {
+    chunks.push(article.comparisonTable.title ?? "", ...article.comparisonTable.headers);
+    for (const row of article.comparisonTable.rows) {
+      chunks.push(...row);
+    }
+  }
+
+  return chunks;
+}
+
+function buildHaystack(article: Article, locale: Locale): string {
+  const keywords = collectKeywords(article, locale);
+  const raw = [...collectArticleBodyText(article), ...keywords].join(" ");
   return expandSearchVariants(normalizeSearchText(raw));
 }
 
@@ -105,36 +150,56 @@ export function buildGlobalSearchIndex(locale: Locale): GlobalSearchEntry[] {
   });
 }
 
+function fieldMatchesAny(field: string, synonyms: string[]): boolean {
+  return synonyms.some((token) => containsSearchToken(field, token));
+}
+
 function scoreEntry(entry: GlobalSearchEntry, terms: string[]): number {
   const title = normalizeSearchText(entry.title);
   const product = normalizeSearchText(entry.productName);
   const slug = normalizeSearchText(entry.slug.replace(/-/g, " "));
   const category = normalizeSearchText(`${entry.category} ${entry.categoryName}`);
-  const joinedQuery = terms.join(" ");
+  const excerpt = normalizeSearchText(entry.excerpt);
+  const joinedQuery = normalizeSearchText(terms.join(" "));
 
   let score = 0;
 
-  if (title === joinedQuery || product === joinedQuery) score += 1200;
-  if (title.includes(joinedQuery)) score += 500;
-  if (product.includes(joinedQuery)) score += 450;
-  if (slug.includes(joinedQuery)) score += 400;
+  if (joinedQuery && (title === joinedQuery || product === joinedQuery)) score += 1200;
+  if (joinedQuery && title.includes(joinedQuery)) score += 500;
+  if (joinedQuery && product.includes(joinedQuery)) score += 450;
+  if (joinedQuery && slug.includes(joinedQuery)) score += 400;
 
   for (const term of terms) {
-    if (title === term) score += 300;
-    else if (title.startsWith(term)) score += 220;
-    else if (title.includes(term)) score += 160;
+    const synonyms = getSynonymsForTerm(term);
 
-    if (product === term) score += 280;
-    else if (product.includes(term)) score += 180;
+    if (fieldMatchesAny(title, synonyms)) {
+      if (synonyms.some((s) => title === s)) score += 320;
+      else if (synonyms.some((s) => title.startsWith(s))) score += 240;
+      else score += 180;
+    }
 
-    if (slug.includes(term)) score += 140;
-    if (category.includes(term)) score += 90;
-    if (entry.haystack.includes(term)) score += 40;
+    if (fieldMatchesAny(product, synonyms)) {
+      if (synonyms.some((s) => product === s)) score += 300;
+      else score += 200;
+    }
+
+    if (fieldMatchesAny(slug, synonyms)) score += 150;
+    if (fieldMatchesAny(category, synonyms)) score += 110;
+    if (fieldMatchesAny(excerpt, synonyms)) score += 70;
+    if (fieldMatchesAny(entry.haystack, synonyms)) score += 45;
   }
 
-  // Prefer entries that match every term more strongly already; tiny boost for shorter titles.
-  score += Math.max(0, 40 - Math.min(entry.title.length, 40));
+  // Prefer articles that satisfy more user terms with stronger field hits.
+  score += terms.length * 80;
+  score += Math.max(0, 36 - Math.min(entry.title.length, 36));
   return score;
+}
+
+function entryMatchesAllTerms(entry: GlobalSearchEntry, terms: string[]): boolean {
+  return terms.every((term) => {
+    const synonyms = getSynonymsForTerm(term);
+    return synonyms.some((token) => containsSearchToken(entry.haystack, token));
+  });
 }
 
 export function searchGlobalEntries(
@@ -142,16 +207,12 @@ export function searchGlobalEntries(
   query: string,
   limit: number,
 ): GlobalSearchEntry[] {
-  const normalized = expandSearchVariants(normalizeSearchText(query));
-  if (normalized.length < 2) return [];
-
-  const terms = normalized.split(" ").filter(Boolean);
+  const terms = parseSearchTerms(query);
   if (terms.length === 0) return [];
 
   return entries
     .map((entry) => {
-      const matched = terms.every((term) => entry.haystack.includes(term));
-      if (!matched) return null;
+      if (!entryMatchesAllTerms(entry, terms)) return null;
       return { entry, score: scoreEntry(entry, terms) };
     })
     .filter((item): item is { entry: GlobalSearchEntry; score: number } => Boolean(item))

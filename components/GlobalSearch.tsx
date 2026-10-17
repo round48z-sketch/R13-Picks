@@ -13,6 +13,7 @@ import {
 } from "react";
 import type { Locale } from "@/content/i18n/config";
 import { getUi } from "@/content/i18n/ui";
+import { isSearchTermUsable } from "@/content/search-keywords";
 import {
   searchGlobalEntries,
   type GlobalSearchEntry,
@@ -26,8 +27,8 @@ type GlobalSearchProps = {
   variant?: "default" | "hero";
 };
 
-const DESKTOP_LIMIT = 8;
-const MOBILE_LIMIT = 6;
+const DESKTOP_LIMIT = 12;
+const MOBILE_LIMIT = 10;
 
 function useResultLimit() {
   const [limit, setLimit] = useState(DESKTOP_LIMIT);
@@ -63,7 +64,7 @@ export function GlobalSearch({
     [entries, limit, query],
   );
 
-  const showPanel = open && query.trim().length >= 2;
+  const showPanel = open && isSearchTermUsable(query.replace(/\s+/g, ""));
 
   useEffect(() => {
     setActiveIndex(-1);
