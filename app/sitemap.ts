@@ -7,7 +7,7 @@ import { localizePath } from "@/lib/i18n/path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = getSiteUrl();
-  const staticPaths = ["/", "/about", "/privacy", "/contact", "/affiliate"];
+  const staticPaths = ["/", "/about", "/privacy", "/contact", "/affiliate", "/picks"];
   const articles = getAllArticles();
 
   const entries: MetadataRoute.Sitemap = [];

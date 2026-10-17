@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryNav } from "@/components/CategoryNav";
 import { GuideCard } from "@/components/GuideCard";
+import { EditorsPicks } from "@/components/home/EditorsPicks";
 import { HomeHero } from "@/components/home/HomeHero";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { PopularGuideTabs } from "@/components/PopularGuideTabs";
@@ -10,11 +11,13 @@ import type { Locale } from "@/content/i18n/config";
 import { getSiteDescription } from "@/content/i18n/site";
 import { getUi } from "@/content/i18n/ui";
 import {
-  getAllArticles,
   getArticleCategory,
   getArticleThumbnail,
+  getEditorsPickArticles,
   getHeroCarouselArticles,
+  getLatestArticles,
   getPopularGuideTabs,
+  NEW_ARRIVALS_LIMIT,
 } from "@/lib/articles";
 import { localizeArticle } from "@/lib/i18n/articles";
 import { localizePath } from "@/lib/i18n/path";
@@ -37,7 +40,12 @@ const ROUNDUP_HERO_SLUGS = new Set([
 
 export function HomeView({ locale }: { locale: Locale }) {
   const ui = getUi(locale);
-  const latest = getAllArticles().map((article) => localizeArticle(article, locale));
+  const editorsPicks = getEditorsPickArticles().map((article) =>
+    localizeArticle(article, locale),
+  );
+  const latest = getLatestArticles(NEW_ARRIVALS_LIMIT).map((article) =>
+    localizeArticle(article, locale),
+  );
   const popularGuideTabs = getPopularGuideTabs().map((tab) => ({
     category: tab.category,
     articles: tab.articles.map((article) => localizeArticle(article, locale)),
@@ -82,9 +90,11 @@ export function HomeView({ locale }: { locale: Locale }) {
         <CategoryNav />
       </div>
 
-      <section className="section section--guides" id="popular-guides">
+      <EditorsPicks articles={editorsPicks} locale={locale} />
+
+      <section className="section section--guides section--home-editorial" id="popular-guides">
         <div className="container">
-          <div className="section-head section-head--guides">
+          <div className="section-head section-head--guides section-head--editorial">
             <p className="section-label">{ui.popularGuidesLabel}</p>
             <h2>{ui.popularGuidesTitle}</h2>
             <p className="section-lead">{ui.popularGuidesLead}</p>
@@ -116,13 +126,21 @@ export function HomeView({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      <section className="section" id="new-picks">
+      <section className="section section--home-editorial" id="new-picks">
         <div className="container">
-          <div className="section-head">
-            <p className="section-label">{ui.newPicksLabel}</p>
-            <h2>{ui.newPicksTitle}</h2>
+          <div className="section-head section-head--editorial section-head--with-action">
+            <div className="section-head__copy">
+              <p className="section-label">{ui.newPicksLabel}</p>
+              <h2>{ui.newPicksTitle}</h2>
+            </div>
+            <Link
+              href={localizePath("/picks", locale)}
+              className="section-head__view-all"
+            >
+              {ui.viewAll}
+            </Link>
           </div>
-          <div className="card-grid">
+          <div className="card-grid card-grid--home">
             {latest.map((article) => (
               <ArticleCard key={article.slug} article={article} locale={locale} />
             ))}

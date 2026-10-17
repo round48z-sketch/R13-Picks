@@ -19,6 +19,15 @@ export type UiMessages = {
   relatedTitle: string;
   newPicksLabel: string;
   newPicksTitle: string;
+  viewAll: string;
+  editorsPicksLabel: string;
+  editorsPicksTitle: string;
+  editorsPicksLead: string;
+  editorsPicksAria: string;
+  allArticlesLabel: string;
+  allArticlesTitle: string;
+  allArticlesLead: string;
+  allArticlesDescription: string;
   popularGuidesLabel: string;
   popularGuidesTitle: string;
   popularGuidesLead: string;
@@ -95,8 +104,18 @@ export const uiMessages: Record<Locale, UiMessages> = {
     viewProduct: "商品を見る",
     relatedLabel: "Related",
     relatedTitle: "関連記事",
-    newPicksLabel: "New Picks",
+    newPicksLabel: "New Arrivals",
     newPicksTitle: "新着記事",
+    viewAll: "View all",
+    editorsPicksLabel: "Editor's Picks",
+    editorsPicksTitle: "編集部の注目",
+    editorsPicksLead: "いま特に見てほしい、編集部が選んだ記事です。",
+    editorsPicksAria: "編集部の注目記事",
+    allArticlesLabel: "All Articles",
+    allArticlesTitle: "すべての記事",
+    allArticlesLead: "公開中の記事を新しい順に一覧できます。",
+    allArticlesDescription:
+      "R13 Picksの全記事一覧。ガジェット・オーディオ・時計・ファッション・デスク・暮らしのセレクトを新しい順に掲載しています。",
     popularGuidesLabel: "Popular Guides",
     popularGuidesTitle: "比較・まとめ",
     popularGuidesLead:
@@ -172,8 +191,18 @@ export const uiMessages: Record<Locale, UiMessages> = {
     viewProduct: "View product",
     relatedLabel: "Related",
     relatedTitle: "Related articles",
-    newPicksLabel: "New Picks",
+    newPicksLabel: "New Arrivals",
     newPicksTitle: "Latest articles",
+    viewAll: "View all",
+    editorsPicksLabel: "Editor's Picks",
+    editorsPicksTitle: "Selected by the editors",
+    editorsPicksLead: "A short list of pieces we especially want you to see.",
+    editorsPicksAria: "Editor's featured articles",
+    allArticlesLabel: "All Articles",
+    allArticlesTitle: "All articles",
+    allArticlesLead: "Browse every published article, newest first.",
+    allArticlesDescription:
+      "Browse all R13 Picks articles — curated audio, gadgets, watches, fashion, desk, and lifestyle — newest first.",
     popularGuidesLabel: "Popular Guides",
     popularGuidesTitle: "Comparisons & guides",
     popularGuidesLead:
@@ -249,8 +278,18 @@ export const uiMessages: Record<Locale, UiMessages> = {
     viewProduct: "상품 보기",
     relatedLabel: "Related",
     relatedTitle: "관련 기사",
-    newPicksLabel: "New Picks",
+    newPicksLabel: "New Arrivals",
     newPicksTitle: "최신 기사",
+    viewAll: "View all",
+    editorsPicksLabel: "Editor's Picks",
+    editorsPicksTitle: "편집부 추천",
+    editorsPicksLead: "지금 특히 읽어 보셨으면 하는 편집부 선정 기사입니다.",
+    editorsPicksAria: "편집부 추천 기사",
+    allArticlesLabel: "All Articles",
+    allArticlesTitle: "전체 기사",
+    allArticlesLead: "공개 중인 기사를 최신순으로 볼 수 있습니다.",
+    allArticlesDescription:
+      "R13 Picks 전체 기사 목록. 오디오·가젯·시계·패션·데스크·라이프스타일 셀렉트를 최신순으로 모았습니다.",
     popularGuidesLabel: "Popular Guides",
     popularGuidesTitle: "비교·모음",
     popularGuidesLead:
@@ -326,8 +365,18 @@ export const uiMessages: Record<Locale, UiMessages> = {
     viewProduct: "查看商品",
     relatedLabel: "Related",
     relatedTitle: "相关文章",
-    newPicksLabel: "New Picks",
+    newPicksLabel: "New Arrivals",
     newPicksTitle: "最新文章",
+    viewAll: "View all",
+    editorsPicksLabel: "Editor's Picks",
+    editorsPicksTitle: "编辑精选",
+    editorsPicksLead: "编辑部特别想推荐给你的精选文章。",
+    editorsPicksAria: "编辑精选文章",
+    allArticlesLabel: "All Articles",
+    allArticlesTitle: "全部文章",
+    allArticlesLead: "按最新顺序浏览全部已发布文章。",
+    allArticlesDescription:
+      "R13 Picks 全部文章列表。音频、数码配件、腕表、时尚、桌面与生活方式精选，按最新顺序排列。",
     popularGuidesLabel: "Popular Guides",
     popularGuidesTitle: "比较与合集",
     popularGuidesLead:

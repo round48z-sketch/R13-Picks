@@ -1,10 +1,19 @@
 import { articles, type Article } from "@/content/articles";
 import { getCategory, type CategorySlug } from "@/content/categories";
+import { editorsPickSlugs } from "@/content/editors-picks";
+
+/** Homepage New Arrivals limit (full catalog remains on /picks). */
+export const NEW_ARRIVALS_LIMIT = 12;
 
 export function getAllArticles() {
   return [...articles].sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
+}
+
+/** Latest articles in the same order as getAllArticles (publishedAt desc). */
+export function getLatestArticles(limit = NEW_ARRIVALS_LIMIT) {
+  return getAllArticles().slice(0, limit);
 }
 
 export function getArticleBySlug(slug: string) {
@@ -96,6 +105,14 @@ export function getPopularGuideTabs() {
 
 export function getPopularGuideArticles() {
   return resolveArticles(popularGuideTabs.flatMap((tab) => tab.slugs));
+}
+
+/**
+ * Homepage Editor's Picks from manual slug list (not `featured` flag).
+ * Missing slugs are skipped so a typo does not break the home page.
+ */
+export function getEditorsPickArticles() {
+  return resolveArticles([...editorsPickSlugs]);
 }
 
 export function getRelatedArticles(article: Article, limit = 2) {
