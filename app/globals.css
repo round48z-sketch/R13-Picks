@@ -391,10 +391,11 @@ h3 {
 
 /* Hero-embedded search: white pill on dark media (scoped; default search unchanged) */
 .global-search--hero {
-  z-index: 8;
+  z-index: 30;
   width: 100%;
   max-width: 22rem;
   margin: 0;
+  overflow: visible;
 }
 
 .global-search--hero .global-search__field {
@@ -478,8 +479,17 @@ h3 {
 }
 
 .global-search--hero .global-search__panel {
+  z-index: 40;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   border-radius: 14px;
-  overflow: hidden;
+  /* Restore vertical scroll (do not override base overflow:auto with hidden) */
+  max-height: min(52vh, 420px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 .global-search__input {
@@ -550,11 +560,16 @@ h3 {
   left: 0;
   right: 0;
   max-height: min(70vh, 520px);
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
   border: 1px solid var(--line-strong);
   border-radius: 2px;
   background: var(--bg-elevated);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .global-search__list {
@@ -570,6 +585,8 @@ h3 {
   align-items: center;
   padding: 10px 14px;
   color: inherit;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .global-search__item:hover,
@@ -2676,7 +2693,9 @@ h3 {
   min-height: clamp(420px, 72vh, 720px);
   display: flex;
   align-items: flex-end;
-  overflow: hidden;
+  /* Keep media clipped horizontally; allow search panel to extend below hero */
+  overflow-x: clip;
+  overflow-y: visible;
   background: #0a0a0a;
   color: #f2f2f2;
 }
@@ -2745,10 +2764,11 @@ h3 {
 
 .home-hero__inner {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
   padding: 56px 0 52px;
+  overflow: visible;
 }
 
 .home-hero__copy {
@@ -2818,10 +2838,14 @@ h3 {
   margin-top: 22px;
   width: 100%;
   max-width: min(22.5rem, 100%);
+  overflow: visible;
 }
 
 .home-hero__search {
+  position: relative;
+  z-index: 30;
   width: 100%;
+  overflow: visible;
 }
 
 .home-hero__actions {
@@ -2874,7 +2898,8 @@ h3 {
     flex-direction: row;
     align-items: flex-end;
     overflow-x: clip;
-    overflow-y: clip;
+    /* Must stay visible so absolute search results are not clipped to ~1 row */
+    overflow-y: visible;
   }
 
   .site-brand__r13 {
@@ -3036,6 +3061,11 @@ h3 {
 
   .global-search--hero {
     max-width: none;
+  }
+
+  .global-search--hero .global-search__panel {
+    /* Shorter panel so multiple rows remain usable with the iOS keyboard open */
+    max-height: min(42dvh, 300px);
   }
 
   .global-search--hero .global-search__input {
