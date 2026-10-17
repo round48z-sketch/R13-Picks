@@ -3026,6 +3026,139 @@ h3 {
   margin-top: 22px;
 }
 
+/* ==========================================================================
+   Phase C — mobile card readability (PC layouts preserved at 640px / 980px+)
+   ========================================================================== */
+
+@media (max-width: 639px) {
+  /* Popular Guides: image above copy, landscape frame */
+  #popular-guides .guide-grid.guide-grid--tabbed {
+    gap: 18px;
+  }
+
+  #popular-guides .guide-grid--tabbed .guide-card__link {
+    flex-direction: column;
+  }
+
+  #popular-guides .guide-grid--tabbed .guide-card__image {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  #popular-guides .guide-grid--tabbed .guide-card__image--roundup-thumb img {
+    object-fit: contain;
+    object-position: center center;
+  }
+
+  #popular-guides .guide-card__body {
+    padding: 16px 16px 18px;
+  }
+
+  #popular-guides .guide-card__meta {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  #popular-guides .guide-card h3 {
+    min-height: 0;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    -webkit-line-clamp: 3;
+  }
+
+  #popular-guides .guide-card__body > p {
+    min-height: 0;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.7;
+    -webkit-line-clamp: 2;
+  }
+
+  #popular-guides .guide-card__cta {
+    min-height: 44px;
+    padding: 11px 14px 10px;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    align-self: stretch;
+    justify-content: center;
+  }
+
+  /* Editor's Picks: less vertically tall images on small screens */
+  #editors-picks .editors-picks {
+    gap: 22px;
+  }
+
+  #editors-picks .editors-picks__side {
+    gap: 20px;
+  }
+
+  #editors-picks .editors-picks__card--feature .editors-picks__image,
+  #editors-picks .editors-picks__image {
+    aspect-ratio: 16 / 10;
+  }
+
+  #editors-picks .editors-picks__card--side .editors-picks__image {
+    aspect-ratio: 16 / 11;
+  }
+
+  #editors-picks .editors-picks__body {
+    padding-top: 14px;
+  }
+
+  #editors-picks .editors-picks__meta {
+    margin-bottom: 8px;
+  }
+
+  #editors-picks .editors-picks__card h3 {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #editors-picks .editors-picks__card--feature h3 {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  #editors-picks .editors-picks__excerpt {
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  /* New Arrivals: slightly less tall product frame + clearer type rhythm */
+  #new-picks .card-grid--home {
+    gap: 28px;
+  }
+
+  #new-picks .article-card__image {
+    aspect-ratio: 5 / 6;
+  }
+
+  #new-picks .article-card__body {
+    padding-top: 14px;
+  }
+
+  #new-picks .article-card .eyebrow {
+    margin-bottom: 8px;
+  }
+
+  #new-picks .article-card h3 {
+    margin-bottom: 8px;
+    font-size: 15.5px;
+    line-height: 1.55;
+  }
+
+  #new-picks .article-card__body > p {
+    margin-bottom: 14px;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+}
+
 /* ----- Phase B: Editor's Picks + New Arrivals / All Articles ----- */
 
 .section-head--with-action {

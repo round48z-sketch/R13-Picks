@@ -27,7 +27,7 @@ export function GuideCard({ article, locale = "ja" }: GuideCardProps) {
             src={thumbnail.src}
             alt={thumbnail.alt}
             fill
-            sizes="(max-width: 639px) 92vw, (max-width: 979px) 45vw, 240px"
+            sizes="(max-width: 639px) 92vw, (max-width: 979px) 42vw, 240px"
           />
         </div>
         <div className="guide-card__body">
