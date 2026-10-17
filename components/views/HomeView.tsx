@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryNav } from "@/components/CategoryNav";
-import { GlobalSearch } from "@/components/GlobalSearch";
 import { GuideCard } from "@/components/GuideCard";
 import { HomeHero } from "@/components/home/HomeHero";
 import { HeroCarousel } from "@/components/HeroCarousel";
@@ -71,7 +70,7 @@ export function HomeView({ locale }: { locale: Locale }) {
 
   return (
     <>
-      <HomeHero locale={locale} />
+      <HomeHero locale={locale} searchEntries={searchEntries} />
 
       {SHOW_HERO_CAROUSEL ? (
         <div className="container">
@@ -79,11 +78,7 @@ export function HomeView({ locale }: { locale: Locale }) {
         </div>
       ) : null}
 
-      <div className="container">
-        <GlobalSearch entries={searchEntries} locale={locale} />
-      </div>
-
-      <div className="container">
+      <div className="container home-categories">
         <CategoryNav />
       </div>
 

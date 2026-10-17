@@ -22,6 +22,8 @@ import { localizePath } from "@/lib/i18n/path";
 type GlobalSearchProps = {
   entries: GlobalSearchEntry[];
   locale?: Locale;
+  /** Visual variant; logic is identical. */
+  variant?: "default" | "hero";
 };
 
 const DESKTOP_LIMIT = 8;
@@ -41,7 +43,11 @@ function useResultLimit() {
   return limit;
 }
 
-export function GlobalSearch({ entries, locale = "ja" }: GlobalSearchProps) {
+export function GlobalSearch({
+  entries,
+  locale = "ja",
+  variant = "default",
+}: GlobalSearchProps) {
   const ui = getUi(locale);
   const listId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
@@ -50,6 +56,7 @@ export function GlobalSearch({ entries, locale = "ja" }: GlobalSearchProps) {
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const limit = useResultLimit();
+  const isHero = variant === "hero";
 
   const results = useMemo(
     () => searchGlobalEntries(entries, query, limit),
@@ -118,7 +125,10 @@ export function GlobalSearch({ entries, locale = "ja" }: GlobalSearchProps) {
   }
 
   return (
-    <div className="global-search" ref={rootRef}>
+    <div
+      className={isHero ? "global-search global-search--hero" : "global-search"}
+      ref={rootRef}
+    >
       <form className="global-search__form" role="search" onSubmit={handleSubmit}>
         <label className="global-search__field">
           <span className="sr-only">{ui.globalSearchAria}</span>
@@ -155,6 +165,15 @@ export function GlobalSearch({ entries, locale = "ja" }: GlobalSearchProps) {
               onClick={clearSearch}
             >
               <ClearIcon />
+            </button>
+          ) : null}
+          {isHero ? (
+            <button
+              type="submit"
+              className="global-search__submit"
+              aria-label={ui.globalSearchAria}
+            >
+              <ArrowIcon />
             </button>
           ) : null}
         </label>
@@ -240,6 +259,21 @@ function ClearIcon() {
         stroke="currentColor"
         strokeWidth="1.4"
         strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+function ArrowIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path
+        d="M5 12h12M13 6l6 6-6 6"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

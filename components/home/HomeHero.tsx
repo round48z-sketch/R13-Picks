@@ -1,16 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
+import { GlobalSearch } from "@/components/GlobalSearch";
 import {
   homeHeroConfig,
   homeHeroImageAlt,
 } from "@/content/home-hero";
 import type { Locale } from "@/content/i18n/config";
 import { getUi } from "@/content/i18n/ui";
+import type { GlobalSearchEntry } from "@/lib/search-index";
 import { localizePath } from "@/lib/i18n/path";
 
 type HomeHeroProps = {
   locale?: Locale;
+  searchEntries: GlobalSearchEntry[];
 };
 
 /** Split JA headline into the intended two phrases; other locales stay as one string. */
@@ -36,7 +39,7 @@ function renderHomeHeroHeadline(locale: Locale, headline: string) {
   );
 }
 
-export function HomeHero({ locale = "ja" }: HomeHeroProps) {
+export function HomeHero({ locale = "ja", searchEntries }: HomeHeroProps) {
   const ui = getUi(locale);
   const hasImage = Boolean(homeHeroConfig.imageSrc);
   const ctaHref = localizePath(`/picks/${homeHeroConfig.ctaArticleSlug}`, locale);
@@ -66,7 +69,7 @@ export function HomeHero({ locale = "ja" }: HomeHeroProps) {
             alt={homeHeroImageAlt[locale]}
             fill
             priority
-            sizes="100vw"
+            sizes="(max-width: 719px) 300vw, 100vw"
             className="home-hero__image"
           />
         ) : null}
@@ -83,10 +86,16 @@ export function HomeHero({ locale = "ja" }: HomeHeroProps) {
             {renderHomeHeroHeadline(locale, ui.homeHeroHeadline)}
           </h1>
           <p className="home-hero__lead">{ui.homeHeroLead}</p>
-          <div className="home-hero__actions">
-            <Link href={ctaHref} className="home-hero__cta">
-              {ui.homeHeroCta}
-            </Link>
+
+          <div className="home-hero__tools">
+            <div className="home-hero__search">
+              <GlobalSearch entries={searchEntries} locale={locale} variant="hero" />
+            </div>
+            <div className="home-hero__actions">
+              <Link href={ctaHref} className="home-hero__cta">
+                {ui.homeHeroCta}
+              </Link>
+            </div>
           </div>
         </div>
 

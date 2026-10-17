@@ -389,7 +389,7 @@ h3 {
   display: none;
 }
 
-/* Hero-embedded search: white pill on dark media */
+/* Hero-embedded search: white pill on dark media (scoped; default search unchanged) */
 .global-search--hero {
   z-index: 8;
   width: 100%;
@@ -400,12 +400,21 @@ h3 {
 .global-search--hero .global-search__field {
   border-radius: 999px;
   background: #ffffff;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.18);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.global-search--hero .global-search__field:focus-within {
+  border-color: rgba(17, 17, 17, 0.16);
+  box-shadow:
+    0 6px 22px rgba(0, 0, 0, 0.2),
+    0 0 0 2px rgba(17, 17, 17, 0.06);
 }
 
 .global-search--hero .global-search__icon {
   left: 16px;
-  color: #5a5a5a;
+  color: #111111;
 }
 
 .global-search--hero .global-search__input {
@@ -414,26 +423,31 @@ h3 {
   border: 0;
   border-radius: 999px;
   background: transparent;
-  color: #161616;
+  color: #111111;
   font-size: 13.5px;
+  caret-color: #111111;
 }
 
 .global-search--hero .global-search__input::placeholder {
-  color: #8a8a8a;
+  color: #9a9a9a;
+  opacity: 1;
 }
 
 .global-search--hero .global-search__input:hover,
 .global-search--hero .global-search__input:focus {
   border-color: transparent;
+  background: transparent;
+  color: #111111;
+  outline: none;
 }
 
 .global-search--hero .global-search__clear {
   right: 48px;
-  color: #6a6a6a;
+  color: #555555;
 }
 
 .global-search--hero .global-search__clear:hover {
-  color: #222;
+  color: #111111;
 }
 
 .global-search--hero .global-search__submit {
@@ -447,7 +461,7 @@ h3 {
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background: #141414;
+  background: #111111;
   color: #f5f5f5;
   cursor: pointer;
   transform: translateY(-50%);
@@ -459,7 +473,7 @@ h3 {
 }
 
 .global-search--hero .global-search__submit:focus-visible {
-  outline: 2px solid #141414;
+  outline: 2px solid #111111;
   outline-offset: 2px;
 }
 
@@ -2845,13 +2859,17 @@ h3 {
    * Desktop rules (720px+) are unchanged.
    */
   .home-hero {
-    min-height: clamp(520px, 74svh, 600px);
+    /*
+     * Tall enough for copy breathing room, but not taller than needed.
+     * Wider framing (vs extreme crop) keeps the face at a natural size.
+     */
+    min-height: clamp(580px, 75svh, 640px);
     height: auto;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     overflow-x: clip;
-    overflow-y: hidden;
+    overflow-y: clip;
   }
 
   .site-brand__r13 {
@@ -2867,40 +2885,50 @@ h3 {
   }
 
   .home-hero__media {
+    /*
+     * Widen the media box (clip via .home-hero overflow) so cover-crop
+     * matches the landscape source more closely — face stays natural-sized.
+     */
     position: absolute;
-    inset: 0;
+    top: -2%;
+    right: -100%;
+    bottom: -2%;
+    left: -100%;
     width: auto;
     height: auto;
   }
 
   .home-hero__image {
-    /* Face in the upper area; leave lower band for copy */
-    object-position: 68% 12%;
+    /*
+     * Less right-bias than PC: show more of the landscape so the face
+     * reads smaller/natural on a narrow clipped window.
+     */
+    object-position: 52% 18%;
   }
 
   .home-hero__veil {
-    /* Bright upper face, readable dark lower band */
+    /* Upper half stays clear for the face; darken only the lower copy band */
     background: linear-gradient(
       180deg,
-      rgba(6, 6, 6, 0.18) 0%,
-      rgba(6, 6, 6, 0.04) 18%,
-      rgba(6, 6, 6, 0.08) 38%,
-      rgba(6, 6, 6, 0.55) 58%,
-      rgba(6, 6, 6, 0.86) 74%,
-      rgba(6, 6, 6, 0.96) 100%
+      rgba(6, 6, 6, 0.08) 0%,
+      rgba(6, 6, 6, 0) 24%,
+      rgba(6, 6, 6, 0.08) 48%,
+      rgba(6, 6, 6, 0.55) 66%,
+      rgba(6, 6, 6, 0.88) 82%,
+      rgba(6, 6, 6, 0.97) 100%
     );
   }
 
-  /* Handwritten accent: small, upper-left (away from face + catchcopy) */
+  /* Handwritten accent: small, upper-left city area (away from face) */
   .home-hero__script {
     display: block;
     position: absolute;
     left: 3%;
-    top: 7%;
+    top: 9%;
     right: auto;
     bottom: auto;
     z-index: 2;
-    max-width: 9.2rem;
+    max-width: 8.8rem;
     padding: 0.15rem 0.25rem;
     color: rgba(255, 248, 240, 0.9);
     transform: rotate(-6deg);
@@ -2937,37 +2965,47 @@ h3 {
     align-self: stretch;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: min(1120px, calc(100% - 32px));
     max-width: none;
     margin: 0 auto;
-    padding: 0 0 18px;
+    /* Breathing room below CTA (and above categories) */
+    padding: 0 0 40px;
     box-sizing: border-box;
     background: transparent;
   }
 
+  /* Reserve upper face zone; keep copy/search/CTA in the lower dark band */
+  .home-hero__inner::before {
+    content: "";
+    flex: 1 1 auto;
+    min-height: clamp(275px, 38svh, 330px);
+    pointer-events: none;
+  }
+
   .home-hero__copy {
     max-width: none;
+    flex: 0 0 auto;
   }
 
   .home-hero__brand {
-    margin: 0 0 6px;
+    margin: 0 0 11px;
   }
 
   .home-hero__brand .site-brand__r13 {
-    font-size: clamp(1.2rem, 5.2vw, 1.45rem);
+    font-size: clamp(1.14rem, 4.8vw, 1.34rem);
     font-weight: 400;
   }
 
   .home-hero__brand .site-brand__picks {
-    font-size: clamp(1.05rem, 4.6vw, 1.28rem);
+    font-size: clamp(1rem, 4.2vw, 1.18rem);
     font-weight: 400;
   }
 
   .home-hero__headline {
-    font-size: clamp(1.22rem, 5.2vw, 1.48rem);
+    font-size: clamp(1.16rem, 4.8vw, 1.36rem);
     letter-spacing: 0.02em;
-    line-height: 1.38;
+    line-height: 1.4;
   }
 
   /* JA catchcopy: one phrase per line on mobile */
@@ -2976,18 +3014,22 @@ h3 {
     white-space: nowrap;
   }
 
+  .home-hero__headline-line + .home-hero__headline-line {
+    margin-top: 0.1em;
+  }
+
   .home-hero__lead {
-    margin-top: 8px;
+    margin-top: 13px;
     max-width: 36rem;
     font-size: 0.78rem;
-    line-height: 1.55;
+    line-height: 1.64;
     letter-spacing: 0.01em;
   }
 
   .home-hero__tools {
     max-width: none;
-    gap: 10px;
-    margin-top: 12px;
+    gap: 18px;
+    margin-top: 18px;
   }
 
   .global-search--hero {
@@ -3002,11 +3044,11 @@ h3 {
   .home-hero__cta {
     width: 100%;
     max-width: none;
-    min-height: 42px;
+    min-height: 44px;
   }
 
   .home-categories {
-    padding-top: 14px;
+    padding-top: 20px;
   }
 }
 
