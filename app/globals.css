@@ -2841,15 +2841,15 @@ h3 {
 
 @media (max-width: 719px) {
   /*
-   * Mobile hero: photo band (face visible) + solid dark copy band below.
-   * Desktop layout above 720px is unchanged.
+   * Mobile hero: full-bleed photo + bottom copy/search over a dark veil.
+   * Desktop rules (720px+) are unchanged.
    */
   .home-hero {
-    min-height: 0;
+    min-height: clamp(520px, 74svh, 600px);
     height: auto;
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    align-items: flex-end;
     overflow-x: clip;
     overflow-y: hidden;
   }
@@ -2867,43 +2867,83 @@ h3 {
   }
 
   .home-hero__media {
-    position: relative;
-    inset: auto;
-    width: 100%;
-    height: clamp(248px, 64vw, 310px);
-    flex: 0 0 auto;
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
   }
 
   .home-hero__image {
-    /* Keep face in the upper band; avoid cropping the head */
-    object-position: 74% 12%;
+    /* Face in the upper area; leave lower band for copy */
+    object-position: 68% 12%;
   }
 
   .home-hero__veil {
-    /* Soft fade from photo into the solid black copy band */
+    /* Bright upper face, readable dark lower band */
     background: linear-gradient(
       180deg,
-      rgba(6, 6, 6, 0) 0%,
-      rgba(6, 6, 6, 0) 55%,
-      rgba(6, 6, 6, 0.35) 78%,
-      rgba(10, 10, 10, 0.85) 92%,
-      #0a0a0a 100%
+      rgba(6, 6, 6, 0.18) 0%,
+      rgba(6, 6, 6, 0.04) 18%,
+      rgba(6, 6, 6, 0.08) 38%,
+      rgba(6, 6, 6, 0.55) 58%,
+      rgba(6, 6, 6, 0.86) 74%,
+      rgba(6, 6, 6, 0.96) 100%
     );
   }
 
+  /* Handwritten accent: small, upper-left (away from face + catchcopy) */
   .home-hero__script {
-    display: none;
+    display: block;
+    position: absolute;
+    left: 3%;
+    top: 7%;
+    right: auto;
+    bottom: auto;
+    z-index: 2;
+    max-width: 9.2rem;
+    padding: 0.15rem 0.25rem;
+    color: rgba(255, 248, 240, 0.9);
+    transform: rotate(-6deg);
+    pointer-events: none;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
+  }
+
+  .home-hero__script-text {
+    margin: 0;
+    font-family: var(--hand);
+    font-size: clamp(0.76rem, 3.3vw, 0.9rem);
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: 0.03em;
+  }
+
+  .home-hero__script-line {
+    display: block;
+  }
+
+  .home-hero__script-curve {
+    display: block;
+    width: 78%;
+    max-width: 7.5rem;
+    height: auto;
+    margin: 0.2rem 0 0 0.1rem;
+    color: rgba(255, 245, 230, 0.65);
   }
 
   .home-hero__inner {
+    /* Stretch full hero height so script top% is relative to the photo */
     position: relative;
     z-index: 1;
-    width: 100%;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: min(1120px, calc(100% - 32px));
     max-width: none;
-    margin: 0;
-    padding: 14px 16px 24px;
+    margin: 0 auto;
+    padding: 0 0 18px;
     box-sizing: border-box;
-    background: #0a0a0a;
+    background: transparent;
   }
 
   .home-hero__copy {
@@ -2911,39 +2951,43 @@ h3 {
   }
 
   .home-hero__brand {
-    margin: 0 0 8px;
+    margin: 0 0 6px;
   }
 
   .home-hero__brand .site-brand__r13 {
-    font-size: clamp(1.4rem, 6.2vw, 1.7rem);
+    font-size: clamp(1.2rem, 5.2vw, 1.45rem);
     font-weight: 400;
   }
 
   .home-hero__brand .site-brand__picks {
-    font-size: clamp(1.22rem, 5.4vw, 1.48rem);
+    font-size: clamp(1.05rem, 4.6vw, 1.28rem);
     font-weight: 400;
   }
 
   .home-hero__headline {
-    font-size: clamp(1.4rem, 6.4vw, 1.8rem);
-    letter-spacing: 0.03em;
-    line-height: 1.4;
+    font-size: clamp(1.22rem, 5.2vw, 1.48rem);
+    letter-spacing: 0.02em;
+    line-height: 1.38;
   }
 
+  /* JA catchcopy: one phrase per line on mobile */
   .home-hero__headline-line {
-    white-space: normal;
+    display: block;
+    white-space: nowrap;
   }
 
   .home-hero__lead {
-    margin-top: 10px;
-    font-size: 0.86rem;
-    line-height: 1.7;
+    margin-top: 8px;
+    max-width: 36rem;
+    font-size: 0.78rem;
+    line-height: 1.55;
+    letter-spacing: 0.01em;
   }
 
   .home-hero__tools {
     max-width: none;
     gap: 10px;
-    margin-top: 14px;
+    margin-top: 12px;
   }
 
   .global-search--hero {
@@ -2951,13 +2995,14 @@ h3 {
   }
 
   .global-search--hero .global-search__input {
-    min-height: 48px;
+    min-height: 46px;
     font-size: 13px;
   }
 
   .home-hero__cta {
     width: 100%;
     max-width: none;
+    min-height: 42px;
   }
 
   .home-categories {
